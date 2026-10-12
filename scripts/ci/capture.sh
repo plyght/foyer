@@ -33,6 +33,10 @@ defaults write app.foyer.Foyer isFirstLaunch -bool false
 defaults write app.foyer.Foyer forceSimulatedNotch -bool true
 defaults write app.foyer.Foyer automaticallyCheckForUpdates -bool false
 defaults write app.foyer.Foyer idleActivity -string calendar
+# Pretend permissions were already asked so system prompts don't cover the screen.
+for k in Accessibility Audio Bluetooth Calendar Location; do
+  defaults write app.foyer.Foyer "hasPrompted${k}Permission" -bool true
+done
 
 # Screen recording of the whole run.
 ffmpeg -loglevel error -f avfoundation -capture_cursor 1 -framerate 30 -i "Capture screen 0:none" \
@@ -67,7 +71,7 @@ done
 
 sleep 2
 pkill -x Foyer 2>/dev/null || true
-cp "$DEMO_DIR/windows.txt" "$OUT/" 2>/dev/null || true
+cp "$DEMO_DIR"/windows*.txt "$OUT/" 2>/dev/null || true
 kill -INT "$REC" 2>/dev/null || true
 wait "$REC" 2>/dev/null || true
 

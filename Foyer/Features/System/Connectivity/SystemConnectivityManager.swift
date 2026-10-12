@@ -91,7 +91,10 @@ final class SystemConnectivityManager: ObservableObject {
         case .allowedAlways:
             beginMonitoring()
         case .notDetermined:
-            requestBluetoothPermission()
+            // Ask once; onboarding asks on first launch, later launches don't nag.
+            if !Defaults[.isFirstLaunch], !Defaults[.hasPromptedBluetoothPermission] {
+                requestBluetoothPermission()
+            }
         default:
             break
         }

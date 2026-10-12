@@ -130,8 +130,9 @@ enum DemoDriver {
 
         // Lock screen widgets (without actually locking the session).
         controller.isScreenLocked = true
-        LockScreenManager.shared.presenter.show()
+        LockScreenManager.shared.presenter.show(useSpace: false)
         await step("lockscreen-widgets", settle: 1.5)
+        logWindows(name: "windows-lock.txt")
         LockScreenManager.shared.presenter.hide()
         controller.isScreenLocked = false
         await wait(1)
@@ -192,7 +193,7 @@ enum DemoDriver {
 
     /// Logs on-screen windows above the normal level, to diagnose what may
     /// cover or hide the notch on a CI runner.
-    private static func logWindows() {
+    private static func logWindows(name: String = "windows.txt") {
         let options: CGWindowListOption = [.optionOnScreenOnly]
         guard let info = CGWindowListCopyWindowInfo(options, kCGNullWindowID) as? [[String: Any]] else { return }
         var lines: [String] = []
@@ -205,7 +206,7 @@ enum DemoDriver {
             lines.append("\(owner) layer=\(layer) bounds=\(bounds) alpha=\(alpha)")
         }
         let screens = NSScreen.screens.map { "\($0.frame) scale=\($0.backingScaleFactor) notch=\($0.hasHardwareNotch)" }
-        write("windows.txt", contents: (["screens: \(screens)"] + lines).joined(separator: "\n"))
+        write(name, contents: (["screens: \(screens)"] + lines).joined(separator: "\n"))
     }
 
     private static func write(_ name: String, contents: String) {

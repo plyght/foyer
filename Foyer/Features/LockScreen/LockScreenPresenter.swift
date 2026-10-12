@@ -27,11 +27,14 @@ final class LockScreenPresenter {
 
     // MARK: Show / hide
 
-    func show() {
+    /// `useSpace: false` keeps the panels in the normal window space; the
+    /// private high-level space is only visible over the real lock screen, so
+    /// the CI demo shows the widgets without it.
+    func show(useSpace: Bool = true) {
         if !isShowing {
             isShowing = true
             buildPanels()
-            attachToSpace()
+            if useSpace { attachToSpace() }
         } else {
             // Make sure every target display has a panel (displays may have
             // changed while hidden).

@@ -26,10 +26,11 @@ class OverlayPanel: NSPanel {
         isReleasedWhenClosed = false
         animationBehavior = .none
         canBecomeVisibleWithoutLogin = visibleWithoutLogin
-        self.level = level
-        collectionBehavior = [.canJoinAllSpaces, .stationary, .ignoresCycle, .fullScreenAuxiliary]
+        // `isFloatingPanel` resets `level` to .floating, so set it first.
         isFloatingPanel = true
         hidesOnDeactivate = false
+        self.level = level
+        collectionBehavior = [.canJoinAllSpaces, .stationary, .ignoresCycle, .fullScreenAuxiliary]
         applySharingType()
     }
 
@@ -39,6 +40,12 @@ class OverlayPanel: NSPanel {
 
     override var canBecomeKey: Bool { false }
     override var canBecomeMain: Bool { false }
+
+    /// Keep the frame exactly where it is placed: AppKit would otherwise push
+    /// the panel below the menu bar.
+    override func constrainFrameRect(_ frameRect: NSRect, to screen: NSScreen?) -> NSRect {
+        frameRect
+    }
 }
 
 /// The interactive island. Mouse events pass through except over the shape
