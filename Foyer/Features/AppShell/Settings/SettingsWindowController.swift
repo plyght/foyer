@@ -2,9 +2,8 @@ import AppKit
 import Luminare
 import SwiftUI
 
-/// Owns the single Luminare settings window (620x687, non-resizable, hides
-/// when Foyer is deactivated and keeps its position for the session, like
-/// Alcove; Part D §5.2).
+/// Owns the single Luminare settings window (620x687, non-resizable, keeps
+/// its position for the session, like Alcove; Part D §5.2).
 @MainActor
 final class SettingsWindowController {
     static let shared = SettingsWindowController()
@@ -37,7 +36,10 @@ final class SettingsWindowController {
         }
         window.title = "Foyer Settings"
         window.isReleasedWhenClosed = false
-        window.hidesOnDeactivate = true
+        // A normal window: an agent app's activation isn't guaranteed, and
+        // hiding on deactivate made the window vanish on open or on any click
+        // elsewhere.
+        window.hidesOnDeactivate = false
         window.collectionBehavior.insert(.moveToActiveSpace)
         return window
     }

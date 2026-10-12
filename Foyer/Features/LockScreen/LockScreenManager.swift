@@ -67,6 +67,21 @@ final class LockScreenManager: ObservableObject {
         refreshPresentation()
     }
 
+    /// Shows the widgets without a real lock (CI demo and previews): normal
+    /// window space, same appear animation.
+    func showPreview() {
+        presenter.show(useSpace: false)
+        Task { @MainActor in
+            try? await Task.sleep(for: .seconds(LockScreenConstants.widgetAppearDelay))
+            withAnimation(LockScreenConstants.widgetFade) { LockScreenManager.shared.widgetsVisible = true }
+        }
+    }
+
+    func hidePreview() {
+        widgetsVisible = false
+        presenter.hide()
+    }
+
     func stop() {
         guard isStarted else { return }
         isStarted = false

@@ -139,16 +139,18 @@ enum DemoDriver {
 
         // Lock screen widgets (without actually locking the session).
         controller.isScreenLocked = true
-        LockScreenManager.shared.presenter.show(useSpace: false)
+        LockScreenManager.shared.showPreview()
         await step("lockscreen-widgets", settle: 1.5)
         logWindows(name: "windows-lock.txt")
-        LockScreenManager.shared.presenter.hide()
+        LockScreenManager.shared.hidePreview()
         controller.isScreenLocked = false
         await wait(1)
 
         // Settings window panes.
-        AppShellModule.openSettings()
-        await step("settings", settle: 1.5)
+        for tab in SettingsTab.allCases where tab != .fileTray {
+            SettingsWindowController.shared.show(tab: tab)
+            await step("settings-\(tab.rawValue)", settle: 0.8)
+        }
         NSApp.windows.filter { $0.isVisible && !($0 is OverlayPanel) }.forEach { $0.close() }
         await wait(0.5)
 
