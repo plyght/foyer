@@ -3,7 +3,8 @@ import AppKit
 
 /// The 13 sound events Foyer can play (same set as Alcove's bundled sounds).
 /// Files live in `Foyer/Resources/Sounds/<rawValue>.caf|.m4a` and are original
-/// to Foyer; when a file is missing a system sound is used instead.
+/// to Foyer. If Alcove.app is installed locally its sounds are used instead;
+/// when nothing is found a system sound plays.
 enum FoyerSound: String, CaseIterable {
     case altJingle = "alt-jingle"
     case blips
@@ -49,7 +50,9 @@ enum SoundPlayer {
 
     private static func player(for sound: FoyerSound) -> AVAudioPlayer? {
         if let p = players[sound] { return p }
-        let url = Bundle.main.url(forResource: sound.rawValue, withExtension: "caf")
+        // Prefer the user's installed Alcove sounds, then Foyer's own.
+        let url = AlcoveAssets.sound(named: sound.rawValue)
+            ?? Bundle.main.url(forResource: sound.rawValue, withExtension: "caf")
             ?? Bundle.main.url(forResource: sound.rawValue, withExtension: "m4a")
         guard let url, let p = try? AVAudioPlayer(contentsOf: url) else { return nil }
         p.prepareToPlay()
