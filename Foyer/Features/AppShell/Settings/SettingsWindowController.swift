@@ -93,6 +93,8 @@ struct SettingsSidebar: View {
                 }
             }
         }
+        // Start below the window's close / minimise / zoom buttons.
+        .luminareContentMargins(.top, 44)
     }
 
     private func isAvailable(_ tab: SettingsTab) -> Bool {
