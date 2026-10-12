@@ -98,7 +98,9 @@ final class HUDKeyInterceptor: ObservableObject {
     private func installTapIfPossible() {
         guard tap == nil, AXIsProcessTrusted() else { return }
         let mask = CGEventMask(1) << CGEventMask(HUDConstants.systemDefinedEventType)
-        guard let newTap = CGEvent.tapCreate(tap: .cgSessionEventTap,
+        // HID level: on macOS 26+ the system OSD fires before a session tap
+        // sees the key, so take it at the first stop.
+        guard let newTap = CGEvent.tapCreate(tap: .cghidEventTap,
                                              place: .headInsertEventTap,
                                              options: .defaultTap,
                                              eventsOfInterest: mask,
@@ -186,7 +188,7 @@ final class HUDKeyInterceptor: ObservableObject {
     }
 
     /// Applies one key-down. Returns false to pass the key through.
-    private func apply(keyCode: Int, isRepeat: Bool, flags: UInt64) -> Bool {
+    func apply(keyCode: Int, isRepeat: Bool, flags: UInt64) -> Bool {
         let K = HUDConstants.self
         if flags & K.flagCommand != 0 { return false }
         let fine = flags & K.fineModifierMask == K.fineModifierMask
@@ -233,6 +235,31 @@ final class HUDKeyInterceptor: ObservableObject {
         default:
             return false
         }
+    }
+
+    /// Performs the key's action with no HUD. Used by the key remapper when
+    /// `apply` declines a key: the remapped key never reaches macOS, so
+    /// Foyer must still change the level itself.
+    func applyWithoutHUD(keyCode: Int, flags: UInt64) {
+        let K = HUDConstants.self
+        let fine = flags & K.fineModifierMask == K.fineModifierMask
+        switch keyCode {
+        case K.keySoundUp, K.keySoundDown:
+            VolumeManager.shared.step(up: keyCode == K.keySoundUp, fine: fine)
+        case K.keyMute:
+            VolumeManager.shared.toggleMute()
+        case K.keyBrightnessUp, K.keyBrightnessDown:
+            _ = HUDBrightnessManager.shared.step(up: keyCode == K.keyBrightnessUp, fine: fine)
+        case K.keyIlluminationUp, K.keyIlluminationDown:
+            _ = HUDKeyboardBacklightManager.shared.step(up: keyCode == K.keyIlluminationUp, fine: fine)
+        default:
+            break
+        }
+    }
+
+    /// Plays the macOS volume feedback tick on release (remapper path).
+    func volumeKeyReleased(flags: UInt64) {
+        playVolumeFeedbackIfNeeded(flags: flags)
     }
 
     /// The notch is hidden while a classified game is frontmost and "Hide

@@ -2,12 +2,11 @@ import Combine
 import Defaults
 import Foundation
 
-/// Shows Foyer's Sound / Display HUD without Accessibility.
-///
-/// The event tap (which also hides the system OSD) needs Accessibility. When
-/// it isn't active, this observes the volume (CoreAudio listeners) and display
-/// brightness (DisplayServices notifications) and presents the HUD on any
-/// change; macOS still draws its own OSD in that mode.
+/// Last-resort HUD trigger: when neither the Accessibility tap nor the key
+/// remapper is active (e.g. both HUDs' keys are left to macOS), it observes
+/// the volume (CoreAudio listeners) and display brightness (DisplayServices
+/// notifications) and presents the HUD on any change, such as changes made
+/// from Control Center or other apps.
 @MainActor
 final class HUDPassiveObserver {
     static let shared = HUDPassiveObserver()
@@ -44,7 +43,7 @@ final class HUDPassiveObserver {
 
     private var shouldPresent: Bool {
         // With the tap active, key presses present the HUD themselves.
-        guard !HUDKeyInterceptor.shared.isActive else { return false }
+        guard !HUDKeyInterceptor.shared.isActive, !HUDKeyRemapper.shared.isActive else { return false }
         if Defaults[.hideWhileGaming], NotchController.shared.hideReasons.contains(.gaming) { return false }
         return true
     }

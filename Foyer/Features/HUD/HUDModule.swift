@@ -1,3 +1,4 @@
+import Combine
 import Defaults
 import SwiftUI
 
@@ -12,10 +13,27 @@ enum HUDModule {
         HUDBetterDisplayBridge.shared.start()
         HUDKeyInterceptor.shared.start()
         HUDPassiveObserver.shared.start()
+
+        // No Accessibility → remap the media keys so the system OSD never shows.
+        HUDKeyRemapper.shared.recoverIfNeeded()
+        HUDKeyRemapper.shared.update()
+        modeObservers = [
+            HUDKeyInterceptor.shared.$isActive
+                .removeDuplicates()
+                .receive(on: RunLoop.main)
+                .sink { _ in HUDKeyRemapper.shared.update() },
+        ]
+        defaultsObservation = Defaults.observe(keys: .enableVolume, .enableBrightness, options: []) {
+            Task { @MainActor in HUDKeyRemapper.shared.update() }
+        }
     }
+
+    private static var modeObservers: [AnyCancellable] = []
+    private static var defaultsObservation: Defaults.Observation?
 
     @MainActor
     static func stop() {
+        HUDKeyRemapper.shared.deactivate()
         HUDKeyInterceptor.shared.stop()
         HUDBetterDisplayBridge.shared.stop()
         HUDBrightnessManager.shared.stop()
