@@ -1,0 +1,10 @@
+.DS_Store
+Foyer.xcodeproj/
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.swiftpm/
+Foyer/App/Info.plist
+Foyer/App/Foyer.entitlements
+FoyerHelper/Info.plist
