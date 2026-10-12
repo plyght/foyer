@@ -330,7 +330,7 @@ final class NowPlayingProcessTap {
         let targets = NowPlayingCoreAudio.tapTargets(pid: pid, bundleIdentifier: bundleIdentifier)
         guard !targets.isEmpty else { throw TapError.noProcess }
 
-        let description = CATapDescription(stereoMixdownOfProcesses: targets.map { NSNumber(value: $0) })
+        let description = CATapDescription(stereoMixdownOfProcesses: targets)
         var newTap = AudioObjectID(kAudioObjectUnknown)
         let tapStatus = AudioHardwareCreateProcessTap(description, &newTap)
         guard tapStatus == noErr, newTap != AudioObjectID(kAudioObjectUnknown) else { throw TapError.tapFailed(tapStatus) }
