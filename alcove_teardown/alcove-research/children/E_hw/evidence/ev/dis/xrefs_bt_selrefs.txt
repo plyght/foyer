@@ -1,0 +1,6 @@
+fcn.10044e460 0x10044e464 [DATA:r--] ldr x1, reloc.fixup.batteryPercentLeft
+fcn.10044e480 0x10044e484 [DATA:r--] ldr x1, reloc.fixup.batteryPercentRight
+fcn.10044e4a0 0x10044e4a4 [DATA:r--] ldr x1, reloc.fixup.batteryPercentSingle
+fcn.100450700 0x100450704 [DATA:r--] ldr x1, reloc.fixup.pairedDevices
+fcn.10044efa0 0x10044efa4 [DATA:r--] ldr x1, reloc.fixup.deviceClassMajor
+fcn.10044e100 0x10044e104 [DATA:r--] ldr x1, reloc.fixup.addressString

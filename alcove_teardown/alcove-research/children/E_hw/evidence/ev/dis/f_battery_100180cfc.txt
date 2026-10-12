@@ -1,0 +1,463 @@
+            ; CALL XREF from sym.func.100180990 @ 0x100180b88(x)
+/ 1784: sym.func.100180cfc (int64_t arg1);
+| `- args(x21, x0) vars(32:sp[0x8..0x110])
+|           0x100180cfc      e923b96d       stp d9, d8, [var_sp_70h]!
+|           0x100180d00      fc6f01a9       stp x28, x27, [var_10h]
+|           0x100180d04      fa6702a9       stp x26, x25, [var_20h]
+|           0x100180d08      f85f03a9       stp x24, x23, [var_30h]
+|           0x100180d0c      f65704a9       stp x22, x21, [var_40h]
+|           0x100180d10      f44f05a9       stp x20, x19, [var_50h]
+|           0x100180d14      fd7b06a9       stp x29, x30, [var_60h]
+|           0x100180d18      fd830191       add x29, sp, 0x60
+|           0x100180d1c      ff8302d1       sub sp, sp, 0xa0
+|           0x100180d20      fb0300aa       mov x27, x0                ; arg1
+|           0x100180d24      f60308aa       mov x22, x8
+|           0x100180d28      80220090       adrp x0, 0x1005d0000
+|           0x100180d2c      00603291       add x0, x0, 0xc98          ; int64_t arg1
+|           0x100180d30      011700f0       adrp x1, 0x100463000
+|           0x100180d34      21001d91       add x1, x1, 0x740          ; int64_t arg2
+|           0x100180d38      7907fa97       bl sym.func.100002b1c
+|           0x100180d3c      f90300aa       mov x25, x0
+|           0x100180d40      08805ff8       ldur x8, [x0, -8]
+|           0x100180d44      082140f9       ldr x8, [x8, 0x40]
+|           0x100180d48      e90308aa       mov x9, x8
+|           0x100180d4c      902100d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100180d50      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x100180d54      00023fd6       blr x16
+|           0x100180d58      e9030091       mov x9, sp
+|           0x100180d5c      0a3d0091       add x10, x8, 0xf
+|           0x100180d60      4ced7c92       and x12, x10, 0xfffffffffffffff0
+|           0x100180d64      29010ccb       sub x9, x9, x12
+|           0x100180d68      a98317f8       stur x9, [var_clob_ffffffffffffff78h]
+|           0x100180d6c      3f010091       mov sp, x9
+|           0x100180d70      e90308aa       mov x9, x8
+|           0x100180d74      902100d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100180d78      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x100180d7c      00023fd6       blr x16
+|           0x100180d80      e8030091       mov x8, sp
+|           0x100180d84      08010ccb       sub x8, x8, x12
+|           0x100180d88      a88316f8       stur x8, [var_clob_ffffffffffffff68h]
+|           0x100180d8c      1f010091       mov sp, x8
+|           0x100180d90      402200d0       adrp x0, 0x1005ca000
+|           0x100180d94      00001491       add x0, x0, 0x500          ; int64_t arg1
+|           0x100180d98      a11600b0       adrp x1, str.NCFRunLoopSourceRef ; 0x100455000
+|           0x100180d9c      21802891       add x1, x1, 0xa20          ; int64_t arg2
+|           0x100180da0      5f07fa97       bl sym.func.100002b1c
+|           0x100180da4      08805ff8       ldur x8, [x0, -8]
+|           0x100180da8      092140f9       ldr x9, [x8, 0x40]
+|           0x100180dac      283d0091       add x8, x9, 0xf
+|           0x100180db0      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x100180db4      902100d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100180db8      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x100180dbc      00023fd6       blr x16
+|           0x100180dc0      e9030091       mov x9, sp
+|           0x100180dc4      3c0108cb       sub x28, x9, x8
+|           0x100180dc8      9f030091       mov sp, x28
+|           0x100180dcc      000080d2       mov x0, 0                  ; int64_t arg1
+|           0x100180dd0      1a150094       bl sym.func.100186238
+|           0x100180dd4      181880b9       ldrsw x24, [x0, 0x18]
+|           0x100180dd8      80220090       adrp x0, 0x1005d0000
+|           0x100180ddc      00401f91       add x0, x0, 0x7d0          ; int64_t arg1
+|           0x100180de0      611700d0       adrp x1, 0x10046e000
+|           0x100180de4      21c00391       add x1, x1, 0xf0           ; int64_t arg2
+|           0x100180de8      4d07fa97       bl sym.func.100002b1c
+|           0x100180dec      f50300aa       mov x21, x0                ; error
+|           0x100180df0      a80302d1       sub x8, x29, 0x80
+|           0x100180df4      7403188b       add x20, x27, x24
+|           0x100180df8      682a0b94       bl sym.imp.SwiftUI.Bindable.wrappedValue_...g_ ; SwiftUI.Bindable.wrappedValue(...g)
+|           0x100180dfc      b70358f8       ldur x23, [var_80h]
+|           0x100180e00      001700f0       adrp x0, 0x100463000
+|           0x100180e04      00400b91       add x0, x0, 0x2d0
+|           0x100180e08      da320b94       bl sym.imp.swift_getKeyPath
+|           0x100180e0c      fa0300aa       mov x26, x0
+|           0x100180e10      682200f0       adrp x8, 0x1005cf000
+|           0x100180e14      137141f9       ldr x19, [x8, 0x2e0]       ; [0x1005cf2e0:8]=0
+|                                                                      ; field.class.Alcove.BatteryManager.var.__observationRegistrar
+|           0x100180e18      b70318f8       stur x23, [var_80h]
+|           0x100180e1c      602200f0       adrp x0, 0x1005cf000
+|           0x100180e20      00e01091       add x0, x0, 0x438          ; int64_t arg1
+|           0x100180e24      81fdffb0       adrp x1, 0x100131000
+|           0x100180e28      21b01691       add x1, x1, 0x5ac          ; int64_t arg2
+|           0x100180e2c      e21600f0       adrp x2, 0x10045f000
+|           0x100180e30      42001991       add x2, x2, 0x640
+|           0x100180e34      b220fa97       bl sym.func.1000090fc
+|           0x100180e38      e20300aa       mov x2, x0
+|           0x100180e3c      a00302d1       sub x0, x29, 0x80
+|           0x100180e40      f402138b       add x20, x23, x19
+|           0x100180e44      e1031aaa       mov x1, x26
+|           0x100180e48      a20316f8       stur x2, [var_clob_ffffffffffffff60h]
+|           0x100180e4c      17240b94       bl sym.imp.Observation.Registrar.access.keyPath.Key...E0Cyxq_GtAA10ObservableRzr0_lF
+|           0x100180e50      e0031aaa       mov x0, x26                ; void *arg0
+|           0x100180e54      1b330b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x100180e58      f47a40f9       ldr x20, [x23, 0xf0]
+|           0x100180e5c      f3e24339       ldrb w19, [x23, 0xf8]
+|           0x100180e60      e00317aa       mov x0, x23                ; void *arg0
+|           0x100180e64      17330b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x100180e68      7f060071       cmp w19, 1
+|       ,=< 0x100180e6c      61000054       b.ne 0x100180e78
+|       |   0x100180e70      34008052       mov w20, 1
+|      ,==< 0x100180e74      45010014       b 0x100181388
+|      ||   ; CODE XREF from sym.func.100180cfc @ 0x100180e6c(x)
+|      |`-> 0x100180e78      e00314aa       mov x0, x20                ; int32_t arg1
+|      |    0x100180e7c      37280494       bl sym.func.10028af58
+|      |    0x100180e80      a18331a9       stp x1, x0, [var_e8h]
+|      |    0x100180e84      a80302d1       sub x8, x29, 0x80
+|      |    0x100180e88      7403188b       add x20, x27, x24
+|      |    0x100180e8c      b50317f8       stur x21, [var_clob_ffffffffffffff70h]
+|      |    0x100180e90      e00315aa       mov x0, x21
+|      |    0x100180e94      412a0b94       bl sym.imp.SwiftUI.Bindable.wrappedValue_...g_ ; SwiftUI.Bindable.wrappedValue(...g)
+|      |    0x100180e98      b70358f8       ldur x23, [var_80h]
+|      |    0x100180e9c      f40a40f9       ldr x20, [x23, 0x10]
+|      |    0x100180ea0      f30318aa       mov x19, x24
+|      |,=< 0x100180ea4      540200b4       cbz x20, 0x100180eec
+|      ||   0x100180ea8      e00314aa       mov x0, x20
+|      ||   0x100180eac      0b330b94       bl sym.imp.swift_retain
+|      ||   0x100180eb0      3544ff97       bl sym.func.100151f84
+|      ||   0x100180eb4      fa0300aa       mov x26, x0
+|      ||   0x100180eb8      e00314aa       mov x0, x20                ; void *arg0
+|      ||   0x100180ebc      01330b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|      ||   0x100180ec0      e00317aa       mov x0, x23                ; void *arg0
+|      ||   0x100180ec4      ff320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|      ||   0x100180ec8      b80357f8       ldur x24, [var_clob_ffffffffffffff70h]
+|     ,===< 0x100180ecc      7a010036       tbz w26, 0, 0x100180ef8
+|     |||   0x100180ed0      940d80d2       mov x20, 0x6c              ; 'l'
+|     |||   0x100180ed4      1420fdf2       movk x20, 0xe900, lsl 48
+|     |||   0x100180ed8      57ec8dd2       mov x23, 0x6f62            ; 'bo'
+|     |||   0x100180edc      978daef2       movk x23, 0x746c, lsl 16   ; 'lt'
+|     |||   0x100180ee0      d7c5ccf2       movk x23, 0x662e, lsl 32   ; '.f'
+|     |||   0x100180ee4      378dedf2       movk x23, 0x6c69, lsl 48   ; 'il'
+|    ,====< 0x100180ee8      0d000014       b 0x100180f1c
+|    ||||   ; CODE XREF from sym.func.100180cfc @ 0x100180ea4(x)
+|    |||`-> 0x100180eec      e00317aa       mov x0, x23                ; void *arg0
+|    |||    0x100180ef0      f4320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|    |||    0x100180ef4      b80357f8       ldur x24, [var_clob_ffffffffffffff70h]
+|    |||    ; CODE XREF from sym.func.100180cfc @ 0x100180ecc(x)
+|    |`---> 0x100180ef8      a82200b0       adrp x8, 0x1005d5000
+|    | |    0x100180efc      084143f9       ldr x8, [x8, 0x680]
+|    | |    0x100180f00      1f0500b1       cmn x8, 1
+|    | |,=< 0x100180f04      c1260054       b.ne 0x1001813dc
+|    | ||   ; CODE XREF from sym.func.100180cfc @ 0x1001813f0(x)
+|    |.---> 0x100180f08      a82200b0       adrp x8, 0x1005d5000
+|    |:||   0x100180f0c      08611991       add x8, x8, 0x658
+|    |:||   0x100180f10      175140a9       ldp x23, x20, [x8]
+|    |:||   0x100180f14      e00314aa       mov x0, x20                ; void *arg0
+|    |:||   0x100180f18      36320b94       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+|    |:||   ; CODE XREF from sym.func.100180cfc @ 0x100180ee8(x)
+|    `----> 0x100180f1c      e00317aa       mov x0, x23
+|     :||   0x100180f20      e10314aa       mov x1, x20
+|     :||   0x100180f24      5d290b94       bl sym.imp.SwiftUI.Image.systemName_...cfC_ ; SwiftUI.Image.systemName(...cfC)
+|     :||   0x100180f28      a08313f8       stur x0, [var_clob_ffffffffffffff38h]
+|     :||   0x100180f2c      a80302d1       sub x8, x29, 0x80
+|     :||   0x100180f30      7403138b       add x20, x27, x19
+|     :||   0x100180f34      e00318aa       mov x0, x24
+|     :||   0x100180f38      182a0b94       bl sym.imp.SwiftUI.Bindable.wrappedValue_...g_ ; SwiftUI.Bindable.wrappedValue(...g)
+|     :||   0x100180f3c      b70358f8       ldur x23, [var_80h]
+|     :||   0x100180f40      f40a40f9       ldr x20, [x23, 0x10]
+|     :||   0x100180f44      b90315f8       stur x25, [var_b0h]
+|    ,====< 0x100180f48      940100b4       cbz x20, 0x100180f78
+|    |:||   0x100180f4c      e00314aa       mov x0, x20
+|    |:||   0x100180f50      e2320b94       bl sym.imp.swift_retain
+|    |:||   0x100180f54      0c44ff97       bl sym.func.100151f84
+|    |:||   0x100180f58      fa0300aa       mov x26, x0
+|    |:||   0x100180f5c      e00314aa       mov x0, x20                ; void *arg0
+|    |:||   0x100180f60      d8320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|    |:||   0x100180f64      e00317aa       mov x0, x23                ; void *arg0
+|    |:||   0x100180f68      d6320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|    |:||   0x100180f6c      08d0651e       fmov d8, 15.00000000
+|   ,=====< 0x100180f70      9a000036       tbz w26, 0, 0x100180f80
+|  ,======< 0x100180f74      04000014       b 0x100180f84
+|  |||:||   ; CODE XREF from sym.func.100180cfc @ 0x100180f48(x)
+|  ||`----> 0x100180f78      e00317aa       mov x0, x23                ; void *arg0
+|  || :||   0x100180f7c      d1320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|  || :||   ; CODE XREF from sym.func.100180cfc @ 0x100180f70(x)
+|  |`-----> 0x100180f80      0810661e       fmov d8, 16.00000000
+|  |  :||   ; CODE XREF from sym.func.100180cfc @ 0x100180f74(x)
+|  `------> 0x100180f84      ec270b94       bl sym.imp.SwiftUI.Font.Weight.semibold_...vgZ_ ; SwiftUI.Font.Weight.semibold(...vgZ)
+|     :||   0x100180f88      1400669e       fmov x20, d0
+|     :||   0x100180f8c      000080d2       mov x0, 0
+|     :||   0x100180f90      cb270b94       bl sym.imp.SwiftUI.Font.Design_...a_ ; SwiftUI.Font.Design(...a)
+|     :||   0x100180f94      f70300aa       mov x23, x0
+|     :||   0x100180f98      08805ff8       ldur x8, [x0, -8]
+|     :||   0x100180f9c      191d40f9       ldr x25, [x8, 0x38]
+|     :||   0x100180fa0      e0031caa       mov x0, x28
+|     :||   0x100180fa4      21008052       mov w1, 1
+|     :||   0x100180fa8      22008052       mov w2, 1
+|     :||   0x100180fac      e30317aa       mov x3, x23
+|     :||   0x100180fb0      20033fd6       blr x25
+|     :||   0x100180fb4      001da84e       mov v0.16b, v8.16b
+|     :||   0x100180fb8      e00314aa       mov x0, x20
+|     :||   0x100180fbc      01008052       mov w1, 0
+|     :||   0x100180fc0      e2031caa       mov x2, x28
+|     :||   0x100180fc4      df270b94       bl sym.imp.SwiftUI.Font.system.size.weight.design.CoreGraphics.CGFloat.Weight.Design_...gtFZ_ ; SwiftUI.Font.system.size.weight.design.CoreGraphics.CGFloat.Weight.Design(...gtFZ)
+|     :||   0x100180fc8      a00313f8       stur x0, [var_clob_ffffffffffffff30h]
+|     :||   0x100180fcc      412200d0       adrp x1, 0x1005ca000
+|     :||   0x100180fd0      21001491       add x1, x1, 0x500          ; int64_t arg2
+|     :||   0x100180fd4      a21600b0       adrp x2, str.NCFRunLoopSourceRef ; 0x100455000
+|     :||   0x100180fd8      42802891       add x2, x2, 0xa20          ; int64_t arg3
+|     :||   0x100180fdc      e0031caa       mov x0, x28                ; int64_t arg1
+|     :||   0x100180fe0      aa26fa97       bl sym.func.10000aa88
+|     :||   0x100180fe4      001700f0       adrp x0, 0x100463000
+|     :||   0x100180fe8      00201d91       add x0, x0, 0x748
+|     :||   0x100180fec      61320b94       bl sym.imp.swift_getKeyPath
+|     :||   0x100180ff0      a08312f8       stur x0, [var_clob_ffffffffffffff28h]
+|     :||   0x100180ff4      a80302d1       sub x8, x29, 0x80
+|     :||   0x100180ff8      7403138b       add x20, x27, x19
+|     :||   0x100180ffc      e00318aa       mov x0, x24
+|     :||   0x100181000      e6290b94       bl sym.imp.SwiftUI.Bindable.wrappedValue_...g_ ; SwiftUI.Bindable.wrappedValue(...g)
+|     :||   0x100181004      ba0358f8       ldur x26, [var_80h]
+|     :||   0x100181008      540b40f9       ldr x20, [x26, 0x10]
+|     :||   0x10018100c      b68315f8       stur x22, [var_a8h]
+|     :||   0x100181010      b36f34a9       stp x19, x27, [var_c0h]
+|    ,====< 0x100181014      540100b4       cbz x20, 0x10018103c
+|    |:||   0x100181018      e00314aa       mov x0, x20
+|    |:||   0x10018101c      af320b94       bl sym.imp.swift_retain
+|    |:||   0x100181020      d943ff97       bl sym.func.100151f84
+|    |:||   0x100181024      a04311b8       stur w0, [var_clob_ffffffffffffff14h]
+|    |:||   0x100181028      e00314aa       mov x0, x20                ; void *arg0
+|    |:||   0x10018102c      a5320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|    |:||   0x100181030      e0031aaa       mov x0, x26                ; void *arg0
+|    |:||   0x100181034      a3320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|   ,=====< 0x100181038      04000014       b 0x100181048
+|   ||:||   ; CODE XREF from sym.func.100180cfc @ 0x100181014(x)
+|   |`----> 0x10018103c      e0031aaa       mov x0, x26                ; void *arg0
+|   | :||   0x100181040      a0320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|   | :||   0x100181044      bf4311b8       stur wzr, [var_clob_ffffffffffffff14h]
+|   | :||   ; CODE XREF from sym.func.100180cfc @ 0x100181038(x)
+|   `-----> 0x100181048      cd240b94       bl sym.imp.SwiftUI.AnyTransition.scale_...vgZ_ ; SwiftUI.AnyTransition.scale(...vgZ)
+|     :||   0x10018104c      f40300aa       mov x20, x0
+|     :||   0x100181050      0802e8d2       mov x8, 0x4010000000000000
+|     :||   0x100181054      a80318f8       stur x8, [var_80h]
+|     :||   0x100181058      bf0319f8       stur xzr, [var_clob_ffffffffffffff90h]
+|     :||   0x10018105c      1a6bfa97       bl sym.func.10001bcc4
+|     :||   0x100181060      e30300aa       mov x3, x0
+|     :||   0x100181064      822000d0       adrp x2, 0x100593000
+|     :||   0x100181068      42e00d91       add x2, x2, 0x378
+|     :||   0x10018106c      a00302d1       sub x0, x29, 0x80
+|     :||   0x100181070      a1c301d1       sub x1, x29, 0x70
+|     :||   0x100181074      d1240b94       bl sym.imp.SwiftUI.AnyTransition.modifier.active.identity.ViewModifier_...lFZ_ ; SwiftUI.AnyTransition.modifier.active.identity.ViewModifier(...lFZ)
+|     :||   0x100181078      f60300aa       mov x22, x0
+|     :||   0x10018107c      e10314aa       mov x1, x20
+|     :||   0x100181080      c8240b94       bl sym.imp.SwiftUI.AnyTransition.combined.with.C_
+|     :||   0x100181084      a08310f8       stur x0, [var_clob_ffffffffffffff08h]
+|     :||   0x100181088      e00314aa       mov x0, x20                ; void *arg0
+|     :||   0x10018108c      8d320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|     :||   0x100181090      e00316aa       mov x0, x22                ; void *arg0
+|     :||   0x100181094      8b320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|     :||   0x100181098      a8a771a9       ldp x8, x9, [var_e8h]
+|     :||   0x10018109c      a92338a9       stp x9, x8, [var_80h]
+|     :||   0x1001810a0      800dfa97       bl sym.func.1000046a0
+|     :||   0x1001810a4      e20300aa       mov x2, x0
+|     :||   0x1001810a8      a1210090       adrp x1, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|     :||   0x1001810ac      212443f9       ldr x1, [x1, 0x648]        ; [0x1005b5648:8]=0x80100000000008af ; reloc....SSN
+|     :||   0x1001810b0      a00302d1       sub x0, x29, 0x80
+|     :||   0x1001810b4      ee270b94       bl sym.imp.SwiftUI.Text...VyACxcSyRzlufC
+|     :||   0x1001810b8      f40300aa       mov x20, x0
+|     :||   0x1001810bc      f60301aa       mov x22, x1
+|     :||   0x1001810c0      fb0302aa       mov x27, x2
+|     :||   0x1001810c4      f30303aa       mov x19, x3
+|     :||   0x1001810c8      9b270b94       bl sym.imp.SwiftUI.Font.Weight.semibold_...vgZ_ ; SwiftUI.Font.Weight.semibold(...vgZ)
+|     :||   0x1001810cc      1800669e       fmov x24, d0
+|     :||   0x1001810d0      e0031caa       mov x0, x28
+|     :||   0x1001810d4      21008052       mov w1, 1
+|     :||   0x1001810d8      22008052       mov w2, 1
+|     :||   0x1001810dc      e30317aa       mov x3, x23
+|     :||   0x1001810e0      20033fd6       blr x25
+|     :||   0x1001810e4      0800d0d2       mov x8, 0x800000000000
+|     :||   0x1001810e8      0806e8f2       movk x8, 0x4030, lsl 48    ; '0@'
+|     :||   0x1001810ec      0001679e       fmov d0, x8
+|     :||   0x1001810f0      e00318aa       mov x0, x24
+|     :||   0x1001810f4      01008052       mov w1, 0
+|     :||   0x1001810f8      e2031caa       mov x2, x28
+|     :||   0x1001810fc      91270b94       bl sym.imp.SwiftUI.Font.system.size.weight.design.CoreGraphics.CGFloat.Weight.Design_...gtFZ_ ; SwiftUI.Font.system.size.weight.design.CoreGraphics.CGFloat.Weight.Design(...gtFZ)
+|     :||   0x100181100      f70300aa       mov x23, x0
+|     :||   0x100181104      412200b0       adrp x1, 0x1005ca000
+|     :||   0x100181108      21001491       add x1, x1, 0x500          ; int64_t arg2
+|     :||   0x10018110c      a2160090       adrp x2, str.NCFRunLoopSourceRef ; 0x100455000
+|     :||   0x100181110      42802891       add x2, x2, 0xa20          ; int64_t arg3
+|     :||   0x100181114      e0031caa       mov x0, x28                ; int64_t arg1
+|     :||   0x100181118      5c26fa97       bl sym.func.10000aa88
+|     :||   0x10018111c      e00317aa       mov x0, x23
+|     :||   0x100181120      e10314aa       mov x1, x20
+|     :||   0x100181124      e20316aa       mov x2, x22
+|     :||   0x100181128      e3031baa       mov x3, x27
+|     :||   0x10018112c      e40313aa       mov x4, x19
+|     :||   0x100181130      ba270b94       bl sym.imp.SwiftUI.Text.font.Font...VSgF
+|     :||   0x100181134      f80300aa       mov x24, x0
+|     :||   0x100181138      fc0301aa       mov x28, x1
+|     :||   0x10018113c      fa0302aa       mov x26, x2
+|     :||   0x100181140      f90303aa       mov x25, x3
+|     :||   0x100181144      e00317aa       mov x0, x23                ; void *arg0
+|     :||   0x100181148      5e320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|     :||   0x10018114c      e00314aa       mov x0, x20                ; void *arg1
+|     :||   0x100181150      e10316aa       mov x1, x22                ; int64_t arg2
+|     :||   0x100181154      e2031baa       mov x2, x27                ; int64_t arg3
+|     :||   0x100181158      0626fa97       bl sym.func.10000a970
+|     :||   0x10018115c      e00313aa       mov x0, x19                ; void *arg0
+|     :||   0x100181160      9e310b94       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+|     :||   0x100181164      e00318aa       mov x0, x24
+|     :||   0x100181168      e1031caa       mov x1, x28
+|     :||   0x10018116c      e2031aaa       mov x2, x26
+|     :||   0x100181170      e30319aa       mov x3, x25
+|     :||   0x100181174      a0270b94       bl sym.imp.SwiftUI.Text.monospacedDigit_...yF_ ; SwiftUI.Text.monospacedDigit(...yF)
+|     :||   0x100181178      f30300aa       mov x19, x0
+|     :||   0x10018117c      f40301aa       mov x20, x1
+|     :||   0x100181180      f60302aa       mov x22, x2
+|     :||   0x100181184      f70303aa       mov x23, x3
+|     :||   0x100181188      e00318aa       mov x0, x24                ; void *arg1
+|     :||   0x10018118c      e1031caa       mov x1, x28                ; int64_t arg2
+|     :||   0x100181190      e2031aaa       mov x2, x26                ; int64_t arg3
+|     :||   0x100181194      f725fa97       bl sym.func.10000a970
+|     :||   0x100181198      e00319aa       mov x0, x25                ; void *arg0
+|     :||   0x10018119c      8f310b94       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+|     :||   0x1001811a0      202200f0       adrp x0, 0x1005c8000
+|     :||   0x1001811a4      00a02d91       add x0, x0, 0xb68          ; int64_t arg1
+|     :||   0x1001811a8      c11600f0       adrp x1, 0x10045c000
+|     :||   0x1001811ac      21401591       add x1, x1, 0x550          ; int64_t arg2
+|     :||   0x1001811b0      5b06fa97       bl sym.func.100002b1c
+|     :||   0x1001811b4      082480b9       ldrsw x8, [x0, 0x24]
+|     :||   0x1001811b8      b58356f8       ldur x21, [var_clob_ffffffffffffff68h]
+|     :||   0x1001811bc      b802088b       add x24, x21, x8
+|     :||   0x1001811c0      202200f0       adrp x0, 0x1005c8000
+|     :||   0x1001811c4      00c02d91       add x0, x0, 0xb70          ; int64_t arg1
+|     :||   0x1001811c8      a11600b0       adrp x1, 0x100456000
+|     :||   0x1001811cc      21403091       add x1, x1, 0xc10          ; int64_t arg2
+|     :||   0x1001811d0      5306fa97       bl sym.func.100002b1c
+|     :||   0x1001811d4      081c80b9       ldrsw x8, [x0, 0x1c]
+|     :||   0x1001811d8      0803088b       add x8, x24, x8
+|     :||   0x1001811dc      00008052       mov w0, 0
+|     :||   0x1001811e0      57250b94       bl sym.imp.SwiftUI.ContentTransition.numericText.countsDown_...FZ_ ; SwiftUI.ContentTransition.numericText.countsDown(...FZ)
+|     :||   0x1001811e4      001700d0       adrp x0, 0x100463000
+|     :||   0x1001811e8      00e01d91       add x0, x0, 0x778
+|     :||   0x1001811ec      e1310b94       bl sym.imp.swift_getKeyPath
+|     :||   0x1001811f0      000300f9       str x0, [x24]
+|     :||   0x1001811f4      b35200a9       stp x19, x20, [x21]
+|     :||   0x1001811f8      b6420039       strb w22, [x21, 0x10]
+|     :||   0x1001811fc      b70e00f9       str x23, [x21, 0x18]
+|     :||   0x100181200      00106c1e       fmov d0, 0.50000000
+|     :||   0x100181204      01106e1e       fmov d1, 1.00000000
+|     :||   0x100181208      02e4006f       movi v2.2d, 0000000000000000
+|     :||   0x10018120c      9f290b94       bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+|     :||   0x100181210      f30300aa       mov x19, x0
+|     :||   0x100181214      a80302d1       sub x8, x29, 0x80
+|     :||   0x100181218      aa2774a9       ldp x10, x9, [var_c0h]
+|     :||   0x10018121c      34010a8b       add x20, x9, x10
+|     :||   0x100181220      a00357f8       ldur x0, [var_clob_ffffffffffffff70h]
+|     :||   0x100181224      5d290b94       bl sym.imp.SwiftUI.Bindable.wrappedValue_...g_ ; SwiftUI.Bindable.wrappedValue(...g)
+|     :||   0x100181228      b60358f8       ldur x22, [var_80h]
+|     :||   0x10018122c      001700d0       adrp x0, 0x100463000
+|     :||   0x100181230      00400b91       add x0, x0, 0x2d0
+|     :||   0x100181234      cf310b94       bl sym.imp.swift_getKeyPath
+|     :||   0x100181238      f70300aa       mov x23, x0
+|     :||   0x10018123c      682200d0       adrp x8, 0x1005cf000
+|     :||   0x100181240      087141f9       ldr x8, [x8, 0x2e0]        ; [0x1005cf2e0:8]=0
+|     :||                                                              ; field.class.Alcove.BatteryManager.var.__observationRegistrar
+|     :||   0x100181244      b60318f8       stur x22, [var_80h]
+|     :||   0x100181248      a00302d1       sub x0, x29, 0x80
+|     :||   0x10018124c      d402088b       add x20, x22, x8
+|     :||   0x100181250      e10317aa       mov x1, x23
+|     :||   0x100181254      a20356f8       ldur x2, [var_clob_ffffffffffffff60h]
+|     :||   0x100181258      14230b94       bl sym.imp.Observation.Registrar.access.keyPath.Key...E0Cyxq_GtAA10ObservableRzr0_lF
+|     :||   0x10018125c      e00317aa       mov x0, x23                ; void *arg0
+|     :||   0x100181260      18320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|     :||   0x100181264      d47a40f9       ldr x20, [x22, 0xf0]
+|     :||   0x100181268      d7e24339       ldrb w23, [x22, 0xf8]
+|     :||   0x10018126c      e00316aa       mov x0, x22                ; void *arg0
+|     :||   0x100181270      14320b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|     :||   0x100181274      a80355f8       ldur x8, [var_b0h]
+|     :||   0x100181278      082580b9       ldrsw x8, [x8, 0x24]
+|     :||   0x10018127c      a802088b       add x8, x21, x8
+|     :||   0x100181280      135100a9       stp x19, x20, [x8]
+|     :||   0x100181284      17410039       strb w23, [x8, 0x10]
+|     :||   0x100181288      a84351b8       ldur w8, [var_clob_ffffffffffffff14h]
+|     :||   0x10018128c      13010012       and w19, w8, 1
+|     :||   0x100181290      742200f0       adrp x20, 0x1005d0000
+|     :||   0x100181294      94623291       add x20, x20, 0xc98
+|     :||   0x100181298      171700d0       adrp x23, 0x100463000
+|     :||   0x10018129c      f7021d91       add x23, x23, 0x740
+|     :||   0x1001812a0      e00315aa       mov x0, x21                ; int64_t arg1
+|     :||   0x1001812a4      b88357f8       ldur x24, [var_clob_ffffffffffffff78h]
+|     :||   0x1001812a8      e10318aa       mov x1, x24                ; int64_t arg2
+|     :||   0x1001812ac      e20314aa       mov x2, x20                ; int64_t arg3
+|     :||   0x1001812b0      e30317aa       mov x3, x23
+|     :||   0x1001812b4      0526fa97       bl sym.func.10000aac8
+|     :||   0x1001812b8      b68355f8       ldur x22, [var_a8h]
+|     :||   0x1001812bc      ba6773a9       ldp x26, x25, [var_clob_ffffffffffffff38h]
+|     :||   0x1001812c0      bb8352f8       ldur x27, [var_clob_ffffffffffffff28h]
+|     :||   0x1001812c4      d96e00a9       stp x25, x27, [x22]
+|     :||   0x1001812c8      da0a00f9       str x26, [x22, 0x10]
+|     :||   0x1001812cc      d3620039       strb w19, [x22, 0x18]
+|     :||   0x1001812d0      b38350f8       ldur x19, [var_clob_ffffffffffffff08h]
+|     :||   0x1001812d4      d31200f9       str x19, [x22, 0x20]
+|     :||   0x1001812d8      602200f0       adrp x0, 0x1005d0000
+|     :||   0x1001812dc      00803291       add x0, x0, 0xca0          ; int64_t arg1
+|     :||   0x1001812e0      011700d0       adrp x1, 0x100463000
+|     :||   0x1001812e4      21a01e91       add x1, x1, 0x7a8          ; int64_t arg2
+|     :||   0x1001812e8      0d06fa97       bl sym.func.100002b1c
+|     :||   0x1001812ec      083080b9       ldrsw x8, [x0, 0x30]
+|     :||   0x1001812f0      c102088b       add x1, x22, x8            ; int64_t arg2
+|     :||   0x1001812f4      e00318aa       mov x0, x24                ; int64_t arg1
+|     :||   0x1001812f8      e20314aa       mov x2, x20                ; int64_t arg3
+|     :||   0x1001812fc      e30317aa       mov x3, x23
+|     :||   0x100181300      f225fa97       bl sym.func.10000aac8
+|     :||   0x100181304      e00319aa       mov x0, x25
+|     :||   0x100181308      41008052       mov w1, 2
+|     :||   0x10018130c      f6310b94       bl sym.imp.swift_retain_n
+|     :||   0x100181310      e0031baa       mov x0, x27
+|     :||   0x100181314      41008052       mov w1, 2
+|     :||   0x100181318      f3310b94       bl sym.imp.swift_retain_n
+|     :||   0x10018131c      e0031aaa       mov x0, x26
+|     :||   0x100181320      41008052       mov w1, 2
+|     :||   0x100181324      f0310b94       bl sym.imp.swift_retain_n
+|     :||   0x100181328      e00313aa       mov x0, x19
+|     :||   0x10018132c      41008052       mov w1, 2
+|     :||   0x100181330      ed310b94       bl sym.imp.swift_retain_n
+|     :||   0x100181334      e00318aa       mov x0, x24                ; int64_t arg1
+|     :||   0x100181338      e10314aa       mov x1, x20                ; int64_t arg2
+|     :||   0x10018133c      e20317aa       mov x2, x23                ; int64_t arg3
+|     :||   0x100181340      d225fa97       bl sym.func.10000aa88
+|     :||   0x100181344      e00313aa       mov x0, x19
+|     :||   0x100181348      41008052       mov w1, 2
+|     :||   0x10018134c      e0310b94       bl sym.imp.swift_release_n
+|     :||   0x100181350      e0031aaa       mov x0, x26
+|     :||   0x100181354      41008052       mov w1, 2
+|     :||   0x100181358      dd310b94       bl sym.imp.swift_release_n
+|     :||   0x10018135c      e0031baa       mov x0, x27
+|     :||   0x100181360      41008052       mov w1, 2
+|     :||   0x100181364      da310b94       bl sym.imp.swift_release_n
+|     :||   0x100181368      e00319aa       mov x0, x25
+|     :||   0x10018136c      41008052       mov w1, 2
+|     :||   0x100181370      d7310b94       bl sym.imp.swift_release_n
+|     :||   0x100181374      e00315aa       mov x0, x21                ; int64_t arg1
+|     :||   0x100181378      e10314aa       mov x1, x20                ; int64_t arg2
+|     :||   0x10018137c      e20317aa       mov x2, x23                ; int64_t arg3
+|     :||   0x100181380      c225fa97       bl sym.func.10000aa88
+|     :||   0x100181384      14008052       mov w20, 0
+|     :||   ; CODE XREF from sym.func.100180cfc @ 0x100180e74(x)
+|     :`--> 0x100181388      602200f0       adrp x0, 0x1005d0000
+|     : |   0x10018138c      00a03291       add x0, x0, 0xca8          ; int64_t arg1
+|     : |   0x100181390      011700d0       adrp x1, 0x100463000
+|     : |   0x100181394      21c01e91       add x1, x1, 0x7b0          ; int64_t arg2
+|     : |   0x100181398      e105fa97       bl sym.func.100002b1c
+|     : |   0x10018139c      e30300aa       mov x3, x0
+|     : |   0x1001813a0      08805ff8       ldur x8, [x0, -8]
+|     : |   0x1001813a4      081d40f9       ldr x8, [x8, 0x38]
+|     : |   0x1001813a8      e00316aa       mov x0, x22
+|     : |   0x1001813ac      e10314aa       mov x1, x20
+|     : |   0x1001813b0      22008052       mov w2, 1
+|     : |   0x1001813b4      00013fd6       blr x8
+|     : |   0x1001813b8      bf8301d1       sub sp, x29, 0x60
+|     : |   0x1001813bc      fd7b46a9       ldp x29, x30, [var_60h]
+|     : |   0x1001813c0      f44f45a9       ldp x20, x19, [var_50h]
+|     : |   0x1001813c4      f65744a9       ldp x22, x21, [var_40h]
+|     : |   0x1001813c8      f85f43a9       ldp x24, x23, [var_30h]
+|     : |   0x1001813cc      fa6742a9       ldp x26, x25, [var_20h]
+|     : |   0x1001813d0      fc6f41a9       ldp x28, x27, [var_10h]
+|     : |   0x1001813d4      e923c76c       ldp d9, d8, [sp], 0x70
+|     : |   0x1001813d8      c0035fd6       ret
+|     : |   ; CODE XREF from sym.func.100180cfc @ 0x100180f04(x)
+|     : `-> 0x1001813dc      a0220090       adrp x0, 0x1005d5000
+|     :     0x1001813e0      00001a91       add x0, x0, 0x680
+|     :     0x1001813e4      01070090       adrp x1, 0x100261000
+|     :     0x1001813e8      21302a91       add x1, x1, 0xa8c
+|     :     0x1001813ec      b2310b94       bl sym.imp.swift_once
+\     `===< 0x1001813f0      c6feff17       b 0x100180f08

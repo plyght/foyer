@@ -1,0 +1,3 @@
+sym.func.1003322ec 0x100332314 [STRN:r--] add x8, x8, str.forceSimulatedNotch
+sym.func.1003357fc 0x100335824 [STRN:r--] add x8, x8, str.notchAdjustedWidth
+sym.func.100332024 0x10033204c [STRN:r--] add x8, x8, str.hideFromScreenCapture

@@ -1,0 +1,2 @@
+sym.func.100312328 0x10031238c [CALL:--x] bl sym.func.10031b0c8
+sym.func.100317dfc 0x100317e44 [CALL:--x] bl sym.func.10031b0c8

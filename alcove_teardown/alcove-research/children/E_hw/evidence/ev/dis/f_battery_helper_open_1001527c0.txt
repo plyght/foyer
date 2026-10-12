@@ -1,0 +1,72 @@
+            ; CALL XREF from sym.func.10012e1ec @ 0x10012e3d0(x)
+/ 264: sym.func.1001527c0 (int64_t arg1);
+| `- args(x20, x0) vars(5:sp[0x8..0x30])
+|           0x1001527c0      f70f1df8       str x23, [var_30h]!
+|           0x1001527c4      f64f01a9       stp x22, x19, [var_10h]
+|           0x1001527c8      fd7b02a9       stp x29, x30, [var_20h]
+|           0x1001527cc      fd830091       add x29, sp, 0x20
+|           0x1001527d0      f30315aa       mov x19, x21
+|           0x1001527d4      9f1200b9       str wzr, [x20, 0x10]       ; self
+|           0x1001527d8      082300b0       adrp x8, reloc.EKEventStore ; 0x1005b3000
+|           0x1001527dc      084540f9       ldr x8, [x8, 0x88]         ; [0x1005b3088:8]=0x8010000000000431
+|           0x1001527e0      160140b9       ldr w22, [x8]
+|           0x1001527e4      801f00d0       adrp x0, 0x100544000
+|           0x1001527e8      00402691       add x0, x0, 0x990          ; 0x100544990 ; "AppleSmartBattery"
+|           0x1001527ec      f0ea0b94       bl sym.imp.IOServiceNameMatching
+|           0x1001527f0      e10300aa       mov x1, x0
+|           0x1001527f4      e00316aa       mov x0, x22
+|           0x1001527f8      e4ea0b94       bl sym.imp.IOServiceGetMatchingService
+|           0x1001527fc      801200b9       str w0, [x20, 0x10]        ; self
+|       ,=< 0x100152800      c0020034       cbz w0, 0x100152858
+|       |   0x100152804      ebe90b94       bl sym.imp.CFRunLoopGetCurrent
+|       |   0x100152808      fd031daa       mov x29, x29
+|       |   0x10015280c      aeeb0b94       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|       |   0x100152810      f60300aa       mov x22, x0
+|       |   0x100152814      00000090       adrp x0, 0x100152000
+|       |   0x100152818      00c02991       add x0, x0, 0xa70
+|       |   0x10015281c      010080d2       mov x1, 0
+|       |   0x100152820      d1ea0b94       bl sym.imp.IOPSNotificationCreateRunLoopSource
+|      ,==< 0x100152824      000500b4       cbz x0, 0x1001528c4
+|      ||   0x100152828      f70300aa       mov x23, x0
+|      ||   0x10015282c      08230090       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|      ||   0x100152830      082146f9       ldr x8, [x8, 0xc40]        ; [0x1005b2c40:8]=0x80100000000003a8 ; reloc.kCFRunLoopDefaultMode
+|      ||   0x100152834      020140f9       ldr x2, [x8]
+|      ||   0x100152838      e00316aa       mov x0, x22
+|      ||   0x10015283c      e10317aa       mov x1, x23
+|      ||   0x100152840      d9e90b94       bl sym.imp.CFRunLoopAddSource
+|      ||   0x100152844      e00316aa       mov x0, x22                ; void *instance
+|      ||   0x100152848      96eb0b94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|      ||   0x10015284c      e00317aa       mov x0, x23                ; void *instance
+|      ||   0x100152850      94eb0b94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|     ,===< 0x100152854      16000014       b 0x1001528ac
+|     |||   ; CODE XREF from sym.func.1001527c0 @ 0x100152800(x)
+|     ||`-> 0x100152858      881f00d0       adrp x8, 0x100544000
+|     ||    0x10015285c      08c12691       add x8, x8, 0x9b0          ; 0x1005449b0 ; "Opening (AppleSmartBattery) service failed"
+|     ||    0x100152860      088100d1       sub x8, x8, 0x20
+|     ||    0x100152864      160141b2       orr x22, x8, 0x8000000000000000
+|     ||    0x100152868      9f000094       bl sym.func.100152ae4
+|     ||    0x10015286c      e10300aa       mov x1, x0
+|     ||    0x100152870      00220090       adrp x0, 0x100592000
+|     ||    0x100152874      00a00091       add x0, x0, 0x28
+|     ||    0x100152878      020080d2       mov x2, 0
+|     ||    0x10015287c      03008052       mov w3, 0
+|     ||    0x100152880      bbeb0b94       bl sym.imp.swift_allocError
+|     ||    0x100152884      f30300aa       mov x19, x0
+|     ||    0x100152888      480580d2       mov x8, 0x2a               ; '*'
+|     ||    0x10015288c      0800faf2       movk x8, 0xd000, lsl 48
+|     ||    0x100152890      285800a9       stp x8, x22, [x1]
+|     ||    0x100152894      28008052       mov w8, 1
+|     ||    0x100152898      28400039       strb w8, [x1, 0x10]
+|     ||    0x10015289c      f50300aa       mov x21, x0
+|     ||    0x1001528a0      eeec0b94       bl sym.imp.swift_willThrow
+|     ||    0x1001528a4      e00314aa       mov x0, x20                ; void *arg0
+|     ||    0x1001528a8      86ec0b94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|     ||    ; CODE XREF from sym.func.1001527c0 @ 0x100152854(x)
+|     `---> 0x1001528ac      e00314aa       mov x0, x20                ; self
+|      |    0x1001528b0      f50313aa       mov x21, x19
+|      |    0x1001528b4      fd7b42a9       ldp x29, x30, [var_20h]
+|      |    0x1001528b8      f64f41a9       ldp x22, x19, [var_10h]
+|      |    0x1001528bc      f70743f8       ldr x23, [sp], 0x30
+|      |    0x1001528c0      c0035fd6       ret
+|      |    ; CODE XREF from sym.func.1001527c0 @ 0x100152824(x)
+\      `--> 0x1001528c4      200020d4       brk 1

@@ -1,0 +1,52 @@
+            ; CALL XREFS from sym.func.10012e4f8 @ 0x10012e5f4(x), 0x10012e608(x)
+/ 188: sym.func.1001521f0 ();
+| `- args(x20) vars(7:sp[0x8..0x41])
+|           0x1001521f0      ff4301d1       sub sp, sp, 0x50
+|           0x1001521f4      f44f03a9       stp x20, x19, [var_30h]
+|           0x1001521f8      fd7b04a9       stp x29, x30, [var_40h]
+|           0x1001521fc      fd030191       add x29, sp, 0x40
+|           0x100152200      931240b9       ldr w19, [x20, 0x10]       ; self
+|       ,=< 0x100152204      b3040034       cbz w19, 0x100152298
+|       |   0x100152208      881f00d0       adrp x8, 0x100544000
+|       |   0x10015220c      08c11891       add x8, x8, 0x630          ; 0x100544630 ; "ExternalConnected"
+|       |   0x100152210      088100d1       sub x8, x8, 0x20
+|       |   0x100152214      010141b2       orr x1, x8, 0x8000000000000000
+|       |   0x100152218      200280d2       mov x0, 0x11
+|       |   0x10015221c      0000faf2       movk x0, 0xd000, lsl 48
+|       |   0x100152220      aee60b94       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+|       |   0x100152224      f40300aa       mov x20, x0
+|       |   0x100152228      e00313aa       mov x0, x19
+|       |   0x10015222c      e10314aa       mov x1, x20
+|       |   0x100152230      020080d2       mov x2, 0
+|       |   0x100152234      03008052       mov w3, 0
+|       |   0x100152238      4eec0b94       bl sym.imp.IORegistryEntryCreateCFProperty
+|       |   0x10015223c      f30300aa       mov x19, x0
+|       |   0x100152240      e00314aa       mov x0, x20                ; void *instance
+|       |   0x100152244      17ed0b94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|      ,==< 0x100152248      930200b4       cbz x19, 0x100152298
+|      ||   0x10015224c      e00313aa       mov x0, x19
+|      ||   0x100152250      d1ed0b94       bl sym.imp.swift_getObjectType
+|      ||   0x100152254      e01700f9       str x0, [var_clob_28h]
+|      ||   0x100152258      f30b00f9       str x19, [var_clob_10h]
+|      ||   0x10015225c      28230090       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+|      ||   0x100152260      080941f9       ldr x8, [x8, 0x210]        ; [0x1005b6210:8]=0x8010000000000a23
+|      ||   0x100152264      032300f0       adrp x3, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|      ||   0x100152268      63fc43f9       ldr x3, [x3, 0x7f8]        ; [0x1005b57f8:8]=0x80100000000008e5 ; reloc....SbN
+|      ||   0x10015226c      e03f0091       add x0, sp, 0xf
+|      ||   0x100152270      e1430091       add x1, sp, 0x10
+|      ||   0x100152274      02210091       add x2, x8, 8
+|      ||   0x100152278      c4008052       mov w4, 6
+|      ||   0x10015227c      84ed0b94       bl sym.imp.swift_dynamicCast
+|     ,===< 0x100152280      c0000036       tbz w0, 0, 0x100152298
+|     |||   0x100152284      e83f4039       ldrb w8, [var_fh]
+|     |||   0x100152288      1f010071       cmp w8, 0
+|     |||   0x10015228c      28008052       mov w8, 1
+|     |||   0x100152290      0015881a       cinc w0, w8, eq
+|    ,====< 0x100152294      02000014       b 0x10015229c
+|    ||||   ; CODE XREFS from sym.func.1001521f0 @ 0x100152204(x), 0x100152248(x), 0x100152280(x)
+|    |```-> 0x100152298      00008052       mov w0, 0
+|    |      ; CODE XREF from sym.func.1001521f0 @ 0x100152294(x)
+|    `----> 0x10015229c      fd7b44a9       ldp x29, x30, [var_40h]
+|           0x1001522a0      f44f43a9       ldp x20, x19, [var_30h]
+|           0x1001522a4      ff430191       add sp, sp, 0x50           ; 0x178000
+\           0x1001522a8      c0035fd6       ret

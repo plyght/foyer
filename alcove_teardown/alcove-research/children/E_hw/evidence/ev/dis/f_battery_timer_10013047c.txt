@@ -1,0 +1,43 @@
+            ; ICOD XREF from sym.func.1001303b8 @ 0x100130464(r)
+/ 160: sym.func.10013047c ();
+| `- args(x21) vars(6:sp[0x8..0x30])
+|           0x10013047c      bd0344b2       orr x29, x29, 0x1000000000000000
+|           0x100130480      ffc300d1       sub sp, sp, 0x30
+|           0x100130484      f5cf00a9       stp x21, x19, [var_8h]
+|           0x100130488      fd7b02a9       stp x29, x30, [var_20h]
+|           0x10013048c      f60f00f9       str x22, [var_18h]
+|           0x100130490      fd830091       add x29, sp, 0x20
+|           0x100130494      d42a40f9       ldr x20, [x22, 0x50]
+|           0x100130498      e8e701b2       mov x8, -0x6666666666666667
+|           0x10013049c      483393f2       movk x8, 0x999a
+|           0x1001304a0      28f9e7f2       movk x8, 0x3fc9, lsl 48
+|           0x1001304a4      0001679e       fmov d0, x8
+|           0x1001304a8      59720c94       bl sym.imp.Duration.seconds_...BSdFZ_ ; Duration.seconds(...BSdFZ)
+|           0x1001304ac      f30300aa       mov x19, x0
+|           0x1001304b0      f50301aa       mov x21, x1                ; error
+|           0x1001304b4      e80314aa       mov x8, x20
+|           0x1001304b8      fb710c94       bl sym.imp.Clock.setterContinuous_...VRszrlE10continuousADvgZ_ ; Clock.setterContinuous(...VRszrlE10continuousADvgZ)
+|           0x1001304bc      c81900b0       adrp x8, 0x100469000
+|           0x1001304c0      08a10e91       add x8, x8, 0x3a8
+|           0x1001304c4      09014029       ldp w9, w0, [x8]
+|           0x1001304c8      297d4093       sxtw x9, w9
+|           0x1001304cc      2101088b       add x1, x9, x8
+|           0x1001304d0      e10300f9       str x1, [sp]
+|           0x1001304d4      99750c94       bl sym.imp.swift_task_alloc
+|           0x1001304d8      c03e00f9       str x0, [x22, 0x78]
+|           0x1001304dc      08000090       adrp x8, 0x100130000
+|           0x1001304e0      08711491       add x8, x8, 0x51c
+|           0x1001304e4      162000a9       stp x22, x8, [x0]
+|           0x1001304e8      d42a40f9       ldr x20, [x22, 0x50]
+|           0x1001304ec      f60300aa       mov x22, x0
+|           0x1001304f0      e00313aa       mov x0, x19
+|           0x1001304f4      e10315aa       mov x1, x21
+|           0x1001304f8      020080d2       mov x2, 0
+|           0x1001304fc      030080d2       mov x3, 0
+|           0x100130500      24008052       mov w4, 1
+|           0x100130504      e50340f9       ldr x5, [sp]
+|           0x100130508      fd7b42a9       ldp x29, x30, [var_20h]
+|           0x10013050c      f5cf40a9       ldp x21, x19, [var_8h]
+|           0x100130510      bdfb4392       and x29, x29, 0xefffffffffffffff
+|           0x100130514      ffc30091       add sp, sp, 0x30           ; 0x178000
+\           0x100130518      a0001fd6       br x5

@@ -1,0 +1,177 @@
+### onboarding @ 10:03:41  (5 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+42     0      568     151    464    603    1.0   1       T   ''
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+### idle_pill_after_onboarding(no simulated notch yet) @ 10:06:22  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+77     2147483628 488     0      624    320    1.0   1       T   ''
+78     2147483629 488     0      624    320    1.0   1       T   ''
+### settings_open_general @ 10:07:45  (7 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+84     0      490     131    620    687    1.0   1       T   'General'
+89     2147483628 488     0      624    320    1.0   1       T   ''
+90     2147483629 488     0      624    320    1.0   1       T   ''
+### settings_open_simulated_notch_on @ 10:08:18  (7 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+84     0      490     131    620    687    1.0   1       T   'General'
+89     2147483628 488     0      624    320    1.0   1       T   ''
+90     2147483629 488     0      624    320    1.0   1       T   ''
+### idle_closed_settings_closed @ 10:18:20  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   1       T   ''
+116    2147483629 488     0      624    320    1.0   1       T   ''
+### hovered_mouse_on_notch @ 10:18:30  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   1       T   ''
+116    2147483629 488     0      624    320    1.0   1       T   ''
+### expanded_calendar_after_click @ 10:18:51  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   1       T   ''
+116    2147483629 488     0      624    320    1.0   1       T   ''
+### sample collapse_then_osascript_volume30 start 10:19:08
+t= 0.010s n=6
+   wid=43 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=44 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=45 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=46 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=115 layer=2147483628 xywh=(488,0,624,320) alpha=1.0 sharing=1 on=True name=''
+   wid=116 layer=2147483629 xywh=(488,0,624,320) alpha=1.0 sharing=1 on=True name=''
+### sample mediakey_brightness start 10:20:09
+t= 0.011s n=6
+   wid=43 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=44 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=45 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=46 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=115 layer=2147483628 xywh=(488,0,624,320) alpha=1.0 sharing=1 on=True name=''
+   wid=116 layer=2147483629 xywh=(488,0,624,320) alpha=1.0 sharing=1 on=True name=''
+### hideFromScreenCapture_off @ 10:21:04  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   1       T   ''
+116    2147483629 488     0      624    320    1.0   1       T   ''
+### hideFromScreenCapture_on @ 10:21:05  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   0       T   ''
+116    2147483629 488     0      624    320    1.0   0       T   ''
+### hideFromScreenCapture_off_again @ 10:21:07  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   1       T   ''
+116    2147483629 488     0      624    320    1.0   1       T   ''
+### sample volume_hud_osascript_then_mediakeys start 10:21:30
+t= 0.010s n=6
+   wid=43 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=44 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=45 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=46 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=115 layer=2147483628 xywh=(488,0,624,320) alpha=1.0 sharing=1 on=True name=''
+   wid=116 layer=2147483629 xywh=(488,0,624,320) alpha=1.0 sharing=1 on=True name=''
+### safari_fullscreen_hideWhileInFullscreen=1 @ 10:22:59  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   1       T   ''
+116    2147483629 488     0      624    320    1.0   1       T   ''
+### safari_fullscreen_hideWhileInFullscreen=0 @ 10:23:02  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   1       T   ''
+116    2147483629 488     0      624    320    1.0   1       T   ''
+### safari_fullscreen_hideWhileInFullscreen=1_again @ 10:23:03  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   1       T   ''
+116    2147483629 488     0      624    320    1.0   1       T   ''
+### mission_control_hideWhileInMissionControl=1 @ 10:23:37  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   1       T   ''
+116    2147483629 488     0      624    320    1.0   1       T   ''
+### quicktime_playing_tone1 @ 10:24:43  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   1       T   ''
+116    2147483629 488     0      624    320    1.0   1       T   ''
+### quicktime_playing_expanded_click @ 10:25:17  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   1       T   ''
+116    2147483629 488     0      624    320    1.0   1       T   ''
+### sample quicktime_open_tone2_then_play_quickpeek start 10:26:37
+t= 0.011s n=6
+   wid=43 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=44 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=45 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=46 layer=0 xywh=(0,0,1600,30) alpha=1.0 sharing=1 on=False name=''
+   wid=115 layer=2147483628 xywh=(488,0,624,320) alpha=1.0 sharing=1 on=True name=''
+   wid=116 layer=2147483629 xywh=(488,0,624,320) alpha=1.0 sharing=1 on=True name=''
+### ax_revoked_after_volup @ 10:31:08  (6 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+43     0      0       0      1600   30     1.0   1       F   ''
+44     0      0       0      1600   30     1.0   1       F   ''
+45     0      0       0      1600   30     1.0   1       F   ''
+46     0      0       0      1600   30     1.0   1       F   ''
+115    2147483628 488     0      624    320    1.0   1       T   ''
+116    2147483629 488     0      624    320    1.0   1       T   ''
+### relaunched_ax_revoked_after_volup @ 10:31:42  (2 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+221    2147483628 488     0      624    320    1.0   1       T   ''
+222    2147483629 488     0      624    320    1.0   1       T   ''
+### regranted_relaunched @ 10:33:17  (2 windows, owner~'Alcove')
+wid    layer  x       y      w      h      alpha sharing on  name
+250    2147483628 488     0      624    320    1.0   1       T   ''
+251    2147483629 488     0      624    320    1.0   1       T   ''

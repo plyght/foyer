@@ -1,0 +1,7 @@
+            ; CALL XREF from sym.func.10012ee58 @ 0x10012eef8(x)
+/ 20: sym.func.1001523a0 ();
+|           0x1001523a0      e0ad88d2       mov x0, 0x456f             ; 'oE'
+|           0x1001523a4      a00daef2       movk x0, 0x706d, lsl 16    ; 'mp'
+|           0x1001523a8      802ecff2       movk x0, 0x7974, lsl 32    ; 'ty'
+|           0x1001523ac      00c0fdf2       movk x0, 0xee00, lsl 48
+\       ,=< 0x1001523b0      01000014       b sym.func.1001523b4

@@ -1,0 +1,36 @@
+##### speed Smooth
+button clicked, value now missing value
+rec-start 1791741072.461
+1791741074.526 key sound_up #1
+1791741077.186 key sound_up #1
+1791741077.263 key sound_up #2
+1791741077.341 key sound_up #3
+1791741077.419 key sound_up #4
+1791741077.498 key sound_up #5
+1791741077.572 key sound_up #6
+barfill lines:       42
+40,bright=0,barlen=0 142,bright=21,barlen=22 143,bright=28,barlen=28 144,bright=86,barlen=30 145,bright=91,barlen=31 146,bright=96,barlen=32 147,bright=100,barlen=34 148,bright=160,barlen=34 149,bright=164,barlen=35 150,bright=167,barlen=36 151,bright=170,barlen=36 152,bright=172,barlen=36 153,bright=174,barlen=36 157,bright=175,barlen=37 158,bright=179,barlen=37 159,bright=178,barlen=37 162,bright=179,barlen=37 164,bright=181,barlen=37 168,bright=182,barlen=38 248,bright=100,barlen=34 249,bright=0,barlen=0 278,bright=39,barlen=39 279,bright=121,barlen=43 280,bright=134,barlen=45 281,bright=142,barlen=48 282,bright=150,barlen=50 283,bright=154,barlen=52 284,bright=261,barlen=54 285,bright=272,barlen=56 286,bright=279,barlen=57 287,bright=284,barlen=58 289,bright=292,barlen=60 291,bright=300,barlen=62 292,bright=305,barlen=62 295,bright=307,barlen=63 296,bright=309,barlen=63 301,bright=310,barlen=63 303,bright=311,barlen=64 305,bright=312,barlen=64 375,bright=307,barlen=63 376,bright=163,barlen=55 377,bright=0,barlen=0 
+##### speed Fast
+button clicked, value now missing value
+rec-start 1791741099.175
+1791741101.243 key sound_up #1
+1791741103.902 key sound_up #1
+1791741103.979 key sound_up #2
+1791741104.057 key sound_up #3
+1791741104.130 key sound_up #4
+1791741104.203 key sound_up #5
+1791741104.280 key sound_up #6
+barfill lines:       37
+40,bright=0,barlen=0 136,bright=26,barlen=26 137,bright=79,barlen=29 138,bright=89,barlen=31 139,bright=96,barlen=32 140,bright=100,barlen=34 141,bright=162,barlen=34 142,bright=165,barlen=35 143,bright=170,barlen=36 145,bright=174,barlen=36 149,bright=175,barlen=37 150,bright=178,barlen=37 153,bright=179,barlen=37 155,bright=181,barlen=37 158,bright=182,barlen=38 244,bright=27,barlen=27 245,bright=0,barlen=0 274,bright=38,barlen=38 275,bright=122,barlen=42 276,bright=130,barlen=44 277,bright=139,barlen=47 278,bright=147,barlen=50 279,bright=247,barlen=51 280,bright=259,barlen=53 281,bright=264,barlen=54 282,bright=269,barlen=55 283,bright=279,barlen=57 285,bright=284,barlen=58 286,bright=289,barlen=59 288,bright=298,barlen=62 289,bright=307,barlen=63 291,bright=309,barlen=63 293,bright=309,barlen=63 295,bright=310,barlen=63 296,bright=311,barlen=64 298,bright=312,barlen=64 376,bright=0,barlen=0 
+##### speed Instant
+button clicked, value now missing value
+rec-start 1791741125.228
+1791741127.301 key sound_up #1
+1791741129.970 key sound_up #1
+1791741130.048 key sound_up #2
+1791741130.125 key sound_up #3
+1791741130.203 key sound_up #4
+1791741130.280 key sound_up #5
+1791741130.356 key sound_up #6
+barfill lines:       38
+40,bright=0,barlen=0 130,bright=27,barlen=27 131,bright=88,barlen=30 132,bright=94,barlen=32 133,bright=100,barlen=34 134,bright=160,barlen=34 135,bright=165,barlen=35 136,bright=170,barlen=36 137,bright=172,barlen=36 138,bright=174,barlen=36 141,bright=175,barlen=37 142,bright=178,barlen=37 145,bright=179,barlen=37 146,bright=180,barlen=37 147,bright=181,barlen=37 149,bright=182,barlen=38 237,bright=169,barlen=35 239,bright=0,barlen=0 277,bright=40,barlen=40 278,bright=129,barlen=44 279,bright=140,barlen=48 280,bright=149,barlen=50 281,bright=250,barlen=53 282,bright=262,barlen=54 283,bright=269,barlen=55 284,bright=276,barlen=57 285,bright=284,barlen=58 286,bright=289,barlen=59 287,bright=293,barlen=60 288,bright=297,barlen=61 289,bright=306,barlen=63 290,bright=309,barlen=63 292,bright=308,barlen=63 293,bright=310,barlen=63 294,bright=311,barlen=63 296,bright=312,barlen=64 377,bright=49,barlen=49 378,bright=0,barlen=0 

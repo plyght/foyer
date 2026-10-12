@@ -1,0 +1,118 @@
+            ; CALL XREF from sym.func.1003a4d44 @ 0x1003a4e3c(x)
+/ 396: sym.func.1003a4a3c (int64_t arg1);
+| `- args(x20, x21, x0) vars(16:sp[0x8..0xa0])
+|           0x1003a4a3c      ff8302d1       sub sp, sp, 0xa0
+|           0x1003a4a40      eb2b036d       stp d11, d10, [var_30h]
+|           0x1003a4a44      e923046d       stp d9, d8, [var_40h]
+|           0x1003a4a48      fa6705a9       stp x26, x25, [var_50h]
+|           0x1003a4a4c      f85f06a9       stp x24, x23, [var_60h]
+|           0x1003a4a50      f65707a9       stp x22, x21, [var_70h]
+|           0x1003a4a54      f44f08a9       stp x20, x19, [var_80h]
+|           0x1003a4a58      fd7b09a9       stp x29, x30, [var_90h]
+|           0x1003a4a5c      fd430291       add x29, sp, 0x90
+|           0x1003a4a60      170840f9       ldr x23, [x0, 0x10]        ; arg1
+|       ,=< 0x1003a4a64      b70900b4       cbz x23, 0x1003a4b98
+|       |   0x1003a4a68      f30300aa       mov x19, x0                ; arg1
+|       |   0x1003a4a6c      a81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|       |   0x1003a4a70      189945f9       ldr x24, [x8, 0xb30]       ; [0x1005dbb30:8]=224
+|       |                                                              ; field.class.Alcove.NSWaveformView.var.liveLevels
+|       |   0x1003a4a74      8002188b       add x0, x20, x24           ; void *arg0
+|       |   0x1003a4a78      e1630091       add x1, sp, 0x18           ; void *arg1
+|       |   0x1003a4a7c      22008052       mov w2, 1                  ; void *arg2
+|       |   0x1003a4a80      030080d2       mov x3, 0                  ; void *arg3
+|       |   0x1003a4a84      52a30294       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|       |   0x1003a4a88      806a78f8       ldr x0, [x20, x24]         ; self
+|       |   0x1003a4a8c      160840f9       ldr x22, [x0, 0x10]
+|       |   0x1003a4a90      a81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|       |   0x1003a4a94      195d45f9       ldr x25, [x8, 0xab8]       ; [0x1005dbab8:8]=96 ; "`"
+|       |   0x1003a4a98      956a79f8       ldr x21, [x20, x25]        ; error
+|       |   0x1003a4a9c      df0215eb       cmp x22, x21
+|      ,==< 0x1003a4aa0      80020054       b.eq 0x1003a4af0
+|     ,===< 0x1003a4aa4      1509f8b7       tbnz x21, 0x3f, 0x1003a4bc4
+|    ,====< 0x1003a4aa8      950100b4       cbz x21, 0x1003a4ad8
+|    ||||   0x1003a4aac      811000d0       adrp x1, reloc.Int64...VMn ; 0x1005b6000
+|    ||||   0x1003a4ab0      21a842f9       ldr x1, [x1, 0x550]        ; [0x1005b6550:8]=0
+|    ||||                                                              ; reloc.CoreGraphics.CGFloat...VN
+|    ||||   0x1003a4ab4      e00315aa       mov x0, x21
+|    ||||   0x1003a4ab8      399d0294       bl sym.imp._allocateBufferUninitialized.minimumCapacity._Array.setter_______...FZ_ ; _allocateBufferUninitialized.minimumCapacity._Array.setter -> (__...FZ)
+|    ||||   0x1003a4abc      f60300aa       mov x22, x0
+|    ||||   0x1003a4ac0      150800f9       str x21, [x0, 0x10]
+|    ||||   0x1003a4ac4      a1f27dd3       lsl x1, x21, 3             ; size_t n
+|    ||||   0x1003a4ac8      00800091       add x0, x0, 0x20           ; void *s
+|    ||||   0x1003a4acc      8fa20294       bl sym.imp.bzero           ; void bzero(void *s, size_t n)
+|    ||||   0x1003a4ad0      806a78f8       ldr x0, [x20, x24]         ; self
+|   ,=====< 0x1003a4ad4      03000014       b 0x1003a4ae0
+|   |||||   ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4aa8(x)
+|   |`----> 0x1003a4ad8      961000d0       adrp x22, reloc.Int64...VMn ; 0x1005b6000
+|   | |||   0x1003a4adc      d61641f9       ldr x22, [x22, 0x228]      ; [0x1005b6228:8]=0
+|   | |||                                                              ; reloc._swiftEmptyArrayStorage
+|   | |||   ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4ad4(x)
+|   `-----> 0x1003a4ae0      966a38f8       str x22, [x20, x24]        ; self
+|     |||   0x1003a4ae4      3da30294       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+|     |||   0x1003a4ae8      966a79f8       ldr x22, [x20, x25]        ; self
+|    ,====< 0x1003a4aec      b606f8b7       tbnz x22, 0x3f, 0x1003a4bc0
+|    ||||   ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4aa0(x)
+|   ,==`--> 0x1003a4af0      f60400b4       cbz x22, 0x1003a4b8c
+|   ||| |   0x1003a4af4      8002188b       add x0, x20, x24           ; void *arg0
+|   ||| |   0x1003a4af8      e1030091       mov x1, sp                 ; void *arg1
+|   ||| |   0x1003a4afc      22048052       mov w2, 0x21               ; '!' ; void *arg2
+|   ||| |   0x1003a4b00      030080d2       mov x3, 0                  ; void *arg3
+|   ||| |   0x1003a4b04      32a30294       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|   ||| |   0x1003a4b08      190080d2       mov x25, 0
+|   ||| |   0x1003a4b0c      75820091       add x21, x19, 0x20
+|   ||| |   0x1003a4b10      08e4006f       movi v8.2d, 0000000000000000
+|   ||| |   0x1003a4b14      09106e1e       fmov d9, 1.00000000
+|   ||| |   ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4b6c(x)
+|   |||.--> 0x1003a4b18      0ae4006f       movi v10.2d, 0000000000000000
+|   |||:|   0x1003a4b1c      3f0317eb       cmp x25, x23
+|  ,======< 0x1003a4b20      c2000054       b.hs 0x1003a4b38
+|  ||||:|   0x1003a4b24      a07a79fc       ldr d0, [x21, x25, lsl 3]
+|  ||||:|   0x1003a4b28      0820601e       fcmp d0, 0.0
+|  ||||:|   0x1003a4b2c      009d601e       fcsel d0, d8, d0, ls
+|  ||||:|   0x1003a4b30      0020691e       fcmp d0, d9
+|  ||||:|   0x1003a4b34      0adc691e       fcsel d10, d0, d9, le
+|  ||||:|   ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4b20(x)
+|  `------> 0x1003a4b38      936a78f8       ldr x19, [x20, x24]        ; self
+|   |||:|   0x1003a4b3c      e00313aa       mov x0, x19
+|   |||:|   0x1003a4b40      d7a30294       bl sym.imp.swift_isUniquelyReferenced_nonNull_native
+|   |||:|   0x1003a4b44      936a38f8       str x19, [x20, x24]        ; self
+|  ,======< 0x1003a4b48      60010036       tbz w0, 0, 0x1003a4b74
+|  ||||:|   ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4b80(x)
+| .-------> 0x1003a4b4c      680a40f9       ldr x8, [x19, 0x10]
+| :||||:|   0x1003a4b50      3f0308eb       cmp x25, x8
+| ========< 0x1003a4b54      42030054       b.hs 0x1003a4bbc
+| :||||:|   0x1003a4b58      680e198b       add x8, x19, x25, lsl 3
+| :||||:|   0x1003a4b5c      39070091       add x25, x25, 1
+| :||||:|   0x1003a4b60      0a1100fd       str d10, [x8, 0x20]
+| :||||:|   0x1003a4b64      936a38f8       str x19, [x20, x24]        ; self
+| :||||:|   0x1003a4b68      df0219eb       cmp x22, x25
+| :||||`==< 0x1003a4b6c      61fdff54       b.ne 0x1003a4b18
+| :||||,==< 0x1003a4b70      05000014       b 0x1003a4b84
+| :||||||   ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4b48(x)
+| :`------> 0x1003a4b74      e00313aa       mov x0, x19                ; int64_t arg1
+| : |||||   0x1003a4b78      0049fd97       bl sym.func.1002f6f78
+| : |||||   0x1003a4b7c      f30300aa       mov x19, x0
+| `=======< 0x1003a4b80      f3ffff17       b 0x1003a4b4c
+|   |||||   ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4b70(x)
+|   |||`--> 0x1003a4b84      e0030091       mov x0, sp                 ; void *arg0
+|   ||| |   0x1003a4b88      56a30294       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|   ||| |   ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4af0(x)
+|   `-----> 0x1003a4b8c      000080d2       mov x0, 0                  ; int64_t arg1
+|    || |   0x1003a4b90      2100c0d2       mov x1, sym.__mh_execute_header ; 0x100000000 ; int64_t arg2
+|    || |   0x1003a4b94      5efaff97       bl sym.func.1003a350c
+|    || |   ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4a64(x)
+|    || `-> 0x1003a4b98      fd7b49a9       ldp x29, x30, [var_90h]
+|    ||     0x1003a4b9c      f44f48a9       ldp x20, x19, [var_80h]
+|    ||     0x1003a4ba0      f65747a9       ldp x22, x21, [var_70h]
+|    ||     0x1003a4ba4      f85f46a9       ldp x24, x23, [var_60h]
+|    ||     0x1003a4ba8      fa6745a9       ldp x26, x25, [var_50h]
+|    ||     0x1003a4bac      e923446d       ldp d9, d8, [var_40h]
+|    ||     0x1003a4bb0      eb2b436d       ldp d11, d10, [var_30h]
+|    ||     0x1003a4bb4      ff830291       add sp, sp, 0xa0           ; 0x178000
+|    ||     0x1003a4bb8      c0035fd6       ret
+|    ||     ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4b54(x)
+| --------> 0x1003a4bbc      200020d4       brk 1
+|    ||     ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4aec(x)
+|    `----> 0x1003a4bc0      200020d4       brk 1
+|     |     ; CODE XREF from sym.func.1003a4a3c @ 0x1003a4aa4(x)
+\     `---> 0x1003a4bc4      200020d4       brk 1

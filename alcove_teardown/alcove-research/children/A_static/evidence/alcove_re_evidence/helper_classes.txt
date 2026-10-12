@@ -1,0 +1,140 @@
+0x10000ff68 [0x10000ff68 - 0x10000ff68]      0 swift class 0 AlcoveHelper.ServiceDelegate :: __C.NSObject
+0x10000ffa0 [0x10000ffa0 - 0x10000ffa0]      0 swift class 1 __C.MRMediaRemoteCommand
+0x100010470 swift property   0      rawValue
+0x10000ffc0 [0x10000ffc0 - 0x10000ffc0]      0 swift class 2 AlcoveHelper.UpdateHelper :: __C.NSObject
+0x10000ffec [0x10000ffec - 0x10000ffec]      0 swift class 3 AlcoveHelper.Helper :: __C.NSObject
+0x10001049c swift property   0      connection
+0x1000104a8 swift property   1 k    betterDisplayRequestName
+0x1000104b4 swift property   2      isNowPlayingObservationEnabled
+0x1000104c0 swift property   3      $__lazy_storage_$_media
+0x1000104cc swift property   4 k    updater
+0x100010020 [0x100010020 - 0x100010020]      0 swift class 4 AlcoveHelper.Helper.BetterDisplayIntegrationRequestData
+0x1000104e8 swift property   0      uuid
+0x1000104f4 swift property   1      commands
+0x100010500 swift property   2      parameters
+0x10001003c [0x10001003c - 0x10001003c]      0 swift class 5 AlcoveHelper.Helper.BetterDisplayIntegrationRequestData.CodingKeys
+0x10001051c swift property   0      uuid
+0x100010528 swift property   1      commands
+0x100010534 swift property   2      parameters
+0x100010058 [0x100010058 - 0x100010058]      0 swift class 6 AlcoveHelper.MediaRemoteHelper :: __C.NSObject
+0x100010570 swift property   0 k    clientProvider
+0x10001057c swift property   1 k    notificationCenter
+0x100010588 swift property   2 k    audioTierKey
+0x100010594 swift property   3 k    audioRenderingModeKey
+0x1000105a0 swift property   4 k    isLosslessKey
+0x1000105ac swift property   5 k    isDolbyAtmosKey
+0x1000105b8 swift property   6 k    sourceBundleIdentifierKey
+0x1000105c4 swift property   7 k    sourceClientBundleIdentifierKey
+0x1000105d0 swift property   8 k    sourceParentBundleIdentifierKey
+0x1000105dc swift property   9 k    sourceDisplayNameKey
+0x1000105e8 swift property  10 k    sourceProcessIdentifierKey
+0x1000105f4 swift property  11      isNowPlayingObservationEnabled
+0x10001009c [0x10001009c - 0x10001009c]      0 swift class 7 AlcoveHelper.ResourceBundleClass
+0x1000100e4 [0x10000d144 - 0x10000d144]      0 swift class 8 StringObfuscation.ProtectedText
+0x10000d144 swift   method   0 s    make
+0x100018fc0 [0x1000014cc - 0x100001540]    116 objc class 9 AlcoveHelper.ServiceDelegate :: NSObject
+0x1000014cc objc   method   0      listener:shouldAcceptNewConnection:
+0x100001540 objc   method   1      init
+0x1000190b0 [0x100001ac8 - 0x100001ac8]      0 objc class 10 AlcoveHelper.UpdateHelper :: NSObject
+0x100001ac8 objc   method   0      init
+0x100019168 [0x1000050d8 - 0x10000e984]  39084 objc class 11 AlcoveHelper.Helper :: NSObject
+0x1000050d8 objc   method   0      playPause
+0x100005114 objc   method   1      previousTrack
+0x100005154 objc   method   2      nextTrack
+0x100005194 objc   method   3      getSeekerPosition:
+0x1000052d0 objc   method   4      setPlayerPosition:
+0x100005460 objc   method   5      setPlaybackRate:
+0x100005498 objc   method   6      setShuffleMode:
+0x1000054a4 objc   method   7      setRepeatMode:
+0x10000551c objc   method   8      getIsPlaying:
+0x100005728 objc   method   9      getNowPlayingInfo:
+0x100005858 objc   method  10      getNowPlayingInfoForBundleIdentifier:reply:
+0x1000059f0 objc   method  11      getNowPlayingSource:
+0x100005a90 objc   method  12      getNowPlayingBundle:
+0x100005cbc objc   method  13      checkSupportedCommands:
+0x100005cd8 objc   method  14      checkSupportedCommandsForBundleIdentifier:reply:
+0x100005d8c objc   method  15      startNowPlayingObservation
+0x100005e5c objc   method  16      stopNowPlayingObservation
+0x100005e84 objc   method  17      postLockScreenWidgetIsShown
+0x100005ea0 objc   method  18      postLockScreenWidgetIsHidden
+0x100005f68 objc   method  19      installUpdateWithZipPath:appBundlePath:reply:
+0x100006000 objc   method  20      init
+0x1000060b0 objc   method  21      .cxx_destruct
+0x10000e8a0 objc   method  22      playPause
+0x10000e8ac objc   method  23      previousTrack
+0x10000e8b8 objc   method  24      nextTrack
+0x10000e8c4 objc   method  25      getSeekerPosition:
+0x10000e8d0 objc   method  26      setPlayerPosition:
+0x10000e8dc objc   method  27      setPlaybackRate:
+0x10000e8e8 objc   method  28      setShuffleMode:
+0x10000e8f4 objc   method  29      setRepeatMode:
+0x10000e900 objc   method  30      getIsPlaying:
+0x10000e90c objc   method  31      getNowPlayingInfo:
+0x10000e918 objc   method  32      getNowPlayingInfoForBundleIdentifier:reply:
+0x10000e924 objc   method  33      getNowPlayingSource:
+0x10000e930 objc   method  34      getNowPlayingBundle:
+0x10000e93c objc   method  35      checkSupportedCommands:
+0x10000e948 objc   method  36      checkSupportedCommandsForBundleIdentifier:reply:
+0x10000e954 objc   method  37      startNowPlayingObservation
+0x10000e960 objc   method  38      stopNowPlayingObservation
+0x10000e96c objc   method  39      postLockScreenWidgetIsShown
+0x10000e978 objc   method  40      postLockScreenWidgetIsHidden
+0x10000e984 objc   method  41      installUpdateWithZipPath:appBundlePath:reply:
+0x10000e8a0 objc   method  42      playPause
+0x10000e8ac objc   method  43      previousTrack
+0x10000e8b8 objc   method  44      nextTrack
+0x10000e8c4 objc   method  45      getSeekerPosition:
+0x10000e8d0 objc   method  46      setPlayerPosition:
+0x10000e8dc objc   method  47      setPlaybackRate:
+0x10000e8e8 objc   method  48      setShuffleMode:
+0x10000e8f4 objc   method  49      setRepeatMode:
+0x10000e900 objc   method  50      getIsPlaying:
+0x10000e90c objc   method  51      getNowPlayingInfo:
+0x10000e918 objc   method  52      getNowPlayingInfoForBundleIdentifier:reply:
+0x10000e924 objc   method  53      getNowPlayingSource:
+0x10000e930 objc   method  54      getNowPlayingBundle:
+0x10000e93c objc   method  55      checkSupportedCommands:
+0x10000e948 objc   method  56      checkSupportedCommandsForBundleIdentifier:reply:
+0x10000e954 objc   method  57      startNowPlayingObservation
+0x10000e960 objc   method  58      stopNowPlayingObservation
+0x10000e96c objc   method  59      postLockScreenWidgetIsShown
+0x10000e978 objc   method  60      postLockScreenWidgetIsHidden
+0x10000e984 objc   method  61      installUpdateWithZipPath:appBundlePath:reply:
+0x00000000 objc      var   0      isa
+0x100019140 objc      var   1      connection
+0x100019148 objc      var   2      betterDisplayRequestName
+0x100019150 objc      var   3      isNowPlayingObservationEnabled
+0x100019158 objc      var   4      $__lazy_storage_$_media
+0x100019160 objc      var   5      updater
+0x1000192a0 [0x100007af8 - 0x10000ac1c]  12580 objc class 12 AlcoveHelper.MediaRemoteHelper :: NSObject
+0x100007af8 objc   method   0      dealloc
+0x100007c78 objc   method   1      handleInfoDidChange
+0x100007ccc objc   method   2      handleApplicationDidChange
+0x100007d20 objc   method   3      handlePlaybackQueueDidChange
+0x100008310 objc   method   4      handleApplicationIsPlayingDidChangeWithNotification:
+0x10000ac1c objc   method   5      init
+0x100007b88 objc   method   6      .cxx_destruct
+0x00000000 objc      var   0      isa
+0x100019240 objc      var   1      clientProvider
+0x100019248 objc      var   2      notificationCenter
+0x100019250 objc      var   3      audioTierKey
+0x100019258 objc      var   4      audioRenderingModeKey
+0x100019260 objc      var   5      isLosslessKey
+0x100019268 objc      var   6      isDolbyAtmosKey
+0x100019270 objc      var   7      sourceBundleIdentifierKey
+0x100019278 objc      var   8      sourceClientBundleIdentifierKey
+0x100019280 objc      var   9      sourceParentBundleIdentifierKey
+0x100019288 objc      var  10      sourceDisplayNameKey
+0x100019290 objc      var  11      sourceProcessIdentifierKey
+0x100019298 objc      var  12      isNowPlayingObservationEnabled
+0x100019550 [0x100019550 - 0x100019550]      0 objc class 13 AlcoveHelper._422B240975A5542ABF78399D336D304C.ResourceBundleClass :: Swift._SwiftObject
+0x100018f18 [0x10000cf84 - 0x10000d028]    164 objc class 14 PrivateMediaRemote :: NSObject
+0x10000cf84 objc   method   0 c    bundleURL
+0x10000cf98 objc   method   1 c    bundle
+0x10000cfec objc   method   2 c    load
+0x10000d028 objc   method   3 c    unload
+0x100018f68 [0x10000d064 - 0x10000d108]    164 objc class 15 PrivateProtocolBuffer :: NSObject
+0x10000d064 objc   method   0 c    bundleURL
+0x10000d078 objc   method   1 c    bundle
+0x10000d0cc objc   method   2 c    load
+0x10000d108 objc   method   3 c    unload

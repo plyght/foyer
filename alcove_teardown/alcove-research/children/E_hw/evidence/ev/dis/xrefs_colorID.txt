@@ -1,0 +1,1 @@
+fcn.10044e980 0x10044e984 [DATA:r--] ldr x1, reloc.fixup.colorID

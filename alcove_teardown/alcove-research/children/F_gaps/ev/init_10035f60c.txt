@@ -1,0 +1,52 @@
+            ; ICOD XREF from sym.func.100361fe8 @ 0x100362250(r)
+            ; ICOD XREF from sym.func.100362274 @ 0x100362514(r)
+            ; ICOD XREF from sym.func.100362538 @ 0x1003627fc(r)
+/ 56: sym.func.10035f60c ();
+| afv: vars(2:sp[0x8..0x10])
+|           0x10035f60c      fd7bbfa9       stp x29, x30, [var_10h]!
+|           0x10035f610      fd030091       mov x29, sp
+|           0x10035f614      201200f0       adrp x0, 0x1005a6000
+|           0x10035f618      00a00491       add x0, x0, 0x128          ; 0x1005a6128
+|                                                                      ; aav.0x1005a6128 ; int64_t arg1
+|           0x10035f61c      217e85d2       mov x1, 0x2bf1
+|           0x10035f620      e15fb2f2       movk x1, 0x92ff, lsl 16
+|           0x10035f624      a193c3f2       movk x1, 0x1c9d, lsl 32
+|           0x10035f628      4140eaf2       movk x1, 0x5202, lsl 48    ; int64_t arg2
+|           0x10035f62c      f9c80294       bl sym.func.100411a10
+|           0x10035f630      c81300f0       adrp x8, 0x1005da000
+|           0x10035f634      08a12d91       add x8, x8, 0xb68
+|           0x10035f638      000500a9       stp x0, x1, [x8]
+|           0x10035f63c      fd7bc1a8       ldp x29, x30, [sp], 0x10
+\           0x10035f640      c0035fd6       ret
+            ; ICOD XREF from sym.func.1003a5744 @ 0x1003a5a54(r)
+/ 56: sym.func.10035f644 ();
+| afv: vars(2:sp[0x8..0x10])
+|           0x10035f644      fd7bbfa9       stp x29, x30, [var_10h]!
+|           0x10035f648      fd030091       mov x29, sp
+|           0x10035f64c      201200f0       adrp x0, 0x1005a6000
+|           0x10035f650      00201691       add x0, x0, 0x588          ; int64_t arg1
+|           0x10035f654      e1d38ed2       mov x1, 0x769f
+|           0x10035f658      61b8a8f2       movk x1, 0x45c3, lsl 16
+|           0x10035f65c      61cbc0f2       movk x1, 0x65b, lsl 32
+|           0x10035f660      41fffaf2       movk x1, 0xd7fa, lsl 48    ; int64_t arg2
+|           0x10035f664      ebc80294       bl sym.func.100411a10
+|           0x10035f668      c81300f0       adrp x8, 0x1005da000
+|           0x10035f66c      08613291       add x8, x8, 0xc98
+|           0x10035f670      000500a9       stp x0, x1, [x8]
+|           0x10035f674      fd7bc1a8       ldp x29, x30, [sp], 0x10
+\           0x10035f678      c0035fd6       ret
+            ; ICOD XREF from sym.func.10035fcd0 @ 0x10035fd10(r)
+/ 56: sym.func.10035f67c ();
+| afv: vars(2:sp[0x8..0x10])
+|           0x10035f67c      fd7bbfa9       stp x29, x30, [var_10h]!
+|           0x10035f680      fd030091       mov x29, sp
+|           0x10035f684      201200f0       adrp x0, 0x1005a6000
+|           0x10035f688      00600a91       add x0, x0, 0x298          ; int64_t arg1
+|           0x10035f68c      01749ad2       mov x1, 0xd3a0
+|           0x10035f690      8173aff2       movk x1, 0x7b9c, lsl 16
+|           0x10035f694      81e3c6f2       movk x1, 0x371c, lsl 32    ; '\x1c7'
+|           0x10035f698      c1aaf9f2       movk x1, 0xcd56, lsl 48    ; int64_t arg2
+|           0x10035f69c      ddc80294       bl sym.func.100411a10
+|           0x10035f6a0      c81300f0       adrp x8, 0x1005da000
+|           0x10035f6a4      08e12f91       add x8, x8, 0xbf8
+|           0x10035f6a8      000500a9       stp x0, x1, [x8]

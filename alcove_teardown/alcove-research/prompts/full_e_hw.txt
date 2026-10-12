@@ -1,0 +1,34 @@
+CONTEXT (shared by several parallel sessions; you are one of them, with a disjoint area):
+The user is building a competitor/clone of "Alcove" (https://tryalcove.com, "Dynamic Island for your Mac", v1.7.7 build 199, bundle id com.henrikruscon.Alcove, by Henrik Ruscon). The lead session has already installed it, started the 72h trial, done first-pass static analysis and catalogued every Settings pane. Lead artifacts are attached as alcove-lead-artifacts.tgz (NOTES.md = findings so far, settings_ax/general.txt = every setting + default, localizable.txt, imports.txt, bin_strings.txt, helper_strings.txt, assets.json, changelog.txt, measure.py = per-frame notch bbox measurer for 60fps clips, rec.sh = ffmpeg avfoundation 60fps screen recorder). READ NOTES.md FIRST and do not redo what it already covers.
+
+SETUP on your macOS VM: download https://download.tryalcove.com/Alcove.dmg, copy Alcove.app to /Applications, launch, go through onboarding (Continue through Music/Browser/Calendar/Bluetooth/Accessibility steps; the macOS account password for System Settings prompts is "devin" on these VMs, verify with `dscl . -authonly devin devin`; passwordless sudo works), choose Trial -> Start Trial -> Get Started. Then Settings (menu bar icon -> Settings...) -> General -> turn ON "Force simulated notch" (the user's real Mac has a notch; this VM does not). Install tools with /opt/homebrew/bin/brew (e.g. radare2, ffmpeg already present?, python numpy via pip --user).
+
+HARD RULES: Do NOT bypass, patch, or reverse engineer the license/trial/activation logic and do not document how to defeat it (describing that a trial exists, its UI and the public endpoints is fine). Don't post anything externally. Don't open PRs. Keep claims honest: label every fact as OBSERVED (seen live), STATIC (from binary/resources), or INFERRED, and give the evidence (frame numbers, addresses, strings). Hardware this VM lacks (real notch, battery, AirPods, Touch ID, multiple displays) -> mark UNVERIFIED rather than guessing.
+
+DELIVERABLE: one markdown report named as given below, plus a zip of all your raw evidence (clips .mp4, frame strips .png, screenshots, disassembly dumps, logs, scripts). Attach BOTH to your final message via message_user attachments. Be exhaustive and quantitative: the user wants enough detail to rebuild it pixel- and timing-accurately. Then stop; do not wait for further instructions.
+YOUR AREA: E: HARDWARE-DEPENDENT FEATURES. Do deep static RE and artificial runtime triggering of the features the VM cannot show natively. Earlier sessions marked these UNVERIFIED: real-notch detection and geometry, battery, AirPods/Bluetooth, lock screen, brightness HUD, and system-HUD (OSD) suppression. The user wants them reverse engineered anyway so they can rebuild them. Two prior reports are attached for context:
+- alcove_static_re.md: animation constants, NotchShape, windowing, Defaults keys and a field map.
+- alcove_runtime.md: windows, persistence, IPC, network and TCC.
+Do NOT redo what they already cover. Build on their addresses.
+
+For EACH feature, recover the complete pipeline: data source, then parsing, then state, then trigger/debounce, then UI states, then animation, then sound.
+
+1. NOTCH DETECTION. Find how real notch width and height are computed (NSScreen.safeAreaInsets / auxiliaryTopLeftArea / auxiliaryTopRightArea, menu-bar height), the simulated-notch fallback size (it measured live about 140-144 x 28-29 pt; find the literal or the formula), notchAdjustedWidth/Height offsets, and multi-display behaviour (the screen-chooser logic, NSScreen change notifications). Give a table of predicted closed-notch sizes for 14"/16" MacBook Pro and 13"/15" MacBook Air if the formula allows it.
+2. BATTERY. Cover:
+   - IOPSCopyPowerSourcesInfo/List and IOPSNotificationCreateRunLoopSource usage, and which dictionary keys are read (Current Capacity, Is Charging, Power Source State, Low Power Mode via NSProcessInfo.isLowPowerModeEnabled / NSProcessInfoPowerStateDidChange).
+   - The charging-plugged and unplugged notifications, low-battery threshold logic (default 20%) and the low-power sound.
+   - UI strings (localizable.txt) and which view/asset is shown.
+   - Try triggering low-power-mode changes (`sudo pmset -a lowpowermode 1`, then 0) and capture whatever Alcove shows.
+3. AIRPODS/BLUETOOTH. Cover:
+   - CoreBluetooth/IOBluetooth usage, how AirPods battery (left/right/case) is read (BLE proximity-pairing advertisements with Apple manufacturer data 0x004C type 0x07? IOBluetoothDevice private batteryPercent*? find selectors/strings).
+   - The model-ID to video-asset mapping (the AirPods*/Max colour .mov resources) and the connect/disconnect notification UI.
+   - Other device types (generic headphones, keyboards, mice symbols?).
+4. LOCK SCREEN. Cover:
+   - Lock and unlock detection (com.apple.screenIsLocked/Unlocked distributed notifications, CGSessionCopyCurrentDictionary, NSWorkspace sessionDidResignActive, screensaver notifications).
+   - The LockPanel/CGS space mechanism (already partly in the static report) and the widget layout (Battery, Connectivity, Focus, Now Playing, Calendar).
+   - Glass/Clear/Frosted materials, the idle-duration and keep-awake (IOPMAssertion) logic, and the lock/unlock sounds and animation.
+   - Try live: post the distributed notifications from a tiny Swift script, run `pmset displaysleepnow`, try `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend` if present, and the screensaver (`open -a ScreenSaverEngine`). Record at 60 fps whatever appears.
+5. BRIGHTNESS HUD. Cover the DisplayServices calls (Get/Set/SetBrightnessSmooth, RegisterForBrightnessChangeNotifications), the brightness-key handling in the CGEventTap (NX_KEYTYPE_BRIGHTNESS_UP/DOWN = 2/3 via NSSystemDefined subtype 8), step size (1/16?), and the Smooth/Fast/Instant speed implementation. Try live: post synthetic brightness NX_SYSDEFINED events (the runtime report has a mediakey.swift script for volume; adapt it) and capture the HUD even if DisplayServices fails on the VM.
+6. SYSTEM HUD SUPPRESSION. Find exactly how Alcove stops the native OSD: event-tap swallowing of NX_SYSDEFINED keys plus re-implementing volume/brightness itself, and/or OSDUIHelper manipulation (launchctl / kill strings?), and/or BetterDisplay integration. Also cover keyboard-backlight keys, mute, and the Option/Shift fine-step modifiers (1/64 steps).
+
+Deliverable: alcove_hardware_re.md, with every fact labelled STATIC / OBSERVED / INFERRED / UNVERIFIED with addresses and evidence, plus alcove_hardware_evidence.zip (scripts, disassembly excerpts, clips, screenshots).

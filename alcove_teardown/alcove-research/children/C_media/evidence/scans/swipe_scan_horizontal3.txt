@@ -1,0 +1,28 @@
+== horiz dx=76  pos_before=14.904999732971
+1791740005.405 swipeseq ended cum=(76.0,0.0)
+after: playing, 16.325000762939 A Very Long 
+1791740006.672 width=234 left=683 height=33
+== horiz dx=80  pos_before=18.524000167847
+1791740008.995 swipeseq ended cum=(80.0,0.0)
+after: playing, 19.906000137329 A Very Long 
+1791740010.251 width=234 left=683 height=33
+== horiz dx=90  pos_before=22.099000930786
+1791740012.596 swipeseq ended cum=(90.0,0.0)
+after: playing, 23.524000167847 A Very Long 
+1791740013.864 width=234 left=683 height=33
+== horiz dx=120  pos_before=25.724000930786
+1791740016.225 swipeseq ended cum=(120.0,0.0)
+after: playing, 27.139999389648 A Very Long 
+1791740017.492 width=234 left=683 height=33
+== horiz dx=-80  pos_before=29.354999542236
+1791740019.851 swipeseq ended cum=(-80.0,0.0)
+after: playing, 0.950999975204 A Very Long 
+1791740021.100 width=234 left=683 height=33
+== horiz dx=-120  pos_before=3.154000043869
+1791740023.462 swipeseq ended cum=(-120.0,0.0)
+after: playing, 0.976000010967 A Very Long 
+1791740024.715 width=234 left=683 height=33
+== horiz dx=-200  pos_before=3.174999952316
+1791740027.055 swipeseq ended cum=(-200.0,0.0)
+after: playing, 0.994000017643 A Very Long 
+1791740028.321 width=234 left=683 height=33

@@ -1,0 +1,15 @@
+            ; ICOD XREF from sym.func.10012f148 @ 0x10012f4bc(r)
+            ; ICOD XREF from sym.func.1001528c8 @ 0x100152ad8(r)
+/ 44: sym.func.100152a3c ();
+| afv: vars(2:sp[0x8..0x10])
+|           0x100152a3c      fd7bbfa9       stp x29, x30, [var_10h]!
+|           0x100152a40      fd030091       mov x29, sp
+|           0x100152a44      881f00d0       adrp x8, 0x100544000
+|           0x100152a48      08412591       add x8, x8, 0x950          ; 0x100544950 ; "powersourcechanged"
+|           0x100152a4c      088100d1       sub x8, x8, 0x20
+|           0x100152a50      010141b2       orr x1, x8, 0x8000000000000000
+|           0x100152a54      400280d2       mov x0, 0x12
+|           0x100152a58      0000faf2       movk x0, 0xd000, lsl 48
+|           0x100152a5c      9fe40b94       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+|           0x100152a60      88250090       adrp x8, 0x100602000
+\           0x100152a64      006907f9       str x0, [x8, 0xed0]

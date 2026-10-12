@@ -1,0 +1,46 @@
+            ; XREFS: CALL 0x100311e40  CALL 0x100312360  CALL 0x100312374  
+            ; XREFS: CALL 0x1003123d0  CALL 0x100312664  CALL 0x100312c6c  
+            ; XREFS: CALL 0x100312cf0  CALL 0x100312fc4  CALL 0x100314588  
+            ; XREFS: CALL 0x10031459c  
+/ 144: sym.func.1003c4c18 (int64_t arg1);
+| `- args(x20, x0) vars(5:sp[0x8..0x28])
+|           0x1003c4c18      ffc300d1       sub sp, sp, 0x30
+|           0x1003c4c1c      fd7b02a9       stp x29, x30, [var_20h]
+|           0x1003c4c20      fd830091       add x29, sp, 0x20
+|           0x1003c4c24      680f00d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1003c4c28      08c542f9       ldr x8, [x8, 0x588]        ; [0x1005b2588:8]=0x80100000000002d2 ; reloc.__stack_chk_guard
+|           0x1003c4c2c      080140f9       ldr x8, [x8]
+|           0x1003c4c30      a8831ff8       stur x8, [var_8h]
+|           0x1003c4c34      880500b0       adrp x8, 0x100475000
+|           0x1003c4c38      00c545fd       ldr d0, [x8, 0xb88]
+|           0x1003c4c3c      e00700fd       str d0, [var_sp_8h]
+|           0x1003c4c40      ff1300b9       str wzr, [var_10h]         ; arg1
+|           0x1003c4c44      801240b9       ldr w0, [x20, 0x10]        ; self
+|           0x1003c4c48      e1230091       add x1, sp, 8
+|           0x1003c4c4c      a3200294       bl sym.imp.AudioObjectHasProperty
+|       ,=< 0x1003c4c50      20010034       cbz w0, 0x1003c4c74
+|       |   0x1003c4c54      e00740f9       ldr x0, [var_sp_8h]        ; int64_t arg1
+|       |   0x1003c4c58      e11340b9       ldr w1, [var_10h]          ; int64_t arg2
+|       |   0x1003c4c5c      02008052       mov w2, 0                  ; int64_t arg3
+|       |   0x1003c4c60      b3f7ff97       bl sym.func.1003c2b2c
+|       |   0x1003c4c64      081c6092       and x8, x0, 0xff00000000
+|       |   0x1003c4c68      2900c0d2       mov x9, sym.__mh_execute_header ; 0x100000000
+|       |   0x1003c4c6c      1f0109eb       cmp x8, x9
+|      ,==< 0x1003c4c70      61000054       b.ne 0x1003c4c7c
+|      ||   ; CODE XREF from sym.func.1003c4c18 @ 0x1003c4c50(x)
+|      |`-> 0x1003c4c74      00028052       mov w0, 0x10
+|      |,=< 0x1003c4c78      02000014       b 0x1003c4c80
+|      ||   ; CODE XREF from sym.func.1003c4c18 @ 0x1003c4c70(x)
+|      `--> 0x1003c4c7c      1d270094       bl sym.func.1003ce8f0
+|       |   ; CODE XREF from sym.func.1003c4c18 @ 0x1003c4c78(x)
+|       `-> 0x1003c4c80      a8835ff8       ldur x8, [var_8h]
+|           0x1003c4c84      690f00d0       adrp x9, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1003c4c88      29c542f9       ldr x9, [x9, 0x588]        ; [0x1005b2588:8]=0x80100000000002d2 ; reloc.__stack_chk_guard
+|           0x1003c4c8c      290140f9       ldr x9, [x9]
+|           0x1003c4c90      3f0108eb       cmp x9, x8
+|       ,=< 0x1003c4c94      81000054       b.ne 0x1003c4ca4
+|       |   0x1003c4c98      fd7b42a9       ldp x29, x30, [var_20h]
+|       |   0x1003c4c9c      ffc30091       add sp, sp, 0x30           ; 0x178000
+|       |   0x1003c4ca0      c0035fd6       ret
+|       |   ; CODE XREF from sym.func.1003c4c18 @ 0x1003c4c94(x)
+\       `-> 0x1003c4ca4      fb210294       bl sym.imp.__stack_chk_fail ; void __stack_chk_fail(void)

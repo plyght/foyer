@@ -1,0 +1,207 @@
+            ; XREFS: CALL 0x100118d90  CALL 0x1001190c0  CALL 0x10011a9c0  
+            ; XREFS: CALL 0x10011aec8  CALL 0x100122f34  CALL 0x100136cd0  
+            ; XREFS: CALL 0x1001370a4  
+/ 716: sym.func.100122c40 (int64_t arg1);
+| `- args(x21, x0) vars(6:sp[0x8..0x30])
+|           0x100122c40      f657bda9       stp x22, x21, [var_30h]!
+|           0x100122c44      f44f01a9       stp x20, x19, [var_10h]
+|           0x100122c48      fd7b02a9       stp x29, x30, [var_20h]
+|           0x100122c4c      fd830091       add x29, sp, 0x20
+|           0x100122c50      f40300aa       mov x20, x0                ; arg1
+|           0x100122c54      64feff97       bl sym.func.1001225e4
+|           0x100122c58      080840f9       ldr x8, [x0, 0x10]
+|           0x100122c5c      1f0500f1       cmp x8, 1
+|       ,=< 0x100122c60      a1000054       b.ne 0x100122c74
+|       |   0x100122c64      142040b9       ldr w20, [x0, 0x20]
+|       |   0x100122c68      dcaa0c94       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+|       |   0x100122c6c      080080d2       mov x8, 0
+|      ,==< 0x100122c70      a1000014       b 0x100122ef4
+|      ||   ; CODE XREF from sym.func.100122c40 @ 0x100122c60(x)
+|      |`-> 0x100122c74      d9aa0c94       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+|      |    0x100122c78      881e6092       and x8, x20, 0xff00000000
+|      |    0x100122c7c      2900c0d2       mov x9, sym.__mh_execute_header ; 0x100000000
+|      |    0x100122c80      1f0109eb       cmp x8, x9
+|      |,=< 0x100122c84      01030054       b.ne 0x100122ce4
+|      ||   0x100122c88      61250090       adrp x1, 0x1005ce000
+|      ||   0x100122c8c      21203191       add x1, x1, 0xc48          ; int64_t arg2
+|      ||   0x100122c90      82240090       adrp x2, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|      ||   0x100122c94      42002391       add x2, x2, 0x8c0
+|      ||   0x100122c98      000080d2       mov x0, 0                  ; int64_t arg1
+|      ||   0x100122c9c      b51ffd97       bl sym.func.10006ab70
+|      ||   0x100122ca0      f30300aa       mov x19, x0
+|     ,===< 0x100122ca4      d4020034       cbz w20, 0x100122cfc
+|     |||   0x100122ca8      9f060071       cmp w20, 1
+|    ,====< 0x100122cac      21040054       b.ne 0x100122d30
+|    ||||   0x100122cb0      f40313aa       mov x20, x19
+|    ||||   0x100122cb4      30a50394       bl sym.func.10020c174
+|   ,=====< 0x100122cb8      c00800b4       cbz x0, 0x100122dd0
+|   |||||   0x100122cbc      f50300aa       mov x21, x0                ; error
+|   |||||   0x100122cc0      f40300aa       mov x20, x0
+|   |||||   0x100122cc4      1aa60394       bl sym.func.10020c52c
+|   |||||   0x100122cc8      081c6092       and x8, x0, 0xff00000000
+|   |||||   0x100122ccc      2900c0d2       mov x9, sym.__mh_execute_header ; 0x100000000
+|   |||||   0x100122cd0      1f0109eb       cmp x8, x9
+|  ,======< 0x100122cd4      21070054       b.ne 0x100122db8
+|  ||||||   0x100122cd8      e00315aa       mov x0, x21                ; void *instance
+|  ||||||   0x100122cdc      71aa0c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ,=======< 0x100122ce0      3c000014       b 0x100122dd0
+| |||||||   ; CODE XREF from sym.func.100122c40 @ 0x100122c84(x)
+| ||||||`-> 0x100122ce4      e00314aa       mov x0, x20
+| ||||||    0x100122ce8      75a90c94       bl sym.imp.DisplayServicesCanChangeBrightness
+| ||||||    0x100122cec      1f000071       cmp w0, 0
+| ||||||    0x100122cf0      94129f1a       csel w20, w20, wzr, ne
+| ||||||    0x100122cf4      08000052       eor w8, w0, 1
+| ||||||,=< 0x100122cf8      7f000014       b 0x100122ef4
+| |||||||   ; CODE XREF from sym.func.100122c40 @ 0x100122ca4(x)
+| ||||`---> 0x100122cfc      f40313aa       mov x20, x19
+| |||| ||   0x100122d00      1da50394       bl sym.func.10020c174
+| ||||,===< 0x100122d04      800900b4       cbz x0, 0x100122e34
+| |||||||   0x100122d08      f50300aa       mov x21, x0                ; error
+| |||||||   0x100122d0c      f40300aa       mov x20, x0
+| |||||||   0x100122d10      07a60394       bl sym.func.10020c52c
+| |||||||   0x100122d14      081c6092       and x8, x0, 0xff00000000
+| |||||||   0x100122d18      2900c0d2       mov x9, sym.__mh_execute_header ; 0x100000000
+| |||||||   0x100122d1c      1f0109eb       cmp x8, x9
+| ========< 0x100122d20      e1070054       b.ne 0x100122e1c
+| |||||||   0x100122d24      e00315aa       mov x0, x21                ; void *instance
+| |||||||   0x100122d28      5eaa0c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ========< 0x100122d2c      42000014       b 0x100122e34
+| |||||||   ; CODE XREF from sym.func.100122c40 @ 0x100122cac(x)
+| |||`----> 0x100122d30      f40313aa       mov x20, x19
+| ||| |||   0x100122d34      57a60394       bl sym.func.10020c690
+| |||,====< 0x100122d38      a00100b4       cbz x0, 0x100122d6c
+| |||||||   0x100122d3c      f50300aa       mov x21, x0                ; error
+| |||||||   0x100122d40      f40300aa       mov x20, x0
+| |||||||   0x100122d44      aaa50394       bl sym.func.10020c3ec
+| ========< 0x100122d48      e0000037       tbnz w0, 0, 0x100122d64
+| |||||||   0x100122d4c      f40315aa       mov x20, x21
+| |||||||   0x100122d50      f7a50394       bl sym.func.10020c52c
+| |||||||   0x100122d54      081c6092       and x8, x0, 0xff00000000
+| |||||||   0x100122d58      2900c0d2       mov x9, sym.__mh_execute_header ; 0x100000000
+| |||||||   0x100122d5c      1f0109eb       cmp x8, x9
+| ========< 0x100122d60      c1090054       b.ne 0x100122e98
+| |||||||   ; CODE XREF from sym.func.100122c40 @ 0x100122d48(x)
+| --------> 0x100122d64      e00315aa       mov x0, x21                ; void *instance
+| |||||||   0x100122d68      4eaa0c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| |||||||   ; CODE XREFS from sym.func.100122c40 @ 0x100122d38(x), 0x100122eac(x)
+| ---`----> 0x100122d6c      defeff97       bl sym.func.1001228e4
+| ||| |||   0x100122d70      081c6092       and x8, x0, 0xff00000000
+| ||| |||   0x100122d74      2900c0d2       mov x9, sym.__mh_execute_header ; 0x100000000
+| ||| |||   0x100122d78      1f0109eb       cmp x8, x9
+| |||,====< 0x100122d7c      a1040054       b.ne 0x100122e10
+| |||||||   0x100122d80      f40313aa       mov x20, x19
+| |||||||   0x100122d84      fca40394       bl sym.func.10020c174
+| |||||||   0x100122d88      f40300aa       mov x20, x0
+| ========< 0x100122d8c      200800b4       cbz x0, 0x100122e90
+| |||||||   0x100122d90      e7a50394       bl sym.func.10020c52c
+| |||||||   0x100122d94      081c6092       and x8, x0, 0xff00000000
+| |||||||   0x100122d98      2900c0d2       mov x9, sym.__mh_execute_header ; 0x100000000
+| |||||||   0x100122d9c      1f0109eb       cmp x8, x9
+| ========< 0x100122da0      a1080054       b.ne 0x100122eb4
+| |||||||   0x100122da4      e00314aa       mov x0, x20                ; void *instance
+| |||||||   0x100122da8      3eaa0c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| |||||||   0x100122dac      14008052       mov w20, 0
+| |||||||   0x100122db0      28008052       mov w8, 1
+| ========< 0x100122db4      50000014       b 0x100122ef4
+| |||||||   ; CODE XREF from sym.func.100122c40 @ 0x100122cd4(x)
+| |`------> 0x100122db8      f40300aa       mov x20, x0
+| | |||||   0x100122dbc      40a90c94       bl sym.imp.DisplayServicesCanChangeBrightness
+| | |||||   0x100122dc0      f60300aa       mov x22, x0
+| | |||||   0x100122dc4      e00315aa       mov x0, x21                ; void *instance
+| | |||||   0x100122dc8      36aa0c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| |,======< 0x100122dcc      36090037       tbnz w22, 0, 0x100122ef0
+| |||||||   ; CODE XREFS from sym.func.100122c40 @ 0x100122cb8(x), 0x100122ce0(x)
+| `-`-----> 0x100122dd0      f40313aa       mov x20, x19
+|  | ||||   0x100122dd4      2fa60394       bl sym.func.10020c690
+|  |,=====< 0x100122dd8      a00100b4       cbz x0, 0x100122e0c
+|  ||||||   0x100122ddc      f30300aa       mov x19, x0
+|  ||||||   0x100122de0      f40300aa       mov x20, x0
+|  ||||||   0x100122de4      82a50394       bl sym.func.10020c3ec
+| ,=======< 0x100122de8      e0000037       tbnz w0, 0, 0x100122e04
+| |||||||   0x100122dec      f40313aa       mov x20, x19
+| |||||||   0x100122df0      cfa50394       bl sym.func.10020c52c
+| |||||||   0x100122df4      081c6092       and x8, x0, 0xff00000000
+| |||||||   0x100122df8      2900c0d2       mov x9, sym.__mh_execute_header ; 0x100000000
+| |||||||   0x100122dfc      1f0109eb       cmp x8, x9
+| ========< 0x100122e00      c1060054       b.ne 0x100122ed8
+| |||||||   ; CODE XREF from sym.func.100122c40 @ 0x100122de8(x)
+| `-------> 0x100122e04      e00313aa       mov x0, x19                ; void *instance
+|  ||||||   0x100122e08      26aa0c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|  ||||||   ; CODE XREFS from sym.func.100122c40 @ 0x100122dd8(x), 0x100122eec(x)
+| .-`-----> 0x100122e0c      b6feff97       bl sym.func.1001228e4
+| :| ||||   ; CODE XREF from sym.func.100122c40 @ 0x100122d7c(x)
+| :| `----> 0x100122e10      08fc60d3       lsr x8, x0, 0x20
+| :|  |||   0x100122e14      f40300aa       mov x20, x0
+| :| ,====< 0x100122e18      37000014       b 0x100122ef4
+| :| ||||   ; CODE XREF from sym.func.100122c40 @ 0x100122d20(x)
+| --------> 0x100122e1c      f40300aa       mov x20, x0
+| :| ||||   0x100122e20      27a90c94       bl sym.imp.DisplayServicesCanChangeBrightness
+| :| ||||   0x100122e24      f60300aa       mov x22, x0
+| :| ||||   0x100122e28      e00315aa       mov x0, x21                ; void *instance
+| :| ||||   0x100122e2c      1daa0c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| :|,=====< 0x100122e30      16060037       tbnz w22, 0, 0x100122ef0
+| :||||||   ; CODE XREFS from sym.func.100122c40 @ 0x100122d04(x), 0x100122d2c(x)
+| ----`---> 0x100122e34      f40313aa       mov x20, x19
+| :||| ||   0x100122e38      16a60394       bl sym.func.10020c690
+| :|||,===< 0x100122e3c      200200b4       cbz x0, 0x100122e80
+| :||||||   0x100122e40      f30300aa       mov x19, x0
+| :||||||   0x100122e44      f40300aa       mov x20, x0
+| :||||||   0x100122e48      b9a50394       bl sym.func.10020c52c
+| :||||||   0x100122e4c      081c6092       and x8, x0, 0xff00000000
+| :||||||   0x100122e50      2900c0d2       mov x9, sym.__mh_execute_header ; 0x100000000
+| :||||||   0x100122e54      1f0109eb       cmp x8, x9
+| ========< 0x100122e58      81000054       b.ne 0x100122e68
+| :||||||   0x100122e5c      e00313aa       mov x0, x19                ; void *instance
+| :||||||   0x100122e60      10aa0c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ========< 0x100122e64      07000014       b 0x100122e80
+| :||||||   ; CODE XREF from sym.func.100122c40 @ 0x100122e58(x)
+| --------> 0x100122e68      f40300aa       mov x20, x0
+| :||||||   0x100122e6c      14a90c94       bl sym.imp.DisplayServicesCanChangeBrightness
+| :||||||   0x100122e70      f50300aa       mov x21, x0                ; error
+| :||||||   0x100122e74      e00313aa       mov x0, x19                ; void *instance
+| :||||||   0x100122e78      0aaa0c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ========< 0x100122e7c      b5030037       tbnz w21, 0, 0x100122ef0
+| :||||||   ; CODE XREFS from sym.func.100122c40 @ 0x100122e3c(x), 0x100122e64(x)
+| ----`---> 0x100122e80      99feff97       bl sym.func.1001228e4
+| :||| ||   0x100122e84      f40300aa       mov x20, x0
+| :||| ||   0x100122e88      08fc60d3       lsr x8, x0, 0x20
+| :|||,===< 0x100122e8c      1a000014       b 0x100122ef4
+| :||||||   ; CODE XREF from sym.func.100122c40 @ 0x100122d8c(x)
+| --------> 0x100122e90      28008052       mov w8, 1
+| ========< 0x100122e94      18000014       b 0x100122ef4
+| :||||||   ; CODE XREF from sym.func.100122c40 @ 0x100122d60(x)
+| --------> 0x100122e98      f40300aa       mov x20, x0
+| :||||||   0x100122e9c      08a90c94       bl sym.imp.DisplayServicesCanChangeBrightness
+| :||||||   0x100122ea0      f60300aa       mov x22, x0
+| :||||||   0x100122ea4      e00315aa       mov x0, x21                ; void *instance
+| :||||||   0x100122ea8      fea90c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ========< 0x100122eac      16f60736       tbz w22, 0, 0x100122d6c
+| ========< 0x100122eb0      10000014       b 0x100122ef0
+| :||||||   ; CODE XREF from sym.func.100122c40 @ 0x100122da0(x)
+| --------> 0x100122eb4      f30300aa       mov x19, x0
+| :||||||   0x100122eb8      01a90c94       bl sym.imp.DisplayServicesCanChangeBrightness
+| :||||||   0x100122ebc      f50300aa       mov x21, x0                ; error
+| :||||||   0x100122ec0      e00314aa       mov x0, x20                ; void *instance
+| :||||||   0x100122ec4      f7a90c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| :||||||   0x100122ec8      bf020071       cmp w21, 0
+| :||||||   0x100122ecc      74129f1a       csel w20, w19, wzr, ne
+| :||||||   0x100122ed0      a8020052       eor w8, w21, 1
+| ========< 0x100122ed4      08000014       b 0x100122ef4
+| :||||||   ; CODE XREF from sym.func.100122c40 @ 0x100122e00(x)
+| --------> 0x100122ed8      f40300aa       mov x20, x0
+| :||||||   0x100122edc      f8a80c94       bl sym.imp.DisplayServicesCanChangeBrightness
+| :||||||   0x100122ee0      f50300aa       mov x21, x0                ; error
+| :||||||   0x100122ee4      e00313aa       mov x0, x19                ; void *instance
+| :||||||   0x100122ee8      eea90c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| `=======< 0x100122eec      15f90736       tbz w21, 0, 0x100122e0c
+|  ||||||   ; CODE XREFS from sym.func.100122c40 @ 0x100122dcc(x), 0x100122e30(x), 0x100122e7c(x), 0x100122eb0(x)
+| -``-----> 0x100122ef0      080080d2       mov x8, 0
+|    ||||   ; XREFS: CODE 0x100122c70  CODE 0x100122cf8  CODE 0x100122db4  
+|    ||||   ; XREFS: CODE 0x100122e18  CODE 0x100122e8c  CODE 0x100122e94  
+|    ||||   ; XREFS: CODE 0x100122ed4  
+| ---````-> 0x100122ef4      e003142a       mov w0, w20
+|           0x100122ef8      001d60b3       bfi x0, x8, 0x20, 8
+|           0x100122efc      fd7b42a9       ldp x29, x30, [var_20h]
+|           0x100122f00      f44f41a9       ldp x20, x19, [var_10h]
+|           0x100122f04      f657c3a8       ldp x22, x21, [sp], 0x30
+\           0x100122f08      c0035fd6       ret

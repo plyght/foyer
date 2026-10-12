@@ -1,0 +1,242 @@
+[
+ [
+  "Launch at login",
+  "checked=true",
+  {
+   "launchAtLogin": [
+    null,
+    true
+   ]
+  },
+  {
+   "launchAtLogin": [
+    true,
+    false
+   ]
+  }
+ ],
+ [
+  "Hide in fullscreen",
+  "checked=false",
+  {
+   "hideWhileInFullscreen": [
+    null,
+    false
+   ]
+  },
+  {
+   "hideWhileInFullscreen": [
+    false,
+    true
+   ]
+  }
+ ],
+ [
+  "Hide in mission control",
+  "checked=false",
+  {
+   "hideWhileInMissionControl": [
+    null,
+    false
+   ]
+  },
+  {
+   "hideWhileInMissionControl": [
+    false,
+    true
+   ]
+  }
+ ],
+ [
+  "Hide while gaming",
+  "checked=true",
+  {
+   "hideWhileGaming": [
+    null,
+    true
+   ]
+  },
+  {
+   "hideWhileGaming": [
+    true,
+    false
+   ]
+  }
+ ],
+ [
+  "Hide from screen capture",
+  "checked=true",
+  {
+   "hideFromScreenCapture": [
+    null,
+    true
+   ]
+  },
+  {
+   "hideFromScreenCapture": [
+    true,
+    false
+   ]
+  }
+ ],
+ [
+  "Most Recent",
+  "checked=true",
+  {
+   "mostRecentActivity": [
+    null,
+    true
+   ]
+  },
+  {
+   "mostRecentActivity": [
+    true,
+    false
+   ]
+  }
+ ],
+ [
+  "Contrast outline",
+  "checked=false",
+  {
+   "contrastOutline": [
+    null,
+    false
+   ]
+  },
+  {
+   "contrastOutline": [
+    false,
+    true
+   ]
+  }
+ ],
+ [
+  "Progressive blur",
+  "checked=false",
+  {
+   "progressiveBlur": [
+    null,
+    false
+   ]
+  },
+  {
+   "progressiveBlur": [
+    false,
+    true
+   ]
+  }
+ ],
+ [
+  "Haptic feedback",
+  "checked=false",
+  {
+   "enableHaptics": [
+    null,
+    false
+   ]
+  },
+  {
+   "enableHaptics": [
+    false,
+    true
+   ]
+  }
+ ],
+ [
+  "Expand on hover",
+  "checked=true",
+  {
+   "expandNotchOnHover": [
+    null,
+    true
+   ]
+  },
+  {
+   "expandNotchOnHover": [
+    true,
+    false
+   ]
+  }
+ ],
+ [
+  "Natural movement",
+  "checked=true",
+  {
+   "naturalMovement": [
+    null,
+    true
+   ]
+  },
+  {
+   "naturalMovement": [
+    true,
+    false
+   ]
+  }
+ ],
+ [
+  "Swipe to toggle open",
+  "checked=false",
+  {
+   "swipeToToggle": [
+    null,
+    false
+   ]
+  },
+  {
+   "swipeToToggle": [
+    false,
+    true
+   ]
+  }
+ ],
+ [
+  "Swipe to cycle activity",
+  "checked=false",
+  {
+   "swipeToCycleActivity": [
+    null,
+    false
+   ]
+  },
+  {
+   "swipeToCycleActivity": [
+    false,
+    true
+   ]
+  }
+ ],
+ [
+  "Swipe to dismiss activity",
+  "checked=false",
+  {
+   "swipeToDismiss": [
+    null,
+    false
+   ]
+  },
+  {
+   "swipeToDismiss": [
+    false,
+    true
+   ]
+  }
+ ],
+ [
+  "Swipe to skip media",
+  "checked=false",
+  {
+   "swipeToSkip": [
+    null,
+    false
+   ]
+  },
+  {
+   "swipeToSkip": [
+    false,
+    true
+   ]
+  }
+ ]
+]

@@ -1,0 +1,29 @@
+{
+  "BuildMachineOSBuild" => "26A5368g"
+  "CFBundleDevelopmentRegion" => "en"
+  "CFBundleDisplayName" => "AlcoveHelper"
+  "CFBundleExecutable" => "AlcoveHelper"
+  "CFBundleIconFile" => "AppIcon"
+  "CFBundleIconName" => "AppIcon"
+  "CFBundleIdentifier" => "com.apple.controlcenter.AlcoveHelper"
+  "CFBundleInfoDictionaryVersion" => "6.0"
+  "CFBundleName" => "AlcoveHelper"
+  "CFBundlePackageType" => "XPC!"
+  "CFBundleShortVersionString" => "1.0"
+  "CFBundleSupportedPlatforms" => [
+    0 => "MacOSX"
+  ]
+  "CFBundleVersion" => "1"
+  "DTCompiler" => "com.apple.compilers.llvm.clang.1_0"
+  "DTPlatformBuild" => "26A5368f"
+  "DTPlatformName" => "macosx"
+  "DTPlatformVersion" => "27.0"
+  "DTSDKBuild" => "26A5368f"
+  "DTSDKName" => "macosx27.0"
+  "DTXcode" => "2700"
+  "DTXcodeBuild" => "27A5209h"
+  "LSMinimumSystemVersion" => "15.0"
+  "XPCService" => {
+    "ServiceType" => "Application"
+  }
+}

@@ -1,0 +1,18 @@
+1791741477.413 width=234 left=683 height=33
+L [119.  96. 149.] R [35. 22. 31.] -> L [119.  96. 149.] R [35. 22. 31.] diffpix 0
+track: A Very Long Song Title That Should Definitely Overflow The Marquee Label -> A Very Long Song Title That Should Definitely Overflow The Marquee Label
+1791741482.553 width=234 left=683 height=33
+L [119.  96. 149.] R [35. 22. 31.] -> L [119.  96. 149.] R [35. 22. 31.] diffpix 0
+track: A Very Long Song Title That Should Definitely Overflow The Marquee Label -> A Very Long Song Title That Should Definitely Overflow The Marquee Label
+1791741487.611 width=234 left=683 height=33
+L [119.  96. 149.] R [36. 22. 32.] -> L [119.  96. 149.] R [36. 22. 32.] diffpix 0
+track: A Very Long Song Title That Should Definitely Overflow The Marquee Label -> A Very Long Song Title That Should Definitely Overflow The Marquee Label
+1791741492.727 width=234 left=683 height=33
+L [119.  96. 149.] R [36. 22. 32.] -> L [119.  96. 149.] R [36. 22. 32.] diffpix 0
+track: A Very Long Song Title That Should Definitely Overflow The Marquee Label -> A Very Long Song Title That Should Definitely Overflow The Marquee Label
+1791741497.943 width=234 left=683 height=33
+L [119.  96. 149.] R [36. 22. 32.] -> L [119.  96. 149.] R [36. 22. 32.] diffpix 0
+track: A Very Long Song Title That Should Definitely Overflow The Marquee Label -> A Very Long Song Title That Should Definitely Overflow The Marquee Label
+1791741503.280 width=234 left=683 height=33
+L [119.  96. 149.] R [36. 22. 32.] -> L [119.  96. 149.] R [36. 22. 32.] diffpix 0
+track: A Very Long Song Title That Should Definitely Overflow The Marquee Label -> A Very Long Song Title That Should Definitely Overflow The Marquee Label

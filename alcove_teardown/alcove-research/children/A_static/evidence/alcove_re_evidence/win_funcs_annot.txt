@@ -1,0 +1,1070 @@
+  ; CALL XREF from method.Alcove.LockPanel.initWithContentRect:styleMask:backing:defer: @ 0x1000eff48(x)
+296: sym.func.1000efe04 (int64_t arg1, int64_t arg2, int64_t arg3, double arg4, double arg5, double arg6, double arg7);
+`- args(x20, x21, x0, x1, x2, d0, d1, d2, d3) vars(12:sp[0x8..0x60])
+0x1000efe04      sub sp, sp, 0x60
+0x1000efe08      stp d11, d10, [var_10h]
+0x1000efe0c      stp d9, d8, [var_20h]
+0x1000efe10      stp x22, x21, [var_30h]
+0x1000efe14      stp x20, x19, [var_40h]
+0x1000efe18      stp x29, x30, [var_50h]
+0x1000efe1c      add x29, sp, 0x50
+0x1000efe20      mov x19, x2                                           ; arg3
+0x1000efe24      mov x21, x1                                           ; error
+0x1000efe28      mov x22, x0                                           ; arg1
+0x1000efe2c      mov v8.16b, v3.16b                                    ; arg7
+0x1000efe30      mov v9.16b, v2.16b                                    ; arg6
+0x1000efe34      mov v10.16b, v1.16b                                   ; arg5
+0x1000efe38      mov v11.16b, v0.16b                                   ; arg4
+0x1000efe3c      mov x0, x20                                           ; self
+0x1000efe40      bl sym.imp.swift_getObjectType
+0x1000efe44      stp x20, x0, [sp]
+0x1000efe48      adrp x8, 0x1005c4000
+0x1000efe4c      ldr x1, [x8, 0x7b0]                                   ; [0x100558520:8]=0x6874695774696e69 ; "initWithContentRect:styleMask:backing:defer:" ; char *selector
+0x1000efe50      mov x0, sp                                            ; void *instance
+0x1000efe54      and w4, w19, 1
+0x1000efe58      mov v0.16b, v11.16b
+0x1000efe5c      mov v1.16b, v10.16b
+0x1000efe60      mov x2, x22
+0x1000efe64      mov v2.16b, v9.16b
+0x1000efe68      mov v3.16b, v8.16b
+0x1000efe6c      mov x3, x21
+0x1000efe70      bl sym.imp.objc_msgSendSuper2                         ; void *objc_msgSendSuper2(void *instance, char *selector)
+0x1000efe74      mov x29, x29
+0x1000efe78      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x1000efe7c      mov x19, x0
+0x1000efe80      mov w2, 0
+0x1000efe84      bl fcn.100451c80   ; objc_msgSend$setHasShadow:
+0x1000efe88      adrp x8, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x1000efe8c      ldr x0, [x8, 0x840]                                   ; [0x1005b2840:8]=0
+                                                                       ; reloc.NSColor ; void *arg0
+0x1000efe90      bl sym.imp.objc_opt_self                              ; void *objc_opt_self(void *arg0)
+0x1000efe94      bl fcn.10044e8c0   ; objc_msgSend$clearColor
+0x1000efe98      mov x29, x29
+0x1000efe9c      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x1000efea0      mov x20, x0
+0x1000efea4      mov x0, x19
+0x1000efea8      mov x2, x20
+0x1000efeac      bl fcn.100451560   ; objc_msgSend$setBackgroundColor:
+0x1000efeb0      mov x0, x20                                           ; void *instance
+0x1000efeb4      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1000efeb8      mov x0, x19
+0x1000efebc      mov w2, 0
+0x1000efec0      bl fcn.1004520c0   ; objc_msgSend$setOpaque:
+0x1000efec4      mov x0, x19
+0x1000efec8      mov w2, 0
+0x1000efecc      bl fcn.100451f40   ; objc_msgSend$setMovable:
+0x1000efed0      mov x0, x19
+0x1000efed4      mov w2, 1
+0x1000efed8      bl fcn.1004516c0   ; objc_msgSend$setCanBecomeVisibleWithoutLogin:
+0x1000efedc      mov x0, x19
+0x1000efee0      mov w2, 2
+0x1000efee4      bl fcn.100451420   ; objc_msgSend$setAnimationBehavior:
+0x1000efee8      bl sym.imp.CGShieldingWindowLevel
+0x1000efeec      sxtw x2, w0
+0x1000efef0      mov x0, x19
+0x1000efef4      bl fcn.100451de0   ; objc_msgSend$setLevel:
+0x1000efef8      mov x0, x19                                           ; void *instance
+0x1000efefc      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1000eff00      mov x0, x19
+0x1000eff04      mov w2, 0x151
+0x1000eff08      bl fcn.1004516e0   ; objc_msgSend$setCollectionBehavior:
+0x1000eff0c      mov x0, x19
+0x1000eff10      ldp x29, x30, [var_50h]
+0x1000eff14      ldp x20, x19, [var_40h]
+0x1000eff18      ldp x22, x21, [var_30h]
+0x1000eff1c      ldp d9, d8, [var_20h]
+0x1000eff20      ldp d11, d10, [var_10h]
+0x1000eff24      add sp, sp, 0x60                                      ; 0x178000
+0x1000eff28      ret
+  ; CALL XREF from method.Alcove.NotchPanel.initWithContentRect:styleMask:backing:defer: @ 0x100267de8(x)
+392: sym.func.100267c44 (int64_t arg1, int64_t arg2, int64_t arg3, double arg4, double arg5, double arg6, double arg7);
+`- args(x20, x21, x0, x1, x2, d0, d1, d2, d3) vars(17:sp[0x8..0x88])
+0x100267c44      sub sp, sp, 0x90
+0x100267c48      stp d11, d10, [var_30h]
+0x100267c4c      stp d9, d8, [var_40h]
+0x100267c50      stp x24, x23, [var_50h]
+0x100267c54      stp x22, x21, [var_60h]
+0x100267c58      stp x20, x19, [var_70h]
+0x100267c5c      stp x29, x30, [var_80h]
+0x100267c60      add x29, sp, 0x80
+0x100267c64      mov x19, x2                                           ; arg3
+0x100267c68      mov x21, x1                                           ; error
+0x100267c6c      mov x22, x0                                           ; arg1
+0x100267c70      mov v8.16b, v3.16b                                    ; arg7
+0x100267c74      mov v9.16b, v2.16b                                    ; arg6
+0x100267c78      mov v10.16b, v1.16b                                   ; arg5
+0x100267c7c      mov v11.16b, v0.16b                                   ; arg4
+0x100267c80      mov x0, x20                                           ; self
+0x100267c84      bl sym.imp.swift_getObjectType
+0x100267c88      mov x23, x0
+0x100267c8c      adrp x8, 0x1005d5000
+0x100267c90      ldr x8, [x8, 0xb10]                                   ; [0x1005d5b10:8]=8
+                                                                       ; field.class.Alcove.NotchPanel.var.notchController
+0x100267c94      add x0, x20, x8                                       ; self
+0x100267c98      mov x1, 0
+0x100267c9c      bl sym.imp.swift_weakInit
+0x100267ca0      stp x20, x23, [instance]
+0x100267ca4      adrp x8, 0x1005c4000
+0x100267ca8      ldr x1, [x8, 0x7b0]                                   ; [0x100558520:8]=0x6874695774696e69 ; "initWithContentRect:styleMask:backing:defer:" ; char *selector
+0x100267cac      add x0, sp, 0x20                                      ; void *instance
+0x100267cb0      and w4, w19, 1
+0x100267cb4      mov v0.16b, v11.16b
+0x100267cb8      mov v1.16b, v10.16b
+0x100267cbc      mov x2, x22
+0x100267cc0      mov v2.16b, v9.16b
+0x100267cc4      mov v3.16b, v8.16b
+0x100267cc8      mov x3, x21
+0x100267ccc      bl sym.imp.objc_msgSendSuper2                         ; void *objc_msgSendSuper2(void *instance, char *selector)
+0x100267cd0      mov x29, x29
+0x100267cd4      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x100267cd8      mov x19, x0
+0x100267cdc      mov w2, 0
+0x100267ce0      bl fcn.100451c80   ; objc_msgSend$setHasShadow:
+0x100267ce4      adrp x8, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x100267ce8      ldr x0, [x8, 0x840]                                   ; [0x1005b2840:8]=0
+                                                                       ; reloc.NSColor ; void *arg0
+0x100267cec      bl sym.imp.objc_opt_self                              ; void *objc_opt_self(void *arg0)
+0x100267cf0      bl fcn.10044e8c0   ; objc_msgSend$clearColor
+0x100267cf4      mov x29, x29
+0x100267cf8      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x100267cfc      mov x20, x0
+0x100267d00      mov x0, x19
+0x100267d04      mov x2, x20
+0x100267d08      bl fcn.100451560   ; objc_msgSend$setBackgroundColor:
+0x100267d0c      mov x0, x20                                           ; void *instance
+0x100267d10      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100267d14      mov x0, x19
+0x100267d18      mov w2, 0
+0x100267d1c      bl fcn.1004520c0   ; objc_msgSend$setOpaque:
+0x100267d20      mov x0, x19
+0x100267d24      mov w2, 0
+0x100267d28      bl fcn.100451f40   ; objc_msgSend$setMovable:
+0x100267d2c      mov x0, x19
+0x100267d30      mov w2, 0
+0x100267d34      bl fcn.100452260   ; objc_msgSend$setReleasedWhenClosed:
+0x100267d38      mov w21, 1
+0x100267d3c      mov x0, x19
+0x100267d40      mov w2, 1
+0x100267d44      bl fcn.1004516c0   ; objc_msgSend$setCanBecomeVisibleWithoutLogin:
+0x100267d48      mov x0, x19
+0x100267d4c      mov w2, 2
+0x100267d50      bl fcn.100451420   ; objc_msgSend$setAnimationBehavior:
+0x100267d54      mov x0, 0
+0x100267d58      bl sym.func.10000aba0
+0x100267d5c      mov x20, x0
+0x100267d60      bl sym.imp.CGShieldingWindowLevel
+0x100267d64      sxtw x8, w0
+0x100267d68      stp x21, x8, [var_clob_8h]
+0x100267d6c      bl sym.func.10026817c
+0x100267d70      mov x3, x0
+0x100267d74      add x8, sp, 0x18
+0x100267d78      add x0, sp, 0x10
+0x100267d7c      add x1, sp, 8
+0x100267d80      mov x2, x20
+0x100267d84      bl sym.imp.AppKit._.addressorbool:_addressor__b_...D5ValueQztFZ_ ; AppKit._.addressorbool: addressor, b(...D5ValueQztFZ)
+0x100267d88      ldr x2, [var_18h]
+0x100267d8c      mov x0, x19
+0x100267d90      bl fcn.100451de0   ; objc_msgSend$setLevel:
+0x100267d94      mov x0, x19
+0x100267d98      mov w2, 0x151
+0x100267d9c      bl fcn.1004516e0   ; objc_msgSend$setCollectionBehavior:
+0x100267da0      mov x0, x19                                           ; void *instance
+0x100267da4      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100267da8      mov x0, x19
+0x100267dac      ldp x29, x30, [var_80h]
+0x100267db0      ldp x20, x19, [var_70h]
+0x100267db4      ldp x22, x21, [var_60h]
+0x100267db8      ldp x24, x23, [var_50h]
+0x100267dbc      ldp d9, d8, [var_40h]
+0x100267dc0      ldp d11, d10, [var_30h]
+0x100267dc4      add sp, sp, 0x90                                      ; 0x178000
+0x100267dc8      ret
+  ; CALL XREF from method.Alcove.NotchBackdropPanel.initWithContentRect:styleMask:backing:defer: @ 0x10026813c(x)
+380: sym.func.100267fa4 (int64_t arg1, int64_t arg2, int64_t arg3, double arg4, double arg5, double arg6, double arg7);
+`- args(x20, x21, x0, x1, x2, d0, d1, d2, d3) vars(12:sp[0x8..0x60])
+0x100267fa4      sub sp, sp, 0x60
+0x100267fa8      stp d11, d10, [var_10h]
+0x100267fac      stp d9, d8, [var_20h]
+0x100267fb0      stp x22, x21, [var_30h]
+0x100267fb4      stp x20, x19, [var_40h]
+0x100267fb8      stp x29, x30, [var_50h]
+0x100267fbc      add x29, sp, 0x50
+0x100267fc0      mov x19, x2                                           ; arg3
+0x100267fc4      mov x21, x1                                           ; error
+0x100267fc8      mov x22, x0                                           ; arg1
+0x100267fcc      mov v8.16b, v3.16b                                    ; arg7
+0x100267fd0      mov v9.16b, v2.16b                                    ; arg6
+0x100267fd4      mov v10.16b, v1.16b                                   ; arg5
+0x100267fd8      mov v11.16b, v0.16b                                   ; arg4
+0x100267fdc      mov x0, x20                                           ; self
+0x100267fe0      bl sym.imp.swift_getObjectType
+0x100267fe4      stp x20, x0, [sp]
+0x100267fe8      adrp x8, 0x1005c4000
+0x100267fec      ldr x1, [x8, 0x7b0]                                   ; [0x100558520:8]=0x6874695774696e69 ; "initWithContentRect:styleMask:backing:defer:" ; char *selector
+0x100267ff0      mov x0, sp                                            ; void *instance
+0x100267ff4      and w4, w19, 1
+0x100267ff8      mov v0.16b, v11.16b
+0x100267ffc      mov v1.16b, v10.16b
+0x100268000      mov x2, x22
+0x100268004      mov v2.16b, v9.16b
+0x100268008      mov v3.16b, v8.16b
+0x10026800c      mov x3, x21
+0x100268010      bl sym.imp.objc_msgSendSuper2                         ; void *objc_msgSendSuper2(void *instance, char *selector)
+0x100268014      mov x29, x29
+0x100268018      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x10026801c      mov x19, x0
+0x100268020      mov w2, 0
+0x100268024      bl fcn.100451c80   ; objc_msgSend$setHasShadow:
+0x100268028      adrp x8, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x10026802c      ldr x0, [x8, 0x840]                                   ; [0x1005b2840:8]=0
+                                                                       ; reloc.NSColor ; void *arg0
+0x100268030      bl sym.imp.objc_opt_self                              ; void *objc_opt_self(void *arg0)
+0x100268034      bl fcn.10044e8c0   ; objc_msgSend$clearColor
+0x100268038      mov x29, x29
+0x10026803c      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x100268040      mov x20, x0
+0x100268044      mov x0, x19
+0x100268048      mov x2, x20
+0x10026804c      bl fcn.100451560   ; objc_msgSend$setBackgroundColor:
+0x100268050      mov x0, x20                                           ; void *instance
+0x100268054      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100268058      mov x0, x19
+0x10026805c      mov w2, 0
+0x100268060      bl fcn.1004520c0   ; objc_msgSend$setOpaque:
+0x100268064      mov x0, x19
+0x100268068      mov w2, 0
+0x10026806c      bl fcn.100451f40   ; objc_msgSend$setMovable:
+0x100268070      mov x0, x19
+0x100268074      mov w2, 0
+0x100268078      bl fcn.100452260   ; objc_msgSend$setReleasedWhenClosed:
+0x10026807c      mov x0, x19
+0x100268080      mov w2, 0
+0x100268084      bl fcn.1004516c0   ; objc_msgSend$setCanBecomeVisibleWithoutLogin:
+0x100268088      mov x0, x19
+0x10026808c      mov w2, 2
+0x100268090      bl fcn.100451420   ; objc_msgSend$setAnimationBehavior:
+0x100268094      bl sym.imp.CGShieldingWindowLevel
+0x100268098      sxtw x2, w0
+0x10026809c      mov x0, x19
+0x1002680a0      bl fcn.100451de0   ; objc_msgSend$setLevel:
+0x1002680a4      mov x0, x19                                           ; void *instance
+0x1002680a8      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1002680ac      mov x0, x19
+0x1002680b0      mov w2, 0x151
+0x1002680b4      bl fcn.1004516e0   ; objc_msgSend$setCollectionBehavior:
+0x1002680b8      mov x0, x19
+0x1002680bc      mov w2, 1
+0x1002680c0      bl fcn.100451cc0   ; objc_msgSend$setIgnoresMouseEvents:
+0x1002680c4      mov x0, x19
+0x1002680c8      mov w2, 0
+0x1002680cc      bl fcn.100451260   ; objc_msgSend$setAcceptsMouseMovedEvents:
+0x1002680d0      adrp x8, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x1002680d4      ldr x0, [x8, 0x848]                                   ; [0x1005b2848:8]=0
+                                                                       ; reloc.NSColorSpace ; void *arg0
+0x1002680d8      bl sym.imp.objc_opt_self                              ; void *objc_opt_self(void *arg0)
+0x1002680dc      bl fcn.10044f280   ; objc_msgSend$extendedSRGBColorSpace
+0x1002680e0      mov x29, x29
+0x1002680e4      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x1002680e8      mov x20, x0
+0x1002680ec      mov x0, x19
+0x1002680f0      mov x2, x20
+0x1002680f4      bl fcn.100451760   ; objc_msgSend$setColorSpace:
+0x1002680f8      mov x0, x20                                           ; void *instance
+0x1002680fc      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100268100      mov x0, x19
+0x100268104      ldp x29, x30, [var_50h]
+0x100268108      ldp x20, x19, [var_40h]
+0x10026810c      ldp x22, x21, [var_30h]
+0x100268110      ldp d9, d8, [var_20h]
+0x100268114      ldp d11, d10, [var_10h]
+0x100268118      add sp, sp, 0x60                                      ; 0x178000
+0x10026811c      ret
+  ; CALL XREF from sym.func.100210824 @ 0x100210848(x)
+  ; CALL XREF from sym.func.1002108c4 @ 0x1002108e0(x)
+652: sym.func.1002108f8 ();
+`- args(x20, x21) vars(14:sp[0x8..0x70])
+0x1002108f8      stp d13, d12, [var_70h]!
+0x1002108fc      stp d11, d10, [var_10h]
+0x100210900      stp d9, d8, [var_20h]
+0x100210904      stp x24, x23, [var_30h]
+0x100210908      stp x22, x21, [var_40h]
+0x10021090c      stp x20, x19, [var_50h]
+0x100210910      stp x29, x30, [var_60h]
+0x100210914      add x29, sp, 0x60
+0x100210918      mov w0, 0x1a
+0x10021091c      mov x1, 0
+0x100210920      mov x2, 0
+0x100210924      bl sym.imp._stdlib_isOSVersionAtLeast:_Builtin.Word_______Builtin.Word ; _stdlib_isOSVersionAtLeast: Builtin.Word, ) -> Builtin.Word
+0x100210928      tbz w0, 0, 0x1002109bc
+0x10021092c      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+0x100210930      ldr x8, [x8, 0x330]
+0x100210934      add x8, x20, x8                                       ; self
+0x100210938      ldp d12, d13, [x8]
+0x10021093c      fcmp d12, 0.0
+0x100210940      b.ne 0x10021094c
+0x100210944      fcmp d13, 0.0
+0x100210948      b.eq 0x1002109bc
+; CODE XREF from sym.func.1002108f8 @ 0x100210940(x)
+0x10021094c      mov x0, x20                                           ; self
+0x100210950      mov x2, 0
+0x100210954      bl fcn.100452a80   ; objc_msgSend$standardWindowButton:
+0x100210958      mov x29, x29
+0x10021095c      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x100210960      cbz x0, 0x1002109bc
+0x100210964      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x100210968      mov x19, x0
+0x10021096c      bl fcn.100452d60   ; objc_msgSend$superview
+0x100210970      mov x29, x29
+0x100210974      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x100210978      mov x21, x0                                           ; error
+0x10021097c      bl fcn.1004500a0   ; objc_msgSend$layoutSubtreeIfNeeded
+0x100210980      mov x0, x21                                           ; void *instance
+0x100210984      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100210988      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+0x10021098c      ldr x8, [x8, 0x340]
+0x100210990      add x21, x20, x8                                      ; self
+0x100210994      ldrb w8, [x21, 0x10]
+0x100210998      cmp w8, 1
+0x10021099c      b.ne 0x1002109dc
+0x1002109a0      mov x0, x19
+0x1002109a4      bl fcn.10044f400   ; objc_msgSend$frame
+0x1002109a8      mov v8.16b, v0.16b
+0x1002109ac      mov v9.16b, v1.16b
+0x1002109b0      stp d0, d1, [x21]
+0x1002109b4      strb wzr, [x21, 0x10]
+0x1002109b8      b 0x1002109e0
+; CODE XREFS from sym.func.1002108f8 @ 0x100210928(x), 0x100210948(x), 0x100210960(x)
+0x1002109bc      ldp x29, x30, [var_60h]
+0x1002109c0      ldp x20, x19, [var_50h]
+0x1002109c4      ldp x22, x21, [var_40h]
+0x1002109c8      ldp x24, x23, [var_30h]
+0x1002109cc      ldp d9, d8, [var_20h]
+0x1002109d0      ldp d11, d10, [var_10h]
+0x1002109d4      ldp d13, d12, [sp], 0x70
+0x1002109d8      ret
+; CODE XREF from sym.func.1002108f8 @ 0x10021099c(x)
+0x1002109dc      ldp d8, d9, [x21]
+; CODE XREF from sym.func.1002108f8 @ 0x1002109b8(x)
+0x1002109e0      mov x0, x19
+0x1002109e4      bl fcn.10044f400   ; objc_msgSend$frame
+0x1002109e8      mov v10.16b, v2.16b
+0x1002109ec      mov v11.16b, v3.16b
+0x1002109f0      mov x0, x19
+0x1002109f4      mov w2, 1
+0x1002109f8      bl fcn.100451ca0   ; objc_msgSend$setHidden:
+0x1002109fc      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+0x100210a00      ldr x24, [x8, 0x348]                                  ; [0x1005d3348:8]=80 ; "P"
+0x100210a04      ldr x0, [x20, x24]                                    ; self
+0x100210a08      cbz x0, 0x100210a28
+0x100210a0c      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x100210a10      mov x20, x0
+0x100210a14      mov x0, x19                                           ; void *instance
+0x100210a18      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100210a1c      mov x0, x20
+0x100210a20      mov x21, x20
+0x100210a24      b 0x100210af4
+; CODE XREF from sym.func.1002108f8 @ 0x100210a08(x)
+0x100210a28      adrp x8, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x100210a2c      ldr x0, [x8, 0x900]                                   ; void *arg0
+0x100210a30      bl sym.imp.objc_opt_self                              ; void *objc_opt_self(void *arg0)
+0x100210a34      mov x21, x0
+0x100210a38      mov x0, x20                                           ; self
+0x100210a3c      bl fcn.100452ca0   ; objc_msgSend$styleMask
+0x100210a40      mov x3, x0
+0x100210a44      mov x0, x21
+0x100210a48      mov x2, 0
+0x100210a4c      bl fcn.100452aa0   ; objc_msgSend$standardWindowButton:forStyleMask:
+0x100210a50      mov x29, x29
+0x100210a54      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x100210a58      mov x21, x19
+0x100210a5c      cbz x0, 0x100210b58
+0x100210a60      mov x21, x0
+0x100210a64      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x100210a68      mov x22, x0
+0x100210a6c      mov x2, x20                                           ; self
+0x100210a70      bl fcn.100452540   ; objc_msgSend$setTarget:
+0x100210a74      adrp x8, 0x1005c4000
+0x100210a78      ldr x2, [x8, 0x58]                                    ; [0x10055a582:8]=0x436d726f66726570 ; "performClose:"
+0x100210a7c      mov x0, x22
+0x100210a80      bl fcn.1004512a0   ; objc_msgSend$setAction:
+0x100210a84      mov x0, x22                                           ; void *instance
+0x100210a88      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100210a8c      mov x0, x22
+0x100210a90      mov w2, 0xc
+0x100210a94      bl fcn.100451500   ; objc_msgSend$setAutoresizingMask:
+0x100210a98      mov x0, x19
+0x100210a9c      bl fcn.100452d60   ; objc_msgSend$superview
+0x100210aa0      mov x29, x29
+0x100210aa4      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x100210aa8      mov x23, x0
+0x100210aac      mov x0, x19                                           ; void *instance
+0x100210ab0      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100210ab4      mov x0, x23
+0x100210ab8      mov x2, x22
+0x100210abc      bl fcn.10044e0c0   ; objc_msgSend$addSubview:
+0x100210ac0      mov x0, x23                                           ; void *instance
+0x100210ac4      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100210ac8      ldr x23, [x20, x24]                                   ; self
+0x100210acc      str x21, [x20, x24]                                   ; self
+0x100210ad0      mov x0, x22                                           ; void *instance
+0x100210ad4      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x100210ad8      mov x20, x0
+0x100210adc      mov x0, x23                                           ; void *instance
+0x100210ae0      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100210ae4      mov x0, x20                                           ; void *instance
+0x100210ae8      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x100210aec      mov x21, x0
+0x100210af0      mov x0, 0
+; CODE XREF from sym.func.1002108f8 @ 0x100210a24(x)
+0x100210af4      fadd d8, d12, d8
+0x100210af8      fadd d9, d13, d9
+0x100210afc      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x100210b00      mov x0, x21
+0x100210b04      mov v0.16b, v8.16b
+0x100210b08      mov v1.16b, v9.16b
+0x100210b0c      mov v2.16b, v10.16b
+0x100210b10      mov v3.16b, v11.16b
+0x100210b14      bl fcn.100451be0   ; objc_msgSend$setFrame:
+0x100210b18      mov x0, x21
+0x100210b1c      mov w2, 0
+0x100210b20      bl fcn.100451ca0   ; objc_msgSend$setHidden:
+0x100210b24      mov x0, x21
+0x100210b28      bl fcn.1004530a0   ; objc_msgSend$updateTrackingAreas
+0x100210b2c      mov x0, x21
+0x100210b30      bl fcn.100452d60   ; objc_msgSend$superview
+0x100210b34      mov x29, x29
+0x100210b38      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x100210b3c      mov x20, x0
+0x100210b40      mov x0, x21                                           ; void *instance
+0x100210b44      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100210b48      mov x0, x20
+0x100210b4c      bl fcn.1004530a0   ; objc_msgSend$updateTrackingAreas
+0x100210b50      mov x0, x20                                           ; void *instance
+0x100210b54      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+; CODE XREF from sym.func.1002108f8 @ 0x100210a5c(x)
+0x100210b58      mov x0, x19                                           ; void *instance
+0x100210b5c      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100210b60      mov x0, x21
+0x100210b64      ldp x29, x30, [var_60h]
+0x100210b68      ldp x20, x19, [var_50h]
+0x100210b6c      ldp x22, x21, [var_40h]
+0x100210b70      ldp x24, x23, [var_30h]
+0x100210b74      ldp d9, d8, [var_20h]
+0x100210b78      ldp d11, d10, [var_10h]
+0x100210b7c      ldp d13, d12, [sp], 0x70                              ; [0x178000:4]=0
+0x100210b80      b sym.imp.objc_release
+  ; CALL XREF from sym.func.1001b0fc0 @ 0x1001b1008(x)
+544: sym.func.1001b1028 (int64_t arg1);
+`- args(x20, x21, x0) vars(13:sp[0x8..0x70])
+0x1001b1028      stp d11, d10, [var_sp_60h]!
+0x1001b102c      stp d9, d8, [var_10h]
+0x1001b1030      stp x24, x23, [var_10h]
+0x1001b1034      stp x22, x21, [var_20h]
+0x1001b1038      stp x20, x19, [var_30h]
+0x1001b103c      stp x29, x30, [var_40h]
+0x1001b1040      add x29, sp, 0x50
+0x1001b1044      sub sp, sp, 0x10
+0x1001b1048      mov x19, x20                                          ; self
+0x1001b104c      mov x22, x0                                           ; arg1
+0x1001b1050      mov x0, 0                                             ; int64_t arg1
+0x1001b1054      bl sym.func.100186238
+0x1001b1058      ldur x8, [x0, -8]
+0x1001b105c      ldr x8, [x8, 0x40]
+0x1001b1060      mov x9, x8
+0x1001b1064      adrp x16, reloc.Foundation.IndexSet...VMn             ; 0x1005b2000
+0x1001b1068      ldr x16, [x16, 0x568]                                 ; [0x1005b2568:8]=0
+                                                                       ; reloc.__chkstk_darwin
+0x1001b106c      blr x16
+0x1001b1070      mov x9, sp
+0x1001b1074      add x8, x8, 0xf
+0x1001b1078      and x8, x8, 0xfffffffffffffff0
+0x1001b107c      sub x21, x9, x8                                       ; error
+0x1001b1080      mov sp, x21
+0x1001b1084      bl sym.func.1001b1348
+0x1001b1088      mov x8, x21
+0x1001b108c      bl sym.func.100185afc
+0x1001b1090      adrp x0, 0x1005d1000
+0x1001b1094      add x0, x0, 0x9e0                                     ; int64_t arg1
+0x1001b1098      adrp x1, 0x100465000
+0x1001b109c      add x1, x1, 0x290                                     ; int64_t arg2
+0x1001b10a0      bl sym.func.100002b1c
+0x1001b10a4      bl sym.imp.objc_allocWithZone                         ; void *objc_allocWithZone(void *arg0)
+0x1001b10a8      mov x20, x0
+0x1001b10ac      mov x0, x21
+0x1001b10b0      bl sym.imp.SwiftUI.NSHostingView.root.allocator_...cfc_ ; SwiftUI.NSHostingView.root.allocator(...cfc)
+0x1001b10b4      mov x21, x0
+0x1001b10b8      mov x0, 0
+0x1001b10bc      bl sym.func.1000eff78
+0x1001b10c0      mov x20, x0
+0x1001b10c4      mov x0, x22
+0x1001b10c8      bl fcn.10044f400   ; objc_msgSend$frame
+0x1001b10cc      mov v8.16b, v0.16b
+0x1001b10d0      mov v9.16b, v1.16b
+0x1001b10d4      mov v10.16b, v2.16b
+0x1001b10d8      mov v11.16b, v3.16b
+0x1001b10dc      mov x0, x20                                           ; void *arg0
+0x1001b10e0      bl sym.imp.swift_getObjCClassFromMetadata             ; void *swift_getObjCClassFromMetadata(void *arg0)
+0x1001b10e4      bl sym.imp.objc_allocWithZone                         ; void *objc_allocWithZone(void *arg0)
+0x1001b10e8      mov v0.16b, v8.16b
+0x1001b10ec      mov v1.16b, v9.16b
+0x1001b10f0      mov v2.16b, v10.16b
+0x1001b10f4      mov v3.16b, v11.16b
+0x1001b10f8      mov w4, 0
+0x1001b10fc      mov w2, 0x8080
+0x1001b1100      mov w3, 2
+0x1001b1104      mov x5, x22
+0x1001b1108      bl fcn.10044f880   ; objc_msgSend$initWithContentRect:styleMask:backing:defer:screen:
+0x1001b110c      mov x20, x0
+0x1001b1110      mov x2, x21
+0x1001b1114      bl fcn.100451840   ; objc_msgSend$setContentView:
+0x1001b1118      mov x0, x20
+0x1001b111c      bl fcn.100450660   ; objc_msgSend$orderFrontRegardless
+0x1001b1120      mov x0, x20                                           ; void *instance
+0x1001b1124      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x1001b1128      mov x20, x0
+0x1001b112c      mov x0, x22
+0x1001b1130      bl fcn.10044f400   ; objc_msgSend$frame
+0x1001b1134      bl sym.imp.CGRectGetMinX
+0x1001b1138      mov v8.16b, v0.16b
+0x1001b113c      mov x0, x22
+0x1001b1140      bl fcn.10044f400   ; objc_msgSend$frame
+0x1001b1144      bl sym.imp.CGRectGetMinY
+0x1001b1148      mov v9.16b, v0.16b
+0x1001b114c      mov x0, x22
+0x1001b1150      bl fcn.10044f400   ; objc_msgSend$frame
+0x1001b1154      bl sym.imp.CGRectGetWidth
+0x1001b1158      mov v10.16b, v0.16b
+0x1001b115c      mov x0, x22
+0x1001b1160      bl fcn.10044f400   ; objc_msgSend$frame
+0x1001b1164      bl sym.imp.CGRectGetHeight
+0x1001b1168      mov v3.16b, v0.16b
+0x1001b116c      mov x0, x20
+0x1001b1170      mov v0.16b, v8.16b
+0x1001b1174      mov v1.16b, v9.16b
+0x1001b1178      mov v2.16b, v10.16b
+0x1001b117c      mov w2, 0
+0x1001b1180      bl fcn.100451c00   ; objc_msgSend$setFrame:display:
+0x1001b1184      mov x0, x20                                           ; void *instance
+0x1001b1188      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1001b118c      adrp x8, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x1001b1190      ldr x0, [x8, 0x908]                                   ; [0x1005b2908:8]=0
+                                                                       ; reloc.NSWindowController ; void *arg0
+0x1001b1194      bl sym.imp.objc_allocWithZone                         ; void *objc_allocWithZone(void *arg0)
+0x1001b1198      mov x2, x20
+0x1001b119c      bl fcn.10044fc80   ; objc_msgSend$initWithWindow:
+0x1001b11a0      ldr x8, [x19, 0x18]
+0x1001b11a4      str x0, [x19, 0x18]
+0x1001b11a8      mov x0, x8                                            ; void *instance
+0x1001b11ac      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1001b11b0      ldr x19, [x19, 0x10]
+0x1001b11b4      ldr x22, [x19, 0x18]
+0x1001b11b8      stur x22, [var_60h]
+0x1001b11bc      mov x0, x20                                           ; void *instance
+0x1001b11c0      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x1001b11c4      mov x23, x0
+0x1001b11c8      mov x0, x19
+0x1001b11cc      bl sym.imp.swift_retain
+0x1001b11d0      mov x0, x22                                           ; void *arg0
+0x1001b11d4      bl sym.imp.swift_bridgeObjectRetain                   ; void *swift_bridgeObjectRetain(void *arg0)
+0x1001b11d8      sub x0, x29, 0x58                                     ; void *arg1
+0x1001b11dc      sub x20, x29, 0x60
+0x1001b11e0      mov x1, x23                                           ; int64_t arg2
+0x1001b11e4      bl sym.func.1001b17b4
+0x1001b11e8      ldur x8, [var_60h]
+0x1001b11ec      ldr x22, [x19, 0x18]
+0x1001b11f0      str x8, [x19, 0x18]
+0x1001b11f4      mov x0, x22                                           ; int64_t arg1
+0x1001b11f8      mov x20, x19
+0x1001b11fc      bl sym.func.100128f18
+0x1001b1200      mov x0, x19                                           ; void *arg0
+0x1001b1204      bl sym.imp.swift_release                              ; void swift_release(void *arg0)
+0x1001b1208      mov x0, x22                                           ; void *arg0
+0x1001b120c      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x1001b1210      mov x0, x21                                           ; void *instance
+0x1001b1214      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1001b1218      mov x0, x23                                           ; void *instance
+0x1001b121c      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1001b1220      ldur x0, [instance]                                   ; void *instance
+0x1001b1224      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1001b1228      sub sp, x29, 0x50
+0x1001b122c      ldp x29, x30, [var_40h]
+0x1001b1230      ldp x20, x19, [var_30h]
+0x1001b1234      ldp x22, x21, [var_20h]
+0x1001b1238      ldp x24, x23, [var_10h]
+0x1001b123c      ldp d9, d8, [var_10h]
+0x1001b1240      ldp d11, d10, [sp], 0x60
+0x1001b1244      ret
+  ; CODE XREF from sym.func.1002351bc @ 0x10023526c(x)
+1192: sym.func.100233070 (int64_t arg1);
+`- args(x20, x21, x0) vars(20:sp[0x8..0xa0])
+0x100233070      stp d13, d12, [var_90h]!
+0x100233074      stp d11, d10, [var_10h]
+0x100233078      stp d9, d8, [var_10h]
+0x10023307c      stp x28, x27, [var_20h]
+0x100233080      stp x26, x25, [var_30h]
+0x100233084      stp x24, x23, [var_40h]
+0x100233088      stp x22, x21, [var_50h]
+0x10023308c      stp x20, x19, [var_60h]
+0x100233090      stp x29, x30, [var_70h]
+0x100233094      add x29, sp, 0x80
+0x100233098      sub sp, sp, 0x10
+0x10023309c      mov x22, x0                                           ; arg1
+0x1002330a0      mov x0, 0
+0x1002330a4      bl sym.imp.SwiftUI.NSHostingSizingOptions...VMa
+0x1002330a8      ldur x8, [x0, -8]
+0x1002330ac      ldr x8, [x8, 0x40]
+0x1002330b0      mov x9, x8
+0x1002330b4      adrp x16, reloc.Foundation.IndexSet...VMn             ; 0x1005b2000
+0x1002330b8      ldr x16, [x16, 0x568]                                 ; [0x1005b2568:8]=0
+                                                                       ; reloc.__chkstk_darwin
+0x1002330bc      blr x16
+0x1002330c0      mov x9, sp
+0x1002330c4      add x8, x8, 0xf
+0x1002330c8      and x8, x8, 0xfffffffffffffff0
+0x1002330cc      sub x23, x9, x8
+0x1002330d0      mov sp, x23
+0x1002330d4      ldr x8, [x20, 0x18]                                   ; self
+0x1002330d8      cbnz x8, 0x1002334ec
+0x1002330dc      ldr x8, [x20, 0x20]                                   ; self
+0x1002330e0      cbnz x8, 0x1002334ec
+0x1002330e4      mov x24, x0
+0x1002330e8      mov x0, x22                                           ; int64_t arg1
+0x1002330ec      mov x19, x20                                          ; self
+0x1002330f0      bl sym.func.100233518
+0x1002330f4      stur x20, [var_88h]                                   ; self
+0x1002330f8      adrp x0, 0x1005d4000
+0x1002330fc      add x0, x0, 0x388                                     ; int64_t arg1
+0x100233100      adrp x1, 0x100469000
+0x100233104      add x1, x1, 0x6d8                                     ; int64_t arg2
+0x100233108      bl sym.func.100002b1c
+0x10023310c      bl sym.imp.objc_allocWithZone                         ; void *objc_allocWithZone(void *arg0)
+0x100233110      mov x20, x0
+0x100233114      mov x0, x19
+0x100233118      bl sym.imp.swift_retain
+0x10023311c      sub x0, x29, 0x88
+0x100233120      bl sym.imp.SwiftUI.NSHostingView.root.allocator_...cfc_ ; SwiftUI.NSHostingView.root.allocator(...cfc)
+0x100233124      mov x21, x0                                           ; error
+0x100233128      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x10023312c      ldr x8, [x8, 0x228]                                   ; [0x1005b6228:8]=0
+                                                                       ; reloc._swiftEmptyArrayStorage
+0x100233130      stur x8, [var_88h]
+0x100233134      adrp x0, 0x1005d4000
+0x100233138      add x0, x0, 0x390                                     ; int64_t arg1
+0x10023313c      adrp x1, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+0x100233140      ldr x1, [x1, 0x368]                                   ; [0x1005b4368:8]=0
+                                                                       ; reloc.SwiftUI.NSHostingSizingOptions...VMa ; int64_t arg2
+0x100233144      adrp x2, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+0x100233148      ldr x2, [x2, 0x378]                                   ; [0x1005b4378:8]=0
+                                                                       ; reloc.SwiftUI.NSHostingSizingOptions...Vs10SetAlgebraAAMc
+0x10023314c      bl sym.func.1000090fc
+0x100233150      mov x25, x0
+0x100233154      adrp x0, 0x1005d4000
+0x100233158      add x0, x0, 0x398                                     ; int64_t arg1
+0x10023315c      adrp x1, 0x100469000
+0x100233160      add x1, x1, 0x6e0                                     ; int64_t arg2
+0x100233164      bl sym.func.100002b1c
+0x100233168      mov x20, x0
+0x10023316c      bl sym.func.100239508
+0x100233170      mov x2, x0
+0x100233174      sub x0, x29, 0x88
+0x100233178      mov x8, x23
+0x10023317c      mov x1, x20
+0x100233180      mov x20, x24
+0x100233184      mov x3, x24
+0x100233188      mov x4, x25
+0x10023318c      bl sym.imp.SetAlgebra...ncSTRd__7ElementQyd__ACRtzlufCTj
+0x100233190      mov x0, x23
+0x100233194      mov x20, x21
+0x100233198      bl sym.imp.SwiftUI.NSHostingView.sizingOptions.allocator._...c6SizingF0VvsTj_ ; SwiftUI.NSHostingView.sizingOptions.allocator.(...c6SizingF0VvsTj)
+0x10023319c      mov x0, 0
+0x1002331a0      bl sym.func.10026815c
+0x1002331a4      bl sym.imp.objc_allocWithZone                         ; void *objc_allocWithZone(void *arg0)
+0x1002331a8      movi v0.2d, 0000000000000000
+0x1002331ac      movi v1.2d, 0000000000000000
+0x1002331b0      movi v2.2d, 0000000000000000
+0x1002331b4      movi v3.2d, 0000000000000000
+0x1002331b8      mov w2, 0x8080
+0x1002331bc      mov w3, 2
+0x1002331c0      mov w4, 1
+0x1002331c4      bl fcn.10044f860   ; objc_msgSend$initWithContentRect:styleMask:backing:defer:
+0x1002331c8      mov x20, x0
+0x1002331cc      mov x0, x21
+0x1002331d0      mov w2, 1
+0x1002331d4      bl fcn.100452820   ; objc_msgSend$setWantsLayer:
+0x1002331d8      mov x0, x20                                           ; void *instance
+0x1002331dc      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x1002331e0      mov x23, x0
+0x1002331e4      mov x2, x21
+0x1002331e8      bl fcn.100451840   ; objc_msgSend$setContentView:
+0x1002331ec      mov x0, x23
+0x1002331f0      bl fcn.10044ec00   ; objc_msgSend$contentView
+0x1002331f4      mov x29, x29
+0x1002331f8      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x1002331fc      mov x20, x0
+0x100233200      mov w2, 1
+0x100233204      bl fcn.100452820   ; objc_msgSend$setWantsLayer:
+0x100233208      mov x0, x20                                           ; void *instance
+0x10023320c      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100233210      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+0x100233214      ldr x8, [x8, 0xcc8]                                   ; [0x1005d3cc8:8]=0
+                                                                       ; field.class.Alcove.NotchController.var._hideFromScreenCapture
+0x100233218      add x25, x19, x8
+0x10023321c      ldp x24, x26, [x25]
+0x100233220      ldr x27, [x25, 0x10]
+0x100233224      bl sym.func.10001e0a4
+0x100233228      mov x20, x0
+0x10023322c      mov x0, x24
+0x100233230      bl sym.imp.swift_retain
+0x100233234      mov x0, x27
+0x100233238      bl sym.imp.swift_retain
+0x10023323c      adrp x3, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+0x100233240      ldr x3, [x3, 0x7f8]                                   ; [0x1005b57f8:8]=0
+                                                                       ; reloc....SbN
+0x100233244      sub x8, x29, 0x88
+0x100233248      mov x0, x24                                           ; int64_t arg1
+0x10023324c      mov x1, x26
+0x100233250      mov x2, x27
+0x100233254      mov x4, x20
+0x100233258      bl sym.func.10043d9f4
+0x10023325c      mov x0, x27                                           ; void *arg0
+0x100233260      bl sym.imp.swift_release                              ; void swift_release(void *arg0)
+0x100233264      mov x0, x24                                           ; void *arg0
+0x100233268      bl sym.imp.swift_release                              ; void swift_release(void *arg0)
+0x10023326c      ldurb w8, [var_88h]
+0x100233270      mvn w8, w8
+0x100233274      and x2, x8, 1
+0x100233278      mov x0, x23
+0x10023327c      bl fcn.1004522e0   ; objc_msgSend$setSharingType:
+0x100233280      mov x0, x23                                           ; void *instance
+0x100233284      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x100233288      mov x23, x0
+0x10023328c      mov x0, x22
+0x100233290      bl fcn.10044f400   ; objc_msgSend$frame
+0x100233294      bl sym.imp.CGRectGetMidX
+0x100233298      mov x8, 0x800000000000
+0x10023329c      movk x8, 0xc073, lsl 48
+0x1002332a0      fmov d11, x8
+0x1002332a4      fadd d10, d0, d11
+0x1002332a8      mov x0, x22
+0x1002332ac      bl fcn.10044f400   ; objc_msgSend$frame
+0x1002332b0      bl sym.imp.CGRectGetMaxY
+0x1002332b4      mov x8, -0x3f8c000000000000
+0x1002332b8      fmov d12, x8
+0x1002332bc      fadd d1, d0, d12
+0x1002332c0      mov x8, 0x800000000000
+0x1002332c4      movk x8, 0x4083, lsl 48
+0x1002332c8      fmov d8, x8
+0x1002332cc      mov x8, 0x4074000000000000
+0x1002332d0      fmov d9, x8
+0x1002332d4      mov x0, x23
+0x1002332d8      mov v0.16b, v10.16b
+0x1002332dc      mov v2.16b, v8.16b
+0x1002332e0      mov v3.16b, v9.16b
+0x1002332e4      mov w2, 0
+0x1002332e8      bl fcn.100451c00   ; objc_msgSend$setFrame:display:
+0x1002332ec      mov x0, x23
+0x1002332f0      bl fcn.100450660   ; objc_msgSend$orderFrontRegardless
+0x1002332f4      mov x0, x23                                           ; void *instance
+0x1002332f8      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1002332fc      adrp x8, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x100233300      ldr x0, [x8, 0x908]                                   ; [0x1005b2908:8]=0
+                                                                       ; reloc.NSWindowController ; void *arg0
+0x100233304      bl sym.imp.objc_allocWithZone                         ; void *objc_allocWithZone(void *arg0)
+0x100233308      mov x2, x23
+0x10023330c      bl fcn.10044fc80   ; objc_msgSend$initWithWindow:
+0x100233310      mov x24, x0
+0x100233314      mov x0, x23                                           ; void *instance
+0x100233318      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x10023331c      ldr x0, [x19, 0x20]
+0x100233320      str x24, [x19, 0x20]
+0x100233324      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100233328      mov x0, x19                                           ; int64_t arg1
+0x10023332c      bl sym.func.10023395c
+0x100233330      mov x24, x0
+0x100233334      mov x0, 0
+0x100233338      bl sym.func.100267f84
+0x10023333c      bl sym.imp.objc_allocWithZone                         ; void *objc_allocWithZone(void *arg0)
+0x100233340      movi v0.2d, 0000000000000000
+0x100233344      movi v1.2d, 0000000000000000
+0x100233348      movi v2.2d, 0000000000000000
+0x10023334c      movi v3.2d, 0000000000000000
+0x100233350      mov w2, 0x8080
+0x100233354      mov w3, 2
+0x100233358      mov w4, 1
+0x10023335c      bl fcn.10044f860   ; objc_msgSend$initWithContentRect:styleMask:backing:defer:
+0x100233360      mov x26, x0
+0x100233364      adrp x8, 0x1005d5000
+0x100233368      add x8, x8, 0xb10                                     ; 0x1005d5b10
+                                                                       ; field.class.Alcove.NotchPanel.var.notchController
+0x10023336c      ldr x8, [x8]                                          ; [0x1005d5b10:8]=8
+                                                                       ; field.class.Alcove.NotchPanel.var.notchController
+0x100233370      add x0, x0, x8
+0x100233374      mov x1, x19
+0x100233378      bl sym.imp.swift_weakAssign
+0x10023337c      mov x0, x24
+0x100233380      mov w2, 1
+0x100233384      bl fcn.100452820   ; objc_msgSend$setWantsLayer:
+0x100233388      mov x0, x26                                           ; void *instance
+0x10023338c      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x100233390      mov x26, x0
+0x100233394      mov x2, x24
+0x100233398      bl fcn.100451840   ; objc_msgSend$setContentView:
+0x10023339c      mov x0, x26
+0x1002333a0      bl fcn.10044ec00   ; objc_msgSend$contentView
+0x1002333a4      mov x29, x29
+0x1002333a8      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x1002333ac      mov x27, x0
+0x1002333b0      mov w2, 1
+0x1002333b4      bl fcn.100452820   ; objc_msgSend$setWantsLayer:
+0x1002333b8      mov x0, x27                                           ; void *instance
+0x1002333bc      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1002333c0      ldp x27, x28, [x25]
+0x1002333c4      ldr x25, [x25, 0x10]
+0x1002333c8      mov x0, x27
+0x1002333cc      bl sym.imp.swift_retain
+0x1002333d0      mov x0, x25
+0x1002333d4      bl sym.imp.swift_retain
+0x1002333d8      sub x8, x29, 0x88
+0x1002333dc      mov x0, x27                                           ; int64_t arg1
+0x1002333e0      mov x1, x28
+0x1002333e4      mov x2, x25
+0x1002333e8      adrp x3, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+0x1002333ec      ldr x3, [x3, 0x7f8]                                   ; [0x1005b57f8:8]=0
+                                                                       ; reloc....SbN
+0x1002333f0      mov x4, x20
+0x1002333f4      bl sym.func.10043d9f4
+0x1002333f8      mov x0, x25                                           ; void *arg0
+0x1002333fc      bl sym.imp.swift_release                              ; void swift_release(void *arg0)
+0x100233400      mov x0, x27                                           ; void *arg0
+0x100233404      bl sym.imp.swift_release                              ; void swift_release(void *arg0)
+0x100233408      ldurb w8, [var_88h]
+0x10023340c      mvn w8, w8
+0x100233410      and x2, x8, 1
+0x100233414      mov x0, x26
+0x100233418      bl fcn.1004522e0   ; objc_msgSend$setSharingType:
+0x10023341c      mov x0, x26                                           ; void *instance
+0x100233420      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x100233424      mov x25, x0
+0x100233428      mov x0, x22
+0x10023342c      bl fcn.10044f400   ; objc_msgSend$frame
+0x100233430      bl sym.imp.CGRectGetMidX
+0x100233434      fadd d10, d0, d11
+0x100233438      mov x0, x22
+0x10023343c      bl fcn.10044f400   ; objc_msgSend$frame
+0x100233440      bl sym.imp.CGRectGetMaxY
+0x100233444      fadd d1, d0, d12
+0x100233448      mov x0, x25
+0x10023344c      mov v0.16b, v10.16b
+0x100233450      mov v2.16b, v8.16b
+0x100233454      mov v3.16b, v9.16b
+0x100233458      mov w2, 0
+0x10023345c      bl fcn.100451c00   ; objc_msgSend$setFrame:display:
+0x100233460      mov x0, x25
+0x100233464      bl fcn.100450660   ; objc_msgSend$orderFrontRegardless
+0x100233468      mov x0, x25                                           ; void *instance
+0x10023346c      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100233470      adrp x8, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x100233474      ldr x0, [x8, 0x908]                                   ; [0x1005b2908:8]=0
+                                                                       ; reloc.NSWindowController ; void *arg0
+0x100233478      bl sym.imp.objc_allocWithZone                         ; void *objc_allocWithZone(void *arg0)
+0x10023347c      mov x2, x25
+0x100233480      bl fcn.10044fc80   ; objc_msgSend$initWithWindow:
+0x100233484      mov x20, x0
+0x100233488      mov x0, x25                                           ; void *instance
+0x10023348c      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100233490      ldr x0, [x19, 0x18]
+0x100233494      str x20, [x19, 0x18]
+0x100233498      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x10023349c      mov x20, x19
+0x1002334a0      bl sym.func.100234050
+0x1002334a4      ldr x22, [x19, 0x68]
+0x1002334a8      cbz x22, 0x1002334c8
+0x1002334ac      mov x0, x22
+0x1002334b0      bl sym.imp.swift_retain
+0x1002334b4      mov x20, x22
+0x1002334b8      bl sym.func.1001c9d84
+0x1002334bc      mov x20, x19
+0x1002334c0      mov x0, x22                                           ; void *arg0
+0x1002334c4      bl sym.imp.swift_release                              ; void swift_release(void *arg0)
+; CODE XREF from sym.func.100233070 @ 0x1002334a8(x)
+0x1002334c8      bl sym.func.100234318
+0x1002334cc      mov x0, x21                                           ; void *instance
+0x1002334d0      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1002334d4      mov x0, x23                                           ; void *instance
+0x1002334d8      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1002334dc      mov x0, x24                                           ; void *instance
+0x1002334e0      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1002334e4      mov x0, x25                                           ; void *instance
+0x1002334e8      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+; CODE XREFS from sym.func.100233070 @ 0x1002330d8(x), 0x1002330e0(x)
+0x1002334ec      sub sp, x29, 0x80
+0x1002334f0      ldp x29, x30, [var_70h]
+0x1002334f4      ldp x20, x19, [var_60h]
+0x1002334f8      ldp x22, x21, [var_50h]
+0x1002334fc      ldp x24, x23, [var_40h]
+0x100233500      ldp x26, x25, [var_30h]
+0x100233504      ldp x28, x27, [var_20h]
+0x100233508      ldp d9, d8, [var_10h]
+0x10023350c      ldp d11, d10, [var_10h]
+0x100233510      ldp d13, d12, [sp], 0x90
+0x100233514      ret
+  ; CALL XREF from sym.func.10023effc @ 0x10023f164(x)
+  ; CALL XREF from sym.func.10023f6e0 @ 0x10023fde4(x)
+160: sym.func.1002358e8 (void *arg1);
+`- args(x20, x21, x0) vars(6:sp[0x8..0x30])
+0x1002358e8      stp x22, x21, [var_30h]!
+0x1002358ec      stp x20, x19, [var_10h]
+0x1002358f0      stp x29, x30, [var_20h]
+0x1002358f4      add x29, sp, 0x20
+0x1002358f8      mov x19, x0                                           ; arg1
+0x1002358fc      ldr x0, [x20, 0x20]                                   ; self
+0x100235900      cbz x0, 0x100235970
+0x100235904      bl fcn.100453240   ; objc_msgSend$window
+0x100235908      mov x29, x29
+0x10023590c      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x100235910      mov x22, x0
+0x100235914      ldr x0, [x20, 0x18]                                   ; self
+0x100235918      cbz x0, 0x10023597c
+; CODE XREF from sym.func.1002358e8 @ 0x100235978(x)
+0x10023591c      bl fcn.100453240   ; objc_msgSend$window
+0x100235920      mov x29, x29
+0x100235924      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x100235928      mov x21, x0                                           ; error
+0x10023592c      cbz x22, 0x100235940
+; CODE XREF from sym.func.1002358e8 @ 0x100235980(x)
+0x100235930      mvn w8, w19
+0x100235934      and x2, x8, 1
+0x100235938      mov x0, x22
+0x10023593c      bl fcn.1004522e0   ; objc_msgSend$setSharingType:
+; CODE XREFS from sym.func.1002358e8 @ 0x10023592c(x), 0x100235984(x)
+0x100235940      cbz x21, 0x10023595c
+0x100235944      mvn w8, w19
+0x100235948      and x2, x8, 1
+0x10023594c      mov x0, x21
+0x100235950      bl fcn.1004522e0   ; objc_msgSend$setSharingType:
+0x100235954      mov x0, x21                                           ; void *instance
+0x100235958      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+; CODE XREF from sym.func.1002358e8 @ 0x100235940(x)
+0x10023595c      mov x0, x22
+0x100235960      ldp x29, x30, [var_20h]
+0x100235964      ldp x20, x19, [var_10h]
+0x100235968      ldp x22, x21, [sp], 0x30
+0x10023596c      b sym.imp.objc_release
+; CODE XREF from sym.func.1002358e8 @ 0x100235900(x)
+0x100235970      mov x22, 0
+0x100235974      ldr x0, [x20, 0x18]                                   ; self
+0x100235978      cbnz x0, 0x10023591c
+; CODE XREF from sym.func.1002358e8 @ 0x100235918(x)
+0x10023597c      mov x21, 0                                            ; error
+0x100235980      cbnz x22, 0x100235930
+0x100235984      b 0x100235940
+  ; CALL XREF from sym.func.10039ae44 @ 0x10039ae98(x)
+384: sym.func.100241270 (int64_t arg1);
+`- args(x21, x20, x0) vars(13:sp[0x8..0x78])
+0x100241270      sub sp, sp, 0x80
+0x100241274      stp x28, x27, [var_20h]
+0x100241278      stp x26, x25, [var_30h]
+0x10024127c      stp x24, x23, [var_40h]
+0x100241280      stp x22, x21, [var_50h]
+0x100241284      stp x20, x19, [var_60h]
+0x100241288      stp x29, x30, [var_70h]
+0x10024128c      add x29, sp, 0x70
+0x100241290      mov x21, x0                                           ; error
+0x100241294      add x0, x20, 0x70                                     ; void *arg0
+0x100241298      add x1, sp, 8                                         ; void *arg1
+0x10024129c      mov x2, 0                                             ; void *arg2
+0x1002412a0      mov x3, 0                                             ; void *arg3
+0x1002412a4      bl sym.imp.swift_beginAccess                          ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+0x1002412a8      ldr x19, [x20, 0x70]                                  ; self
+0x1002412ac      mov x23, x19
+0x1002412b0      ldr x8, [x23, 0x40]!
+0x1002412b4      ldrb w9, [x19, 0x20]
+0x1002412b8      and x10, x9, 0x3f
+0x1002412bc      mov w11, 1
+0x1002412c0      lsl x9, x11, x9
+0x1002412c4      mov x11, -1
+0x1002412c8      lsl x12, x11, x9
+0x1002412cc      cmp w10, 6
+0x1002412d0      csinv x10, x11, x12, hs
+0x1002412d4      and x27, x10, x8
+0x1002412d8      add x8, x9, 0x3f
+0x1002412dc      lsr x24, x8, 6
+0x1002412e0      mvn w25, w21
+0x1002412e4      mov x0, x19                                           ; void *arg0
+0x1002412e8      bl sym.imp.swift_bridgeObjectRetain                   ; void *swift_bridgeObjectRetain(void *arg0)
+0x1002412ec      mov x26, 0
+0x1002412f0      b 0x10024130c
+; CODE XREFS from sym.func.100241270 @ 0x10024138c(x), 0x1002413a4(x)
+0x1002412f4      sub x8, x27, 1
+0x1002412f8      and x27, x8, x27
+0x1002412fc      mov x0, x20                                           ; void *arg0
+0x100241300      bl sym.imp.swift_release                              ; void swift_release(void *arg0)
+0x100241304      mov x0, x21                                           ; void *instance
+0x100241308      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+; CODE XREF from sym.func.100241270 @ 0x1002412f0(x)
+0x10024130c      cbnz x27, 0x100241328
+; CODE XREF from sym.func.100241270 @ 0x100241324(x)
+0x100241310      adds x26, x26, 1
+0x100241314      b.vs 0x1002413ec
+0x100241318      cmp x26, x24
+0x10024131c      b.ge 0x1002413c4
+0x100241320      ldr x27, [x23, x26, lsl 3]
+0x100241324      cbz x27, 0x100241310
+; CODE XREF from sym.func.100241270 @ 0x10024130c(x)
+0x100241328      rbit x8, x27
+0x10024132c      clz x8, x8
+0x100241330      ldr x9, [x19, 0x38]
+0x100241334      add x8, x9, x8, lsl 3
+0x100241338      lsl x9, x26, 9
+0x10024133c      ldr x20, [x8, x9]
+0x100241340      ldr x21, [x20, 0x20]
+0x100241344      cbz x21, 0x1002413a8
+0x100241348      mov x0, x20
+0x10024134c      bl sym.imp.swift_retain
+0x100241350      mov x0, x21
+0x100241354      bl fcn.100453240   ; objc_msgSend$window
+0x100241358      mov x29, x29
+0x10024135c      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x100241360      mov x21, x0
+0x100241364      ldr x0, [x20, 0x18]
+0x100241368      cbz x0, 0x1002413b8
+; CODE XREF from sym.func.100241270 @ 0x1002413b4(x)
+0x10024136c      bl fcn.100453240   ; objc_msgSend$window
+0x100241370      mov x29, x29
+0x100241374      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x100241378      mov x22, x0
+0x10024137c      cbz x21, 0x10024138c
+; CODE XREF from sym.func.100241270 @ 0x1002413bc(x)
+0x100241380      and x2, x25, 1
+0x100241384      mov x0, x21
+0x100241388      bl fcn.1004522e0   ; objc_msgSend$setSharingType:
+; CODE XREFS from sym.func.100241270 @ 0x10024137c(x), 0x1002413c0(x)
+0x10024138c      cbz x22, 0x1002412f4
+0x100241390      and x2, x25, 1
+0x100241394      mov x0, x22
+0x100241398      bl fcn.1004522e0   ; objc_msgSend$setSharingType:
+0x10024139c      mov x0, x22                                           ; void *instance
+0x1002413a0      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1002413a4      b 0x1002412f4
+; CODE XREF from sym.func.100241270 @ 0x100241344(x)
+0x1002413a8      mov x0, x20
+0x1002413ac      bl sym.imp.swift_retain
+0x1002413b0      ldr x0, [x20, 0x18]
+0x1002413b4      cbnz x0, 0x10024136c
+; CODE XREF from sym.func.100241270 @ 0x100241368(x)
+0x1002413b8      mov x22, 0
+0x1002413bc      cbnz x21, 0x100241380
+0x1002413c0      b 0x10024138c
+; CODE XREF from sym.func.100241270 @ 0x10024131c(x)
+0x1002413c4      mov x0, x19                                           ; void *arg0
+0x1002413c8      bl sym.imp.swift_release                              ; void swift_release(void *arg0)
+0x1002413cc      ldp x29, x30, [var_70h]
+0x1002413d0      ldp x20, x19, [var_60h]
+0x1002413d4      ldp x22, x21, [var_50h]
+0x1002413d8      ldp x24, x23, [var_40h]
+0x1002413dc      ldp x26, x25, [var_30h]
+0x1002413e0      ldp x28, x27, [var_20h]
+0x1002413e4      add sp, sp, 0x80                                      ; 0x178000
+0x1002413e8      ret
+; CODE XREF from sym.func.100241270 @ 0x100241314(x)
+0x1002413ec      brk 1

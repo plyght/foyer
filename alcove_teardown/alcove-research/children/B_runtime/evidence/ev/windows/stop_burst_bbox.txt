@@ -1,0 +1,21 @@
+0 10:27:52.665997000 stop_burst_0.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6057
+1 10:27:53.129557000 stop_burst_1.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+2 10:27:53.590117000 stop_burst_2.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+3 10:27:54.048493000 stop_burst_3.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+4 10:27:54.510759000 stop_burst_4.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+5 10:27:54.967674000 stop_burst_5.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+6 10:27:55.424247000 stop_burst_6.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+7 10:27:55.876760000 stop_burst_7.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+8 10:27:56.333005000 stop_burst_8.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+9 10:27:56.788974000 stop_burst_9.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+10 10:27:57.239850000 stop_burst_10.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+11 10:27:57.699323000 stop_burst_11.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+12 10:27:58.159373000 stop_burst_12.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+13 10:27:58.623897000 stop_burst_13.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+14 10:27:59.082471000 stop_burst_14.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+15 10:27:59.538486000 stop_burst_15.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+16 10:27:59.994279000 stop_burst_16.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+17 10:28:00.451710000 stop_burst_17.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+18 10:28:00.908126000 stop_burst_18.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+19 10:28:01.365762000 stop_burst_19.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115
+10:28:49 shots/state_after_qt_quit_later.png: dark bbox screen x=689..910 (w=222) y=0..28 (h=29) darkpx=6115

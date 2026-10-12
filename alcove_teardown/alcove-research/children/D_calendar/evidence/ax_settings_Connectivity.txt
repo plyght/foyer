@@ -1,0 +1,4 @@
+AXGroup | t=missing value | v=missing value | d=group | 488,0 624x320
+AXButton | t=missing value | v=missing value | d=button | 703,8 18x15
+AXButton | t=missing value | v=missing value | d=button | 703,8 18x15
+

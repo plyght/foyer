@@ -1,0 +1,10 @@
+tcpdump: data link type PKTAP
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type PKTAP (Apple DLT_PKTAP), snapshot length 524288 bytes
+10:29:38.371764 IP 172.16.4.2.65161 > 17.253.31.138.443: tcp 0
+10:31:32.936216 IP 172.16.4.2.65162 > 23.48.17.92.443: tcp 0
+10:32:35.464726 IP 172.16.4.2.65163 > 17.57.144.182.5223: tcp 0
+
+3 packets captured
+19145 packets received by filter
+0 packets dropped by kernel

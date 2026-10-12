@@ -1,0 +1,8 @@
+0x10051fec1 hit25_0 "_mediaManager_notchAdjustedWidth_hi"
+0x100521561 hit25_1 "swipeToToggle_notchAdjustedWidth_no"
+0x1005216e1 hit25_2 "_swipeToSkip_notchAdjustedWidth_no"
+0x1005222f1 hit25_3 "tch_notchAdjustedWidth_no"
+0x100523da1 hit25_4 "ght_notchAdjustedWidth_lo"
+0x100525d31 hit25_5 "p_notchAdjustedWidth_no"
+0x1005471f0 hit25_6 "ghtnotchAdjustedWidthex"
+0x100554ca1 hit25_7 "ght_notchAdjustedWidth_no"

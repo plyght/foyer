@@ -1,0 +1,12 @@
+Alcove [2607]: 64-bit    Footprint: 71 MB (16384 bytes per page)
+  71 MB      34 MB        62 MB       1305    TOTAL
+Shared with AlcoveHelper [3213]:
+  80 KB      80 KB          0 B          6    TOTAL
+    phys_footprint: 71 MB
+    phys_footprint_peak: 108 MB
+AlcoveHelper [3213]: 64-bit    Footprint: 2929 KB (16384 bytes per page)
+2849 KB      96 KB          0 B        195    TOTAL
+Shared with Alcove [2607]:
+  80 KB      32 KB          0 B          6    TOTAL
+    phys_footprint: 2961 KB
+    phys_footprint_peak: 3057 KB

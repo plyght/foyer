@@ -1,0 +1,151 @@
+FUNCTION sym.func.10020ca88 0x10020ca88-0x10020cce0
+000000010020ca88	sub	sp, sp, #0x90
+000000010020ca8c	stp	x28, x27, [sp, #0x30]
+000000010020ca90	stp	x26, x25, [sp, #0x40]
+000000010020ca94	stp	x24, x23, [sp, #0x50]
+000000010020ca98	stp	x22, x21, [sp, #0x60]
+000000010020ca9c	stp	x20, x19, [sp, #0x70]
+000000010020caa0	stp	x29, x30, [sp, #0x80]
+000000010020caa4	add	x29, sp, #0x80
+000000010020caa8	str	x0, [sp]
+000000010020caac	and	x8, x0, #0xff00000000
+000000010020cab0	mov	x9, #0x100000000
+000000010020cab4	cmp	x8, x9
+000000010020cab8	b.eq	0x10020ccb8
+000000010020cabc	mov	x0, x20
+000000010020cac0	bl	0x10044d97c ; symbol stub for: _swift_getObjCClassFromMetadata
+000000010020cac4	bl	0x100451120 ; objc screens
+000000010020cac8	mov	x29, x29
+000000010020cacc	bl	0x10044d6c4 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+000000010020cad0	mov	x20, x0
+000000010020cad4	adrp	x1, 962 ; 0x1005ce000
+000000010020cad8	add	x1, x1, #0xc48
+000000010020cadc	adrp	x2, 934 ; 0x1005b2000
+000000010020cae0	add	x2, x2, #0x8c0 ; literal pool symbol address: _OBJC_CLASS_$_NSScreen
+000000010020cae4	mov	x0, #0x0
+000000010020cae8	bl	0x10006ab70
+000000010020caec	mov	x1, x0
+000000010020caf0	mov	x0, x20
+000000010020caf4	bl	0x10044bf6c ; symbol stub for: _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+000000010020caf8	mov	x21, x0
+000000010020cafc	mov	x0, x20
+000000010020cb00	bl	0x10044d6a0 ; symbol stub for: _objc_release
+000000010020cb04	lsr	x8, x21, #62
+000000010020cb08	cbnz	x8, 0x10020cc98
+000000010020cb0c	and	x8, x21, #0xffffffffffffff8
+000000010020cb10	ldr	x22, [x8, #0x10]
+000000010020cb14	cbz	x22, 0x10020ccb0
+000000010020cb18	mov	x23, #0x0
+000000010020cb1c	and	x19, x21, #0xc000000000000001
+000000010020cb20	and	x24, x21, #0xffffffffffffff8
+000000010020cb24	b	0x10020cb54
+000000010020cb28	mov	x0, x27
+000000010020cb2c	bl	0x10044d6a0 ; symbol stub for: _objc_release
+000000010020cb30	mov	x0, x27
+000000010020cb34	bl	0x10044d6a0 ; symbol stub for: _objc_release
+000000010020cb38	mov	x0, x20
+000000010020cb3c	bl	0x10044d7d8 ; symbol stub for: _swift_bridgeObjectRelease
+000000010020cb40	mov	x0, x28
+000000010020cb44	bl	0x10044d6a0 ; symbol stub for: _objc_release
+000000010020cb48	add	x23, x23, #0x1
+000000010020cb4c	cmp	x25, x22
+000000010020cb50	b.eq	0x10020ccb0
+000000010020cb54	cbnz	x19, 0x10020cc70
+000000010020cb58	ldr	x8, [x24, #0x10]
+000000010020cb5c	cmp	x23, x8
+000000010020cb60	b.hs	0x10020cc94
+000000010020cb64	add	x8, x21, x23, lsl #3
+000000010020cb68	ldr	x0, [x8, #0x20]
+000000010020cb6c	bl	0x10044d6ac ; symbol stub for: _objc_retain
+000000010020cb70	adds	x25, x23, #0x1
+000000010020cb74	b.vs	0x10020cc84
+000000010020cb78	bl	0x10044d6ac ; symbol stub for: _objc_retain
+000000010020cb7c	mov	x27, x0
+000000010020cb80	mov	x0, #0x534e
+000000010020cb84	movk	x0, #0x6353, lsl #16 ; SMALL 'NSSc'
+000000010020cb88	movk	x0, #0x6572, lsl #32 ; SMALL 'NSScre'
+000000010020cb8c	movk	x0, #0x6e65, lsl #48 ; SMALL 'NSScreen'
+000000010020cb90	mov	x1, #0x754e
+000000010020cb94	movk	x1, #0x626d, lsl #16 ; SMALL 'Numb'
+000000010020cb98	movk	x1, #0x7265, lsl #32 ; SMALL 'Number'
+000000010020cb9c	movk	x1, #0xee00, lsl #48
+000000010020cba0	bl	0x10044bcd8 ; symbol stub for: _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+000000010020cba4	mov	x28, x0
+000000010020cba8	mov	x0, x27
+000000010020cbac	bl	0x10044f000 ; objc deviceDescription
+000000010020cbb0	mov	x29, x29
+000000010020cbb4	bl	0x10044d6c4 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+000000010020cbb8	mov	x26, x0
+000000010020cbbc	mov	x0, #0x0
+000000010020cbc0	bl	0x10000abf0
+000000010020cbc4	mov	x20, x0
+000000010020cbc8	bl	0x10020c64c
+000000010020cbcc	mov	x3, x0
+000000010020cbd0	adrp	x8, 938 ; 0x1005b6000
+000000010020cbd4	ldr	x8, [x8, #0x210] ; literal pool symbol address: _$sypN
+000000010020cbd8	add	x2, x8, #0x8
+000000010020cbdc	mov	x0, x26
+000000010020cbe0	mov	x1, x20
+000000010020cbe4	bl	0x10044bbc4 ; symbol stub for: _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
+000000010020cbe8	mov	x20, x0
+000000010020cbec	mov	x0, x26
+000000010020cbf0	bl	0x10044d6a0 ; symbol stub for: _objc_release
+000000010020cbf4	ldr	x8, [x20, #0x10]
+000000010020cbf8	cbz	x8, 0x10020cb28
+000000010020cbfc	mov	x0, x28
+000000010020cc00	bl	0x100123ba0
+000000010020cc04	tbz	w1, #0x0, 0x10020cb28
+000000010020cc08	ldr	x8, [x20, #0x38]
+000000010020cc0c	add	x0, x8, x0, lsl #5
+000000010020cc10	add	x1, sp, #0x10
+000000010020cc14	bl	0x100009d48
+000000010020cc18	mov	x0, x20
+000000010020cc1c	bl	0x10044d7d8 ; symbol stub for: _swift_bridgeObjectRelease
+000000010020cc20	mov	x0, x28
+000000010020cc24	bl	0x10044d6a0 ; symbol stub for: _objc_release
+000000010020cc28	mov	x0, x27
+000000010020cc2c	bl	0x10044d6a0 ; symbol stub for: _objc_release
+000000010020cc30	add	x0, sp, #0xc
+000000010020cc34	add	x1, sp, #0x10
+000000010020cc38	adrp	x8, 938 ; 0x1005b6000
+000000010020cc3c	ldr	x8, [x8, #0x210] ; literal pool symbol address: _$sypN
+000000010020cc40	add	x2, x8, #0x8
+000000010020cc44	adrp	x3, 938 ; 0x1005b6000
+000000010020cc48	ldr	x3, [x3, #0x110] ; literal pool symbol address: _$ss6UInt32VN
+000000010020cc4c	mov	w4, #0x6
+000000010020cc50	bl	0x10044d88c ; symbol stub for: _swift_dynamicCast
+000000010020cc54	tbz	w0, #0x0, 0x10020cc68
+000000010020cc58	ldr	w8, [sp, #0xc]
+000000010020cc5c	ldr	x9, [sp]
+000000010020cc60	cmp	w8, w9
+000000010020cc64	b.eq	0x10020cc88
+000000010020cc68	mov	x0, x27
+000000010020cc6c	b	0x10020cb44
+000000010020cc70	mov	x0, x23
+000000010020cc74	mov	x1, x21
+000000010020cc78	bl	0x10044c848 ; symbol stub for: _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+000000010020cc7c	adds	x25, x23, #0x1
+000000010020cc80	b.vc	0x10020cb78
+000000010020cc84	brk	#0x1
+000000010020cc88	mov	x0, x21
+000000010020cc8c	bl	0x10044d7d8 ; symbol stub for: _swift_bridgeObjectRelease
+000000010020cc90	b	0x10020ccbc
+000000010020cc94	brk	#0x1
+000000010020cc98	and	x8, x21, #0xffffffffffffff8
+000000010020cc9c	cmn	x21, #0x1
+000000010020cca0	csel	x0, x8, x21, gt
+000000010020cca4	bl	0x10044c9c8 ; symbol stub for: _$ss18_CocoaArrayWrapperV8endIndexSivg
+000000010020cca8	mov	x22, x0
+000000010020ccac	cbnz	x22, 0x10020cb18
+000000010020ccb0	mov	x0, x21
+000000010020ccb4	bl	0x10044d7d8 ; symbol stub for: _swift_bridgeObjectRelease
+000000010020ccb8	mov	x27, #0x0
+000000010020ccbc	mov	x0, x27
+000000010020ccc0	ldp	x29, x30, [sp, #0x80]
+000000010020ccc4	ldp	x20, x19, [sp, #0x70]
+000000010020ccc8	ldp	x22, x21, [sp, #0x60]
+000000010020cccc	ldp	x24, x23, [sp, #0x50]
+000000010020ccd0	ldp	x26, x25, [sp, #0x40]
+000000010020ccd4	ldp	x28, x27, [sp, #0x30]
+000000010020ccd8	add	sp, sp, #0x90
+000000010020ccdc	ret

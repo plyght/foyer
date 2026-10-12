@@ -1,0 +1,282 @@
+[
+  {
+    "t": 2.002,
+    "label": "brightness_up",
+    "command": [
+      "/Users/devin/work/ev/scripts/hwkeys",
+      "2",
+      "4"
+    ],
+    "rc": 0,
+    "stdout": "posted key 2 x4 flags 0x0\n",
+    "stderr": ""
+  },
+  {
+    "t": 3.058,
+    "label": "brightness_down",
+    "command": [
+      "/Users/devin/work/ev/scripts/hwkeys",
+      "3",
+      "4"
+    ],
+    "rc": 0,
+    "stdout": "posted key 3 x4 flags 0x0\n",
+    "stderr": ""
+  },
+  {
+    "t": 4.046,
+    "label": "brightness_fine",
+    "command": [
+      "/Users/devin/work/ev/scripts/hwkeys",
+      "2",
+      "4",
+      "a0000"
+    ],
+    "rc": 0,
+    "stdout": "posted key 2 x4 flags 0xa0000\n",
+    "stderr": ""
+  },
+  {
+    "t": 5.038,
+    "label": "volume_up",
+    "command": [
+      "/Users/devin/work/ev/scripts/hwkeys",
+      "0",
+      "2"
+    ],
+    "rc": 0,
+    "stdout": "posted key 0 x2 flags 0x0\n",
+    "stderr": ""
+  },
+  {
+    "t": 5.716,
+    "label": "mute",
+    "command": [
+      "/Users/devin/work/ev/scripts/hwkeys",
+      "7",
+      "1"
+    ],
+    "rc": 0,
+    "stdout": "posted key 7 x1 flags 0x0\n",
+    "stderr": ""
+  },
+  {
+    "t": 6.212,
+    "label": "keyboard_illum_up",
+    "command": [
+      "/Users/devin/work/ev/scripts/hwkeys",
+      "21",
+      "2"
+    ],
+    "rc": 0,
+    "stdout": "posted key 21 x2 flags 0x0\n",
+    "stderr": ""
+  },
+  {
+    "t": 6.832,
+    "label": "keyboard_illum_down",
+    "command": [
+      "/Users/devin/work/ev/scripts/hwkeys",
+      "22",
+      "2"
+    ],
+    "rc": 0,
+    "stdout": "posted key 22 x2 flags 0x0\n",
+    "stderr": ""
+  },
+  {
+    "t": 9.207,
+    "label": "lowpower_on",
+    "command": [
+      "sudo",
+      "-n",
+      "pmset",
+      "-a",
+      "lowpowermode",
+      "1"
+    ],
+    "rc": 0,
+    "stdout": "LowPowerMode not supported on AC Power\n",
+    "stderr": ""
+  },
+  {
+    "t": 11.369,
+    "label": "lowpower_off",
+    "command": [
+      "sudo",
+      "-n",
+      "pmset",
+      "-a",
+      "lowpowermode",
+      "0"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "t": 13.526,
+    "label": "lowpower_battery_restore",
+    "command": [
+      "sudo",
+      "-n",
+      "pmset",
+      "-b",
+      "lowpowermode",
+      "0"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "t": 13.546,
+    "label": "synthetic_locked",
+    "command": [
+      "/Users/devin/work/ev/scripts/postnotif",
+      "com.apple.screenIsLocked"
+    ],
+    "rc": 0,
+    "stdout": "posted com.apple.screenIsLocked\n",
+    "stderr": ""
+  },
+  {
+    "t": 15.749,
+    "label": "synthetic_unlocked",
+    "command": [
+      "/Users/devin/work/ev/scripts/postnotif",
+      "com.apple.screenIsUnlocked"
+    ],
+    "rc": 0,
+    "stdout": "posted com.apple.screenIsUnlocked\n",
+    "stderr": ""
+  },
+  {
+    "t": 17.895,
+    "label": "synthetic_lockui",
+    "command": [
+      "/Users/devin/work/ev/scripts/postnotif",
+      "com.apple.screenLockUIIsShown"
+    ],
+    "rc": 0,
+    "stdout": "posted com.apple.screenLockUIIsShown\n",
+    "stderr": ""
+  },
+  {
+    "t": 20.051,
+    "label": "synthetic_unlockui",
+    "command": [
+      "/Users/devin/work/ev/scripts/postnotif",
+      "com.apple.screenLockUIIsHidden"
+    ],
+    "rc": 0,
+    "stdout": "posted com.apple.screenLockUIIsHidden\n",
+    "stderr": ""
+  },
+  {
+    "t": 22.205,
+    "label": "synthetic_screensaver_start",
+    "command": [
+      "/Users/devin/work/ev/scripts/postnotif",
+      "com.apple.screensaver.didstart"
+    ],
+    "rc": 0,
+    "stdout": "posted com.apple.screensaver.didstart\n",
+    "stderr": ""
+  },
+  {
+    "t": 24.349,
+    "label": "synthetic_screensaver_stop",
+    "command": [
+      "/Users/devin/work/ev/scripts/postnotif",
+      "com.apple.screensaver.didstop"
+    ],
+    "rc": 0,
+    "stdout": "posted com.apple.screensaver.didstop\n",
+    "stderr": ""
+  },
+  {
+    "t": 26.566,
+    "label": "screensaver_launch",
+    "command": [
+      "open",
+      "-a",
+      "ScreenSaverEngine"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "t": 29.735,
+    "label": "screensaver_escape",
+    "command": [
+      "osascript",
+      "-e",
+      "tell application \"System Events\" to key code 53"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "t": 30.934,
+    "label": "display_sleep",
+    "command": [
+      "pmset",
+      "displaysleepnow"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "t": 32.047,
+    "label": "display_wake",
+    "command": [
+      "caffeinate",
+      "-u",
+      "-t",
+      "2"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "t": 36.988,
+    "label": "adjusted_width20",
+    "command": [
+      "open",
+      "-a",
+      "Alcove"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "t": 40.447,
+    "label": "adjusted_height10",
+    "command": [
+      "open",
+      "-a",
+      "Alcove"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "t": 43.898,
+    "label": "adjusted_restored",
+    "command": [
+      "open",
+      "-a",
+      "Alcove"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

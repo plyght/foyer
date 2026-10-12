@@ -1,0 +1,40 @@
+pid/3213 = {
+	type = pid
+	handle = 3213
+	active count = 1
+	on-demand count = 1
+	originator = /Applications/Alcove.app/Contents/XPCServices/AlcoveHelper.xpc
+	creator = AlcoveHelper[3213]
+	creator euid = 501
+	uniqueid = 3213
+	security context = {
+		uid = 501
+		asid = 100098
+	}
+
+	bringup time = 0 ms
+	death port = 0xff293
+
+	environment = {
+		PATH => /Users/devin/.devin/package/custom_binaries:/Library/Devin/shims:/opt/homebrew/bin:/usr/local/bin:/Library/Devin/xcode-git:/usr/bin:/bin:/usr/sbin:/sbin
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.452KTgcKni/Listeners
+		HOME => /Users/devin
+		__CF_USER_TEXT_ENCODING => 0x1F5:0:0
+		TMPDIR => /var/folders/jj/fwmm45ns4dz80954vdr61l2w0000gn/T/
+	}
+
+	services = {
+	}
+
+	service stubs = {
+		com.apple.audio.Core-Audio-Driver-Service.helper
+		com.apple.StreamingUnzipService
+		com.apple.audio.DriverHelper
+		com.apple.AppleDeviceQueryService
+		com.apple.StreamingUnzipService.privileged
+		com.apple.appkit.xpc.TrustedUIService
+		com.apple.appkit.xpc.ThemeWidgetControlViewService
+		com.apple.foundation.UserScriptService
+		com.apple.security.XPCAcmeService
+		com.apple.coremedia.videoencoder.zonto
+		com.apple.internal.DataDetectorsRemoteScanner

@@ -1,0 +1,461 @@
+[
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100021088",
+"addr": "0x1000210b0",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.15,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100021198",
+"addr": "0x100021234",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.35,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1000212a8",
+"addr": "0x100021350",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.35,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.10003fcec",
+"addr": "0x10003fd0c",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.5,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100073d64",
+"addr": "0x100073d84",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1000e00d0",
+"addr": "0x1000e00fc",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.45,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1000e10fc",
+"addr": "0x1000e111c",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.25,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1000e20a4",
+"addr": "0x1000e20c4",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.25,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1000e3d90",
+"addr": "0x1000e3db0",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.5,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100114168",
+"addr": "0x10011419c",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.8,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100114be4",
+"addr": "0x100114cc8",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.35,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100114d40",
+"addr": "0x100114e34",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.35,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.10012fc6c",
+"addr": "0x10012fc8c",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.5,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.10013047c",
+"addr": "0x1001304a8",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.2,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.10015e234",
+"addr": "0x10015e27c",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.10015f5b8",
+"addr": "0x10015f69c",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": null,
+"d1": 2.0,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.10015f940",
+"addr": "0x10015fa04",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?fcsel",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1001c2608",
+"addr": "0x1001c2628",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1001c81a4",
+"addr": "0x1001c81c4",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1001c96d4",
+"addr": "0x1001c9700",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.45,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1001e0d10",
+"addr": "0x1001e10bc",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.275,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1001e12e4",
+"addr": "0x1001e13e0",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1001e3084",
+"addr": "0x1001e30e8",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1001fabbc",
+"addr": "0x1001fabec",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 1e-10,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1001fb37c",
+"addr": "0x1001fb3ac",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 1e-10,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100208868",
+"addr": "0x100208888",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.5,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1002287a4",
+"addr": "0x1002287c4",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100229e84",
+"addr": "0x100229ea4",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.10022cf70",
+"addr": "0x10022cf90",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.10022d84c",
+"addr": "0x10022d87c",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.02,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.10022dbd8",
+"addr": "0x10022dbf8",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.10022e118",
+"addr": "0x10022e13c",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?fadd",
+"d1": "?ldp",
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.10022eabc",
+"addr": "0x10022eadc",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100230980",
+"addr": "0x1002309b8",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1002322e8",
+"addr": "0x100232308",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100235cdc",
+"addr": "0x100235d08",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.05,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100264994",
+"addr": "0x1002649b4",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 4.75,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1002aec40",
+"addr": "0x1002aec60",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 4.75,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1002e0adc",
+"addr": "0x1002e0afc",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1002e4570",
+"addr": "0x1002e4590",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100316940",
+"addr": "0x100316960",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.5,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100352960",
+"addr": "0x100352988",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.35,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1003546fc",
+"addr": "0x100354728",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.2,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100355734",
+"addr": "0x100355760",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.2,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100357348",
+"addr": "0x100357370",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.475,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100358d14",
+"addr": "0x100358d3c",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.15,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.10035a698",
+"addr": "0x10035a6b8",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 2.0,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100377914",
+"addr": "0x100377940",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100377d00",
+"addr": "0x100377d84",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?mem",
+"d1": null,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.1003782f0",
+"addr": "0x10037831c",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": "?fmul",
+"d1": 60.0,
+"d2": null
+},
+{
+"tag": "durationSeconds",
+"fn": "sym.func.100388f80",
+"addr": "0x100388fa0",
+"call": "bl sym.imp.Duration.seconds_...BSdFZ_",
+"d0": 1.5,
+"d1": null,
+"d2": null
+}
+]

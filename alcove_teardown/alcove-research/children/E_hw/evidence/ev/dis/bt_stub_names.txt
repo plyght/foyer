@@ -1,0 +1,15 @@
+            ; CALL XREF from sym.func.10031a62c @ 0x10031a814(x)
+/ 20: fcn.10044fda0 ();
+|           0x10044fda0      a10b00b0       adrp x1, 0x1005c4000
+|           0x10044fda4      218044f9       ldr x1, [x1, 0x900]        ; [0x1005c4900:8]=0x10000000558ad9 ; reloc.fixup.isConnected
+|           0x10044fda8      100b00f0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+            ; CALL XREF from sym.func.10031b0c8 @ 0x10031b220(x)
+/ 20: fcn.10044efc0 ();
+|           0x10044efc0      a10b00d0       adrp x1, 0x1005c4000
+|           0x10044efc4      21c442f9       ldr x1, [x1, 0x588]        ; [0x1005c4588:8]=0x10000000557712 ; reloc.fixup.deviceClassMinor
+|           0x10044efc8      300b0090       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+            ; CALL XREF from sym.func.10031a62c @ 0x10031a828(x)
+/ 20: fcn.10044e100 ();
+|           0x10044e100      a10b00d0       adrp x1, 0x1005c4000
+|           0x10044e104      21ec40f9       ldr x1, [x1, 0x1d8]        ; [0x1005c41d8:8]=0x100000005559c9 ; reloc.fixup.addressString
+|           0x10044e108      300b0090       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000

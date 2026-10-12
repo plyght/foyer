@@ -1,0 +1,85 @@
+  ; CODE XREF from sym.func.100133fec @ 0x100134094(x)
+312: sym.func.100134354 ();
+`- args(x20, x21) vars(6:sp[0x8..0x30])
+0x100134354      stp x22, x21, [var_30h]!
+0x100134358      stp x20, x19, [var_10h]
+0x10013435c      stp x29, x30, [var_20h]
+0x100134360      add x29, sp, 0x20
+0x100134364      adrp x4, 0x100136000
+0x100134368      add x4, x4, 0x8ac
+0x10013436c      mov w0, 1
+0x100134370      mov w1, 0
+0x100134374      mov w2, 0
+0x100134378      mov w3, 0x4c00
+0x10013437c      mov x5, x20                                           ; self
+0x100134380      bl sym.imp.CGEventTapCreate
+0x100134384      cbz x0, 0x100134478
+0x100134388      mov x21, x0                                           ; error
+0x10013438c      adrp x8, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x100134390      ldr x8, [x8, 0xc08]                                   ; [0x1005b2c08:8]=0
+                                                                       ; reloc.kCFAllocatorDefault
+0x100134394      ldr x22, [x8]
+0x100134398      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x10013439c      mov x19, x0
+0x1001343a0      mov x0, x22
+0x1001343a4      mov x1, x19
+0x1001343a8      mov x2, 0
+0x1001343ac      bl sym.imp.CFMachPortCreateRunLoopSource
+0x1001343b0      cbz x0, 0x100134460
+0x1001343b4      mov x22, x0
+0x1001343b8      ldr x0, [x20, 0x40]                                   ; self
+0x1001343bc      str x21, [x20, 0x40]                                  ; self
+0x1001343c0      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1001343c4      ldr x21, [x20, 0x48]                                  ; self
+0x1001343c8      str x22, [x20, 0x48]                                  ; self
+0x1001343cc      mov x0, x22                                           ; void *instance
+0x1001343d0      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x1001343d4      mov x22, x0
+0x1001343d8      mov x0, x21                                           ; void *instance
+0x1001343dc      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1001343e0      mov x0, x22                                           ; void *instance
+0x1001343e4      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x1001343e8      mov x21, x0
+0x1001343ec      bl sym.imp.CFRunLoopGetMain
+0x1001343f0      mov x29, x29
+0x1001343f4      bl sym.imp.objc_retainAutoreleasedReturnValue         ; void objc_retainAutoreleasedReturnValue(void *instance)
+0x1001343f8      ldr x22, [x20, 0x50]                                  ; self
+0x1001343fc      str x0, [x20, 0x50]                                   ; self
+0x100134400      bl sym.imp.objc_retain                                ; void objc_retain(void *instance)
+0x100134404      mov x20, x0
+0x100134408      mov x0, x22                                           ; void *instance
+0x10013440c      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100134410      adrp x8, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x100134414      ldr x8, [x8, 0xc38]                                   ; [0x1005b2c38:8]=0
+                                                                       ; reloc.kCFRunLoopCommonModes
+0x100134418      ldr x2, [x8]
+0x10013441c      mov x0, x20
+0x100134420      mov x1, x21
+0x100134424      bl sym.imp.CFRunLoopAddSource
+0x100134428      mov x0, x21                                           ; void *instance
+0x10013442c      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100134430      mov x0, x19
+0x100134434      mov w1, 1
+0x100134438      bl sym.imp.CGEventTapEnable
+0x10013443c      mov x0, x19                                           ; void *instance
+0x100134440      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100134444      mov x0, x21                                           ; void *instance
+0x100134448      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x10013444c      mov x0, x20
+0x100134450      ldp x29, x30, [var_20h]
+0x100134454      ldp x20, x19, [var_10h]
+0x100134458      ldp x22, x21, [sp], 0x30
+0x10013445c      b sym.imp.objc_release
+; CODE XREF from sym.func.100134354 @ 0x1001343b0(x)
+0x100134460      mov x0, x19                                           ; void *instance
+0x100134464      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100134468      mov x0, x19
+0x10013446c      bl sym.imp.CFMachPortInvalidate
+0x100134470      mov x0, x19                                           ; void *instance
+0x100134474      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+; CODE XREF from sym.func.100134354 @ 0x100134384(x)
+0x100134478      strb wzr, [x20, 0x58]                                 ; self
+0x10013447c      ldp x29, x30, [var_20h]
+0x100134480      ldp x20, x19, [var_10h]
+0x100134484      ldp x22, x21, [sp], 0x30                              ; [0x178000:4]=0
+0x100134488      ret

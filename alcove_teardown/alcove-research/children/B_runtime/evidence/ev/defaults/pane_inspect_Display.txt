@@ -1,0 +1,60 @@
+macos accessibility snapshot v1 (line format: @ref role "name" = "value" #id [states] {actions}; indent = hierarchy)
+target: pid:2607  epoch: 18  app: Alcove  pid: 2607  provenance: axuielement  nodes: 127/127  truncated: false
+@m7894 application "Alcove"
+ @m7895 window
+  @m7896 group
+   @m7897 button
+   @m7898 button
+ @m7899 window
+  @m7900 group
+ @m7901 window "Display" [focused=true]
+  @m7902 group
+   @m7903 image "Brightness Higher" #sun.max.fill
+   @m7904 statictext = "Display"
+   @m7905 button "General" {press}
+   @m7906 statictext = "Notifications"
+   @m7907 button "Battery" [disabled=true] {press}
+   @m7908 button "Connectivity" {press}
+   @m7909 button "Focus" {press}
+   @m7910 button "Display" {press}
+   @m7911 button "Sound" {press}
+   @m7912 statictext = "Live Activities"
+   @m7913 button "Now Playing" {press}
+   @m7914 button "11, Calendar" {press}
+   @m7915 button "File Tray, Soon" [disabled=true] {press}
+   @m7916 button "Lock Screen" {press}
+   @m7917 statictext = "Alcove"
+   @m7918 button "License, Trial" [selected=true] {press}
+   @m7919 button "About" {press}
+   @m7920 scrollarea {scroll}
+    @m7921 image "Brightness Higher" #sun.max.fill
+    @m7922 statictext = "Display"
+    @m7923 checkbox [checked=true] {press}
+    @m7924 statictext = "Duration"
+    @m7925 button "1.5" {press}
+    @m7926 statictext = "s"
+    @m7927 slider = "1.500" {increment,decrement}
+     @m7928 valueindicator = "1.500"
+    @m7929 button {press}
+    @m7930 button {press}
+    @m7931 button {press}
+    @m7932 statictext = "White"
+    @m7933 statictext = "Accent"
+    @m7934 statictext = "Glow"
+    @m7935 statictext = "Show percentage"
+    @m7936 checkbox [checked=false] {press}
+    @m7937 statictext = "Hide label"
+    @m7938 checkbox [checked=false] {press}
+    @m7939 button "Decrease Speed" #tortoise.fill {press}
+    @m7940 button "Increase Speed" #hare.fill {press}
+    @m7941 button "Flash" #bolt.fill {press}
+    @m7942 statictext = "Smooth"
+    @m7943 statictext = "Fast"
+    @m7944 statictext = "Instant"
+  @m7945 toolbar {show_menu}
+  @m7946 button "close" {press}
+  @m7947 button "zoom" [disabled=true] {press,show_menu}
+   @m7948 group
+    @m7949 group
+  @m7950 button "minimize" [disabled=true] {press}
+note: menu bar folded: "Alcove", "Window", "Help", "Alcove" (57 menu item(s) not listed) — `query role=menuitem` or `query role=menuitem text=<command>` lists them with refs; a menu item is pressed directly, the menu need not be opened first

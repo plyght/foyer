@@ -1,0 +1,10 @@
+0x1005b2750 0x005b2750         SET_64 6     NSApplicationDidChangeScreenParametersNotification
+0x1005b2750 0x00000000         SET_64 0
+0x1005b27f8 0x005b27f8         SET_64 6     NSWorkspaceScreensDidSleepNotification
+0x1005b27f8 0x00000000         SET_64 0
+0x1005b2800 0x005b2800         SET_64 6     NSWorkspaceScreensDidWakeNotification
+0x1005b2800 0x00000000         SET_64 0
+0x1005b2830 0x005b2830         SET_64 6     NSApplication
+0x1005b2830 0x00000000         SET_64 0
+0x1005b2910 0x005b2910         SET_64 6     NSWorkspace
+0x1005b2910 0x00000000         SET_64 0

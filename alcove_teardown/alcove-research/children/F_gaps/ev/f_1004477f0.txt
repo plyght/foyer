@@ -1,0 +1,220 @@
+            ; CODE XREF from sym.func.1004476cc @ 0x1004476d0(x)
+            ; CODE XREF from sym.func.1004477e8 @ 0x1004477ec(x)
+/ 792: sym.func.1004477f0 ();
+| `- args(x21) vars(21:sp[0x8..0xc0])
+|           0x1004477f0      ff0303d1       sub sp, sp, 0xc0
+|           0x1004477f4      fc6f06a9       stp x28, x27, [var_60h]
+|           0x1004477f8      fa6707a9       stp x26, x25, [var_70h]
+|           0x1004477fc      f85f08a9       stp x24, x23, [var_80h]
+|           0x100447800      f65709a9       stp x22, x21, [var_90h]
+|           0x100447804      f44f0aa9       stp x20, x19, [var_a0h]
+|           0x100447808      fd7b0ba9       stp x29, x30, [var_b0h]
+|           0x10044780c      480b00f0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100447810      08c542f9       ldr x8, [x8, 0x588]        ; [0x1005b2588:8]=0
+|                                                                      ; reloc.__stack_chk_guard
+|           0x100447814      080140f9       ldr x8, [x8]
+|           0x100447818      e82f00f9       str x8, [var_58h]
+|           0x10044781c      c90d00f0       adrp x9, 0x100602000
+|           0x100447820      28d146f9       ldr x8, [x9, 0xda0]
+|       ,=< 0x100447824      40000037       tbnz w0, 0, 0x10044782c
+|      ,==< 0x100447828      281500b5       cbnz x8, 0x100447acc
+|      ||   ; CODE XREF from sym.func.1004477f0 @ 0x100447824(x)
+|      |`-> 0x10044782c      4a0b00f0       adrp x10, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|      |    0x100447830      4ac942f9       ldr x10, [x10, 0x590]      ; [0x1005b2590:8]=0
+|      |                                                               ; reloc._availability_version_check
+|      |,=< 0x100447834      6a0000b4       cbz x10, 0x100447840
+|      ||   0x100447838      2ad106f9       str x10, [x9, 0xda0]
+|      ||   0x10044783c      e8030aaa       mov x8, x10
+|      ||   ; CODE XREF from sym.func.1004477f0 @ 0x100447834(x)
+|     ,=`-> 0x100447840      40000037       tbnz w0, 0, 0x100447848
+|     ||,=< 0x100447844      481400b5       cbnz x8, 0x100447acc
+|     |||   ; CODE XREF from sym.func.1004477f0 @ 0x100447840(x)
+|     `---> 0x100447848      41080090       adrp x1, 0x10054f000
+|      ||   0x10044784c      21f41d91       add x1, x1, 0x77d          ; 0x10054f77d ; "kCFAllocatorNull"
+|      ||   0x100447850      20008092       mov x0, -2
+|      ||   0x100447854      48170094       bl sym.imp.dlsym
+|     ,===< 0x100447858      a01300b4       cbz x0, 0x100447acc
+|     |||   0x10044785c      140040f9       ldr x20, [x0]
+|     |||   0x100447860      41080090       adrp x1, 0x10054f000
+|     |||   0x100447864      21381e91       add x1, x1, 0x78e          ; 0x10054f78e ; "CFDataCreateWithBytesNoCopy"
+|     |||   0x100447868      20008092       mov x0, -2
+|     |||   0x10044786c      42170094       bl sym.imp.dlsym
+|    ,====< 0x100447870      e01200b4       cbz x0, 0x100447acc
+|    ||||   0x100447874      fb0300aa       mov x27, x0
+|    ||||   0x100447878      41080090       adrp x1, 0x10054f000
+|    ||||   0x10044787c      21a81e91       add x1, x1, 0x7aa          ; 0x10054f7aa ; "CFPropertyListCreateWithData"
+|    ||||   0x100447880      20008092       mov x0, -2
+|    ||||   0x100447884      3c170094       bl sym.imp.dlsym
+|    ||||   0x100447888      fc0300aa       mov x28, x0
+|    ||||   0x10044788c      41080090       adrp x1, 0x10054f000
+|    ||||   0x100447890      211c1f91       add x1, x1, 0x7c7          ; 0x10054f7c7 ; "CFPropertyListCreateFromXMLData"
+|    ||||   0x100447894      20008092       mov x0, -2
+|    ||||   0x100447898      37170094       bl sym.imp.dlsym
+|    ||||   0x10044789c      880300aa       orr x8, x28, x0
+|   ,=====< 0x1004478a0      681100b4       cbz x8, 0x100447acc
+|   |||||   0x1004478a4      f50300aa       mov x21, x0                ; error
+|   |||||   0x1004478a8      41080090       adrp x1, 0x10054f000
+|   |||||   0x1004478ac      219c1f91       add x1, x1, 0x7e7          ; 0x10054f7e7 ; "CFStringCreateWithCStringNoCopy"
+|   |||||   0x1004478b0      20008092       mov x0, -2
+|   |||||   0x1004478b4      30170094       bl sym.imp.dlsym
+|  ,======< 0x1004478b8      a01000b4       cbz x0, 0x100447acc
+|  ||||||   0x1004478bc      f90300aa       mov x25, x0
+|  ||||||   0x1004478c0      41080090       adrp x1, 0x10054f000
+|  ||||||   0x1004478c4      211c2091       add x1, x1, 0x807          ; 0x10054f807 ; "CFDictionaryGetValue"
+|  ||||||   0x1004478c8      20008092       mov x0, -2
+|  ||||||   0x1004478cc      2a170094       bl sym.imp.dlsym
+| ,=======< 0x1004478d0      e00f00b4       cbz x0, 0x100447acc
+| |||||||   0x1004478d4      f80300aa       mov x24, x0
+| |||||||   0x1004478d8      41080090       adrp x1, 0x10054f000
+| |||||||   0x1004478dc      21702091       add x1, x1, 0x81c          ; 0x10054f81c ; "CFGetTypeID"
+| |||||||   0x1004478e0      20008092       mov x0, -2
+| |||||||   0x1004478e4      24170094       bl sym.imp.dlsym
+| ========< 0x1004478e8      200f00b4       cbz x0, 0x100447acc
+| |||||||   0x1004478ec      f70300aa       mov x23, x0
+| |||||||   0x1004478f0      41080090       adrp x1, 0x10054f000
+| |||||||   0x1004478f4      21a02091       add x1, x1, 0x828          ; 0x10054f828 ; "CFStringGetTypeID"
+| |||||||   0x1004478f8      20008092       mov x0, -2
+| |||||||   0x1004478fc      1e170094       bl sym.imp.dlsym
+| ========< 0x100447900      600e00b4       cbz x0, 0x100447acc
+| |||||||   0x100447904      fa0300aa       mov x26, x0
+| |||||||   0x100447908      41080090       adrp x1, 0x10054f000
+| |||||||   0x10044790c      21e82091       add x1, x1, 0x83a          ; 0x10054f83a ; "CFStringGetCString"
+| |||||||   0x100447910      20008092       mov x0, -2
+| |||||||   0x100447914      18170094       bl sym.imp.dlsym
+| |||||||   0x100447918      e01b00f9       str x0, [var_clob_30h]
+| ========< 0x10044791c      800d00b4       cbz x0, 0x100447acc
+| |||||||   0x100447920      41080090       adrp x1, 0x10054f000
+| |||||||   0x100447924      21342191       add x1, x1, 0x84d          ; 0x10054f84d ; "CFRelease"
+| |||||||   0x100447928      20008092       mov x0, -2
+| |||||||   0x10044792c      12170094       bl sym.imp.dlsym
+| ========< 0x100447930      e00c00b4       cbz x0, 0x100447acc
+| |||||||   0x100447934      f30300aa       mov x19, x0
+| |||||||   0x100447938      40080090       adrp x0, 0x10054f000
+| |||||||   0x10044793c      005c2191       add x0, x0, 0x857          ; 0x10054f857 ; "/System/Library/CoreServices/SystemVersion.plist" ; const char *filename
+| |||||||   0x100447940      41080090       adrp x1, 0x10054f000
+| |||||||   0x100447944      21202291       add x1, x1, 0x888          ; const char *mode
+| |||||||   0x100447948      17170094       bl sym.imp.fopen           ; file*fopen(const char *filename, const char *mode)
+| ========< 0x10044794c      000c00b4       cbz x0, 0x100447acc
+| |||||||   0x100447950      f60300aa       mov x22, x0
+| |||||||   0x100447954      f31700f9       str x19, [var_clob_28h]
+| |||||||   0x100447958      010080d2       mov x1, 0                  ; long offset
+| |||||||   0x10044795c      42008052       mov w2, 2                  ; int whence
+| |||||||   0x100447960      1a170094       bl sym.imp.fseek           ; int fseek(FILE *stream, long offset, int whence)
+| |||||||   0x100447964      e00316aa       mov x0, x22                ; FILE *stream
+| |||||||   0x100447968      1b170094       bl sym.imp.ftell           ; long ftell(FILE *stream)
+| ========< 0x10044796c      c003f8b7       tbnz x0, 0x3f, 0x1004479e4
+| |||||||   0x100447970      f30300aa       mov x19, x0
+| |||||||   0x100447974      e00316aa       mov x0, x22                ; FILE *stream
+| |||||||   0x100447978      71170094       bl sym.imp.rewind          ; void rewind(FILE *stream)
+| |||||||   0x10044797c      e00313aa       mov x0, x19                ; size_t size
+| |||||||   0x100447980      1b170094       bl sym.imp.malloc          ;  void *malloc(size_t size)
+| ========< 0x100447984      e00900b4       cbz x0, 0x100447ac0
+| |||||||   0x100447988      f68301a9       stp x22, x0, [var_clob_18h]
+| |||||||   0x10044798c      21008052       mov w1, 1                  ; size_t size
+| |||||||   0x100447990      e20313aa       mov x2, x19                ; size_t nmemb
+| |||||||   0x100447994      e30316aa       mov x3, x22                ; FILE *stream
+| |||||||   0x100447998      06170094       bl sym.imp.fread           ; size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream)
+| |||||||   0x10044799c      1f0013eb       cmp x0, x19
+| ========< 0x1004479a0      61020054       b.ne 0x1004479ec
+| |||||||   0x1004479a4      000080d2       mov x0, 0
+| |||||||   0x1004479a8      e11340f9       ldr x1, [var_20h]
+| |||||||   0x1004479ac      e20313aa       mov x2, x19
+| |||||||   0x1004479b0      e30314aa       mov x3, x20
+| |||||||   0x1004479b4      60033fd6       blr x27
+| ========< 0x1004479b8      a00100b4       cbz x0, 0x1004479ec
+| |||||||   0x1004479bc      fb0300aa       mov x27, x0
+| |||||||   0x1004479c0      f60f40f9       ldr x22, [var_clob_18h]
+| |||||||   0x1004479c4      000080d2       mov x0, 0
+| |||||||   0x1004479c8      e1031baa       mov x1, x27
+| |||||||   0x1004479cc      020080d2       mov x2, 0
+| |||||||   0x1004479d0      030080d2       mov x3, 0
+| ========< 0x1004479d4      1c0100b4       cbz x28, 0x1004479f4
+| |||||||   0x1004479d8      040080d2       mov x4, 0
+| |||||||   0x1004479dc      80033fd6       blr x28
+| ========< 0x1004479e0      06000014       b 0x1004479f8
+| |||||||   ; CODE XREF from sym.func.1004477f0 @ 0x10044796c(x)
+| --------> 0x1004479e4      000080d2       mov x0, 0
+| ========< 0x1004479e8      36000014       b 0x100447ac0
+| |||||||   ; CODE XREFS from sym.func.1004477f0 @ 0x1004479a0(x), 0x1004479b8(x)
+| --------> 0x1004479ec      f68341a9       ldp x22, x0, [var_clob_18h]
+| ========< 0x1004479f0      34000014       b 0x100447ac0
+| |||||||   ; CODE XREF from sym.func.1004477f0 @ 0x1004479d4(x)
+| --------> 0x1004479f4      a0023fd6       blr x21
+| |||||||   ; CODE XREF from sym.func.1004477f0 @ 0x1004479e0(x)
+| --------> 0x1004479f8      f50300aa       mov x21, x0
+| ========< 0x1004479fc      a00500b4       cbz x0, 0x100447ab0
+| |||||||   0x100447a00      41080090       adrp x1, 0x10054f000
+| |||||||   0x100447a04      21282291       add x1, x1, 0x88a          ; 0x10054f88a ; "ProductVersion"
+| |||||||   0x100447a08      000080d2       mov x0, 0
+| |||||||   0x100447a0c      02c08052       mov w2, 0x600
+| |||||||   0x100447a10      e30314aa       mov x3, x20
+| |||||||   0x100447a14      20033fd6       blr x25
+| ========< 0x100447a18      400400b4       cbz x0, 0x100447aa0
+| |||||||   0x100447a1c      f40300aa       mov x20, x0
+| |||||||   0x100447a20      e00315aa       mov x0, x21
+| |||||||   0x100447a24      e10314aa       mov x1, x20
+| |||||||   0x100447a28      00033fd6       blr x24
+| |||||||   0x100447a2c      f30300aa       mov x19, x0
+| |||||||   0x100447a30      e00314aa       mov x0, x20
+| |||||||   0x100447a34      e81740f9       ldr x8, [var_clob_28h]
+| |||||||   0x100447a38      00013fd6       blr x8
+| ========< 0x100447a3c      330300b4       cbz x19, 0x100447aa0
+| |||||||   0x100447a40      e00313aa       mov x0, x19
+| |||||||   0x100447a44      e0023fd6       blr x23
+| |||||||   0x100447a48      f40300aa       mov x20, x0
+| |||||||   0x100447a4c      40033fd6       blr x26
+| |||||||   0x100447a50      9f0200eb       cmp x20, x0
+| ========< 0x100447a54      61020054       b.ne 0x100447aa0
+| |||||||   0x100447a58      e1e30091       add x1, sp, 0x38
+| |||||||   0x100447a5c      e00313aa       mov x0, x19
+| |||||||   0x100447a60      02048052       mov w2, 0x20
+| |||||||   0x100447a64      03208052       mov w3, 0x100
+| |||||||   0x100447a68      0300a172       movk w3, 0x800, lsl 16
+| |||||||   0x100447a6c      e81b40f9       ldr x8, [var_clob_30h]
+| |||||||   0x100447a70      00013fd6       blr x8
+| ========< 0x100447a74      60010034       cbz w0, 0x100447aa0
+| |||||||   0x100447a78      c80d00f0       adrp x8, 0x100602000
+| |||||||   0x100447a7c      08013691       add x8, x8, 0xd80
+| |||||||   0x100447a80      0a210091       add x10, x8, 8
+| |||||||   0x100447a84      09110091       add x9, x8, 4
+| |||||||   0x100447a88      e9ab00a9       stp x9, x10, [var_8h]
+| |||||||   0x100447a8c      e80300f9       str x8, [sp]
+| |||||||   0x100447a90      41080090       adrp x1, 0x10054f000
+| |||||||   0x100447a94      21642291       add x1, x1, 0x899          ; 0x10054f899 ; "%d.%d.%d" ; const char *format
+| |||||||   0x100447a98      e0e30091       add x0, sp, 0x38           ; const char *s
+| |||||||   0x100447a9c      2e170094       bl sym.imp.sscanf          ; int sscanf(const char *s, const char *format,   ...)
+| |||||||   ; CODE XREFS from sym.func.1004477f0 @ 0x100447a18(x), 0x100447a3c(x), 0x100447a54(x), 0x100447a74(x)
+| --------> 0x100447aa0      e00315aa       mov x0, x21
+| |||||||   0x100447aa4      e81740f9       ldr x8, [var_clob_28h]
+| |||||||   0x100447aa8      00013fd6       blr x8
+| |||||||   0x100447aac      f60f40f9       ldr x22, [var_clob_18h]
+| |||||||   ; CODE XREF from sym.func.1004477f0 @ 0x1004479fc(x)
+| --------> 0x100447ab0      e0031baa       mov x0, x27
+| |||||||   0x100447ab4      e81740f9       ldr x8, [var_clob_28h]
+| |||||||   0x100447ab8      00013fd6       blr x8
+| |||||||   0x100447abc      e01340f9       ldr x0, [var_20h]
+| |||||||   ; CODE XREFS from sym.func.1004477f0 @ 0x100447984(x), 0x1004479e8(x), 0x1004479f0(x)
+| --------> 0x100447ac0      bf160094       bl sym.imp.free            ; void free(void *ptr)
+| |||||||   0x100447ac4      e00316aa       mov x0, x22                ; FILE *stream
+| |||||||   0x100447ac8      b1160094       bl sym.imp.fclose          ; int fclose(FILE *stream)
+| |||||||   ; XREFS: CODE 0x100447828  CODE 0x100447844  CODE 0x100447858  
+| |||||||   ; XREFS: CODE 0x100447870  CODE 0x1004478a0  CODE 0x1004478b8  
+| |||||||   ; XREFS: CODE 0x1004478d0  CODE 0x1004478e8  CODE 0x100447900  
+| |||||||   ; XREFS: CODE 0x10044791c  CODE 0x100447930  CODE 0x10044794c  
+| ```````-> 0x100447acc      e82f40f9       ldr x8, [var_58h]
+|           0x100447ad0      490b00f0       adrp x9, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100447ad4      29c542f9       ldr x9, [x9, 0x588]        ; [0x1005b2588:8]=0
+|                                                                      ; reloc.__stack_chk_guard
+|           0x100447ad8      290140f9       ldr x9, [x9]
+|           0x100447adc      3f0108eb       cmp x9, x8
+|       ,=< 0x100447ae0      21010054       b.ne 0x100447b04
+|       |   0x100447ae4      fd7b4ba9       ldp x29, x30, [var_b0h]
+|       |   0x100447ae8      f44f4aa9       ldp x20, x19, [var_a0h]
+|       |   0x100447aec      f65749a9       ldp x22, x21, [var_90h]
+|       |   0x100447af0      f85f48a9       ldp x24, x23, [var_80h]
+|       |   0x100447af4      fa6747a9       ldp x26, x25, [var_70h]
+|       |   0x100447af8      fc6f46a9       ldp x28, x27, [var_60h]
+|       |   0x100447afc      ff030391       add sp, sp, 0xc0           ; 0x178000
+|       |   0x100447b00      c0035fd6       ret
+|       |   ; CODE XREF from sym.func.1004477f0 @ 0x100447ae0(x)
+\       `-> 0x100447b04      63160094       bl sym.imp.__stack_chk_fail ; void __stack_chk_fail(void)

@@ -1,0 +1,1718 @@
+            ; CALL XREF from sym.func.1002d545c @ 0x1002d5480(x)
+/ 6196: sym.func.1002d8d34 ();
+| `- args(x20) vars(34:sp[0x8..0x130])
+|           0x1002d8d34      fc6fbaa9       stp x28, x27, [var_sp_60h]!
+|           0x1002d8d38      fa6701a9       stp x26, x25, [var_10h]
+|           0x1002d8d3c      f85f02a9       stp x24, x23, [var_20h]
+|           0x1002d8d40      f65703a9       stp x22, x21, [var_30h]
+|           0x1002d8d44      f44f04a9       stp x20, x19, [var_40h]
+|           0x1002d8d48      fd7b05a9       stp x29, x30, [var_50h]
+|           0x1002d8d4c      fd430191       add x29, sp, 0x50
+|           0x1002d8d50      ff4303d1       sub sp, sp, 0xd0
+|           0x1002d8d54      f30314aa       mov x19, x20               ; self
+|           0x1002d8d58      980240f9       ldr x24, [x20]             ; self
+|           0x1002d8d5c      c01700f0       adrp x0, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+|           0x1002d8d60      00401191       add x0, x0, 0x450          ; int64_t arg1
+|           0x1002d8d64      e10b00d0       adrp x1, 0x100456000
+|           0x1002d8d68      21401391       add x1, x1, 0x4d0          ; int64_t arg2
+|           0x1002d8d6c      6ca7f497       bl sym.func.100002b1c
+|           0x1002d8d70      08805ff8       ldur x8, [x0, -8]
+|           0x1002d8d74      082140f9       ldr x8, [x8, 0x40]
+|           0x1002d8d78      e90308aa       mov x9, x8
+|           0x1002d8d7c      d01600d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1002d8d80      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x1002d8d84      00023fd6       blr x16
+|           0x1002d8d88      e9030091       mov x9, sp
+|           0x1002d8d8c      0a3d0091       add x10, x8, 0xf
+|           0x1002d8d90      4ced7c92       and x12, x10, 0xfffffffffffffff0
+|           0x1002d8d94      29010ccb       sub x9, x9, x12
+|           0x1002d8d98      aa8300d1       sub x10, x29, 0x20
+|           0x1002d8d9c      490110f8       stur x9, [x10, -0x100]
+|           0x1002d8da0      3f010091       mov sp, x9
+|           0x1002d8da4      e90308aa       mov x9, x8
+|           0x1002d8da8      d01600d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1002d8dac      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x1002d8db0      00023fd6       blr x16
+|           0x1002d8db4      e8030091       mov x8, sp
+|           0x1002d8db8      08010ccb       sub x8, x8, x12
+|           0x1002d8dbc      a80311f8       stur x8, [var_clob_ffffffffffffff10h]
+|           0x1002d8dc0      1f010091       mov sp, x8
+|           0x1002d8dc4      000080d2       mov x0, 0
+|           0x1002d8dc8      d5c30594       bl sym.imp.Foundation.Calendar.Component_...a_ ; Foundation.Calendar.Component(...a)
+|           0x1002d8dcc      08805ff8       ldur x8, [x0, -8]
+|           0x1002d8dd0      a80334a9       stp x8, x0, [var_c0h]
+|           0x1002d8dd4      082140f9       ldr x8, [x8, 0x40]
+|           0x1002d8dd8      e90308aa       mov x9, x8
+|           0x1002d8ddc      d01600d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1002d8de0      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x1002d8de4      00023fd6       blr x16
+|           0x1002d8de8      e9030091       mov x9, sp
+|           0x1002d8dec      083d0091       add x8, x8, 0xf
+|           0x1002d8df0      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x1002d8df4      280108cb       sub x8, x9, x8
+|           0x1002d8df8      a80315f8       stur x8, [var_clob_ffffffffffffff50h]
+|           0x1002d8dfc      1f010091       mov sp, x8
+|           0x1002d8e00      000080d2       mov x0, 0
+|           0x1002d8e04      3cc30594       bl sym.imp.Foundation.Date...VMa
+|           0x1002d8e08      fc0300aa       mov x28, x0
+|           0x1002d8e0c      19805ff8       ldur x25, [x0, -8]
+|           0x1002d8e10      282340f9       ldr x8, [x25, 0x40]
+|           0x1002d8e14      e90308aa       mov x9, x8
+|           0x1002d8e18      d01600d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1002d8e1c      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x1002d8e20      00023fd6       blr x16
+|           0x1002d8e24      e9030091       mov x9, sp
+|           0x1002d8e28      0a3d0091       add x10, x8, 0xf
+|           0x1002d8e2c      4ced7c92       and x12, x10, 0xfffffffffffffff0
+|           0x1002d8e30      29010ccb       sub x9, x9, x12
+|           0x1002d8e34      a90310f8       stur x9, [var_100h]
+|           0x1002d8e38      3f010091       mov sp, x9
+|           0x1002d8e3c      e90308aa       mov x9, x8
+|           0x1002d8e40      d01600d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1002d8e44      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x1002d8e48      00023fd6       blr x16
+|           0x1002d8e4c      e8030091       mov x8, sp
+|           0x1002d8e50      1a010ccb       sub x26, x8, x12
+|           0x1002d8e54      5f030091       mov sp, x26
+|           0x1002d8e58      000080d2       mov x0, 0
+|           0x1002d8e5c      b6c30594       bl sym.imp.Foundation.Calendar...VMa
+|           0x1002d8e60      f70300aa       mov x23, x0
+|           0x1002d8e64      08805ff8       ldur x8, [x0, -8]
+|           0x1002d8e68      a88312f8       stur x8, [var_clob_ffffffffffffff28h]
+|           0x1002d8e6c      082140f9       ldr x8, [x8, 0x40]
+|           0x1002d8e70      e90308aa       mov x9, x8
+|           0x1002d8e74      d01600d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1002d8e78      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x1002d8e7c      00023fd6       blr x16
+|           0x1002d8e80      e9030091       mov x9, sp
+|           0x1002d8e84      083d0091       add x8, x8, 0xf
+|           0x1002d8e88      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x1002d8e8c      360108cb       sub x22, x9, x8
+|           0x1002d8e90      df020091       mov sp, x22
+|           0x1002d8e94      08180090       adrp x8, 0x1005d8000
+|           0x1002d8e98      1b7942f9       ldr x27, [x8, 0x4f0]       ; [0x1005d84f0:8]=0
+|                                                                      ; field.class.Alcove.CalendarManager.var.logger
+|           0x1002d8e9c      c81700f0       adrp x8, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+|           0x1002d8ea0      084545f9       ldr x8, [x8, 0xa88]
+|           0x1002d8ea4      1f0500b1       cmn x8, 1
+|       ,=< 0x1002d8ea8      a1a00054       b.ne 0x1002da2bc
+|       |   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da2d0(x)
+|      .--> 0x1002d8eac      481900d0       adrp x8, 0x100602000
+|      :|   0x1002d8eb0      08413d91       add x8, x8, 0xf50
+|      :|   0x1002d8eb4      145540a9       ldp x20, x21, [x8]
+|      :|   0x1002d8eb8      b8031af8       stur x24, [var_clob_ffffffffffffffa0h]
+|      :|   0x1002d8ebc      e00315aa       mov x0, x21                ; void *arg0
+|      :|   0x1002d8ec0      4cd20594       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+|      :|   0x1002d8ec4      00180090       adrp x0, 0x1005d8000
+|      :|   0x1002d8ec8      00403891       add x0, x0, 0xe10          ; int64_t arg1
+|      :|   0x1002d8ecc      c10c0090       adrp x1, 0x100470000
+|      :|   0x1002d8ed0      21802991       add x1, x1, 0xa60          ; int64_t arg2
+|      :|   0x1002d8ed4      12a7f497       bl sym.func.100002b1c
+|      :|   0x1002d8ed8      e10300aa       mov x1, x0
+|      :|   0x1002d8edc      a08301d1       sub x0, x29, 0x60
+|      :|   0x1002d8ee0      a2cb0594       bl sym.imp.describing__String_...clufC_ ; describing__String(...clufC)
+|      :|   0x1002d8ee4      e20300aa       mov x2, x0
+|      :|   0x1002d8ee8      e30301aa       mov x3, x1
+|      :|   0x1002d8eec      68021b8b       add x8, x19, x27
+|      :|   0x1002d8ef0      e00314aa       mov x0, x20
+|      :|   0x1002d8ef4      e10315aa       mov x1, x21
+|      :|   0x1002d8ef8      19c40594       bl sym.imp.os.Logger.subsystem.category__String_...tcfC_ ; os.Logger.subsystem.category__String(...tcfC)
+|      :|   0x1002d8efc      08180090       adrp x8, 0x1005d8000
+|      :|   0x1002d8f00      147d42f9       ldr x20, [x8, 0x4f8]       ; [0x1005d84f8:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.eventStore
+|      :|   0x1002d8f04      c81600f0       adrp x8, reloc.EKEventStore ; 0x1005b3000
+|      :|   0x1002d8f08      000140f9       ldr x0, [x8]               ; [0x1005b3000:8]=0x8010000000000420 ; void *arg0
+|      :|   0x1002d8f0c      d0d10594       bl sym.imp.objc_allocWithZone ; void *objc_allocWithZone(void *arg0)
+|      :|   0x1002d8f10      0cda0594       bl fcn.10044f740
+|      :|   0x1002d8f14      606a34f8       str x0, [x19, x20]
+|      :|   0x1002d8f18      08180090       adrp x8, 0x1005d8000
+|      :|   0x1002d8f1c      188142f9       ldr x24, [x8, 0x500]       ; [0x1005d8500:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.calendarAppDefaults
+|      :|   0x1002d8f20      c81600d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|      :|   0x1002d8f24      000146f9       ldr x0, [x8, 0xc00]        ; [0x1005b2c00:8]=0x80100000000003a0 ; reloc.NSUserDefaults ; void *arg0
+|      :|   0x1002d8f28      c9d10594       bl sym.imp.objc_allocWithZone ; void *objc_allocWithZone(void *arg0)
+|      :|   0x1002d8f2c      f40300aa       mov x20, x0
+|      :|   0x1002d8f30      60ec8dd2       mov x0, 0x6f63             ; 'co'
+|      :|   0x1002d8f34      a0cda5f2       movk x0, 0x2e6d, lsl 16    ; 'm.'
+|      :|   0x1002d8f38      200ccef2       movk x0, 0x7061, lsl 32    ; 'ap'
+|      :|   0x1002d8f3c      008eedf2       movk x0, 0x6c70, lsl 48    ; 'pl'
+|      :|   0x1002d8f40      a1cc85d2       mov x1, 0x2e65             ; 'e.'
+|      :|   0x1002d8f44      216da8f2       movk x1, 0x4369, lsl 16    ; 'iC'
+|      :|   0x1002d8f48      218ccdf2       movk x1, 0x6c61, lsl 32    ; 'al'
+|      :|   0x1002d8f4c      01c0fdf2       movk x1, 0xee00, lsl 48
+|      :|   0x1002d8f50      62cb0594       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+|      :|   0x1002d8f54      f50300aa       mov x21, x0
+|      :|   0x1002d8f58      e00314aa       mov x0, x20
+|      :|   0x1002d8f5c      e20315aa       mov x2, x21
+|      :|   0x1002d8f60      18db0594       bl fcn.10044fbc0
+|      :|   0x1002d8f64      f40300aa       mov x20, x0
+|      :|   0x1002d8f68      e00315aa       mov x0, x21                ; void *instance
+|      :|   0x1002d8f6c      cdd10594       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|      :|   0x1002d8f70      746a38f8       str x20, [x19, x24]
+|      :|   0x1002d8f74      08180090       adrp x8, 0x1005d8000
+|      :|   0x1002d8f78      088542f9       ldr x8, [x8, 0x508]        ; [0x1005d8508:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.becameActiveObserver
+|      :|   0x1002d8f7c      6802088b       add x8, x19, x8
+|      :|   0x1002d8f80      00e4006f       movi v0.2d, 0000000000000000
+|      :|   0x1002d8f84      000100ad       stp q0, q0, [x8]
+|      :|   0x1002d8f88      08180090       adrp x8, 0x1005d8000
+|      :|   0x1002d8f8c      088942f9       ldr x8, [x8, 0x510]        ; [0x1005d8510:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.currentLocaleObserver
+|      :|   0x1002d8f90      6802088b       add x8, x19, x8
+|      :|   0x1002d8f94      000100ad       stp q0, q0, [x8]
+|      :|   0x1002d8f98      08180090       adrp x8, 0x1005d8000
+|      :|   0x1002d8f9c      088d42f9       ldr x8, [x8, 0x518]        ; [0x1005d8518:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.systemClockObserver
+|      :|   0x1002d8fa0      6802088b       add x8, x19, x8
+|      :|   0x1002d8fa4      000100ad       stp q0, q0, [x8]
+|      :|   0x1002d8fa8      08180090       adrp x8, 0x1005d8000
+|      :|   0x1002d8fac      089142f9       ldr x8, [x8, 0x520]        ; [0x1005d8520:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.systemTimeZoneObserver
+|      :|   0x1002d8fb0      6802088b       add x8, x19, x8
+|      :|   0x1002d8fb4      000100ad       stp q0, q0, [x8]
+|      :|   0x1002d8fb8      08180090       adrp x8, 0x1005d8000
+|      :|   0x1002d8fbc      089542f9       ldr x8, [x8, 0x528]        ; [0x1005d8528:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.eventStoreObserver
+|      :|   0x1002d8fc0      6802088b       add x8, x19, x8
+|      :|   0x1002d8fc4      000100ad       stp q0, q0, [x8]
+|      :|   0x1002d8fc8      08180090       adrp x8, 0x1005d8000
+|      :|   0x1002d8fcc      089942f9       ldr x8, [x8, 0x530]        ; [0x1005d8530:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.wakeObserver
+|      :|   0x1002d8fd0      6802088b       add x8, x19, x8
+|      :|   0x1002d8fd4      000100ad       stp q0, q0, [x8]
+|      :|   0x1002d8fd8      08180090       adrp x8, 0x1005d8000
+|      :|   0x1002d8fdc      089d42f9       ldr x8, [x8, 0x538]        ; [0x1005d8538:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.midnightTimer
+|      :|   0x1002d8fe0      7f6a28f8       str xzr, [x19, x8]
+|      :|   0x1002d8fe4      08180090       adrp x8, 0x1005d8000
+|      :|   0x1002d8fe8      08a142f9       ldr x8, [x8, 0x540]        ; [0x1005d8540:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.hourlyChimeTimer
+|      :|   0x1002d8fec      7f6a28f8       str xzr, [x19, x8]
+|      :|   0x1002d8ff0      08180090       adrp x8, 0x1005d8000
+|      :|   0x1002d8ff4      08a542f9       ldr x8, [x8, 0x548]        ; [0x1005d8548:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.nextRelevantEventTimer
+|      :|   0x1002d8ff8      7f6a28f8       str xzr, [x19, x8]
+|      :|   0x1002d8ffc      08180090       adrp x8, 0x1005d8000
+|      :|   0x1002d9000      08a942f9       ldr x8, [x8, 0x550]        ; [0x1005d8550:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.countdownTimer
+|      :|   0x1002d9004      7f6a28f8       str xzr, [x19, x8]
+|      :|   0x1002d9008      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d900c      08ad42f9       ldr x8, [x8, 0x558]        ; [0x1005d8558:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.durationTimer
+|      :|   0x1002d9010      7f6a28f8       str xzr, [x19, x8]
+|      :|   0x1002d9014      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d9018      08b142f9       ldr x8, [x8, 0x560]        ; [0x1005d8560:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.timeToLeaveTimer
+|      :|   0x1002d901c      7f6a28f8       str xzr, [x19, x8]
+|      :|   0x1002d9020      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d9024      08b542f9       ldr x8, [x8, 0x568]        ; [0x1005d8568:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.sectionRefreshTimer
+|      :|   0x1002d9028      7f6a28f8       str xzr, [x19, x8]
+|      :|   0x1002d902c      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d9030      08b942f9       ldr x8, [x8, 0x570]        ; [0x1005d8570:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.lastTimeToLeaveSignature
+|      :|   0x1002d9034      6802088b       add x8, x19, x8
+|      :|   0x1002d9038      1f7d00a9       stp xzr, xzr, [x8]
+|      :|   0x1002d903c      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d9040      08bd42f9       ldr x8, [x8, 0x578]        ; [0x1005d8578:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.dismissedEventSignatures
+|      :|   0x1002d9044      e91600b0       adrp x9, reloc.Int64...VMn ; 0x1005b6000
+|      :|   0x1002d9048      291d41f9       ldr x9, [x9, 0x238]        ; [0x1005b6238:8]=0x8010000000000a28
+|      :|   0x1002d904c      696a28f8       str x9, [x19, x8]
+|      :|   0x1002d9050      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d9054      08c142f9       ldr x8, [x8, 0x580]        ; [0x1005d8580:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.dismissedEventHistory
+|      :|   0x1002d9058      e91600b0       adrp x9, reloc.Int64...VMn ; 0x1005b6000
+|      :|   0x1002d905c      291541f9       ldr x9, [x9, 0x228]        ; [0x1005b6228:8]=0x8010000000000a26
+|      :|   0x1002d9060      696a28f8       str x9, [x19, x8]
+|      :|   0x1002d9064      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d9068      08c542f9       ldr x8, [x8, 0x588]        ; [0x1005d8588:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.fetchDebounceTask
+|      :|   0x1002d906c      7f6a28f8       str xzr, [x19, x8]
+|      :|   0x1002d9070      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d9074      08c942f9       ldr x8, [x8, 0x590]        ; [0x1005d8590:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.isFetchingEvents
+|      :|   0x1002d9078      7f6a2838       strb wzr, [x19, x8]
+|      :|   0x1002d907c      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d9080      08cd42f9       ldr x8, [x8, 0x598]        ; [0x1005d8598:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.pendingFetchEvents
+|      :|   0x1002d9084      7f6a2838       strb wzr, [x19, x8]
+|      :|   0x1002d9088      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d908c      08d142f9       ldr x8, [x8, 0x5a0]        ; [0x1005d85a0:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.startupCalendarDelayTask
+|      :|   0x1002d9090      7f6a28f8       str xzr, [x19, x8]
+|      :|   0x1002d9094      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d9098      08d542f9       ldr x8, [x8, 0x5a8]        ; [0x1005d85a8:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.selectionRecomputeTask
+|      :|   0x1002d909c      7f6a28f8       str xzr, [x19, x8]
+|      :|   0x1002d90a0      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d90a4      08d942f9       ldr x8, [x8, 0x5b0]        ; [0x1005d85b0:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.lastFetchCompletionTime
+|      :|   0x1002d90a8      6802088b       add x8, x19, x8
+|      :|   0x1002d90ac      65c20594       bl sym.imp.Foundation.Date.distantPast_...vgZ_ ; Foundation.Date.distantPast(...vgZ)
+|      :|   0x1002d90b0      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d90b4      08dd42f9       ldr x8, [x8, 0x5b8]        ; [0x1005d85b8:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.minimumFetchInterval
+|      :|   0x1002d90b8      89fee7d2       mov x9, 0x3ff4000000000000
+|      :|   0x1002d90bc      696a28f8       str x9, [x19, x8]
+|      :|   0x1002d90c0      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d90c4      08e142f9       ldr x8, [x8, 0x5c0]        ; [0x1005d85c0:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.calendarStartupLiveActivityDelay
+|      :|   0x1002d90c8      0902e8d2       mov x9, 0x4010000000000000
+|      :|   0x1002d90cc      696a28f8       str x9, [x19, x8]
+|      :|   0x1002d90d0      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d90d4      08e542f9       ldr x8, [x8, 0x5c8]        ; [0x1005d85c8:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.managerInitializationTime
+|      :|   0x1002d90d8      6802088b       add x8, x19, x8
+|      :|   0x1002d90dc      83c20594       bl sym.imp.Foundation.Date...VACycfC
+|      :|   0x1002d90e0      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d90e4      14e942f9       ldr x20, [x8, 0x5d0]       ; [0x1005d85d0:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var.lastKnownToday
+|      :|   0x1002d90e8      e80316aa       mov x8, x22
+|      :|   0x1002d90ec      dcc20594       bl sym.imp.Foundation.Calendar.autoupdatingCurrent_...vgZ_ ; Foundation.Calendar.autoupdatingCurrent(...vgZ)
+|      :|   0x1002d90f0      e8031aaa       mov x8, x26
+|      :|   0x1002d90f4      7dc20594       bl sym.imp.Foundation.Date...VACycfC
+|      :|   0x1002d90f8      6802148b       add x8, x19, x20
+|      :|   0x1002d90fc      e0031aaa       mov x0, x26
+|      :|   0x1002d9100      f40316aa       mov x20, x22
+|      :|   0x1002d9104      acc20594       bl sym.imp.Foundation.Calendar.startOfDay.for.Date...VAG_tF
+|      :|   0x1002d9108      280740f9       ldr x8, [x25, 8]
+|      :|   0x1002d910c      f5031aaa       mov x21, x26
+|      :|   0x1002d9110      e0031aaa       mov x0, x26
+|      :|   0x1002d9114      bc8315f8       stur x28, [var_clob_ffffffffffffff58h]
+|      :|   0x1002d9118      e1031caa       mov x1, x28
+|      :|   0x1002d911c      a88313f8       stur x8, [var_clob_ffffffffffffff38h]
+|      :|   0x1002d9120      00013fd6       blr x8
+|      :|   0x1002d9124      a88352f8       ldur x8, [var_clob_ffffffffffffff28h]
+|      :|   0x1002d9128      1b0540f9       ldr x27, [x8, 8]
+|      :|   0x1002d912c      e00316aa       mov x0, x22
+|      :|   0x1002d9130      e10317aa       mov x1, x23
+|      :|   0x1002d9134      60033fd6       blr x27
+|      :|   0x1002d9138      e81700f0       adrp x8, 0x1005d8000
+|      :|   0x1002d913c      08ed42f9       ldr x8, [x8, 0x5d8]        ; [0x1005d85d8:8]=0
+|      :|                                                              ; field.class.Alcove.CalendarManager.var._isFirstLaunch
+|      :|   0x1002d9140      7402088b       add x20, x19, x8
+|      :|   0x1002d9144      081800b0       adrp x8, 0x1005da000
+|      :|   0x1002d9148      087d40f9       ldr x8, [x8, 0xf8]
+|      :|   0x1002d914c      1f0500b1       cmn x8, 1
+|      :|   0x1002d9150      f80319aa       mov x24, x25
+|     ,===< 0x1002d9154      018c0054       b.ne 0x1002da2d4
+|     |:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da2e8(x)
+|    .----> 0x1002d9158      481900d0       adrp x8, 0x100603000
+|    :|:|   0x1002d915c      007941f9       ldr x0, [x8, 0x2f0]
+|    :|:|   0x1002d9160      5ed20594       bl sym.imp.swift_retain
+|    :|:|   0x1002d9164      08920594       bl sym.func.10043d984
+|    :|:|   0x1002d9168      800600a9       stp x0, x1, [x20]
+|    :|:|   0x1002d916c      820a00f9       str x2, [x20, 0x10]
+|    :|:|   0x1002d9170      e81700f0       adrp x8, 0x1005d8000
+|    :|:|   0x1002d9174      08f142f9       ldr x8, [x8, 0x5e0]        ; [0x1005d85e0:8]=0
+|    :|:|                                                              ; field.class.Alcove.CalendarManager.var._enableCalendar
+|    :|:|   0x1002d9178      7402088b       add x20, x19, x8
+|    :|:|   0x1002d917c      08180090       adrp x8, 0x1005d9000
+|    :|:|   0x1002d9180      085546f9       ldr x8, [x8, 0xca8]
+|    :|:|   0x1002d9184      1f0500b1       cmn x8, 1
+|    :|:|   0x1002d9188      b90355f8       ldur x25, [var_clob_ffffffffffffff50h]
+|   ,=====< 0x1002d918c      018b0054       b.ne 0x1002da2ec
+|   |:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da300(x)
+|  .------> 0x1002d9190      481900d0       adrp x8, 0x100603000
+|  :|:|:|   0x1002d9194      000940f9       ldr x0, [x8, 0x10]
+|  :|:|:|   0x1002d9198      50d20594       bl sym.imp.swift_retain
+|  :|:|:|   0x1002d919c      fa910594       bl sym.func.10043d984
+|  :|:|:|   0x1002d91a0      800600a9       stp x0, x1, [x20]
+|  :|:|:|   0x1002d91a4      820a00f9       str x2, [x20, 0x10]
+|  :|:|:|   0x1002d91a8      e81700f0       adrp x8, 0x1005d8000
+|  :|:|:|   0x1002d91ac      08f542f9       ldr x8, [x8, 0x5e8]        ; [0x1005d85e8:8]=0
+|  :|:|:|                                                              ; field.class.Alcove.CalendarManager.var._enableNowPlaying
+|  :|:|:|   0x1002d91b0      7402088b       add x20, x19, x8
+|  :|:|:|   0x1002d91b4      08180090       adrp x8, 0x1005d9000
+|  :|:|:|   0x1002d91b8      085146f9       ldr x8, [x8, 0xca0]
+|  :|:|:|   0x1002d91bc      1f0500b1       cmn x8, 1
+|  :|:|:|   0x1002d91c0      fa0315aa       mov x26, x21
+| ,=======< 0x1002d91c4      018a0054       b.ne 0x1002da304
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da318(x)
+| --------> 0x1002d91c8      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d91cc      000540f9       ldr x0, [x8, 8]
+| |:|:|:|   0x1002d91d0      42d20594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d91d4      ec910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d91d8      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d91dc      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d91e0      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d91e4      08f942f9       ldr x8, [x8, 0x5f0]        ; [0x1005d85f0:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._idleActivity
+| |:|:|:|   0x1002d91e8      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d91ec      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d91f0      08b147f9       ldr x8, [x8, 0xf60]
+| |:|:|:|   0x1002d91f4      1f0500b1       cmn x8, 1
+| ========< 0x1002d91f8      21890054       b.ne 0x1002da31c
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da330(x)
+| --------> 0x1002d91fc      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d9200      00b540f9       ldr x0, [x8, 0x168]
+| |:|:|:|   0x1002d9204      35d20594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d9208      df910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d920c      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d9210      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d9214      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9218      08fd42f9       ldr x8, [x8, 0x5f8]        ; [0x1005d85f8:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._hasPromptedCalendarPermission
+| |:|:|:|   0x1002d921c      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d9220      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d9224      083d47f9       ldr x8, [x8, 0xe78]
+| |:|:|:|   0x1002d9228      1f0500b1       cmn x8, 1
+| ========< 0x1002d922c      41880054       b.ne 0x1002da334
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da348(x)
+| --------> 0x1002d9230      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d9234      004941f9       ldr x0, [x8, 0x290]
+| |:|:|:|   0x1002d9238      28d20594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d923c      d2910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d9240      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d9244      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d9248      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d924c      080143f9       ldr x8, [x8, 0x600]        ; [0x1005d8600:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._timeBeforeEvent
+| |:|:|:|   0x1002d9250      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d9254      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d9258      08fd47f9       ldr x8, [x8, 0xff8]
+| |:|:|:|   0x1002d925c      1f0500b1       cmn x8, 1
+| ========< 0x1002d9260      61870054       b.ne 0x1002da34c
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da360(x)
+| --------> 0x1002d9264      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d9268      003d40f9       ldr x0, [x8, 0x78]
+| |:|:|:|   0x1002d926c      1bd20594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d9270      c5910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d9274      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d9278      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d927c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9280      080543f9       ldr x8, [x8, 0x608]        ; [0x1005d8608:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._playSoundOnCalendarEvent
+| |:|:|:|   0x1002d9284      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d9288      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d928c      082147f9       ldr x8, [x8, 0xe40]
+| |:|:|:|   0x1002d9290      1f0500b1       cmn x8, 1
+| ========< 0x1002d9294      81860054       b.ne 0x1002da364
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da378(x)
+| --------> 0x1002d9298      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d929c      008d41f9       ldr x0, [x8, 0x318]
+| |:|:|:|   0x1002d92a0      0ed20594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d92a4      b8910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d92a8      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d92ac      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d92b0      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d92b4      080943f9       ldr x8, [x8, 0x610]        ; [0x1005d8610:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._disableActivityDuringEvents
+| |:|:|:|   0x1002d92b8      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d92bc      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d92c0      087547f9       ldr x8, [x8, 0xee8]
+| |:|:|:|   0x1002d92c4      1f0500b1       cmn x8, 1
+| ========< 0x1002d92c8      a1850054       b.ne 0x1002da37c
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da390(x)
+| --------> 0x1002d92cc      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d92d0      002541f9       ldr x0, [x8, 0x248]
+| |:|:|:|   0x1002d92d4      01d20594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d92d8      ab910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d92dc      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d92e0      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d92e4      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d92e8      080d43f9       ldr x8, [x8, 0x618]        ; [0x1005d8618:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._alwaysShowMonthView
+| |:|:|:|   0x1002d92ec      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d92f0      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d92f4      087147f9       ldr x8, [x8, 0xee0]
+| |:|:|:|   0x1002d92f8      1f0500b1       cmn x8, 1
+| ========< 0x1002d92fc      c1840054       b.ne 0x1002da394
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da3a8(x)
+| --------> 0x1002d9300      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d9304      002141f9       ldr x0, [x8, 0x240]
+| |:|:|:|   0x1002d9308      f4d10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d930c      9e910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d9310      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d9314      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d9318      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d931c      081143f9       ldr x8, [x8, 0x620]        ; [0x1005d8620:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._hideWhileInFullscreen
+| |:|:|:|   0x1002d9320      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d9324      081800b0       adrp x8, 0x1005da000
+| |:|:|:|   0x1002d9328      084d40f9       ldr x8, [x8, 0x98]
+| |:|:|:|   0x1002d932c      1f0500b1       cmn x8, 1
+| ========< 0x1002d9330      e1830054       b.ne 0x1002da3ac
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da3c0(x)
+| --------> 0x1002d9334      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d9338      008d40f9       ldr x0, [x8, 0x118]
+| |:|:|:|   0x1002d933c      e7d10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d9340      91910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d9344      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d9348      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d934c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9350      081543f9       ldr x8, [x8, 0x628]        ; [0x1005d8628:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._playHourlyChime
+| |:|:|:|   0x1002d9354      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d9358      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d935c      086947f9       ldr x8, [x8, 0xed0]
+| |:|:|:|   0x1002d9360      1f0500b1       cmn x8, 1
+| ========< 0x1002d9364      01830054       b.ne 0x1002da3c4
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da3d8(x)
+| --------> 0x1002d9368      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d936c      001941f9       ldr x0, [x8, 0x230]
+| |:|:|:|   0x1002d9370      dad10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d9374      84910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d9378      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d937c      a84300d1       sub x8, x29, 0x10
+| |:|:|:|   0x1002d9380      140110f8       stur x20, [x8, -0x100]
+| |:|:|:|   0x1002d9384      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d9388      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d938c      081943f9       ldr x8, [x8, 0x630]        ; [0x1005d8630:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._notifyWhenTimeToLeave
+| |:|:|:|   0x1002d9390      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d9394      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d9398      086547f9       ldr x8, [x8, 0xec8]
+| |:|:|:|   0x1002d939c      1f0500b1       cmn x8, 1
+| ========< 0x1002d93a0      e1810054       b.ne 0x1002da3dc
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da3f0(x)
+| --------> 0x1002d93a4      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d93a8      001541f9       ldr x0, [x8, 0x228]
+| |:|:|:|   0x1002d93ac      cbd10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d93b0      75910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d93b4      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d93b8      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d93bc      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d93c0      081d43f9       ldr x8, [x8, 0x638]        ; [0x1005d8638:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._timeToLeaveBuffer
+| |:|:|:|   0x1002d93c4      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d93c8      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d93cc      086147f9       ldr x8, [x8, 0xec0]
+| |:|:|:|   0x1002d93d0      1f0500b1       cmn x8, 1
+| ========< 0x1002d93d4      01810054       b.ne 0x1002da3f4
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da408(x)
+| --------> 0x1002d93d8      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d93dc      001141f9       ldr x0, [x8, 0x220]
+| |:|:|:|   0x1002d93e0      bed10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d93e4      68910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d93e8      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d93ec      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d93f0      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d93f4      082143f9       ldr x8, [x8, 0x640]        ; [0x1005d8640:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._timeToLeaveDuration
+| |:|:|:|   0x1002d93f8      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d93fc      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d9400      085d47f9       ldr x8, [x8, 0xeb8]
+| |:|:|:|   0x1002d9404      1f0500b1       cmn x8, 1
+| ========< 0x1002d9408      21800054       b.ne 0x1002da40c
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da420(x)
+| --------> 0x1002d940c      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d9410      000d41f9       ldr x0, [x8, 0x218]
+| |:|:|:|   0x1002d9414      b1d10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d9418      5b910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d941c      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d9420      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d9424      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9428      082543f9       ldr x8, [x8, 0x648]        ; [0x1005d8648:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._playSoundOnTimeToLeave
+| |:|:|:|   0x1002d942c      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d9430      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d9434      081d47f9       ldr x8, [x8, 0xe38]
+| |:|:|:|   0x1002d9438      1f0500b1       cmn x8, 1
+| ========< 0x1002d943c      417f0054       b.ne 0x1002da424
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da438(x)
+| --------> 0x1002d9440      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d9444      008941f9       ldr x0, [x8, 0x310]
+| |:|:|:|   0x1002d9448      a4d10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d944c      4e910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d9450      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d9454      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d9458      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d945c      082943f9       ldr x8, [x8, 0x650]        ; [0x1005d8650:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._defaultTransportType
+| |:|:|:|   0x1002d9460      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d9464      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d9468      085947f9       ldr x8, [x8, 0xeb0]
+| |:|:|:|   0x1002d946c      1f0500b1       cmn x8, 1
+| ========< 0x1002d9470      617e0054       b.ne 0x1002da43c
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da450(x)
+| --------> 0x1002d9474      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d9478      000941f9       ldr x0, [x8, 0x210]
+| |:|:|:|   0x1002d947c      97d10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d9480      41910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d9484      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d9488      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d948c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9490      082d43f9       ldr x8, [x8, 0x658]        ; [0x1005d8658:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._excludedCalendars
+| |:|:|:|   0x1002d9494      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d9498      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d949c      085547f9       ldr x8, [x8, 0xea8]
+| |:|:|:|   0x1002d94a0      1f0500b1       cmn x8, 1
+| ========< 0x1002d94a4      817d0054       b.ne 0x1002da454
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da468(x)
+| --------> 0x1002d94a8      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d94ac      000541f9       ldr x0, [x8, 0x208]
+| |:|:|:|   0x1002d94b0      8ad10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d94b4      34910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d94b8      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d94bc      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d94c0      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d94c4      083143f9       ldr x8, [x8, 0x660]        ; [0x1005d8660:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._calendarDisplayModes
+| |:|:|:|   0x1002d94c8      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d94cc      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d94d0      085147f9       ldr x8, [x8, 0xea0]
+| |:|:|:|   0x1002d94d4      1f0500b1       cmn x8, 1
+| ========< 0x1002d94d8      a17c0054       b.ne 0x1002da46c
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da480(x)
+| --------> 0x1002d94dc      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d94e0      000141f9       ldr x0, [x8, 0x200]
+| |:|:|:|   0x1002d94e4      7dd10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d94e8      27910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d94ec      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d94f0      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d94f4      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d94f8      083543f9       ldr x8, [x8, 0x668]        ; [0x1005d8668:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._beforeEventStarts
+| |:|:|:|   0x1002d94fc      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d9500      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d9504      081947f9       ldr x8, [x8, 0xe30]
+| |:|:|:|   0x1002d9508      1f0500b1       cmn x8, 1
+| ========< 0x1002d950c      c17b0054       b.ne 0x1002da484
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da498(x)
+| --------> 0x1002d9510      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d9514      008541f9       ldr x0, [x8, 0x308]
+| |:|:|:|   0x1002d9518      70d10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d951c      1a910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d9520      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d9524      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d9528      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d952c      083943f9       ldr x8, [x8, 0x670]        ; [0x1005d8670:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._whenEventIsStarting
+| |:|:|:|   0x1002d9530      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d9534      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d9538      081547f9       ldr x8, [x8, 0xe28]
+| |:|:|:|   0x1002d953c      1f0500b1       cmn x8, 1
+| ========< 0x1002d9540      e17a0054       b.ne 0x1002da49c
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da4b0(x)
+| --------> 0x1002d9544      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d9548      008141f9       ldr x0, [x8, 0x300]
+| |:|:|:|   0x1002d954c      63d10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d9550      0d910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d9554      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d9558      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d955c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9560      083d43f9       ldr x8, [x8, 0x678]        ; [0x1005d8678:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._calendarPeekDuration
+| |:|:|:|   0x1002d9564      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d9568      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d956c      081147f9       ldr x8, [x8, 0xe20]
+| |:|:|:|   0x1002d9570      1f0500b1       cmn x8, 1
+| ========< 0x1002d9574      017a0054       b.ne 0x1002da4b4
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da4c8(x)
+| --------> 0x1002d9578      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d957c      007d41f9       ldr x0, [x8, 0x2f8]
+| |:|:|:|   0x1002d9580      56d10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d9584      00910594       bl sym.func.10043d984
+| |:|:|:|   0x1002d9588      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d958c      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d9590      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9594      084143f9       ldr x8, [x8, 0x680]        ; [0x1005d8680:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._enableLockScreen
+| |:|:|:|   0x1002d9598      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d959c      081800b0       adrp x8, 0x1005da000
+| |:|:|:|   0x1002d95a0      086540f9       ldr x8, [x8, 0xc8]
+| |:|:|:|   0x1002d95a4      1f0500b1       cmn x8, 1
+| ========< 0x1002d95a8      21790054       b.ne 0x1002da4cc
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da4e0(x)
+| --------> 0x1002d95ac      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d95b0      00a540f9       ldr x0, [x8, 0x148]
+| |:|:|:|   0x1002d95b4      49d10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d95b8      f3900594       bl sym.func.10043d984
+| |:|:|:|   0x1002d95bc      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d95c0      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d95c4      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d95c8      084543f9       ldr x8, [x8, 0x688]        ; [0x1005d8688:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._allowCalendarWidgetWhenLocked
+| |:|:|:|   0x1002d95cc      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002d95d0      081800b0       adrp x8, 0x1005da000
+| |:|:|:|   0x1002d95d4      083940f9       ldr x8, [x8, 0x70]
+| |:|:|:|   0x1002d95d8      1f0500b1       cmn x8, 1
+| ========< 0x1002d95dc      41780054       b.ne 0x1002da4e4
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da4f8(x)
+| --------> 0x1002d95e0      481900d0       adrp x8, 0x100603000
+| |:|:|:|   0x1002d95e4      007940f9       ldr x0, [x8, 0xf0]
+| |:|:|:|   0x1002d95e8      3cd10594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d95ec      e6900594       bl sym.func.10043d984
+| |:|:|:|   0x1002d95f0      800600a9       stp x0, x1, [x20]
+| |:|:|:|   0x1002d95f4      820a00f9       str x2, [x20, 0x10]
+| |:|:|:|   0x1002d95f8      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d95fc      084943f9       ldr x8, [x8, 0x690]        ; [0x1005d8690:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._events
+| |:|:|:|   0x1002d9600      e91600b0       adrp x9, reloc.Int64...VMn ; 0x1005b6000
+| |:|:|:|   0x1002d9604      291541f9       ldr x9, [x9, 0x228]        ; [0x1005b6228:8]=0x8010000000000a26
+| |:|:|:|   0x1002d9608      696a28f8       str x9, [x19, x8]
+| |:|:|:|   0x1002d960c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9610      084d43f9       ldr x8, [x8, 0x698]        ; [0x1005d8698:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._timeUntilStart
+| |:|:|:|   0x1002d9614      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d9618      1f0100f9       str xzr, [x8]
+| |:|:|:|   0x1002d961c      29008052       mov w9, 1
+| |:|:|:|   0x1002d9620      09210039       strb w9, [x8, 8]
+| |:|:|:|   0x1002d9624      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9628      085143f9       ldr x8, [x8, 0x6a0]        ; [0x1005d86a0:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._timeUntilEnd
+| |:|:|:|   0x1002d962c      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d9630      1f0100f9       str xzr, [x8]
+| |:|:|:|   0x1002d9634      09210039       strb w9, [x8, 8]
+| |:|:|:|   0x1002d9638      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d963c      085543f9       ldr x8, [x8, 0x6a8]        ; [0x1005d86a8:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._timeToTravel
+| |:|:|:|   0x1002d9640      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d9644      1f0100f9       str xzr, [x8]
+| |:|:|:|   0x1002d9648      09210039       strb w9, [x8, 8]
+| |:|:|:|   0x1002d964c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9650      085943f9       ldr x8, [x8, 0x6b0]        ; [0x1005d86b0:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._progressUntilEnd
+| |:|:|:|   0x1002d9654      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d9658      1f0100f9       str xzr, [x8]
+| |:|:|:|   0x1002d965c      09210039       strb w9, [x8, 8]
+| |:|:|:|   0x1002d9660      e80316aa       mov x8, x22
+| |:|:|:|   0x1002d9664      7ec10594       bl sym.imp.Foundation.Calendar.autoupdatingCurrent_...vgZ_ ; Foundation.Calendar.autoupdatingCurrent(...vgZ)
+| |:|:|:|   0x1002d9668      e8031aaa       mov x8, x26
+| |:|:|:|   0x1002d966c      1fc10594       bl sym.imp.Foundation.Date...VACycfC
+| |:|:|:|   0x1002d9670      c8160090       adrp x8, 0x1005b1000
+| |:|:|:|   0x1002d9674      08dd47f9       ldr x8, [x8, 0xfb8]        ; [0x1005b1fb8:8]=0x8010000000000219 ; reloc.Foundation.Calendar.Component.weekday.Em_...C_
+| |:|:|:|   0x1002d9678      010140b9       ldr w1, [x8]
+| |:|:|:|   0x1002d967c      bc5774a9       ldp x28, x21, [var_c0h]
+| |:|:|:|   0x1002d9680      883740f9       ldr x8, [x28, 0x68]
+| |:|:|:|   0x1002d9684      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d9688      a1c311b8       stur w1, [var_e4h]
+| |:|:|:|   0x1002d968c      e20315aa       mov x2, x21
+| |:|:|:|   0x1002d9690      a88312f8       stur x8, [var_clob_ffffffffffffff28h]
+| |:|:|:|   0x1002d9694      00013fd6       blr x8
+| |:|:|:|   0x1002d9698      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d969c      e1031aaa       mov x1, x26
+| |:|:|:|   0x1002d96a0      f40316aa       mov x20, x22
+| |:|:|:|   0x1002d96a4      a1c10594       bl sym.imp.Foundation.Calendar.component.from.Component.Date...VtF
+| |:|:|:|   0x1002d96a8      f40300aa       mov x20, x0
+| |:|:|:|   0x1002d96ac      880740f9       ldr x8, [x28, 8]
+| |:|:|:|   0x1002d96b0      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d96b4      e10315aa       mov x1, x21
+| |:|:|:|   0x1002d96b8      a80314f8       stur x8, [var_c0h]
+| |:|:|:|   0x1002d96bc      00013fd6       blr x8
+| |:|:|:|   0x1002d96c0      950600f1       subs x21, x20, 1
+| ========< 0x1002d96c4      c6710054       b.vs 0x1002da4fc
+| |:|:|:|   0x1002d96c8      f40316aa       mov x20, x22
+| |:|:|:|   0x1002d96cc      4fc10594       bl sym.imp.Foundation.Calendar.weekdaySymbols_...ySSGvg_ ; Foundation.Calendar.weekdaySymbols(...ySSGvg)
+| ========< 0x1002d96d0      9571f8b7       tbnz x21, 0x3f, 0x1002da500
+| |:|:|:|   0x1002d96d4      f40300aa       mov x20, x0
+| |:|:|:|   0x1002d96d8      080840f9       ldr x8, [x0, 0x10]
+| |:|:|:|   0x1002d96dc      bf0208eb       cmp x21, x8
+| ========< 0x1002d96e0      22710054       b.hs 0x1002da504
+| |:|:|:|   0x1002d96e4      e0031aaa       mov x0, x26
+| |:|:|:|   0x1002d96e8      a18355f8       ldur x1, [var_clob_ffffffffffffff58h]
+| |:|:|:|   0x1002d96ec      a88353f8       ldur x8, [var_clob_ffffffffffffff38h]
+| |:|:|:|   0x1002d96f0      00013fd6       blr x8
+| |:|:|:|   0x1002d96f4      e00316aa       mov x0, x22
+| |:|:|:|   0x1002d96f8      b70313f8       stur x23, [var_clob_ffffffffffffff30h]
+| |:|:|:|   0x1002d96fc      e10317aa       mov x1, x23
+| |:|:|:|   0x1002d9700      60033fd6       blr x27
+| |:|:|:|   0x1002d9704      8812158b       add x8, x20, x21, lsl 4
+| |:|:|:|   0x1002d9708      175542a9       ldp x23, x21, [x8, 0x20]
+| |:|:|:|   0x1002d970c      e00315aa       mov x0, x21                ; void *arg0
+| |:|:|:|   0x1002d9710      38d00594       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+| |:|:|:|   0x1002d9714      e00314aa       mov x0, x20                ; void *arg0
+| |:|:|:|   0x1002d9718      30d00594       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| |:|:|:|   0x1002d971c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9720      085d43f9       ldr x8, [x8, 0x6b8]        ; [0x1005d86b8:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._dayName
+| |:|:|:|   0x1002d9724      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d9728      175500a9       stp x23, x21, [x8]
+| |:|:|:|   0x1002d972c      e80316aa       mov x8, x22
+| |:|:|:|   0x1002d9730      4bc10594       bl sym.imp.Foundation.Calendar.autoupdatingCurrent_...vgZ_ ; Foundation.Calendar.autoupdatingCurrent(...vgZ)
+| |:|:|:|   0x1002d9734      e8031aaa       mov x8, x26
+| |:|:|:|   0x1002d9738      ecc00594       bl sym.imp.Foundation.Date...VACycfC
+| |:|:|:|   0x1002d973c      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d9740      a1c351b8       ldur w1, [var_e4h]
+| |:|:|:|   0x1002d9744      b58354f8       ldur x21, [var_b8h]
+| |:|:|:|   0x1002d9748      e20315aa       mov x2, x21
+| |:|:|:|   0x1002d974c      a88352f8       ldur x8, [var_clob_ffffffffffffff28h]
+| |:|:|:|   0x1002d9750      00013fd6       blr x8
+| |:|:|:|   0x1002d9754      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d9758      e1031aaa       mov x1, x26
+| |:|:|:|   0x1002d975c      f40316aa       mov x20, x22
+| |:|:|:|   0x1002d9760      72c10594       bl sym.imp.Foundation.Calendar.component.from.Component.Date...VtF
+| |:|:|:|   0x1002d9764      f40300aa       mov x20, x0
+| |:|:|:|   0x1002d9768      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d976c      e10315aa       mov x1, x21
+| |:|:|:|   0x1002d9770      a80354f8       ldur x8, [var_c0h]
+| |:|:|:|   0x1002d9774      00013fd6       blr x8
+| |:|:|:|   0x1002d9778      950600f1       subs x21, x20, 1
+| ========< 0x1002d977c      666c0054       b.vs 0x1002da508
+| |:|:|:|   0x1002d9780      f40316aa       mov x20, x22
+| |:|:|:|   0x1002d9784      39c10594       bl sym.imp.Foundation.Calendar.shortWeekdaySymbols_...ySSGvg_ ; Foundation.Calendar.shortWeekdaySymbols(...ySSGvg)
+| ========< 0x1002d9788      356cf8b7       tbnz x21, 0x3f, 0x1002da50c
+| |:|:|:|   0x1002d978c      f40300aa       mov x20, x0
+| |:|:|:|   0x1002d9790      080840f9       ldr x8, [x0, 0x10]
+| |:|:|:|   0x1002d9794      bf0208eb       cmp x21, x8
+| ========< 0x1002d9798      c26b0054       b.hs 0x1002da510
+| |:|:|:|   0x1002d979c      a82300d1       sub x8, x29, 8
+| |:|:|:|   0x1002d97a0      180110f8       stur x24, [x8, -0x100]
+| |:|:|:|   0x1002d97a4      e0031aaa       mov x0, x26
+| |:|:|:|   0x1002d97a8      a18355f8       ldur x1, [var_clob_ffffffffffffff58h]
+| |:|:|:|   0x1002d97ac      bb0312f8       stur x27, [var_e0h]
+| |:|:|:|   0x1002d97b0      fc0316aa       mov x28, x22
+| |:|:|:|   0x1002d97b4      bb8353f8       ldur x27, [var_clob_ffffffffffffff38h]
+| |:|:|:|   0x1002d97b8      60033fd6       blr x27
+| |:|:|:|   0x1002d97bc      e00316aa       mov x0, x22
+| |:|:|:|   0x1002d97c0      a10353f8       ldur x1, [var_clob_ffffffffffffff30h]
+| |:|:|:|   0x1002d97c4      a80352f8       ldur x8, [var_e0h]
+| |:|:|:|   0x1002d97c8      00013fd6       blr x8
+| |:|:|:|   0x1002d97cc      8812158b       add x8, x20, x21, lsl 4
+| |:|:|:|   0x1002d97d0      175542a9       ldp x23, x21, [x8, 0x20]
+| |:|:|:|   0x1002d97d4      e00315aa       mov x0, x21                ; void *arg0
+| |:|:|:|   0x1002d97d8      06d00594       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+| |:|:|:|   0x1002d97dc      e00314aa       mov x0, x20                ; void *arg0
+| |:|:|:|   0x1002d97e0      fecf0594       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| |:|:|:|   0x1002d97e4      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d97e8      086143f9       ldr x8, [x8, 0x6c0]        ; [0x1005d86c0:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._shortDayName
+| |:|:|:|   0x1002d97ec      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d97f0      175500a9       stp x23, x21, [x8]
+| |:|:|:|   0x1002d97f4      e80316aa       mov x8, x22
+| |:|:|:|   0x1002d97f8      19c10594       bl sym.imp.Foundation.Calendar.autoupdatingCurrent_...vgZ_ ; Foundation.Calendar.autoupdatingCurrent(...vgZ)
+| |:|:|:|   0x1002d97fc      e8031aaa       mov x8, x26
+| |:|:|:|   0x1002d9800      bac00594       bl sym.imp.Foundation.Date...VACycfC
+| |:|:|:|   0x1002d9804      c8160090       adrp x8, 0x1005b1000
+| |:|:|:|   0x1002d9808      08d147f9       ldr x8, [x8, 0xfa0]        ; [0x1005b1fa0:8]=0x8010000000000216 ; reloc.Foundation.Calendar.Component.day.Em_...C_
+| |:|:|:|   0x1002d980c      010140b9       ldr w1, [x8]
+| |:|:|:|   0x1002d9810      a00355f8       ldur x0, [var_clob_ffffffffffffff50h]
+| |:|:|:|   0x1002d9814      a85300d1       sub x8, x29, 0x14
+| |:|:|:|   0x1002d9818      010110b8       stur w1, [x8, -0x100]
+| |:|:|:|   0x1002d981c      b78354f8       ldur x23, [var_b8h]
+| |:|:|:|   0x1002d9820      e20317aa       mov x2, x23
+| |:|:|:|   0x1002d9824      b68352f8       ldur x22, [var_clob_ffffffffffffff28h]
+| |:|:|:|   0x1002d9828      c0023fd6       blr x22
+| |:|:|:|   0x1002d982c      a00355f8       ldur x0, [var_clob_ffffffffffffff50h]
+| |:|:|:|   0x1002d9830      e1031aaa       mov x1, x26
+| |:|:|:|   0x1002d9834      f4031caa       mov x20, x28
+| |:|:|:|   0x1002d9838      3cc10594       bl sym.imp.Foundation.Calendar.component.from.Component.Date...VtF
+| |:|:|:|   0x1002d983c      f40300aa       mov x20, x0
+| |:|:|:|   0x1002d9840      a00355f8       ldur x0, [var_clob_ffffffffffffff50h]
+| |:|:|:|   0x1002d9844      e10317aa       mov x1, x23
+| |:|:|:|   0x1002d9848      b90354f8       ldur x25, [var_c0h]
+| |:|:|:|   0x1002d984c      20033fd6       blr x25
+| |:|:|:|   0x1002d9850      b4031af8       stur x20, [var_clob_ffffffffffffffa0h]
+| |:|:|:|   0x1002d9854      e0160090       adrp x0, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+| |:|:|:|   0x1002d9858      007044f9       ldr x0, [x0, 0x8e0]        ; [0x1005b58e0:8]=0x8010000000000902 ; reloc....SiN
+| |:|:|:|   0x1002d985c      e1160090       adrp x1, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+| |:|:|:|   0x1002d9860      218844f9       ldr x1, [x1, 0x910]
+| |:|:|:|   0x1002d9864      b48301d1       sub x20, x29, 0x60
+| |:|:|:|   0x1002d9868      cacc0594       bl sym.imp.CustomStringConvertible.description__String_...vgTj_ ; CustomStringConvertible.description__String(...vgTj)
+| |:|:|:|   0x1002d986c      f80300aa       mov x24, x0
+| |:|:|:|   0x1002d9870      f50301aa       mov x21, x1
+| |:|:|:|   0x1002d9874      e0031aaa       mov x0, x26
+| |:|:|:|   0x1002d9878      a18355f8       ldur x1, [var_clob_ffffffffffffff58h]
+| |:|:|:|   0x1002d987c      60033fd6       blr x27
+| |:|:|:|   0x1002d9880      bb0355f8       ldur x27, [var_clob_ffffffffffffff50h]
+| |:|:|:|   0x1002d9884      f4031caa       mov x20, x28
+| |:|:|:|   0x1002d9888      bc0352f8       ldur x28, [var_e0h]
+| |:|:|:|   0x1002d988c      e00314aa       mov x0, x20
+| |:|:|:|   0x1002d9890      a10353f8       ldur x1, [var_clob_ffffffffffffff30h]
+| |:|:|:|   0x1002d9894      80033fd6       blr x28
+| |:|:|:|   0x1002d9898      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d989c      086543f9       ldr x8, [x8, 0x6c8]        ; [0x1005d86c8:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._dayNumber
+| |:|:|:|   0x1002d98a0      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d98a4      185500a9       stp x24, x21, [x8]
+| |:|:|:|   0x1002d98a8      e80314aa       mov x8, x20
+| |:|:|:|   0x1002d98ac      ecc00594       bl sym.imp.Foundation.Calendar.autoupdatingCurrent_...vgZ_ ; Foundation.Calendar.autoupdatingCurrent(...vgZ)
+| |:|:|:|   0x1002d98b0      e8031aaa       mov x8, x26
+| |:|:|:|   0x1002d98b4      8dc00594       bl sym.imp.Foundation.Date...VACycfC
+| |:|:|:|   0x1002d98b8      c8160090       adrp x8, 0x1005b1000
+| |:|:|:|   0x1002d98bc      08d947f9       ldr x8, [x8, 0xfb0]        ; [0x1005b1fb0:8]=0x8010000000000218 ; reloc.Foundation.Calendar.Component.month.Em_...C_
+| |:|:|:|   0x1002d98c0      180140b9       ldr w24, [x8]
+| |:|:|:|   0x1002d98c4      e0031baa       mov x0, x27
+| |:|:|:|   0x1002d98c8      e10318aa       mov x1, x24
+| |:|:|:|   0x1002d98cc      e20317aa       mov x2, x23
+| |:|:|:|   0x1002d98d0      c0023fd6       blr x22
+| |:|:|:|   0x1002d98d4      e0031baa       mov x0, x27
+| |:|:|:|   0x1002d98d8      e1031aaa       mov x1, x26
+| |:|:|:|   0x1002d98dc      13c10594       bl sym.imp.Foundation.Calendar.component.from.Component.Date...VtF
+| |:|:|:|   0x1002d98e0      f50300aa       mov x21, x0
+| |:|:|:|   0x1002d98e4      e0031baa       mov x0, x27
+| |:|:|:|   0x1002d98e8      e10317aa       mov x1, x23
+| |:|:|:|   0x1002d98ec      20033fd6       blr x25
+| |:|:|:|   0x1002d98f0      b70600f1       subs x23, x21, 1
+| ========< 0x1002d98f4      06610054       b.vs 0x1002da514
+| |:|:|:|   0x1002d98f8      b8c00594       bl sym.imp.Foundation.Calendar.monthSymbols_...ySSGvg_ ; Foundation.Calendar.monthSymbols(...ySSGvg)
+| ========< 0x1002d98fc      f760f8b7       tbnz x23, 0x3f, 0x1002da518
+| |:|:|:|   0x1002d9900      f50300aa       mov x21, x0
+| |:|:|:|   0x1002d9904      080840f9       ldr x8, [x0, 0x10]
+| |:|:|:|   0x1002d9908      ff0208eb       cmp x23, x8
+| ========< 0x1002d990c      82600054       b.hs 0x1002da51c
+| |:|:|:|   0x1002d9910      e0031aaa       mov x0, x26
+| |:|:|:|   0x1002d9914      a18355f8       ldur x1, [var_clob_ffffffffffffff58h]
+| |:|:|:|   0x1002d9918      a88353f8       ldur x8, [var_clob_ffffffffffffff38h]
+| |:|:|:|   0x1002d991c      00013fd6       blr x8
+| |:|:|:|   0x1002d9920      e00314aa       mov x0, x20
+| |:|:|:|   0x1002d9924      a10353f8       ldur x1, [var_clob_ffffffffffffff30h]
+| |:|:|:|   0x1002d9928      80033fd6       blr x28
+| |:|:|:|   0x1002d992c      a812178b       add x8, x21, x23, lsl 4
+| |:|:|:|   0x1002d9930      165d42a9       ldp x22, x23, [x8, 0x20]
+| |:|:|:|   0x1002d9934      e00317aa       mov x0, x23                ; void *arg0
+| |:|:|:|   0x1002d9938      aecf0594       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+| |:|:|:|   0x1002d993c      e00315aa       mov x0, x21                ; void *arg0
+| |:|:|:|   0x1002d9940      a6cf0594       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| |:|:|:|   0x1002d9944      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9948      086943f9       ldr x8, [x8, 0x6d0]        ; [0x1005d86d0:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._monthName
+| |:|:|:|   0x1002d994c      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d9950      165d00a9       stp x22, x23, [x8]
+| |:|:|:|   0x1002d9954      e80314aa       mov x8, x20
+| |:|:|:|   0x1002d9958      c1c00594       bl sym.imp.Foundation.Calendar.autoupdatingCurrent_...vgZ_ ; Foundation.Calendar.autoupdatingCurrent(...vgZ)
+| |:|:|:|   0x1002d995c      e8031aaa       mov x8, x26
+| |:|:|:|   0x1002d9960      62c00594       bl sym.imp.Foundation.Date...VACycfC
+| |:|:|:|   0x1002d9964      e0031baa       mov x0, x27
+| |:|:|:|   0x1002d9968      e10318aa       mov x1, x24
+| |:|:|:|   0x1002d996c      b58354f8       ldur x21, [var_b8h]
+| |:|:|:|   0x1002d9970      e20315aa       mov x2, x21
+| |:|:|:|   0x1002d9974      a88352f8       ldur x8, [var_clob_ffffffffffffff28h]
+| |:|:|:|   0x1002d9978      00013fd6       blr x8
+| |:|:|:|   0x1002d997c      e0031baa       mov x0, x27
+| |:|:|:|   0x1002d9980      e1031aaa       mov x1, x26
+| |:|:|:|   0x1002d9984      e9c00594       bl sym.imp.Foundation.Calendar.component.from.Component.Date...VtF
+| |:|:|:|   0x1002d9988      f60300aa       mov x22, x0
+| |:|:|:|   0x1002d998c      e0031baa       mov x0, x27
+| |:|:|:|   0x1002d9990      e10315aa       mov x1, x21
+| |:|:|:|   0x1002d9994      a80354f8       ldur x8, [var_c0h]
+| |:|:|:|   0x1002d9998      00013fd6       blr x8
+| |:|:|:|   0x1002d999c      d70600f1       subs x23, x22, 1
+| ========< 0x1002d99a0      065c0054       b.vs 0x1002da520
+| |:|:|:|   0x1002d99a4      a5c00594       bl sym.imp.Foundation.Calendar.shortMonthSymbols_...ySSGvg_ ; Foundation.Calendar.shortMonthSymbols(...ySSGvg)
+| ========< 0x1002d99a8      f75bf8b7       tbnz x23, 0x3f, 0x1002da524
+| |:|:|:|   0x1002d99ac      fc0300aa       mov x28, x0
+| |:|:|:|   0x1002d99b0      080840f9       ldr x8, [x0, 0x10]
+| |:|:|:|   0x1002d99b4      ff0208eb       cmp x23, x8
+| ========< 0x1002d99b8      825b0054       b.hs 0x1002da528
+| |:|:|:|   0x1002d99bc      b8c310b8       stur w24, [var_f4h]
+| |:|:|:|   0x1002d99c0      e0031aaa       mov x0, x26
+| |:|:|:|   0x1002d99c4      b58355f8       ldur x21, [var_clob_ffffffffffffff58h]
+| |:|:|:|   0x1002d99c8      e10315aa       mov x1, x21
+| |:|:|:|   0x1002d99cc      f9031baa       mov x25, x27
+| |:|:|:|   0x1002d99d0      b88353f8       ldur x24, [var_clob_ffffffffffffff38h]
+| |:|:|:|   0x1002d99d4      00033fd6       blr x24
+| |:|:|:|   0x1002d99d8      e00314aa       mov x0, x20
+| |:|:|:|   0x1002d99dc      bb0353f8       ldur x27, [var_clob_ffffffffffffff30h]
+| |:|:|:|   0x1002d99e0      e1031baa       mov x1, x27
+| |:|:|:|   0x1002d99e4      a80352f8       ldur x8, [var_e0h]
+| |:|:|:|   0x1002d99e8      00013fd6       blr x8
+| |:|:|:|   0x1002d99ec      8813178b       add x8, x28, x23, lsl 4
+| |:|:|:|   0x1002d99f0      165d42a9       ldp x22, x23, [x8, 0x20]
+| |:|:|:|   0x1002d99f4      e00317aa       mov x0, x23                ; void *arg0
+| |:|:|:|   0x1002d99f8      7ecf0594       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+| |:|:|:|   0x1002d99fc      e0031caa       mov x0, x28                ; void *arg0
+| |:|:|:|   0x1002d9a00      76cf0594       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| |:|:|:|   0x1002d9a04      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9a08      086d43f9       ldr x8, [x8, 0x6d8]        ; [0x1005d86d8:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._shortMonthName
+| |:|:|:|   0x1002d9a0c      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d9a10      165d00a9       stp x22, x23, [x8]
+| |:|:|:|   0x1002d9a14      e80314aa       mov x8, x20
+| |:|:|:|   0x1002d9a18      91c00594       bl sym.imp.Foundation.Calendar.autoupdatingCurrent_...vgZ_ ; Foundation.Calendar.autoupdatingCurrent(...vgZ)
+| |:|:|:|   0x1002d9a1c      b60350f8       ldur x22, [var_100h]
+| |:|:|:|   0x1002d9a20      e80316aa       mov x8, x22
+| |:|:|:|   0x1002d9a24      31c00594       bl sym.imp.Foundation.Date...VACycfC
+| |:|:|:|   0x1002d9a28      e8031aaa       mov x8, x26
+| |:|:|:|   0x1002d9a2c      e00316aa       mov x0, x22
+| |:|:|:|   0x1002d9a30      61c00594       bl sym.imp.Foundation.Calendar.startOfDay.for.Date...VAG_tF
+| |:|:|:|   0x1002d9a34      e00316aa       mov x0, x22
+| |:|:|:|   0x1002d9a38      e10315aa       mov x1, x21
+| |:|:|:|   0x1002d9a3c      00033fd6       blr x24
+| |:|:|:|   0x1002d9a40      e00314aa       mov x0, x20
+| |:|:|:|   0x1002d9a44      e1031baa       mov x1, x27
+| |:|:|:|   0x1002d9a48      a80352f8       ldur x8, [var_e0h]
+| |:|:|:|   0x1002d9a4c      00013fd6       blr x8
+| |:|:|:|   0x1002d9a50      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9a54      087143f9       ldr x8, [x8, 0x6e0]        ; [0x1005d86e0:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._selectedDate
+| |:|:|:|   0x1002d9a58      a92300d1       sub x9, x29, 8
+| |:|:|:|   0x1002d9a5c      290150f8       ldur x9, [x9, -0x100]
+| |:|:|:|   0x1002d9a60      291140f9       ldr x9, [x9, 0x20]
+| |:|:|:|   0x1002d9a64      6002088b       add x0, x19, x8
+| |:|:|:|   0x1002d9a68      e1031aaa       mov x1, x26
+| |:|:|:|   0x1002d9a6c      e20315aa       mov x2, x21
+| |:|:|:|   0x1002d9a70      20013fd6       blr x9
+| |:|:|:|   0x1002d9a74      e80314aa       mov x8, x20
+| |:|:|:|   0x1002d9a78      79c00594       bl sym.imp.Foundation.Calendar.autoupdatingCurrent_...vgZ_ ; Foundation.Calendar.autoupdatingCurrent(...vgZ)
+| |:|:|:|   0x1002d9a7c      e8031aaa       mov x8, x26
+| |:|:|:|   0x1002d9a80      1ac00594       bl sym.imp.Foundation.Date...VACycfC
+| |:|:|:|   0x1002d9a84      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d9a88      a1c351b8       ldur w1, [var_e4h]
+| |:|:|:|   0x1002d9a8c      b58354f8       ldur x21, [var_b8h]
+| |:|:|:|   0x1002d9a90      e20315aa       mov x2, x21
+| |:|:|:|   0x1002d9a94      a88352f8       ldur x8, [var_clob_ffffffffffffff28h]
+| |:|:|:|   0x1002d9a98      00013fd6       blr x8
+| |:|:|:|   0x1002d9a9c      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d9aa0      f8031aaa       mov x24, x26
+| |:|:|:|   0x1002d9aa4      e1031aaa       mov x1, x26
+| |:|:|:|   0x1002d9aa8      a0c00594       bl sym.imp.Foundation.Calendar.component.from.Component.Date...VtF
+| |:|:|:|   0x1002d9aac      f60300aa       mov x22, x0
+| |:|:|:|   0x1002d9ab0      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d9ab4      e10315aa       mov x1, x21
+| |:|:|:|   0x1002d9ab8      a80354f8       ldur x8, [var_c0h]
+| |:|:|:|   0x1002d9abc      00013fd6       blr x8
+| |:|:|:|   0x1002d9ac0      d60600f1       subs x22, x22, 1
+| ========< 0x1002d9ac4      46530054       b.vs 0x1002da52c
+| |:|:|:|   0x1002d9ac8      f90314aa       mov x25, x20
+| |:|:|:|   0x1002d9acc      67c00594       bl sym.imp.Foundation.Calendar.shortWeekdaySymbols_...ySSGvg_ ; Foundation.Calendar.shortWeekdaySymbols(...ySSGvg)
+| ========< 0x1002d9ad0      1653f8b7       tbnz x22, 0x3f, 0x1002da530
+| |:|:|:|   0x1002d9ad4      f40300aa       mov x20, x0
+| |:|:|:|   0x1002d9ad8      080840f9       ldr x8, [x0, 0x10]
+| |:|:|:|   0x1002d9adc      df0208eb       cmp x22, x8
+| ========< 0x1002d9ae0      a2520054       b.hs 0x1002da534
+| |:|:|:|   0x1002d9ae4      fa0318aa       mov x26, x24
+| |:|:|:|   0x1002d9ae8      e00318aa       mov x0, x24
+| |:|:|:|   0x1002d9aec      a18355f8       ldur x1, [var_clob_ffffffffffffff58h]
+| |:|:|:|   0x1002d9af0      b88353f8       ldur x24, [var_clob_ffffffffffffff38h]
+| |:|:|:|   0x1002d9af4      00033fd6       blr x24
+| |:|:|:|   0x1002d9af8      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d9afc      e1031baa       mov x1, x27
+| |:|:|:|   0x1002d9b00      a80352f8       ldur x8, [var_e0h]
+| |:|:|:|   0x1002d9b04      00013fd6       blr x8
+| |:|:|:|   0x1002d9b08      8812168b       add x8, x20, x22, lsl 4
+| |:|:|:|   0x1002d9b0c      175942a9       ldp x23, x22, [x8, 0x20]
+| |:|:|:|   0x1002d9b10      e00316aa       mov x0, x22                ; void *arg0
+| |:|:|:|   0x1002d9b14      37cf0594       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+| |:|:|:|   0x1002d9b18      e00314aa       mov x0, x20                ; void *arg0
+| |:|:|:|   0x1002d9b1c      2fcf0594       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| |:|:|:|   0x1002d9b20      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9b24      087543f9       ldr x8, [x8, 0x6e8]        ; [0x1005d86e8:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._selectedShortDayName
+| |:|:|:|   0x1002d9b28      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d9b2c      175900a9       stp x23, x22, [x8]
+| |:|:|:|   0x1002d9b30      e80319aa       mov x8, x25
+| |:|:|:|   0x1002d9b34      4ac00594       bl sym.imp.Foundation.Calendar.autoupdatingCurrent_...vgZ_ ; Foundation.Calendar.autoupdatingCurrent(...vgZ)
+| |:|:|:|   0x1002d9b38      e8031aaa       mov x8, x26
+| |:|:|:|   0x1002d9b3c      ebbf0594       bl sym.imp.Foundation.Date...VACycfC
+| |:|:|:|   0x1002d9b40      b7ef74a9       ldp x23, x27, [var_clob_ffffffffffffff50h]
+| |:|:|:|   0x1002d9b44      e0031baa       mov x0, x27
+| |:|:|:|   0x1002d9b48      a85300d1       sub x8, x29, 0x14
+| |:|:|:|   0x1002d9b4c      010150b8       ldur w1, [x8, -0x100]
+| |:|:|:|   0x1002d9b50      e20317aa       mov x2, x23
+| |:|:|:|   0x1002d9b54      bc8352f8       ldur x28, [var_clob_ffffffffffffff28h]
+| |:|:|:|   0x1002d9b58      80033fd6       blr x28
+| |:|:|:|   0x1002d9b5c      e0031baa       mov x0, x27
+| |:|:|:|   0x1002d9b60      e1031aaa       mov x1, x26
+| |:|:|:|   0x1002d9b64      f40319aa       mov x20, x25
+| |:|:|:|   0x1002d9b68      70c00594       bl sym.imp.Foundation.Calendar.component.from.Component.Date...VtF
+| |:|:|:|   0x1002d9b6c      f40300aa       mov x20, x0
+| |:|:|:|   0x1002d9b70      e0031baa       mov x0, x27
+| |:|:|:|   0x1002d9b74      e10317aa       mov x1, x23
+| |:|:|:|   0x1002d9b78      a80354f8       ldur x8, [var_c0h]
+| |:|:|:|   0x1002d9b7c      00013fd6       blr x8
+| |:|:|:|   0x1002d9b80      b4031af8       stur x20, [var_clob_ffffffffffffffa0h]
+| |:|:|:|   0x1002d9b84      e0160090       adrp x0, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+| |:|:|:|   0x1002d9b88      007044f9       ldr x0, [x0, 0x8e0]        ; [0x1005b58e0:8]=0x8010000000000902 ; reloc....SiN
+| |:|:|:|   0x1002d9b8c      e1160090       adrp x1, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+| |:|:|:|   0x1002d9b90      218844f9       ldr x1, [x1, 0x910]
+| |:|:|:|   0x1002d9b94      b48301d1       sub x20, x29, 0x60
+| |:|:|:|   0x1002d9b98      fecb0594       bl sym.imp.CustomStringConvertible.description__String_...vgTj_ ; CustomStringConvertible.description__String(...vgTj)
+| |:|:|:|   0x1002d9b9c      f50300aa       mov x21, x0
+| |:|:|:|   0x1002d9ba0      f60301aa       mov x22, x1
+| |:|:|:|   0x1002d9ba4      e0031aaa       mov x0, x26
+| |:|:|:|   0x1002d9ba8      a18355f8       ldur x1, [var_clob_ffffffffffffff58h]
+| |:|:|:|   0x1002d9bac      00033fd6       blr x24
+| |:|:|:|   0x1002d9bb0      a80352f8       ldur x8, [var_e0h]
+| |:|:|:|   0x1002d9bb4      f40319aa       mov x20, x25
+| |:|:|:|   0x1002d9bb8      f90308aa       mov x25, x8
+| |:|:|:|   0x1002d9bbc      e00314aa       mov x0, x20
+| |:|:|:|   0x1002d9bc0      a10353f8       ldur x1, [var_clob_ffffffffffffff30h]
+| |:|:|:|   0x1002d9bc4      00013fd6       blr x8
+| |:|:|:|   0x1002d9bc8      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9bcc      087943f9       ldr x8, [x8, 0x6f0]        ; [0x1005d86f0:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._selectedDayNumber
+| |:|:|:|   0x1002d9bd0      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d9bd4      155900a9       stp x21, x22, [x8]
+| |:|:|:|   0x1002d9bd8      e80314aa       mov x8, x20
+| |:|:|:|   0x1002d9bdc      20c00594       bl sym.imp.Foundation.Calendar.autoupdatingCurrent_...vgZ_ ; Foundation.Calendar.autoupdatingCurrent(...vgZ)
+| |:|:|:|   0x1002d9be0      e8031aaa       mov x8, x26
+| |:|:|:|   0x1002d9be4      c1bf0594       bl sym.imp.Foundation.Date...VACycfC
+| |:|:|:|   0x1002d9be8      e0031baa       mov x0, x27
+| |:|:|:|   0x1002d9bec      a1c350b8       ldur w1, [var_f4h]
+| |:|:|:|   0x1002d9bf0      e20317aa       mov x2, x23
+| |:|:|:|   0x1002d9bf4      80033fd6       blr x28
+| |:|:|:|   0x1002d9bf8      e0031baa       mov x0, x27
+| |:|:|:|   0x1002d9bfc      e1031aaa       mov x1, x26
+| |:|:|:|   0x1002d9c00      4ac00594       bl sym.imp.Foundation.Calendar.component.from.Component.Date...VtF
+| |:|:|:|   0x1002d9c04      f50300aa       mov x21, x0
+| |:|:|:|   0x1002d9c08      e0031baa       mov x0, x27
+| |:|:|:|   0x1002d9c0c      e10317aa       mov x1, x23
+| |:|:|:|   0x1002d9c10      a80354f8       ldur x8, [var_c0h]
+| |:|:|:|   0x1002d9c14      00013fd6       blr x8
+| |:|:|:|   0x1002d9c18      b60600f1       subs x22, x21, 1
+| ========< 0x1002d9c1c      e6480054       b.vs 0x1002da538
+| |:|:|:|   0x1002d9c20      eebf0594       bl sym.imp.Foundation.Calendar.monthSymbols_...ySSGvg_ ; Foundation.Calendar.monthSymbols(...ySSGvg)
+| ========< 0x1002d9c24      d648f8b7       tbnz x22, 0x3f, 0x1002da53c
+| |:|:|:|   0x1002d9c28      f50300aa       mov x21, x0
+| |:|:|:|   0x1002d9c2c      080840f9       ldr x8, [x0, 0x10]
+| |:|:|:|   0x1002d9c30      df0208eb       cmp x22, x8
+| ========< 0x1002d9c34      62480054       b.hs 0x1002da540
+| |:|:|:|   0x1002d9c38      e0031aaa       mov x0, x26
+| |:|:|:|   0x1002d9c3c      a18355f8       ldur x1, [var_clob_ffffffffffffff58h]
+| |:|:|:|   0x1002d9c40      a88353f8       ldur x8, [var_clob_ffffffffffffff38h]
+| |:|:|:|   0x1002d9c44      00013fd6       blr x8
+| |:|:|:|   0x1002d9c48      e00314aa       mov x0, x20
+| |:|:|:|   0x1002d9c4c      a10353f8       ldur x1, [var_clob_ffffffffffffff30h]
+| |:|:|:|   0x1002d9c50      20033fd6       blr x25
+| |:|:|:|   0x1002d9c54      a812168b       add x8, x21, x22, lsl 4
+| |:|:|:|   0x1002d9c58      175942a9       ldp x23, x22, [x8, 0x20]
+| |:|:|:|   0x1002d9c5c      e00316aa       mov x0, x22                ; void *arg0
+| |:|:|:|   0x1002d9c60      e4ce0594       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+| |:|:|:|   0x1002d9c64      e00315aa       mov x0, x21                ; void *arg0
+| |:|:|:|   0x1002d9c68      dcce0594       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| |:|:|:|   0x1002d9c6c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9c70      087d43f9       ldr x8, [x8, 0x6f8]        ; [0x1005d86f8:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._selectedMonthName
+| |:|:|:|   0x1002d9c74      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d9c78      175900a9       stp x23, x22, [x8]
+| |:|:|:|   0x1002d9c7c      e80314aa       mov x8, x20
+| |:|:|:|   0x1002d9c80      f7bf0594       bl sym.imp.Foundation.Calendar.autoupdatingCurrent_...vgZ_ ; Foundation.Calendar.autoupdatingCurrent(...vgZ)
+| |:|:|:|   0x1002d9c84      e8031aaa       mov x8, x26
+| |:|:|:|   0x1002d9c88      98bf0594       bl sym.imp.Foundation.Date...VACycfC
+| |:|:|:|   0x1002d9c8c      b5db74a9       ldp x21, x22, [var_clob_ffffffffffffff50h]
+| |:|:|:|   0x1002d9c90      e00316aa       mov x0, x22
+| |:|:|:|   0x1002d9c94      a1c350b8       ldur w1, [var_f4h]
+| |:|:|:|   0x1002d9c98      e20315aa       mov x2, x21
+| |:|:|:|   0x1002d9c9c      a88352f8       ldur x8, [var_clob_ffffffffffffff28h]
+| |:|:|:|   0x1002d9ca0      00013fd6       blr x8
+| |:|:|:|   0x1002d9ca4      e00316aa       mov x0, x22
+| |:|:|:|   0x1002d9ca8      e1031aaa       mov x1, x26
+| |:|:|:|   0x1002d9cac      1fc00594       bl sym.imp.Foundation.Calendar.component.from.Component.Date...VtF
+| |:|:|:|   0x1002d9cb0      f70300aa       mov x23, x0
+| |:|:|:|   0x1002d9cb4      e00316aa       mov x0, x22
+| |:|:|:|   0x1002d9cb8      e10315aa       mov x1, x21
+| |:|:|:|   0x1002d9cbc      a80354f8       ldur x8, [var_c0h]
+| |:|:|:|   0x1002d9cc0      00013fd6       blr x8
+| |:|:|:|   0x1002d9cc4      f50600f1       subs x21, x23, 1
+| ========< 0x1002d9cc8      e6430054       b.vs 0x1002da544
+| |:|:|:|   0x1002d9ccc      dbbf0594       bl sym.imp.Foundation.Calendar.shortMonthSymbols_...ySSGvg_ ; Foundation.Calendar.shortMonthSymbols(...ySSGvg)
+| ========< 0x1002d9cd0      d543f8b7       tbnz x21, 0x3f, 0x1002da548
+| |:|:|:|   0x1002d9cd4      f70300aa       mov x23, x0
+| |:|:|:|   0x1002d9cd8      080840f9       ldr x8, [x0, 0x10]
+| |:|:|:|   0x1002d9cdc      bf0208eb       cmp x21, x8
+| ========< 0x1002d9ce0      62430054       b.hs 0x1002da54c
+| |:|:|:|   0x1002d9ce4      e0031aaa       mov x0, x26
+| |:|:|:|   0x1002d9ce8      a18355f8       ldur x1, [var_clob_ffffffffffffff58h]
+| |:|:|:|   0x1002d9cec      a88353f8       ldur x8, [var_clob_ffffffffffffff38h]
+| |:|:|:|   0x1002d9cf0      00013fd6       blr x8
+| |:|:|:|   0x1002d9cf4      e00314aa       mov x0, x20
+| |:|:|:|   0x1002d9cf8      a10353f8       ldur x1, [var_clob_ffffffffffffff30h]
+| |:|:|:|   0x1002d9cfc      20033fd6       blr x25
+| |:|:|:|   0x1002d9d00      e812158b       add x8, x23, x21, lsl 4
+| |:|:|:|   0x1002d9d04      165542a9       ldp x22, x21, [x8, 0x20]
+| |:|:|:|   0x1002d9d08      e00315aa       mov x0, x21                ; void *arg0
+| |:|:|:|   0x1002d9d0c      b9ce0594       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+| |:|:|:|   0x1002d9d10      e00317aa       mov x0, x23                ; void *arg0
+| |:|:|:|   0x1002d9d14      b1ce0594       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| |:|:|:|   0x1002d9d18      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9d1c      088143f9       ldr x8, [x8, 0x700]        ; [0x1005d8700:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._selectedShortMonthName
+| |:|:|:|   0x1002d9d20      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d9d24      165500a9       stp x22, x21, [x8]
+| |:|:|:|   0x1002d9d28      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9d2c      088543f9       ldr x8, [x8, 0x708]        ; [0x1005d8708:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._compactCalendarWeekdays
+| |:|:|:|   0x1002d9d30      f71600b0       adrp x23, reloc.Int64...VMn ; 0x1005b6000
+| |:|:|:|   0x1002d9d34      f71641f9       ldr x23, [x23, 0x228]      ; [0x1005b6228:8]=0x8010000000000a26
+| |:|:|:|   0x1002d9d38      776a28f8       str x23, [x19, x8]
+| |:|:|:|   0x1002d9d3c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9d40      088943f9       ldr x8, [x8, 0x710]        ; [0x1005d8710:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._compactCalendarDays
+| |:|:|:|   0x1002d9d44      776a28f8       str x23, [x19, x8]
+| |:|:|:|   0x1002d9d48      c81600d0       adrp x8, reloc.EKEventStore ; 0x1005b3000
+| |:|:|:|   0x1002d9d4c      000140f9       ldr x0, [x8]               ; [0x1005b3000:8]=0x8010000000000420 ; void *arg0
+| |:|:|:|   0x1002d9d50      51ce0594       bl sym.imp.objc_opt_self   ; void *objc_opt_self(void *arg0)
+| |:|:|:|   0x1002d9d54      020080d2       mov x2, 0
+| |:|:|:|   0x1002d9d58      a2d10594       bl fcn.10044e3e0
+| |:|:|:|   0x1002d9d5c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9d60      088d43f9       ldr x8, [x8, 0x718]        ; [0x1005d8718:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._authorizationStatus
+| |:|:|:|   0x1002d9d64      a88315f8       stur x8, [var_clob_ffffffffffffff58h]
+| |:|:|:|   0x1002d9d68      606a28f8       str x0, [x19, x8]
+| |:|:|:|   0x1002d9d6c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9d70      089143f9       ldr x8, [x8, 0x720]        ; [0x1005d8720:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var.includedCalendarIDsCache
+| |:|:|:|   0x1002d9d74      e91600b0       adrp x9, reloc.Int64...VMn ; 0x1005b6000
+| |:|:|:|   0x1002d9d78      291d41f9       ldr x9, [x9, 0x238]        ; [0x1005b6238:8]=0x8010000000000a28
+| |:|:|:|   0x1002d9d7c      696a28f8       str x9, [x19, x8]
+| |:|:|:|   0x1002d9d80      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9d84      089543f9       ldr x8, [x8, 0x728]        ; [0x1005d8728:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var.liveActivityCalendarIDsCache
+| |:|:|:|   0x1002d9d88      696a28f8       str x9, [x19, x8]
+| |:|:|:|   0x1002d9d8c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9d90      089943f9       ldr x8, [x8, 0x730]        ; [0x1005d8730:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var.expandedViewCalendarIDsCache
+| |:|:|:|   0x1002d9d94      696a28f8       str x9, [x19, x8]
+| |:|:|:|   0x1002d9d98      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9d9c      089d43f9       ldr x8, [x8, 0x738]        ; [0x1005d8738:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var.filteredEventsCache
+| |:|:|:|   0x1002d9da0      776a28f8       str x23, [x19, x8]
+| |:|:|:|   0x1002d9da4      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9da8      08a143f9       ldr x8, [x8, 0x740]        ; [0x1005d8740:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var.liveActivityFilteredEventsCache
+| |:|:|:|   0x1002d9dac      776a28f8       str x23, [x19, x8]
+| |:|:|:|   0x1002d9db0      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9db4      08a543f9       ldr x8, [x8, 0x748]        ; [0x1005d8748:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var.expandedViewFilteredEventsCache
+| |:|:|:|   0x1002d9db8      776a28f8       str x23, [x19, x8]
+| |:|:|:|   0x1002d9dbc      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9dc0      15a943f9       ldr x21, [x8, 0x750]       ; [0x1005d8750:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._nextEventActivity
+| |:|:|:|   0x1002d9dc4      000080d2       mov x0, 0                  ; int64_t arg1
+| |:|:|:|   0x1002d9dc8      c8610094       bl sym.func.1002f24e8
+| |:|:|:|   0x1002d9dcc      f40300aa       mov x20, x0
+| |:|:|:|   0x1002d9dd0      08805ff8       ldur x8, [x0, -8]
+| |:|:|:|   0x1002d9dd4      161d40f9       ldr x22, [x8, 0x38]
+| |:|:|:|   0x1002d9dd8      6002158b       add x0, x19, x21
+| |:|:|:|   0x1002d9ddc      21008052       mov w1, 1
+| |:|:|:|   0x1002d9de0      22008052       mov w2, 1
+| |:|:|:|   0x1002d9de4      e30314aa       mov x3, x20
+| |:|:|:|   0x1002d9de8      c0023fd6       blr x22
+| |:|:|:|   0x1002d9dec      6002158b       add x0, x19, x21
+| |:|:|:|   0x1002d9df0      21008052       mov w1, 1
+| |:|:|:|   0x1002d9df4      22008052       mov w2, 1
+| |:|:|:|   0x1002d9df8      e30314aa       mov x3, x20
+| |:|:|:|   0x1002d9dfc      c0023fd6       blr x22
+| |:|:|:|   0x1002d9e00      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9e04      15ad43f9       ldr x21, [x8, 0x758]       ; [0x1005d8758:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._selectedSection
+| |:|:|:|   0x1002d9e08      000080d2       mov x0, 0                  ; int64_t arg1
+| |:|:|:|   0x1002d9e0c      bc610094       bl sym.func.1002f24fc
+| |:|:|:|   0x1002d9e10      f40300aa       mov x20, x0
+| |:|:|:|   0x1002d9e14      08805ff8       ldur x8, [x0, -8]
+| |:|:|:|   0x1002d9e18      161d40f9       ldr x22, [x8, 0x38]
+| |:|:|:|   0x1002d9e1c      6002158b       add x0, x19, x21
+| |:|:|:|   0x1002d9e20      21008052       mov w1, 1
+| |:|:|:|   0x1002d9e24      22008052       mov w2, 1
+| |:|:|:|   0x1002d9e28      e30314aa       mov x3, x20
+| |:|:|:|   0x1002d9e2c      c0023fd6       blr x22
+| |:|:|:|   0x1002d9e30      6002158b       add x0, x19, x21
+| |:|:|:|   0x1002d9e34      21008052       mov w1, 1
+| |:|:|:|   0x1002d9e38      22008052       mov w2, 1
+| |:|:|:|   0x1002d9e3c      e30314aa       mov x3, x20
+| |:|:|:|   0x1002d9e40      c0023fd6       blr x22
+| |:|:|:|   0x1002d9e44      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9e48      08b143f9       ldr x8, [x8, 0x760]        ; [0x1005d8760:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._upcomingSections
+| |:|:|:|   0x1002d9e4c      776a28f8       str x23, [x19, x8]
+| |:|:|:|   0x1002d9e50      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9e54      08b543f9       ldr x8, [x8, 0x768]        ; [0x1005d8768:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var._hasEarlierEventsToday
+| |:|:|:|   0x1002d9e58      7f6a2838       strb wzr, [x19, x8]
+| |:|:|:|   0x1002d9e5c      e81700f0       adrp x8, 0x1005d8000
+| |:|:|:|   0x1002d9e60      08b943f9       ldr x8, [x8, 0x770]        ; [0x1005d8770:8]=0
+| |:|:|:|                                                              ; field.class.Alcove.CalendarManager.var.__observationRegistrar
+| |:|:|:|   0x1002d9e64      a80315f8       stur x8, [var_clob_ffffffffffffff50h]
+| |:|:|:|   0x1002d9e68      6802088b       add x8, x19, x8
+| |:|:|:|   0x1002d9e6c      18c00594       bl sym.imp.Observation.Registrar...VACycfC
+| |:|:|:|   0x1002d9e70      08180090       adrp x8, 0x1005d9000
+| |:|:|:|   0x1002d9e74      081140f9       ldr x8, [x8, 0x20]
+| |:|:|:|   0x1002d9e78      1f0500b1       cmn x8, 1
+| ========< 0x1002d9e7c      a1360054       b.ne 0x1002da550
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da564(x)
+| --------> 0x1002d9e80      481900b0       adrp x8, 0x100602000
+| |:|:|:|   0x1002d9e84      14fd47f9       ldr x20, [x8, 0xff8]
+| |:|:|:|   0x1002d9e88      600c8dd2       mov x0, 0x6863             ; 'ch'
+| |:|:|:|   0x1002d9e8c      20adadf2       movk x0, 0x6d69, lsl 16    ; 'im'
+| |:|:|:|   0x1002d9e90      a00cc0f2       movk x0, 0x65, lsl 32      ; 'e' ; int64_t arg1
+| |:|:|:|   0x1002d9e94      01a0fcd2       mov x1, -0x1b00000000000000 ; int64_t arg2
+| |:|:|:|   0x1002d9e98      622c8c52       mov w2, 0x6163             ; 'ca'
+| |:|:|:|   0x1002d9e9c      c20ca072       movk w2, 0x66, lsl 16      ; 'f' ; int64_t arg3
+| |:|:|:|   0x1002d9ea0      0360fcd2       mov x3, -0x1d00000000000000
+| |:|:|:|   0x1002d9ea4      c0b80094       bl sym.func.1003081a4
+| |:|:|:|   0x1002d9ea8      a0cc8ed2       mov x0, 0x7665             ; 'ev'
+| |:|:|:|   0x1002d9eac      a0ccadf2       movk x0, 0x6e65, lsl 16    ; 'en'
+| |:|:|:|   0x1002d9eb0      800ec0f2       movk x0, 0x74, lsl 32      ; 't' ; int64_t arg1
+| |:|:|:|   0x1002d9eb4      01a0fcd2       mov x1, -0x1b00000000000000 ; int64_t arg2
+| |:|:|:|   0x1002d9eb8      622c8c52       mov w2, 0x6163             ; 'ca'
+| |:|:|:|   0x1002d9ebc      c20ca072       movk w2, 0x66, lsl 16      ; 'f' ; int64_t arg3
+| |:|:|:|   0x1002d9ec0      0360fcd2       mov x3, -0x1d00000000000000
+| |:|:|:|   0x1002d9ec4      b8b80094       bl sym.func.1003081a4
+| |:|:|:|   0x1002d9ec8      802c8dd2       mov x0, 0x6964             ; 'di'
+| |:|:|:|   0x1002d9ecc      40aeacf2       movk x0, 0x6572, lsl 16    ; 're'
+| |:|:|:|   0x1002d9ed0      608ccef2       movk x0, 0x7463, lsl 32    ; 'ct'
+| |:|:|:|   0x1002d9ed4      20ededf2       movk x0, 0x6f69, lsl 48    ; 'io' ; int64_t arg1
+| |:|:|:|   0x1002d9ed8      c16d8ed2       mov x1, 0x736e             ; 'ns'
+| |:|:|:|   0x1002d9edc      0140fdf2       movk x1, 0xea00, lsl 48    ; int64_t arg2
+| |:|:|:|   0x1002d9ee0      622c8c52       mov w2, 0x6163             ; 'ca'
+| |:|:|:|   0x1002d9ee4      c20ca072       movk w2, 0x66, lsl 16      ; 'f' ; int64_t arg3
+| |:|:|:|   0x1002d9ee8      0360fcd2       mov x3, -0x1d00000000000000
+| |:|:|:|   0x1002d9eec      aeb80094       bl sym.func.1003081a4
+| |:|:|:|   0x1002d9ef0      f40313aa       mov x20, x19
+| |:|:|:|   0x1002d9ef4      9d010094       bl sym.func.1002da568
+| |:|:|:|   0x1002d9ef8      4d030094       bl sym.func.1002dac2c
+| |:|:|:|   0x1002d9efc      db040094       bl sym.func.1002db268
+| |:|:|:|   0x1002d9f00      def4ff97       bl sym.func.1002d7278
+| |:|:|:|   0x1002d9f04      75f6ff97       bl sym.func.1002d78d8
+| |:|:|:|   0x1002d9f08      000080d2       mov x0, 0
+| |:|:|:|   0x1002d9f0c      66c80594       bl sym.imp....ScPMa
+| |:|:|:|   0x1002d9f10      f50300aa       mov x21, x0
+| |:|:|:|   0x1002d9f14      17805ff8       ldur x23, [x0, -8]
+| |:|:|:|   0x1002d9f18      fb1e40f9       ldr x27, [x23, 0x38]
+| |:|:|:|   0x1002d9f1c      ba0351f8       ldur x26, [var_clob_ffffffffffffff10h]
+| |:|:|:|   0x1002d9f20      e0031aaa       mov x0, x26
+| |:|:|:|   0x1002d9f24      21008052       mov w1, 1
+| |:|:|:|   0x1002d9f28      22008052       mov w2, 1
+| |:|:|:|   0x1002d9f2c      e30315aa       mov x3, x21
+| |:|:|:|   0x1002d9f30      60033fd6       blr x27
+| |:|:|:|   0x1002d9f34      000080d2       mov x0, 0
+| |:|:|:|   0x1002d9f38      4fc80594       bl sym.imp....ScMMa
+| |:|:|:|   0x1002d9f3c      f60300aa       mov x22, x0
+| |:|:|:|   0x1002d9f40      e00313aa       mov x0, x19
+| |:|:|:|   0x1002d9f44      e5ce0594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002d9f48      f40316aa       mov x20, x22
+| |:|:|:|   0x1002d9f4c      47c80594       bl sym.imp.shared_...cMvgZ_ ; shared(...cMvgZ)
+| |:|:|:|   0x1002d9f50      f90300aa       mov x25, x0
+| |:|:|:|   0x1002d9f54      201600f0       adrp x0, 0x1005a0000
+| |:|:|:|   0x1002d9f58      00602291       add x0, x0, 0x898
+| |:|:|:|   0x1002d9f5c      01058052       mov w1, 0x28               ; '('
+| |:|:|:|   0x1002d9f60      e2008052       mov w2, 7
+| |:|:|:|   0x1002d9f64      05ce0594       bl sym.imp.swift_allocObject
+| |:|:|:|   0x1002d9f68      f80300aa       mov x24, x0
+| |:|:|:|   0x1002d9f6c      e81600b0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+| |:|:|:|   0x1002d9f70      08d143f9       ldr x8, [x8, 0x7a0]        ; [0x1005b67a0:8]=0x8010000000000ad5 ; reloc....ScMScAsWP
+| |:|:|:|   0x1002d9f74      192001a9       stp x25, x8, [x0, 0x10]
+| |:|:|:|   0x1002d9f78      131000f9       str x19, [x0, 0x20]
+| |:|:|:|   0x1002d9f7c      fc1a40f9       ldr x28, [x23, 0x30]
+| |:|:|:|   0x1002d9f80      e0031aaa       mov x0, x26
+| |:|:|:|   0x1002d9f84      21008052       mov w1, 1
+| |:|:|:|   0x1002d9f88      e20315aa       mov x2, x21
+| |:|:|:|   0x1002d9f8c      80033fd6       blr x28
+| |:|:|:|   0x1002d9f90      1f040071       cmp w0, 1
+| ========< 0x1002d9f94      41020054       b.ne 0x1002d9fdc
+| |:|:|:|   0x1002d9f98      17808352       mov w23, 0x1c00
+| ========< 0x1002d9f9c      b90200b4       cbz x25, 0x1002d9ff0
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9fec(x)
+| --------> 0x1002d9fa0      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d9fa4      7cce0594       bl sym.imp.swift_getObjectType
+| |:|:|:|   0x1002d9fa8      fa0300aa       mov x26, x0
+| |:|:|:|   0x1002d9fac      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d9fb0      0ccf0594       bl sym.imp.swift_unknownObjectRetain
+| |:|:|:|   0x1002d9fb4      e11600b0       adrp x1, reloc.Int64...VMn ; 0x1005b6000
+| |:|:|:|   0x1002d9fb8      21d043f9       ldr x1, [x1, 0x7a0]        ; [0x1005b67a0:8]=0x8010000000000ad5 ; reloc....ScMScAsWP
+| |:|:|:|   0x1002d9fbc      f40319aa       mov x20, x25
+| |:|:|:|   0x1002d9fc0      e0031aaa       mov x0, x26
+| |:|:|:|   0x1002d9fc4      17c80594       bl sym.imp.unownedExecutor_...cevgTj_ ; unownedExecutor(...cevgTj)
+| |:|:|:|   0x1002d9fc8      f40300aa       mov x20, x0
+| |:|:|:|   0x1002d9fcc      fa0301aa       mov x26, x1
+| |:|:|:|   0x1002d9fd0      e00319aa       mov x0, x25
+| |:|:|:|   0x1002d9fd4      fdce0594       bl sym.imp.swift_unknownObjectRelease
+| ========< 0x1002d9fd8      08000014       b 0x1002d9ff8
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9f94(x)
+| --------> 0x1002d9fdc      f4031aaa       mov x20, x26
+| |:|:|:|   0x1002d9fe0      2ec80594       bl sym.imp.rawValue.UInt8.setter...Vvg
+| |:|:|:|   0x1002d9fe4      17808352       mov w23, 0x1c00
+| |:|:|:|   0x1002d9fe8      171c40b3       bfxil x23, x0, 0, 8
+| ========< 0x1002d9fec      b9fdffb5       cbnz x25, 0x1002d9fa0
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9f9c(x)
+| --------> 0x1002d9ff0      140080d2       mov x20, 0
+| |:|:|:|   0x1002d9ff4      1a0080d2       mov x26, 0
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9fd8(x)
+| --------> 0x1002d9ff8      201600f0       adrp x0, 0x1005a0000
+| |:|:|:|   0x1002d9ffc      00002391       add x0, x0, 0x8c0
+| |:|:|:|   0x1002da000      01048052       mov w1, 0x20
+| |:|:|:|   0x1002da004      e2008052       mov w2, 7
+| |:|:|:|   0x1002da008      dccd0594       bl sym.imp.swift_allocObject
+| |:|:|:|   0x1002da00c      e40300aa       mov x4, x0
+| |:|:|:|   0x1002da010      a80c00d0       adrp x8, 0x100470000
+| |:|:|:|   0x1002da014      08c12991       add x8, x8, 0xa70
+| |:|:|:|   0x1002da018      086001a9       stp x8, x24, [x0, 0x10]
+| |:|:|:|   0x1002da01c      480314aa       orr x8, x26, x20
+| ========< 0x1002da020      a80000b4       cbz x8, 0x1002da034
+| |:|:|:|   0x1002da024      bf7f38a9       stp xzr, xzr, [var_80h]
+| |:|:|:|   0x1002da028      a10302d1       sub x1, x29, 0x80
+| |:|:|:|   0x1002da02c      b46b39a9       stp x20, x26, [var_70h]
+| ========< 0x1002da030      02000014       b 0x1002da038
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da020(x)
+| --------> 0x1002da034      010080d2       mov x1, 0
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da030(x)
+| --------> 0x1002da038      fa160090       adrp x26, reloc.Int64...VMn ; 0x1005b6000
+| |:|:|:|   0x1002da03c      5a0f41f9       ldr x26, [x26, 0x218]      ; [0x1005b6218:8]=0x8010000000000a24
+| |:|:|:|   0x1002da040      a30c00d0       adrp x3, 0x100470000
+| |:|:|:|   0x1002da044      63e02991       add x3, x3, 0xa78
+| |:|:|:|   0x1002da048      42230091       add x2, x26, 8
+| |:|:|:|   0x1002da04c      e00317aa       mov x0, x23
+| |:|:|:|   0x1002da050      bdce0594       bl sym.imp.swift_task_create
+| |:|:|:|   0x1002da054      f40300aa       mov x20, x0
+| |:|:|:|   0x1002da058      c11700b0       adrp x1, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+| |:|:|:|   0x1002da05c      21401191       add x1, x1, 0x450          ; int64_t arg2
+| |:|:|:|   0x1002da060      e20b0090       adrp x2, 0x100456000
+| |:|:|:|   0x1002da064      42401391       add x2, x2, 0x4d0          ; int64_t arg3
+| |:|:|:|   0x1002da068      a00351f8       ldur x0, [var_clob_ffffffffffffff10h] ; int64_t arg1
+| |:|:|:|   0x1002da06c      87c2f497       bl sym.func.10000aa88
+| |:|:|:|   0x1002da070      e00314aa       mov x0, x20                ; void *arg0
+| |:|:|:|   0x1002da074      93ce0594       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+| |:|:|:|   0x1002da078      a84300d1       sub x8, x29, 0x10
+| |:|:|:|   0x1002da07c      080150f8       ldur x8, [x8, -0x100]
+| |:|:|:|   0x1002da080      145d40a9       ldp x20, x23, [x8]
+| |:|:|:|   0x1002da084      180940f9       ldr x24, [x8, 0x10]
+| |:|:|:|   0x1002da088      0710f597       bl sym.func.10001e0a4
+| |:|:|:|   0x1002da08c      f90300aa       mov x25, x0
+| |:|:|:|   0x1002da090      e00314aa       mov x0, x20
+| |:|:|:|   0x1002da094      91ce0594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002da098      e00318aa       mov x0, x24
+| |:|:|:|   0x1002da09c      8fce0594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002da0a0      c31600f0       adrp x3, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+| |:|:|:|   0x1002da0a4      63fc43f9       ldr x3, [x3, 0x7f8]        ; [0x1005b57f8:8]=0x80100000000008e5 ; reloc....SbN
+| |:|:|:|   0x1002da0a8      a88301d1       sub x8, x29, 0x60
+| |:|:|:|   0x1002da0ac      e00314aa       mov x0, x20                ; int64_t arg1
+| |:|:|:|   0x1002da0b0      e10317aa       mov x1, x23
+| |:|:|:|   0x1002da0b4      e20318aa       mov x2, x24
+| |:|:|:|   0x1002da0b8      e40319aa       mov x4, x25
+| |:|:|:|   0x1002da0bc      4e8e0594       bl sym.func.10043d9f4
+| |:|:|:|   0x1002da0c0      e00318aa       mov x0, x24                ; void *arg0
+| |:|:|:|   0x1002da0c4      7fce0594       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+| |:|:|:|   0x1002da0c8      e00314aa       mov x0, x20                ; void *arg0
+| |:|:|:|   0x1002da0cc      7dce0594       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+| |:|:|:|   0x1002da0d0      a8035a38       ldurb w8, [var_clob_ffffffffffffffa0h]
+| |:|:|:|   0x1002da0d4      1f050071       cmp w8, 1
+| ========< 0x1002da0d8      61000054       b.ne 0x1002da0e4
+| |:|:|:|   0x1002da0dc      f40313aa       mov x20, x19
+| |:|:|:|   0x1002da0e0      b0080094       bl sym.func.1002dc3a0
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da0d8(x)
+| --------> 0x1002da0e4      f40313aa       mov x20, x19
+| |:|:|:|   0x1002da0e8      bcfaff97       bl sym.func.1002d8bd8
+| ========< 0x1002da0ec      600d0036       tbz w0, 0, 0x1002da298
+| |:|:|:|   0x1002da0f0      a00c00d0       adrp x0, 0x100470000
+| |:|:|:|   0x1002da0f4      00200a91       add x0, x0, 0x288
+| |:|:|:|   0x1002da0f8      1ece0594       bl sym.imp.swift_getKeyPath
+| |:|:|:|   0x1002da0fc      f70300aa       mov x23, x0
+| |:|:|:|   0x1002da100      b3031af8       stur x19, [var_clob_ffffffffffffffa0h]
+| |:|:|:|   0x1002da104      c01700b0       adrp x0, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+| |:|:|:|   0x1002da108      00001391       add x0, x0, 0x4c0          ; int64_t arg1
+| |:|:|:|   0x1002da10c      c1000090       adrp x1, 0x1002f2000
+| |:|:|:|   0x1002da110      21f00a91       add x1, x1, 0x2bc          ; int64_t arg2
+| |:|:|:|   0x1002da114      a20c00d0       adrp x2, 0x100470000
+| |:|:|:|   0x1002da118      42a00991       add x2, x2, 0x268
+| |:|:|:|   0x1002da11c      f8bbf497       bl sym.func.1000090fc
+| |:|:|:|   0x1002da120      e20300aa       mov x2, x0
+| |:|:|:|   0x1002da124      a08301d1       sub x0, x29, 0x60
+| |:|:|:|   0x1002da128      a80355f8       ldur x8, [var_clob_ffffffffffffff50h]
+| |:|:|:|   0x1002da12c      7402088b       add x20, x19, x8
+| |:|:|:|   0x1002da130      e10317aa       mov x1, x23
+| |:|:|:|   0x1002da134      5dbf0594       bl sym.imp.Observation.Registrar.access.keyPath.Key...E0Cyxq_GtAA10ObservableRzr0_lF
+| |:|:|:|   0x1002da138      e00317aa       mov x0, x23                ; void *arg0
+| |:|:|:|   0x1002da13c      61ce0594       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+| |:|:|:|   0x1002da140      a88355f8       ldur x8, [var_clob_ffffffffffffff58h]
+| |:|:|:|   0x1002da144      686a68f8       ldr x8, [x19, x8]
+| |:|:|:|   0x1002da148      1f0d00f1       cmp x8, 3
+| ========< 0x1002da14c      610a0054       b.ne 0x1002da298
+| |:|:|:|   0x1002da150      a88300d1       sub x8, x29, 0x20
+| |:|:|:|   0x1002da154      190150f8       ldur x25, [x8, -0x100]
+| |:|:|:|   0x1002da158      e00319aa       mov x0, x25
+| |:|:|:|   0x1002da15c      21008052       mov w1, 1
+| |:|:|:|   0x1002da160      22008052       mov w2, 1
+| |:|:|:|   0x1002da164      e30315aa       mov x3, x21
+| |:|:|:|   0x1002da168      60033fd6       blr x27
+| |:|:|:|   0x1002da16c      e00313aa       mov x0, x19
+| |:|:|:|   0x1002da170      5ace0594       bl sym.imp.swift_retain
+| |:|:|:|   0x1002da174      f40316aa       mov x20, x22
+| |:|:|:|   0x1002da178      bcc70594       bl sym.imp.shared_...cMvgZ_ ; shared(...cMvgZ)
+| |:|:|:|   0x1002da17c      f70300aa       mov x23, x0
+| |:|:|:|   0x1002da180      201600d0       adrp x0, 0x1005a0000
+| |:|:|:|   0x1002da184      00a02391       add x0, x0, 0x8e8
+| |:|:|:|   0x1002da188      01058052       mov w1, 0x28               ; '('
+| |:|:|:|   0x1002da18c      e2008052       mov w2, 7
+| |:|:|:|   0x1002da190      7acd0594       bl sym.imp.swift_allocObject
+| |:|:|:|   0x1002da194      f60300aa       mov x22, x0
+| |:|:|:|   0x1002da198      170800f9       str x23, [x0, 0x10]
+| |:|:|:|   0x1002da19c      e8160090       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+| |:|:|:|   0x1002da1a0      08d143f9       ldr x8, [x8, 0x7a0]        ; [0x1005b67a0:8]=0x8010000000000ad5 ; reloc....ScMScAsWP
+| |:|:|:|   0x1002da1a4      08cc01a9       stp x8, x19, [x0, 0x18]
+| |:|:|:|   0x1002da1a8      e00319aa       mov x0, x25
+| |:|:|:|   0x1002da1ac      21008052       mov w1, 1
+| |:|:|:|   0x1002da1b0      e20315aa       mov x2, x21
+| |:|:|:|   0x1002da1b4      80033fd6       blr x28
+| |:|:|:|   0x1002da1b8      1f040071       cmp w0, 1
+| ========< 0x1002da1bc      41020054       b.ne 0x1002da204
+| |:|:|:|   0x1002da1c0      15808352       mov w21, 0x1c00
+| ========< 0x1002da1c4      b70200b4       cbz x23, 0x1002da218
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da214(x)
+| --------> 0x1002da1c8      e00317aa       mov x0, x23
+| |:|:|:|   0x1002da1cc      f2cd0594       bl sym.imp.swift_getObjectType
+| |:|:|:|   0x1002da1d0      f80300aa       mov x24, x0
+| |:|:|:|   0x1002da1d4      e00317aa       mov x0, x23
+| |:|:|:|   0x1002da1d8      82ce0594       bl sym.imp.swift_unknownObjectRetain
+| |:|:|:|   0x1002da1dc      e1160090       adrp x1, reloc.Int64...VMn ; 0x1005b6000
+| |:|:|:|   0x1002da1e0      21d043f9       ldr x1, [x1, 0x7a0]        ; [0x1005b67a0:8]=0x8010000000000ad5 ; reloc....ScMScAsWP
+| |:|:|:|   0x1002da1e4      f40317aa       mov x20, x23
+| |:|:|:|   0x1002da1e8      e00318aa       mov x0, x24
+| |:|:|:|   0x1002da1ec      8dc70594       bl sym.imp.unownedExecutor_...cevgTj_ ; unownedExecutor(...cevgTj)
+| |:|:|:|   0x1002da1f0      f40300aa       mov x20, x0
+| |:|:|:|   0x1002da1f4      f80301aa       mov x24, x1
+| |:|:|:|   0x1002da1f8      e00317aa       mov x0, x23
+| |:|:|:|   0x1002da1fc      73ce0594       bl sym.imp.swift_unknownObjectRelease
+| ========< 0x1002da200      08000014       b 0x1002da220
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da1bc(x)
+| --------> 0x1002da204      f40319aa       mov x20, x25
+| |:|:|:|   0x1002da208      a4c70594       bl sym.imp.rawValue.UInt8.setter...Vvg
+| |:|:|:|   0x1002da20c      15808352       mov w21, 0x1c00
+| |:|:|:|   0x1002da210      151c40b3       bfxil x21, x0, 0, 8
+| ========< 0x1002da214      b7fdffb5       cbnz x23, 0x1002da1c8
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da1c4(x)
+| --------> 0x1002da218      140080d2       mov x20, 0
+| |:|:|:|   0x1002da21c      180080d2       mov x24, 0
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da200(x)
+| --------> 0x1002da220      201600d0       adrp x0, 0x1005a0000
+| |:|:|:|   0x1002da224      00402491       add x0, x0, 0x910
+| |:|:|:|   0x1002da228      01048052       mov w1, 0x20
+| |:|:|:|   0x1002da22c      e2008052       mov w2, 7
+| |:|:|:|   0x1002da230      52cd0594       bl sym.imp.swift_allocObject
+| |:|:|:|   0x1002da234      e40300aa       mov x4, x0
+| |:|:|:|   0x1002da238      a80c00d0       adrp x8, 0x100470000
+| |:|:|:|   0x1002da23c      08212a91       add x8, x8, 0xa88
+| |:|:|:|   0x1002da240      085801a9       stp x8, x22, [x0, 0x10]
+| |:|:|:|   0x1002da244      080314aa       orr x8, x24, x20
+| ========< 0x1002da248      a80000b4       cbz x8, 0x1002da25c
+| |:|:|:|   0x1002da24c      bf7f36a9       stp xzr, xzr, [var_a0h]
+| |:|:|:|   0x1002da250      a18302d1       sub x1, x29, 0xa0
+| |:|:|:|   0x1002da254      b46337a9       stp x20, x24, [var_90h]
+| ========< 0x1002da258      02000014       b 0x1002da260
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da248(x)
+| --------> 0x1002da25c      010080d2       mov x1, 0
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002da258(x)
+| --------> 0x1002da260      a30c00d0       adrp x3, 0x100470000
+| |:|:|:|   0x1002da264      63402a91       add x3, x3, 0xa90
+| |:|:|:|   0x1002da268      42230091       add x2, x26, 8
+| |:|:|:|   0x1002da26c      e00315aa       mov x0, x21
+| |:|:|:|   0x1002da270      35ce0594       bl sym.imp.swift_task_create
+| |:|:|:|   0x1002da274      f40300aa       mov x20, x0
+| |:|:|:|   0x1002da278      c11700b0       adrp x1, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+| |:|:|:|   0x1002da27c      21401191       add x1, x1, 0x450          ; int64_t arg2
+| |:|:|:|   0x1002da280      e20b0090       adrp x2, 0x100456000
+| |:|:|:|   0x1002da284      42401391       add x2, x2, 0x4d0          ; int64_t arg3
+| |:|:|:|   0x1002da288      e00319aa       mov x0, x25                ; int64_t arg1
+| |:|:|:|   0x1002da28c      ffc1f497       bl sym.func.10000aa88
+| |:|:|:|   0x1002da290      e00314aa       mov x0, x20                ; void *arg0
+| |:|:|:|   0x1002da294      0bce0594       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+| |:|:|:|   ; CODE XREFS from sym.func.1002d8d34 @ 0x1002da0ec(x), 0x1002da14c(x)
+| --------> 0x1002da298      e00313aa       mov x0, x19
+| |:|:|:|   0x1002da29c      bf4301d1       sub sp, x29, 0x50
+| |:|:|:|   0x1002da2a0      fd7b45a9       ldp x29, x30, [var_50h]
+| |:|:|:|   0x1002da2a4      f44f44a9       ldp x20, x19, [var_40h]
+| |:|:|:|   0x1002da2a8      f65743a9       ldp x22, x21, [var_30h]
+| |:|:|:|   0x1002da2ac      f85f42a9       ldp x24, x23, [var_20h]
+| |:|:|:|   0x1002da2b0      fa6741a9       ldp x26, x25, [var_10h]
+| |:|:|:|   0x1002da2b4      fc6fc6a8       ldp x28, x27, [sp], 0x60
+| |:|:|:|   0x1002da2b8      c0035fd6       ret
+| |:|:|:|   ; CODE XREF from sym.func.1002d8d34 @ 0x1002d8ea8(x)
+| |:|:|:`-> 0x1002da2bc      c01700b0       adrp x0, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+| |:|:|:    0x1002da2c0      00202a91       add x0, x0, 0xa88
+| |:|:|:    0x1002da2c4      e1f9ff90       adrp x1, 0x100216000
+| |:|:|:    0x1002da2c8      21e00891       add x1, x1, 0x238
+| |:|:|:    0x1002da2cc      facd0594       bl sym.imp.swift_once
+| |:|:|`==< 0x1002da2d0      f7faff17       b 0x1002d8eac
+| |:|:|     ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9154(x)
+| |:|:`---> 0x1002da2d4      00180090       adrp x0, 0x1005da000
+| |:|:      0x1002da2d8      00e00391       add x0, x0, 0xf8
+| |:|:      0x1002da2dc      a10200f0       adrp x1, 0x100331000
+| |:|:      0x1002da2e0      21f01791       add x1, x1, 0x5fc
+| |:|:      0x1002da2e4      f4cd0594       bl sym.imp.swift_once
+| |:|`====< 0x1002da2e8      9cfbff17       b 0x1002d9158
+| |:|       ; CODE XREF from sym.func.1002d8d34 @ 0x1002d918c(x)
+| |:`-----> 0x1002da2ec      e01700f0       adrp x0, 0x1005d9000
+| |:        0x1002da2f0      00a03291       add x0, x0, 0xca8
+| |:        0x1002da2f4      210300b0       adrp x1, 0x10033f000
+| |:        0x1002da2f8      21a01991       add x1, x1, 0x668
+| |:        0x1002da2fc      eecd0594       bl sym.imp.swift_once
+| |`======< 0x1002da300      a4fbff17       b 0x1002d9190
+| |         ; CODE XREF from sym.func.1002d8d34 @ 0x1002d91c4(x)
+| `-------> 0x1002da304      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da308      00803291       add x0, x0, 0xca0
+|           0x1002da30c      010300d0       adrp x1, 0x10033c000
+|           0x1002da310      21f01691       add x1, x1, 0x5bc
+|           0x1002da314      e8cd0594       bl sym.imp.swift_once
+| ========< 0x1002da318      acfbff17       b 0x1002d91c8
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d91f8(x)
+| --------> 0x1002da31c      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da320      00803d91       add x0, x0, 0xf60
+|           0x1002da324      c10200b0       adrp x1, 0x100333000
+|           0x1002da328      21603191       add x1, x1, 0xc58
+|           0x1002da32c      e2cd0594       bl sym.imp.swift_once
+| ========< 0x1002da330      b3fbff17       b 0x1002d91fc
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d922c(x)
+| --------> 0x1002da334      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da338      00e03991       add x0, x0, 0xe78
+|           0x1002da33c      61030090       adrp x1, 0x100346000
+|           0x1002da340      21402091       add x1, x1, 0x810
+|           0x1002da344      dccd0594       bl sym.imp.swift_once
+| ========< 0x1002da348      bafbff17       b 0x1002d9230
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9260(x)
+| --------> 0x1002da34c      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da350      00e03f91       add x0, x0, 0xff8
+|           0x1002da354      210300b0       adrp x1, 0x10033f000
+|           0x1002da358      21e02491       add x1, x1, 0x938
+|           0x1002da35c      d6cd0594       bl sym.imp.swift_once
+| ========< 0x1002da360      c1fbff17       b 0x1002d9264
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9294(x)
+| --------> 0x1002da364      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da368      00003991       add x0, x0, 0xe40
+|           0x1002da36c      210300b0       adrp x1, 0x10033f000
+|           0x1002da370      21303091       add x1, x1, 0xc0c
+|           0x1002da374      d0cd0594       bl sym.imp.swift_once
+| ========< 0x1002da378      c8fbff17       b 0x1002d9298
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d92c8(x)
+| --------> 0x1002da37c      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da380      00a03b91       add x0, x0, 0xee8
+|           0x1002da384      210300d0       adrp x1, 0x100340000
+|           0x1002da388      21800691       add x1, x1, 0x1a0
+|           0x1002da38c      cacd0594       bl sym.imp.swift_once
+| ========< 0x1002da390      cffbff17       b 0x1002d92cc
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d92fc(x)
+| --------> 0x1002da394      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da398      00803b91       add x0, x0, 0xee0
+|           0x1002da39c      210300d0       adrp x1, 0x100340000
+|           0x1002da3a0      21e02791       add x1, x1, 0x9f8
+|           0x1002da3a4      c4cd0594       bl sym.imp.swift_once
+| ========< 0x1002da3a8      d6fbff17       b 0x1002d9300
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9330(x)
+| --------> 0x1002da3ac      00180090       adrp x0, 0x1005da000
+|           0x1002da3b0      00600291       add x0, x0, 0x98
+|           0x1002da3b4      010300f0       adrp x1, 0x10033d000
+|           0x1002da3b8      21b02e91       add x1, x1, 0xbac
+|           0x1002da3bc      becd0594       bl sym.imp.swift_once
+| ========< 0x1002da3c0      ddfbff17       b 0x1002d9334
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9364(x)
+| --------> 0x1002da3c4      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da3c8      00403b91       add x0, x0, 0xed0
+|           0x1002da3cc      210300d0       adrp x1, 0x100340000
+|           0x1002da3d0      21003391       add x1, x1, 0xcc0
+|           0x1002da3d4      b8cd0594       bl sym.imp.swift_once
+| ========< 0x1002da3d8      e4fbff17       b 0x1002d9368
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d93a0(x)
+| --------> 0x1002da3dc      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da3e0      00203b91       add x0, x0, 0xec8
+|           0x1002da3e4      210300d0       adrp x1, 0x100340000
+|           0x1002da3e8      21403e91       add x1, x1, 0xf90
+|           0x1002da3ec      b2cd0594       bl sym.imp.swift_once
+| ========< 0x1002da3f0      edfbff17       b 0x1002d93a4
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d93d4(x)
+| --------> 0x1002da3f4      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da3f8      00003b91       add x0, x0, 0xec0
+|           0x1002da3fc      210300f0       adrp x1, 0x100341000
+|           0x1002da400      21600991       add x1, x1, 0x258
+|           0x1002da404      accd0594       bl sym.imp.swift_once
+| ========< 0x1002da408      f4fbff17       b 0x1002d93d8
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9408(x)
+| --------> 0x1002da40c      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da410      00e03a91       add x0, x0, 0xeb8
+|           0x1002da414      210300f0       adrp x1, 0x100341000
+|           0x1002da418      21901491       add x1, x1, 0x524
+|           0x1002da41c      a6cd0594       bl sym.imp.swift_once
+| ========< 0x1002da420      fbfbff17       b 0x1002d940c
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d943c(x)
+| --------> 0x1002da424      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da428      00e03891       add x0, x0, 0xe38
+|           0x1002da42c      210300f0       adrp x1, 0x100341000
+|           0x1002da430      21c01f91       add x1, x1, 0x7f0
+|           0x1002da434      a0cd0594       bl sym.imp.swift_once
+| ========< 0x1002da438      02fcff17       b 0x1002d9440
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9470(x)
+| --------> 0x1002da43c      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da440      00c03a91       add x0, x0, 0xeb0
+|           0x1002da444      210300f0       adrp x1, 0x100341000
+|           0x1002da448      21f02a91       add x1, x1, 0xabc
+|           0x1002da44c      9acd0594       bl sym.imp.swift_once
+| ========< 0x1002da450      09fcff17       b 0x1002d9474
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d94a4(x)
+| --------> 0x1002da454      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da458      00a03a91       add x0, x0, 0xea8
+|           0x1002da45c      210300f0       adrp x1, 0x100341000
+|           0x1002da460      21403491       add x1, x1, 0xd10
+|           0x1002da464      94cd0594       bl sym.imp.swift_once
+| ========< 0x1002da468      10fcff17       b 0x1002d94a8
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d94d8(x)
+| --------> 0x1002da46c      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da470      00803a91       add x0, x0, 0xea0
+|           0x1002da474      210300f0       adrp x1, 0x100341000
+|           0x1002da478      21703f91       add x1, x1, 0xfdc
+|           0x1002da47c      8ecd0594       bl sym.imp.swift_once
+| ========< 0x1002da480      17fcff17       b 0x1002d94dc
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d950c(x)
+| --------> 0x1002da484      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da488      00c03891       add x0, x0, 0xe30
+|           0x1002da48c      41030090       adrp x1, 0x100342000
+|           0x1002da490      21d01591       add x1, x1, 0x574
+|           0x1002da494      88cd0594       bl sym.imp.swift_once
+| ========< 0x1002da498      1efcff17       b 0x1002d9510
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9540(x)
+| --------> 0x1002da49c      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da4a0      00a03891       add x0, x0, 0xe28
+|           0x1002da4a4      41030090       adrp x1, 0x100342000
+|           0x1002da4a8      21f02091       add x1, x1, 0x83c
+|           0x1002da4ac      82cd0594       bl sym.imp.swift_once
+| ========< 0x1002da4b0      25fcff17       b 0x1002d9544
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9574(x)
+| --------> 0x1002da4b4      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da4b8      00803891       add x0, x0, 0xe20
+|           0x1002da4bc      41030090       adrp x1, 0x100342000
+|           0x1002da4c0      21202c91       add x1, x1, 0xb08
+|           0x1002da4c4      7ccd0594       bl sym.imp.swift_once
+| ========< 0x1002da4c8      2cfcff17       b 0x1002d9578
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d95a8(x)
+| --------> 0x1002da4cc      00180090       adrp x0, 0x1005da000
+|           0x1002da4d0      00200391       add x0, x0, 0xc8
+|           0x1002da4d4      410300b0       adrp x1, 0x100343000
+|           0x1002da4d8      21800291       add x1, x1, 0xa0
+|           0x1002da4dc      76cd0594       bl sym.imp.swift_once
+| ========< 0x1002da4e0      33fcff17       b 0x1002d95ac
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d95dc(x)
+| --------> 0x1002da4e4      00180090       adrp x0, 0x1005da000
+|           0x1002da4e8      00c00191       add x0, x0, 0x70
+|           0x1002da4ec      61030090       adrp x1, 0x100346000
+|           0x1002da4f0      21201591       add x1, x1, 0x548
+|           0x1002da4f4      70cd0594       bl sym.imp.swift_once
+| ========< 0x1002da4f8      3afcff17       b 0x1002d95e0
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d96c4(x)
+| --------> 0x1002da4fc      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d96d0(x)
+| --------> 0x1002da500      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d96e0(x)
+| --------> 0x1002da504      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d977c(x)
+| --------> 0x1002da508      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9788(x)
+| --------> 0x1002da50c      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9798(x)
+| --------> 0x1002da510      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d98f4(x)
+| --------> 0x1002da514      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d98fc(x)
+| --------> 0x1002da518      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d990c(x)
+| --------> 0x1002da51c      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d99a0(x)
+| --------> 0x1002da520      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d99a8(x)
+| --------> 0x1002da524      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d99b8(x)
+| --------> 0x1002da528      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9ac4(x)
+| --------> 0x1002da52c      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9ad0(x)
+| --------> 0x1002da530      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9ae0(x)
+| --------> 0x1002da534      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9c1c(x)
+| --------> 0x1002da538      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9c24(x)
+| --------> 0x1002da53c      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9c34(x)
+| --------> 0x1002da540      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9cc8(x)
+| --------> 0x1002da544      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9cd0(x)
+| --------> 0x1002da548      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9ce0(x)
+| --------> 0x1002da54c      200020d4       brk 1
+|           ; CODE XREF from sym.func.1002d8d34 @ 0x1002d9e7c(x)
+| --------> 0x1002da550      e01700f0       adrp x0, 0x1005d9000
+|           0x1002da554      00800091       add x0, x0, 0x20
+|           0x1002da558      610100f0       adrp x1, 0x100309000
+|           0x1002da55c      21c00d91       add x1, x1, 0x370
+|           0x1002da560      55cd0594       bl sym.imp.swift_once
+\ ========< 0x1002da564      47feff17       b 0x1002d9e80

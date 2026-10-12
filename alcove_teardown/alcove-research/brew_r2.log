@@ -1,0 +1,54 @@
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Homebrew's analytics have entirely moved to our InfluxDB instance in the EU.
+We gather less data than before and have destroyed all Google Analytics data:
+  https://docs.brew.sh/Analytics
+Please reconsider re-enabling analytics to help our volunteer maintainers with:
+  brew analytics on
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#-donations
+
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+bitbucket-cli: CLI for Bitbucket Cloud and Data Center
+noodle: Terminal REST client with file-based collections
+python-gdbm@3.15: Python interface to gdbm
+python-tk@3.15: Python interface to Tcl/Tk
+python@3.15: Interpreted, interactive, object-oriented programming language
+tinycbor: Concise Binary Object Representation (CBOR) Library
+==> New Casks
+artcraft: Video crafting engine
+betteraudio: Per-app volume, EQ and audio device control
+cadcraft: Computer-aided design and drafting tool
+crest: Notch utility with widgets
+deckcraft: Presentation editor
+designcraft: Page layout and publishing tool
+effectcraft: Motion graphics and visual effects compositor
+genoffice: Open-source AI office suite
+gridcraft: Spreadsheet editor
+pdfcraft: PDF editor
+sononym: AI-powered sample browser for exploring audio samples
+soundcraft: Digital audio workstation
+tnas-pc: Desktop client for TerraMaster TNAS network storage devices
+wordcraft: Word processor
+
+You have 10 outdated formulae and 1 outdated cask installed.
+
+==> Downloading bottle manifests
+✔︎ Bottle Manifest radare2 (6.2.4)
+==> Would install 1 formula:
+radare2 6.2.4
+==> Would install 1 dependency for radare2:
+pkgconf
+==> Fetching downloads for: radare2
+✔︎ Bottle Manifest pkgconf (3.0.8)
+✔︎ Bottle pkgconf (3.0.8)
+✔︎ Bottle radare2 (6.2.4)
+==> Installing radare2 dependency: pkgconf (3.0.8)
+==> Pouring pkgconf--3.0.8.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pkgconf/3.0.8: 35 files, 752.4KB
+==> Installing radare2
+==> Pouring radare2--6.2.4.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/radare2/6.2.4: 844 files, 38.8MB

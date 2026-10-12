@@ -1,0 +1,47 @@
+FUNCTION method.Alcove._9CF681275A1E0392FDCBE19740D0D2CE.AppDelegate.application:openURLs: 0x10020354c-0x1002035c4
+000000010020354c	stp	x22, x21, [sp, #-0x30]!
+0000000100203550	stp	x20, x19, [sp, #0x10]
+0000000100203554	stp	x29, x30, [sp, #0x20]
+0000000100203558	add	x29, sp, #0x20
+000000010020355c	mov	x19, x3
+0000000100203560	mov	x20, x2
+0000000100203564	mov	x21, x0
+0000000100203568	mov	x0, #0x0
+000000010020356c	bl	0x10044998c ; symbol stub for: _$s10Foundation3URLVMa
+0000000100203570	mov	x1, x0
+0000000100203574	mov	x0, x19
+0000000100203578	bl	0x10044bf6c ; symbol stub for: _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+000000010020357c	mov	x19, x0
+0000000100203580	mov	x0, x20
+0000000100203584	bl	0x10044d6ac ; symbol stub for: _objc_retain
+0000000100203588	mov	x20, x0
+000000010020358c	mov	x0, x21
+0000000100203590	bl	0x10044d6ac ; symbol stub for: _objc_retain
+0000000100203594	mov	x21, x0
+0000000100203598	mov	x0, x19
+000000010020359c	bl	0x100204448
+00000001002035a0	mov	x0, x20
+00000001002035a4	bl	0x10044d6a0 ; symbol stub for: _objc_release
+00000001002035a8	mov	x0, x21
+00000001002035ac	bl	0x10044d6a0 ; symbol stub for: _objc_release
+00000001002035b0	mov	x0, x19
+00000001002035b4	ldp	x29, x30, [sp, #0x20]
+00000001002035b8	ldp	x20, x19, [sp, #0x10]
+00000001002035bc	ldp	x22, x21, [sp], #0x30
+00000001002035c0	b	0x10044d7d8 ; symbol stub for: _swift_bridgeObjectRelease
+
+EXCERPTS ONLY: license-related branch omitted under scope restriction
+FUNCTION sym.func.100204448 0x100204538-0x10020456c
+0000000100204538	mov	x20, x21
+000000010020453c	bl	0x1004498fc ; symbol stub for: _$s10Foundation3URLV14absoluteStringSSvg
+0000000100204540	mov	x2, x0
+0000000100204544	mov	x20, x1
+0000000100204548	mov	x0, x19
+000000010020454c	mov	x1, #0x2f
+0000000100204550	movk	x1, #0xe900, lsl #48
+0000000100204554	mov	x3, x20
+0000000100204558	bl	0x10044be88 ; symbol stub for: _$sSS9hasPrefixySbSSF
+000000010020455c	mov	x24, x0
+0000000100204560	mov	x0, x20
+0000000100204564	bl	0x10044d7d8 ; symbol stub for: _swift_bridgeObjectRelease
+0000000100204568	tbz	w24, #0x0, 0x10020452c

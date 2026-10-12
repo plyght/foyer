@@ -1,0 +1,9 @@
+fcn.1004516e0 0x1004516e4 [DATA:r--] ldr x1, reloc.fixup.setCollectionBehavior:
+fcn.1004522e0 0x1004522e4 [DATA:r--] ldr x1, reloc.fixup.setSharingType:
+fcn.100451cc0 0x100451cc4 [DATA:r--] ldr x1, [x1, 0xc8]
+fcn.100451c80 0x100451c84 [DATA:r--] ldr x1, [x1, 0xb8]
+fcn.1004520c0 0x1004520c4 [DATA:r--] ldr x1, reloc.fixup.setOpaque:
+fcn.100451560 0x100451564 [DATA:r--] ldr x1, reloc.fixup.setBackgroundColor:
+fcn.100451260 0x100451264 [DATA:r--] ldr x1, reloc.fixup.setAcceptsMouseMovedEvents:
+fcn.100451f60 0x100451f64 [DATA:r--] ldr x1, reloc.fixup.setMovableByWindowBackground:
+fcn.100451420 0x100451424 [DATA:r--] ldr x1, reloc.fixup.setAnimationBehavior:

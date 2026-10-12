@@ -1,0 +1,17 @@
+            ; CALL XREFS from sym.func.10031a2c4 @ 0x10031a598(x), 0x10031a5c4(x)
+/ 52: sym.func.10031a290 (int64_t arg1);
+| `- args(x0)
+|           0x10031a290      081c1812       and w8, w0, 0xff00         ; arg1
+|           0x10031a294      1f010471       cmp w8, 0x100
+|       ,=< 0x10031a298      20010054       b.eq 0x10031a2bc
+|       |   0x10031a29c      08140012       and w8, w0, 0x3f           ; arg1
+|       |   0x10031a2a0      08090051       sub w8, w8, 2
+|       |   0x10031a2a4      1f510071       cmp w8, 0x14
+|      ,==< 0x10031a2a8      a8000054       b.hi 0x10031a2bc
+|      ||   0x10031a2ac      a90a00f0       adrp x9, 0x100471000
+|      ||   0x10031a2b0      29d91691       add x9, x9, 0x5b6
+|      ||   0x10031a2b4      20c96838       ldrb w0, [x9, w8, sxtw]
+|      ||   0x10031a2b8      c0035fd6       ret
+|      ||   ; CODE XREFS from sym.func.10031a290 @ 0x10031a298(x), 0x10031a2a8(x)
+|      ``-> 0x10031a2bc      00008052       mov w0, 0
+\           0x10031a2c0      c0035fd6       ret

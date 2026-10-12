@@ -1,0 +1,416 @@
+        name           0x100551630 _TtC6Alcove14BatteryManager
+        baseMethods    0x100000000 __mh_execute_header
+        baseProtocols  0x100000000 __mh_execute_header
+        ivars          0x1005ba4e0
+            entsize   32
+            count     17
+            offset    0x10045f548 16
+            name      0x100556760 batteryHelper
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x10045f550 24
+            name      0x100556c70 cancellables
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x10045f558 32
+            name      0x10055339b _enableBattery
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x10045f560 56
+            name      0x100553140 _batteryDuration
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x10045f568 80
+            name      0x100554d80 _notifyOnLowPowerMode
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x10045f570 104
+            name      0x100555500 _warnOnLowBattery
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x10045f578 128
+            name      0x100554b60 _lowBatteryThreshold
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x10045f580 152
+            name      0x100554f50 _playSoundOnLowBattery
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x10045f588 176
+            name      0x100553d70 _allowBatteryWhenFocused
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x10045f590 200
+            name      0x100552f60 _allowBatteryWhenLocked
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x10045f598 224
+            name      0x100553f98 _batteryLevel
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x10045f5a0 232
+            name      0x100555546 _wasOnBattery
+            type      0x10055d680 
+            alignment 0
+            size      1
+            offset    0x10045f5a8 233
+            name      0x100554930 _isLowPowerModeEnabled
+            type      0x10055d680 
+            alignment 0
+            size      1
+            offset    0x10045f5b0 234
+            name      0x100554500 _hasPassedThreshold
+            type      0x10055d680 
+            alignment 0
+            size      1
+            offset    0x10045f5b8 235
+            name      0x1005545e0 _hasRecentlyChangedPowerSource
+            type      0x10055d680 
+            alignment 0
+            size      1
+            offset    0x10045f5c0 240
+            name      0x10055506c _remainingTime
+            type      0x10055d680 
+            alignment 3
+            size      9
+            offset    0x1005cf2e0 0
+            name      0x100552e70 _$observationRegistrar
+            type      0x10055d680 
+            alignment 0
+            size      0
+        name           0x100551dd0 _TtC6Alcove19ConnectivityManager
+        baseMethods    0x1004534e0
+            entsize 12 (relative)
+            count   4
+            name    0x171280 (0x1005c4768)
+            types   0x10a384 (0x10055d870) @16@0:8
+            imp     0xffebc244 (0x10030f734)
+            name    0x170b44 (0x1005c4038)
+            types   0x10a2b8 (0x10055d7b0) v16@0:8
+            imp     0xffebc2e0 (0x10030f7dc)
+            name    0x172248 (0x1005c5748)
+            types   0x10a90c (0x10055de10) v24@0:8@16
+            imp     0xffec52f0 (0x1003187f8)
+            name    0x17215c (0x1005c5668)
+            types   0x10a2a0 (0x10055d7b0) v16@0:8
+            imp     0xffebc364 (0x10030f878)
+        baseProtocols  0x1005bf6b0
+            count    1
+            list[0]  0x1005d9188
+                isa       0x100000000 __mh_execute_header
+                name      0x100551df1 CBCentralManagerDelegate
+                protocols 0x1005bfb48
+                    count    1
+                    list[0]  0x1005c7d90
+                        isa       0x100000000 __mh_execute_header
+                        name      0x100551190 NSObject
+                        protocols 0x100000000 __mh_execute_header
+                        instanceMethods 0x100453b98
+                            entsize 12 (relative)
+                            count   19
+                            name    0x170d78 (0x1005c4918)
+                            types   0x1097ec (0x10055d390) B24@0:8@16
+                            imp     0x0
+                            name    0x171bec (0x1005c5798)
+                            types   0x10ac90 (0x10055e840) #16@0:8
+                            imp     0x0
+                            name    0x171be8 (0x1005c57a0)
+                            types   0x109cb4 (0x10055d870) @16@0:8
+                            imp     0x0
+                            name    0x170fc4 (0x1005c4b88)
+                            types   0x10ac88 (0x10055e850) @24@0:8:16
+                            imp     0x0
+                            name    0x170fc0 (0x1005c4b90)
+                            types   0x10a70c (0x10055e2e0) @32@0:8:16@24
+                            imp     0x0
+                            name    0x170fbc (0x1005c4b98)
+                            types   0x10a260 (0x10055de40) @40@0:8:16@24@32
+                            imp     0x0
+                            name    0x171bc0 (0x1005c57a8)
+                            types   0x109a74 (0x10055d660) B16@0:8
+                            imp     0x0
+                            name    0x171bbc (0x1005c57b0)
+                            types   0x10a3b8 (0x10055dfb0) B24@0:8#16
+                            imp     0x0
+                            name    0x171bb8 (0x1005c57b8)
+                            types   0x10a3ac (0x10055dfb0) B24@0:8#16
+                            imp     0x0
+                            name    0x171bb4 (0x1005c57c0)
+                            types   0x109780 (0x10055d390) B24@0:8@16
+                            imp     0x0
+                            name    0x171158 (0x1005c4d70)
+                            types   0x10ace4 (0x10055e900) B24@0:8:16
+                            imp     0x0
+                            name    0x171ba4 (0x1005c57c8)
+                            types   0x109c48 (0x10055d870) @16@0:8
+                            imp     0x0
+                            name    0x171ba0 (0x1005c57d0)
+                            types   0x10a1cc (0x10055de00) Vv16@0:8
+                            imp     0x0
+                            name    0x171b9c (0x1005c57d8)
+                            types   0x109c30 (0x10055d870) @16@0:8
+                            imp     0x0
+                            name    0x171b98 (0x1005c57e0)
+                            types   0x10a20c (0x10055de58) Q16@0:8
+                            imp     0x0
+                            name    0x171b94 (0x1005c57e8)
+                            types   0x10a208 (0x10055de60) ^{_NSZone=}16@0:8
+                            imp     0x0
+                            name    0x171b90 (0x1005c57f0)
+                            types   0x10a1f4 (0x10055de58) Q16@0:8
+                            imp     0x0
+                            name    0x171b8c (0x1005c57f8)
+                            types   0x10abd0 (0x10055e840) #16@0:8
+                            imp     0x0
+                            name    0x171b88 (0x1005c5800)
+                            types   0x109bf4 (0x10055d870) @16@0:8
+                            imp     0x0
+                        classMethods 0x100000000 __mh_execute_header
+                        optionalInstanceMethods 0x1004540f8
+                            entsize 12 (relative)
+                            count   1
+                            name    0x171708 (0x1005c5808)
+                            types   0x10976c (0x10055d870) @16@0:8
+                            imp     0x0
+                        optionalClassMethods 0x100000000 __mh_execute_header
+                        instanceProperties 0x1005b8120
+                            entsize    16
+                            count      4
+                            name       0x100558250 hash
+                            attributes 0x100552aec TQ,R
+                            name       0x10055c2d0 superclass
+                            attributes 0x10055294c T#,R
+                            name       0x1005576e0 description
+                            attributes 0x1005537e0 T@"NSString",R,C
+                            name       0x100557610 debugDescription
+                            attributes 0x1005529f0 T@"NSString",?,R,C
+                instanceMethods 0x100453b68
+                    entsize 12 (relative)
+                    count   1
+                    name    0x171bd8 (0x1005c5748)
+                    types   0x10a29c (0x10055de10) v24@0:8@16
+                    imp     0x0
+                classMethods 0x100000000 __mh_execute_header
+                optionalInstanceMethods 0x100453d08
+                    entsize 12 (relative)
+                    count   8
+                    name    0x172008 (0x1005c5d18)
+                    types   0x1098bc (0x10055d5d0) v32@0:8@16@24
+                    imp     0x0
+                    name    0x172004 (0x1005c5d20)
+                    types   0x10aff8 (0x10055ed18) v48@0:8@16@24@32@40
+                    imp     0x0
+                    name    0x172000 (0x1005c5d28)
+                    types   0x1098a4 (0x10055d5d0) v32@0:8@16@24
+                    imp     0x0
+                    name    0x171ffc (0x1005c5d30)
+                    types   0x10a618 (0x10055e350) v40@0:8@16@24@32
+                    imp     0x0
+                    name    0x171ff8 (0x1005c5d38)
+                    types   0x10a60c (0x10055e350) v40@0:8@16@24@32
+                    imp     0x0
+                    name    0x171ff4 (0x1005c5d40)
+                    types   0x10afdc (0x10055ed2c) v52@0:8@16@24d32B40@44
+                    imp     0x0
+                    name    0x171ff0 (0x1005c5d48)
+                    types   0x10a270 (0x10055dfcc) v40@0:8@16q24@32
+                    imp     0x0
+                    name    0x171fec (0x1005c5d50)
+                    types   0x109868 (0x10055d5d0) v32@0:8@16@24
+                    imp     0x0
+                optionalClassMethods 0x100000000 __mh_execute_header
+                instanceProperties 0x100000000 __mh_execute_header
+        ivars          0x1005bf6c0
+            entsize   32
+            count     36
+            offset    0x1005d9040 0
+            name      0x0 _$sBoWV
+            type      0x10055d680 
+            alignment 0
+            size      0
+            offset    0x1005d9048 0
+            name      0x100556920 bluetoothManager
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d9050 0
+            name      0x10055be57 simplyCA
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d9058 0
+            name      0x100556c70 cancellables
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d9060 0
+            name      0x10055c597 timer
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d9068 0
+            name      0x100555a10 airPlayRouteLogTask
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d9070 0
+            name      0x10055a360 outputDeviceChangeResetTask
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d9078 0
+            name      0x0 _swift_deletedMethodError
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d9080 0
+            name      0x1005582e0 homePodLastUpdatedGroupID
+            type      0x10055d680 
+            alignment 3
+            size      16
+            offset    0x1005d9088 0
+            name      0x0 _OBJC_METACLASS_$__TtCs12_SwiftObject
+            type      0x0 _OBJC_METACLASS_$__TtCs12_SwiftObject
+            alignment 3
+            size      8
+            offset    0x1005d9090 0
+            name      0x10055a380 outputDeviceModelRegex
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d9098 0
+            name      0x10055a2b0 outputContextNameRegex
+            type      0x0 _OBJC_CLASS_$__TtCs12_SwiftObject
+            alignment 3
+            size      8
+            offset    0x1005d90a0 0
+            name      0x10055a290 outputContextGroupRegex
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d90a8 0
+            name      0x10055a240 outputContextAirPlayGroupRegex
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d90b0 0
+            name      0x10055a2f0 outputContextSubtypeRegex
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d90b8 0
+            name      0x10055a310 outputContextTypeRegex
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d90c0 0
+            name      0x10055a2d0 outputContextPrimaryUIDRegex
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d90c8 0
+            name      0x10055a330 outputContextUniqueIdentifierRegex
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d90d0 0
+            name      0x10055a260 outputContextConfiguredClusterSizeRegex
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d90d8 0
+            name      0x1005541e0 _enableConnectivity
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x1005d90e0 0
+            name      0x1005535a0 _hasPromptedBluetoothPermission
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x1005d90e8 0
+            name      0x100553260 _connectivityDuration
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x1005d90f0 0
+            name      0x100555520 _warnOnLowConnectBattery
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x1005d90f8 0
+            name      0x100554b80 _lowConnectBatteryThreshold
+            type      0x0 _swift_deletedMethodError
+            alignment 3
+            size      24
+            offset    0x1005d9100 0
+            name      0x100554f70 _playSoundOnLowConnectBattery
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x1005d9108 0
+            name      0x100553e10 _allowConnectivityWhenFocused
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x1005d9110 0
+            name      0x100553400 _enableLockScreen
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x1005d9118 0
+            name      0x100552fe0 _allowConnectivityWhenLocked
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x1005d9120 0
+            name      0x100553e40 _allowConnectivityWidgetWhenLocked
+            type      0x10055d680 
+            alignment 3
+            size      24
+            offset    0x1005d9128 0
+            name      0x1005530e3 _audioDevice
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d9130 0
+            name      0x1005554d0 _virtualDevice
+            type      0x10055d680 
+            alignment 0
+            size      2
+            offset    0x1005d9138 0
+            name      0x100553f98 _batteryLevel
+            type      0x10055d680 
+            alignment 3
+            size      9
+            offset    0x1005d9140 0
+            name      0x100554500 _hasPassedThreshold
+            type      0x10055d680 
+            alignment 0
+            size      1
+            offset    0x1005d9148 0
+            name      0x100552840 _hasRecentlyChangedOutputDevice
+            type      0x10055d680 
+            alignment 0
+            size      1
+            offset    0x1005d9150 0
+            name      0x100553f40 _authorizationStatus
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x1005d9158 0
+            name      0x100552e70 _$observationRegistrar
+            type      0x10055d680 
+            alignment 0
+            size      0

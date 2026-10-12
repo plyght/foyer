@@ -1,0 +1,64 @@
+macos accessibility snapshot v1 (line format: @ref role "name" = "value" #id [states] {actions}; indent = hierarchy)
+target: pid:2607  epoch: 19  app: Alcove  pid: 2607  provenance: axuielement  nodes: 131/131  truncated: false
+@m8180 application "Alcove"
+ @m8181 window
+  @m8182 group
+   @m8183 button
+   @m8184 button
+ @m8185 window
+  @m8186 group
+ @m8187 window "Sound" [focused=true]
+  @m8188 group
+   @m8189 image "Volume High" #speaker.wave.2.fill
+   @m8190 statictext = "Sound"
+   @m8191 button "General" {press}
+   @m8192 statictext = "Notifications"
+   @m8193 button "Battery" [disabled=true] {press}
+   @m8194 button "Connectivity" {press}
+   @m8195 button "Focus" {press}
+   @m8196 button "Display" {press}
+   @m8197 button "Sound" {press}
+   @m8198 statictext = "Live Activities"
+   @m8199 button "Now Playing" {press}
+   @m8200 button "11, Calendar" {press}
+   @m8201 button "File Tray, Soon" [disabled=true] {press}
+   @m8202 button "Lock Screen" {press}
+   @m8203 statictext = "Alcove"
+   @m8204 button "License, Trial" [selected=true] {press}
+   @m8205 button "About" {press}
+   @m8206 scrollarea {scroll}
+    @m8207 image "Volume High" #speaker.wave.2.fill
+    @m8208 statictext = "Sound"
+    @m8209 checkbox [checked=true] {press}
+    @m8210 statictext = "Duration"
+    @m8211 button "1.5" {press}
+    @m8212 statictext = "s"
+    @m8213 slider = "1.500" {increment,decrement}
+     @m8214 valueindicator = "1.500"
+    @m8215 button {press}
+    @m8216 button {press}
+    @m8217 button {press}
+    @m8218 statictext = "White"
+    @m8219 statictext = "Accent"
+    @m8220 statictext = "Decibel"
+    @m8221 statictext = "Show percentage"
+    @m8222 checkbox [checked=false] {press}
+    @m8223 statictext = "Hide label"
+    @m8224 checkbox [checked=false] {press}
+    @m8225 button "Decrease Speed" #tortoise.fill {press}
+    @m8226 button "Increase Speed" #hare.fill {press}
+    @m8227 button "Flash" #bolt.fill {press}
+    @m8228 statictext = "Smooth"
+    @m8229 statictext = "Fast"
+    @m8230 statictext = "Instant"
+    @m8231 button "Volume High" #speaker.wave.2.fill {press}
+    @m8232 button "Airpods Pro" {press}
+    @m8233 statictext = "Show symbol"
+    @m8234 statictext = "Show device"
+  @m8235 toolbar {show_menu}
+  @m8236 button "close" {press}
+  @m8237 button "zoom" [disabled=true] {press,show_menu}
+   @m8238 group
+    @m8239 group
+  @m8240 button "minimize" [disabled=true] {press}
+note: menu bar folded: "Alcove", "Window", "Help", "Alcove" (57 menu item(s) not listed) — `query role=menuitem` or `query role=menuitem text=<command>` lists them with refs; a menu item is pressed directly, the menu need not be opened first

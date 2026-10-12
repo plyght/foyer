@@ -1,0 +1,20 @@
+            ; XREFS: ICOD 0x10009541c  ICOD 0x100115618  ICOD 0x10011cdf4  
+            ; XREFS: ICOD 0x1001b9130  ICOD 0x1002033e0  ICOD 0x100203854  
+            ; XREFS: ICOD 0x100223f98  ICOD 0x100223fb0  ICOD 0x100238aec  
+            ; XREFS: ICOD 0x10039c9fc  
+/ 56: sym.func.10013206c ();
+| afv: vars(4:sp[0x8..0x20])
+|           0x10013206c      f44fbea9       stp x20, x19, [var_20h]!
+|           0x100132070      fd7b01a9       stp x29, x30, [var_10h]
+|           0x100132074      fd430091       add x29, sp, 0x10
+|           0x100132078      db040094       bl sym.func.1001333e4
+|           0x10013207c      c12e8052       mov w1, 0x176
+|           0x100132080      e2008052       mov w2, 7
+|           0x100132084      bd6d0c94       bl sym.imp.swift_allocObject
+|           0x100132088      f40300aa       mov x20, x0
+|           0x10013208c      fb010094       bl sym.func.100132878
+|           0x100132090      88260090       adrp x8, 0x100602000
+|           0x100132094      006507f9       str x0, [x8, 0xec8]
+|           0x100132098      fd7b41a9       ldp x29, x30, [var_10h]
+|           0x10013209c      f44fc2a8       ldp x20, x19, [sp], 0x20
+\           0x1001320a0      c0035fd6       ret

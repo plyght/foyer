@@ -1,0 +1,7 @@
+NowPlayingProbe started; attempt=3
+MediaRemote.framework: loaded
+AVAudioPlayer: path=/Users/devin/alcove-research/live_v3/perf/perf_noise_100s.m4a duration=100.0 play=true isPlaying=true
+MPRemoteCommandCenter play/pause/next handlers registered
+Artwork loaded: /Users/devin/alcove-research/live_v4/NowPlayingProbe.app/Contents/Resources/artwork.png
+MPNowPlayingInfoCenter published title='Probe Explicit Track' artist='devin' playbackState=playing
+Attempt 3: called MRMediaRemoteSetNowPlayingInfo(CFDictionary) with explicit key='kMRMediaRemoteNowPlayingInfoIsExplicitTrack', title, and artist

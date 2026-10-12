@@ -1,0 +1,8 @@
+        :   ; XREFS(71)
+/ 20: sym.func.1000b8400 (int64_t arg1);
+| `- args(x0)
+|       :   0x1000b8400      a1280090       adrp x1, 0x1005cc000
+|       :   0x1000b8404      21c01891       add x1, x1, 0x630
+|       :   0x1000b8408      e22200b0       adrp x2, 0x100515000
+|       :   0x1000b840c      42c02d91       add x2, x2, 0xb70          ; 0x100515b70 ; u"Q\x01\uee04\uffff\u563f\ufff4\u2884\uffba\u9744\x01\a"
+\       `=< 0x1000b8410      f98afe17       b sym.func.10005aff4

@@ -1,0 +1,26 @@
+YOUR AREA: E: HARDWARE-DEPENDENT FEATURES. Do deep static RE and artificial runtime triggering of the features the VM cannot show natively. Earlier sessions marked these UNVERIFIED: real-notch detection and geometry, battery, AirPods/Bluetooth, lock screen, brightness HUD, and system-HUD (OSD) suppression. The user wants them reverse engineered anyway so they can rebuild them. Two prior reports are attached for context:
+- alcove_static_re.md: animation constants, NotchShape, windowing, Defaults keys and a field map.
+- alcove_runtime.md: windows, persistence, IPC, network and TCC.
+Do NOT redo what they already cover. Build on their addresses.
+
+For EACH feature, recover the complete pipeline: data source, then parsing, then state, then trigger/debounce, then UI states, then animation, then sound.
+
+1. NOTCH DETECTION. Find how real notch width and height are computed (NSScreen.safeAreaInsets / auxiliaryTopLeftArea / auxiliaryTopRightArea, menu-bar height), the simulated-notch fallback size (it measured live about 140-144 x 28-29 pt; find the literal or the formula), notchAdjustedWidth/Height offsets, and multi-display behaviour (the screen-chooser logic, NSScreen change notifications). Give a table of predicted closed-notch sizes for 14"/16" MacBook Pro and 13"/15" MacBook Air if the formula allows it.
+2. BATTERY. Cover:
+   - IOPSCopyPowerSourcesInfo/List and IOPSNotificationCreateRunLoopSource usage, and which dictionary keys are read (Current Capacity, Is Charging, Power Source State, Low Power Mode via NSProcessInfo.isLowPowerModeEnabled / NSProcessInfoPowerStateDidChange).
+   - The charging-plugged and unplugged notifications, low-battery threshold logic (default 20%) and the low-power sound.
+   - UI strings (localizable.txt) and which view/asset is shown.
+   - Try triggering low-power-mode changes (`sudo pmset -a lowpowermode 1`, then 0) and capture whatever Alcove shows.
+3. AIRPODS/BLUETOOTH. Cover:
+   - CoreBluetooth/IOBluetooth usage, how AirPods battery (left/right/case) is read (BLE proximity-pairing advertisements with Apple manufacturer data 0x004C type 0x07? IOBluetoothDevice private batteryPercent*? find selectors/strings).
+   - The model-ID to video-asset mapping (the AirPods*/Max colour .mov resources) and the connect/disconnect notification UI.
+   - Other device types (generic headphones, keyboards, mice symbols?).
+4. LOCK SCREEN. Cover:
+   - Lock and unlock detection (com.apple.screenIsLocked/Unlocked distributed notifications, CGSessionCopyCurrentDictionary, NSWorkspace sessionDidResignActive, screensaver notifications).
+   - The LockPanel/CGS space mechanism (already partly in the static report) and the widget layout (Battery, Connectivity, Focus, Now Playing, Calendar).
+   - Glass/Clear/Frosted materials, the idle-duration and keep-awake (IOPMAssertion) logic, and the lock/unlock sounds and animation.
+   - Try live: post the distributed notifications from a tiny Swift script, run `pmset displaysleepnow`, try `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend` if present, and the screensaver (`open -a ScreenSaverEngine`). Record at 60 fps whatever appears.
+5. BRIGHTNESS HUD. Cover the DisplayServices calls (Get/Set/SetBrightnessSmooth, RegisterForBrightnessChangeNotifications), the brightness-key handling in the CGEventTap (NX_KEYTYPE_BRIGHTNESS_UP/DOWN = 2/3 via NSSystemDefined subtype 8), step size (1/16?), and the Smooth/Fast/Instant speed implementation. Try live: post synthetic brightness NX_SYSDEFINED events (the runtime report has a mediakey.swift script for volume; adapt it) and capture the HUD even if DisplayServices fails on the VM.
+6. SYSTEM HUD SUPPRESSION. Find exactly how Alcove stops the native OSD: event-tap swallowing of NX_SYSDEFINED keys plus re-implementing volume/brightness itself, and/or OSDUIHelper manipulation (launchctl / kill strings?), and/or BetterDisplay integration. Also cover keyboard-backlight keys, mute, and the Option/Shift fine-step modifiers (1/64 steps).
+
+Deliverable: alcove_hardware_re.md, with every fact labelled STATIC / OBSERVED / INFERRED / UNVERIFIED with addresses and evidence, plus alcove_hardware_evidence.zip (scripts, disassembly excerpts, clips, screenshots).

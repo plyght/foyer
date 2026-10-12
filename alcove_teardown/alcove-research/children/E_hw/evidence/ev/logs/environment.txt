@@ -1,0 +1,18 @@
+ProductName:		macOS
+ProductVersion:		26.6.2
+BuildVersion:		25G83
+arm64
+14520b5dd7b91b6e248122194dc206634173fb014d105a308d824974d4f653ec  /Users/devin/work/bin/Alcove.arm64
+Now drawing from 'AC Power'
+AC Power:
+ Sleep On Power Button 1
+ standby              0
+ ttyskeepawake        1
+ powernap             1
+ displaysleep         0
+ sleep                0
+ tcpkeepalive         1
+ disksleep            0
+1.7.7
+199
+ls: /System/Library/CoreServices/Menu Extras/User.menu/Contents/Resources/CGSession: No such file or directory

@@ -1,0 +1,38 @@
+            ; XREFS: CALL 0x10016ab2c  CALL 0x10016ab90  CALL 0x100285bb4  
+            ; XREFS: CALL 0x100285c40  CALL 0x100285c70  CALL 0x1002861d4  
+            ; XREFS: CALL 0x100286260  CALL 0x100286290  CALL 0x10035ca7c  
+            ; XREFS: CALL 0x10035cad0  CALL 0x1004436e8  
+/ 120: sym.func.10035cb04 (int64_t arg1, int64_t arg2, uint64_t arg3);
+| `- args(x0, x1, x2) vars(4:sp[0x8..0x20])
+|           0x10035cb04      f44fbea9       stp x20, x19, [var_20h]!
+|           0x10035cb08      fd7b01a9       stp x29, x30, [var_10h]
+|           0x10035cb0c      fd430091       add x29, sp, 0x10
+|           0x10035cb10      e30302aa       mov x3, x2                 ; arg3
+|           0x10035cb14      e20301aa       mov x2, x1                 ; arg2
+|           0x10035cb18      f30300aa       mov x19, x0                ; arg1
+|           0x10035cb1c      01fc50d3       lsr x1, x0, 0x10           ; arg1
+|           0x10035cb20      143c4ed3       ubfx x20, x0, 0xe, 2       ; arg1
+|       ,=< 0x10035cb24      6301e0b6       tbz x3, 0x3c, 0x10035cb50
+|      ,==< 0x10035cb28      4201d8b7       tbnz x2, 0x3b, 0x10035cb50
+|      ||   0x10035cb2c      e0018052       mov w0, 0xf
+|      ||   0x10035cb30      c7bc0394       bl sym.imp.UTF8View._foreignIndex.offsetBy...S0D0VAF_SitF
+|      ||   0x10035cb34      0840148b       add x8, x0, x20, lsl 16
+|      ||   0x10035cb38      08bd7092       and x8, x8, 0xffffffffffff0000
+|      ||   0x10035cb3c      600640b3       bfxil x0, x19, 0, 2
+|      ||   0x10035cb40      9f0200f1       cmp x20, 0
+|      ||   0x10035cb44      0811809a       csel x8, x8, x0, ne
+|      ||   0x10035cb48      00017db2       orr x0, x8, 8
+|     ,===< 0x10035cb4c      09000014       b 0x10035cb70
+|     |||   ; CODE XREFS from sym.func.10035cb04 @ 0x10035cb24(x), 0x10035cb28(x)
+|     |``-> 0x10035cb50      e0018052       mov w0, 0xf
+|     |     0x10035cb54      cabc0394       bl sym.imp.UTF16View.index.offsetBy.Index...VAF_SitF
+|     |     0x10035cb58      0840148b       add x8, x0, x20, lsl 16
+|     |     0x10035cb5c      08bd7092       and x8, x8, 0xffffffffffff0000
+|     |     0x10035cb60      600640b3       bfxil x0, x19, 0, 2
+|     |     0x10035cb64      9f0200f1       cmp x20, 0
+|     |     0x10035cb68      0811809a       csel x8, x8, x0, ne
+|     |     0x10035cb6c      00017eb2       orr x0, x8, 4
+|     |     ; CODE XREF from sym.func.10035cb04 @ 0x10035cb4c(x)
+|     `---> 0x10035cb70      fd7b41a9       ldp x29, x30, [var_10h]
+|           0x10035cb74      f44fc2a8       ldp x20, x19, [sp], 0x20
+\           0x10035cb78      c0035fd6       ret

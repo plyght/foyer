@@ -1,0 +1,509 @@
+            ; CALL XREF from sym.func.1003a18f8 @ 0x1003a1934(x)
+/ 1800: sym.func.1003a06f8 ();
+| `- args(x20, x21) vars(32:sp[0x8..0x120])
+|           0x1003a06f8      ef3bb66d       stp d15, d14, [var_sp_a0h]!
+|           0x1003a06fc      ed33016d       stp d13, d12, [var_10h]
+|           0x1003a0700      eb2b026d       stp d11, d10, [var_20h]
+|           0x1003a0704      e923036d       stp d9, d8, [var_30h]
+|           0x1003a0708      fc6f04a9       stp x28, x27, [var_40h]
+|           0x1003a070c      fa6705a9       stp x26, x25, [var_50h]
+|           0x1003a0710      f85f06a9       stp x24, x23, [var_60h]
+|           0x1003a0714      f65707a9       stp x22, x21, [var_70h]
+|           0x1003a0718      f44f08a9       stp x20, x19, [var_80h]
+|           0x1003a071c      fd7b09a9       stp x29, x30, [var_10h]
+|           0x1003a0720      fd430291       add x29, sp, 0x90
+|           0x1003a0724      ff0302d1       sub sp, sp, 0x80
+|           0x1003a0728      801100f0       adrp x0, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+|           0x1003a072c      00401191       add x0, x0, 0x450          ; int64_t arg1
+|           0x1003a0730      a10500d0       adrp x1, 0x100456000
+|           0x1003a0734      21401391       add x1, x1, 0x4d0          ; int64_t arg2
+|           0x1003a0738      f988f197       bl sym.func.100002b1c
+|           0x1003a073c      08805ff8       ldur x8, [x0, -8]
+|           0x1003a0740      092140f9       ldr x9, [x8, 0x40]
+|           0x1003a0744      283d0091       add x8, x9, 0xf
+|           0x1003a0748      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x1003a074c      901000d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1003a0750      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0
+|                                                                      ; reloc.__chkstk_darwin
+|           0x1003a0754      00023fd6       blr x16
+|           0x1003a0758      e9030091       mov x9, sp
+|           0x1003a075c      330108cb       sub x19, x9, x8
+|           0x1003a0760      7f020091       mov sp, x19
+|           0x1003a0764      88064039       ldrb w8, [x20, 1]          ; self
+|           0x1003a0768      a84310b8       stur w8, [var_fch]
+|           0x1003a076c      950a40f9       ldr x21, [x20, 0x10]       ; error
+|           0x1003a0770      a6ffff97       bl sym.func.1003a0608
+|           0x1003a0774      a183316d       stp d1, d0, [var_e8h]
+|       ,=< 0x1003a0778      f50000b4       cbz x21, 0x1003a0794
+|       |   0x1003a077c      801640fd       ldr d0, [x20, 0x28]        ; self
+|       |   0x1003a0780      812240fd       ldr d1, [x20, 0x40]        ; self
+|       |   0x1003a0784      0038611e       fsub d0, d0, d1
+|       |   0x1003a0788      01106c1e       fmov d1, 0.50000000
+|       |   0x1003a078c      0c08611e       fmul d12, d0, d1
+|      ,==< 0x1003a0790      02000014       b 0x1003a0798
+|      ||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0778(x)
+|      |`-> 0x1003a0794      0ce4006f       movi v12.2d, 0000000000000000
+|      |    ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0790(x)
+|      `--> 0x1003a0798      88824139       ldrb w8, [x20, 0x60]       ; self
+|           0x1003a079c      1f050071       cmp w8, 1
+|           0x1003a07a0      a84300d1       sub x8, x29, 0x10
+|           0x1003a07a4      130110f8       stur x19, [x8, -0x100]
+|           0x1003a07a8      b50311f8       stur x21, [var_f0h]
+|       ,=< 0x1003a07ac      01010054       b.ne 0x1003a07cc
+|       |   0x1003a07b0      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|       |   0x1003a07b4      08f546f9       ldr x8, [x8, 0xde8]
+|       |   0x1003a07b8      1f0500b1       cmn x8, 1
+|      ,==< 0x1003a07bc      21310054       b.ne 0x1003a0de0
+|      ||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0df4(x)
+|     .---> 0x1003a07c0      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :||   0x1003a07c4      08c13791       add x8, x8, 0xdf0
+|    ,====< 0x1003a07c8      02000014       b 0x1003a07d0
+|    |:||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a07ac(x)
+|    |:|`-> 0x1003a07cc      88620191       add x8, x20, 0x58          ; self
+|    |:|    ; CODE XREF from sym.func.1003a06f8 @ 0x1003a07c8(x)
+|    `----> 0x1003a07d0      080140f9       ldr x8, [x8]
+|     :|    0x1003a07d4      a88310f8       stur x8, [var_f8h]
+|     :|    0x1003a07d8      9b024039       ldrb w27, [x20]            ; self
+|     :|    0x1003a07dc      980640f9       ldr x24, [x20, 8]          ; self
+|     :|    0x1003a07e0      b80316f8       stur x24, [var_a0h]
+|     :|    0x1003a07e4      8aae416d       ldp d10, d11, [x20, 0x18]  ; self
+|     :|    0x1003a07e8      89a2426d       ldp d9, d8, [x20, 0x28]    ; self
+|     :|    0x1003a07ec      931e40f9       ldr x19, [x20, 0x38]       ; self
+|     :|    0x1003a07f0      8f3a446d       ldp d15, d14, [x20, 0x40]  ; self
+|     :|    0x1003a07f4      8d2a40fd       ldr d13, [x20, 0x50]       ; self
+|     :|    0x1003a07f8      883640f9       ldr x8, [x20, 0x68]        ; self
+|     :|    0x1003a07fc      a92300d1       sub x9, x29, 8
+|     :|    0x1003a0800      280110f8       stur x8, [x9, -0x100]
+|     :|    0x1003a0804      88c24139       ldrb w8, [x20, 0x70]       ; self
+|     :|    0x1003a0808      a80310b8       stur w8, [var_100h]
+|     :|    0x1003a080c      d2110094       bl sym.func.1003a4f54
+|     :|    0x1003a0810      f40300aa       mov x20, x0
+|     :|    0x1003a0814      8eb30294       bl sym.imp.objc_allocWithZone ; void *objc_allocWithZone(void *arg0)
+|     :|    0x1003a0818      f60300aa       mov x22, x0
+|     :|    0x1003a081c      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a0820      174145f9       ldr x23, [x8, 0xa80]       ; [0x1005dba80:8]=8
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.isPlaying
+|     :|    0x1003a0824      1f683738       strb wzr, [x0, x23]
+|     :|    0x1003a0828      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a082c      1a4545f9       ldr x26, [x8, 0xa88]       ; [0x1005dba88:8]=9 ; "\t"
+|     :|    0x1003a0830      1f683a38       strb wzr, [x0, x26]
+|     :|    0x1003a0834      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a0838      157d45f9       ldr x21, [x8, 0xaf8]       ; [0x1005dbaf8:8]=160
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.artwork
+|     :|    0x1003a083c      1f6835f8       str xzr, [x0, x21]
+|     :|    0x1003a0840      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a0844      1c8145f9       ldr x28, [x8, 0xb00]       ; [0x1005dbb00:8]=168
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.barsContainerLayer
+|     :|    0x1003a0848      991000f0       adrp x25, reloc.EKEventStore ; 0x1005b3000
+|     :|    0x1003a084c      20f740f9       ldr x0, [x25, 0x1e8]       ; [0x1005b31e8:8]=0
+|     :|                                                               ; reloc.CALayer ; void *arg0
+|     :|    0x1003a0850      7fb30294       bl sym.imp.objc_allocWithZone ; void *objc_allocWithZone(void *arg0)
+|     :|    0x1003a0854      bbbb0294       bl fcn.10044f740
+|     :|    0x1003a0858      c06a3cf8       str x0, [x22, x28]
+|     :|    0x1003a085c      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a0860      088545f9       ldr x8, [x8, 0xb08]        ; [0x1005dbb08:8]=176
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.artworkCutoutLayer
+|     :|    0x1003a0864      df6a28f8       str xzr, [x22, x8]
+|     :|    0x1003a0868      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a086c      088945f9       ldr x8, [x8, 0xb10]        ; [0x1005dbb10:8]=184
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.amplitudes
+|     :|    0x1003a0870      a91000d0       adrp x9, reloc.Int64...VMn ; 0x1005b6000
+|     :|    0x1003a0874      291541f9       ldr x9, [x9, 0x228]        ; [0x1005b6228:8]=0
+|     :|                                                               ; reloc._swiftEmptyArrayStorage
+|     :|    0x1003a0878      c96a28f8       str x9, [x22, x8]
+|     :|    0x1003a087c      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a0880      088d45f9       ldr x8, [x8, 0xb18]        ; [0x1005dbb18:8]=192
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.maskAmplitudes
+|     :|    0x1003a0884      c96a28f8       str x9, [x22, x8]
+|     :|    0x1003a0888      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a088c      089145f9       ldr x8, [x8, 0xb20]        ; [0x1005dbb20:8]=200
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.isRegisteredWithAnimationClock
+|     :|    0x1003a0890      df6a2838       strb wzr, [x22, x8]
+|     :|    0x1003a0894      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a0898      089545f9       ldr x8, [x8, 0xb28]        ; [0x1005dbb28:8]=208
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.liveSpectrumBandCount
+|     :|    0x1003a089c      c802088b       add x8, x22, x8
+|     :|    0x1003a08a0      1f0100f9       str xzr, [x8]
+|     :|    0x1003a08a4      2a008052       mov w10, 1
+|     :|    0x1003a08a8      0a210039       strb w10, [x8, 8]
+|     :|    0x1003a08ac      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a08b0      089945f9       ldr x8, [x8, 0xb30]        ; [0x1005dbb30:8]=224
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.liveLevels
+|     :|    0x1003a08b4      c96a28f8       str x9, [x22, x8]
+|     :|    0x1003a08b8      dc1100f0       adrp x28, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a08bc      889f45f9       ldr x8, [x28, 0xb38]       ; [0x1005dbb38:8]=232
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.isAnimationSourceUpdateScheduled
+|     :|    0x1003a08c0      df6a2838       strb wzr, [x22, x8]
+|     :|    0x1003a08c4      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a08c8      08a145f9       ldr x8, [x8, 0xb40]        ; [0x1005dbb40:8]=240
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.lastSimulatedAnimationTick
+|     :|    0x1003a08cc      c802088b       add x8, x22, x8
+|     :|    0x1003a08d0      1f0100f9       str xzr, [x8]
+|     :|    0x1003a08d4      0a210039       strb w10, [x8, 8]
+|     :|    0x1003a08d8      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a08dc      08a545f9       ldr x8, [x8, 0xb48]        ; [0x1005dbb48:8]=256
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.lastLiveTargetSizes
+|     :|    0x1003a08e0      c96a28f8       str x9, [x22, x8]
+|     :|    0x1003a08e4      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a08e8      08a945f9       ldr x8, [x8, 0xb50]        ; [0x1005dbb50:8]=264
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.animationSource
+|     :|    0x1003a08ec      df6a2838       strb wzr, [x22, x8]
+|     :|    0x1003a08f0      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a08f4      08ad45f9       ldr x8, [x8, 0xb58]        ; [0x1005dbb58:8]=265 ; "\t\x01"
+|     :|    0x1003a08f8      df6a2838       strb wzr, [x22, x8]
+|     :|    0x1003a08fc      db6a3738       strb w27, [x22, x23]
+|     :|    0x1003a0900      a84350b8       ldur w8, [var_fch]
+|     :|    0x1003a0904      08010012       and w8, w8, 1
+|     :|    0x1003a0908      c86a3a38       strb w8, [x22, x26]
+|     :|    0x1003a090c      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a0910      087545f9       ldr x8, [x8, 0xae8]        ; [0x1005dbae8:8]=144
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.color
+|     :|    0x1003a0914      d86a28f8       str x24, [x22, x8]
+|     :|    0x1003a0918      d86a75f8       ldr x24, [x22, x21]
+|     :|    0x1003a091c      a80351f8       ldur x8, [var_f0h]
+|     :|    0x1003a0920      c86a35f8       str x8, [x22, x21]
+|     :|    0x1003a0924      f50308aa       mov x21, x8
+|     :|    0x1003a0928      a08302d1       sub x0, x29, 0xa0          ; int64_t arg1
+|     :|    0x1003a092c      a1a302d1       sub x1, x29, 0xa8          ; int64_t arg2
+|     :|    0x1003a0930      3757f497       bl sym.func.1000b660c
+|     :|    0x1003a0934      e00315aa       mov x0, x21                ; void *instance
+|     :|    0x1003a0938      5db30294       bl sym.imp.objc_retain     ; void objc_retain(void *instance)
+|     :|    0x1003a093c      f70300aa       mov x23, x0
+|     :|    0x1003a0940      e00318aa       mov x0, x24                ; void *instance
+|     :|    0x1003a0944      57b30294       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|     :|    0x1003a0948      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a094c      084945f9       ldr x8, [x8, 0xa90]        ; [0x1005dba90:8]=16
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.artworkScale
+|     :|    0x1003a0950      c802088b       add x8, x22, x8
+|     :|    0x1003a0954      a087716d       ldp d0, d1, [var_e8h]
+|     :|    0x1003a0958      0101006d       stp d1, d0, [x8]
+|     :|    0x1003a095c      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a0960      084d45f9       ldr x8, [x8, 0xa98]        ; [0x1005dba98:8]=32 ; " "
+|     :|    0x1003a0964      c802088b       add x8, x22, x8
+|     :|    0x1003a0968      0c0100fd       str d12, [x8]
+|     :|    0x1003a096c      1f0500f9       str xzr, [x8, 8]
+|     :|    0x1003a0970      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a0974      085145f9       ldr x8, [x8, 0xaa0]        ; [0x1005dbaa0:8]=48 ; "0"
+|     :|    0x1003a0978      c802088b       add x8, x22, x8
+|     :|    0x1003a097c      1f7d00a9       stp xzr, xzr, [x8]
+|     :|    0x1003a0980      0a2d016d       stp d10, d11, [x8, 0x10]
+|     :|    0x1003a0984      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a0988      085545f9       ldr x8, [x8, 0xaa8]        ; [0x1005dbaa8:8]=80 ; "P"
+|     :|    0x1003a098c      c96a28fc       str d9, [x22, x8]
+|     :|    0x1003a0990      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a0994      085945f9       ldr x8, [x8, 0xab0]        ; [0x1005dbab0:8]=88 ; "X"
+|     :|    0x1003a0998      c86a28fc       str d8, [x22, x8]
+|     :|    0x1003a099c      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a09a0      085d45f9       ldr x8, [x8, 0xab8]        ; [0x1005dbab8:8]=96 ; "`"
+|     :|    0x1003a09a4      d36a28f8       str x19, [x22, x8]
+|     :|    0x1003a09a8      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a09ac      086145f9       ldr x8, [x8, 0xac0]        ; [0x1005dbac0:8]=104 ; "h"
+|     :|    0x1003a09b0      cf6a28fc       str d15, [x22, x8]
+|     :|    0x1003a09b4      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a09b8      086545f9       ldr x8, [x8, 0xac8]        ; [0x1005dbac8:8]=112 ; "p"
+|     :|    0x1003a09bc      ce6a28fc       str d14, [x22, x8]
+|     :|    0x1003a09c0      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a09c4      086945f9       ldr x8, [x8, 0xad0]        ; [0x1005dbad0:8]=120 ; "x"
+|     :|    0x1003a09c8      cd6a28fc       str d13, [x22, x8]
+|     :|    0x1003a09cc      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a09d0      086d45f9       ldr x8, [x8, 0xad8]        ; [0x1005dbad8:8]=128
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.audioSourceRevision
+|     :|    0x1003a09d4      a92300d1       sub x9, x29, 8
+|     :|    0x1003a09d8      290150f8       ldur x9, [x9, -0x100]
+|     :|    0x1003a09dc      c96a28f8       str x9, [x22, x8]
+|     :|    0x1003a09e0      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a09e4      087145f9       ldr x8, [x8, 0xae0]        ; [0x1005dbae0:8]=136
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.usesLiveSpectrum
+|     :|    0x1003a09e8      a90350b8       ldur w9, [var_100h]
+|     :|    0x1003a09ec      c96a2838       strb w9, [x22, x8]
+|     :|    0x1003a09f0      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|     :|    0x1003a09f4      087945f9       ldr x8, [x8, 0xaf0]        ; [0x1005dbaf0:8]=152
+|     :|                                                               ; field.class.Alcove.NSWaveformView.var.seed
+|     :|    0x1003a09f8      a98350f8       ldur x9, [var_f8h]
+|     :|    0x1003a09fc      c96a28f8       str x9, [x22, x8]
+|     :|    0x1003a0a00      b6d334a9       stp x22, x20, [instance]
+|     :|    0x1003a0a04      28110090       adrp x8, 0x1005c4000
+|     :|    0x1003a0a08      01fd43f9       ldr x1, [x8, 0x7f8]        ; [0x100558610:8]=0x6874695774696e69 ; "initWithFrame:" ; char *selector
+|     :|    0x1003a0a0c      a0e302d1       sub x0, x29, 0xb8          ; void *instance
+|     :|    0x1003a0a10      00e4006f       movi v0.2d, 0000000000000000
+|     :|    0x1003a0a14      01e4006f       movi v1.2d, 0000000000000000
+|     :|    0x1003a0a18      421daa4e       mov v2.16b, v10.16b
+|     :|    0x1003a0a1c      631dab4e       mov v3.16b, v11.16b
+|     :|    0x1003a0a20      1ab30294       bl sym.imp.objc_msgSendSuper2 ; void *objc_msgSendSuper2(void *instance, char *selector)
+|     :|    0x1003a0a24      f60300aa       mov x22, x0
+|     :|    0x1003a0a28      22008052       mov w2, 1
+|     :|    0x1003a0a2c      7dc70294       bl fcn.100452820
+|     :|    0x1003a0a30      000080d2       mov x0, 0
+|     :|    0x1003a0a34      1a94fc97       bl sym.func.1002c5a9c
+|     :|    0x1003a0a38      01138052       mov w1, 0x98
+|     :|    0x1003a0a3c      e2008052       mov w2, 7
+|     :|    0x1003a0a40      4eb30294       bl sym.imp.swift_allocObject
+|     :|    0x1003a0a44      f40300aa       mov x20, x0
+|     :|    0x1003a0a48      20f740f9       ldr x0, [x25, 0x1e8]       ; [0x1005b31e8:8]=0
+|     :|                                                               ; reloc.CALayer ; void *arg0
+|     :|    0x1003a0a4c      00b30294       bl sym.imp.objc_allocWithZone ; void *objc_allocWithZone(void *arg0)
+|     :|    0x1003a0a50      3cbb0294       bl fcn.10044f740
+|     :|    0x1003a0a54      800a00f9       str x0, [x20, 0x10]
+|     :|    0x1003a0a58      20f740f9       ldr x0, [x25, 0x1e8]       ; [0x1005b31e8:8]=0
+|     :|                                                               ; reloc.CALayer ; void *arg0
+|     :|    0x1003a0a5c      fcb20294       bl sym.imp.objc_allocWithZone ; void *objc_allocWithZone(void *arg0)
+|     :|    0x1003a0a60      38bb0294       bl fcn.10044f740
+|     :|    0x1003a0a64      800e00f9       str x0, [x20, 0x18]
+|     :|    0x1003a0a68      20f740f9       ldr x0, [x25, 0x1e8]       ; [0x1005b31e8:8]=0
+|     :|                                                               ; reloc.CALayer ; void *arg0
+|     :|    0x1003a0a6c      f8b20294       bl sym.imp.objc_allocWithZone ; void *objc_allocWithZone(void *arg0)
+|     :|    0x1003a0a70      34bb0294       bl fcn.10044f740
+|     :|    0x1003a0a74      801200f9       str x0, [x20, 0x20]
+|     :|    0x1003a0a78      20f740f9       ldr x0, [x25, 0x1e8]       ; [0x1005b31e8:8]=0
+|     :|                                                               ; reloc.CALayer ; void *arg0
+|     :|    0x1003a0a7c      f4b20294       bl sym.imp.objc_allocWithZone ; void *objc_allocWithZone(void *arg0)
+|     :|    0x1003a0a80      30bb0294       bl fcn.10044f740
+|     :|    0x1003a0a84      801600f9       str x0, [x20, 0x28]
+|     :|    0x1003a0a88      20f740f9       ldr x0, [x25, 0x1e8]       ; [0x1005b31e8:8]=0
+|     :|                                                               ; reloc.CALayer ; void *arg0
+|     :|    0x1003a0a8c      f0b20294       bl sym.imp.objc_allocWithZone ; void *objc_allocWithZone(void *arg0)
+|     :|    0x1003a0a90      2cbb0294       bl fcn.10044f740
+|     :|    0x1003a0a94      801a00f9       str x0, [x20, 0x30]
+|     :|    0x1003a0a98      a81100f0       adrp x8, 0x1005d7000
+|     :|    0x1003a0a9c      08e946f9       ldr x8, [x8, 0xdd0]
+|     :|    0x1003a0aa0      1f0500b1       cmn x8, 1
+|     :|,=< 0x1003a0aa4      61180054       b.ne 0x1003a0db0
+|     :||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0dc4(x)
+|    .----> 0x1003a0aa8      a81100f0       adrp x8, 0x1005d7000
+|    ::||   0x1003a0aac      08013791       add x8, x8, 0xdc0
+|    ::||   0x1003a0ab0      000540a9       ldp x0, x1, [x8]           ; int64_t arg2
+|    ::||   0x1003a0ab4      6a94fc97       bl sym.func.1002c5c5c
+|    ::||   0x1003a0ab8      801e00f9       str x0, [x20, 0x38]
+|    ::||   0x1003a0abc      a81100f0       adrp x8, 0x1005d7000
+|    ::||   0x1003a0ac0      08ed46f9       ldr x8, [x8, 0xdd8]
+|    ::||   0x1003a0ac4      1f0500b1       cmn x8, 1
+|   ,=====< 0x1003a0ac8      01180054       b.ne 0x1003a0dc8
+|   |::||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0ddc(x)
+|  .------> 0x1003a0acc      a81100f0       adrp x8, 0x1005d7000
+|  :|::||   0x1003a0ad0      08013691       add x8, x8, 0xd80          ; 0x1005d7d80
+|  :|::||                                                              ; aav.0x1005d7d80
+|  :|::||   0x1003a0ad4      000540a9       ldp x0, x1, [x8]           ; [0x1005d7d80:4]=0
+|  :|::||                                                              ; aav.0x1005d7d80 ; int64_t arg2
+|  :|::||   0x1003a0ad8      6194fc97       bl sym.func.1002c5c5c
+|  :|::||   0x1003a0adc      9f4a00f9       str xzr, [x20, 0x90]
+|  :|::||   0x1003a0ae0      9ffe04a9       stp xzr, xzr, [x20, 0x48]
+|  :|::||   0x1003a0ae4      802200f9       str x0, [x20, 0x40]
+|  :|::||   0x1003a0ae8      8aae056d       stp d10, d11, [x20, 0x58]
+|  :|::||   0x1003a0aec      a087716d       ldp d0, d1, [var_e8h]
+|  :|::||   0x1003a0af0      8182066d       stp d1, d0, [x20, 0x68]
+|  :|::||   0x1003a0af4      8c3e00fd       str d12, [x20, 0x78]
+|  :|::||   0x1003a0af8      9f4200f9       str xzr, [x20, 0x80]
+|  :|::||   0x1003a0afc      28008052       mov w8, 1
+|  :|::||   0x1003a0b00      88220239       strb w8, [x20, 0x88]
+|  :|::||   0x1003a0b04      f191fc97       bl sym.func.1002c52c8
+|  :|::||   0x1003a0b08      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|  :|::||   0x1003a0b0c      138545f9       ldr x19, [x8, 0xb08]       ; [0x1005dbb08:8]=176
+|  :|::||                                                              ; field.class.Alcove.NSWaveformView.var.artworkCutoutLayer
+|  :|::||   0x1003a0b10      c06a73f8       ldr x0, [x22, x19]         ; void *arg0
+|  :|::||   0x1003a0b14      d46a33f8       str x20, [x22, x19]
+|  :|::||   0x1003a0b18      eab30294       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|  :|::||   0x1003a0b1c      e00316aa       mov x0, x22
+|  :|::||   0x1003a0b20      58bd0294       bl fcn.100450080
+|  :|::||   0x1003a0b24      fd031daa       mov x29, x29
+|  :|::||   0x1003a0b28      e7b20294       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+| ,=======< 0x1003a0b2c      c00200b4       cbz x0, 0x1003a0b84
+| |:|::||   0x1003a0b30      f80300aa       mov x24, x0
+| |:|::||   0x1003a0b34      02008052       mov w2, 0
+| |:|::||   0x1003a0b38      d2c40294       bl fcn.100451e80
+| |:|::||   0x1003a0b3c      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+| |:|::||   0x1003a0b40      148145f9       ldr x20, [x8, 0xb00]       ; [0x1005dbb00:8]=168
+| |:|::||                                                              ; field.class.Alcove.NSWaveformView.var.barsContainerLayer
+| |:|::||   0x1003a0b44      c06a74f8       ldr x0, [x22, x20]
+| |:|::||   0x1003a0b48      02008052       mov w2, 0
+| |:|::||   0x1003a0b4c      cdc40294       bl fcn.100451e80
+| |:|::||   0x1003a0b50      c86a73f8       ldr x8, [x22, x19]
+| ========< 0x1003a0b54      481500b4       cbz x8, 0x1003a0dfc
+| |:|::||   0x1003a0b58      020940f9       ldr x2, [x8, 0x10]
+| |:|::||   0x1003a0b5c      e00318aa       mov x0, x24
+| |:|::||   0x1003a0b60      50b50294       bl fcn.10044e0a0
+| |:|::||   0x1003a0b64      c26a74f8       ldr x2, [x22, x20]
+| |:|::||   0x1003a0b68      e00318aa       mov x0, x24
+| |:|::||   0x1003a0b6c      4db50294       bl fcn.10044e0a0
+| |:|::||   0x1003a0b70      f40316aa       mov x20, x22
+| |:|::||   0x1003a0b74      350d0094       bl sym.func.1003a4048
+| |:|::||   0x1003a0b78      c20c0094       bl sym.func.1003a3e80
+| |:|::||   0x1003a0b7c      e00318aa       mov x0, x24                ; void *instance
+| |:|::||   0x1003a0b80      c8b20294       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| |:|::||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0b2c(x)
+| `-------> 0x1003a0b84      f40316aa       mov x20, x22
+|  :|::||   0x1003a0b88      0e060094       bl sym.func.1003a23c0
+|  :|::||   0x1003a0b8c      e9060094       bl sym.func.1003a2730
+|  :|::||   0x1003a0b90      c81100f0       adrp x8, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+|  :|::||   0x1003a0b94      087d45f9       ldr x8, [x8, 0xaf8]        ; [0x1005dbaf8:8]=160
+|  :|::||                                                              ; field.class.Alcove.NSWaveformView.var.artwork
+|  :|::||   0x1003a0b98      d46a68f8       ldr x20, [x22, x8]
+|  :|::||   0x1003a0b9c      d56a28f8       str x21, [x22, x8]
+|  :|::||   0x1003a0ba0      e00317aa       mov x0, x23                ; void *instance
+|  :|::||   0x1003a0ba4      c2b20294       bl sym.imp.objc_retain     ; void objc_retain(void *instance)
+|  :|::||   0x1003a0ba8      e00314aa       mov x0, x20                ; void *instance
+|  :|::||   0x1003a0bac      bdb20294       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|  :|::||   0x1003a0bb0      d46a73f8       ldr x20, [x22, x19]
+| ,=======< 0x1003a0bb4      341200b4       cbz x20, 0x1003a0df8
+| |:|::||   0x1003a0bb8      e00314aa       mov x0, x20
+| |:|::||   0x1003a0bbc      c7b30294       bl sym.imp.swift_retain
+| |:|::||   0x1003a0bc0      e00315aa       mov x0, x21                ; int64_t arg1
+| |:|::||   0x1003a0bc4      01008052       mov w1, 0                  ; int64_t arg2
+| |:|::||   0x1003a0bc8      cc90fc97       bl sym.func.1002c4ef8
+| |:|::||   0x1003a0bcc      e00314aa       mov x0, x20                ; void *arg0
+| |:|::||   0x1003a0bd0      bcb30294       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+| |:|::||   0x1003a0bd4      f40316aa       mov x20, x22
+| |:|::||   0x1003a0bd8      aa0c0094       bl sym.func.1003a3e80
+| |:|::||   0x1003a0bdc      889f45f9       ldr x8, [x28, 0xb38]       ; [0x1005dbb38:8]=232
+| |:|::||                                                              ; field.class.Alcove.NSWaveformView.var.isAnimationSourceUpdateScheduled
+| |:|::||   0x1003a0be0      c96a6838       ldrb w9, [x22, x8]
+| ========< 0x1003a0be4      c90c0037       tbnz w9, 0, 0x1003a0d7c
+| |:|::||   0x1003a0be8      29008052       mov w9, 1
+| |:|::||   0x1003a0bec      c96a2838       strb w9, [x22, x8]
+| |:|::||   0x1003a0bf0      000080d2       mov x0, 0
+| |:|::||   0x1003a0bf4      2cad0294       bl sym.imp....ScPMa
+| |:|::||   0x1003a0bf8      f70300aa       mov x23, x0
+| |:|::||   0x1003a0bfc      13805ff8       ldur x19, [x0, -8]
+| |:|::||   0x1003a0c00      681e40f9       ldr x8, [x19, 0x38]
+| |:|::||   0x1003a0c04      a94300d1       sub x9, x29, 0x10
+| |:|::||   0x1003a0c08      3a0150f8       ldur x26, [x9, -0x100]
+| |:|::||   0x1003a0c0c      e0031aaa       mov x0, x26
+| |:|::||   0x1003a0c10      21008052       mov w1, 1
+| |:|::||   0x1003a0c14      22008052       mov w2, 1
+| |:|::||   0x1003a0c18      e30317aa       mov x3, x23
+| |:|::||   0x1003a0c1c      00013fd6       blr x8
+| |:|::||   0x1003a0c20      401000b0       adrp x0, aav.0x1005a9000
+| |:|::||   0x1003a0c24      00202b91       add x0, x0, 0xac8          ; 0x1005a9ac8
+| |:|::||                                                              ; aav.0x1005a9ac8
+| |:|::||   0x1003a0c28      01038052       mov w1, 0x18
+| |:|::||   0x1003a0c2c      e2008052       mov w2, 7
+| |:|::||   0x1003a0c30      d2b20294       bl sym.imp.swift_allocObject
+| |:|::||   0x1003a0c34      f90300aa       mov x25, x0
+| |:|::||   0x1003a0c38      00400091       add x0, x0, 0x10
+| |:|::||   0x1003a0c3c      e10316aa       mov x1, x22
+| |:|::||   0x1003a0c40      f1b30294       bl sym.imp.swift_unknownObjectWeakInit
+| |:|::||   0x1003a0c44      000080d2       mov x0, 0
+| |:|::||   0x1003a0c48      0bad0294       bl sym.imp....ScMMa
+| |:|::||   0x1003a0c4c      f40300aa       mov x20, x0
+| |:|::||   0x1003a0c50      e00319aa       mov x0, x25
+| |:|::||   0x1003a0c54      a1b30294       bl sym.imp.swift_retain
+| |:|::||   0x1003a0c58      04ad0294       bl sym.imp.shared_...cMvgZ_ ; shared(...cMvgZ)
+| |:|::||   0x1003a0c5c      f80300aa       mov x24, x0
+| |:|::||   0x1003a0c60      401000b0       adrp x0, aav.0x1005a9000
+| |:|::||   0x1003a0c64      00e03391       add x0, x0, 0xcf8
+| |:|::||   0x1003a0c68      01058052       mov w1, 0x28               ; '('
+| |:|::||   0x1003a0c6c      e2008052       mov w2, 7
+| |:|::||   0x1003a0c70      c2b20294       bl sym.imp.swift_allocObject
+| |:|::||   0x1003a0c74      f50300aa       mov x21, x0
+| |:|::||   0x1003a0c78      a81000d0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+| |:|::||   0x1003a0c7c      08d143f9       ldr x8, [x8, 0x7a0]        ; [0x1005b67a0:8]=0
+| |:|::||                                                              ; reloc....ScMScAsWP
+| |:|::||   0x1003a0c80      182001a9       stp x24, x8, [x0, 0x10]
+| |:|::||   0x1003a0c84      191000f9       str x25, [x0, 0x20]
+| |:|::||   0x1003a0c88      e00319aa       mov x0, x25                ; void *arg0
+| |:|::||   0x1003a0c8c      8db30294       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+| |:|::||   0x1003a0c90      681a40f9       ldr x8, [x19, 0x30]
+| |:|::||   0x1003a0c94      e0031aaa       mov x0, x26
+| |:|::||   0x1003a0c98      21008052       mov w1, 1
+| |:|::||   0x1003a0c9c      e20317aa       mov x2, x23
+| |:|::||   0x1003a0ca0      00013fd6       blr x8
+| |:|::||   0x1003a0ca4      1f040071       cmp w0, 1
+| ========< 0x1003a0ca8      41020054       b.ne 0x1003a0cf0
+| |:|::||   0x1003a0cac      17808352       mov w23, 0x1c00
+| ========< 0x1003a0cb0      b80200b4       cbz x24, 0x1003a0d04
+| |:|::||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0d00(x)
+| --------> 0x1003a0cb4      e00318aa       mov x0, x24
+| |:|::||   0x1003a0cb8      37b30294       bl sym.imp.swift_getObjectType
+| |:|::||   0x1003a0cbc      f90300aa       mov x25, x0
+| |:|::||   0x1003a0cc0      e00318aa       mov x0, x24
+| |:|::||   0x1003a0cc4      c7b30294       bl sym.imp.swift_unknownObjectRetain
+| |:|::||   0x1003a0cc8      a11000d0       adrp x1, reloc.Int64...VMn ; 0x1005b6000
+| |:|::||   0x1003a0ccc      21d043f9       ldr x1, [x1, 0x7a0]        ; [0x1005b67a0:8]=0
+| |:|::||                                                              ; reloc....ScMScAsWP
+| |:|::||   0x1003a0cd0      f40318aa       mov x20, x24
+| |:|::||   0x1003a0cd4      e00319aa       mov x0, x25
+| |:|::||   0x1003a0cd8      d2ac0294       bl sym.imp.unownedExecutor_...cevgTj_ ; unownedExecutor(...cevgTj)
+| |:|::||   0x1003a0cdc      f40300aa       mov x20, x0
+| |:|::||   0x1003a0ce0      f90301aa       mov x25, x1
+| |:|::||   0x1003a0ce4      e00318aa       mov x0, x24
+| |:|::||   0x1003a0ce8      b8b30294       bl sym.imp.swift_unknownObjectRelease
+| ========< 0x1003a0cec      08000014       b 0x1003a0d0c
+| |:|::||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0ca8(x)
+| --------> 0x1003a0cf0      f4031aaa       mov x20, x26
+| |:|::||   0x1003a0cf4      e9ac0294       bl sym.imp.rawValue.UInt8.setter...Vvg
+| |:|::||   0x1003a0cf8      17808352       mov w23, 0x1c00
+| |:|::||   0x1003a0cfc      171c40b3       bfxil x23, x0, 0, 8
+| ========< 0x1003a0d00      b8fdffb5       cbnz x24, 0x1003a0cb4
+| |:|::||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0cb0(x)
+| --------> 0x1003a0d04      140080d2       mov x20, 0
+| |:|::||   0x1003a0d08      190080d2       mov x25, 0
+| |:|::||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0cec(x)
+| --------> 0x1003a0d0c      401000b0       adrp x0, aav.0x1005a9000
+| |:|::||   0x1003a0d10      00803491       add x0, x0, 0xd20
+| |:|::||   0x1003a0d14      01048052       mov w1, 0x20
+| |:|::||   0x1003a0d18      e2008052       mov w2, 7
+| |:|::||   0x1003a0d1c      97b20294       bl sym.imp.swift_allocObject
+| |:|::||   0x1003a0d20      e40300aa       mov x4, x0
+| |:|::||   0x1003a0d24      a80600b0       adrp x8, 0x100475000
+| |:|::||   0x1003a0d28      08410691       add x8, x8, 0x190
+| |:|::||   0x1003a0d2c      085401a9       stp x8, x21, [x0, 0x10]
+| |:|::||   0x1003a0d30      280314aa       orr x8, x25, x20
+| ========< 0x1003a0d34      a80000b4       cbz x8, 0x1003a0d48
+| |:|::||   0x1003a0d38      bfff32a9       stp xzr, xzr, [var_d8h]
+| |:|::||   0x1003a0d3c      a16303d1       sub x1, x29, 0xd8
+| |:|::||   0x1003a0d40      b4e733a9       stp x20, x25, [var_c8h]
+| ========< 0x1003a0d44      02000014       b 0x1003a0d4c
+| |:|::||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0d34(x)
+| --------> 0x1003a0d48      010080d2       mov x1, 0
+| |:|::||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0d44(x)
+| --------> 0x1003a0d4c      a81000d0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+| |:|::||   0x1003a0d50      080d41f9       ldr x8, [x8, 0x218]        ; [0x1005b6218:8]=0
+| |:|::||                                                              ; reloc....ytN
+| |:|::||   0x1003a0d54      a30600b0       adrp x3, 0x100475000
+| |:|::||   0x1003a0d58      63600691       add x3, x3, 0x198
+| |:|::||   0x1003a0d5c      02210091       add x2, x8, 8
+| |:|::||   0x1003a0d60      e00317aa       mov x0, x23
+| |:|::||   0x1003a0d64      78b30294       bl sym.imp.swift_task_create
+| |:|::||   0x1003a0d68      f40300aa       mov x20, x0
+| |:|::||   0x1003a0d6c      e0031aaa       mov x0, x26                ; int64_t arg1
+| |:|::||   0x1003a0d70      b24cf397       bl sym.func.100074038
+| |:|::||   0x1003a0d74      e00314aa       mov x0, x20                ; void *arg0
+| |:|::||   0x1003a0d78      52b30294       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+| |:|::||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0be4(x)
+| --------> 0x1003a0d7c      e00316aa       mov x0, x22
+| |:|::||   0x1003a0d80      bf4302d1       sub sp, x29, 0x90
+| |:|::||   0x1003a0d84      fd7b49a9       ldp x29, x30, [var_10h]
+| |:|::||   0x1003a0d88      f44f48a9       ldp x20, x19, [var_80h]
+| |:|::||   0x1003a0d8c      f65747a9       ldp x22, x21, [var_70h]
+| |:|::||   0x1003a0d90      f85f46a9       ldp x24, x23, [var_60h]
+| |:|::||   0x1003a0d94      fa6745a9       ldp x26, x25, [var_50h]
+| |:|::||   0x1003a0d98      fc6f44a9       ldp x28, x27, [var_40h]
+| |:|::||   0x1003a0d9c      e923436d       ldp d9, d8, [var_30h]
+| |:|::||   0x1003a0da0      eb2b426d       ldp d11, d10, [var_20h]
+| |:|::||   0x1003a0da4      ed33416d       ldp d13, d12, [var_10h]
+| |:|::||   0x1003a0da8      ef3bca6c       ldp d15, d14, [sp], 0xa0
+| |:|::||   0x1003a0dac      c0035fd6       ret
+| |:|::||   ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0aa4(x)
+| |:|::|`-> 0x1003a0db0      a01100f0       adrp x0, 0x1005d7000
+| |:|::|    0x1003a0db4      00403791       add x0, x0, 0xdd0
+| |:|::|    0x1003a0db8      21f9ff90       adrp x1, 0x1002c4000
+| |:|::|    0x1003a0dbc      21a02191       add x1, x1, 0x868
+| |:|::|    0x1003a0dc0      3db30294       bl sym.imp.swift_once
+| |:|`====< 0x1003a0dc4      39ffff17       b 0x1003a0aa8
+| |:| :|    ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0ac8(x)
+| |:`-----> 0x1003a0dc8      a01100f0       adrp x0, 0x1005d7000
+| |:  :|    0x1003a0dcc      00603791       add x0, x0, 0xdd8
+| |:  :|    0x1003a0dd0      21f9ff90       adrp x1, 0x1002c4000
+| |:  :|    0x1003a0dd4      21402491       add x1, x1, 0x910
+| |:  :|    0x1003a0dd8      37b30294       bl sym.imp.swift_once
+| |`======< 0x1003a0ddc      3cffff17       b 0x1003a0acc
+| |   :|    ; CODE XREF from sym.func.1003a06f8 @ 0x1003a07bc(x)
+| |   :`--> 0x1003a0de0      c01100f0       adrp x0, field.class.Alcove.MediaManager.var._hasPlaybackSpeed ; 0x1005db000
+| |   :     0x1003a0de4      00a03791       add x0, x0, 0xde8
+| |   :     0x1003a0de8      01000090       adrp x1, 0x1003a0000
+| |   :     0x1003a0dec      21501791       add x1, x1, 0x5d4
+| |   :     0x1003a0df0      31b30294       bl sym.imp.swift_once
+| |   `===< 0x1003a0df4      73feff17       b 0x1003a07c0
+| |         ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0bb4(x)
+| `-------> 0x1003a0df8      200020d4       brk 1
+|           ; CODE XREF from sym.func.1003a06f8 @ 0x1003a0b54(x)
+\ --------> 0x1003a0dfc      200020d4       brk 1

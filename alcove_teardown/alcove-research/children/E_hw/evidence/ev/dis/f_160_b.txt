@@ -1,0 +1,44 @@
+|           0x100238e28      cb4d0894       bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+|       |   0x100238e40      e0500894       bl sym.imp.CGRectGetWidth
+|       |   0x100238e4c      c54d0894       bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+|      ||   0x100238e64      d7500894       bl sym.imp.CGRectGetWidth
+|      ||   0x100238e80      d0500894       bl sym.imp.CGRectGetWidth
+|     |||   0x100238e9c      ae4d0894       bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+|    ||||   0x100238eb8      aa4d0894       bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+|   |||||   0x100238ee8      c2500894       bl sym.imp.CGRectIsEmpty
+|  ||||||   0x100238ef8      be500894       bl sym.imp.CGRectIsEmpty
+| |         0x100238f08      9f500894       bl sym.imp.CGRectGetMaxY
+| |         0x100238f18      9b500894       bl sym.imp.CGRectGetMaxY
+| |    ||   0x100238f30      95500894       bl sym.imp.CGRectGetMaxY
+| |    ||   0x100238f40      91500894       bl sym.imp.CGRectGetMaxY
+| |    ||   0x100238f48      01107e1e       fmov d1, -1.00000000
+| |  |||    0x100238f60      89500894       bl sym.imp.CGRectGetMaxY
+| |  |||    0x100238f70      85500894       bl sym.imp.CGRectGetMaxY
+| |  |||    0x100238f78      01d0721e       fmov d1, -5.50000000
+| |  |||    0x100238f84      a80ce8f2       movk x8, 0x4065, lsl 48    ; 'e@'
+| |  |||    0x100238f88      0301679e       fmov d3, x8
+| |  |||    0x100238f90      880ee8f2       movk x8, 0x4074, lsl 48    ; 't@'
+| |  |||    0x100238f94      0201679e       fmov d2, x8
+| |  ||`--> 0x100238f9c      0110671e       fmov d1, 24.00000000
+| |  |  |   0x100238fa4      a80ce8f2       movk x8, 0x4065, lsl 48    ; 'e@'
+| |  |  |   0x100238fa8      0301679e       fmov d3, x8
+| |  |  |   0x100238fb0      a80ee8f2       movk x8, 0x4075, lsl 48    ; 'u@'
+| |  |  |   0x100238fb4      0201679e       fmov d2, x8
+| |  |  |   0x100238fbc      280ce8f2       movk x8, 0x4061, lsl 48    ; 'a@'
+| |    ||   0x100238fc8      a80ce8f2       movk x8, 0x4065, lsl 48    ; 'e@'
+| |    ||   0x100238fcc      0301679e       fmov d3, x8
+| |    ||   0x100238fd4      880ee8f2       movk x8, 0x4074, lsl 48    ; 't@'
+| |    ||   0x100238fd8      0201679e       fmov d2, x8
+| |    ||   0x100238fe0      6806e8f2       movk x8, 0x4033, lsl 48    ; '3@'
+| |    ||   0x100238fe4      0101679e       fmov d1, x8
+| |    |    0x100238fec      480ae8f2       movk x8, 0x4052, lsl 48    ; 'R@'
+| |    `--> 0x100238ff0      0001679e       fmov d0, x8
+|      ::   0x100239020      880ce8d2       mov x8, 0x4064000000000000
+|      ::   0x100239024      0101679e       fmov d1, x8
+|      ::   0x100239030      a80ee8f2       movk x8, 0x4075, lsl 48    ; 'u@'
+|      ::   0x100239034      0201679e       fmov d2, x8
+|      ::   0x100239044      280ce8f2       movk x8, 0x4061, lsl 48    ; 'a@'
+|      ::   0x100239048      0301679e       fmov d3, x8
+|      ::   0x100239058      a80ce8f2       movk x8, 0x4065, lsl 48    ; 'e@'
+|      ::   0x10023905c      0401679e       fmov d4, x8
+|       :   0x100239068      0301679e       fmov d3, x8

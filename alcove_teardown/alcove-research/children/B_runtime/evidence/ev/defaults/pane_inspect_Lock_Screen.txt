@@ -1,0 +1,108 @@
+macos accessibility snapshot v1 (line format: @ref role "name" = "value" #id [states] {actions}; indent = hierarchy)
+target: pid:2607  epoch: 22  app: Alcove  pid: 2607  provenance: axuielement  nodes: 175/175  truncated: false
+@m9259 application "Alcove"
+ @m9260 window
+  @m9261 group
+   @m9262 button
+   @m9263 button
+ @m9264 window
+  @m9265 group
+ @m9266 window "Lock Screen" [focused=true]
+  @m9267 group
+   @m9268 image "Lock" #lock.fill
+   @m9269 statictext = "Lock Screen"
+   @m9270 button "General" {press}
+   @m9271 statictext = "Notifications"
+   @m9272 button "Battery" [disabled=true] {press}
+   @m9273 button "Connectivity" {press}
+   @m9274 button "Focus" {press}
+   @m9275 button "Display" {press}
+   @m9276 button "Sound" {press}
+   @m9277 statictext = "Live Activities"
+   @m9278 button "Now Playing" {press}
+   @m9279 button "11, Calendar" {press}
+   @m9280 button "File Tray, Soon" [disabled=true] {press}
+   @m9281 button "Lock Screen" {press}
+   @m9282 statictext = "Alcove"
+   @m9283 button "License, Trial" [selected=true] {press}
+   @m9284 button "About" {press}
+   @m9285 scrollarea {scroll}
+    @m9286 image "Lock" #lock.fill
+    @m9287 statictext = "Lock Screen"
+    @m9288 checkbox [checked=true] {press}
+    @m9289 statictext = "Keep awake"
+    @m9290 button "0" {press}
+    @m9291 statictext = "m"
+    @m9292 slider = "0" {increment,decrement}
+     @m9293 valueindicator = "0"
+    @m9294 statictext = "Show on screen saver"
+    @m9295 checkbox [checked=false] {press}
+    @m9296 statictext = "Play sound on lock"
+    @m9297 button "Play" #play.circle.fill
+    @m9298 checkbox [checked=false] {press}
+    @m9299 statictext = "Play sound on unlock"
+    @m9300 button "Play" #play.circle.fill
+    @m9301 checkbox [checked=true] {press}
+    @m9302 statictext = "Widgets"
+    @m9303 button
+    @m9304 image "Flash" #bolt.fill
+    @m9305 statictext = "Battery"
+    @m9306 checkbox [checked=true] {press}
+    @m9307 image "Audiobook" #headphones
+    @m9308 statictext = "Connectivity"
+    @m9309 checkbox [checked=true] {press}
+    @m9310 image "Do Not Disturb" #moon.fill
+    @m9311 statictext = "Focus"
+    @m9312 checkbox [checked=true] {press}
+    @m9313 statictext = "11"
+    @m9314 statictext = "Calendar"
+    @m9315 checkbox [checked=false] {press}
+    @m9316 image "Play" #play.fill
+    @m9317 statictext = "Now Playing"
+    @m9318 checkbox [checked=true] {press}
+    @m9319 button {press}
+    @m9320 button {press}
+    @m9321 button {press}
+    @m9322 statictext = "Glass"
+    @m9323 statictext = "Clear"
+    @m9324 statictext = "Frosted"
+    @m9325 statictext = "Idle duration"
+    @m9326 button "10" {press}
+    @m9327 statictext = "m"
+    @m9328 slider = "10" {increment,decrement}
+     @m9329 valueindicator = "10"
+    @m9330 statictext = "Show volume control"
+    @m9331 checkbox [checked=false] {press}
+    @m9332 statictext = "Offset tuning"
+    @m9333 button "0" {press}
+    @m9334 statictext = "px"
+    @m9335 slider = "0" {increment,decrement}
+     @m9336 valueindicator = "0"
+    @m9337 image "Mostly Cloudy" #cloud.fill
+    @m9338 statictext = "Weather"
+    @m9339 button "lock"
+    @m9340 checkbox [checked=false,disabled=true] {press}
+    @m9341 statictext = "Allowed Notifications"
+    @m9342 image "Flash" #bolt.fill
+    @m9343 statictext = "Battery"
+    @m9344 checkbox [checked=true] {press}
+    @m9345 image "Audiobook" #headphones
+    @m9346 statictext = "Connectivity"
+    @m9347 checkbox [checked=true] {press}
+    @m9348 image "Do Not Disturb" #moon.fill
+    @m9349 statictext = "Focus"
+    @m9350 checkbox [checked=true] {press}
+    @m9351 image "Brightness Higher" #sun.max.fill
+    @m9352 statictext = "Display"
+    @m9353 checkbox [checked=true] {press}
+    @m9354 image "Volume High" #speaker.wave.2.fill
+    @m9355 statictext = "Sound"
+    @m9356 checkbox [checked=true] {press}
+    @m9357 scrollbar = "0"
+  @m9358 toolbar {show_menu}
+  @m9359 button "close" {press}
+  @m9360 button "zoom" [disabled=true] {press,show_menu}
+   @m9361 group
+    @m9362 group
+  @m9363 button "minimize" [disabled=true] {press}
+note: menu bar folded: "Alcove", "Window", "Help", "Alcove" (57 menu item(s) not listed) — `query role=menuitem` or `query role=menuitem text=<command>` lists them with refs; a menu item is pressed directly, the menu need not be opened first

@@ -1,0 +1,199 @@
+[
+  {
+    "file": "adjusted_height10.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "adjusted_restored.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "adjusted_width20.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "brightness_down.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "brightness_fine.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "brightness_up.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "display_sleep.png",
+    "bbox_dark_top_center": [
+      550,
+      0,
+      1049,
+      249
+    ]
+  },
+  {
+    "file": "display_wake.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "keyboard_illum_down.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "keyboard_illum_up.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "lowpower_off.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "lowpower_on.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "mute.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "ready.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "screensaver_escape.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "screensaver_launch.png",
+    "bbox_dark_top_center": null
+  },
+  {
+    "file": "synthetic_locked.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "synthetic_lockui.png",
+    "bbox_dark_top_center": [
+      689,
+      0,
+      910,
+      28
+    ]
+  },
+  {
+    "file": "synthetic_screensaver_start.png",
+    "bbox_dark_top_center": null
+  },
+  {
+    "file": "synthetic_screensaver_stop.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "synthetic_unlocked.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "synthetic_unlockui.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  },
+  {
+    "file": "volume_up.png",
+    "bbox_dark_top_center": [
+      728,
+      0,
+      871,
+      28
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+0x1005b2318 0x005b2318         SET_64 6     NSProcessInfoPowerStateDidChangeNotification
+0x1005b2420 0x005b2420         SET_64 6     NSProcessInfo
+0x1005b26d0 0x005b26d0         SET_64 6     AVAudioPlayer
+0x1005b2b28 0x005b2b28         SET_64 6     CBCentralManager
+0x1005b3010 0x005b3010         SET_64 6     IOBluetoothDevice
+0x100453b78 0 sym.Alcove.ConnectivityManager::_protocol_CBCentralManagerDelegate.centralManagerDidUpdateState:
+0x100454f50 23 str.CBManagerAuthorization
+0x100514a6c 1 class.__C.CBManagerAuthorization
+0x100551df1 25 str.CBCentralManagerDelegate
+0x10055ed43 29 str.v24_0:8__CBCentralManager_16
+0x10055ed60 46 str.v32_0:8__CBCentralManager_16__NSDictionary_24
+0x10055ed8e 76 str.v48_0:8__CBCentralManager_16__CBPeripheral_24__NSDictionary_32__NSNumber_40
+0x10055edda 46 str.v32_0:8__CBCentralManager_16__CBPeripheral_24
+0x10055ee08 58 str.v40_0:8__CBCentralManager_16__CBPeripheral_24__NSError_32
+0x10055ee42 64 str.v52_0:8__CBCentralManager_16__CBPeripheral_24d32B40__NSError_44
+0x10055ee82 49 str.v40_0:8__CBCentralManager_16q24__CBPeripheral_32
+0x1005b2b28 8 reloc.CBCentralManager
+0x1005b3010 8 reloc.IOBluetoothDevice
+0x1005d9190 8 reloc.fixup.CBCentralManagerDelegate

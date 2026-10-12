@@ -1,0 +1,80 @@
+            ; ICOD XREF from sym.func.10003fd80 @ 0x10003fdc0(r)
+/ 288: sym.func.10003ff08 (void *instance);
+| `- args(x0) vars(5:sp[0x8..0x28])
+|           0x10003ff08      bd0344b2       orr x29, x29, 0x1000000000000000
+|           0x10003ff0c      ffc300d1       sub sp, sp, 0x30
+|           0x10003ff10      f5cf00a9       stp x21, x19, [var_8h]
+|           0x10003ff14      fd7b02a9       stp x29, x30, [var_20h]
+|           0x10003ff18      f60f00f9       str x22, [var_18h]
+|           0x10003ff1c      fd830091       add x29, sp, 0x20
+|           0x10003ff20      d40244a9       ldp x20, x0, [x22, 0x40]
+|           0x10003ff24      d35643a9       ldp x19, x21, [x22, 0x30]
+|           0x10003ff28      e6361094       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x10003ff2c      a80640f9       ldr x8, [x21, 8]
+|           0x10003ff30      e00314aa       mov x0, x20
+|           0x10003ff34      e10313aa       mov x1, x19
+|           0x10003ff38      00013fd6       blr x8
+|           0x10003ff3c      8d301094       bl sym.imp.Never.bool_...lE11isCancelledSbvgZ_ ; Never.bool(...lE11isCancelledSbvgZ)
+|       ,=< 0x10003ff40      40060037       tbnz w0, 0, 0x100040008
+|       |   0x10003ff44      d41640f9       ldr x20, [x22, 0x28]
+|       |   0x10003ff48      000080d2       mov x0, 0                  ; int64_t arg1
+|       |   0x10003ff4c      8b0d0094       bl sym.func.100043578
+|       |   0x10003ff50      082080b9       ldrsw x8, [x0, 0x20]
+|       |   0x10003ff54      8802088b       add x8, x20, x8
+|       |   0x10003ff58      144d40a9       ldp x20, x19, [x8]
+|       |   0x10003ff5c      150940f9       ldr x21, [x8, 0x10]
+|       |   0x10003ff60      5178ff97       bl sym.func.10001e0a4
+|       |   0x10003ff64      e40300aa       mov x4, x0
+|       |   0x10003ff68      a32b00d0       adrp x3, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|       |   0x10003ff6c      63fc43f9       ldr x3, [x3, 0x7f8]        ; [0x1005b57f8:8]=0
+|       |                                                              ; reloc....SbN
+|       |   0x10003ff70      c8c20191       add x8, x22, 0x70
+|       |   0x10003ff74      e00314aa       mov x0, x20                ; int64_t arg1
+|       |   0x10003ff78      e10313aa       mov x1, x19
+|       |   0x10003ff7c      e20315aa       mov x2, x21
+|       |   0x10003ff80      9df60f94       bl sym.func.10043d9f4
+|       |   0x10003ff84      c8c24139       ldrb w8, [x22, 0x70]
+|       |   0x10003ff88      1f050071       cmp w8, 1
+|      ,==< 0x10003ff8c      a1010054       b.ne 0x10003ffc0
+|      ||   0x10003ff90      882b00f0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|      ||   0x10003ff94      003944f9       ldr x0, [x8, 0x870]        ; [0x1005b2870:8]=0
+|      ||                                                              ; reloc.NSHapticFeedbackManager ; void *arg0
+|      ||   0x10003ff98      bf351094       bl sym.imp.objc_opt_self   ; void *objc_opt_self(void *arg0)
+|      ||   0x10003ff9c      d93b1094       bl fcn.10044ef00
+|      ||   0x10003ffa0      fd031daa       mov x29, x29
+|      ||   0x10003ffa4      c8351094       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|      ||   0x10003ffa8      f40300aa       mov x20, x0
+|      ||   0x10003ffac      020080d2       mov x2, 0
+|      ||   0x10003ffb0      23008052       mov w3, 1
+|      ||   0x10003ffb4      fb411094       bl fcn.1004507a0
+|      ||   0x10003ffb8      e00314aa       mov x0, x20
+|      ||   0x10003ffbc      03371094       bl sym.imp.swift_unknownObjectRelease
+|      ||   ; CODE XREF from sym.func.10003ff08 @ 0x10003ff8c(x)
+|      `--> 0x10003ffc0      d31640f9       ldr x19, [x22, 0x28]
+|       |   0x10003ffc4      e8e701b2       mov x8, -0x6666666666666667
+|       |   0x10003ffc8      483393f2       movk x8, 0x999a
+|       |   0x10003ffcc      28f7e7f2       movk x8, 0x3fb9, lsl 48
+|       |   0x10003ffd0      0001679e       fmov d0, x8
+|       |   0x10003ffd4      362e1094       bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_ ; SwiftUI.Animation.easeOut.duration(...FZ)
+|       |   0x10003ffd8      f40300aa       mov x20, x0
+|       |   0x10003ffdc      d31200f9       str x19, [x22, 0x20]
+|       |   0x10003ffe0      a82b00f0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+|       |   0x10003ffe4      080d41f9       ldr x8, [x8, 0x218]        ; [0x1005b6218:8]=0
+|       |                                                              ; reloc....ytN
+|       |   0x10003ffe8      210000d0       adrp x1, 0x100045000
+|       |   0x10003ffec      21e01891       add x1, x1, 0x638
+|       |   0x10003fff0      c2420091       add x2, x22, 0x10
+|       |   0x10003fff4      03210091       add x3, x8, 8
+|       |   0x10003fff8      150080d2       mov x21, 0
+|       |   0x10003fffc      37291094       bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_ ; SwiftUI.withAnimation(...yKXEtKlF)
+|       |   0x100040000      e00314aa       mov x0, x20                ; void *arg0
+|       |   0x100040004      af361094       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|       |   ; CODE XREF from sym.func.10003ff08 @ 0x10003ff40(x)
+|       `-> 0x100040008      c02240f9       ldr x0, [x22, 0x40]
+|           0x10004000c      d1361094       bl sym.imp.swift_task_dealloc
+|           0x100040010      c00640f9       ldr x0, [x22, 8]
+|           0x100040014      fd7b42a9       ldp x29, x30, [var_20h]
+|           0x100040018      f5cf40a9       ldp x21, x19, [var_8h]
+|           0x10004001c      bdfb4392       and x29, x29, 0xefffffffffffffff
+|           0x100040020      ffc30091       add sp, sp, 0x30           ; 0x178000
+\           0x100040024      00001fd6       br x0

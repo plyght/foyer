@@ -1,0 +1,29 @@
+            ; CALL XREF from sym.func.10012f148 @ 0x10012f3a8(x)
+            ; CALL XREF from sym.func.1001347bc @ 0x10013497c(x)
+            ; CALL XREF from sym.func.100205040 @ 0x1002051e8(x)
+            ; CALL XREF from sym.func.10037247c @ 0x10037263c(x)
+            ; CALL XREF from sym.func.100395190 @ 0x10039538c(x)
+/ 84: sym.func.100131788 ();
+| afv: vars(2:sp[0x8..0x10])
+|           0x100131788      e82400d0       adrp x8, 0x1005cf000
+|           0x10013178c      001542f9       ldr x0, [x8, 0x428]
+|       ,=< 0x100131790      400000b4       cbz x0, 0x100131798
+|       |   0x100131794      c0035fd6       ret
+|       |   ; CODE XREF from sym.func.100131788 @ 0x100131790(x)
+|       `-> 0x100131798      fd7bbfa9       stp x29, x30, [var_10h]!
+|           0x10013179c      fd030091       mov x29, sp
+|           0x1001317a0      e12400d0       adrp x1, 0x1005cf000
+|           0x1001317a4      21801091       add x1, x1, 0x420          ; int64_t arg2
+|           0x1001317a8      022400b0       adrp x2, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1001317ac      42a02f91       add x2, x2, 0xbe8
+|           0x1001317b0      e01f8052       mov w0, 0xff               ; int64_t arg1
+|           0x1001317b4      efe4fc97       bl sym.func.10006ab70
+|           0x1001317b8      e10300aa       mov x1, x0
+|           0x1001317bc      002400b0       adrp x0, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1001317c0      002041f9       ldr x0, [x0, 0x240]        ; [0x1005b2240:8]=0x801000000000026a
+|           0x1001317c4      98700c94       bl sym.imp.swift_getWitnessTable
+|           0x1001317c8      e82400d0       adrp x8, 0x1005cf000
+|           0x1001317cc      08a11091       add x8, x8, 0x428
+|           0x1001317d0      00fd9fc8       stlr x0, [x8]
+|           0x1001317d4      fd7bc1a8       ldp x29, x30, [sp], 0x10
+\           0x1001317d8      c0035fd6       ret

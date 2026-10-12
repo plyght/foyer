@@ -1,0 +1,5 @@
+877  0x00544350  0x100544350 20  21   12.__TEXT.__cstring        ascii   airpods-max-midnight
+878  0x00544370  0x100544370 21  22   12.__TEXT.__cstring        ascii   airpods-max-starlight
+879  0x00544390  0x100544390 18  19   12.__TEXT.__cstring        ascii   airpods-max-orange
+880  0x005443b0  0x1005443b0 18  19   12.__TEXT.__cstring        ascii   airpods-max-purple
+881  0x005443d0  0x1005443d0 16  17   12.__TEXT.__cstring        ascii   airpods-max-blue

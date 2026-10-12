@@ -1,0 +1,6 @@
+            ; CALL XREF from sym.func.10010a1b4 @ 0x10010a210(x)
+/ 20: fcn.10044f900 ();
+|           0x10044f900      a10b00b0       adrp x1, 0x1005c4000
+|           0x10044f904      21ec43f9       ldr x1, [x1, 0x7d8]        ; [0x1005c47d8:8]=0x100000005585c0 ; reloc.fixup.initWithDelegate:queue:
+|           0x10044f908      100b00f0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10044f90c      107e42f9       ldr x16, [x16, 0x4f8]      ; [0x1005b24f8:8]=0x80100000000002c0 ; reloc.objc_msgSend

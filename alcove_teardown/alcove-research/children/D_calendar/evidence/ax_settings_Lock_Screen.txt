@@ -1,0 +1,103 @@
+AXGroup | t=missing value | v=missing value | d=group | 490,420 620x687
+AXImage | t=missing value | v=missing value | d=image | 738,439 9x12
+AXStaticText | t=missing value | v=Lock Screen | d=text | 761,435 88x19
+AXButton | t=missing value | v=missing value | d=button | 502,473 200x38
+AXStaticText | t=missing value | v=Notifications | d=text | 510,530 80x16
+AXButton | t=missing value | v=missing value | d=button | 502,553 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,591 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,629 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,667 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,705 200x38
+AXStaticText | t=missing value | v=Live Activities | d=text | 510,762 86x16
+AXButton | t=missing value | v=missing value | d=button | 502,784 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,822 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,860 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,898 200x38
+AXStaticText | t=missing value | v=Alcove | d=text | 510,956 42x16
+AXButton | t=missing value | v=missing value | d=button | 502,978 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,1016 200x38
+AXScrollArea | t=missing value | v=missing value | d=scroll area | 715,470 395x637
+AXImage | t=missing value | v=missing value | d=image | 746,487 9x13
+AXStaticText | t=missing value | v=Lock Screen | d=text | 765,485 75x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,484 44x20
+AXStaticText | t=missing value | v=Keep awake | d=text | 742,533 72x16
+AXButton | t=missing value | v=missing value | d=button | 1054,533 9x16
+AXStaticText | t=missing value | v=m | d=text | 1065,533 9x16
+AXSlider | t=missing value | v=0.0 | d=slider | 743,562 340x16
+AXValueIndicator | t=missing value | v=0.0 | d=value indicator | 743,562 20x16
+AXStaticText | t=missing value | v=Show on screen saver | d=text | 742,605 133x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,604 44x20
+AXStaticText | t=missing value | v=Play sound on lock | d=text | 742,647 114x16
+AXButton | t=missing value | v=missing value | d=button | 864,649 14x14
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,646 44x20
+AXStaticText | t=missing value | v=Play sound on unlock | d=text | 742,689 129x16
+AXButton | t=missing value | v=missing value | d=button | 879,691 14x14
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,688 44x20
+AXStaticText | t=missing value | v=Widgets | d=text | 739,734 52x16
+AXButton | t=missing value | v=missing value | d=button | 1069,734 17x17
+AXImage | t=missing value | v=missing value | d=image | 750,773 8x13
+AXStaticText | t=missing value | v=Battery | d=text | 771,771 45x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,770 44x20
+AXImage | t=missing value | v=missing value | d=image | 747,815 13x13
+AXStaticText | t=missing value | v=Connectivity | d=text | 771,813 77x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,812 44x20
+AXImage | t=missing value | v=missing value | d=image | 748,858 11x12
+AXStaticText | t=missing value | v=Focus | d=text | 771,855 37x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,854 44x20
+AXStaticText | t=missing value | v=11 | d=text | 748,901 11x13
+AXStaticText | t=missing value | v=Calendar | d=text | 771,897 55x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,896 44x20
+AXImage | t=missing value | v=missing value | d=image | 750,958 9x10
+AXStaticText | t=missing value | v=Now Playing | d=text | 771,954 75x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,953 44x20
+AXButton | t=missing value | v=missing value | d=button | 729,969 132x98
+AXButton | t=missing value | v=missing value | d=button | 846,969 132x98
+AXButton | t=missing value | v=missing value | d=button | 963,969 132x98
+AXStaticText | t=missing value | v=Glass | d=text | 778,1050 35x16
+AXStaticText | t=missing value | v=Clear | d=text | 896,1050 32x16
+AXStaticText | t=missing value | v=Frosted | d=text | 1006,1050 47x16
+AXStaticText | t=missing value | v=Idle duration | d=text | 742,1094 76x16
+AXButton | t=missing value | v=missing value | d=button | 1046,1094 17x16
+AXStaticText | t=missing value | v=m | d=text | 1065,533 9x16
+AXSlider | t=missing value | v=10.0 | d=slider | 743,1123 340x16
+AXValueIndicator | t=missing value | v=10.0 | d=value indicator | 956,1123 20x16
+AXStaticText | t=missing value | v=Show volume control | d=text | 742,1167 127x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,1165 44x20
+AXStaticText | t=missing value | v=Offset tuning | d=text | 742,1214 80x16
+AXButton | t=missing value | v=missing value | d=button | 1046,1214 9x16
+AXStaticText | t=missing value | v=px | d=text | 1057,1214 17x16
+AXSlider | t=missing value | v=0.0 | d=slider | 743,1243 340x16
+AXValueIndicator | t=missing value | v=0.0 | d=value indicator | 903,1243 20x16
+AXImage | t=missing value | v=missing value | d=image | 747,1306 14x9
+AXStaticText | t=missing value | v=Weather | d=text | 771,1302 51x16
+AXButton | t=missing value | v=missing value | d=button | 1020,1303 13x15
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,1300 44x20
+AXStaticText | t=missing value | v=Allowed Notifications | d=text | 739,1346 132x16
+AXImage | t=missing value | v=missing value | d=image | 750,1385 8x13
+AXStaticText | t=missing value | v=Battery | d=text | 771,771 45x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,1381 44x20
+AXImage | t=missing value | v=missing value | d=image | 748,1427 12x12
+AXStaticText | t=missing value | v=Connectivity | d=text | 771,813 77x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,1423 44x20
+AXImage | t=missing value | v=missing value | d=image | 748,1469 11x12
+AXStaticText | t=missing value | v=Focus | d=text | 771,855 37x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,1465 44x20
+AXImage | t=missing value | v=missing value | d=image | 748,1511 12x12
+AXStaticText | t=missing value | v=Display | d=text | 771,1509 45x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,1507 44x20
+AXImage | t=missing value | v=missing value | d=image | 747,1554 13x10
+AXStaticText | t=missing value | v=Sound | d=text | 771,1551 39x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,1549 44x20
+AXScrollBar | t=missing value | v=0.0 | d=scroll bar | 1092,469 19x621
+AXValueIndicator | t=missing value | v=0.0 | d=value indicator | 1101,473 6x358
+AXButton | t=missing value | v=missing value | d=increment arrow button | 1093,470 0x0
+AXButton | t=missing value | v=missing value | d=decrement arrow button | 1093,470 0x0
+AXButton | t=missing value | v=missing value | d=increment page button | 1101,831 6x255
+AXButton | t=missing value | v=missing value | d=decrement page button | 1101,473 6x0
+AXToolbar | t=missing value | v=missing value | d=toolbar | 490,420 620x66
+AXButton | t=missing value | v=missing value | d=close button | 508,438 16x16
+AXButton | t=missing value | v=missing value | d=zoom button | 554,438 16x16
+AXGroup | t=missing value | v=missing value | d=group | 555,439 14x14
+AXGroup | t=missing value | v=missing value | d=group | 555,439 14x14
+AXButton | t=missing value | v=missing value | d=minimize button | 531,438 16x16
+

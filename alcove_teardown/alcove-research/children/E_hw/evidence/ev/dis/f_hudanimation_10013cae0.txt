@@ -1,0 +1,849 @@
+            ; CODE XREF from sym.func.100143854 @ 0x100143854(x)
+/ 3384: sym.func.10013cae0 (int64_t arg1);
+| `- args(x20, x21, x0) vars(58:sp[0x8..0x200])
+|           0x10013cae0      e923b96d       stp d9, d8, [var_sp_70h]!
+|           0x10013cae4      fc6f01a9       stp x28, x27, [var_10h]
+|           0x10013cae8      fa6702a9       stp x26, x25, [var_20h]
+|           0x10013caec      f85f03a9       stp x24, x23, [var_30h]
+|           0x10013caf0      f65704a9       stp x22, x21, [var_40h]
+|           0x10013caf4      f44f05a9       stp x20, x19, [var_50h]
+|           0x10013caf8      fd7b06a9       stp x29, x30, [var_60h]
+|           0x10013cafc      fd830191       add x29, sp, 0x60
+|           0x10013cb00      ff4306d1       sub sp, sp, 0x190
+|           0x10013cb04      a96302d1       sub x9, x29, 0x98
+|           0x10013cb08      340110f8       stur x20, [x9, -0x100]     ; self
+|           0x10013cb0c      f40300aa       mov x20, x0                ; arg1
+|           0x10013cb10      a9e301d1       sub x9, x29, 0x78
+|           0x10013cb14      280110f8       stur x8, [x9, -0x100]
+|           0x10013cb18      150840f9       ldr x21, [x0, 0x10]        ; error
+|           0x10013cb1c      a9825ff8       ldur x9, [x21, -8]
+|           0x10013cb20      a80302d1       sub x8, x29, 0x80
+|           0x10013cb24      090110f8       stur x9, [x8, -0x100]
+|           0x10013cb28      a8a301d1       sub x8, x29, 0x68
+|           0x10013cb2c      150110f8       stur x21, [x8, -0x100]
+|           0x10013cb30      282140f9       ldr x8, [x9, 0x40]
+|           0x10013cb34      e90308aa       mov x9, x8
+|           0x10013cb38      b02300d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10013cb3c      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x10013cb40      00023fd6       blr x16
+|           0x10013cb44      e9030091       mov x9, sp
+|           0x10013cb48      083d0091       add x8, x8, 0xf
+|           0x10013cb4c      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x10013cb50      280108cb       sub x8, x9, x8
+|           0x10013cb54      a92302d1       sub x9, x29, 0x88
+|           0x10013cb58      280110f8       stur x8, [x9, -0x100]
+|           0x10013cb5c      1f010091       mov sp, x8
+|           0x10013cb60      802400f0       adrp x0, 0x1005cf000
+|           0x10013cb64      00201e91       add x0, x0, 0x788          ; int64_t arg1
+|           0x10013cb68      21190090       adrp x1, 0x100460000
+|           0x10013cb6c      21c00391       add x1, x1, 0xf0           ; int64_t arg2
+|           0x10013cb70      b218fb97       bl sym.func.100002e38
+|           0x10013cb74      a8e302d1       sub x8, x29, 0xb8
+|           0x10013cb78      000110f8       stur x0, [x8, -0x100]
+|           0x10013cb7c      802400f0       adrp x0, 0x1005cf000
+|           0x10013cb80      00401e91       add x0, x0, 0x790          ; int64_t arg1
+|           0x10013cb84      21190090       adrp x1, 0x100460000
+|           0x10013cb88      21e00391       add x1, x1, 0xf8           ; int64_t arg2
+|           0x10013cb8c      ab18fb97       bl sym.func.100002e38
+|           0x10013cb90      f30300aa       mov x19, x0
+|           0x10013cb94      a84302d1       sub x8, x29, 0x90
+|           0x10013cb98      140110f8       stur x20, [x8, -0x100]
+|           0x10013cb9c      831240f9       ldr x3, [x20, 0x20]
+|           0x10013cba0      8082c13c       ldur q0, [x20, 0x18]
+|           0x10013cba4      a8c302d1       sub x8, x29, 0xb0
+|           0x10013cba8      0001903c       stur q0, [x8, -0x100]
+|           0x10013cbac      0200669e       fmov x2, d0                ; int64_t arg3
+|           0x10013cbb0      a8c301d1       sub x8, x29, 0x70
+|           0x10013cbb4      020110f8       stur x2, [x8, -0x100]
+|           0x10013cbb8      e01f8052       mov w0, 0xff               ; int64_t arg1
+|           0x10013cbbc      e10315aa       mov x1, x21                ; int64_t arg2
+|           0x10013cbc0      261b0094       bl sym.func.100143858
+|           0x10013cbc4      f80300aa       mov x24, x0
+|           0x10013cbc8      e01f8052       mov w0, 0xff
+|           0x10013cbcc      e10318aa       mov x1, x24
+|           0x10013cbd0      a80303d1       sub x8, x29, 0xc0
+|           0x10013cbd4      180110f8       stur x24, [x8, -0x100]
+|           0x10013cbd8      7d3e0c94       bl sym.imp....SqMa
+|           0x10013cbdc      f70300aa       mov x23, x0
+|           0x10013cbe0      942400b0       adrp x20, 0x1005cd000
+|           0x10013cbe4      94623891       add x20, x20, 0xe18
+|           0x10013cbe8      151900b0       adrp x21, 0x10045d000
+|           0x10013cbec      b5621291       add x21, x21, 0x498
+|           0x10013cbf0      e00314aa       mov x0, x20                ; int64_t arg1
+|           0x10013cbf4      e10315aa       mov x1, x21                ; int64_t arg2
+|           0x10013cbf8      9018fb97       bl sym.func.100002e38
+|           0x10013cbfc      f60300aa       mov x22, x0
+|           0x10013cc00      802400b0       adrp x0, 0x1005cd000
+|           0x10013cc04      00403891       add x0, x0, 0xe10          ; int64_t arg1
+|           0x10013cc08      c32300b0       adrp x3, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|           0x10013cc0c      638440f9       ldr x3, [x3, 0x108]        ; [0x1005b5108:8]=0x8010000000000812 ; reloc.SwiftUI.TextField...VyxGAA4ViewAAMc
+|           0x10013cc10      e10314aa       mov x1, x20                ; int64_t arg2
+|           0x10013cc14      e20315aa       mov x2, x21                ; int64_t arg3
+|           0x10013cc18      4b19fb97       bl sym.func.100003144
+|           0x10013cc1c      a8c300d1       sub x8, x29, 0x30
+|           0x10013cc20      160110f8       stur x22, [x8, -0x100]
+|           0x10013cc24      a8a300d1       sub x8, x29, 0x28
+|           0x10013cc28      000110f8       stur x0, [x8, -0x100]
+|           0x10013cc2c      c1230090       adrp x1, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013cc30      215445f9       ldr x1, [x1, 0xaa8]        ; [0x1005b4aa8:8]=0x8010000000000746
+|           0x10013cc34      a0c304d1       sub x0, x29, 0x130
+|           0x10013cc38      22008052       mov w2, 1
+|           0x10013cc3c      5c430c94       bl sym.imp.swift_getOpaqueTypeConformance2
+|           0x10013cc40      f40300aa       mov x20, x0
+|           0x10013cc44      20190090       adrp x0, 0x100460000
+|           0x10013cc48      00000c91       add x0, x0, 0x300
+|           0x10013cc4c      e10318aa       mov x1, x24
+|           0x10013cc50      75430c94       bl sym.imp.swift_getWitnessTable
+|           0x10013cc54      a00319f8       stur x0, [var_clob_ffffffffffffff90h]
+|           0x10013cc58      c02300d0       adrp x0, reloc.Int64...VMn ; 0x1005b6000
+|           0x10013cc5c      00f440f9       ldr x0, [x0, 0x1e8]        ; [0x1005b61e8:8]=0x8010000000000a1e ; reloc....xSgSHsSHRzlMc
+|           0x10013cc60      a2c301d1       sub x2, x29, 0x70
+|           0x10013cc64      e10317aa       mov x1, x23
+|           0x10013cc68      6f430c94       bl sym.imp.swift_getWitnessTable
+|           0x10013cc6c      f50300aa       mov x21, x0
+|           0x10013cc70      a8c300d1       sub x8, x29, 0x30
+|           0x10013cc74      130110f8       stur x19, [x8, -0x100]
+|           0x10013cc78      a8a300d1       sub x8, x29, 0x28
+|           0x10013cc7c      170110f8       stur x23, [x8, -0x100]
+|           0x10013cc80      fa0317aa       mov x26, x23
+|           0x10013cc84      a82303d1       sub x8, x29, 0xc8
+|           0x10013cc88      170110f8       stur x23, [x8, -0x100]
+|           0x10013cc8c      a88300d1       sub x8, x29, 0x20
+|           0x10013cc90      140110f8       stur x20, [x8, -0x100]
+|           0x10013cc94      a86300d1       sub x8, x29, 0x18
+|           0x10013cc98      000110f8       stur x0, [x8, -0x100]
+|           0x10013cc9c      d6230090       adrp x22, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013cca0      d60645f9       ldr x22, [x22, 0xa08]      ; [0x1005b4a08:8]=0x8010000000000732
+|           0x10013cca4      a1c304d1       sub x1, x29, 0x130
+|           0x10013cca8      e01f8052       mov w0, 0xff
+|           0x10013ccac      e20316aa       mov x2, x22
+|           0x10013ccb0      030080d2       mov x3, 0
+|           0x10013ccb4      41430c94       bl sym.imp.swift_getOpaqueTypeMetadata2
+|           0x10013ccb8      f70300aa       mov x23, x0
+|           0x10013ccbc      78240090       adrp x24, 0x1005c8000
+|           0x10013ccc0      18832b91       add x24, x24, 0xae0
+|           0x10013ccc4      d91800d0       adrp x25, 0x100456000
+|           0x10013ccc8      39e32b91       add x25, x25, 0xaf8
+|           0x10013cccc      e00318aa       mov x0, x24                ; int64_t arg1
+|           0x10013ccd0      e10319aa       mov x1, x25                ; int64_t arg2
+|           0x10013ccd4      5918fb97       bl sym.func.100002e38
+|           0x10013ccd8      e20300aa       mov x2, x0
+|           0x10013ccdc      e01f8052       mov w0, 0xff
+|           0x10013cce0      e10317aa       mov x1, x23
+|           0x10013cce4      6f360c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013cce8      f70300aa       mov x23, x0
+|           0x10013ccec      a8c300d1       sub x8, x29, 0x30
+|           0x10013ccf0      130110f8       stur x19, [x8, -0x100]
+|           0x10013ccf4      a8a300d1       sub x8, x29, 0x28
+|           0x10013ccf8      1a0110f8       stur x26, [x8, -0x100]
+|           0x10013ccfc      a88300d1       sub x8, x29, 0x20
+|           0x10013cd00      140110f8       stur x20, [x8, -0x100]
+|           0x10013cd04      a86300d1       sub x8, x29, 0x18
+|           0x10013cd08      150110f8       stur x21, [x8, -0x100]
+|           0x10013cd0c      a0c304d1       sub x0, x29, 0x130
+|           0x10013cd10      e10316aa       mov x1, x22
+|           0x10013cd14      22008052       mov w2, 1
+|           0x10013cd18      25430c94       bl sym.imp.swift_getOpaqueTypeConformance2
+|           0x10013cd1c      f30300aa       mov x19, x0
+|           0x10013cd20      60240090       adrp x0, 0x1005c8000
+|           0x10013cd24      00602b91       add x0, x0, 0xad8          ; int64_t arg1
+|           0x10013cd28      c3230090       adrp x3, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013cd2c      63e042f9       ldr x3, [x3, 0x5c0]        ; [0x1005b45c0:8]=0x80100000000006a9 ; reloc.SwiftUI._EnvironmentKeyWritingModifier...VyxGAA04ViewF0AAMc
+|           0x10013cd30      e10318aa       mov x1, x24                ; int64_t arg2
+|           0x10013cd34      e20319aa       mov x2, x25                ; int64_t arg3
+|           0x10013cd38      0319fb97       bl sym.func.100003144
+|           0x10013cd3c      b30338a9       stp x19, x0, [var_80h]
+|           0x10013cd40      b92300f0       adrp x25, reloc.EKEventStore ; 0x1005b3000
+|           0x10013cd44      39f745f9       ldr x25, [x25, 0xbe8]      ; [0x1005b3be8:8]=0x801000000000056e
+|           0x10013cd48      a20302d1       sub x2, x29, 0x80
+|           0x10013cd4c      e00319aa       mov x0, x25
+|           0x10013cd50      e10317aa       mov x1, x23
+|           0x10013cd54      34430c94       bl sym.imp.swift_getWitnessTable
+|           0x10013cd58      f30300aa       mov x19, x0
+|           0x10013cd5c      a8c300d1       sub x8, x29, 0x30
+|           0x10013cd60      170110f8       stur x23, [x8, -0x100]
+|           0x10013cd64      a8a300d1       sub x8, x29, 0x28
+|           0x10013cd68      000110f8       stur x0, [x8, -0x100]
+|           0x10013cd6c      d4230090       adrp x20, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013cd70      947a44f9       ldr x20, [x20, 0x8f0]      ; [0x1005b48f0:8]=0x801000000000070f ; reloc.SwiftUI.View..labelsHidden_...yFQOMQ_
+|           0x10013cd74      a1c304d1       sub x1, x29, 0x130
+|           0x10013cd78      e01f8052       mov w0, 0xff
+|           0x10013cd7c      e20314aa       mov x2, x20
+|           0x10013cd80      030080d2       mov x3, 0
+|           0x10013cd84      0d430c94       bl sym.imp.swift_getOpaqueTypeMetadata2
+|           0x10013cd88      f50300aa       mov x21, x0
+|           0x10013cd8c      e01f8052       mov w0, 0xff
+|           0x10013cd90      7c370c94       bl sym.imp.SwiftUI.PlainTextFieldStyle...VMa
+|           0x10013cd94      f60300aa       mov x22, x0
+|           0x10013cd98      d8230090       adrp x24, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013cd9c      18ab40f9       ldr x24, [x24, 0x150]      ; [0x1005b4150:8]=0x801000000000061b ; reloc.SwiftUI.PlainTextFieldStyle...VMa
+|           0x10013cda0      a8c300d1       sub x8, x29, 0x30
+|           0x10013cda4      170110f8       stur x23, [x8, -0x100]
+|           0x10013cda8      a8a300d1       sub x8, x29, 0x28
+|           0x10013cdac      130110f8       stur x19, [x8, -0x100]
+|           0x10013cdb0      a0c304d1       sub x0, x29, 0x130
+|           0x10013cdb4      e10314aa       mov x1, x20
+|           0x10013cdb8      22008052       mov w2, 1
+|           0x10013cdbc      fc420c94       bl sym.imp.swift_getOpaqueTypeConformance2
+|           0x10013cdc0      f30300aa       mov x19, x0
+|           0x10013cdc4      802400b0       adrp x0, 0x1005cd000
+|           0x10013cdc8      00c03891       add x0, x0, 0xe30          ; int64_t arg1
+|           0x10013cdcc      c2230090       adrp x2, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013cdd0      42a040f9       ldr x2, [x2, 0x140]        ; [0x1005b4140:8]=0x8010000000000619 ; reloc.SwiftUI.PlainTextFieldStyle...VAA0deF0AAMc
+|           0x10013cdd4      e10318aa       mov x1, x24                ; int64_t arg2
+|           0x10013cdd8      c930fb97       bl sym.func.1000090fc
+|           0x10013cddc      a8c300d1       sub x8, x29, 0x30
+|           0x10013cde0      150110f8       stur x21, [x8, -0x100]
+|           0x10013cde4      a8a300d1       sub x8, x29, 0x28
+|           0x10013cde8      160110f8       stur x22, [x8, -0x100]
+|           0x10013cdec      a88300d1       sub x8, x29, 0x20
+|           0x10013cdf0      130110f8       stur x19, [x8, -0x100]
+|           0x10013cdf4      a86300d1       sub x8, x29, 0x18
+|           0x10013cdf8      000110f8       stur x0, [x8, -0x100]
+|           0x10013cdfc      c2230090       adrp x2, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013ce00      429444f9       ldr x2, [x2, 0x928]        ; [0x1005b4928:8]=0x8010000000000716 ; reloc.SwiftUI.View....AA04TexteF0Rd__lFQOMQ
+|           0x10013ce04      a1c304d1       sub x1, x29, 0x130
+|           0x10013ce08      e01f8052       mov w0, 0xff
+|           0x10013ce0c      030080d2       mov x3, 0
+|           0x10013ce10      ea420c94       bl sym.imp.swift_getOpaqueTypeMetadata2
+|           0x10013ce14      e10300aa       mov x1, x0
+|           0x10013ce18      b52300f0       adrp x21, reloc.EKEventStore ; 0x1005b3000
+|           0x10013ce1c      b57a45f9       ldr x21, [x21, 0xaf0]      ; [0x1005b3af0:8]=0x801000000000054f
+|           0x10013ce20      e01f8052       mov w0, 0xff
+|           0x10013ce24      e20315aa       mov x2, x21
+|           0x10013ce28      1e360c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013ce2c      f30300aa       mov x19, x0
+|           0x10013ce30      802400f0       adrp x0, 0x1005cf000
+|           0x10013ce34      00601e91       add x0, x0, 0x798          ; int64_t arg1
+|           0x10013ce38      21190090       adrp x1, 0x100460000
+|           0x10013ce3c      21000491       add x1, x1, 0x100          ; int64_t arg2
+|           0x10013ce40      fe17fb97       bl sym.func.100002e38
+|           0x10013ce44      e20300aa       mov x2, x0
+|           0x10013ce48      e01f8052       mov w0, 0xff
+|           0x10013ce4c      e10313aa       mov x1, x19
+|           0x10013ce50      5b370c94       bl sym.imp.SwiftUI._ConditionalContent...VMa
+|           0x10013ce54      f30300aa       mov x19, x0
+|           0x10013ce58      802400f0       adrp x0, 0x1005cf000
+|           0x10013ce5c      00801e91       add x0, x0, 0x7a0          ; int64_t arg1
+|           0x10013ce60      21190090       adrp x1, 0x100460000
+|           0x10013ce64      21200491       add x1, x1, 0x108          ; int64_t arg2
+|           0x10013ce68      f417fb97       bl sym.func.100002e38
+|           0x10013ce6c      e20300aa       mov x2, x0
+|           0x10013ce70      e01f8052       mov w0, 0xff
+|           0x10013ce74      e10313aa       mov x1, x19
+|           0x10013ce78      030080d2       mov x3, 0
+|           0x10013ce7c      040080d2       mov x4, 0
+|           0x10013ce80      d7420c94       bl sym.imp.swift_getTupleTypeMetadata2
+|           0x10013ce84      e10300aa       mov x1, x0
+|           0x10013ce88      e01f8052       mov w0, 0xff
+|           0x10013ce8c      ac3a0c94       bl sym.imp.SwiftUI.TupleView...VMa
+|           0x10013ce90      f30300aa       mov x19, x0
+|           0x10013ce94      c02300b0       adrp x0, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|           0x10013ce98      009440f9       ldr x0, [x0, 0x128]        ; [0x1005b5128:8]=0x8010000000000816 ; reloc.SwiftUI.TupleView...VyxGAA0D0AAMc
+|           0x10013ce9c      e10313aa       mov x1, x19
+|           0x10013cea0      e1420c94       bl sym.imp.swift_getWitnessTable
+|           0x10013cea4      e20300aa       mov x2, x0
+|           0x10013cea8      e01f8052       mov w0, 0xff
+|           0x10013ceac      e10313aa       mov x1, x19
+|           0x10013ceb0      d4390c94       bl sym.imp.SwiftUI.HStack...VMa
+|           0x10013ceb4      f30300aa       mov x19, x0
+|           0x10013ceb8      a22300f0       adrp x2, reloc.EKEventStore ; 0x1005b3000
+|           0x10013cebc      429846f9       ldr x2, [x2, 0xd30]        ; [0x1005b3d30:8]=0x8010000000000597 ; reloc.SwiftUI._FlexFrameLayout...VN
+|           0x10013cec0      e01f8052       mov w0, 0xff
+|           0x10013cec4      e10313aa       mov x1, x19
+|           0x10013cec8      f6350c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013cecc      f80300aa       mov x24, x0
+|           0x10013ced0      c0230090       adrp x0, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013ced4      00bc46f9       ldr x0, [x0, 0xd78]        ; [0x1005b4d78:8]=0x80100000000007a0 ; reloc.SwiftUI.HStack...VyxGAA4ViewAAMc
+|           0x10013ced8      e10313aa       mov x1, x19
+|           0x10013cedc      d2420c94       bl sym.imp.swift_getWitnessTable
+|           0x10013cee0      a82300f0       adrp x8, reloc.EKEventStore ; 0x1005b3000
+|           0x10013cee4      089146f9       ldr x8, [x8, 0xd20]        ; [0x1005b3d20:8]=0x8010000000000595 ; reloc.SwiftUI._FlexFrameLayout...VAA12ViewModifierAAWP
+|           0x10013cee8      a02337a9       stp x0, x8, [var_90h]
+|           0x10013ceec      a24302d1       sub x2, x29, 0x90
+|           0x10013cef0      e00319aa       mov x0, x25
+|           0x10013cef4      e10318aa       mov x1, x24
+|           0x10013cef8      cb420c94       bl sym.imp.swift_getWitnessTable
+|           0x10013cefc      fb0300aa       mov x27, x0
+|           0x10013cf00      a8c300d1       sub x8, x29, 0x30
+|           0x10013cf04      180110f8       stur x24, [x8, -0x100]
+|           0x10013cf08      a8a300d1       sub x8, x29, 0x28
+|           0x10013cf0c      000110f8       stur x0, [x8, -0x100]
+|           0x10013cf10      d4230090       adrp x20, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013cf14      943644f9       ldr x20, [x20, 0x868]      ; [0x1005b4868:8]=0x80100000000006fe ; reloc.SwiftUI.View..monospaced_...rSbFQOMQ_
+|           0x10013cf18      a1c304d1       sub x1, x29, 0x130
+|           0x10013cf1c      e01f8052       mov w0, 0xff
+|           0x10013cf20      e20314aa       mov x2, x20
+|           0x10013cf24      030080d2       mov x3, 0
+|           0x10013cf28      a4420c94       bl sym.imp.swift_getOpaqueTypeMetadata2
+|           0x10013cf2c      e10300aa       mov x1, x0
+|           0x10013cf30      e01f8052       mov w0, 0xff
+|           0x10013cf34      e20315aa       mov x2, x21
+|           0x10013cf38      da350c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013cf3c      f70300aa       mov x23, x0
+|           0x10013cf40      e01f8052       mov w0, 0xff
+|           0x10013cf44      e10317aa       mov x1, x23
+|           0x10013cf48      e20315aa       mov x2, x21
+|           0x10013cf4c      d5350c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013cf50      fc0300aa       mov x28, x0
+|           0x10013cf54      9a2400f0       adrp x26, 0x1005cf000
+|           0x10013cf58      5aa31e91       add x26, x26, 0x7a8
+|           0x10013cf5c      35190090       adrp x21, 0x100460000
+|           0x10013cf60      b5420491       add x21, x21, 0x110
+|           0x10013cf64      e0031aaa       mov x0, x26                ; int64_t arg1
+|           0x10013cf68      e10315aa       mov x1, x21                ; int64_t arg2
+|           0x10013cf6c      b317fb97       bl sym.func.100002e38
+|           0x10013cf70      e20300aa       mov x2, x0
+|           0x10013cf74      e01f8052       mov w0, 0xff
+|           0x10013cf78      e1031caa       mov x1, x28
+|           0x10013cf7c      c9350c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013cf80      f30300aa       mov x19, x0
+|           0x10013cf84      a22300f0       adrp x2, reloc.EKEventStore ; 0x1005b3000
+|           0x10013cf88      428846f9       ldr x2, [x2, 0xd10]        ; [0x1005b3d10:8]=0x8010000000000593 ; reloc.SwiftUI._FixedSizeLayout...VN
+|           0x10013cf8c      e01f8052       mov w0, 0xff
+|           0x10013cf90      e10313aa       mov x1, x19
+|           0x10013cf94      c3350c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013cf98      f90300aa       mov x25, x0
+|           0x10013cf9c      602400d0       adrp x0, 0x1005ca000
+|           0x10013cfa0      00201591       add x0, x0, 0x548          ; int64_t arg1
+|           0x10013cfa4      e11800b0       adrp x1, 0x100459000
+|           0x10013cfa8      21a00491       add x1, x1, 0x128          ; int64_t arg2
+|           0x10013cfac      a317fb97       bl sym.func.100002e38
+|           0x10013cfb0      e20300aa       mov x2, x0
+|           0x10013cfb4      e01f8052       mov w0, 0xff
+|           0x10013cfb8      e10319aa       mov x1, x25
+|           0x10013cfbc      b9350c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013cfc0      f60300aa       mov x22, x0
+|           0x10013cfc4      a8c300d1       sub x8, x29, 0x30
+|           0x10013cfc8      180110f8       stur x24, [x8, -0x100]
+|           0x10013cfcc      a8a300d1       sub x8, x29, 0x28
+|           0x10013cfd0      1b0110f8       stur x27, [x8, -0x100]
+|           0x10013cfd4      a0c304d1       sub x0, x29, 0x130
+|           0x10013cfd8      e10314aa       mov x1, x20
+|           0x10013cfdc      22008052       mov w2, 1
+|           0x10013cfe0      73420c94       bl sym.imp.swift_getOpaqueTypeConformance2
+|           0x10013cfe4      b82300f0       adrp x24, reloc.EKEventStore ; 0x1005b3000
+|           0x10013cfe8      187345f9       ldr x24, [x24, 0xae0]      ; [0x1005b3ae0:8]=0x801000000000054d
+|           0x10013cfec      a06336a9       stp x0, x24, [var_a0h]
+|           0x10013cff0      a28302d1       sub x2, x29, 0xa0
+|           0x10013cff4      b42300f0       adrp x20, reloc.EKEventStore ; 0x1005b3000
+|           0x10013cff8      94f645f9       ldr x20, [x20, 0xbe8]      ; [0x1005b3be8:8]=0x801000000000056e
+|           0x10013cffc      e00314aa       mov x0, x20
+|           0x10013d000      e10317aa       mov x1, x23
+|           0x10013d004      88420c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d008      a06335a9       stp x0, x24, [var_b0h]
+|           0x10013d00c      a2c302d1       sub x2, x29, 0xb0
+|           0x10013d010      e00314aa       mov x0, x20
+|           0x10013d014      f70314aa       mov x23, x20
+|           0x10013d018      e1031caa       mov x1, x28
+|           0x10013d01c      82420c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d020      f40300aa       mov x20, x0
+|           0x10013d024      802400d0       adrp x0, 0x1005cf000
+|           0x10013d028      00c01e91       add x0, x0, 0x7b0          ; int64_t arg1
+|           0x10013d02c      a32300f0       adrp x3, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013d030      63cc40f9       ldr x3, [x3, 0x198]        ; [0x1005b4198:8]=0x8010000000000624
+|           0x10013d034      e1031aaa       mov x1, x26                ; int64_t arg2
+|           0x10013d038      e20315aa       mov x2, x21                ; int64_t arg3
+|           0x10013d03c      4218fb97       bl sym.func.100003144
+|           0x10013d040      b40334a9       stp x20, x0, [var_c0h]
+|           0x10013d044      a20303d1       sub x2, x29, 0xc0
+|           0x10013d048      e00317aa       mov x0, x23
+|           0x10013d04c      e10313aa       mov x1, x19
+|           0x10013d050      75420c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d054      a82300d0       adrp x8, reloc.EKEventStore ; 0x1005b3000
+|           0x10013d058      088146f9       ldr x8, [x8, 0xd00]        ; [0x1005b3d00:8]=0x8010000000000591 ; reloc.SwiftUI._FixedSizeLayout...VAA12ViewModifierAAWP
+|           0x10013d05c      a02333a9       stp x0, x8, [var_d0h]
+|           0x10013d060      a24303d1       sub x2, x29, 0xd0
+|           0x10013d064      e00317aa       mov x0, x23
+|           0x10013d068      e10319aa       mov x1, x25
+|           0x10013d06c      6e420c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d070      f30300aa       mov x19, x0
+|           0x10013d074      602400b0       adrp x0, 0x1005ca000
+|           0x10013d078      00c01691       add x0, x0, 0x5b0          ; int64_t arg1
+|           0x10013d07c      a32300d0       adrp x3, reloc.EKEventStore ; 0x1005b3000
+|           0x10013d080      63a443f9       ldr x3, [x3, 0x748]        ; [0x1005b3748:8]=0x80100000000004db ; reloc.SwiftUI._ClipEffect...VyxGAA12ViewModifierAAMc
+|           0x10013d084      612400b0       adrp x1, 0x1005ca000
+|           0x10013d088      21201591       add x1, x1, 0x548          ; int64_t arg2
+|           0x10013d08c      e2180090       adrp x2, 0x100459000
+|           0x10013d090      42a00491       add x2, x2, 0x128          ; int64_t arg3
+|           0x10013d094      2c18fb97       bl sym.func.100003144
+|           0x10013d098      b30332a9       stp x19, x0, [var_e0h]
+|           0x10013d09c      a28303d1       sub x2, x29, 0xe0
+|           0x10013d0a0      e00317aa       mov x0, x23
+|           0x10013d0a4      e10316aa       mov x1, x22
+|           0x10013d0a8      5f420c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d0ac      f30300aa       mov x19, x0
+|           0x10013d0b0      d7230090       adrp x23, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|           0x10013d0b4      f7fe43f9       ldr x23, [x23, 0x7f8]      ; [0x1005b57f8:8]=0x80100000000008e5 ; reloc....SbN
+|           0x10013d0b8      a8c300d1       sub x8, x29, 0x30
+|           0x10013d0bc      160110f8       stur x22, [x8, -0x100]
+|           0x10013d0c0      a8a300d1       sub x8, x29, 0x28
+|           0x10013d0c4      170110f8       stur x23, [x8, -0x100]
+|           0x10013d0c8      d8230090       adrp x24, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|           0x10013d0cc      180344f9       ldr x24, [x24, 0x800]      ; [0x1005b5800:8]=0x80100000000008e6 ; reloc....SbSQsWP
+|           0x10013d0d0      a88300d1       sub x8, x29, 0x20
+|           0x10013d0d4      000110f8       stur x0, [x8, -0x100]
+|           0x10013d0d8      a86300d1       sub x8, x29, 0x18
+|           0x10013d0dc      180110f8       stur x24, [x8, -0x100]
+|           0x10013d0e0      b42300f0       adrp x20, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013d0e4      944a45f9       ldr x20, [x20, 0xa90]      ; [0x1005b4a90:8]=0x8010000000000743
+|           0x10013d0e8      a1c304d1       sub x1, x29, 0x130
+|           0x10013d0ec      e01f8052       mov w0, 0xff
+|           0x10013d0f0      e20314aa       mov x2, x20
+|           0x10013d0f4      030080d2       mov x3, 0
+|           0x10013d0f8      30420c94       bl sym.imp.swift_getOpaqueTypeMetadata2
+|           0x10013d0fc      f50300aa       mov x21, x0
+|           0x10013d100      a8c300d1       sub x8, x29, 0x30
+|           0x10013d104      160110f8       stur x22, [x8, -0x100]
+|           0x10013d108      a8a300d1       sub x8, x29, 0x28
+|           0x10013d10c      170110f8       stur x23, [x8, -0x100]
+|           0x10013d110      a88300d1       sub x8, x29, 0x20
+|           0x10013d114      130110f8       stur x19, [x8, -0x100]
+|           0x10013d118      a86300d1       sub x8, x29, 0x18
+|           0x10013d11c      180110f8       stur x24, [x8, -0x100]
+|           0x10013d120      a0c304d1       sub x0, x29, 0x130
+|           0x10013d124      e10314aa       mov x1, x20
+|           0x10013d128      22008052       mov w2, 1
+|           0x10013d12c      20420c94       bl sym.imp.swift_getOpaqueTypeConformance2
+|           0x10013d130      f30300aa       mov x19, x0
+|           0x10013d134      001900f0       adrp x0, 0x100460000
+|           0x10013d138      00600b91       add x0, x0, 0x2d8
+|           0x10013d13c      a80303d1       sub x8, x29, 0xc0
+|           0x10013d140      010150f8       ldur x1, [x8, -0x100]
+|           0x10013d144      38420c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d148      a08311f8       stur x0, [var_clob_ffffffffffffff18h]
+|           0x10013d14c      c02300b0       adrp x0, reloc.Int64...VMn ; 0x1005b6000
+|           0x10013d150      00f840f9       ldr x0, [x0, 0x1f0]        ; [0x1005b61f0:8]=0x8010000000000a1f ; reloc....xSgSQsSQRzlMc
+|           0x10013d154      a2a303d1       sub x2, x29, 0xe8
+|           0x10013d158      a82303d1       sub x8, x29, 0xc8
+|           0x10013d15c      160150f8       ldur x22, [x8, -0x100]
+|           0x10013d160      e10316aa       mov x1, x22
+|           0x10013d164      30420c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d168      a8c300d1       sub x8, x29, 0x30
+|           0x10013d16c      150110f8       stur x21, [x8, -0x100]
+|           0x10013d170      a8a300d1       sub x8, x29, 0x28
+|           0x10013d174      160110f8       stur x22, [x8, -0x100]
+|           0x10013d178      a88300d1       sub x8, x29, 0x20
+|           0x10013d17c      130110f8       stur x19, [x8, -0x100]
+|           0x10013d180      a86300d1       sub x8, x29, 0x18
+|           0x10013d184      000110f8       stur x0, [x8, -0x100]
+|           0x10013d188      a1c304d1       sub x1, x29, 0x130
+|           0x10013d18c      e01f8052       mov w0, 0xff
+|           0x10013d190      e20314aa       mov x2, x20
+|           0x10013d194      030080d2       mov x3, 0
+|           0x10013d198      08420c94       bl sym.imp.swift_getOpaqueTypeMetadata2
+|           0x10013d19c      e10300aa       mov x1, x0
+|           0x10013d1a0      a22300f0       adrp x2, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013d1a4      428442f9       ldr x2, [x2, 0x508]        ; [0x1005b4508:8]=0x8010000000000692 ; reloc.SwiftUI._AppearanceActionModifier...VN
+|           0x10013d1a8      e01f8052       mov w0, 0xff
+|           0x10013d1ac      3d350c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013d1b0      f70300aa       mov x23, x0
+|           0x10013d1b4      b62300f0       adrp x22, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013d1b8      d6da46f9       ldr x22, [x22, 0xdb0]      ; [0x1005b4db0:8]=0x80100000000007a7 ; reloc.SwiftUI.Spacer...VN
+|           0x10013d1bc      e01f8052       mov w0, 0xff
+|           0x10013d1c0      a8e302d1       sub x8, x29, 0xb8
+|           0x10013d1c4      1a0150f8       ldur x26, [x8, -0x100]
+|           0x10013d1c8      e1031aaa       mov x1, x26
+|           0x10013d1cc      e20316aa       mov x2, x22
+|           0x10013d1d0      e30317aa       mov x3, x23
+|           0x10013d1d4      040080d2       mov x4, 0
+|           0x10013d1d8      050080d2       mov x5, 0
+|           0x10013d1dc      03420c94       bl sym.imp.swift_getTupleTypeMetadata3
+|           0x10013d1e0      e10300aa       mov x1, x0
+|           0x10013d1e4      e01f8052       mov w0, 0xff
+|           0x10013d1e8      d5390c94       bl sym.imp.SwiftUI.TupleView...VMa
+|           0x10013d1ec      f30300aa       mov x19, x0
+|           0x10013d1f0      dc230090       adrp x28, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|           0x10013d1f4      9c9740f9       ldr x28, [x28, 0x128]      ; [0x1005b5128:8]=0x8010000000000816 ; reloc.SwiftUI.TupleView...VyxGAA0D0AAMc
+|           0x10013d1f8      e0031caa       mov x0, x28
+|           0x10013d1fc      e10313aa       mov x1, x19
+|           0x10013d200      09420c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d204      e20300aa       mov x2, x0
+|           0x10013d208      e01f8052       mov w0, 0xff
+|           0x10013d20c      e10313aa       mov x1, x19
+|           0x10013d210      fc380c94       bl sym.imp.SwiftUI.HStack...VMa
+|           0x10013d214      f30300aa       mov x19, x0
+|           0x10013d218      952400d0       adrp x21, 0x1005cf000
+|           0x10013d21c      b5e21e91       add x21, x21, 0x7b8
+|           0x10013d220      181900f0       adrp x24, 0x100460000
+|           0x10013d224      18630491       add x24, x24, 0x118
+|           0x10013d228      e00315aa       mov x0, x21                ; int64_t arg1
+|           0x10013d22c      e10318aa       mov x1, x24                ; int64_t arg2
+|           0x10013d230      0217fb97       bl sym.func.100002e38
+|           0x10013d234      f90300aa       mov x25, x0
+|           0x10013d238      802400d0       adrp x0, 0x1005cf000
+|           0x10013d23c      00001f91       add x0, x0, 0x7c0          ; int64_t arg1
+|           0x10013d240      a32300f0       adrp x3, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013d244      63d046f9       ldr x3, [x3, 0xda0]        ; [0x1005b4da0:8]=0x80100000000007a5 ; reloc.SwiftUI.Slider...Vyxq_GAA4ViewAAMc
+|           0x10013d248      e10315aa       mov x1, x21                ; int64_t arg2
+|           0x10013d24c      e20318aa       mov x2, x24                ; int64_t arg3
+|           0x10013d250      bd17fb97       bl sym.func.100003144
+|           0x10013d254      a8c301d1       sub x8, x29, 0x70
+|           0x10013d258      080150f8       ldur x8, [x8, -0x100]
+|           0x10013d25c      080940f9       ldr x8, [x8, 0x10]
+|           0x10013d260      080540f9       ldr x8, [x8, 8]
+|           0x10013d264      080540f9       ldr x8, [x8, 8]
+|           0x10013d268      a9c301d1       sub x9, x29, 0x70
+|           0x10013d26c      280110f8       stur x8, [x9, -0x100]
+|           0x10013d270      a9c300d1       sub x9, x29, 0x30
+|           0x10013d274      390110f8       stur x25, [x9, -0x100]
+|           0x10013d278      a9a301d1       sub x9, x29, 0x68
+|           0x10013d27c      3b0150f8       ldur x27, [x9, -0x100]
+|           0x10013d280      a9a300d1       sub x9, x29, 0x28
+|           0x10013d284      3b0110f8       stur x27, [x9, -0x100]
+|           0x10013d288      a98300d1       sub x9, x29, 0x20
+|           0x10013d28c      200110f8       stur x0, [x9, -0x100]
+|           0x10013d290      a96300d1       sub x9, x29, 0x18
+|           0x10013d294      280110f8       stur x8, [x9, -0x100]
+|           0x10013d298      a1c304d1       sub x1, x29, 0x130
+|           0x10013d29c      e01f8052       mov w0, 0xff
+|           0x10013d2a0      e20314aa       mov x2, x20
+|           0x10013d2a4      030080d2       mov x3, 0
+|           0x10013d2a8      c4410c94       bl sym.imp.swift_getOpaqueTypeMetadata2
+|           0x10013d2ac      f40300aa       mov x20, x0
+|           0x10013d2b0      e01f8052       mov w0, 0xff
+|           0x10013d2b4      e10313aa       mov x1, x19
+|           0x10013d2b8      e20314aa       mov x2, x20
+|           0x10013d2bc      030080d2       mov x3, 0
+|           0x10013d2c0      040080d2       mov x4, 0
+|           0x10013d2c4      c6410c94       bl sym.imp.swift_getTupleTypeMetadata2
+|           0x10013d2c8      e10300aa       mov x1, x0
+|           0x10013d2cc      e01f8052       mov w0, 0xff
+|           0x10013d2d0      9b390c94       bl sym.imp.SwiftUI.TupleView...VMa
+|           0x10013d2d4      f30300aa       mov x19, x0
+|           0x10013d2d8      e01f8052       mov w0, 0xff
+|           0x10013d2dc      e10314aa       mov x1, x20
+|           0x10013d2e0      e20317aa       mov x2, x23
+|           0x10013d2e4      030080d2       mov x3, 0
+|           0x10013d2e8      040080d2       mov x4, 0
+|           0x10013d2ec      bc410c94       bl sym.imp.swift_getTupleTypeMetadata2
+|           0x10013d2f0      e10300aa       mov x1, x0
+|           0x10013d2f4      e01f8052       mov w0, 0xff
+|           0x10013d2f8      91390c94       bl sym.imp.SwiftUI.TupleView...VMa
+|           0x10013d2fc      f40300aa       mov x20, x0
+|           0x10013d300      e0031caa       mov x0, x28
+|           0x10013d304      e10314aa       mov x1, x20
+|           0x10013d308      c7410c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d30c      e20300aa       mov x2, x0
+|           0x10013d310      e01f8052       mov w0, 0xff
+|           0x10013d314      e10314aa       mov x1, x20
+|           0x10013d318      ba380c94       bl sym.imp.SwiftUI.HStack...VMa
+|           0x10013d31c      e10300aa       mov x1, x0
+|           0x10013d320      b72300d0       adrp x23, reloc.EKEventStore ; 0x1005b3000
+|           0x10013d324      f71244f9       ldr x23, [x23, 0x820]      ; [0x1005b3820:8]=0x80100000000004f6 ; reloc.SwiftUI._FrameLayout...VN
+|           0x10013d328      e01f8052       mov w0, 0xff
+|           0x10013d32c      e20317aa       mov x2, x23
+|           0x10013d330      dc340c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013d334      e30300aa       mov x3, x0
+|           0x10013d338      e01f8052       mov w0, 0xff
+|           0x10013d33c      e1031aaa       mov x1, x26
+|           0x10013d340      e20316aa       mov x2, x22
+|           0x10013d344      040080d2       mov x4, 0
+|           0x10013d348      050080d2       mov x5, 0
+|           0x10013d34c      a7410c94       bl sym.imp.swift_getTupleTypeMetadata3
+|           0x10013d350      e10300aa       mov x1, x0
+|           0x10013d354      e01f8052       mov w0, 0xff
+|           0x10013d358      79390c94       bl sym.imp.SwiftUI.TupleView...VMa
+|           0x10013d35c      f40300aa       mov x20, x0
+|           0x10013d360      e0031caa       mov x0, x28
+|           0x10013d364      e10314aa       mov x1, x20
+|           0x10013d368      af410c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d36c      e20300aa       mov x2, x0
+|           0x10013d370      e01f8052       mov w0, 0xff
+|           0x10013d374      e10314aa       mov x1, x20
+|           0x10013d378      a2380c94       bl sym.imp.SwiftUI.HStack...VMa
+|           0x10013d37c      f40300aa       mov x20, x0
+|           0x10013d380      e01f8052       mov w0, 0xff
+|           0x10013d384      e10313aa       mov x1, x19
+|           0x10013d388      e20314aa       mov x2, x20
+|           0x10013d38c      0c360c94       bl sym.imp.SwiftUI._ConditionalContent...VMa
+|           0x10013d390      fa0300aa       mov x26, x0
+|           0x10013d394      e0031caa       mov x0, x28
+|           0x10013d398      e10313aa       mov x1, x19
+|           0x10013d39c      a2410c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d3a0      f30300aa       mov x19, x0
+|           0x10013d3a4      a02300f0       adrp x0, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013d3a8      00bc46f9       ldr x0, [x0, 0xd78]        ; [0x1005b4d78:8]=0x80100000000007a0 ; reloc.SwiftUI.HStack...VyxGAA4ViewAAMc
+|           0x10013d3ac      e10314aa       mov x1, x20
+|           0x10013d3b0      9d410c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d3b4      b38330a9       stp x19, x0, [var_f8h]
+|           0x10013d3b8      a02300f0       adrp x0, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013d3bc      00e040f9       ldr x0, [x0, 0x1c0]        ; [0x1005b41c0:8]=0x8010000000000629
+|           0x10013d3c0      a2e303d1       sub x2, x29, 0xf8
+|           0x10013d3c4      e1031aaa       mov x1, x26
+|           0x10013d3c8      97410c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d3cc      fc0300aa       mov x28, x0
+|           0x10013d3d0      000080d2       mov x0, 0
+|           0x10013d3d4      e1031aaa       mov x1, x26
+|           0x10013d3d8      e2031caa       mov x2, x28
+|           0x10013d3dc      a4380c94       bl sym.imp.SwiftUI.VStack...VMa
+|           0x10013d3e0      f60300aa       mov x22, x0
+|           0x10013d3e4      08805ff8       ldur x8, [x0, -8]
+|           0x10013d3e8      a9a303d1       sub x9, x29, 0xe8
+|           0x10013d3ec      280110f8       stur x8, [x9, -0x100]
+|           0x10013d3f0      092140f9       ldr x9, [x8, 0x40]
+|           0x10013d3f4      283d0091       add x8, x9, 0xf
+|           0x10013d3f8      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x10013d3fc      b02300b0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10013d400      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x10013d404      00023fd6       blr x16
+|           0x10013d408      e9030091       mov x9, sp
+|           0x10013d40c      340108cb       sub x20, x9, x8
+|           0x10013d410      9f020091       mov sp, x20
+|           0x10013d414      000080d2       mov x0, 0
+|           0x10013d418      e10316aa       mov x1, x22
+|           0x10013d41c      a22300d0       adrp x2, reloc.EKEventStore ; 0x1005b3000
+|           0x10013d420      427845f9       ldr x2, [x2, 0xaf0]        ; [0x1005b3af0:8]=0x801000000000054f
+|           0x10013d424      9f340c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013d428      f90300aa       mov x25, x0
+|           0x10013d42c      08805ff8       ldur x8, [x0, -8]
+|           0x10013d430      a96303d1       sub x9, x29, 0xd8
+|           0x10013d434      280110f8       stur x8, [x9, -0x100]
+|           0x10013d438      092140f9       ldr x9, [x8, 0x40]
+|           0x10013d43c      283d0091       add x8, x9, 0xf
+|           0x10013d440      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x10013d444      b02300b0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10013d448      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x10013d44c      00023fd6       blr x16
+|           0x10013d450      e9030091       mov x9, sp
+|           0x10013d454      380108cb       sub x24, x9, x8
+|           0x10013d458      1f030091       mov sp, x24
+|           0x10013d45c      000080d2       mov x0, 0
+|           0x10013d460      e10319aa       mov x1, x25
+|           0x10013d464      e20317aa       mov x2, x23
+|           0x10013d468      8e340c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013d46c      f70300aa       mov x23, x0
+|           0x10013d470      08805ff8       ldur x8, [x0, -8]
+|           0x10013d474      a94303d1       sub x9, x29, 0xd0
+|           0x10013d478      280110f8       stur x8, [x9, -0x100]
+|           0x10013d47c      092140f9       ldr x9, [x8, 0x40]
+|           0x10013d480      283d0091       add x8, x9, 0xf
+|           0x10013d484      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x10013d488      b02300b0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10013d48c      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x10013d490      00023fd6       blr x16
+|           0x10013d494      e9030091       mov x9, sp
+|           0x10013d498      350108cb       sub x21, x9, x8
+|           0x10013d49c      bf020091       mov sp, x21
+|           0x10013d4a0      e01f8052       mov w0, 0xff
+|           0x10013d4a4      e1031baa       mov x1, x27
+|           0x10013d4a8      a8c301d1       sub x8, x29, 0x70
+|           0x10013d4ac      020150f8       ldur x2, [x8, -0x100]
+|           0x10013d4b0      6c350c94       bl sym.imp.SwiftUI._AnimationModifier...VMa
+|           0x10013d4b4      e20300aa       mov x2, x0
+|           0x10013d4b8      a82303d1       sub x8, x29, 0xc8
+|           0x10013d4bc      000110f8       stur x0, [x8, -0x100]
+|           0x10013d4c0      000080d2       mov x0, 0
+|           0x10013d4c4      e10317aa       mov x1, x23
+|           0x10013d4c8      76340c94       bl sym.imp.SwiftUI.ModifiedContent...VMa
+|           0x10013d4cc      a80303d1       sub x8, x29, 0xc0
+|           0x10013d4d0      000110f8       stur x0, [x8, -0x100]
+|           0x10013d4d4      08805ff8       ldur x8, [x0, -8]
+|           0x10013d4d8      a9e302d1       sub x9, x29, 0xb8
+|           0x10013d4dc      280110f8       stur x8, [x9, -0x100]
+|           0x10013d4e0      092140f9       ldr x9, [x8, 0x40]
+|           0x10013d4e4      283d0091       add x8, x9, 0xf
+|           0x10013d4e8      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x10013d4ec      b02300b0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10013d4f0      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x10013d4f4      00023fd6       blr x16
+|           0x10013d4f8      e9030091       mov x9, sp
+|           0x10013d4fc      280108cb       sub x8, x9, x8
+|           0x10013d500      a98303d1       sub x9, x29, 0xe0
+|           0x10013d504      280110f8       stur x8, [x9, -0x100]
+|           0x10013d508      1f010091       mov sp, x8
+|           0x10013d50c      a88300d1       sub x8, x29, 0x20
+|           0x10013d510      1b0110f8       stur x27, [x8, -0x100]
+|           0x10013d514      a8c302d1       sub x8, x29, 0xb0
+|           0x10013d518      0001d03c       ldur q0, [x8, -0x100]
+|           0x10013d51c      a86300d1       sub x8, x29, 0x18
+|           0x10013d520      0001903c       stur q0, [x8, -0x100]
+|           0x10013d524      a86302d1       sub x8, x29, 0x98
+|           0x10013d528      1b0150f8       ldur x27, [x8, -0x100]
+|           0x10013d52c      a82300d1       sub x8, x29, 8
+|           0x10013d530      1b0110f8       stur x27, [x8, -0x100]
+|           0x10013d534      63350c94       bl sym.imp.SwiftUI.HorizontalAlignment.center_...vgZ_ ; SwiftUI.HorizontalAlignment.center(...vgZ)
+|           0x10013d538      230000d0       adrp x3, 0x100143000
+|           0x10013d53c      63c02191       add x3, x3, 0x870
+|           0x10013d540      a4c304d1       sub x4, x29, 0x130
+|           0x10013d544      e80314aa       mov x8, x20
+|           0x10013d548      010080d2       mov x1, 0
+|           0x10013d54c      22008052       mov w2, 1
+|           0x10013d550      e5031aaa       mov x5, x26
+|           0x10013d554      e6031caa       mov x6, x28
+|           0x10013d558      42380c94       bl sym.imp.SwiftUI.VStack.alignment.spacing.content.HorizontalAlignment.CoreGraphics.CGFloat...VSgxyXEtcfC
+|           0x10013d55c      3a360c94       bl sym.imp.SwiftUI.Edge.Set.horizontal_...vgZ_ ; SwiftUI.Edge.Set.horizontal(...vgZ)
+|           0x10013d560      fa0300aa       mov x26, x0
+|           0x10013d564      7c0f40f9       ldr x28, [x27, 0x18]
+|           0x10013d568      a02300f0       adrp x0, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013d56c      000847f9       ldr x0, [x0, 0xe10]        ; [0x1005b4e10:8]=0x80100000000007b3 ; reloc.SwiftUI.VStack...VyxGAA4ViewAAMc
+|           0x10013d570      e10316aa       mov x1, x22
+|           0x10013d574      2c410c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d578      f30300aa       mov x19, x0
+|           0x10013d57c      e80318aa       mov x8, x24
+|           0x10013d580      e0031aaa       mov x0, x26
+|           0x10013d584      e1031caa       mov x1, x28
+|           0x10013d588      02008052       mov w2, 0
+|           0x10013d58c      e30316aa       mov x3, x22
+|           0x10013d590      e40313aa       mov x4, x19
+|           0x10013d594      5b370c94       bl sym.imp.SwiftUI.View..Co.CGFloat...VSgtF
+|           0x10013d598      a8a303d1       sub x8, x29, 0xe8
+|           0x10013d59c      080150f8       ldur x8, [x8, -0x100]
+|           0x10013d5a0      080540f9       ldr x8, [x8, 8]
+|           0x10013d5a4      e00314aa       mov x0, x20
+|           0x10013d5a8      e10316aa       mov x1, x22
+|           0x10013d5ac      00013fd6       blr x8
+|           0x10013d5b0      a84302d1       sub x8, x29, 0x90
+|           0x10013d5b4      1c0150f8       ldur x28, [x8, -0x100]
+|           0x10013d5b8      885f80b9       ldrsw x8, [x28, 0x5c]
+|           0x10013d5bc      686b6838       ldrb w8, [x27, x8]
+|           0x10013d5c0      1f050071       cmp w8, 1
+|           0x10013d5c4      0800d0d2       mov x8, 0x800000000000
+|           0x10013d5c8      280ae8f2       movk x8, 0x4051, lsl 48    ; 'Q@'
+|           0x10013d5cc      2908e8d2       mov x9, 0x4041000000000000
+|           0x10013d5d0      3401889a       csel x20, x9, x8, eq
+|           0x10013d5d4      98380c94       bl sym.imp.SwiftUI.Alignment.center_...vgZ_ ; SwiftUI.Alignment.center(...vgZ)
+|           0x10013d5d8      f60300aa       mov x22, x0
+|           0x10013d5dc      fa0301aa       mov x26, x1
+|           0x10013d5e0      a80301d1       sub x8, x29, 0x40
+|           0x10013d5e4      130110f8       stur x19, [x8, -0x100]
+|           0x10013d5e8      a82300d0       adrp x8, reloc.EKEventStore ; 0x1005b3000
+|           0x10013d5ec      087145f9       ldr x8, [x8, 0xae0]        ; [0x1005b3ae0:8]=0x801000000000054d
+|           0x10013d5f0      a9e300d1       sub x9, x29, 0x38
+|           0x10013d5f4      280110f8       stur x8, [x9, -0x100]
+|           0x10013d5f8      a20305d1       sub x2, x29, 0x140
+|           0x10013d5fc      a02300d0       adrp x0, reloc.EKEventStore ; 0x1005b3000
+|           0x10013d600      00f445f9       ldr x0, [x0, 0xbe8]        ; [0x1005b3be8:8]=0x801000000000056e
+|           0x10013d604      e10319aa       mov x1, x25
+|           0x10013d608      07410c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d60c      f30300aa       mov x19, x0
+|           0x10013d610      e80315aa       mov x8, x21
+|           0x10013d614      000080d2       mov x0, 0
+|           0x10013d618      21008052       mov w1, 1
+|           0x10013d61c      e20314aa       mov x2, x20
+|           0x10013d620      03008052       mov w3, 0
+|           0x10013d624      e40316aa       mov x4, x22
+|           0x10013d628      e5031aaa       mov x5, x26
+|           0x10013d62c      e60319aa       mov x6, x25
+|           0x10013d630      e70313aa       mov x7, x19
+|           0x10013d634      f40318aa       mov x20, x24
+|           0x10013d638      0e370c94       bl sym.imp.SwiftUI.View...Alignment...VtF
+|           0x10013d63c      a86303d1       sub x8, x29, 0xd8
+|           0x10013d640      080150f8       ldur x8, [x8, -0x100]
+|           0x10013d644      080540f9       ldr x8, [x8, 8]
+|           0x10013d648      e00318aa       mov x0, x24
+|           0x10013d64c      e10319aa       mov x1, x25
+|           0x10013d650      00013fd6       blr x8
+|           0x10013d654      e8e701b2       mov x8, -0x6666666666666667
+|           0x10013d658      483393f2       movk x8, 0x999a
+|           0x10013d65c      28f9e7f2       movk x8, 0x3fc9, lsl 48
+|           0x10013d660      0801679e       fmov d8, x8
+|           0x10013d664      01106e1e       fmov d1, 1.00000000
+|           0x10013d668      02e4006f       movi v2.2d, 0000000000000000
+|           0x10013d66c      001da84e       mov v0.16b, v8.16b
+|           0x10013d670      86380c94       bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+|           0x10013d674      f60300aa       mov x22, x0
+|           0x10013d678      944780b9       ldrsw x20, [x28, 0x44]
+|           0x10013d67c      000080d2       mov x0, 0
+|           0x10013d680      a8a301d1       sub x8, x29, 0x68
+|           0x10013d684      1c0150f8       ldur x28, [x8, -0x100]
+|           0x10013d688      e1031caa       mov x1, x28
+|           0x10013d68c      16380c94       bl sym.imp.SwiftUI.Binding...VMa
+|           0x10013d690      7403148b       add x20, x27, x20
+|           0x10013d694      a82302d1       sub x8, x29, 0x88
+|           0x10013d698      180150f8       ldur x24, [x8, -0x100]
+|           0x10013d69c      e80318aa       mov x8, x24
+|           0x10013d6a0      ff370c94       bl sym.imp.SwiftUI.Binding.wrappedValue_...g_ ; SwiftUI.Binding.wrappedValue(...g)
+|           0x10013d6a4      a82300d0       adrp x8, reloc.EKEventStore ; 0x1005b3000
+|           0x10013d6a8      080944f9       ldr x8, [x8, 0x810]        ; [0x1005b3810:8]=0x80100000000004f4 ; reloc.SwiftUI._FrameLayout...VAA12ViewModifierAAWP
+|           0x10013d6ac      a94301d1       sub x9, x29, 0x50
+|           0x10013d6b0      330110f8       stur x19, [x9, -0x100]
+|           0x10013d6b4      a92301d1       sub x9, x29, 0x48
+|           0x10013d6b8      280110f8       stur x8, [x9, -0x100]
+|           0x10013d6bc      a24305d1       sub x2, x29, 0x150
+|           0x10013d6c0      b92300d0       adrp x25, reloc.EKEventStore ; 0x1005b3000
+|           0x10013d6c4      39f745f9       ldr x25, [x25, 0xbe8]      ; [0x1005b3be8:8]=0x801000000000056e
+|           0x10013d6c8      e00319aa       mov x0, x25
+|           0x10013d6cc      e10317aa       mov x1, x23
+|           0x10013d6d0      d5400c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d6d4      f30300aa       mov x19, x0
+|           0x10013d6d8      a88303d1       sub x8, x29, 0xe0
+|           0x10013d6dc      1a0150f8       ldur x26, [x8, -0x100]
+|           0x10013d6e0      e8031aaa       mov x8, x26
+|           0x10013d6e4      e00316aa       mov x0, x22
+|           0x10013d6e8      e10318aa       mov x1, x24
+|           0x10013d6ec      e20317aa       mov x2, x23
+|           0x10013d6f0      e3031caa       mov x3, x28
+|           0x10013d6f4      e40313aa       mov x4, x19
+|           0x10013d6f8      a9c301d1       sub x9, x29, 0x70
+|           0x10013d6fc      250150f8       ldur x5, [x9, -0x100]
+|           0x10013d700      f40315aa       mov x20, x21
+|           0x10013d704      14370c94       bl sym.imp.SwiftUI.View....tSQRd__lF
+|           0x10013d708      e00316aa       mov x0, x22                ; void *arg0
+|           0x10013d70c      ed400c94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x10013d710      a80302d1       sub x8, x29, 0x80
+|           0x10013d714      080150f8       ldur x8, [x8, -0x100]
+|           0x10013d718      080540f9       ldr x8, [x8, 8]
+|           0x10013d71c      e00318aa       mov x0, x24
+|           0x10013d720      e1031caa       mov x1, x28
+|           0x10013d724      00013fd6       blr x8
+|           0x10013d728      a84303d1       sub x8, x29, 0xd0
+|           0x10013d72c      080150f8       ldur x8, [x8, -0x100]
+|           0x10013d730      080540f9       ldr x8, [x8, 8]
+|           0x10013d734      e00315aa       mov x0, x21
+|           0x10013d738      e10317aa       mov x1, x23
+|           0x10013d73c      00013fd6       blr x8
+|           0x10013d740      01106e1e       fmov d1, 1.00000000
+|           0x10013d744      02e4006f       movi v2.2d, 0000000000000000
+|           0x10013d748      001da84e       mov v0.16b, v8.16b
+|           0x10013d74c      4f380c94       bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+|           0x10013d750      f50300aa       mov x21, x0
+|           0x10013d754      f4031baa       mov x20, x27
+|           0x10013d758      17fcff97       bl sym.func.10013c7b4
+|           0x10013d75c      08000012       and w8, w0, 1
+|           0x10013d760      a9c300d1       sub x9, x29, 0x30
+|           0x10013d764      28011038       sturb w8, [x9, -0x100]
+|           0x10013d768      a02300f0       adrp x0, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+|           0x10013d76c      001c40f9       ldr x0, [x0, 0x38]         ; [0x1005b4038:8]=0x80100000000005f8 ; reloc.SwiftUI._AnimationModifier...VyxGAA04ViewD0AAMc
+|           0x10013d770      a82303d1       sub x8, x29, 0xc8
+|           0x10013d774      010150f8       ldur x1, [x8, -0x100]
+|           0x10013d778      ab400c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d77c      a88301d1       sub x8, x29, 0x60
+|           0x10013d780      130110f8       stur x19, [x8, -0x100]
+|           0x10013d784      a86301d1       sub x8, x29, 0x58
+|           0x10013d788      000110f8       stur x0, [x8, -0x100]
+|           0x10013d78c      a28305d1       sub x2, x29, 0x160
+|           0x10013d790      e00319aa       mov x0, x25
+|           0x10013d794      a80303d1       sub x8, x29, 0xc0
+|           0x10013d798      130150f8       ldur x19, [x8, -0x100]
+|           0x10013d79c      e10313aa       mov x1, x19
+|           0x10013d7a0      a1400c94       bl sym.imp.swift_getWitnessTable
+|           0x10013d7a4      e40300aa       mov x4, x0
+|           0x10013d7a8      a1c304d1       sub x1, x29, 0x130
+|           0x10013d7ac      a8e301d1       sub x8, x29, 0x78
+|           0x10013d7b0      080150f8       ldur x8, [x8, -0x100]
+|           0x10013d7b4      e00315aa       mov x0, x21
+|           0x10013d7b8      e20313aa       mov x2, x19
+|           0x10013d7bc      c3230090       adrp x3, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|           0x10013d7c0      63fc43f9       ldr x3, [x3, 0x7f8]        ; [0x1005b57f8:8]=0x80100000000008e5 ; reloc....SbN
+|           0x10013d7c4      c5230090       adrp x5, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|           0x10013d7c8      a50044f9       ldr x5, [x5, 0x800]        ; [0x1005b5800:8]=0x80100000000008e6 ; reloc....SbSQsWP
+|           0x10013d7cc      f4031aaa       mov x20, x26
+|           0x10013d7d0      e1360c94       bl sym.imp.SwiftUI.View....tSQRd__lF
+|           0x10013d7d4      e00315aa       mov x0, x21                ; void *arg0
+|           0x10013d7d8      ba400c94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x10013d7dc      a8e302d1       sub x8, x29, 0xb8
+|           0x10013d7e0      080150f8       ldur x8, [x8, -0x100]
+|           0x10013d7e4      080540f9       ldr x8, [x8, 8]
+|           0x10013d7e8      e0031aaa       mov x0, x26
+|           0x10013d7ec      e10313aa       mov x1, x19
+|           0x10013d7f0      00013fd6       blr x8
+|           0x10013d7f4      bf8301d1       sub sp, x29, 0x60
+|           0x10013d7f8      fd7b46a9       ldp x29, x30, [var_60h]
+|           0x10013d7fc      f44f45a9       ldp x20, x19, [var_50h]
+|           0x10013d800      f65744a9       ldp x22, x21, [var_40h]
+|           0x10013d804      f85f43a9       ldp x24, x23, [var_30h]
+|           0x10013d808      fa6742a9       ldp x26, x25, [var_20h]
+|           0x10013d80c      fc6f41a9       ldp x28, x27, [var_10h]
+|           0x10013d810      e923c76c       ldp d9, d8, [sp], 0x70
+\           0x10013d814      c0035fd6       ret

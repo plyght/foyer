@@ -1,0 +1,12 @@
+objc[9989]: class `NSKVONotifying_AVCaptureScreenInput' not linked into application
+objc[9989]: class `NSKVONotifying_AVCaptureScreenInput' not linked into application
+objc[9989]: class `NSKVONotifying_AVCaptureScreenInput' not linked into application
+[in#0 @ 0xbfcc18000] Selected pixel format (yuv420p) is not supported by the input device.
+[in#0 @ 0xbfcc18000] Supported pixel formats:
+[in#0 @ 0xbfcc18000]   uyvy422
+[in#0 @ 0xbfcc18000]   yuyv422
+[in#0 @ 0xbfcc18000]   nv12
+[in#0 @ 0xbfcc18000]   0rgb
+[in#0 @ 0xbfcc18000]   bgr0
+IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
+1600,1200,60/1,2497

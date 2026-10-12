@@ -1,0 +1,165 @@
+Read-only interval, decoder and URLSession download-call excerpts; credential preparation excluded.
+
+FUNCTION sym.func.10027b5f4 0x10027ba20-0x10027ba90
+000000010027ba20	adrp	x8, 823 ; 0x1005b2000
+000000010027ba24	ldr	x8, [x8, #0xbb0] ; literal pool symbol address: _NSRunLoopCommonModes
+000000010027ba28	ldr	x23, [x8]
+000000010027ba2c	mov	x0, #0x0
+000000010027ba30	bl	0x10044c578 ; symbol stub for: _$sSo9NSRunLoopC10FoundationE16SchedulerOptionsVMa
+000000010027ba34	mov	x3, x0
+000000010027ba38	ldur	x8, [x0, #-0x8]
+000000010027ba3c	ldr	x8, [x8, #0x38]
+000000010027ba40	mov	x0, x21
+000000010027ba44	mov	w1, #0x1
+000000010027ba48	mov	w2, #0x1
+000000010027ba4c	blr	x8
+000000010027ba50	mov	x8, #0x180000000000
+000000010027ba54	movk	x8, #0x40d5, lsl #48
+000000010027ba58	fmov	d0, x8
+000000010027ba5c	mov	x0, #0x0
+000000010027ba60	mov	w1, #0x1
+000000010027ba64	mov	x2, x22
+000000010027ba68	mov	x3, x23
+000000010027ba6c	mov	x4, x21
+000000010027ba70	bl	0x10044c50c ; symbol stub for: _$sSo7NSTimerC10FoundationE7publish5every9tolerance2on2in7optionsAbCE14TimerPublisherCSd_SdSgSo9NSRunLoopCSo0kL4ModeaAnCE16SchedulerOptionsVSgtFZ
+000000010027ba74	mov	x23, x0
+000000010027ba78	mov	x0, x22
+000000010027ba7c	bl	0x10044d6a0 ; symbol stub for: _objc_release
+000000010027ba80	adrp	x1, 859 ; 0x1005d6000
+000000010027ba84	add	x1, x1, #0x5e0
+000000010027ba88	adrp	x2, 484 ; 0x10045f000
+000000010027ba8c	add	x2, x2, #0xb00
+
+
+FUNCTION sym.func.10027cddc 0x10027ce40-0x10027cf14
+000000010027ce40	b.hi	0x10027cfac
+000000010027ce44	mov	x0, #0x0
+000000010027ce48	bl	0x100449608 ; symbol stub for: _$s10Foundation11JSONDecoderCMa
+000000010027ce4c	ldr	w1, [x0, #0x30]
+000000010027ce50	ldrh	w2, [x0, #0x34]
+000000010027ce54	bl	0x10044d778 ; symbol stub for: _swift_allocObject
+000000010027ce58	mov	x20, x0
+000000010027ce5c	bl	0x1004495fc ; symbol stub for: _$s10Foundation11JSONDecoderCACycfc
+000000010027ce60	mov	x19, x0
+000000010027ce64	bl	0x1002867f4
+000000010027ce68	mov	x4, x0
+000000010027ce6c	adrp	x0, 801 ; 0x10059d000
+000000010027ce70	add	x0, x0, #0x1b8
+000000010027ce74	add	x8, x22, #0x10
+000000010027ce78	mov	x1, x24
+000000010027ce7c	mov	x2, x23
+000000010027ce80	mov	x3, x0
+000000010027ce84	mov	x20, x19
+000000010027ce88	bl	0x1004495f0 ; symbol stub for: _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+000000010027ce8c	ldp	x23, x25, [x22, #0x158]
+000000010027ce90	ldr	x24, [x22, #0x150]
+000000010027ce94	ldr	x8, [x22, #0x138]
+000000010027ce98	str	x8, [sp, #0x50]
+000000010027ce9c	cbz	x21, 0x10027d01c
+000000010027cea0	ldr	x9, [x22, #0xe0]
+000000010027cea4	ldp	x8, x20, [x22, #0xc8]
+000000010027cea8	stp	x8, x9, [sp, #0x40]
+000000010027ceac	ldp	x26, x27, [x22, #0xb0]
+000000010027ceb0	ldr	x28, [x22, #0xa8]
+000000010027ceb4	mov	x0, x19
+000000010027ceb8	bl	0x10044dac0 ; symbol stub for: _swift_release
+000000010027cebc	bl	0x100286774
+000000010027cec0	mov	x1, x0
+000000010027cec4	adrp	x0, 801 ; 0x10059d000
+000000010027cec8	add	x0, x0, #0x5f0
+000000010027cecc	mov	x2, #0x0
+000000010027ced0	mov	w3, #0x0
+000000010027ced4	bl	0x10044d76c ; symbol stub for: _swift_allocError
+000000010027ced8	mov	x19, x0
+000000010027cedc	stp	xzr, xzr, [x1, #0x8]
+000000010027cee0	str	x21, [x1]
+000000010027cee4	strb	wzr, [x1, #0x18]
+000000010027cee8	mov	x21, x0
+000000010027ceec	bl	0x10044dc58 ; symbol stub for: _swift_willThrow
+000000010027cef0	mov	x0, x25
+000000010027cef4	bl	0x10044d6a0 ; symbol stub for: _objc_release
+000000010027cef8	mov	x0, x24
+000000010027cefc	mov	x1, x23
+000000010027cf00	bl	0x1000f9a10
+000000010027cf04	ldr	x8, [x26, #0x8]
+000000010027cf08	mov	x0, x27
+000000010027cf0c	mov	x1, x28
+000000010027cf10	blr	x8
+
+
+FUNCTION sym.func.10027cddc 0x10027cfb0-0x10027d048
+000000010027cfb0	bl	0x100449608 ; symbol stub for: _$s10Foundation11JSONDecoderCMa
+000000010027cfb4	ldr	w1, [x0, #0x30]
+000000010027cfb8	ldrh	w2, [x0, #0x34]
+000000010027cfbc	bl	0x10044d778 ; symbol stub for: _swift_allocObject
+000000010027cfc0	mov	x20, x0
+000000010027cfc4	bl	0x1004495fc ; symbol stub for: _$s10Foundation11JSONDecoderCACycfc
+000000010027cfc8	mov	x20, x0
+000000010027cfcc	bl	0x1002867b4
+000000010027cfd0	mov	x4, x0
+000000010027cfd4	adrp	x0, 801 ; 0x10059d000
+000000010027cfd8	add	x0, x0, #0x558
+000000010027cfdc	add	x8, x22, #0x80
+000000010027cfe0	mov	x1, x24
+000000010027cfe4	mov	x2, x23
+000000010027cfe8	mov	x3, x0
+000000010027cfec	bl	0x1004495f0 ; symbol stub for: _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+000000010027cff0	cbz	x21, 0x10027d11c
+000000010027cff4	mov	x0, x21
+000000010027cff8	bl	0x10044d8ec ; symbol stub for: _swift_errorRelease
+000000010027cffc	mov	x0, x20
+000000010027d000	bl	0x10044dac0 ; symbol stub for: _swift_release
+000000010027d004	mov	x0, x19
+000000010027d008	bl	0x100452b40 ; objc statusCode
+000000010027d00c	str	x0, [sp, #0x40]
+000000010027d010	mov	x26, #0x0
+000000010027d014	mov	x21, #0x0
+000000010027d018	b	0x10027d13c
+000000010027d01c	ldrb	w8, [x22, #0x7a]
+000000010027d020	str	w8, [sp, #0x48]
+000000010027d024	ldp	x9, x21, [x22, #0xd8]
+000000010027d028	ldp	x8, x10, [x22, #0xc8]
+000000010027d02c	str	x10, [sp, #0x10]
+000000010027d030	str	x8, [sp, #0x20]
+000000010027d034	ldp	x28, x8, [x22, #0xb8]
+000000010027d038	stp	x9, x8, [sp, #0x38]
+000000010027d03c	ldp	x26, x27, [x22, #0xa8]
+000000010027d040	ldr	x20, [x22, #0x98]
+000000010027d044	mov	x0, x25
+
+
+FUNCTION sym.func.10027e734 0x10027e8a0-0x10027e928
+000000010027e8a0	mov	x8, #-0x3333333333333334
+000000010027e8a4	movk	x8, #0xcccd
+000000010027e8a8	movk	x8, #0x3fcc, lsl #48
+000000010027e8ac	fmov	d0, x8
+000000010027e8b0	blr	x24
+000000010027e8b4	mov	x0, x24
+000000010027e8b8	mov	x1, x20
+000000010027e8bc	bl	0x10016e2d8
+000000010027e8c0	ldp	x21, x1, [x29, #-0x68]
+000000010027e8c4	ldr	x8, [x21, #0x10]
+000000010027e8c8	mov	x0, x22
+000000010027e8cc	ldur	x19, [x29, #-0x58]
+000000010027e8d0	mov	x2, x19
+000000010027e8d4	blr	x8
+000000010027e8d8	mov	x20, x22
+000000010027e8dc	bl	0x100449584 ; symbol stub for: _$s10Foundation10URLRequestV19_bridgeToObjectiveCSo12NSURLRequestCyF
+000000010027e8e0	mov	x20, x0
+000000010027e8e4	ldr	x8, [x21, #0x8]
+000000010027e8e8	mov	x0, x22
+000000010027e8ec	mov	x1, x19
+000000010027e8f0	blr	x8
+000000010027e8f4	mov	x0, x23
+000000010027e8f8	mov	x2, x20
+000000010027e8fc	bl	0x10044f0e0 ; objc downloadTaskWithRequest:
+000000010027e900	mov	x29, x29
+000000010027e904	bl	0x10044d6c4 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+000000010027e908	mov	x19, x0
+000000010027e90c	mov	x0, x20
+000000010027e910	bl	0x10044d6a0 ; symbol stub for: _objc_release
+000000010027e914	mov	x0, x19
+000000010027e918	bl	0x100450fc0 ; objc resume
+000000010027e91c	mov	x0, x19
+000000010027e920	bl	0x10044d6a0 ; symbol stub for: _objc_release
+000000010027e924	sub	sp, x29, #0x50

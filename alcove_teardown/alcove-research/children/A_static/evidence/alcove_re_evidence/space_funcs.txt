@@ -1,0 +1,800 @@
+  ; CALL XREF from sym.func.100128054 @ 0x100128678(x)
+264: sym.func.100127f4c (int64_t arg1);
+`- args(x0) vars(6:sp[0x8..0x48])
+0x100127f4c      sub sp, sp, 0x50
+0x100127f50      stp x20, x19, [var_30h]
+0x100127f54      stp x29, x30, [var_40h]
+0x100127f58      add x29, sp, 0x40
+0x100127f5c      mov x20, x0                                           ; arg1
+0x100127f60      adrp x8, 0x1005cf000
+0x100127f64      ldr x8, [x8, 0x188]
+0x100127f68      cmn x8, 1
+0x100127f6c      b.ne 0x100127ff8
+0x100127f70      ldr x8, [x20, 0x10]
+0x100127f74      cbz x8, 0x100128014
+; CODE XREF from sym.func.100127f4c @ 0x100128010(x)
+0x100127f78      adrp x8, 0x1005cf000
+0x100127f7c      add x8, x8, 0x190
+0x100127f80      ldp x0, x1, [x8]                                      ; int64_t arg2
+0x100127f84      bl sym.func.10011f3f8
+0x100127f88      tbz w1, 0, 0x100128014
+0x100127f8c      ldr x8, [x20, 0x38]
+0x100127f90      add x0, x8, x0, lsl 5                                 ; int64_t arg1
+0x100127f94      add x1, sp, 0x10                                      ; int64_t arg2
+0x100127f98      bl sym.func.100009d48
+0x100127f9c      adrp x1, 0x1005ca000
+0x100127fa0      add x1, x1, 0xf38                                     ; int64_t arg2
+0x100127fa4      adrp x2, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x100127fa8      add x2, x2, 0x3f8
+0x100127fac      mov x0, 0                                             ; int64_t arg1
+0x100127fb0      bl sym.func.10006ab70
+0x100127fb4      mov x3, x0
+0x100127fb8      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x100127fbc      ldr x8, [x8, 0x210]                                   ; [0x1005b6210:8]=0
+                                                                       ; reloc....ypN
+0x100127fc0      add x0, sp, 8
+0x100127fc4      add x1, sp, 0x10
+0x100127fc8      add x2, x8, 8
+0x100127fcc      mov w4, 6
+0x100127fd0      bl sym.imp.swift_dynamicCast
+0x100127fd4      tbz w0, 0, 0x100128014
+0x100127fd8      ldr x19, [var_8h]
+0x100127fdc      mov x0, x19
+0x100127fe0      bl fcn.100453060
+0x100127fe4      mov x20, x0
+0x100127fe8      mov x0, x19                                           ; void *instance
+0x100127fec      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100127ff0      ubfx w0, w20, 2, 1
+0x100127ff4      b 0x100128044
+; CODE XREF from sym.func.100127f4c @ 0x100127f6c(x)
+0x100127ff8      adrp x0, 0x1005cf000
+0x100127ffc      add x0, x0, 0x188
+0x100128000      adrp x1, 0x100127000
+0x100128004      add x1, x1, 0xd98
+0x100128008      bl sym.imp.swift_once
+0x10012800c      ldr x8, [x20, 0x10]
+0x100128010      cbnz x8, 0x100127f78
+; CODE XREFS from sym.func.100127f4c @ 0x100127f74(x), 0x100127f88(x), 0x100127fd4(x)
+0x100128014      mov x0, x20                                           ; int64_t arg1
+0x100128018      bl sym.func.100127dd0
+0x10012801c      and w8, w1, 0xff
+0x100128020      cmp w8, 1
+0x100128024      b.ne 0x100128030
+0x100128028      mov w0, 2
+0x10012802c      b 0x100128044
+; CODE XREF from sym.func.100127f4c @ 0x100128024(x)
+0x100128030      mov x19, x0
+0x100128034      bl sym.imp.CGSMainConnectionID
+0x100128038      mov x1, x19
+0x10012803c      bl sym.imp.CGSSpaceGetType
+0x100128040      ubfx w0, w0, 2, 1
+; CODE XREFS from sym.func.100127f4c @ 0x100127ff4(x), 0x10012802c(x)
+0x100128044      ldp x29, x30, [var_40h]
+0x100128048      ldp x20, x19, [var_30h]
+0x10012804c      add sp, sp, 0x50                                      ; 0x178000
+0x100128050      ret
+  ; CALL XREF from sym.func.1002079d0 @ 0x100207a88(x)
+  ; CALL XREF from sym.func.100208b24 @ 0x100208b58(x)
+  ; CALL XREF from sym.func.100208ec4 @ 0x100208ef8(x)
+1624: sym.func.100128054 (int64_t arg1);
+`- args(x21, x0) vars(17:sp[0x8..0x98])
+0x100128054      sub sp, sp, 0xa0
+0x100128058      stp x28, x27, [var_40h]
+0x10012805c      stp x26, x25, [var_50h]
+0x100128060      stp x24, x23, [var_60h]
+0x100128064      stp x22, x21, [var_70h]
+0x100128068      stp x20, x19, [var_80h]
+0x10012806c      stp x29, x30, [var_90h]
+0x100128070      add x29, sp, 0x90
+0x100128074      mov x20, x0                                           ; arg1
+0x100128078      bl sym.imp.CGSMainConnectionID
+0x10012807c      bl sym.imp.CGSCopyManagedDisplaySpaces
+0x100128080      cbz x0, 0x10012856c
+0x100128084      mov x21, x0                                           ; error
+0x100128088      adrp x8, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x10012808c      ldr x0, [x8, 0xbc8]                                   ; [0x1005b2bc8:8]=0
+                                                                       ; reloc.NSArray ; void *arg0
+0x100128090      bl sym.imp.objc_opt_self                              ; void *objc_opt_self(void *arg0)
+0x100128094      mov x1, x0
+0x100128098      mov x0, x21
+0x10012809c      bl sym.imp.swift_dynamicCastObjCClass
+0x1001280a0      cbz x0, 0x100128258
+0x1001280a4      mov x22, x0
+0x1001280a8      str xzr, [var_clob_20h]
+0x1001280ac      adrp x0, 0x1005cf000
+0x1001280b0      add x0, x0, 0x120                                     ; 0x1005cf120
+                                                                       ; aav.0x1005cf120 ; int64_t arg1
+0x1001280b4      adrp x1, 0x100474000
+0x1001280b8      add x1, x1, 0x200                                     ; int64_t arg2
+0x1001280bc      bl sym.func.100002b1c
+0x1001280c0      mov x24, x0
+0x1001280c4      add x1, sp, 0x20
+0x1001280c8      mov x0, x22
+0x1001280cc      mov x2, x24
+0x1001280d0      bl sym.imp.Foundation_...ayxGSgztFZ_                  ; Foundation(...ayxGSgztFZ)
+0x1001280d4      mov x0, x21                                           ; void *instance
+0x1001280d8      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1001280dc      ldr x21, [var_clob_20h]
+0x1001280e0      cbz x21, 0x10012856c
+0x1001280e4      bl sym.func.10020beec
+0x1001280e8      str x24, [var_clob_8h]
+0x1001280ec      cbz x1, 0x100128270
+0x1001280f0      mov x20, x1
+0x1001280f4      bl sym.imp.lowercased__String_...yF_                  ; lowercased__String(...yF)
+0x1001280f8      mov x23, x0
+0x1001280fc      mov x28, x1
+0x100128100      mov x0, x20                                           ; void *arg0
+0x100128104      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x100128108      ldr x26, [x21, 0x10]
+0x10012810c      cbz x26, 0x100128264
+0x100128110      mov x24, 0
+0x100128114      adrp x19, 0x1005cf000
+0x100128118      adrp x22, 0x1005cf000
+0x10012811c      add x22, x22, 0x148
+0x100128120      adrp x27, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+0x100128124      ldr x27, [x27, 0x648]                                 ; [0x1005b5648:8]=0
+                                                                       ; reloc....SSN
+0x100128128      b 0x100128140
+; CODE XREFS from sym.func.100128054 @ 0x10012816c(x), 0x100128178(x), 0x1001281ac(x), 0x100128254(x)
+0x10012812c      mov x0, x20                                           ; void *arg0
+0x100128130      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+; CODE XREF from sym.func.100128054 @ 0x100128234(x)
+0x100128134      add x24, x24, 1
+0x100128138      cmp x26, x24
+0x10012813c      b.eq 0x100128264
+; CODE XREF from sym.func.100128054 @ 0x100128128(x)
+0x100128140      ldr x8, [x21, 0x10]
+0x100128144      cmp x24, x8
+0x100128148      b.hs 0x100128614
+0x10012814c      add x8, x21, x24, lsl 3
+0x100128150      ldr x20, [x8, 0x20]
+0x100128154      ldr x25, [x19, 0x140]
+0x100128158      mov x0, x20                                           ; void *arg0
+0x10012815c      bl sym.imp.swift_bridgeObjectRetain                   ; void *swift_bridgeObjectRetain(void *arg0)
+0x100128160      cmn x25, 1
+0x100128164      b.ne 0x100128238
+0x100128168      ldr x8, [x20, 0x10]
+0x10012816c      cbz x8, 0x10012812c
+; CODE XREF from sym.func.100128054 @ 0x100128250(x)
+0x100128170      ldp x0, x1, [x22]                                     ; int64_t arg2
+0x100128174      bl sym.func.10011f3f8
+0x100128178      tbz w1, 0, 0x10012812c
+0x10012817c      ldr x8, [x20, 0x38]
+0x100128180      add x0, x8, x0, lsl 5                                 ; int64_t arg1
+0x100128184      add x1, sp, 0x20                                      ; int64_t arg2
+0x100128188      bl sym.func.100009d48
+0x10012818c      add x0, sp, 0x10
+0x100128190      add x1, sp, 0x20
+0x100128194      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x100128198      ldr x8, [x8, 0x210]                                   ; [0x1005b6210:8]=0
+                                                                       ; reloc....ypN
+0x10012819c      add x2, x8, 8
+0x1001281a0      mov x3, x27
+0x1001281a4      mov w4, 6
+0x1001281a8      bl sym.imp.swift_dynamicCast
+0x1001281ac      tbz w0, 0, 0x10012812c
+0x1001281b0      mov x22, x19
+0x1001281b4      mov x19, x23
+0x1001281b8      mov x23, x28
+0x1001281bc      ldp x0, x28, [var_10h]
+0x1001281c0      mov x1, x28
+0x1001281c4      bl sym.imp.lowercased__String_...yF_                  ; lowercased__String(...yF)
+0x1001281c8      mov x25, x0
+0x1001281cc      mov x27, x1
+0x1001281d0      mov x0, x28                                           ; void *arg0
+0x1001281d4      mov x28, x23
+0x1001281d8      mov x23, x19
+0x1001281dc      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x1001281e0      cmp x25, x19
+0x1001281e4      b.ne 0x1001281f0
+0x1001281e8      cmp x27, x28
+0x1001281ec      b.eq 0x1001285bc
+; CODE XREF from sym.func.100128054 @ 0x1001281e4(x)
+0x1001281f0      mov x0, x25
+0x1001281f4      mov x1, x27
+0x1001281f8      mov x2, x23
+0x1001281fc      mov x3, x28
+0x100128200      mov w4, 0
+0x100128204      bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+0x100128208      mov x25, x0
+0x10012820c      mov x0, x27                                           ; void *arg0
+0x100128210      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x100128214      tbnz w25, 0, 0x1001285c4
+0x100128218      mov x0, x20                                           ; void *arg0
+0x10012821c      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x100128220      mov x19, x22
+0x100128224      adrp x22, 0x1005cf000
+0x100128228      add x22, x22, 0x148
+0x10012822c      adrp x27, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+0x100128230      ldr x27, [x27, 0x648]                                 ; [0x1005b5648:8]=0
+                                                                       ; reloc....SSN
+0x100128234      b 0x100128134
+; CODE XREF from sym.func.100128054 @ 0x100128164(x)
+0x100128238      adrp x0, 0x1005cf000
+0x10012823c      add x0, x0, 0x140
+0x100128240      adrp x1, 0x100127000
+0x100128244      add x1, x1, 0xcf0
+0x100128248      bl sym.imp.swift_once
+0x10012824c      ldr x8, [x20, 0x10]
+0x100128250      cbnz x8, 0x100128170
+0x100128254      b 0x10012812c
+; CODE XREF from sym.func.100128054 @ 0x1001280a0(x)
+0x100128258      mov x0, x21                                           ; void *instance
+0x10012825c      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100128260      b 0x10012856c
+; CODE XREFS from sym.func.100128054 @ 0x10012810c(x), 0x10012813c(x)
+0x100128264      mov x0, x28                                           ; void *arg0
+0x100128268      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x10012826c      ldr x24, [var_clob_8h]
+; CODE XREFS from sym.func.100128054 @ 0x1001280ec(x), 0x10012866c(x), 0x100128690(x), 0x1001286a8(x)
+0x100128270      ldr x25, [x21, 0x10]
+0x100128274      cbz x25, 0x100128564
+0x100128278      mov x22, 0
+0x10012827c      adrp x23, 0x1005cf000
+0x100128280      add x23, x23, 0x130
+0x100128284      adrp x26, 0x1005cf000
+; CODE XREF from sym.func.100128054 @ 0x100128560(x)
+0x100128288      ldr x8, [x21, 0x10]
+0x10012828c      cmp x22, x8
+0x100128290      b.hs 0x100128610
+0x100128294      add x8, x21, x22, lsl 3
+0x100128298      ldr x27, [x8, 0x20]
+0x10012829c      ldr x19, [x26, 0x128]
+0x1001282a0      mov x0, x27                                           ; void *arg0
+0x1001282a4      bl sym.imp.swift_bridgeObjectRetain                   ; void *swift_bridgeObjectRetain(void *arg0)
+0x1001282a8      cmn x19, 1
+0x1001282ac      b.ne 0x100128394
+0x1001282b0      ldr x8, [x27, 0x10]
+0x1001282b4      cbz x8, 0x100128550
+; CODE XREF from sym.func.100128054 @ 0x1001283ac(x)
+0x1001282b8      ldp x0, x1, [x23]                                     ; int64_t arg2
+0x1001282bc      mov x20, x27
+0x1001282c0      bl sym.func.10011f3f8
+0x1001282c4      tbz w1, 0, 0x100128550
+0x1001282c8      ldr x8, [x27, 0x38]
+0x1001282cc      add x0, x8, x0, lsl 5                                 ; int64_t arg1
+0x1001282d0      add x1, sp, 0x20                                      ; int64_t arg2
+0x1001282d4      bl sym.func.100009d48
+0x1001282d8      add x0, sp, 0x10
+0x1001282dc      add x1, sp, 0x20
+0x1001282e0      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x1001282e4      ldr x8, [x8, 0x210]                                   ; [0x1005b6210:8]=0
+                                                                       ; reloc....ypN
+0x1001282e8      add x2, x8, 8
+0x1001282ec      mov x3, x24
+0x1001282f0      mov w4, 6
+0x1001282f4      bl sym.imp.swift_dynamicCast
+0x1001282f8      tbz w0, 0, 0x100128550
+0x1001282fc      ldr x20, [var_10h]
+0x100128300      adrp x8, 0x1005cf000
+0x100128304      ldr x8, [x8, 0x188]
+0x100128308      cmn x8, 1
+0x10012830c      b.ne 0x1001283b4
+0x100128310      ldr x8, [x20, 0x10]
+0x100128314      cbz x8, 0x1001283d0
+; CODE XREF from sym.func.100128054 @ 0x1001283cc(x)
+0x100128318      adrp x8, 0x1005cf000
+0x10012831c      add x8, x8, 0x190
+0x100128320      ldp x0, x1, [x8]                                      ; int64_t arg2
+0x100128324      bl sym.func.10011f3f8
+0x100128328      tbz w1, 0, 0x1001283d0
+0x10012832c      ldr x8, [x20, 0x38]
+0x100128330      add x0, x8, x0, lsl 5                                 ; int64_t arg1
+0x100128334      add x1, sp, 0x20                                      ; int64_t arg2
+0x100128338      bl sym.func.100009d48
+0x10012833c      mov x0, 0                                             ; int64_t arg1
+0x100128340      adrp x1, 0x1005ca000
+0x100128344      add x1, x1, 0xf38                                     ; int64_t arg2
+0x100128348      adrp x2, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x10012834c      add x2, x2, 0x3f8
+0x100128350      bl sym.func.10006ab70
+0x100128354      mov x3, x0
+0x100128358      add x0, sp, 0x10
+0x10012835c      add x1, sp, 0x20
+0x100128360      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x100128364      ldr x8, [x8, 0x210]                                   ; [0x1005b6210:8]=0
+                                                                       ; reloc....ypN
+0x100128368      add x2, x8, 8
+0x10012836c      mov w4, 6
+0x100128370      bl sym.imp.swift_dynamicCast
+0x100128374      tbz w0, 0, 0x1001283d0
+0x100128378      ldr x24, [var_10h]
+0x10012837c      mov x0, x24
+0x100128380      bl fcn.100453060
+0x100128384      mov x28, x0
+0x100128388      mov x0, x24                                           ; void *instance
+0x10012838c      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100128390      b 0x1001284e8
+; CODE XREF from sym.func.100128054 @ 0x1001282ac(x)
+0x100128394      adrp x0, 0x1005cf000
+0x100128398      add x0, x0, 0x128
+0x10012839c      adrp x1, 0x100127000
+0x1001283a0      add x1, x1, 0xcb8
+0x1001283a4      bl sym.imp.swift_once
+0x1001283a8      ldr x8, [x27, 0x10]
+0x1001283ac      cbnz x8, 0x1001282b8
+0x1001283b0      b 0x100128550
+; CODE XREF from sym.func.100128054 @ 0x10012830c(x)
+0x1001283b4      adrp x0, 0x1005cf000
+0x1001283b8      add x0, x0, 0x188
+0x1001283bc      adrp x1, 0x100127000
+0x1001283c0      add x1, x1, 0xd98
+0x1001283c4      bl sym.imp.swift_once
+0x1001283c8      ldr x8, [x20, 0x10]
+0x1001283cc      cbnz x8, 0x100128318
+; CODE XREFS from sym.func.100128054 @ 0x100128314(x), 0x100128328(x), 0x100128374(x)
+0x1001283d0      adrp x8, 0x1005cf000
+0x1001283d4      ldr x8, [x8, 0x158]                                   ; [0x1005cf158:8]=0
+                                                                       ; aav.0x1005cf158
+0x1001283d8      cmn x8, 1
+0x1001283dc      b.ne 0x10012850c
+0x1001283e0      ldr x8, [x20, 0x10]
+0x1001283e4      cbz x8, 0x100128448
+; CODE XREF from sym.func.100128054 @ 0x100128524(x)
+0x1001283e8      adrp x8, 0x1005cf000
+0x1001283ec      add x8, x8, 0x160
+0x1001283f0      ldp x0, x1, [x8]                                      ; int64_t arg2
+0x1001283f4      bl sym.func.10011f3f8
+0x1001283f8      tbz w1, 0, 0x100128448
+0x1001283fc      ldr x8, [x20, 0x38]
+0x100128400      add x0, x8, x0, lsl 5                                 ; int64_t arg1
+0x100128404      add x1, sp, 0x20                                      ; int64_t arg2
+0x100128408      bl sym.func.100009d48
+0x10012840c      mov x0, 0                                             ; int64_t arg1
+0x100128410      adrp x1, 0x1005ca000
+0x100128414      add x1, x1, 0xf38                                     ; int64_t arg2
+0x100128418      adrp x2, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x10012841c      add x2, x2, 0x3f8
+0x100128420      bl sym.func.10006ab70
+0x100128424      mov x3, x0
+0x100128428      add x0, sp, 0x10
+0x10012842c      add x1, sp, 0x20
+0x100128430      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x100128434      ldr x8, [x8, 0x210]                                   ; [0x1005b6210:8]=0
+                                                                       ; reloc....ypN
+0x100128438      add x2, x8, 8
+0x10012843c      mov w4, 6
+0x100128440      bl sym.imp.swift_dynamicCast
+0x100128444      cbnz w0, 0x1001284c0
+; CODE XREFS from sym.func.100128054 @ 0x1001283e4(x), 0x1001283f8(x), 0x100128528(x)
+0x100128448      adrp x8, 0x1005cf000
+0x10012844c      ldr x8, [x8, 0x170]
+0x100128450      cmn x8, 1
+0x100128454      b.ne 0x10012852c
+0x100128458      ldr x8, [x20, 0x10]
+0x10012845c      cbz x8, 0x100128548
+; CODE XREF from sym.func.100128054 @ 0x100128544(x)
+0x100128460      adrp x8, 0x1005cf000
+0x100128464      add x8, x8, 0x178
+0x100128468      ldp x0, x1, [x8]                                      ; int64_t arg2
+0x10012846c      bl sym.func.10011f3f8
+0x100128470      tbz w1, 0, 0x100128548
+0x100128474      ldr x8, [x20, 0x38]
+0x100128478      add x0, x8, x0, lsl 5                                 ; int64_t arg1
+0x10012847c      add x1, sp, 0x20                                      ; int64_t arg2
+0x100128480      bl sym.func.100009d48
+0x100128484      mov x0, 0                                             ; int64_t arg1
+0x100128488      adrp x1, 0x1005ca000
+0x10012848c      add x1, x1, 0xf38                                     ; int64_t arg2
+0x100128490      adrp x2, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x100128494      add x2, x2, 0x3f8
+0x100128498      bl sym.func.10006ab70
+0x10012849c      mov x3, x0
+0x1001284a0      add x0, sp, 0x10
+0x1001284a4      add x1, sp, 0x20
+0x1001284a8      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x1001284ac      ldr x8, [x8, 0x210]                                   ; [0x1005b6210:8]=0
+                                                                       ; reloc....ypN
+0x1001284b0      add x2, x8, 8
+0x1001284b4      mov w4, 6
+0x1001284b8      bl sym.imp.swift_dynamicCast
+0x1001284bc      tbz w0, 0, 0x100128548
+; CODE XREF from sym.func.100128054 @ 0x100128444(x)
+0x1001284c0      ldr x28, [var_10h]
+0x1001284c4      mov x0, x28
+0x1001284c8      bl fcn.100453080
+0x1001284cc      mov x24, x0
+0x1001284d0      mov x0, x28                                           ; void *instance
+0x1001284d4      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1001284d8      bl sym.imp.CGSMainConnectionID
+0x1001284dc      mov x1, x24
+0x1001284e0      bl sym.imp.CGSSpaceGetType
+0x1001284e4      mov x28, x0
+; CODE XREF from sym.func.100128054 @ 0x100128390(x)
+0x1001284e8      mov x0, x27                                           ; void *arg0
+0x1001284ec      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x1001284f0      mov x0, x20                                           ; void *arg0
+0x1001284f4      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x1001284f8      cmp w28, 4
+0x1001284fc      b.eq 0x1001285ac
+0x100128500      ldr x24, [var_clob_8h]
+0x100128504      tbz w28, 2, 0x100128558
+0x100128508      b 0x1001285ac
+; CODE XREF from sym.func.100128054 @ 0x1001283dc(x)
+0x10012850c      adrp x0, 0x1005cf000
+0x100128510      add x0, x0, 0x158                                     ; 0x1005cf158
+                                                                       ; aav.0x1005cf158
+0x100128514      adrp x1, 0x100127000
+0x100128518      add x1, x1, 0xd28
+0x10012851c      bl sym.imp.swift_once
+0x100128520      ldr x8, [x20, 0x10]
+0x100128524      cbnz x8, 0x1001283e8
+0x100128528      b 0x100128448
+; CODE XREF from sym.func.100128054 @ 0x100128454(x)
+0x10012852c      adrp x0, 0x1005cf000
+0x100128530      add x0, x0, 0x170
+0x100128534      adrp x1, 0x100127000
+0x100128538      add x1, x1, 0xd60
+0x10012853c      bl sym.imp.swift_once
+0x100128540      ldr x8, [x20, 0x10]
+0x100128544      cbnz x8, 0x100128460
+; CODE XREFS from sym.func.100128054 @ 0x10012845c(x), 0x100128470(x), 0x1001284bc(x)
+0x100128548      mov x0, x20                                           ; void *arg0
+0x10012854c      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+; CODE XREFS from sym.func.100128054 @ 0x1001282b4(x), 0x1001282c4(x), 0x1001282f8(x), 0x1001283b0(x)
+0x100128550      mov x0, x27                                           ; void *arg0
+0x100128554      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+; CODE XREF from sym.func.100128054 @ 0x100128504(x)
+0x100128558      add x22, x22, 1
+0x10012855c      cmp x25, x22
+0x100128560      b.ne 0x100128288
+; CODE XREF from sym.func.100128054 @ 0x100128274(x)
+0x100128564      mov x0, x21                                           ; void *arg0
+0x100128568      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+; CODE XREFS from sym.func.100128054 @ 0x100128080(x), 0x1001280e0(x), 0x100128260(x)
+0x10012856c      bl sym.imp.CGSMainConnectionID
+0x100128570      bl sym.imp.CGSGetActiveSpace
+0x100128574      mov x19, x0
+0x100128578      bl sym.imp.CGSMainConnectionID
+0x10012857c      mov x1, x19
+0x100128580      bl sym.imp.CGSSpaceGetType
+0x100128584      ubfx w20, w0, 2, 1
+; CODE XREFS from sym.func.100128054 @ 0x1001285b8(x), 0x10012869c(x)
+0x100128588      and w0, w20, 1
+0x10012858c      ldp x29, x30, [var_90h]
+0x100128590      ldp x20, x19, [var_80h]
+0x100128594      ldp x22, x21, [var_70h]
+0x100128598      ldp x24, x23, [var_60h]
+0x10012859c      ldp x26, x25, [var_50h]
+0x1001285a0      ldp x28, x27, [var_40h]
+0x1001285a4      add sp, sp, 0xa0                                      ; 0x178000
+0x1001285a8      ret
+; CODE XREFS from sym.func.100128054 @ 0x1001284fc(x), 0x100128508(x)
+0x1001285ac      mov x0, x21                                           ; void *arg0
+0x1001285b0      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x1001285b4      mov w20, 1
+0x1001285b8      b 0x100128588
+; CODE XREF from sym.func.100128054 @ 0x1001281ec(x)
+0x1001285bc      mov x0, x27                                           ; void *arg0
+0x1001285c0      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+; CODE XREF from sym.func.100128054 @ 0x100128214(x)
+0x1001285c4      mov x0, x28                                           ; void *arg0
+0x1001285c8      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x1001285cc      adrp x8, 0x1005cf000
+0x1001285d0      ldr x8, [x8, 0x128]
+0x1001285d4      cmn x8, 1
+0x1001285d8      ldr x24, [var_clob_8h]
+0x1001285dc      b.ne 0x100128618
+0x1001285e0      ldr x8, [x20, 0x10]
+0x1001285e4      cbz x8, 0x100128634
+; CODE XREF from sym.func.100128054 @ 0x100128630(x)
+0x1001285e8      adrp x8, 0x1005cf000
+0x1001285ec      add x8, x8, 0x130
+0x1001285f0      ldp x0, x1, [x8]                                      ; int64_t arg2
+0x1001285f4      bl sym.func.10011f3f8
+0x1001285f8      tbz w1, 0, 0x100128634
+0x1001285fc      ldr x8, [x20, 0x38]
+0x100128600      add x0, x8, x0, lsl 5                                 ; int64_t arg1
+0x100128604      add x1, sp, 0x20                                      ; int64_t arg2
+0x100128608      bl sym.func.100009d48
+0x10012860c      b 0x10012863c
+; CODE XREF from sym.func.100128054 @ 0x100128290(x)
+0x100128610      brk 1
+; CODE XREF from sym.func.100128054 @ 0x100128148(x)
+0x100128614      brk 1
+; CODE XREF from sym.func.100128054 @ 0x1001285dc(x)
+0x100128618      adrp x0, 0x1005cf000
+0x10012861c      add x0, x0, 0x128
+0x100128620      adrp x1, 0x100127000
+0x100128624      add x1, x1, 0xcb8
+0x100128628      bl sym.imp.swift_once
+0x10012862c      ldr x8, [x20, 0x10]
+0x100128630      cbnz x8, 0x1001285e8
+; CODE XREFS from sym.func.100128054 @ 0x1001285e4(x), 0x1001285f8(x)
+0x100128634      movi v0.2d, 0000000000000000
+0x100128638      stp q0, q0, [var_clob_20h]
+; CODE XREF from sym.func.100128054 @ 0x10012860c(x)
+0x10012863c      mov x0, x20                                           ; void *arg0
+0x100128640      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x100128644      ldr x8, [var_38h]
+0x100128648      cbz x8, 0x1001286a0
+0x10012864c      add x0, sp, 0x10
+0x100128650      add x1, sp, 0x20
+0x100128654      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x100128658      ldr x8, [x8, 0x210]                                   ; [0x1005b6210:8]=0
+                                                                       ; reloc....ypN
+0x10012865c      add x2, x8, 8
+0x100128660      mov x3, x24
+0x100128664      mov w4, 6
+0x100128668      bl sym.imp.swift_dynamicCast
+0x10012866c      tbz w0, 0, 0x100128270
+0x100128670      ldr x22, [var_10h]
+0x100128674      mov x0, x22                                           ; int64_t arg1
+0x100128678      bl sym.func.100127f4c
+0x10012867c      mov x20, x0
+0x100128680      and w19, w0, 0xff
+0x100128684      mov x0, x22                                           ; void *arg0
+0x100128688      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x10012868c      cmp w19, 2
+0x100128690      b.eq 0x100128270
+0x100128694      mov x0, x21                                           ; void *arg0
+0x100128698      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x10012869c      b 0x100128588
+; CODE XREF from sym.func.100128054 @ 0x100128648(x)
+0x1001286a0      add x0, sp, 0x20                                      ; int64_t arg1
+0x1001286a4      bl sym.func.10012898c
+0x1001286a8      b 0x100128270
+  ; CALL XREF from sym.func.1001b0efc @ 0x1001b0f38(x)
+  ; CALL XREF from sym.func.1002227bc @ 0x10022283c(x)
+280: sym.func.100128d0c (int64_t arg1);
+`- args(x20, x21, x0) vars(6:sp[0x8..0x30])
+0x100128d0c      stp x22, x21, [var_30h]!
+0x100128d10      stp x20, x19, [var_10h]
+0x100128d14      stp x29, x30, [var_20h]
+0x100128d18      add x29, sp, 0x20
+0x100128d1c      mov x19, x20                                          ; self
+0x100128d20      mov x20, x0                                           ; arg1
+0x100128d24      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x100128d28      ldr x8, [x8, 0x228]                                   ; [0x1005b6228:8]=0
+                                                                       ; reloc._swiftEmptyArrayStorage
+0x100128d2c      lsr x8, x8, 0x3e
+0x100128d30      cbnz x8, 0x100128e04
+; CODE XREF from sym.func.100128d0c @ 0x100128e10(x)
+0x100128d34      adrp x0, reloc.Int64...VMn                            ; 0x1005b6000
+0x100128d38      ldr x0, [x0, 0x238]                                   ; [0x1005b6238:8]=0
+                                                                       ; reloc._swiftEmptySetSingleton
+; CODE XREF from sym.func.100128d0c @ 0x100128e20(x)
+0x100128d3c      str x0, [x19, 0x18]
+0x100128d40      bl sym.imp.CGSMainConnectionID
+0x100128d44      mov w1, 1
+0x100128d48      mov x2, 0
+0x100128d4c      bl sym.imp.CGSSpaceCreate
+0x100128d50      mov x21, x0                                           ; error
+0x100128d54      bl sym.imp.CGSMainConnectionID
+0x100128d58      mov x1, x21
+0x100128d5c      mov x2, x20
+0x100128d60      bl sym.imp.CGSSpaceSetAbsoluteLevel
+0x100128d64      str x21, [x19, 0x10]
+0x100128d68      bl sym.imp.CGSMainConnectionID
+0x100128d6c      mov x22, x0
+0x100128d70      adrp x0, 0x1005ca000
+0x100128d74      add x0, x0, 0x7b8                                     ; 0x1005ca7b8
+                                                                       ; aav.0x1005ca7b8 ; int64_t arg1
+0x100128d78      adrp x1, 0x100459000
+0x100128d7c      add x1, x1, 0x3f0                                     ; int64_t arg2
+0x100128d80      bl sym.func.100002b1c
+0x100128d84      mov w1, 0x40                                          ; '@'
+0x100128d88      mov w2, 7
+0x100128d8c      bl sym.imp.swift_allocObject
+0x100128d90      mov x20, x0
+0x100128d94      adrp x8, 0x100454000
+0x100128d98      ldr q0, [x8, 0xb80]
+0x100128d9c      str q0, [x0, 0x10]
+0x100128da0      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x100128da4      ldr x8, [x8, 0x138]                                   ; [0x1005b6138:8]=0
+                                                                       ; reloc.UInt64...VN
+0x100128da8      str x8, [x0, 0x38]
+0x100128dac      str x21, [x0, 0x20]
+0x100128db0      adrp x1, 0x1005cf000
+0x100128db4      add x1, x1, 0x248                                     ; int64_t arg2
+0x100128db8      adrp x2, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x100128dbc      add x2, x2, 0xbc8
+0x100128dc0      mov x0, 0                                             ; int64_t arg1
+0x100128dc4      bl sym.func.10006ab70
+0x100128dc8      mov x1, x0
+0x100128dcc      mov x0, x20
+0x100128dd0      mov x20, x1
+0x100128dd4      bl sym.imp.__C.NSArray
+0x100128dd8      mov x20, x0
+0x100128ddc      mov x0, x22
+0x100128de0      mov x1, x20
+0x100128de4      bl sym.imp.CGSShowSpaces
+0x100128de8      mov x0, x20                                           ; void *instance
+0x100128dec      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100128df0      mov x0, x19
+0x100128df4      ldp x29, x30, [var_20h]
+0x100128df8      ldp x20, x19, [var_10h]
+0x100128dfc      ldp x22, x21, [sp], 0x30
+0x100128e00      ret
+; CODE XREF from sym.func.100128d0c @ 0x100128d30(x)
+0x100128e04      adrp x0, reloc.Int64...VMn                            ; 0x1005b6000
+0x100128e08      ldr x0, [x0, 0x228]                                   ; [0x1005b6228:8]=0
+                                                                       ; reloc._swiftEmptyArrayStorage
+0x100128e0c      bl sym.imp.getter__CocoaArrayWrapper.endIndex_...vg_  ; getter _CocoaArrayWrapper.endIndex(...vg)
+0x100128e10      cbz x0, 0x100128d34
+0x100128e14      adrp x0, reloc.Int64...VMn                            ; 0x1005b6000
+0x100128e18      ldr x0, [x0, 0x228]                                   ; [0x1005b6228:8]=0
+                                                                       ; reloc._swiftEmptyArrayStorage ; int64_t arg1
+0x100128e1c      bl sym.func.10012c1d0
+0x100128e20      b 0x100128d3c
+212: sym.func.100128e24 ();
+`- args(x20, x21) vars(6:sp[0x8..0x30])
+0x100128e24      stp x22, x21, [var_30h]!
+0x100128e28      stp x20, x19, [var_10h]
+0x100128e2c      stp x29, x30, [var_20h]
+0x100128e30      add x29, sp, 0x20
+0x100128e34      mov x19, x20                                          ; self
+0x100128e38      ldr x22, [x20, 0x10]                                  ; self
+0x100128e3c      bl sym.imp.CGSMainConnectionID
+0x100128e40      mov x21, x0                                           ; error
+0x100128e44      adrp x0, 0x1005ca000
+0x100128e48      add x0, x0, 0x7b8                                     ; 0x1005ca7b8
+                                                                       ; aav.0x1005ca7b8 ; int64_t arg1
+0x100128e4c      adrp x1, 0x100459000
+0x100128e50      add x1, x1, 0x3f0                                     ; int64_t arg2
+0x100128e54      bl sym.func.100002b1c
+0x100128e58      mov w1, 0x40                                          ; '@'
+0x100128e5c      mov w2, 7
+0x100128e60      bl sym.imp.swift_allocObject
+0x100128e64      mov x20, x0
+0x100128e68      adrp x8, 0x100454000
+0x100128e6c      ldr q0, [x8, 0xb80]
+0x100128e70      str q0, [x0, 0x10]
+0x100128e74      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x100128e78      ldr x8, [x8, 0x138]                                   ; [0x1005b6138:8]=0
+                                                                       ; reloc.UInt64...VN
+0x100128e7c      str x8, [x0, 0x38]
+0x100128e80      str x22, [x0, 0x20]
+0x100128e84      adrp x1, 0x1005cf000
+0x100128e88      add x1, x1, 0x248                                     ; int64_t arg2
+0x100128e8c      adrp x2, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x100128e90      add x2, x2, 0xbc8
+0x100128e94      mov x0, 0                                             ; int64_t arg1
+0x100128e98      bl sym.func.10006ab70
+0x100128e9c      mov x1, x0
+0x100128ea0      mov x0, x20
+0x100128ea4      mov x20, x1
+0x100128ea8      bl sym.imp.__C.NSArray
+0x100128eac      mov x20, x0
+0x100128eb0      mov x0, x21
+0x100128eb4      mov x1, x20
+0x100128eb8      bl sym.imp.CGSHideSpaces
+0x100128ebc      mov x0, x20                                           ; void *instance
+0x100128ec0      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100128ec4      ldr x20, [x19, 0x10]
+0x100128ec8      bl sym.imp.CGSMainConnectionID
+0x100128ecc      mov x1, x20
+0x100128ed0      bl sym.imp.CGSSpaceDestroy
+0x100128ed4      ldr x0, [x19, 0x18]
+0x100128ed8      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x100128edc      mov x0, x19
+0x100128ee0      mov w1, 0x20
+0x100128ee4      mov w2, 7
+0x100128ee8      ldp x29, x30, [var_20h]
+0x100128eec      ldp x20, x19, [var_10h]
+0x100128ef0      ldp x22, x21, [sp], 0x30
+0x100128ef4      b sym.imp.swift_deallocClassInstance
+  ; XREFS: CALL 0x1001b11fc  CALL 0x1001b1518  CALL 0x1002343f0  
+  ; XREFS: CALL 0x1002344d0  CALL 0x1002347d0  CALL 0x1002348a4  
+464: sym.func.100128f18 (int64_t arg1);
+`- args(x20, x21, x0) vars(13:sp[0x8..0x80])
+0x100128f18      sub sp, sp, 0x80
+0x100128f1c      stp x28, x27, [var_20h]
+0x100128f20      stp x26, x25, [var_30h]
+0x100128f24      stp x24, x23, [var_40h]
+0x100128f28      stp x22, x21, [var_50h]
+0x100128f2c      stp x20, x19, [var_60h]
+0x100128f30      stp x29, x30, [var_70h]
+0x100128f34      add x29, sp, 0x70
+0x100128f38      mov x19, x0                                           ; arg1
+0x100128f3c      ldr x21, [x20, 0x18]                                  ; error
+0x100128f40      bl sym.imp.swift_bridgeObjectRetain                   ; void *swift_bridgeObjectRetain(void *arg0)
+0x100128f44      mov x0, x21                                           ; void *arg0
+0x100128f48      bl sym.imp.swift_bridgeObjectRetain                   ; void *swift_bridgeObjectRetain(void *arg0)
+0x100128f4c      mov x1, x19                                           ; int64_t arg2
+0x100128f50      bl sym.func.1001290e8
+0x100128f54      mov x22, x0
+0x100128f58      mov x0, x21                                           ; void *arg0
+0x100128f5c      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x100128f60      ldr x21, [x20, 0x18]                                  ; self
+0x100128f64      mov x0, x21                                           ; void *arg0
+0x100128f68      bl sym.imp.swift_bridgeObjectRetain                   ; void *swift_bridgeObjectRetain(void *arg0)
+0x100128f6c      mov x0, x19                                           ; uint64_t arg1
+0x100128f70      mov x1, x21                                           ; int64_t arg2
+0x100128f74      bl sym.func.1001290e8
+0x100128f78      mov x19, x0
+0x100128f7c      ldr x28, [x20, 0x10]                                  ; self
+0x100128f80      bl sym.imp.CGSMainConnectionID
+0x100128f84      mov x25, x0
+0x100128f88      mov x0, x22                                           ; int64_t arg1
+0x100128f8c      mov x21, 0
+0x100128f90      bl sym.func.1001289d4
+0x100128f94      mov x20, x0
+0x100128f98      adrp x23, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+0x100128f9c      ldr x23, [x23, 0x8e0]                                 ; [0x1005b58e0:8]=0
+                                                                       ; reloc....SiN
+0x100128fa0      mov x1, x23
+0x100128fa4      bl sym.imp.Foundationbool_...ridgeToObjectiveCSo7NSArrayCyF_ ; Foundationbool(...ridgeToObjectiveCSo7NSArrayCyF)
+0x100128fa8      mov x26, x0
+0x100128fac      mov x0, x20                                           ; void *arg0
+0x100128fb0      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x100128fb4      adrp x0, 0x1005ca000
+0x100128fb8      add x0, x0, 0x7b8                                     ; 0x1005ca7b8
+                                                                       ; aav.0x1005ca7b8 ; int64_t arg1
+0x100128fbc      adrp x1, 0x100459000
+0x100128fc0      add x1, x1, 0x3f0                                     ; int64_t arg2
+0x100128fc4      bl sym.func.100002b1c
+0x100128fc8      mov x24, x0
+0x100128fcc      mov w1, 0x40                                          ; '@'
+0x100128fd0      mov w2, 7
+0x100128fd4      bl sym.imp.swift_allocObject
+0x100128fd8      mov x27, x0
+0x100128fdc      adrp x8, 0x100454000
+0x100128fe0      ldr q0, [x8, 0xb80]
+0x100128fe4      str q0, [sp]
+0x100128fe8      str q0, [x0, 0x10]
+0x100128fec      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x100128ff0      ldr x8, [x8, 0x138]                                   ; [0x1005b6138:8]=0
+                                                                       ; reloc.UInt64...VN
+0x100128ff4      str x8, [x0, 0x38]
+0x100128ff8      str x28, [x0, 0x20]
+0x100128ffc      adrp x1, 0x1005cf000
+0x100129000      add x1, x1, 0x248                                     ; int64_t arg2
+0x100129004      adrp x2, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x100129008      add x2, x2, 0xbc8
+0x10012900c      mov x0, 0                                             ; int64_t arg1
+0x100129010      bl sym.func.10006ab70
+0x100129014      mov x20, x0
+0x100129018      mov x0, x27
+0x10012901c      bl sym.imp.__C.NSArray
+0x100129020      mov x27, x0
+0x100129024      mov x0, x25
+0x100129028      mov x1, x26
+0x10012902c      mov x2, x27
+0x100129030      bl sym.imp.CGSRemoveWindowsFromSpaces
+0x100129034      mov x0, x22                                           ; void *arg0
+0x100129038      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x10012903c      mov x0, x26                                           ; void *instance
+0x100129040      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x100129044      mov x0, x27                                           ; void *instance
+0x100129048      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x10012904c      bl sym.imp.CGSMainConnectionID
+0x100129050      mov x22, x0
+0x100129054      mov x0, x19                                           ; int64_t arg1
+0x100129058      bl sym.func.1001289d4
+0x10012905c      mov x21, x0
+0x100129060      mov x1, x23
+0x100129064      bl sym.imp.Foundationbool_...ridgeToObjectiveCSo7NSArrayCyF_ ; Foundationbool(...ridgeToObjectiveCSo7NSArrayCyF)
+0x100129068      mov x23, x0
+0x10012906c      mov x0, x21                                           ; void *arg0
+0x100129070      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x100129074      mov x0, x24
+0x100129078      mov w1, 0x40                                          ; '@'
+0x10012907c      mov w2, 7
+0x100129080      bl sym.imp.swift_allocObject
+0x100129084      ldr q0, [sp]
+0x100129088      str q0, [x0, 0x10]
+0x10012908c      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x100129090      ldr x8, [x8, 0x138]                                   ; [0x1005b6138:8]=0
+                                                                       ; reloc.UInt64...VN
+0x100129094      str x8, [x0, 0x38]
+0x100129098      str x28, [x0, 0x20]
+0x10012909c      bl sym.imp.__C.NSArray
+0x1001290a0      mov x20, x0
+0x1001290a4      mov x0, x22
+0x1001290a8      mov x1, x23
+0x1001290ac      mov x2, x20
+0x1001290b0      bl sym.imp.CGSAddWindowsToSpaces
+0x1001290b4      mov x0, x19                                           ; void *arg0
+0x1001290b8      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x1001290bc      mov x0, x23                                           ; void *instance
+0x1001290c0      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1001290c4      mov x0, x20
+0x1001290c8      ldp x29, x30, [var_70h]
+0x1001290cc      ldp x20, x19, [var_60h]
+0x1001290d0      ldp x22, x21, [var_50h]
+0x1001290d4      ldp x24, x23, [var_40h]
+0x1001290d8      ldp x26, x25, [var_30h]
+0x1001290dc      ldp x28, x27, [var_20h]
+0x1001290e0      add sp, sp, 0x80                                      ; 0x178000
+0x1001290e4      b sym.imp.objc_release

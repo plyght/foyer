@@ -1,0 +1,22 @@
+HINT: Relocs not applied, some references may not resolve: use -e bin.relocs.apply=true
+INFO: Analyze all flags starting with sym. and entry0 (aa)
+INFO: Analyze imports (af@@@i)
+INFO: Name local plt stubs from their got relocs (anal.plt)
+INFO: Analyze entrypoint (af@ entry0)
+INFO: Analyze symbols (af@@@s)
+INFO: Running plugin pre-analysis hooks
+INFO: Analyze all functions arguments/locals (afva@@F)
+INFO: Analyze function calls (aac)
+INFO: Analyze len bytes of instructions for references (aar)
+INFO: Check for objc references (aao)
+INFO: Parsing metadata in ObjC to find hidden xrefs
+INFO: Found 0 objc xrefs in 944 dwords
+INFO: Finding and parsing C++ vtables (avrr)
+INFO: Analyzing methods (af @@ method.*)
+INFO: Finding function preludes (aap)
+INFO: Emulate functions to find computed references (aaef)
+INFO: Recovering local variables (afva@@@F)
+INFO: Type matching analysis for all functions (aaft)
+INFO: Propagate noreturn information (aanr)
+INFO: Use -AA or aaaa to perform additional experimental analysis
+INFO: Finding xrefs in noncode sections (e anal.in=io.maps.x; aav)

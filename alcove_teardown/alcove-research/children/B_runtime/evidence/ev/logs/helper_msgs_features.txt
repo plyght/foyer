@@ -1,0 +1,20 @@
+ 100 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] UserInfo <private>
+  48 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification <private>
+  11 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Posting Notification <private>
+   6 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:NowPlaying] [MRNowPlayingPlayerClientRequests] 【 􁊸 LOCL (Mac) ❯ 􀐥 com.apple.QuickTimePlayerX (5446) QuickTime Player ❯ 􀽍 default �
+   5 Db AlcoveHelper[pid:tid] [com.apple.xpc.transaction:all] [0x…] 'getNowPlayingInfoForBundleIdentifier:reply:': Transaction released
+   5 Db AlcoveHelper[pid:tid] [com.apple.xpc.transaction:all] [0x…] 'getNowPlayingInfoForBundleIdentifier:reply:': Transaction created
+   3 Db AlcoveHelper[pid:tid] [com.apple.xpc.transaction:all] [0x…] 'getNowPlayingSource:': Transaction released
+   3 Db AlcoveHelper[pid:tid] [com.apple.xpc.transaction:all] [0x…] 'getNowPlayingSource:': Transaction created
+   3 Db AlcoveHelper[pid:tid] [com.apple.xpc.transaction:all] [0x…] 'getIsPlaying:': Transaction released
+   3 Db AlcoveHelper[pid:tid] [com.apple.xpc.transaction:all] [0x…] 'getIsPlaying:': Transaction created
+   3 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _MRMediaRemotePlayerNowPlayingInfoDidChangeNotification
+   3 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Posting Notification _MRMediaRemotePlayerNowPlayingInfoDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification kMRMediaRemoteSupportedCommandsDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification kMRMediaRemoteOriginSupportedCommandsDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _kMRNowPlayingPlaybackQueueChangedNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _MRMediaRemotePlayerSupportedCommandsDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _MRMediaRemotePlayerStateDidChange
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _MRMediaRemotePlayerPlaybackStateDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _MRMediaRemotePlayerIsPlayingDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _MRMediaRemoteApplicationDisplayNameDidChangeNotification

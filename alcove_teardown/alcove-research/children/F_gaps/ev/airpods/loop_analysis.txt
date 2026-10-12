@@ -1,0 +1,15 @@
+airpods-3: frames=360 last_vs_first=1.89 closest_to_first=[(359, 1.89), (358, 2.68), (357, 3.62)] mean_interframe=1.15 max_interframe=1.80@285 nonblack_frac_f0=0.15
+airpods-4: frames=360 last_vs_first=1.91 closest_to_first=[(359, 1.91), (358, 2.53), (357, 3.26)] mean_interframe=0.97 max_interframe=1.28@287 nonblack_frac_f0=0.14
+airpods-max-blue: frames=360 last_vs_first=1.85 closest_to_first=[(180, 1.75), (179, 1.79), (181, 1.82)] mean_interframe=0.89 max_interframe=1.28@297 nonblack_frac_f0=0.13
+airpods-max-green: frames=360 last_vs_first=2.20 closest_to_first=[(180, 1.29), (181, 1.45), (179, 1.5)] mean_interframe=1.21 max_interframe=1.69@287 nonblack_frac_f0=0.13
+airpods-max-midnight: frames=360 last_vs_first=1.53 closest_to_first=[(358, 1.53), (359, 1.53), (357, 1.56)] mean_interframe=0.59 max_interframe=0.82@66 nonblack_frac_f0=0.13
+airpods-max-orange: frames=360 last_vs_first=2.02 closest_to_first=[(180, 1.96), (179, 2.02), (359, 2.02)] mean_interframe=1.12 max_interframe=1.58@302 nonblack_frac_f0=0.14
+airpods-max-purple: frames=360 last_vs_first=2.06 closest_to_first=[(180, 1.84), (179, 1.88), (181, 1.92)] mean_interframe=1.16 max_interframe=1.70@243 nonblack_frac_f0=0.13
+airpods-max-red: frames=360 last_vs_first=2.25 closest_to_first=[(180, 1.34), (181, 1.36), (179, 1.46)] mean_interframe=0.89 max_interframe=1.20@121 nonblack_frac_f0=0.13
+airpods-max-silver: frames=360 last_vs_first=2.39 closest_to_first=[(180, 1.36), (181, 1.52), (179, 1.52)] mean_interframe=1.22 max_interframe=1.68@112 nonblack_frac_f0=0.13
+airpods-max-sky-blue: frames=360 last_vs_first=2.09 closest_to_first=[(180, 1.26), (181, 1.37), (179, 1.52)] mean_interframe=0.77 max_interframe=1.07@113 nonblack_frac_f0=0.13
+airpods-max-space-gray: frames=360 last_vs_first=1.77 closest_to_first=[(180, 1.0), (181, 1.05), (179, 1.16)] mean_interframe=0.59 max_interframe=0.85@63 nonblack_frac_f0=0.13
+airpods-max-starlight: frames=360 last_vs_first=2.01 closest_to_first=[(358, 2.01), (359, 2.01), (357, 2.09)] mean_interframe=1.16 max_interframe=1.61@99 nonblack_frac_f0=0.14
+airpods-pro-2: frames=360 last_vs_first=2.23 closest_to_first=[(359, 2.23), (358, 3.13), (357, 4.08)] mean_interframe=1.24 max_interframe=1.73@333 nonblack_frac_f0=0.15
+airpods-pro-3: frames=360 last_vs_first=2.30 closest_to_first=[(359, 2.3), (358, 2.86), (357, 3.65)] mean_interframe=1.16 max_interframe=1.46@319 nonblack_frac_f0=0.15
+airpods-pro: frames=360 last_vs_first=2.49 closest_to_first=[(359, 2.49), (358, 3.35), (357, 4.29)] mean_interframe=1.31 max_interframe=1.79@323 nonblack_frac_f0=0.16

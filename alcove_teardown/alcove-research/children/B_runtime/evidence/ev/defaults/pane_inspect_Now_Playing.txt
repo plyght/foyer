@@ -1,0 +1,92 @@
+macos accessibility snapshot v1 (line format: @ref role "name" = "value" #id [states] {actions}; indent = hierarchy)
+target: pid:2607  epoch: 20  app: Alcove  pid: 2607  provenance: axuielement  nodes: 159/159  truncated: false
+@m8502 application "Alcove"
+ @m8503 window
+  @m8504 group
+   @m8505 button
+   @m8506 button
+ @m8507 window
+  @m8508 group
+ @m8509 window "Now Playing" [focused=true]
+  @m8510 group
+   @m8511 image "Play" #play.fill
+   @m8512 statictext = "Now Playing"
+   @m8513 button "General" {press}
+   @m8514 statictext = "Notifications"
+   @m8515 button "Battery" [disabled=true] {press}
+   @m8516 button "Connectivity" {press}
+   @m8517 button "Focus" {press}
+   @m8518 button "Display" {press}
+   @m8519 button "Sound" {press}
+   @m8520 statictext = "Live Activities"
+   @m8521 button "Now Playing" {press}
+   @m8522 button "11, Calendar" {press}
+   @m8523 button "File Tray, Soon" [disabled=true] {press}
+   @m8524 button "Lock Screen" {press}
+   @m8525 statictext = "Alcove"
+   @m8526 button "License, Trial" [selected=true] {press}
+   @m8527 button "About" {press}
+   @m8528 scrollarea {scroll}
+    @m8529 image "Play" #play.fill
+    @m8530 statictext = "Now Playing"
+    @m8531 checkbox [checked=true] {press}
+    @m8532 statictext = "Idle duration"
+    @m8533 button "3" {press}
+    @m8534 statictext = "s"
+    @m8535 slider = "3" {increment,decrement}
+     @m8536 valueindicator = "3"
+    @m8537 button "Stop" #nosign {press}
+    @m8538 button "Explicit" #e.square.fill {press}
+    @m8539 button {press}
+    @m8540 statictext = "None"
+    @m8541 statictext = "Explicit"
+    @m8542 statictext = "Format"
+    @m8543 button {press}
+    @m8544 button {press}
+    @m8545 button {press}
+    @m8546 statictext = "Monochrome"
+    @m8547 statictext = "Colored"
+    @m8548 statictext = "Gradient"
+    @m8549 statictext = "Use live waveform"
+    @m8550 button "unblock"
+    @m8551 checkbox [checked=false,disabled=true] {press}
+    @m8552 statictext = "Disable compact waveform"
+    @m8553 checkbox [checked=false] {press}
+    @m8554 statictext = "Disable artwork flip"
+    @m8555 checkbox [checked=false] {press}
+    @m8556 statictext = "Hide while source app is active"
+    @m8557 checkbox [checked=false] {press}
+    @m8558 statictext = "Hide media title extras"
+    @m8559 checkbox [checked=false] {press}
+    @m8560 button "Favorite" #star.fill {press}
+    @m8561 button "Shuffle" #shuffle {press}
+    @m8562 button "Repeat 1" #repeat {press}
+    @m8563 button "Link" #link {press}
+    @m8564 statictext = "Favorite"
+    @m8565 statictext = "Shuffle"
+    @m8566 statictext = "Repeat"
+    @m8567 statictext = "Copy"
+    @m8568 statictext = "Source"
+    @m8569 image "Settings" #gear
+    @m8570 statictext = "Automatic"
+    @m8571 statictext = " ∙ System"
+    @m8572 checkbox [checked=true] {press}
+    @m8573 statictext = "Extension"
+    @m8574 image "Reading List" #eyeglasses
+    @m8575 statictext = "Quick Peek"
+    @m8576 checkbox [checked=true] {press}
+    @m8577 statictext = "When media changes"
+    @m8578 checkbox [checked=true] {press}
+    @m8579 statictext = "Peek duration"
+    @m8580 button "2" {press}
+    @m8581 statictext = "s"
+    @m8582 slider = "2" {increment,decrement}
+     @m8583 valueindicator = "2"
+    @m8584 scrollbar = "0"
+  @m8585 toolbar {show_menu}
+  @m8586 button "close" {press}
+  @m8587 button "zoom" [disabled=true] {press,show_menu}
+   @m8588 group
+    @m8589 group
+  @m8590 button "minimize" [disabled=true] {press}
+note: menu bar folded: "Alcove", "Window", "Help", "Alcove" (57 menu item(s) not listed) — `query role=menuitem` or `query role=menuitem text=<command>` lists them with refs; a menu item is pressed directly, the menu need not be opened first

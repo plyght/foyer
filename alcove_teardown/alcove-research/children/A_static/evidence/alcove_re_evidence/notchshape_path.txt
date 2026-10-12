@@ -1,0 +1,82 @@
+320: sym.func.1001789b0 (double arg1, double arg2, double arg3, double arg4);
+`- args(x20, d0, d1, d2, d3) vars(19:sp[0x8..0xc0])
+0x1001789b0      sub sp, sp, 0xc0
+0x1001789b4      stp d15, d14, [var_60h]
+0x1001789b8      stp d13, d12, [var_70h]
+0x1001789bc      stp d11, d10, [var_80h]
+0x1001789c0      stp d9, d8, [var_90h]
+0x1001789c4      stp x20, x19, [var_a0h]
+0x1001789c8      stp x29, x30, [var_b0h]
+0x1001789cc      add x29, sp, 0xb0
+0x1001789d0      mov v11.16b, v3.16b                                   ; arg4
+0x1001789d4      mov v12.16b, v2.16b                                   ; arg3
+0x1001789d8      mov v13.16b, v1.16b                                   ; arg2
+0x1001789dc      mov v14.16b, v0.16b                                   ; arg1
+0x1001789e0      mov x19, x8
+0x1001789e4      ldr d8, [x20]                                         ; self
+0x1001789e8      bl sym.imp.CGRectGetWidth
+0x1001789ec      mov v9.16b, v0.16b
+0x1001789f0      mov v0.16b, v14.16b
+0x1001789f4      mov v1.16b, v13.16b
+0x1001789f8      mov v2.16b, v12.16b
+0x1001789fc      mov v3.16b, v11.16b
+0x100178a00      bl sym.imp.CGRectGetHeight
+0x100178a04      mov v10.16b, v0.16b
+0x100178a08      mov v0.16b, v14.16b
+0x100178a0c      mov v1.16b, v13.16b
+0x100178a10      mov v2.16b, v12.16b
+0x100178a14      mov v3.16b, v11.16b
+0x100178a18      bl sym.imp.CGRectGetMidX
+0x100178a1c      mov v15.16b, v0.16b
+0x100178a20      mov v0.16b, v14.16b
+0x100178a24      mov v1.16b, v13.16b
+0x100178a28      mov v2.16b, v12.16b
+0x100178a2c      mov v3.16b, v11.16b
+0x100178a30      bl sym.imp.CGRectGetMidX
+0x100178a34      mov v11.16b, v0.16b
+0x100178a38      mov x8, sp
+0x100178a3c      bl sym.imp.SwiftUI.Path...VACycfC
+0x100178a40      mov x20, sp
+0x100178a44      mov v0.16b, v11.16b
+0x100178a48      mov v1.16b, v10.16b
+0x100178a4c      bl sym.imp.SwiftUI.Path.move.to.CGPoint...V_tF
+0x100178a50      mov x8, 0x3ff0000000000000
+0x100178a54      stp x8, xzr, [var_30h]
+0x100178a58      stp xzr, x8, [var_clob_40h]
+0x100178a5c      stp xzr, xzr, [var_clob_50h]
+0x100178a60      movi v3.2d, 0000000000000000
+0x100178a64      add x0, sp, 0x30
+0x100178a68      mov x20, sp
+0x100178a6c      mov v0.16b, v9.16b
+0x100178a70      mov v1.16b, v10.16b
+0x100178a74      mov v2.16b, v15.16b
+0x100178a78      mov v4.16b, v8.16b
+0x100178a7c      bl sym.imp.SwiftUI.Path.addArc.tangent1End.tangent2.radius.transform.CGPoint.CoreGraphics.CGFloat.CGAffineTransform...VtF
+0x100178a80      movi v1.2d, 0000000000000000
+0x100178a84      movi v2.2d, 0000000000000000
+0x100178a88      add x0, sp, 0x30
+0x100178a8c      mov x20, sp
+0x100178a90      mov v0.16b, v15.16b
+0x100178a94      mov v3.16b, v10.16b
+0x100178a98      mov v4.16b, v8.16b
+0x100178a9c      bl sym.imp.SwiftUI.Path.addArc.tangent1End.tangent2.radius.transform.CGPoint.CoreGraphics.CGFloat.CGAffineTransform...VtF
+0x100178aa0      movi v0.2d, 0000000000000000
+0x100178aa4      add x0, sp, 0x30
+0x100178aa8      mov x20, sp
+0x100178aac      mov v1.16b, v10.16b
+0x100178ab0      mov v2.16b, v9.16b
+0x100178ab4      mov v3.16b, v10.16b
+0x100178ab8      mov v4.16b, v8.16b
+0x100178abc      bl sym.imp.SwiftUI.Path.addArc.tangent1End.tangent2.radius.transform.CGPoint.CoreGraphics.CGFloat.CGAffineTransform...VtF
+0x100178ac0      ldrb w8, [var_20h]
+0x100178ac4      ldp q0, q1, [sp]
+0x100178ac8      stp q0, q1, [x19]
+0x100178acc      strb w8, [x19, 0x20]
+0x100178ad0      ldp x29, x30, [var_b0h]
+0x100178ad4      ldp x20, x19, [var_a0h]
+0x100178ad8      ldp d9, d8, [var_90h]
+0x100178adc      ldp d11, d10, [var_80h]
+0x100178ae0      ldp d13, d12, [var_70h]
+0x100178ae4      ldp d15, d14, [var_60h]
+0x100178ae8      add sp, sp, 0xc0                                      ; 0x178000
+0x100178aec      ret

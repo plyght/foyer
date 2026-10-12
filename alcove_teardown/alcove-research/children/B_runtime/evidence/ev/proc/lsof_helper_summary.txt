@@ -1,0 +1,6 @@
+   3 CHR /dev/null
+   1 TYPE NAME
+   1 REG /usr/lib/dyld
+   1 REG /Library/Preferences/Logging/.plist-cache.bbhSWm1m
+   1 REG /Applications/Alcove.app/Contents/XPCServices/AlcoveHelper.xpc/Contents/MacOS/AlcoveHelper
+   1 DIR /

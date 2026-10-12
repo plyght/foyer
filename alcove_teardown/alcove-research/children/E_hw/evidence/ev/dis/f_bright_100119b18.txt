@@ -1,0 +1,100 @@
+            ; CALL XREF from sym.func.100119024 @ 0x1001192b8(x)
+/ 360: sym.func.100119b18 (int64_t arg1);
+| `- args(x20, x21, x0) vars(11:sp[0x8..0x68])
+|           0x100119b18      ffc301d1       sub sp, sp, 0x70
+|           0x100119b1c      e923036d       stp d9, d8, [var_30h]
+|           0x100119b20      f65704a9       stp x22, x21, [var_40h]
+|           0x100119b24      f44f05a9       stp x20, x19, [var_50h]
+|           0x100119b28      fd7b06a9       stp x29, x30, [var_60h]
+|           0x100119b2c      fd830191       add x29, sp, 0x60
+|           0x100119b30      f30314aa       mov x19, x20               ; self
+|           0x100119b34      f50300aa       mov x21, x0                ; error
+|           0x100119b38      c82400b0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100119b3c      08c542f9       ldr x8, [x8, 0x588]        ; [0x1005b2588:8]=0x80100000000002d2 ; reloc.__stack_chk_guard
+|           0x100119b40      080140f9       ldr x8, [x8]
+|           0x100119b44      e81700f9       str x8, [var_28h]
+|           0x100119b48      a82500b0       adrp x8, 0x1005ce000
+|           0x100119b4c      146146f9       ldr x20, [x8, 0xcc0]       ; [0x1005cecc0:8]=0
+|                                                                      ; field.class.Alcove.BrightnessManager.var.localBrightnessTargetByDisplayID
+|           0x100119b50      6002148b       add x0, x19, x20           ; void *arg0
+|           0x100119b54      e1430091       add x1, sp, 0x10           ; void *arg1
+|           0x100119b58      02048052       mov w2, 0x20               ; void *arg2
+|           0x100119b5c      030080d2       mov x3, 0                  ; void *arg3
+|           0x100119b60      1bcf0c94       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x100119b64      746a74f8       ldr x20, [x19, x20]
+|           0x100119b68      880a40f9       ldr x8, [x20, 0x10]
+|       ,=< 0x100119b6c      880000b4       cbz x8, 0x100119b7c
+|       |   0x100119b70      e00315aa       mov x0, x21                ; int64_t arg1
+|       |   0x100119b74      48160094       bl sym.func.10011f494
+|      ,==< 0x100119b78      01020037       tbnz w1, 0, 0x100119bb8
+|      ||   ; CODE XREF from sym.func.100119b18 @ 0x100119b6c(x)
+|      |`-> 0x100119b7c      e0430091       add x0, sp, 0x10           ; void *arg0
+|      |    0x100119b80      58cf0c94       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|      |    0x100119b84      a82500b0       adrp x8, 0x1005ce000
+|      |    0x100119b88      165d46f9       ldr x22, [x8, 0xcb8]       ; [0x1005cecb8:8]=0
+|      |                                                               ; field.class.Alcove.BrightnessManager.var.actualBrightnessByDisplayID
+|      |    0x100119b8c      6002168b       add x0, x19, x22           ; void *arg0
+|      |    0x100119b90      e1430091       add x1, sp, 0x10           ; void *arg1
+|      |    0x100119b94      02048052       mov w2, 0x20               ; void *arg2
+|      |    0x100119b98      030080d2       mov x3, 0                  ; void *arg3
+|      |    0x100119b9c      0ccf0c94       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|      |    0x100119ba0      746a76f8       ldr x20, [x19, x22]
+|      |    0x100119ba4      880a40f9       ldr x8, [x20, 0x10]
+|      |,=< 0x100119ba8      e80000b4       cbz x8, 0x100119bc4
+|      ||   0x100119bac      e00315aa       mov x0, x21                ; int64_t arg1
+|      ||   0x100119bb0      39160094       bl sym.func.10011f494
+|     ,===< 0x100119bb4      81000036       tbz w1, 0, 0x100119bc4
+|     |||   ; CODE XREF from sym.func.100119b18 @ 0x100119b78(x)
+|     |`--> 0x100119bb8      881e40f9       ldr x8, [x20, 0x38]
+|     | |   0x100119bbc      087960bc       ldr s8, [x8, x0, lsl 2]
+|     |,==< 0x100119bc0      20000014       b 0x100119c40
+|     |||   ; CODE XREFS from sym.func.100119b18 @ 0x100119ba8(x), 0x100119bb4(x)
+|     `-`-> 0x100119bc4      e0430091       add x0, sp, 0x10           ; void *arg0
+|      |    0x100119bc8      46cf0c94       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|      |    0x100119bcc      ff1300b9       str wzr, [arg0]
+|      |    0x100119bd0      e1430091       add x1, sp, 0x10
+|      |    0x100119bd4      e00315aa       mov x0, x21
+|      |    0x100119bd8      bccd0c94       bl sym.imp.DisplayServicesGetBrightness
+|      |    0x100119bdc      e01340bd       ldr s0, [arg0]
+|      |    0x100119be0      01102e1e       fmov s1, 1.00000000
+|      |    0x100119be4      0020211e       fcmp s0, s1
+|      |    0x100119be8      20cc201e       fcsel s0, s1, s0, gt
+|      |    0x100119bec      0820201e       fcmp s0, 0.0
+|      |    0x100119bf0      01e4006f       movi v1.2d, 0000000000000000
+|      |    0x100119bf4      08ac211e       fcsel s8, s0, s1, ge
+|      |    0x100119bf8      6002168b       add x0, x19, x22           ; void *arg0
+|      |    0x100119bfc      e1430091       add x1, sp, 0x10           ; void *arg1
+|      |    0x100119c00      22048052       mov w2, 0x21               ; '!' ; void *arg2
+|      |    0x100119c04      030080d2       mov x3, 0                  ; void *arg3
+|      |    0x100119c08      f1ce0c94       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|      |    0x100119c0c      606a76f8       ldr x0, [x19, x22]
+|      |    0x100119c10      a3cf0c94       bl sym.imp.swift_isUniquelyReferenced_nonNull_native
+|      |    0x100119c14      e10300aa       mov x1, x0                 ; int64_t arg2
+|      |    0x100119c18      686a76f8       ldr x8, [x19, x22]
+|      |    0x100119c1c      e80700f9       str x8, [var_8h]
+|      |    0x100119c20      0800f0d2       mov x8, -0x8000000000000000
+|      |    0x100119c24      686a36f8       str x8, [x19, x22]
+|      |    0x100119c28      f4230091       add x20, sp, 8
+|      |    0x100119c2c      001da84e       mov v0.16b, v8.16b
+|      |    0x100119c30      e00315aa       mov x0, x21                ; int64_t arg1
+|      |    0x100119c34      f874fd97       bl sym.func.100077014
+|      |    0x100119c38      e80740f9       ldr x8, [var_8h]
+|      |    0x100119c3c      686a36f8       str x8, [x19, x22]
+|      |    ; CODE XREF from sym.func.100119b18 @ 0x100119bc0(x)
+|      `--> 0x100119c40      e0430091       add x0, sp, 0x10           ; void *arg0
+|           0x100119c44      27cf0c94       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|           0x100119c48      e81740f9       ldr x8, [var_28h]
+|           0x100119c4c      c92400b0       adrp x9, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100119c50      29c542f9       ldr x9, [x9, 0x588]        ; [0x1005b2588:8]=0x80100000000002d2 ; reloc.__stack_chk_guard
+|           0x100119c54      290140f9       ldr x9, [x9]
+|           0x100119c58      3f0108eb       cmp x9, x8
+|       ,=< 0x100119c5c      01010054       b.ne 0x100119c7c
+|       |   0x100119c60      001da84e       mov v0.16b, v8.16b
+|       |   0x100119c64      fd7b46a9       ldp x29, x30, [var_60h]
+|       |   0x100119c68      f44f45a9       ldp x20, x19, [var_50h]
+|       |   0x100119c6c      f65744a9       ldp x22, x21, [var_40h]
+|       |   0x100119c70      e923436d       ldp d9, d8, [var_30h]
+|       |   0x100119c74      ffc30191       add sp, sp, 0x70           ; 0x178000
+|       |   0x100119c78      c0035fd6       ret
+|       |   ; CODE XREF from sym.func.100119b18 @ 0x100119c5c(x)
+\       `-> 0x100119c7c      05ce0c94       bl sym.imp.__stack_chk_fail ; void __stack_chk_fail(void)

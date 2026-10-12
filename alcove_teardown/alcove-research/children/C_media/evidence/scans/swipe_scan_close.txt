@@ -1,0 +1,17 @@
+== open with -40
+1791740171.272 swipeseq ended cum=(0.0,-40.0)
+1791740172.202 width=365 left=618 height=120
+== while open: -40 again
+1791740172.931 swipeseq ended cum=(0.0,-40.0)
+1791740173.867 width=365 left=618 height=120
+== while open: +60
+1791740174.557 swipeseq ended cum=(0.0,60.0)
+1791740175.500 width=365 left=618 height=120
+== while open: +120
+1791740176.213 swipeseq ended cum=(0.0,120.0)
+1791740177.150 width=234 left=683 height=33
+== while open: -80
+1791740177.795 swipeseq ended cum=(0.0,-80.0)
+1791740178.726 width=365 left=618 height=120
+1791740178.746 move (800.0, 500.0)
+1791740180.409 width=218 left=691 height=29

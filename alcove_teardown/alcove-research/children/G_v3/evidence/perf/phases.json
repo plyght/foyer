@@ -1,0 +1,26 @@
+[
+  {
+    "name": "idle",
+    "start": "2026-10-11T17:11:03-07:00",
+    "end": "2026-10-11T17:11:51-07:00",
+    "evidence": "live/PHASES.log; settings closed, Main display, all synthetic helpers stopped"
+  },
+  {
+    "name": "open_close_inputs",
+    "start": "2026-10-11T17:11:51-07:00",
+    "end": "2026-10-11T17:12:56-07:00",
+    "evidence": "live/PHASES.log; four pointer input cycles, includes tool/annotation latency; raw-frame outcome qualification in live report"
+  },
+  {
+    "name": "volume_hud_verified_baseline",
+    "start": "2026-10-11T17:03:21-07:00",
+    "end": "2026-10-11T17:03:50-07:00",
+    "evidence": "Testing-agent timed normal-volume-event loop began17:03:20.569 and ran~32s; use inner29s window; Sound-HUD baseline screenshot11"
+  },
+  {
+    "name": "volume_inputs_unconfirmed_hud",
+    "start": "2026-10-11T17:13:50-07:00",
+    "end": "2026-10-11T17:14:16-07:00",
+    "evidence": "PHASES.log keys17:13:49.583\u201317:14:21.194; HUD appearance not confirmed, continuous tools end17:14:16 so truncated26s window"
+  }
+]

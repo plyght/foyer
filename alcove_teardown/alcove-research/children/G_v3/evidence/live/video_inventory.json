@@ -1,0 +1,366 @@
+[
+  {
+    "source_name": "alcove-live-primary-raw-000.mkv",
+    "source_sha256": "ae54072b0729172fea236bc4caa12b687069a99a4b17b151db62aca5b11adeb2",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-000.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "136.350000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      45.449999999999996,
+      90.89999999999999,
+      135.35
+    ]
+  },
+  {
+    "source_name": "alcove-live-primary-raw-001.mkv",
+    "source_sha256": "a5cdff4d5be1e67e0397b6ffcd0b56d886f753350d720fe3c90cb433988282be",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-001.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "120.233000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      40.077666666666666,
+      80.15533333333333,
+      119.233
+    ]
+  },
+  {
+    "source_name": "alcove-live-primary-raw-002.mkv",
+    "source_sha256": "a1a633b220ba2d145993fe9a520f8b3212ae1bda9813cca01f04090fb3ef7b7f",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-002.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "120.300000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      40.1,
+      80.2,
+      119.3
+    ]
+  },
+  {
+    "source_name": "alcove-live-primary-raw-003.mkv",
+    "source_sha256": "f075b868cd36fbf2a8e6a0364f5b4fc5d048d8b69eca2499384d235bab89232b",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-003.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "120.650000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      40.21666666666667,
+      80.43333333333334,
+      119.65
+    ]
+  },
+  {
+    "source_name": "alcove-live-primary-raw-004.mkv",
+    "source_sha256": "9475b644eb9f54d72903ef4d0d103ac32a0d8e5e7885782b53762f0f13bebcd6",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-004.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "120.100000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      40.03333333333333,
+      80.06666666666666,
+      119.1
+    ]
+  },
+  {
+    "source_name": "alcove-live-primary-raw-005.mkv",
+    "source_sha256": "4b28f90afc2489ffe274e77d3c8d12f493a545d008dc129a372f76346d8467d5",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-005.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "120.350000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      40.11666666666667,
+      80.23333333333333,
+      119.35
+    ]
+  },
+  {
+    "source_name": "alcove-live-primary-raw-006.mkv",
+    "source_sha256": "5d3b6bf0a62b9d19d8adfd0f92cac64768f057bc85b85547489765e2b06721d9",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-006.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "120.450000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      40.15,
+      80.3,
+      119.45
+    ]
+  },
+  {
+    "source_name": "alcove-live-primary-raw-007.mkv",
+    "source_sha256": "79fb66854e27fa6948af6fcaf360c21b64d438ba4f02bdef03d83c6e2485ab73",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-007.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "120.367000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      40.12233333333334,
+      80.24466666666667,
+      119.367
+    ]
+  },
+  {
+    "source_name": "alcove-live-primary-raw-008.mkv",
+    "source_sha256": "d0715b3159b72716dec3b47a5372e6d3ba6d58612103c04a034f8d56cc635150",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-008.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "120.534000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      40.178000000000004,
+      80.35600000000001,
+      119.534
+    ]
+  },
+  {
+    "source_name": "alcove-live-primary-raw-009.mkv",
+    "source_sha256": "94feb8da7d33d0f447ea515859c12ebb3148d2277a7cfdec487ad7eede1bb28c",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-009.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "120.200000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      40.06666666666667,
+      80.13333333333334,
+      119.2
+    ]
+  },
+  {
+    "source_name": "alcove-live-primary-raw-010.mkv",
+    "source_sha256": "9765166f7a066ec3f885623fe70f4518a903c8b082a7c3c0f5a88603278fd084",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-010.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "121.117000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      40.37233333333334,
+      80.74466666666667,
+      120.117
+    ]
+  },
+  {
+    "source_name": "alcove-live-primary-raw-011.mkv",
+    "source_sha256": "e3660fa1d0ddde25087a009ff3d5b5b9e1c61eb7e814f08cb08f4110465e683c",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-011.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "123.417000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      41.139,
+      82.278,
+      122.417
+    ]
+  },
+  {
+    "source_name": "alcove-live-primary-raw-012.mkv",
+    "source_sha256": "aa50d3f6122716b700c662b62ebf02e49b7235e7e10e0a4bd7e791a32f97c0b0",
+    "archived_clip": "raw_capture_segments/alcove-live-primary-raw-012.mp4",
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "30000/1",
+          "nb_read_frames": "6885"
+        }
+      ],
+      "format": {
+        "duration": "122.866000"
+      }
+    },
+    "frame_strip_seek_seconds": [
+      0.5,
+      40.955333333333336,
+      81.91066666666667,
+      121.866
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+            ; XREFS: CALL 0x100073c6c  CALL 0x10012697c  CALL 0x10017451c  
+            ; XREFS: CALL 0x100174ae8  CALL 0x100175938  CALL 0x10017634c  
+            ; XREFS: CALL 0x100176df8  CALL 0x100176f9c  CALL 0x100177334  
+            ; XREFS: CALL 0x100177a74  CALL 0x100207914  CALL 0x10020858c  
+            ; XREFS: CALL 0x1002087a0  CALL 0x100267bcc  CALL 0x10030ace4  
+            ; XREFS: CALL 0x1003a0d70  CALL 0x1003a1488  CALL 0x1003a16c4  
+            ; XREFS: CALL 0x1003a1cc0  CALL 0x1003a5c5c  
+/ 72: sym.func.100074038 (int64_t arg1);
+| `- args(x0) vars(4:sp[0x8..0x20])
+|           0x100074038      f44fbea9       stp x20, x19, [var_20h]!
+|           0x10007403c      fd7b01a9       stp x29, x30, [var_10h]
+|           0x100074040      fd430091       add x29, sp, 0x10
+|           0x100074044      f30300aa       mov x19, x0                ; arg1
+|           0x100074048      e02a00f0       adrp x0, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+|           0x10007404c      00401191       add x0, x0, 0x450          ; int64_t arg1
+|           0x100074050      011f00d0       adrp x1, 0x100456000
+|           0x100074054      21401391       add x1, x1, 0x4d0          ; int64_t arg2
+|           0x100074058      b13afe97       bl sym.func.100002b1c
+|           0x10007405c      e10300aa       mov x1, x0
+|           0x100074060      08805ff8       ldur x8, [x0, -8]
+|           0x100074064      080540f9       ldr x8, [x8, 8]
+|           0x100074068      e00313aa       mov x0, x19
+|           0x10007406c      00013fd6       blr x8
+|           0x100074070      e00313aa       mov x0, x19
+|           0x100074074      fd7b41a9       ldp x29, x30, [var_10h]
+|           0x100074078      f44fc2a8       ldp x20, x19, [sp], 0x20
+\           0x10007407c      c0035fd6       ret

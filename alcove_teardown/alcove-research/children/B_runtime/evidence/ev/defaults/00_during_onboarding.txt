@@ -1,0 +1,13 @@
+{
+    "NSStatusItem VisibleCC Alcove" = 1;
+    "NSStatusItem VisibleCC Item-0" = 0;
+    enableBrightness = 1;
+    enableCalendar = 1;
+    enableVolume = 1;
+    hasPromptedBluetoothPermission = 1;
+    hasPromptedCalendarPermission = 1;
+    hasPromptedLocationPermission = 1;
+    idleActivity = calendar;
+    playSoundOnLowConnectBattery = 1;
+    warnOnLowConnectBattery = 1;
+}

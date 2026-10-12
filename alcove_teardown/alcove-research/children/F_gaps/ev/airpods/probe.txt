@@ -1,0 +1,15 @@
+airpods-3 h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-4 h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-max-blue h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-max-green h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-max-midnight h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-max-orange h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-max-purple h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-max-red h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-max-silver h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-max-sky-blue h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-max-space-gray h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-max-starlight h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-pro-2 h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-pro-3 h264,96,96,yuv420p,60/1,360 6.000000 
+airpods-pro h264,96,96,yuv420p,60/1,360 6.000000 

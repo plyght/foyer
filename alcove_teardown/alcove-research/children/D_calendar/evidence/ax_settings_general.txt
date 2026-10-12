@@ -1,0 +1,83 @@
+AXGroup | t=missing value | v=missing value | d=group | 490,131 620x687
+AXImage | t=missing value | v=missing value | d=image | 736,150 13x13
+AXStaticText | t=missing value | v=General | d=text | 761,146 56x19
+AXButton | t=missing value | v=missing value | d=button | 502,184 200x38
+AXStaticText | t=missing value | v=Notifications | d=text | 510,241 80x16
+AXButton | t=missing value | v=missing value | d=button | 502,264 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,302 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,340 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,378 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,416 200x38
+AXStaticText | t=missing value | v=Live Activities | d=text | 510,473 86x16
+AXButton | t=missing value | v=missing value | d=button | 502,495 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,533 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,571 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,609 200x38
+AXStaticText | t=missing value | v=Alcove | d=text | 510,667 42x16
+AXButton | t=missing value | v=missing value | d=button | 502,689 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,727 200x38
+AXScrollArea | t=missing value | v=missing value | d=scroll area | 715,181 395x637
+AXStaticText | t=missing value | v=Launch at login | d=text | 742,196 93x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,195 44x20
+AXStaticText | t=missing value | v=Hide in fullscreen | d=text | 742,238 106x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,237 44x20
+AXStaticText | t=missing value | v=Hide in mission control | d=text | 742,280 138x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,279 44x20
+AXStaticText | t=missing value | v=Hide while gaming | d=text | 742,322 112x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,321 44x20
+AXStaticText | t=missing value | v=Hide from screen capture | d=text | 742,364 155x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,363 44x20
+AXStaticText | t=missing value | v=Force simulated notch | d=text | 742,406 135x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,405 44x20
+AXStaticText | t=missing value | v=Display on | d=text | 742,448 63x16
+AXButton | t=missing value | v=missing value | d=button | 954,449 20x16
+AXButton | t=missing value | v=Main display | d=button | 957,445 126x24
+AXButton | t=missing value | v=missing value | d=button | 979,448 76x16
+AXStaticText | t=missing value | v=Idle Activity | d=text | 739,493 73x16
+AXImage | t=missing value | v=missing value | d=image | 744,531 15x14
+AXStaticText | t=missing value | v=Most Recent | d=text | 768,529 77x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,528 44x20
+AXButton | t=missing value | v=missing value | d=button | 743,571 76x50
+AXButton | t=missing value | v=missing value | d=button | 831,571 76x50
+AXButton | t=missing value | v=missing value | d=button | 919,571 75x50
+AXButton | t=missing value | v=missing value | d=button | 1006,571 76x50
+AXStaticText | t=missing value | v=None | d=text | 764,629 33x16
+AXStaticText | t=missing value | v=Playing | d=text | 846,629 44x16
+AXStaticText | t=missing value | v=Calendar | d=text | 927,629 57x16
+AXStaticText | t=missing value | v=Duo | d=text | 1031,629 25x16
+AXStaticText | t=missing value | v=Behaviour | d=text | 739,670 63x16
+AXStaticText | t=missing value | v=Contrast outline | d=text | 742,707 97x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,705 44x20
+AXStaticText | t=missing value | v=Progressive blur | d=text | 742,749 98x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,747 44x20
+AXStaticText | t=missing value | v=Haptic feedback | d=text | 742,791 100x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,789 44x20
+AXStaticText | t=missing value | v=Expand on hover | d=text | 742,833 101x16
+AXButton | t=missing value | v=missing value | d=button | 850,833 16x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,831 44x20
+AXStaticText | t=missing value | v=Gestures | d=text | 739,877 57x16
+AXStaticText | t=missing value | v=Natural movement | d=text | 742,914 111x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,912 44x20
+AXStaticText | t=missing value | v=Swipe to toggle open | d=text | 742,956 129x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,954 44x20
+AXStaticText | t=missing value | v=Swipe to cycle activity | d=text | 742,998 136x16
+AXButton | t=missing value | v=missing value | d=button | 885,998 16x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,996 44x20
+AXStaticText | t=missing value | v=Swipe to dismiss activity | d=text | 742,1040 149x16
+AXButton | t=missing value | v=missing value | d=button | 898,1040 16x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,1038 44x20
+AXStaticText | t=missing value | v=Swipe to skip media | d=text | 742,1082 121x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,1080 44x20
+AXScrollBar | t=missing value | v=0.0 | d=scroll bar | 1092,180 19x621
+AXValueIndicator | t=missing value | v=0.0 | d=value indicator | 1101,184 6x423
+AXButton | t=missing value | v=missing value | d=increment arrow button | 1093,181 0x0
+AXButton | t=missing value | v=missing value | d=decrement arrow button | 1093,181 0x0
+AXButton | t=missing value | v=missing value | d=increment page button | 1101,607 6x190
+AXButton | t=missing value | v=missing value | d=decrement page button | 1101,184 6x0
+AXToolbar | t=missing value | v=missing value | d=toolbar | 490,131 620x66
+AXButton | t=missing value | v=missing value | d=close button | 508,149 16x16
+AXButton | t=missing value | v=missing value | d=zoom button | 554,149 16x16
+AXGroup | t=missing value | v=missing value | d=group | 555,150 14x14
+AXGroup | t=missing value | v=missing value | d=group | 555,150 14x14
+AXButton | t=missing value | v=missing value | d=minimize button | 531,149 16x16
+

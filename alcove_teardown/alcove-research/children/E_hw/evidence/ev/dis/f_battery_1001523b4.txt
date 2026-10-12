@@ -1,0 +1,59 @@
+            ; CODE XREF from sym.func.10015238c @ 0x10015239c(x)
+            ; CODE XREF from sym.func.1001523a0 @ 0x1001523b0(x)
+/ 212: sym.func.1001523b4 (int64_t arg1);
+| `- args(x20, x0) vars(7:sp[0x8..0x48])
+|           0x1001523b4      ff4301d1       sub sp, sp, 0x50
+|           0x1001523b8      f44f03a9       stp x20, x19, [var_30h]
+|           0x1001523bc      fd7b04a9       stp x29, x30, [var_40h]
+|           0x1001523c0      fd030191       add x29, sp, 0x40
+|           0x1001523c4      931240b9       ldr w19, [x20, 0x10]       ; self
+|       ,=< 0x1001523c8      53050034       cbz w19, 0x100152470
+|       |   0x1001523cc      e10300aa       mov x1, x0                 ; arg1
+|       |   0x1001523d0      20c88ed2       mov x0, 0x7641             ; 'Av'
+|       |   0x1001523d4      e08caaf2       movk x0, 0x5467, lsl 16    ; 'gT'
+|       |   0x1001523d8      20adcdf2       movk x0, 0x6d69, lsl 32    ; 'im'
+|       |   0x1001523dc      a08ceaf2       movk x0, 0x5465, lsl 48    ; 'eT'
+|       |   0x1001523e0      3ee60b94       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+|       |   0x1001523e4      f40300aa       mov x20, x0
+|       |   0x1001523e8      e00313aa       mov x0, x19
+|       |   0x1001523ec      e10314aa       mov x1, x20
+|       |   0x1001523f0      020080d2       mov x2, 0
+|       |   0x1001523f4      03008052       mov w3, 0
+|       |   0x1001523f8      deeb0b94       bl sym.imp.IORegistryEntryCreateCFProperty
+|       |   0x1001523fc      f30300aa       mov x19, x0
+|       |   0x100152400      e00314aa       mov x0, x20                ; void *instance
+|       |   0x100152404      a7ec0b94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|      ,==< 0x100152408      530300b4       cbz x19, 0x100152470
+|      ||   0x10015240c      e00313aa       mov x0, x19
+|      ||   0x100152410      61ed0b94       bl sym.imp.swift_getObjectType
+|      ||   0x100152414      e01700f9       str x0, [var_clob_28h]
+|      ||   0x100152418      f30b00f9       str x19, [var_clob_10h]
+|      ||   0x10015241c      000080d2       mov x0, 0
+|      ||   0x100152420      afecff97       bl sym.func.10014d6dc
+|      ||   0x100152424      e30300aa       mov x3, x0
+|      ||   0x100152428      28230090       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+|      ||   0x10015242c      080941f9       ldr x8, [x8, 0x210]        ; [0x1005b6210:8]=0x8010000000000a23
+|      ||   0x100152430      e0230091       add x0, sp, 8
+|      ||   0x100152434      e1430091       add x1, sp, 0x10
+|      ||   0x100152438      02210091       add x2, x8, 8
+|      ||   0x10015243c      c4008052       mov w4, 6
+|      ||   0x100152440      13ed0b94       bl sym.imp.swift_dynamicCast
+|     ,===< 0x100152444      60010036       tbz w0, 0, 0x100152470
+|     |||   0x100152448      f30740f9       ldr x19, [var_8h]
+|     |||   0x10015244c      e00313aa       mov x0, x19
+|     |||   0x100152450      2cf60b94       bl fcn.10044fd00
+|     |||   0x100152454      f40300aa       mov x20, x0
+|     |||   0x100152458      e00313aa       mov x0, x19                ; void *instance
+|     |||   0x10015245c      91ec0b94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|     |||   0x100152460      9f5e09f1       cmp x20, 0x257
+|     |||   0x100152464      e083949a       csel x0, xzr, x20, hi
+|     |||   0x100152468      e1979f1a       cset w1, hi
+|    ,====< 0x10015246c      03000014       b 0x100152478
+|    ||||   ; CODE XREFS from sym.func.1001523b4 @ 0x1001523c8(x), 0x100152408(x), 0x100152444(x)
+|    |```-> 0x100152470      000080d2       mov x0, 0
+|    |      0x100152474      21008052       mov w1, 1
+|    |      ; CODE XREF from sym.func.1001523b4 @ 0x10015246c(x)
+|    `----> 0x100152478      fd7b44a9       ldp x29, x30, [var_40h]
+|           0x10015247c      f44f43a9       ldp x20, x19, [var_30h]
+|           0x100152480      ff430191       add sp, sp, 0x50           ; 0x178000
+\           0x100152484      c0035fd6       ret

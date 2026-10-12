@@ -1,0 +1,5 @@
+alcove_teardown/alcove-research/children/B_runtime/evidence/ev/logs/logstream_launch.txt filter=lfs diff=lfs merge=lfs -text
+alcove_teardown/alcove-research/children/F_gaps/alcove_gaps_evidence.zip filter=lfs diff=lfs merge=lfs -text
+alcove_teardown/alcove-research/children/H_v4/alcove_v4/clips/B2_cycle.mp4 filter=lfs diff=lfs merge=lfs -text
+alcove_teardown/alcove-research/children/H_v4/alcove_v4/clips/B4_expanded.mp4 filter=lfs diff=lfs merge=lfs -text
+alcove_teardown/alcove-research/children/H_v4/alcove_v4/clips/B1_compact.mp4 filter=lfs diff=lfs merge=lfs -text

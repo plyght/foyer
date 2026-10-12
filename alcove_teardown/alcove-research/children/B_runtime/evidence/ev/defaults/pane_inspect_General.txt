@@ -1,0 +1,88 @@
+macos accessibility snapshot v1 (line format: @ref role "name" = "value" #id [states] {actions}; indent = hierarchy)
+target: pid:2607  epoch: 15  app: Alcove  pid: 2607  provenance: axuielement  nodes: 155/155  truncated: false
+@m6986 application "Alcove"
+ @m6987 window
+  @m6988 group
+   @m6989 button
+   @m6990 button
+ @m6991 window
+  @m6992 group
+ @m6993 window "General" [focused=true]
+  @m6994 group
+   @m6995 image "gearshape.fill" #gearshape.fill
+   @m6996 statictext = "General"
+   @m6997 button "General" {press}
+   @m6998 statictext = "Notifications"
+   @m6999 button "Battery" [disabled=true] {press}
+   @m7000 button "Connectivity" {press}
+   @m7001 button "Focus" {press}
+   @m7002 button "Display" {press}
+   @m7003 button "Sound" {press}
+   @m7004 statictext = "Live Activities"
+   @m7005 button "Now Playing" {press}
+   @m7006 button "11, Calendar" {press}
+   @m7007 button "File Tray, Soon" [disabled=true] {press}
+   @m7008 button "Lock Screen" {press}
+   @m7009 statictext = "Alcove"
+   @m7010 button "License, Trial" [selected=true] {press}
+   @m7011 button "About" {press}
+   @m7012 scrollarea {scroll}
+    @m7013 statictext = "Launch at login"
+    @m7014 checkbox [checked=false] {press}
+    @m7015 statictext = "Hide in fullscreen"
+    @m7016 checkbox [checked=true] {press}
+    @m7017 statictext = "Hide in mission control"
+    @m7018 checkbox [checked=true] {press}
+    @m7019 statictext = "Hide while gaming"
+    @m7020 checkbox [checked=false] {press}
+    @m7021 statictext = "Hide from screen capture"
+    @m7022 checkbox [checked=false] {press}
+    @m7023 statictext = "Force simulated notch"
+    @m7024 checkbox [checked=true] {press}
+    @m7025 statictext = "Display on"
+    @m7026 button "Mac"
+    @m7027 button = "Main display" {press,show_menu}
+    @m7028 button "Main display"
+    @m7029 statictext = "Idle Activity"
+    @m7030 image "clock.arrow.circlepath" #clock.arrow.circlepath
+    @m7031 statictext = "Most Recent"
+    @m7032 checkbox [checked=false] {press}
+    @m7033 button "Stop" #nosign {press}
+    @m7034 button "Play" #play.fill {press}
+    @m7035 button "11" {press}
+    @m7036 button "11" {press}
+    @m7037 statictext = "None"
+    @m7038 statictext = "Playing"
+    @m7039 statictext = "Calendar"
+    @m7040 statictext = "Duo"
+    @m7041 statictext = "Behaviour"
+    @m7042 statictext = "Contrast outline"
+    @m7043 checkbox [checked=true] {press}
+    @m7044 statictext = "Progressive blur"
+    @m7045 checkbox [checked=true] {press}
+    @m7046 statictext = "Haptic feedback"
+    @m7047 checkbox [checked=true] {press}
+    @m7048 statictext = "Expand on hover"
+    @m7049 button "info"
+    @m7050 checkbox [checked=false] {press}
+    @m7051 statictext = "Gestures"
+    @m7052 statictext = "Natural movement"
+    @m7053 checkbox [checked=false] {press}
+    @m7054 statictext = "Swipe to toggle open"
+    @m7055 checkbox [checked=true] {press}
+    @m7056 statictext = "Swipe to cycle activity"
+    @m7057 button "info"
+    @m7058 checkbox [checked=true] {press}
+    @m7059 statictext = "Swipe to dismiss activity"
+    @m7060 button "info"
+    @m7061 checkbox [checked=true] {press}
+    @m7062 statictext = "Swipe to skip media"
+    @m7063 checkbox [checked=true] {press}
+    @m7064 scrollbar = "0"
+  @m7065 toolbar {show_menu}
+  @m7066 button "close" {press}
+  @m7067 button "zoom" [disabled=true] {press,show_menu}
+   @m7068 group
+    @m7069 group
+  @m7070 button "minimize" [disabled=true] {press}
+note: menu bar folded: "Alcove", "Window", "Help", "Alcove" (57 menu item(s) not listed) — `query role=menuitem` or `query role=menuitem text=<command>` lists them with refs; a menu item is pressed directly, the menu need not be opened first

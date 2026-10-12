@@ -1,0 +1,24 @@
+{
+  "source": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-012.mkv",
+  "threshold": ">=20 gray<32 pixels in x730..869,y0..31",
+  "transitions": [
+    {
+      "frame": 0,
+      "pts": 0.0,
+      "black_pixels": 4000,
+      "notch_present": true
+    },
+    {
+      "frame": 1962,
+      "pts": 34.45,
+      "black_pixels": 0,
+      "notch_present": false
+    },
+    {
+      "frame": 3384,
+      "pts": 59.483,
+      "black_pixels": 4001,
+      "notch_present": true
+    }
+  ]
+}

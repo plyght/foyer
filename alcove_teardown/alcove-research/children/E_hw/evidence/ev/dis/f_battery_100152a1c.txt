@@ -1,0 +1,17 @@
+            ; XREFS: CALL 0x100036320  CALL 0x100080308  CALL 0x1000809d8  
+            ; XREFS: CALL 0x100081078  CALL 0x100081110  CALL 0x10008122c  
+            ; XREFS: CALL 0x1000812e0  CALL 0x10008137c  CALL 0x100081440  
+            ; XREFS: CALL 0x100081558  CALL 0x100081674  CALL 0x1000818c4  
+            ; XREFS: CALL 0x10012e3b8  CALL 0x10021217c  CALL 0x1002124c0  
+            ; XREFS: CALL 0x100212628  CALL 0x1002126e4  CALL 0x100212e94  
+            ; XREFS: CALL 0x100212ff0  
+/ 32: sym.func.100152a1c ();
+| afv: vars(2:sp[0x8..0x10])
+|           0x100152a1c      fd7bbfa9       stp x29, x30, [var_10h]!
+|           0x100152a20      fd030091       mov x29, sp
+|           0x100152a24      e02300b0       adrp x0, 0x1005cf000
+|           0x100152a28      00a03891       add x0, x0, 0xe28          ; void *arg0
+|           0x100152a2c      1aeb0b94       bl sym.imp.objc_opt_self   ; void *objc_opt_self(void *arg0)
+|           0x100152a30      010080d2       mov x1, 0
+|           0x100152a34      fd7bc1a8       ldp x29, x30, [sp], 0x10
+\           0x100152a38      c0035fd6       ret

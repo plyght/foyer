@@ -1,0 +1,4 @@
+sym.func.100138cec 0x100138ec4 [CALL:--x] bl sym.imp.IORegistryEntrySearchCFProperty
+sym.func.100138fa0 0x100139000 [CALL:--x] bl sym.imp.IORegistryEntrySearchCFProperty
+sym.func.100138fa0 0x1001390e0 [CALL:--x] bl sym.imp.IORegistryEntrySearchCFProperty
+sym.func.100138fa0 0x100139174 [CALL:--x] bl sym.imp.IORegistryEntrySearchCFProperty

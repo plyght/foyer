@@ -1,0 +1,258 @@
+sym.func.10012de20 0x10012de48 [STRN:r--] add x8, x8, str.ExternalConnected
+sym.func.1001521f0 0x10015220c [STRN:r--] add x8, x8, str.ExternalConnected
+sym.func.1001528c8 0x100152900 [STRN:r--] add x8, x8, str.ExternalConnected
+sym.func.10020cd28 0x10020cd44 [STRN:r--] add x0, x0, str.AppleARMBacklight
+sym.func.10034bf7c 0x10034c024 [STRN:r--] add x0, x0, str.AppleARMBacklight
+sym.func.10020cd28 0x10020cd60 [STRN:r--] add x0, x0, str.AppleBacklightDisplay
+sym.func.10034bf7c 0x10034c040 [STRN:r--] add x0, x0, str.AppleBacklightDisplay
+sym.func.10034fec4 0x10034ff4c [STRN:r--] add x8, x8, str.com.apple.screensaver.didstart
+sym.func.10034fec4 0x100350050 [STRN:r--] add x8, x8, str.com.apple.screensaver.didstop
+sym.func.100207b44 0x100207bc8 [STRN:r--] add x8, x8, str.com.apple.screenLockUIIsShown
+sym.func.10026c968 0x10026caf4 [STRN:r--] add x8, x8, str.com.apple.screenLockUIIsShown
+sym.func.10034fec4 0x100350120 [STRN:r--] add x8, x8, str.com.apple.screenLockUIIsShown
+sym.func.100207b44 0x100207cb0 [STRN:r--] add x8, x8, str.com.apple.screenLockUIIsHidden
+sym.func.10034fec4 0x1003501f0 [STRN:r--] add x8, x8, str.com.apple.screenLockUIIsHidden
+sym.func.10034fec4 0x1003503a4 [STRN:r--] add x8, x8, str.com.apple.screenIsUnlocked
+sym.func.100358530 0x100358690 [STRN:r--] add x8, x8, str.NoDisplaySleepAssertion
+sym.func.100358530 0x100358708 [STRN:r--] add x8, x8, str.PreventUserIdleDisplaySleep
+sym.func.100132878 0x100132a5c [STRN:r--] add x12, x12, str.com.betterdisplay.BetterDisplay.osd
+sym.func.100132878 0x100132a80 [STRN:r--] add x8, x8, str.com.betterdisplay.BetterDisplay.request
+sym.func.100132878 0x100132a14 [STRN:r--] add x8, x8, str.pro.betterdisplay.BetterDisplay
+sym.func.100138fa0 0x10013932c [STRN:r--] add x8, x8, str.virtual_hid_keyboard
+sym.func.100138cec 0x100138d2c [STRN:r--] add x0, x0, str.IOHIDDevice
+sym.func.100138cec 0x100138e64 [STRN:r--] add x8, x8, str.HIDKeyboardLayoutValue
+sym.func.1002a116c 0x1002a1874 [STRN:r--] add x8, x8, str.notification.battery.lowPower
+sym.func.1002a116c 0x1002a1344 [STRN:r--] add x8, x8, str.notification.battery.lowBattery
+sym.func.1002a116c 0x1002a1750 [STRN:r--] add x8, x8, str.notification.battery.charging
+sym.func.100108c18 0x100109684 [STRN:r--] add x8, x8, str.airpods_max_blue
+sym.func.100108c18 0x100108f30 [STRN:r--] add x8, x8, str.airpods_max_midnight
+sym.func.1001527c0 0x10015285c [STRN:r--] add x8, x8, str.Opening__AppleSmartBattery__service_failed
+sym.func.1000fb5d4 0x1000fb804 [STRN:r--] add x8, x8, str.com.apple.sleep.sleep_mode
+sym.func.100101520 0x1001016ac [STRN:r--] add x8, x8, str.com.apple.sleep.sleep_mode
+sym.func.100101520 0x1001016d8 [DATA:r--] ldp q0, q1, [x8, 0x10]
+sym.func.100134354 0x100134438 [CALL:--x] bl sym.imp.CGEventTapEnable
+sym.func.1001367fc 0x100136880 [CALL:--x] bl sym.imp.CGEventTapEnable
+sym.func.100358a78 0x100358b24 [CALL:--x] bl sym.imp.IOPMAssertionRelease
+sym.func.100358a78 0x100358b48 [CALL:--x] bl sym.imp.IOPMAssertionRelease
+sym.func.100358a78 0x100358b6c [CALL:--x] bl sym.imp.IOPMAssertionRelease
+sym.func.1001197cc 0x100119830 [CALL:--x] bl sym.imp.DisplayServicesCanChangeBrightness
+sym.func.1001225e4 0x1001227bc [CALL:--x] bl sym.imp.DisplayServicesCanChangeBrightness
+sym.func.1001228e4 0x100122bb0 [CALL:--x] bl sym.imp.DisplayServicesCanChangeBrightness
+sym.func.100122c40 0x100122ce8 [CALL:--x] bl sym.imp.DisplayServicesCanChangeBrightness
+sym.func.100122c40 0x100122dbc [CALL:--x] bl sym.imp.DisplayServicesCanChangeBrightness
+sym.func.100122c40 0x100122e20 [CALL:--x] bl sym.imp.DisplayServicesCanChangeBrightness
+sym.func.100122c40 0x100122e6c [CALL:--x] bl sym.imp.DisplayServicesCanChangeBrightness
+sym.func.100122c40 0x100122e9c [CALL:--x] bl sym.imp.DisplayServicesCanChangeBrightness
+sym.func.100122c40 0x100122eb8 [CALL:--x] bl sym.imp.DisplayServicesCanChangeBrightness
+sym.func.100122c40 0x100122edc [CALL:--x] bl sym.imp.DisplayServicesCanChangeBrightness
+sym.func.100136b4c 0x100136ce4 [CALL:--x] bl sym.imp.DisplayServicesCanChangeBrightness
+sym.func.100136eac 0x1001370b8 [CALL:--x] bl sym.imp.DisplayServicesCanChangeBrightness
+sym.func.10020beec 0x10020c0f0 [CALL:--x] bl sym.imp.CGDisplayCreateUUIDFromDisplayID
+sym.func.10023f6e0 0x10023fc68 [CALL:--x] bl sym.imp.CGDisplayCreateUUIDFromDisplayID
+sym.func.1000b853c 0x1000b857c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1000b861c 0x1000b8674 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1000b8ea4 0x1000b8f0c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1000b9018 0x1000b907c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1000b9188 0x1000b91e4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1000b9284 0x1000b92e8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1000b93f4 0x1000b9458 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1000b9564 0x1000b96a0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1000d4c3c 0x1000d4fc8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1000dc190 0x1000dc1f4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001109f0 0x100110a48 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001109f0 0x100110b2c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100123d50 0x100123d94 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100123e3c 0x100123e80 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100123f28 0x100124788 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001248d0 0x100124e74 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100148f84 0x100148fd0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10018ddbc 0x10018ddfc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001c0538 0x1001c058c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001c869c 0x1001c8988 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d1d14 0x1001d1d60 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d1e38 0x1001d1e84 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d2c6c 0x1001d2ccc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d2ee0 0x1001d2f40 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d5a14 0x1001d5a60 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d5b48 0x1001d5b94 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d5c7c 0x1001d5ccc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d5de4 0x1001d5e34 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d6190 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d67fc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d6c70 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d6dcc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d6f14 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d7180 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d7288 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d79d4 0x1001d7a34 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d7f48 0x1001d972c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001d7f48 0x1001da26c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001deb3c 0x1001df064 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001e8554 0x1001e85a0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001e8688 0x1001e86d4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001e87e4 0x1001e8834 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001e894c 0x1001e8998 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001e8ab0 0x1001e8afc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001e8c0c 0x1001e8c58 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001e8d78 0x1001e8dc4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001ebcd8 0x1001ebd88 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001ebcd8 0x1001ebf50 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001ebcd8 0x1001ec090 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001ec9b0 0x1001eca0c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001ef190 0x1001ef1f0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001f13b4 0x1001f1400 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001f279c 0x1001f27e8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001f2ed8 0x1001f2fc4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001f3644 0x1001f3af8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001f84d4 0x1001f85ac [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1001f8920 0x1001f8a04 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10021a5c0 0x10021a5fc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10021ad3c 0x10021ad84 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10021aec8 0x10021af10 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10021b0f4 0x10021b1bc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10021b394 0x10021b45c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10021e724 0x10021e8b4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10021f344 0x10021f4f4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100220714 0x1002209b4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100220714 0x100220c00 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100224c88 0x100224ed8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100225730 0x100226a40 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10022bb24 0x10022bcd8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10022bb24 0x10022bde0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10022f8b0 0x10022fa84 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10022f8b0 0x10022fc6c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100230aa0 0x100230d4c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100231430 0x1002316f4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1002348e0 0x100234b80 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100235270 0x1002353d4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100238df8 0x100238e28 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100238df8 0x100238e9c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10023de08 0x10023e324 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1002416f0 0x1002420b4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100244604 0x100244718 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100244604 0x10024485c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10029ee0c 0x10029ee58 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10029ef40 0x10029ef8c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10029f374 0x10029f3c4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10029f4dc 0x10029f528 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10029f638 0x10029f68c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10029f7a4 0x10029f7f4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10029f90c 0x10029f95c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10029fa7c 0x10029fb58 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1002a32ec 0x1002a3454 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1002a44f8 0x1002a4b4c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10030c4dc 0x10030c79c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10030dacc 0x10030de50 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1003306c8 0x1003307bc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1003306c8 0x1003308d4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.100331248 0x1003312a0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.10034bf7c 0x10034c2f8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+sym.func.1000b853c 0x1000b8598 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1000b861c 0x1000b8690 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1000b8ea4 0x1000b8f28 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1000b9018 0x1000b9098 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1000b9188 0x1000b9200 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1000b9284 0x1000b9304 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1000b93f4 0x1000b9474 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1000b9564 0x1000b96bc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1000d4c3c 0x1000d4fec [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1000dc190 0x1000dc210 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001109f0 0x100110a64 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001109f0 0x100110b48 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100123d50 0x100123db0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100123e3c 0x100123e9c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100123f28 0x1001247a4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001248d0 0x100124e90 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100148f84 0x100148fec [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10018ddbc 0x10018de18 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001c0538 0x1001c05a8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001c869c 0x1001c89a4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d1d14 0x1001d1d7c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d1e38 0x1001d1ea0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d2c6c 0x1001d2ce8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d2ee0 0x1001d2f5c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d5a14 0x1001d5a7c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d5b48 0x1001d5bb0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d5c7c 0x1001d5ce8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d5de4 0x1001d5e50 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d61ac [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d6818 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d6c94 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d6df0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d6f38 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d71ac [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d5f4c 0x1001d72b4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d79d4 0x1001d7a50 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d7f48 0x1001d9750 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001d7f48 0x1001da294 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001deb3c 0x1001df094 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001e8554 0x1001e85bc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001e8688 0x1001e86f0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001e87e4 0x1001e8850 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001e894c 0x1001e89b4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001e8ab0 0x1001e8b18 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001e8c0c 0x1001e8c74 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001e8d78 0x1001e8de0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001ebcd8 0x1001ebda4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001ebcd8 0x1001ebf6c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001ebcd8 0x1001ec0ac [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001ec9b0 0x1001eca28 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001ef190 0x1001ef20c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001f13b4 0x1001f141c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001f279c 0x1001f2804 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001f2ed8 0x1001f2fe0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001f3644 0x1001f3b28 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001f84d4 0x1001f85c8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1001f8920 0x1001f8a20 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10021a5c0 0x10021a618 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10021ad3c 0x10021ada0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10021aec8 0x10021af2c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10021b0f4 0x10021b1d8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10021b394 0x10021b478 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10021e724 0x10021e8d0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10021f344 0x10021f510 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100220714 0x1002209d0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100220714 0x100220c1c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100224c88 0x100224ef4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100225730 0x100226a5c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10022bb24 0x10022bcf4 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10022bb24 0x10022bdfc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10022f8b0 0x10022fabc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10022f8b0 0x10022fc88 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100230aa0 0x100230d68 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100231430 0x100231710 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1002348e0 0x100234b9c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100235270 0x1002353f0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100238df8 0x100238e4c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100238df8 0x100238eb8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10023de08 0x10023e340 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1002416f0 0x1002420d0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100244604 0x100244734 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100244604 0x100244878 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10029ee0c 0x10029ee74 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10029ef40 0x10029efa8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10029f374 0x10029f3e0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10029f4dc 0x10029f544 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10029f638 0x10029f6a8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10029f7a4 0x10029f810 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10029f90c 0x10029f978 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10029fa7c 0x10029fb74 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1002a32ec 0x1002a3470 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1002a44f8 0x1002a4b68 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10030c4dc 0x10030c7b8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10030dacc 0x10030de6c [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1003306c8 0x1003307d8 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.1003306c8 0x1003308f0 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100331248 0x1003312bc [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.10034bf7c 0x10034c314 [CALL:--x] bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+sym.func.100152488 0x1001524c0 [CALL:--x] bl sym.imp.IOPSCopyPowerSourcesList
+sym.func.1001527c0 0x1001527f8 [CALL:--x] bl sym.imp.IOServiceGetMatchingService
+sym.func.10016b9d4 0x10016ba08 [CALL:--x] bl sym.imp.IOServiceGetMatchingService
+sym.func.10016badc 0x10016bb88 [CALL:--x] bl sym.imp.IOServiceGetMatchingService
+sym.func.10020cd28 0x10020cd54 [CALL:--x] bl sym.imp.IOServiceGetMatchingService
+sym.func.10020cd28 0x10020cd70 [CALL:--x] bl sym.imp.IOServiceGetMatchingService
+sym.func.10020cd28 0x10020cd8c [CALL:--x] bl sym.imp.IOServiceGetMatchingService
+sym.func.10034bf7c 0x10034c034 [CALL:--x] bl sym.imp.IOServiceGetMatchingService
+sym.func.10034bf7c 0x10034c050 [CALL:--x] bl sym.imp.IOServiceGetMatchingService
+sym.func.10034bf7c 0x10034c06c [CALL:--x] bl sym.imp.IOServiceGetMatchingService
+sym.func.100138cec 0x100138e20 [CALL:--x] bl sym.imp.IOServiceGetMatchingServices

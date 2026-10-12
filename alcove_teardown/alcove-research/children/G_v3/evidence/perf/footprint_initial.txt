@@ -1,0 +1,51 @@
+======================================================================
+Alcove [3840]: 64-bit    Footprint: 64 MB (16384 bytes per page)
+======================================================================
+
+  Dirty      Clean  Reclaimable    Regions    Category
+    ---        ---          ---        ---    ---
+  43 MB        0 B       320 KB         17    MALLOC_SMALL
+4192 KB        0 B       496 KB         43    untagged (VM_ALLOCATE)
+3002 KB        0 B          0 B        986    __DATA
+2897 KB        0 B          0 B        889    __DATA_DIRTY
+2192 KB        0 B       800 KB         19    IOAccelerator (graphics)
+2080 KB        0 B          0 B         85    CoreAnimation
+1456 KB        0 B       704 KB         17    IOSurface
+1024 KB        0 B          0 B         14    MALLOC metadata
+ 739 KB        0 B          0 B        646    __AUTH
+ 723 KB        0 B          0 B          1    page table
+ 482 KB        0 B          0 B       2574    unused dyld shared cache area
+ 416 KB        0 B          0 B         18    stack
+ 352 KB        0 B          0 B          6    CoreUI image data
+ 320 KB        0 B          0 B          1    MALLOC_TINY
+ 256 KB        0 B          0 B          2    CoreImage
+ 224 KB        0 B          0 B          9    IOKit
+ 192 KB     176 KB          0 B       1042    __DATA_CONST
+ 128 KB        0 B          0 B          3    IOAccelerator
+ 128 KB        0 B          0 B          1    Accelerate image backing stores
+ 112 KB        0 B          0 B          5    CG image
+ 112 KB        0 B          0 B          2    __TPRO_CONST
+  96 KB        0 B          0 B          3    MALLOC_NANO
+  80 KB        0 B          0 B          5    ColorSync
+  48 KB        0 B          0 B          1    Activity Tracing
+  48 KB        0 B          0 B          3    CoreGraphics
+  16 KB        0 B        16 KB          2    Foundation
+  16 KB        0 B          0 B          1    tag 22
+  16 KB        0 B          0 B          1    os_alloc_once
+    0 B        0 B        80 KB          3    SQLite page cache
+    0 B      25 MB          0 B         66    mapped file
+    0 B    5424 KB          0 B       1065    __TEXT
+    0 B     208 KB          0 B          7    __LINKEDIT
+    0 B     192 KB          0 B         10    skywalk (network) (nofootprint)
+    0 B      48 KB          0 B          3    Owned physical footprint (unmapped) (network) (nofootprint)
+    0 B        0 B          0 B          1    __FONT_DATA
+    0 B        0 B          0 B          6    skywalk
+    0 B        0 B          0 B          1    __CTF
+    0 B        0 B          0 B       1032    __AUTH_CONST
+    ---        ---          ---        ---    ---
+  64 MB      31 MB      2416 KB       8592    TOTAL
+
+Auxiliary data:
+    phys_footprint: 64 MB
+    phys_footprint_peak: 68 MB
+

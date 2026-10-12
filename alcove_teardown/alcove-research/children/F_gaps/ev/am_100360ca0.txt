@@ -1,0 +1,34 @@
+            ; ICOD XREF from sym.func.100360c34 @ 0x100360c84(r)
+/ 116: sym.func.100360ca0 (void *arg1);
+| `- args(x0) vars(3:sp[0x8..0x18])
+|           0x100360ca0      bd0344b2       orr x29, x29, 0x1000000000000000
+|           0x100360ca4      ff8300d1       sub sp, sp, 0x20
+|           0x100360ca8      fd7b01a9       stp x29, x30, [var_10h]
+|           0x100360cac      f60700f9       str x22, [var_8h]
+|           0x100360cb0      fd430091       add x29, sp, 0x10
+|           0x100360cb4      d40243a9       ldp x20, x0, [x22, 0x30]
+|           0x100360cb8      82b30394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x100360cbc      80420091       add x0, x20, 0x10          ; void *arg0
+|           0x100360cc0      c1420091       add x1, x22, 0x10          ; void *arg1
+|           0x100360cc4      020080d2       mov x2, 0                  ; void *arg2
+|           0x100360cc8      030080d2       mov x3, 0                  ; void *arg3
+|           0x100360ccc      c0b20394       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x100360cd0      80420091       add x0, x20, 0x10
+|           0x100360cd4      deb30394       bl sym.imp.swift_weakLoadStrong
+|       ,=< 0x100360cd8      e00000b4       cbz x0, 0x100360cf4
+|       |   0x100360cdc      f40300aa       mov x20, x0
+|       |   0x100360ce0      bafeff97       bl sym.func.1003607c8
+|       |   0x100360ce4      e00314aa       mov x0, x20                ; void *arg0
+|       |   0x100360ce8      76b30394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|       |   0x100360cec      08008052       mov w8, 0
+|      ,==< 0x100360cf0      02000014       b 0x100360cf8
+|      ||   ; CODE XREF from sym.func.100360ca0 @ 0x100360cd8(x)
+|      |`-> 0x100360cf4      28008052       mov w8, 1
+|      |    ; CODE XREF from sym.func.100360ca0 @ 0x100360cf0(x)
+|      `--> 0x100360cf8      c91640f9       ldr x9, [x22, 0x28]
+|           0x100360cfc      28010039       strb w8, [x9]
+|           0x100360d00      c00640f9       ldr x0, [x22, 8]
+|           0x100360d04      fd7b41a9       ldp x29, x30, [var_10h]
+|           0x100360d08      bdfb4392       and x29, x29, 0xefffffffffffffff
+|           0x100360d0c      ff830091       add sp, sp, 0x20           ; 0x178000
+\           0x100360d10      00001fd6       br x0

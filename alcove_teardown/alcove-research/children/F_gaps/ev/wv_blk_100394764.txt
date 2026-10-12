@@ -1,0 +1,4 @@
+        |   ; XREFS(34)
+/ 4: sym.func.100394764 (int64_t arg1);
+| `- args(x0)
+\       `=< 0x100394764      f460ff17       b sym.func.10036cb34

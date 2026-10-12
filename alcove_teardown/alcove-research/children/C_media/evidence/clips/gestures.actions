@@ -1,0 +1,10 @@
+1791740111.953 actions-begin
+1791740112.972 move (800.0, 14.0)
+1791740113.501 slow-open-swipe-start
+1791740114.769 swipeseq ended cum=(0.0,-40.0)
+1791740117.298 close-swipe-start
+1791740117.598 swipeseq ended cum=(0.0,40.0)
+1791740119.631 horiz-swipe-start
+1791740119.926 swipeseq ended cum=(-96.0,0.0)
+94.849998474121
+1791740122.015 move (800.0, 500.0)

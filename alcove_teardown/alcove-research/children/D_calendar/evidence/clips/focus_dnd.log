@@ -1,0 +1,12 @@
+objc[11795]: class `NSKVONotifying_AVCaptureScreenInput' not linked into application
+objc[11795]: class `NSKVONotifying_AVCaptureScreenInput' not linked into application
+objc[11795]: class `NSKVONotifying_AVCaptureScreenInput' not linked into application
+[in#0 @ 0xc4f024000] Selected pixel format (yuv420p) is not supported by the input device.
+[in#0 @ 0xc4f024000] Supported pixel formats:
+[in#0 @ 0xc4f024000]   uyvy422
+[in#0 @ 0xc4f024000]   yuyv422
+[in#0 @ 0xc4f024000]   nv12
+[in#0 @ 0xc4f024000]   0rgb
+[in#0 @ 0xc4f024000]   bgr0
+rec_top.sh: line 5: 11795 Killed: 9                  ffmpeg -y -loglevel error -f avfoundation -framerate 60 -capture_cursor 1 -i "0:none" -t "$2" -vf "crop=1600:$H:0:0" -c:v libx264 -preset ultrafast -crf 18 -pix_fmt yuv420p "$(basename "$1").mp4"
+focus_dnd.mp4: No such file or directory

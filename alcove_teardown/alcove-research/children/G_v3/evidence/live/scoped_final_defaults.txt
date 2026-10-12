@@ -1,0 +1,5 @@
+2026-10-11 17:23:32 PDT
+hideWhileGaming=0
+hideWhileInFullscreen=0
+hideWhileInMissionControl: domain/default pair not explicitly present
+Only these three keys queried; no full preferences dump.

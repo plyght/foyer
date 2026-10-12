@@ -1,0 +1,249 @@
+            ; CALL XREF from sym.func.100314808 @ 0x1003149bc(x)
+            ; CALL XREFS from sym.func.10031b0c8 @ 0x10031b188(x), 0x10031b1e4(x)
+/ 872: sym.func.10031a2c4 (uint64_t arg1, uint64_t arg2, int64_t arg3, int64_t arg4);
+| `- args(x21, x0, x1, x2, x3) vars(10:sp[0x8..0x50])
+|           0x10031a2c4      fa67bba9       stp x26, x25, [var_50h]!
+|           0x10031a2c8      f85f01a9       stp x24, x23, [var_10h]
+|           0x10031a2cc      f65702a9       stp x22, x21, [var_20h]
+|           0x10031a2d0      f44f03a9       stp x20, x19, [var_30h]
+|           0x10031a2d4      fd7b04a9       stp x29, x30, [var_40h]
+|           0x10031a2d8      fd030191       add x29, sp, 0x40
+|           0x10031a2dc      f60303aa       mov x22, x3                ; arg4
+|           0x10031a2e0      48068652       mov w8, 0x3032             ; '20'
+|           0x10031a2e4      0846a672       movk w8, 0x3230, lsl 16    ; '02'
+|           0x10031a2e8      1f0008eb       cmp x0, x8                 ; arg1
+|           0x10031a2ec      0880fcd2       mov x8, -0x1c00000000000000
+|           0x10031a2f0      200048fa       ccmp x1, x8, 0, eq         ; arg2
+|       ,=< 0x10031a2f4      80010054       b.eq 0x10031a324
+|       |   0x10031a2f8      f30302aa       mov x19, x2                ; arg3
+|       |   0x10031a2fc      f40301aa       mov x20, x1                ; arg2
+|       |   0x10031a300      f50300aa       mov x21, x0                ; error
+|       |   0x10031a304      40068652       mov w0, 0x3032             ; '20'
+|       |   0x10031a308      0046a672       movk w0, 0x3230, lsl 16    ; '02'
+|       |   0x10031a30c      0180fcd2       mov x1, -0x1c00000000000000
+|       |   0x10031a310      e20315aa       mov x2, x21
+|       |   0x10031a314      e30314aa       mov x3, x20
+|       |   0x10031a318      04008052       mov w4, 0
+|       |   0x10031a31c      32ca0494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+|      ,==< 0x10031a320      00010036       tbz w0, 0, 0x10031a340
+|      ||   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a2f4(x)
+|      |`-> 0x10031a324      c01e0012       and w0, w22, 0xff
+|      |    ; XREFS: CODE 0x10031a380  CODE 0x10031a3c8  CODE 0x10031a410  
+|      |    ; XREFS: CODE 0x10031a438  CODE 0x10031a4bc  CODE 0x10031a554  
+|      |    ; XREFS: CODE 0x10031a5d4  CODE 0x10031a628  
+| .....-.-> 0x10031a328      fd7b44a9       ldp x29, x30, [var_40h]
+| :::::|:   0x10031a32c      f44f43a9       ldp x20, x19, [var_30h]
+| :::::|:   0x10031a330      f65742a9       ldp x22, x21, [var_20h]
+| :::::|:   0x10031a334      f85f41a9       ldp x24, x23, [var_10h]
+| :::::|:   0x10031a338      fa67c5a8       ldp x26, x25, [sp], 0x50
+| :::::|:   0x10031a33c      c0035fd6       ret
+| :::::|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a320(x)
+| :::::`--> 0x10031a340      57068652       mov w23, 0x3032            ; '20'
+| ::::: :   0x10031a344      5786ac72       movk w23, 0x6432, lsl 16   ; '2d'
+| ::::: :   0x10031a348      e0827f91       add x0, x23, 0xfe0, lsl 12
+| ::::: :   0x10031a34c      bf0200eb       cmp x21, x0
+| :::::,==< 0x10031a350      81000054       b.ne 0x10031a360
+| :::::|:   0x10031a354      0880fcd2       mov x8, -0x1c00000000000000
+| :::::|:   0x10031a358      9f0208eb       cmp x20, x8
+| ========< 0x10031a35c      e0000054       b.eq 0x10031a378
+| :::::|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a350(x)
+| :::::`--> 0x10031a360      0180fcd2       mov x1, -0x1c00000000000000
+| ::::: :   0x10031a364      e20315aa       mov x2, x21
+| ::::: :   0x10031a368      e30314aa       mov x3, x20
+| ::::: :   0x10031a36c      04008052       mov w4, 0
+| ::::: :   0x10031a370      1dca0494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+| :::::,==< 0x10031a374      80000036       tbz w0, 0, 0x10031a384
+| :::::|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a35c(x)
+| --------> 0x10031a378      00808052       mov w0, 0x400
+| :::::|:   0x10031a37c      c01e0033       bfxil w0, w22, 0, 8
+| ========< 0x10031a380      eaffff17       b 0x10031a328
+| :::::|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a374(x)
+| :::::`--> 0x10031a384      58068652       mov w24, 0x3032            ; '20'
+| ::::: :   0x10031a388      18c6ac72       movk w24, 0x6630, lsl 16   ; '0f'
+| ::::: :   0x10031a38c      bf0218eb       cmp x21, x24
+| :::::,==< 0x10031a390      81000054       b.ne 0x10031a3a0
+| :::::|:   0x10031a394      0880fcd2       mov x8, -0x1c00000000000000
+| :::::|:   0x10031a398      9f0208eb       cmp x20, x8
+| ========< 0x10031a39c      20010054       b.eq 0x10031a3c0
+| :::::|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a390(x)
+| :::::`--> 0x10031a3a0      40068652       mov w0, 0x3032             ; '20'
+| ::::: :   0x10031a3a4      00c6ac72       movk w0, 0x6630, lsl 16    ; '0f'
+| ::::: :   0x10031a3a8      0180fcd2       mov x1, -0x1c00000000000000
+| ::::: :   0x10031a3ac      e20315aa       mov x2, x21
+| ::::: :   0x10031a3b0      e30314aa       mov x3, x20
+| ::::: :   0x10031a3b4      04008052       mov w4, 0
+| ::::: :   0x10031a3b8      0bca0494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+| :::::,==< 0x10031a3bc      80000036       tbz w0, 0, 0x10031a3cc
+| :::::|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a39c(x)
+| --------> 0x10031a3c0      00208052       mov w0, 0x100
+| :::::|:   0x10031a3c4      c01e0033       bfxil w0, w22, 0, 8
+| ========< 0x10031a3c8      d8ffff17       b 0x10031a328
+| :::::|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a3bc(x)
+| :::::`--> 0x10031a3cc      48068652       mov w8, 0x3032             ; '20'
+| ::::: :   0x10031a3d0      2866a672       movk w8, 0x3331, lsl 16    ; '13'
+| ::::: :   0x10031a3d4      bf0208eb       cmp x21, x8
+| :::::,==< 0x10031a3d8      81000054       b.ne 0x10031a3e8
+| :::::|:   0x10031a3dc      0880fcd2       mov x8, -0x1c00000000000000
+| :::::|:   0x10031a3e0      9f0208eb       cmp x20, x8
+| ========< 0x10031a3e4      20010054       b.eq 0x10031a408
+| :::::|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a3d8(x)
+| :::::`--> 0x10031a3e8      40068652       mov w0, 0x3032             ; '20'
+| ::::: :   0x10031a3ec      2066a672       movk w0, 0x3331, lsl 16    ; '13'
+| ::::: :   0x10031a3f0      0180fcd2       mov x1, -0x1c00000000000000
+| ::::: :   0x10031a3f4      e20315aa       mov x2, x21
+| ::::: :   0x10031a3f8      e30314aa       mov x3, x20
+| ::::: :   0x10031a3fc      04008052       mov w4, 0
+| ::::: :   0x10031a400      f9c90494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+| :::::,==< 0x10031a404      80000036       tbz w0, 0, 0x10031a414
+| :::::|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a3e4(x)
+| --------> 0x10031a408      00408052       mov w0, 0x200
+| :::::|:   0x10031a40c      c01e0033       bfxil w0, w22, 0, 8
+| `=======< 0x10031a410      c6ffff17       b 0x10031a328
+|  ::::|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a404(x)
+|  ::::`--> 0x10031a414      48068652       mov w8, 0x3032             ; '20'
+|  :::: :   0x10031a418      2846ac72       movk w8, 0x6231, lsl 16    ; '1b'
+|  :::: :   0x10031a41c      bf0208eb       cmp x21, x8
+|  ::::,==< 0x10031a420      e1000054       b.ne 0x10031a43c
+|  ::::|:   0x10031a424      0880fcd2       mov x8, -0x1c00000000000000
+|  ::::|:   0x10031a428      9f0208eb       cmp x20, x8
+| ,=======< 0x10031a42c      81000054       b.ne 0x10031a43c
+| |::::|:   ; CODE XREFS from sym.func.10031a2c4 @ 0x10031a470(x), 0x10031a474(x), 0x10031a494(x)
+| --------> 0x10031a430      00608052       mov w0, 0x300
+| |::::|:   0x10031a434      c01e0033       bfxil w0, w22, 0, 8
+| |`======< 0x10031a438      bcffff17       b 0x10031a328
+| | :::|:   ; CODE XREFS from sym.func.10031a2c4 @ 0x10031a420(x), 0x10031a42c(x)
+| `----`--> 0x10031a43c      59068652       mov w25, 0x3032            ; '20'
+|   ::: :   0x10031a440      3926a772       movk w25, 0x3931, lsl 16   ; '19'
+|   ::: :   0x10031a444      1a80fcd2       mov x26, -0x1c00000000000000
+|   ::: :   0x10031a448      40068652       mov w0, 0x3032             ; '20'
+|   ::: :   0x10031a44c      2046ac72       movk w0, 0x6231, lsl 16    ; '1b'
+|   ::: :   0x10031a450      0180fcd2       mov x1, -0x1c00000000000000
+|   ::: :   0x10031a454      e20315aa       mov x2, x21
+|   ::: :   0x10031a458      e30314aa       mov x3, x20
+|   ::: :   0x10031a45c      04008052       mov w4, 0
+|   ::: :   0x10031a460      e1c90494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+|   ::: :   0x10031a464      bf0219eb       cmp x21, x25
+|   ::: :   0x10031a468      80025afa       ccmp x20, x26, 0, eq
+|   ::: :   0x10031a46c      e8179f1a       cset w8, eq
+| ========< 0x10031a470      00fe0737       tbnz w0, 0, 0x10031a430
+| ========< 0x10031a474      e8fd0737       tbnz w8, 0, 0x10031a430
+|   ::: :   0x10031a478      40068652       mov w0, 0x3032             ; '20'
+|   ::: :   0x10031a47c      2026a772       movk w0, 0x3931, lsl 16    ; '19'
+|   ::: :   0x10031a480      0180fcd2       mov x1, -0x1c00000000000000
+|   ::: :   0x10031a484      e20315aa       mov x2, x21
+|   ::: :   0x10031a488      e30314aa       mov x3, x20
+|   ::: :   0x10031a48c      04008052       mov w4, 0
+|   ::: :   0x10031a490      d5c90494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+| ========< 0x10031a494      e0fc0737       tbnz w0, 0, 0x10031a430
+|   ::: :   0x10031a498      59068652       mov w25, 0x3032            ; '20'
+|   ::: :   0x10031a49c      3986a672       movk w25, 0x3431, lsl 16   ; '14'
+|   ::: :   0x10031a4a0      bf0219eb       cmp x21, x25
+|   :::,==< 0x10031a4a4      e1000054       b.ne 0x10031a4c0
+|   :::|:   0x10031a4a8      0880fcd2       mov x8, -0x1c00000000000000
+|   :::|:   0x10031a4ac      9f0208eb       cmp x20, x8
+|  ,======< 0x10031a4b0      81000054       b.ne 0x10031a4c0
+|  |:::|:   ; CODE XREFS from sym.func.10031a2c4 @ 0x10031a4ec(x), 0x10031a4f0(x), 0x10031a50c(x)
+| .-------> 0x10031a4b4      00a08052       mov w0, 0x500
+| :|:::|:   0x10031a4b8      c01e0033       bfxil w0, w22, 0, 8
+| :|`=====< 0x10031a4bc      9bffff17       b 0x10031a328
+| :| ::|:   ; CODE XREFS from sym.func.10031a2c4 @ 0x10031a4a4(x), 0x10031a4b0(x)
+| :`---`--> 0x10031a4c0      40068652       mov w0, 0x3032             ; '20'
+| :  :: :   0x10031a4c4      2086a672       movk w0, 0x3431, lsl 16    ; '14'
+| :  :: :   0x10031a4c8      0180fcd2       mov x1, -0x1c00000000000000
+| :  :: :   0x10031a4cc      e20315aa       mov x2, x21
+| :  :: :   0x10031a4d0      e30314aa       mov x3, x20
+| :  :: :   0x10031a4d4      04008052       mov w4, 0
+| :  :: :   0x10031a4d8      c3c90494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+| :  :: :   0x10031a4dc      28434091       add x8, x25, 0x10, lsl 12
+| :  :: :   0x10031a4e0      bf0208eb       cmp x21, x8
+| :  :: :   0x10031a4e4      80025afa       ccmp x20, x26, 0, eq
+| :  :: :   0x10031a4e8      e8179f1a       cset w8, eq
+| ========< 0x10031a4ec      40fe0737       tbnz w0, 0, 0x10031a4b4
+| ========< 0x10031a4f0      28fe0737       tbnz w8, 0, 0x10031a4b4
+| :  :: :   0x10031a4f4      20434091       add x0, x25, 0x10, lsl 12
+| :  :: :   0x10031a4f8      0180fcd2       mov x1, -0x1c00000000000000
+| :  :: :   0x10031a4fc      e20315aa       mov x2, x21
+| :  :: :   0x10031a500      e30314aa       mov x3, x20
+| :  :: :   0x10031a504      04008052       mov w4, 0
+| :  :: :   0x10031a508      b7c90494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+| `=======< 0x10031a50c      40fd0737       tbnz w0, 0, 0x10031a4b4
+|    :: :   0x10031a510      48068652       mov w8, 0x3032             ; '20'
+|    :: :   0x10031a514      48e6a672       movk w8, 0x3732, lsl 16    ; '27'
+|    :: :   0x10031a518      bf0208eb       cmp x21, x8
+|    ::,==< 0x10031a51c      81000054       b.ne 0x10031a52c
+|    ::|:   0x10031a520      0880fcd2       mov x8, -0x1c00000000000000
+|    ::|:   0x10031a524      9f0208eb       cmp x20, x8
+|   ,=====< 0x10031a528      20010054       b.eq 0x10031a54c
+|   |::|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a51c(x)
+|   |::`--> 0x10031a52c      40068652       mov w0, 0x3032             ; '20'
+|   |:: :   0x10031a530      40e6a672       movk w0, 0x3732, lsl 16    ; '27'
+|   |:: :   0x10031a534      0180fcd2       mov x1, -0x1c00000000000000
+|   |:: :   0x10031a538      e20315aa       mov x2, x21
+|   |:: :   0x10031a53c      e30314aa       mov x3, x20
+|   |:: :   0x10031a540      04008052       mov w4, 0
+|   |:: :   0x10031a544      a8c90494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+|   |::,==< 0x10031a548      80000036       tbz w0, 0, 0x10031a558
+|   |::|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a528(x)
+|   `-----> 0x10031a54c      00c08052       mov w0, 0x600
+|    ::|:   0x10031a550      c01e0033       bfxil w0, w22, 0, 8
+|    `====< 0x10031a554      75ffff17       b 0x10031a328
+|     :|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a548(x)
+|     :`--> 0x10031a558      48068652       mov w8, 0x3032             ; '20'
+|     : :   0x10031a55c      0826ac72       movk w8, 0x6130, lsl 16    ; '0a'
+|     : :   0x10031a560      bf0208eb       cmp x21, x8
+|     :,==< 0x10031a564      81000054       b.ne 0x10031a574
+|     :|:   0x10031a568      0880fcd2       mov x8, -0x1c00000000000000
+|     :|:   0x10031a56c      9f0208eb       cmp x20, x8
+|    ,====< 0x10031a570      20010054       b.eq 0x10031a594
+|    |:|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a564(x)
+|    |:`--> 0x10031a574      40068652       mov w0, 0x3032             ; '20'
+|    |: :   0x10031a578      0026ac72       movk w0, 0x6130, lsl 16    ; '0a'
+|    |: :   0x10031a57c      0180fcd2       mov x1, -0x1c00000000000000
+|    |: :   0x10031a580      e20315aa       mov x2, x21
+|    |: :   0x10031a584      e30314aa       mov x3, x20
+|    |: :   0x10031a588      04008052       mov w4, 0
+|    |: :   0x10031a58c      96c90494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+|    |:,==< 0x10031a590      c0000036       tbz w0, 0, 0x10031a5a8
+|    |:|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a570(x)
+|    `----> 0x10031a594      e00313aa       mov x0, x19                ; int64_t arg1
+|     :|:   0x10031a598      3effff97       bl sym.func.10031a290
+|     :|:   0x10031a59c      e80300aa       mov x8, x0
+|     :|:   0x10031a5a0      00e08052       mov w0, 0x700
+|    ,====< 0x10031a5a4      0b000014       b 0x10031a5d0
+|    |:|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a590(x)
+|    |:`--> 0x10031a5a8      00434091       add x0, x24, 0x10, lsl 12
+|    |: :   0x10031a5ac      bf0200eb       cmp x21, x0
+|    |:,==< 0x10031a5b0      41010054       b.ne 0x10031a5d8
+|    |:|:   0x10031a5b4      0880fcd2       mov x8, -0x1c00000000000000
+|    |:|:   0x10031a5b8      9f0208eb       cmp x20, x8
+|   ,=====< 0x10031a5bc      e1000054       b.ne 0x10031a5d8
+|   ||:|:   ; CODE XREFS from sym.func.10031a2c4 @ 0x10031a5fc(x), 0x10031a600(x), 0x10031a620(x)
+| ..------> 0x10031a5c0      e00313aa       mov x0, x19                ; int64_t arg1
+| ::||:|:   0x10031a5c4      33ffff97       bl sym.func.10031a290
+| ::||:|:   0x10031a5c8      e80300aa       mov x8, x0
+| ::||:|:   0x10031a5cc      00008152       mov w0, 0x800
+| ::||:|:   ; CODE XREF from sym.func.10031a2c4 @ 0x10031a5a4(x)
+| ::|`----> 0x10031a5d0      001d0033       bfxil w0, w8, 0, 8
+| ::| `===< 0x10031a5d4      55ffff17       b 0x10031a328
+| ::|  |:   ; CODE XREFS from sym.func.10031a2c4 @ 0x10031a5b0(x), 0x10031a5bc(x)
+| ::`--`--> 0x10031a5d8      1680fcd2       mov x22, -0x1c00000000000000
+| ::    :   0x10031a5dc      0180fcd2       mov x1, -0x1c00000000000000
+| ::    :   0x10031a5e0      e20315aa       mov x2, x21
+| ::    :   0x10031a5e4      e30314aa       mov x3, x20
+| ::    :   0x10031a5e8      04008052       mov w4, 0
+| ::    :   0x10031a5ec      7ec90494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+| ::    :   0x10031a5f0      bf0217eb       cmp x21, x23
+| ::    :   0x10031a5f4      800256fa       ccmp x20, x22, 0, eq
+| ::    :   0x10031a5f8      e8179f1a       cset w8, eq
+| ========< 0x10031a5fc      20fe0737       tbnz w0, 0, 0x10031a5c0
+| `=======< 0x10031a600      08fe0737       tbnz w8, 0, 0x10031a5c0
+|  :    :   0x10031a604      40068652       mov w0, 0x3032             ; '20'
+|  :    :   0x10031a608      4086ac72       movk w0, 0x6432, lsl 16    ; '2d'
+|  :    :   0x10031a60c      0180fcd2       mov x1, -0x1c00000000000000
+|  :    :   0x10031a610      e20315aa       mov x2, x21
+|  :    :   0x10031a614      e30314aa       mov x3, x20
+|  :    :   0x10031a618      04008052       mov w4, 0
+|  :    :   0x10031a61c      72c90494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+|  `======< 0x10031a620      00fd0737       tbnz w0, 0, 0x10031a5c0
+|       :   0x10031a624      00e09f52       mov w0, 0xff00
+\       `=< 0x10031a628      40ffff17       b 0x10031a328

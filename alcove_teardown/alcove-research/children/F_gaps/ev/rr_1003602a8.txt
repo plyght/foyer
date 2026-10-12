@@ -1,0 +1,16 @@
+            ; ICOD XREF from sym.func.100362274 @ 0x10036252c(r)
+            ; ICOD XREF from sym.func.100362538 @ 0x100362814(r)
+/ 44: sym.func.1003602a8 ();
+| afv: vars(2:sp[0x8..0x10])
+|           0x1003602a8      fd7bbfa9       stp x29, x30, [var_10h]!
+|           0x1003602ac      fd030091       mov x29, sp
+|           0x1003602b0      881200d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1003602b4      00fd41f9       ldr x0, [x8, 0x3f8]        ; [0x1005b23f8:8]=0
+|                                                                      ; reloc.NSNumber ; void *arg0
+|           0x1003602b8      e5b40394       bl sym.imp.objc_allocWithZone ; void *objc_allocWithZone(void *arg0)
+|           0x1003602bc      0090661e       fmov d0, 20.00000000
+|           0x1003602c0      a0bd0394       bl fcn.10044f940
+|           0x1003602c4      c81300d0       adrp x8, 0x1005da000
+|           0x1003602c8      00c105f9       str x0, [x8, 0xb80]
+|           0x1003602cc      fd7bc1a8       ldp x29, x30, [sp], 0x10
+\           0x1003602d0      c0035fd6       ret

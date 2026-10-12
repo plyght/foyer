@@ -1,0 +1,132 @@
+[
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-000.mkv",
+    "raw_mp4_offset": 0.0,
+    "first_pts": 0.0,
+    "content_duration": 136.35,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "7200"
+  },
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-001.mkv",
+    "raw_mp4_offset": 136.35,
+    "first_pts": 0.0,
+    "content_duration": 120.233,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "7200"
+  },
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-002.mkv",
+    "raw_mp4_offset": 256.58299999999997,
+    "first_pts": 0.0,
+    "content_duration": 120.3,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "7200"
+  },
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-003.mkv",
+    "raw_mp4_offset": 376.883,
+    "first_pts": 0.0,
+    "content_duration": 120.65,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "7200"
+  },
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-004.mkv",
+    "raw_mp4_offset": 497.533,
+    "first_pts": 0.0,
+    "content_duration": 120.1,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "7200"
+  },
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-005.mkv",
+    "raw_mp4_offset": 617.633,
+    "first_pts": 0.0,
+    "content_duration": 120.35,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "7200"
+  },
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-006.mkv",
+    "raw_mp4_offset": 737.9830000000001,
+    "first_pts": 0.0,
+    "content_duration": 120.45,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "7200"
+  },
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-007.mkv",
+    "raw_mp4_offset": 858.4330000000001,
+    "first_pts": 0.0,
+    "content_duration": 120.367,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "7200"
+  },
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-008.mkv",
+    "raw_mp4_offset": 978.8000000000001,
+    "first_pts": 0.0,
+    "content_duration": 120.534,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "7200"
+  },
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-009.mkv",
+    "raw_mp4_offset": 1099.334,
+    "first_pts": 0.0,
+    "content_duration": 120.2,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "7200"
+  },
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-010.mkv",
+    "raw_mp4_offset": 1219.534,
+    "first_pts": 0.0,
+    "content_duration": 121.117,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "7200"
+  },
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-011.mkv",
+    "raw_mp4_offset": 1340.651,
+    "first_pts": 0.0,
+    "content_duration": 123.417,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "7200"
+  },
+  {
+    "file": "/Users/devin/screencasts/alcove-live-primary/alcove-live-primary-raw-012.mkv",
+    "raw_mp4_offset": 1464.068,
+    "first_pts": 0.0,
+    "content_duration": 122.866,
+    "width": 1600,
+    "height": 1200,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "6885"
+  }
+]

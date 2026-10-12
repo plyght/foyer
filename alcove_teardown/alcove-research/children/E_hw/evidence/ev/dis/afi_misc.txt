@@ -1,0 +1,87 @@
+#
+addr: 0x100314808
+name: sym.func.100314808
+size: 3520
+is-pure: false
+realsz: 3520
+stackframe: 192
+callconv: swift
+cyclic-cost: 324
+cyclomatic-complexity: 64
+bits: 64
+type: fcn [NEW]
+num-bbs: 97
+num-instrs: 880
+edges: 147
+minaddr: 0x100314808
+maxaddr: 0x1003155c8
+is-lineal: true
+end-bbs: 7
+maxbbins: 47
+midbbins: 9.07
+ratbbins: 5.18
+noreturn: false
+recursive: false
+in-degree: 0
+out-degree: 130
+locals: 23
+args: 1
+
+#
+addr: 0x100085418
+name: sym.func.100085418
+size: 1560
+is-pure: false
+realsz: 1560
+stackframe: 224
+callconv: swift
+cyclic-cost: 159
+cyclomatic-complexity: 4
+bits: 64
+type: fcn [NEW]
+num-bbs: 6
+num-instrs: 390
+edges: 6
+minaddr: 0x100085418
+maxaddr: 0x100085a30
+is-lineal: true
+end-bbs: 2
+maxbbins: 122
+midbbins: 65.00
+ratbbins: 1.88
+noreturn: false
+recursive: false
+in-degree: 1
+out-degree: 41
+locals: 29
+args: 2
+
+#
+addr: 0x100198f00
+name: sym.func.100198f00
+size: 5964
+is-pure: false
+realsz: 5964
+stackframe: 576
+callconv: swift
+cyclic-cost: 679
+cyclomatic-complexity: 4
+bits: 64
+type: fcn [NEW]
+num-bbs: 8
+num-instrs: 1491
+edges: 10
+minaddr: 0x100198f00
+maxaddr: 0x10019a64c
+is-lineal: true
+end-bbs: 1
+maxbbins: 505
+midbbins: 186.38
+ratbbins: 2.71
+noreturn: false
+recursive: false
+in-degree: 1
+out-degree: 133
+locals: 74
+args: 2
+

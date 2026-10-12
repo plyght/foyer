@@ -1,0 +1,13 @@
+Alcove/ArtworkCutoutLayer.swift
+Alcove/ClearGlassEffectView.swift
+Alcove/ConnectivityManager.swift
+Alcove/FocusManager.swift
+Alcove/LicenseManager.swift
+Alcove/LockView.swift
+Alcove/MarqueeText.swift
+Alcove/MaterialBackdropLuminance.swift
+Alcove/MediaProgressSlider.swift
+Alcove/NSHostingViewSuppressingSafeArea.swift
+Alcove/ProgressiveBlur.swift
+Alcove/Utilities.swift
+Alcove/Waveform.swift

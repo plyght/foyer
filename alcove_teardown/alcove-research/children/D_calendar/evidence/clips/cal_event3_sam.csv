@@ -1,0 +1,4 @@
+frame,t_ms,left,right,width,height_centre,height_max,maxwidth_row
+0,0.0,692,907,216,28,28,220
+6,100.0,692,907,216,28,28,221
+total_frames 6000

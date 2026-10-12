@@ -1,0 +1,6 @@
+sym.func.1001d1368 0x1001d154c [CALL:--x] bl sym.imp.SwiftUI.Path.addRoundedRect.in.cornerRadii.style.transform.CGRect.RectangleCorner...I0VAA0eN5StyleOSo17CGAffineTransformVtF
+sym.func.1002670fc 0x1002672ac [CALL:--x] bl sym.imp.SwiftUI.Path.addRoundedRect.in.cornerRadii.style.transform.CGRect.RectangleCorner...I0VAA0eN5StyleOSo17CGAffineTransformVtF
+sym.func.1002670fc 0x100267380 [CALL:--x] bl sym.imp.SwiftUI.Path.addRoundedRect.in.cornerRadii.style.transform.CGRect.RectangleCorner...I0VAA0eN5StyleOSo17CGAffineTransformVtF
+sym.func.1002670fc 0x1002674a4 [CALL:--x] bl sym.imp.SwiftUI.Path.addRoundedRect.in.cornerRadii.style.transform.CGRect.RectangleCorner...I0VAA0eN5StyleOSo17CGAffineTransformVtF
+sym.func.1001d1368 0x1001d1488 [CALL:--x] bl sym.imp.SwiftUI.Path.addRoundedRect.in.cornerSize.style.transform.CGRect.CGSize...A0E11CornerStyleOSo17CGAffineTransformVtF
+sym.func.100267564 0x100267660 [CALL:--x] bl sym.imp.SwiftUI.Path.addRoundedRect.in.cornerSize.style.transform.CGRect.CGSize...A0E11CornerStyleOSo17CGAffineTransformVtF

@@ -1,0 +1,44 @@
+            ; ICOD XREF from sym.func.100317d88 @ 0x100317de4(r)
+/ 160: sym.func.100317dfc ();
+| afv: vars(3:sp[0x8..0x18])
+|           0x100317dfc      bd0344b2       orr x29, x29, 0x1000000000000000
+|           0x100317e00      ff8300d1       sub sp, sp, 0x20
+|           0x100317e04      fd7b01a9       stp x29, x30, [var_10h]
+|           0x100317e08      f60700f9       str x22, [var_8h]
+|           0x100317e0c      fd430091       add x29, sp, 0x10
+|           0x100317e10      d41a40f9       ldr x20, [x22, 0x30]
+|           0x100317e14      80420091       add x0, x20, 0x10          ; void *arg0
+|           0x100317e18      c1420091       add x1, x22, 0x10          ; void *arg1
+|           0x100317e1c      020080d2       mov x2, 0                  ; void *arg2
+|           0x100317e20      030080d2       mov x3, 0                  ; void *arg3
+|           0x100317e24      6ad60494       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x100317e28      80420091       add x0, x20, 0x10
+|           0x100317e2c      79d70494       bl sym.imp.swift_unknownObjectWeakLoadStrong
+|           0x100317e30      c03a00f9       str x0, [x22, 0x70]
+|       ,=< 0x100317e34      600200b4       cbz x0, 0x100317e80
+|       |   0x100317e38      f40300aa       mov x20, x0
+|       |   0x100317e3c      c01e40f9       ldr x0, [x22, 0x38]
+|       |   0x100317e40      21008052       mov w1, 1                  ; int64_t arg2
+|       |   0x100317e44      a10c0094       bl sym.func.10031b0c8
+|       |   0x100317e48      c0120179       strh w0, [x22, 0x88]
+|       |   0x100317e4c      c13e00f9       str x1, [x22, 0x78]
+|       |   0x100317e50      c22a0239       strb w2, [x22, 0x8a]
+|       |   0x100317e54      c0a20091       add x0, x22, 0x28
+|       |   0x100317e58      e10314aa       mov x1, x20
+|       |   0x100317e5c      6ad70494       bl sym.imp.swift_unknownObjectWeakInit
+|       |   0x100317e60      00000090       adrp x0, 0x100317000
+|       |   0x100317e64      00703a91       add x0, x0, 0xe9c
+|       |   0x100317e68      010080d2       mov x1, 0
+|       |   0x100317e6c      020080d2       mov x2, 0
+|       |   0x100317e70      fd7b41a9       ldp x29, x30, [var_10h]
+|       |   0x100317e74      bdfb4392       and x29, x29, 0xefffffffffffffff
+|       |   0x100317e78      ff830091       add sp, sp, 0x20           ; 0x178000
+|      ,==< 0x100317e7c      4dd70414       b sym.imp.swift_task_switch
+|      ||   ; CODE XREF from sym.func.100317dfc @ 0x100317e34(x)
+|      |`-> 0x100317e80      c02e40f9       ldr x0, [x22, 0x58]
+|      |    0x100317e84      0fd70494       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|      |    0x100317e88      c00640f9       ldr x0, [x22, 8]
+|      |    0x100317e8c      fd7b41a9       ldp x29, x30, [var_10h]
+|      |    0x100317e90      bdfb4392       and x29, x29, 0xefffffffffffffff
+|      |    0x100317e94      ff830091       add sp, sp, 0x20
+\      |    0x100317e98      00001fd6       br x0

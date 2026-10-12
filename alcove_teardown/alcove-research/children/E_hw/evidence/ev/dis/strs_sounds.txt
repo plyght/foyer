@@ -1,0 +1,7 @@
+1100 0x00545e80  0x100545e80 29  30   12.__TEXT.__cstring        ascii   notification.battery.lowPower
+1101 0x00545ea0  0x100545ea0 31  32   12.__TEXT.__cstring        ascii   notification.battery.lowBattery
+1102 0x00545ec0  0x100545ec0 29  30   12.__TEXT.__cstring        ascii   notification.battery.charging
+1900 0x0054e040  0x10054e040 162 163  12.__TEXT.__cstring        ascii   Error returned if keychain database needs a schema migration but the device is locked, clients should wait for a device unlock notification and retry the command.
+3798 0x0055c856  0x10055c856 6   7    16.__TEXT.__objc_methname  ascii   unlock
+3799 0x0055c861  0x10055c861 14  15   16.__TEXT.__objc_methname  ascii   unlockDebounce
+3800 0x0055c870  0x10055c870 11  12   16.__TEXT.__objc_methname  ascii   unlockFocus

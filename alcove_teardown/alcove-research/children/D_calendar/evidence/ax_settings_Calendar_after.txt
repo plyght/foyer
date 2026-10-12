@@ -1,0 +1,88 @@
+AXGroup | t=missing value | v=missing value | d=group | 490,420 620x687
+AXStaticText | t=missing value | v=11 | d=text | 736,440 12x14
+AXStaticText | t=missing value | v=Calendar | d=text | 761,435 65x19
+AXButton | t=missing value | v=missing value | d=button | 502,473 200x38
+AXStaticText | t=missing value | v=Notifications | d=text | 510,530 80x16
+AXButton | t=missing value | v=missing value | d=button | 502,553 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,591 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,629 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,667 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,705 200x38
+AXStaticText | t=missing value | v=Live Activities | d=text | 510,762 86x16
+AXButton | t=missing value | v=missing value | d=button | 502,784 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,822 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,860 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,898 200x38
+AXStaticText | t=missing value | v=Alcove | d=text | 510,956 42x16
+AXButton | t=missing value | v=missing value | d=button | 502,978 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,1016 200x38
+AXScrollArea | t=missing value | v=missing value | d=scroll area | 715,470 395x637
+AXImage | t=missing value | v=missing value | d=image | 746,143 17x14
+AXStaticText | t=missing value | v=Calendar | d=text | 769,141 55x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,140 44x20
+AXStaticText | t=missing value | v=Time before event | d=text | 742,189 110x16
+AXButton | t=missing value | v=missing value | d=button | 1046,189 17x16
+AXStaticText | t=missing value | v=m | d=text | 1065,189 9x16
+AXSlider | t=missing value | v=15.0 | d=slider | 743,218 340x16
+AXValueIndicator | t=missing value | v=15.0 | d=value indicator | 871,218 20x16
+AXStaticText | t=missing value | v=Play sound on calendar event | d=text | 742,261 178x16
+AXButton | t=missing value | v=missing value | d=button | 928,263 14x14
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,260 44x20
+AXStaticText | t=missing value | v=Play hourly chime | d=text | 742,303 107x16
+AXButton | t=missing value | v=missing value | d=button | 857,305 14x14
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,302 44x20
+AXStaticText | t=missing value | v=Use calendar color | d=text | 742,345 114x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,344 44x20
+AXStaticText | t=missing value | v=Disable activity during events | d=text | 742,387 179x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,386 44x20
+AXStaticText | t=missing value | v=Show weather on empty day | d=text | 742,429 171x16
+AXButton | t=missing value | v=missing value | d=button | 1020,430 13x15
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,428 44x20
+AXStaticText | t=missing value | v=Use event indicators | d=text | 742,471 124x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,470 44x20
+AXStaticText | t=missing value | v=Always show month view | d=text | 742,513 151x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,512 44x20
+AXStaticText | t=missing value | v=Notify when time to leave | d=text | 742,570 154x16
+AXButton | t=missing value | v=missing value | d=button | 1015,569 18x19
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,569 44x20
+AXStaticText | t=missing value | v=Calendars | d=text | 739,615 63x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 743,652 79x16
+AXButton | t=missing value | v=Both | d=button | 1027,648 56x24
+AXButton | t=missing value | v=missing value | d=button | 1027,648 56x24
+AXCheckBox | t=missing value | v=1 | d=toggle button | 743,694 56x16
+AXButton | t=missing value | v=Both | d=button | 1027,690 56x24
+AXButton | t=missing value | v=missing value | d=button | 1027,690 56x24
+AXCheckBox | t=missing value | v=1 | d=toggle button | 743,736 77x16
+AXButton | t=missing value | v=Both | d=button | 1027,732 56x24
+AXButton | t=missing value | v=missing value | d=button | 1027,732 56x24
+AXCheckBox | t=missing value | v=1 | d=toggle button | 743,769 110x34
+AXButton | t=missing value | v=Both | d=button | 1027,774 56x24
+AXButton | t=missing value | v=missing value | d=button | 1027,774 56x24
+AXStaticText | t=missing value | v=Extension | d=text | 739,822 61x16
+AXImage | t=missing value | v=missing value | d=image | 744,863 20x8
+AXStaticText | t=missing value | v=Quick Peek | d=text | 771,858 69x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,857 44x20
+AXStaticText | t=missing value | v=Before event starts | d=text | 742,900 116x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,899 44x20
+AXStaticText | t=missing value | v=When event is starting | d=text | 742,942 136x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,941 44x20
+AXStaticText | t=missing value | v=Peek duration | d=text | 742,990 84x16
+AXButton | t=missing value | v=missing value | d=button | 1054,990 9x16
+AXStaticText | t=missing value | v=s | d=text | 1065,990 9x16
+AXSlider | t=missing value | v=4.0 | d=slider | 743,1019 340x16
+AXValueIndicator | t=missing value | v=4.0 | d=value indicator | 935,1019 20x16
+AXStaticText | t=missing value | v=Use colored calendar indicator | d=text | 742,1062 186x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,1061 44x20
+AXScrollBar | t=missing value | v=1.0 | d=scroll bar | 1092,469 19x621
+AXValueIndicator | t=missing value | v=1.0 | d=value indicator | 1101,678 6x408
+AXButton | t=missing value | v=missing value | d=increment arrow button | 1093,470 0x0
+AXButton | t=missing value | v=missing value | d=decrement arrow button | 1093,470 0x0
+AXButton | t=missing value | v=missing value | d=increment page button | 1101,1086 6x0
+AXButton | t=missing value | v=missing value | d=decrement page button | 1101,473 6x204
+AXToolbar | t=missing value | v=missing value | d=toolbar | 490,420 620x66
+AXButton | t=missing value | v=missing value | d=close button | 508,438 16x16
+AXButton | t=missing value | v=missing value | d=zoom button | 554,438 16x16
+AXGroup | t=missing value | v=missing value | d=group | 555,439 14x14
+AXGroup | t=missing value | v=missing value | d=group | 555,439 14x14
+AXButton | t=missing value | v=missing value | d=minimize button | 531,438 16x16
+

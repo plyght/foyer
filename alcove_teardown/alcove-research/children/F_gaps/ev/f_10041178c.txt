@@ -1,0 +1,13 @@
+            ; ICOD XREF from sym.func.1004117f0 @ 0x100411838(r)
+/ 40: sym.func.10041178c ();
+| afv: vars(2:sp[0x8..0x10])
+|           0x10041178c      fd7bbfa9       stp x29, x30, [var_10h]!
+|           0x100411790      fd030091       mov x29, sp
+|           0x100411794      c00900b0       adrp x0, 0x10054a000
+|           0x100411798      00001391       add x0, x0, 0x4c0          ; 0x10054a4c0 ; "/System/Library/PrivateFrameworks/LoggingSupport.framework/LoggingSupport"
+|           0x10041179c      21008052       mov w1, 1
+|           0x1004117a0      72ef0094       bl sym.imp.dlopen
+|           0x1004117a4      880f00d0       adrp x8, 0x100603000
+|           0x1004117a8      004106f9       str x0, [x8, 0xc80]
+|           0x1004117ac      fd7bc1a8       ldp x29, x30, [sp], 0x10
+\           0x1004117b0      c0035fd6       ret

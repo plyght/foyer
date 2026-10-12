@@ -1,0 +1,44 @@
+            ; ICOD XREF from sym.func.10010a144 @ 0x10010a19c(r)
+/ 160: sym.func.10010a1b4 ();
+| afv: vars(4:sp[0x8..0x20])
+|           0x10010a1b4      bd0344b2       orr x29, x29, 0x1000000000000000
+|           0x10010a1b8      f30f1ef8       str x19, [var_20h]!
+|           0x10010a1bc      fd7b01a9       stp x29, x30, [var_10h]
+|           0x10010a1c0      f60700f9       str x22, [var_8h]
+|           0x10010a1c4      fd430091       add x29, sp, 0x10
+|           0x10010a1c8      d40e40f9       ldr x20, [x22, 0x18]
+|           0x10010a1cc      000080d2       mov x0, 0                  ; int64_t arg1
+|           0x10010a1d0      aae9ff97       bl sym.func.100104878
+|           0x10010a1d4      131480b9       ldrsw x19, [x0, 0x14]
+|           0x10010a1d8      002600b0       adrp x0, 0x1005cb000
+|           0x10010a1dc      00002691       add x0, x0, 0x980          ; int64_t arg1
+|           0x10010a1e0      611a00f0       adrp x1, 0x100459000
+|           0x10010a1e4      21403b91       add x1, x1, 0xed0          ; int64_t arg2
+|           0x10010a1e8      4de2fb97       bl sym.func.100002b1c
+|           0x10010a1ec      c8420091       add x8, x22, 0x10
+|           0x10010a1f0      9402138b       add x20, x20, x19
+|           0x10010a1f4      69050d94       bl sym.imp.SwiftUI.Bindable.wrappedValue_...g_ ; SwiftUI.Bindable.wrappedValue(...g)
+|           0x10010a1f8      d40a40f9       ldr x20, [x22, 0x10]
+|           0x10010a1fc      48250090       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10010a200      009545f9       ldr x0, [x8, 0xb28]        ; [0x1005b2b28:8]=0x8010000000000385 ; reloc.CBCentralManager ; void *arg0
+|           0x10010a204      120d0d94       bl sym.imp.objc_allocWithZone ; void *objc_allocWithZone(void *arg0)
+|           0x10010a208      e20314aa       mov x2, x20
+|           0x10010a20c      030080d2       mov x3, 0
+|           0x10010a210      bc150d94       bl fcn.10044f900
+|           0x10010a214      682600f0       adrp x8, 0x1005d9000
+|           0x10010a218      082540f9       ldr x8, [x8, 0x48]         ; [0x1005d9048:8]=0
+|                                                                      ; field.class.Alcove.ConnectivityManager.var.bluetoothManager
+|           0x10010a21c      936a68f8       ldr x19, [x20, x8]
+|           0x10010a220      806a28f8       str x0, [x20, x8]
+|           0x10010a224      e00314aa       mov x0, x20                ; void *instance
+|           0x10010a228      1e0d0d94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x10010a22c      e00313aa       mov x0, x19                ; void *instance
+|           0x10010a230      1c0d0d94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x10010a234      00000090       adrp x0, 0x10010a000
+|           0x10010a238      00500991       add x0, x0, 0x254
+|           0x10010a23c      010080d2       mov x1, 0
+|           0x10010a240      020080d2       mov x2, 0
+|           0x10010a244      fd7b41a9       ldp x29, x30, [var_10h]
+|           0x10010a248      f30742f8       ldr x19, [sp], 0x20
+|           0x10010a24c      bdfb4392       and x29, x29, 0xefffffffffffffff
+\       ,=< 0x10010a250      580e0d14       b sym.imp.swift_task_switch

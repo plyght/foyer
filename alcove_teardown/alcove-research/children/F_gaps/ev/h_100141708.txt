@@ -1,0 +1,43 @@
+            ; ICOD XREF from sym.func.1001479f4 @ 0x1001479f8(r)
+            ; CODE XREF from sym.func.1003a9c7c @ 0x1003a9cc8(x)
+/ 144: sym.func.100141708 (int64_t arg1);
+| `- args(x21, x20, x0) vars(7:sp[0x8..0x31])
+|           0x100141708      ff0301d1       sub sp, sp, 0x40
+|           0x10014170c      f65701a9       stp x22, x21, [var_10h]
+|           0x100141710      f44f02a9       stp x20, x19, [var_20h]
+|           0x100141714      fd7b03a9       stp x29, x30, [var_30h]
+|           0x100141718      fdc30091       add x29, sp, 0x30
+|           0x10014171c      135040a9       ldp x19, x20, [x0]         ; arg1
+|           0x100141720      150840f9       ldr x21, [x0, 0x10]        ; error
+|           0x100141724      6072fb97       bl sym.func.10001e0a4
+|           0x100141728      e40300aa       mov x4, x0
+|           0x10014172c      a3230090       adrp x3, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|           0x100141730      63fc43f9       ldr x3, [x3, 0x7f8]        ; [0x1005b57f8:8]=0
+|                                                                      ; reloc....SbN
+|           0x100141734      e83f0091       add x8, sp, 0xf
+|           0x100141738      e00313aa       mov x0, x19                ; int64_t arg1
+|           0x10014173c      e10314aa       mov x1, x20                ; self
+|           0x100141740      e20315aa       mov x2, x21
+|           0x100141744      acf00b94       bl sym.func.10043d9f4
+|           0x100141748      e83f4039       ldrb w8, [var_fh]
+|           0x10014174c      1f050071       cmp w8, 1
+|       ,=< 0x100141750      a1010054       b.ne 0x100141784
+|       |   0x100141754      882300b0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|       |   0x100141758      003944f9       ldr x0, [x8, 0x870]        ; [0x1005b2870:8]=0
+|       |                                                              ; reloc.NSHapticFeedbackManager ; void *arg0
+|       |   0x10014175c      ce2f0c94       bl sym.imp.objc_opt_self   ; void *objc_opt_self(void *arg0)
+|       |   0x100141760      e8350c94       bl fcn.10044ef00
+|       |   0x100141764      fd031daa       mov x29, x29
+|       |   0x100141768      d72f0c94       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|       |   0x10014176c      f30300aa       mov x19, x0
+|       |   0x100141770      42008052       mov w2, 2
+|       |   0x100141774      23008052       mov w3, 1
+|       |   0x100141778      0a3c0c94       bl fcn.1004507a0
+|       |   0x10014177c      e00313aa       mov x0, x19
+|       |   0x100141780      12310c94       bl sym.imp.swift_unknownObjectRelease
+|       |   ; CODE XREF from sym.func.100141708 @ 0x100141750(x)
+|       `-> 0x100141784      fd7b43a9       ldp x29, x30, [var_30h]
+|           0x100141788      f44f42a9       ldp x20, x19, [var_20h]
+|           0x10014178c      f65741a9       ldp x22, x21, [var_10h]
+|           0x100141790      ff030191       add sp, sp, 0x40           ; 0x178000
+\           0x100141794      c0035fd6       ret

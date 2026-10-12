@@ -1,0 +1,45 @@
+macos accessibility snapshot v1 (line format: @ref role "name" = "value" #id [states] {actions}; indent = hierarchy)
+target: pid:2607  epoch: 23  app: Alcove  pid: 2607  provenance: axuielement  nodes: 112/112  truncated: false
+@m9909 application "Alcove"
+ @m9910 window
+  @m9911 group
+   @m9912 button
+   @m9913 button
+ @m9914 window
+  @m9915 group
+ @m9916 window "About" [focused=true]
+  @m9917 group
+   @m9918 image "Info" #info.circle.fill
+   @m9919 statictext = "About"
+   @m9920 button "General" {press}
+   @m9921 statictext = "Notifications"
+   @m9922 button "Battery" [disabled=true] {press}
+   @m9923 button "Connectivity" {press}
+   @m9924 button "Focus" {press}
+   @m9925 button "Display" {press}
+   @m9926 button "Sound" {press}
+   @m9927 statictext = "Live Activities"
+   @m9928 button "Now Playing" {press}
+   @m9929 button "11, Calendar" {press}
+   @m9930 button "File Tray, Soon" [disabled=true] {press}
+   @m9931 button "Lock Screen" {press}
+   @m9932 statictext = "Alcove"
+   @m9933 button "License, Trial" [selected=true] {press}
+   @m9934 button "About" {press}
+   @m9935 scrollarea {scroll}
+    @m9936 button "Check Updates..., 1.7.7" {press}
+    @m9937 image "gear.badge" #gear.badge
+    @m9938 statictext = "Automatically check for updates"
+    @m9939 checkbox [checked=true] {press}
+    @m9940 statictext = "Share feedback regarding bugs, suggested features, or provide other valuable input."
+    @m9941 image "Duration End" #hourglass.tophalf.filled
+    @m9942 statictext = "Estimated reply: 48h"
+    @m9943 button "Send Feedback..." {press}
+    @m9944 button "Join Discord..." {press}
+  @m9945 toolbar {show_menu}
+  @m9946 button "close" {press}
+  @m9947 button "zoom" [disabled=true] {press,show_menu}
+   @m9948 group
+    @m9949 group
+  @m9950 button "minimize" [disabled=true] {press}
+note: menu bar folded: "Alcove", "Window", "Help", "Alcove" (57 menu item(s) not listed) — `query role=menuitem` or `query role=menuitem text=<command>` lists them with refs; a menu item is pressed directly, the menu need not be opened first

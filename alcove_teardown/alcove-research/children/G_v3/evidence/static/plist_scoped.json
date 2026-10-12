@@ -1,0 +1,16 @@
+{
+  "CFBundleIdentifier": "com.henrikruscon.Alcove",
+  "CFBundleShortVersionString": "1.7.7",
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Editor",
+      "CFBundleURLName": "com.henrikruscon.Alcove",
+      "CFBundleURLSchemes": [
+        "alcove"
+      ]
+    }
+  ],
+  "CFBundleVersion": "199",
+  "NSAppleScriptEnabled": true,
+  "scripting_resources": []
+}

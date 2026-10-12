@@ -1,0 +1,14 @@
+sym.func.100128d0c 0x100128d4c [CALL:--x] bl sym.imp.CGSSpaceCreate
+sym.func.100128d0c 0x100128d60 [CALL:--x] bl sym.imp.CGSSpaceSetAbsoluteLevel
+sym.func.1000efe04 0x1000efee8 [CALL:--x] bl sym.imp.CGShieldingWindowLevel
+sym.func.100267c44 0x100267d60 [CALL:--x] bl sym.imp.CGShieldingWindowLevel
+sym.func.100267fa4 0x100268094 [CALL:--x] bl sym.imp.CGShieldingWindowLevel
+sym.func.100128f18 0x1001290b0 [CALL:--x] bl sym.imp.CGSAddWindowsToSpaces
+sym.func.100128d0c 0x100128de4 [CALL:--x] bl sym.imp.CGSShowSpaces
+sym.func.100128e24 0x100128eb8 [CALL:--x] bl sym.imp.CGSHideSpaces
+sym.func.100128e24 0x100128ed0 [CALL:--x] bl sym.imp.CGSSpaceDestroy
+sym.func.100127f4c 0x10012803c [CALL:--x] bl sym.imp.CGSSpaceGetType
+sym.func.100128054 0x1001284e0 [CALL:--x] bl sym.imp.CGSSpaceGetType
+sym.func.100128054 0x100128580 [CALL:--x] bl sym.imp.CGSSpaceGetType
+sym.func.1003cfa70 0x1003cfd8c [CALL:--x] bl sym.imp.AudioHardwareCreateAggregateDevice
+sym.func.100134354 0x100134380 [CALL:--x] bl sym.imp.CGEventTapCreate

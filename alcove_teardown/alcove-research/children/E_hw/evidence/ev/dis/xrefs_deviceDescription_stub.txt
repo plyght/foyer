@@ -1,0 +1,11 @@
+sym.func.1001225e4 0x1001226f8 [CALL:--x] bl fcn.10044f000
+sym.func.1001228e4 0x100122a08 [CALL:--x] bl fcn.10044f000
+sym.func.1001228e4 0x100122b2c [CALL:--x] bl fcn.10044f000
+sym.func.10020beec 0x10020bfa8 [CALL:--x] bl fcn.10044f000
+sym.func.10020c174 0x10020c284 [CALL:--x] bl fcn.10044f000
+sym.func.10020c3ec 0x10020c42c [CALL:--x] bl fcn.10044f000
+sym.func.10020c52c 0x10020c56c [CALL:--x] bl fcn.10044f000
+sym.func.10020c690 0x10020c7a8 [CALL:--x] bl fcn.10044f000
+sym.func.10020ca88 0x10020cbac [CALL:--x] bl fcn.10044f000
+sym.func.10023f6e0 0x10023fa34 [CALL:--x] bl fcn.10044f000
+sym.func.10023f6e0 0x10023fbd0 [CALL:--x] bl fcn.10044f000

@@ -1,0 +1,4195 @@
+== Alcove.DummyNotch @0x10052dabc kind=0
+   kind : )I	  (flags=0)
+   progress : Sd  (flags=0)
+   isMuted : Sb  (flags=0)
+   usesNotchPresentation : Sb  (flags=0)
+   hasNotification : Sb  (flags=0)
+   shape : ;I	  (flags=0)
+   showsLabel : Sb  (flags=0)
+== Alcove.DummyNotch.Kind @0x10052db20 kind=2
+   brightness :   (flags=0)
+   volume :   (flags=0)
+== Alcove.DummyNotch.ShapeConfiguration @0x10052db48 kind=2
+   notch :   (flags=0)
+   pill :   (flags=0)
+== __C.CIContextOption @0x10052db70 kind=0
+   _rawValue : So8NSStringC  (flags=2)
+== __C.CIContextOption @0x100536f9c kind=0
+   _rawValue : So8NSStringC  (flags=2)
+== __C.Weight @0x10052db8c kind=0
+   rawValue : ��
+  (flags=0)
+== __C.CGRect @0x10052dba8 kind=0
+   origin : J	  (flags=2)
+   size : ��
+  (flags=2)
+== __C.Phase @0x10052dbd0 kind=0
+   rawValue : Su  (flags=0)
+== __C.CGPoint @0x10052dbec kind=0
+   x : ��
+  (flags=2)
+   y : ��
+  (flags=2)
+== __C.CGPoint @0x100537488 kind=0
+   x : �=
+  (flags=2)
+   y : �=
+  (flags=2)
+== ?ctx @0x10052dc14 kind=0
+   width : ��
+  (flags=2)
+   height : ��
+  (flags=2)
+== ?ctx @0x10052f97c kind=1
+   logger : Ͼ  (flags=0)
+   logTask : ScTyyt�2  (flags=2)
+   historicalLogTask : ScTyyt�2  (flags=2)
+   hasReceivedLiveFocusUpdate : Sb  (flags=2)
+   stateUpdateMessage : SS  (flags=0)
+   activeModeUpdateMessage : SS  (flags=0)
+   activeModeIdentifierRegex : So19NSRegularExpressionC  (flags=0)
+   validActiveModeIdentifierRegex : So19NSRegularExpressionC  (flags=0)
+   nameRegex : So19NSRegularExpressionC  (flags=0)
+   symbolRegex : So19NSRegularExpressionC  (flags=0)
+   tintColorRegex : So19NSRegularExpressionC  (flags=0)
+   _enableFocus : ��  (flags=2)
+   _focusDuration : Qm  (flags=2)
+   _playSoundOnSleepFocus : ��  (flags=2)
+   _replaceWaveformDuringFocus : ��  (flags=2)
+   _replaceWaveformDuringFocusModeIdentifier : ��  (flags=2)
+   _enableNowPlaying : ��  (flags=2)
+   _enableLockScreen : ��  (flags=2)
+   _allowFocusWhenLocked : ��  (flags=2)
+   _allowFocusWidgetWhenLocked : ��  (flags=2)
+   _hideWhileInFullscreen : ��  (flags=2)
+   _isFocus : Sb  (flags=2)
+   _focusMode : ��  (flags=2)
+   _focusModes : Say^  (flags=2)
+   _hasBeenFocused : Sb  (flags=2)
+   activeFocusIdentifier : SSSg  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== ?ctx @0x10052fad0 kind=0
+   identifier : SS  (flags=0)
+   symbol : SS  (flags=0)
+   tintColor : ']  (flags=0)
+   rawName : SSSg  (flags=0)
+   nameKey : SSSg  (flags=0)
+== ?ctx @0x10052ff84 kind=1
+   brightnessKeyStateLock : So6NSLockC  (flags=0)
+   systemDefinedSubtypeAuxControl : Si  (flags=0)
+   brightnessUpKeyCode : Si  (flags=0)
+   brightnessDownKeyCode : Si  (flags=0)
+   fallbackBrightnessUpKeyCode : Si  (flags=0)
+   fallbackBrightnessDownKeyCode : Si  (flags=0)
+   eventTap : �:  (flags=2)
+   runLoopSource : �:  (flags=2)
+   eventTapRunLoop : �:  (flags=2)
+   isMonitoring : Sb  (flags=2)
+   normalStep : Sf  (flags=0)
+   fineStep : Sf  (flags=0)
+   volumeFeedbackTapMaxDuration : Sd  (flags=0)
+   volumeFeedbackStalePressResetInterval : Sd  (flags=0)
+   keyboardBrightnessMinimumApplyInterval : Sd  (flags=0)
+   keyboardBrightnessResampleInitialDelay : 6  (flags=0)
+   keyboardBrightnessResampleInterval : 6  (flags=0)
+   internalKeyboardTransports : ShySSG  (flags=0)
+   _enableBrightness : ��  (flags=2)
+   _enableVolume : ��  (flags=2)
+   cancellables : Shy�~  (flags=2)
+   accessibilityPermissionObserverTask : ScTyyt�2  (flags=2)
+   cachedAccessibilityAuthorization : Sb  (flags=2)
+   hasQueuedRevokedPermissionStop : Sb  (flags=2)
+   isBackgroundObservationEnabled : Sb  (flags=2)
+   isBetterDisplayNotificationObservationEnabled : Sb  (flags=2)
+   isBetterDisplayRunning : Sb  (flags=2)
+   isUsingBetterDisplayBrightness : Sb  (flags=2)
+   volumeKeyPressState : SDySi�4  (flags=2)
+   activeBrightnessKeys : ShySiG  (flags=2)
+   lastKeyboardBrightnessApplyTimestamps : SDySiSdG  (flags=2)
+   keyboardBrightnessResampleTasks : SDySiScTyyt�/  (flags=2)
+   keyboardBrightnessResampleStates : SDySiT4  (flags=2)
+   betterDisplayBundleIdentifier : SS  (flags=0)
+   betterDisplayLaunchedNotificationName : SS  (flags=0)
+   betterDisplayTerminatedNotificationName : SS  (flags=0)
+   betterDisplayOsdNotificationName : SS  (flags=0)
+   betterDisplayRequestNotificationName : SS  (flags=0)
+   lastBrightnessKeyPressState : )4  (flags=2)
+== ?ctx @0x10053061c kind=1
+   logger : Ͼ  (flags=0)
+   keychain : ��  (flags=0)
+   api : �  (flags=0)
+   timerTask : ScTyyt�2  (flags=2)
+   storageRecoveryTask : ScTyyt�2  (flags=2)
+   tokenRefreshTask : ScTyyt�2  (flags=2)
+   tokenRefreshThreshold : Sd  (flags=0)
+   offlineGraceSeconds : Si  (flags=0)
+   _licenseName : ��  (flags=2)
+   _activationLimit : ��  (flags=2)
+   _activationUsage : ��  (flags=2)
+   _trial : m  (flags=2)
+   _license : ��  (flags=2)
+   _instances : Say޸  (flags=2)
+   _remainingTime : SSSg  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== ?ctx @0x1005306ec kind=0
+   key : SSSg  (flags=2)
+   active : SbSg  (flags=2)
+   beta : SbSg  (flags=2)
+   name : SSSg  (flags=2)
+   email : SSSg  (flags=2)
+   limit : SiSg  (flags=2)
+   usage : SiSg  (flags=2)
+   instance : s  (flags=2)
+== ?ctx @0x10053075c kind=0
+   active : SbSg  (flags=2)
+   uuid : SSSg  (flags=2)
+   startedAt : ��  (flags=2)
+   endsAt : ��  (flags=2)
+== ?ctx @0x1005307b8 kind=0
+   id : SS  (flags=2)
+   name : SS  (flags=2)
+   model : SS  (flags=2)
+== ?ctx @0x1005310f4 kind=2
+   general :   (flags=0)
+   battery :   (flags=0)
+   connectivity :   (flags=0)
+   focus :   (flags=0)
+   display :   (flags=0)
+   sound :   (flags=0)
+   nowPlaying :   (flags=0)
+   calendar :   (flags=0)
+   fileTray :   (flags=0)
+   lockScreen :   (flags=0)
+   license :   (flags=0)
+   about :   (flags=0)
+== ?ctx @0x1005318d4 kind=2
+   left :   (flags=0)
+   right :   (flags=0)
+   up :   (flags=0)
+   down :   (flags=0)
+== ?ctx @0x100531a0c kind=1
+   aggregator : �  (flags=2)
+   _luminance : SfSg  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== ?ctx @0x100531ab0 kind=0
+   style : ��  (flags=0)
+   bottomCornerRadius : Sd  (flags=2)
+   thickness : Sd  (flags=2)
+== ?ctx @0x1005321dc kind=1
+   windowController : So18NSWindowControllerCSg  (flags=2)
+== ?ctx @0x1005321f8 kind=1
+   _space : �4  (flags=2)
+   windowController : So18NSWindowControllerCSg  (flags=2)
+   backdropWindowController : So18NSWindowControllerCSg  (flags=2)
+   topEdgeGlobalMouseMonitor : ypSg  (flags=2)
+   topEdgeLocalMouseMonitor : ypSg  (flags=2)
+   swipeMonitor : �  (flags=2)
+   topEdgePressStarted : Sb  (flags=2)
+   topEdgeOpenStartedAt : ��  (flags=2)
+   disableTransitionNonce : [  (flags=2)
+   notificationSwapDebounce : ScTyyt�2  (flags=2)
+   notificationCloseDebounce : ScTyyt�2  (flags=2)
+   notificationCloseGeneration : [  (flags=2)
+   notificationRestoreDebounce : ScTyyt�2  (flags=2)
+   notificationClosingType : Mg  (flags=2)
+   notificationClosingUntil : �  (flags=2)
+   notificationLiveActivityContext : ��  (flags=2)
+   liveActivitySwapDebounce : ScTyyt�2  (flags=2)
+   quickPeekDebounce : ScTyyt�2  (flags=2)
+   quickPeekGeneration : [  (flags=2)
+   adjustDebounce : ScTyyt�2  (flags=2)
+   mediaKeyEdgeRestoreDebounce : ScTyyt�2  (flags=2)
+   expandedTransitionTask : ScTyyt�2  (flags=2)
+   expandedCornerRadiusTask : ScTyyt�2  (flags=2)
+   expandedTransitionGeneration : [  (flags=2)
+   progressiveBlurTransitionTask : ScTyyt�2  (flags=2)
+   backdropLumaTransitionTask : ScTyyt�2  (flags=2)
+   progressDebounce : ScTyyt�2  (flags=2)
+   swipeResetDebounce : ScTyyt�2  (flags=2)
+   quickPeekResetDebounce : ScTyyt�2  (flags=2)
+   dismissedLiveActivityStack : Say�l  (flags=2)
+   pendingCycleIdleActivity : �  (flags=2)
+   isExpandedFromNotification : Sb  (flags=2)
+   notificationExpandedActivityOverride : �  (flags=2)
+   isHidden : Sb  (flags=2)
+   visibilityDebounce : ScTyyt�2  (flags=2)
+   animateNonNotchCutoutTransition : Sb  (flags=2)
+   backdropLuminanceAggregator : !  (flags=0)
+   _backdropLumaGeneration : [  (flags=2)
+   _hideFromScreenCapture : ��  (flags=2)
+   _forceSimulatedNotch : ��  (flags=2)
+   _notchAdjustedWidth : Qm  (flags=2)
+   _notchAdjustedHeight : Qm  (flags=2)
+   _enableFocus : ��  (flags=2)
+   _enableBrightness : ��  (flags=2)
+   _enableVolume : ��  (flags=2)
+   _enableCalendarQuickPeek : ��  (flags=2)
+   _showWeatherOnEmptyDay : ��  (flags=2)
+   _enableNowPlaying : ��  (flags=2)
+   _hideWhileSourceIsActive : ��  (flags=2)
+   _hideWhileInFullscreen : ��  (flags=2)
+   _enableQuickPeek : ��  (flags=2)
+   _enableLockScreen : ��  (flags=2)
+   _enableHaptics : ��  (flags=2)
+   _allowNowPlayingWidgetWhenLocked : ��  (flags=2)
+   _mostRecentActivity : ��  (flags=2)
+   _idleActivity : �  (flags=2)
+   _forceEnableActivity : ��  (flags=2)
+   _swipeToCycleActivity : ��  (flags=2)
+   _swipeToDismiss : ��  (flags=2)
+   _swipeToSkip : ��  (flags=2)
+   _swipeToToggle : ��  (flags=2)
+   _isEnabled : Sb  (flags=2)
+   _isVisible : Sb  (flags=2)
+   _isMouseInside : Sb  (flags=2)
+   _isMouseInsideLeftContent : Sb  (flags=2)
+   _isMouseInsideRightContent : Sb  (flags=2)
+   _isElevated : Sb  (flags=2)
+   _isPressed : Sb  (flags=2)
+   _isQuickPeeking : Sb  (flags=2)
+   _isExpanded : Sb  (flags=2)
+   _isExpanding : Sb  (flags=2)
+   _isCollapsing : Sb  (flags=2)
+   _usesExpandedCornerRadius : Sb  (flags=2)
+   _isWidening : Sb  (flags=2)
+   _isAdjusting : Sb  (flags=2)
+   _hasProgressiveBlur : Sb  (flags=2)
+   _hasExpandedBackdropLuma : Sb  (flags=2)
+   _hasNotification : Sb  (flags=2)
+   _hasLiveActivity : Sb  (flags=2)
+   _hasOutput : Sb  (flags=2)
+   _notification : Mg  (flags=2)
+   _notificationIntent : Mg  (flags=2)
+   _liveActivity : ��  (flags=2)
+   _liveActivityIntent : ��  (flags=2)
+   _quickPeek : )�  (flags=2)
+   _expandedActivityTransitionNonce : [  (flags=2)
+   _controlStripSnapshotRefreshNonce : [  (flags=2)
+   _expandedActivity : ��  (flags=2)
+   _notificationContext : ql  (flags=2)
+   _notchWidth : Sd  (flags=2)
+   _notchHeight : Sd  (flags=2)
+   _notchExpandedWidth : Sd  (flags=2)
+   _notchExpandedHeight : Sd  (flags=2)
+   _lastAdjustment : ��  (flags=2)
+   _shouldResetSwipes : Sb  (flags=2)
+   _mediaKeyStretchMaxScroll : Sd  (flags=2)
+   _mediaKeyEdgeScroll : Sd  (flags=2)
+   _mediaKeyEdgeDirection : ��  (flags=2)
+   _gestureHorizontalScroll : Sd  (flags=2)
+   _gestureHorizontalProgress : Sd  (flags=2)
+   _gestureHorizontalDirection : ��  (flags=2)
+   _hasPassedHorizontalSwipeThreshold : Sb  (flags=2)
+   _startedHorizontalSwipe : �  (flags=2)
+   _gestureVerticalScroll : Sd  (flags=2)
+   _gestureVerticalProgress : Sd  (flags=2)
+   _gestureVerticalDirection : ��  (flags=2)
+   _hasTriggeredVerticalSwipeAction : Sb  (flags=2)
+   _cycleSwipeReadyOnRelease : Sb  (flags=2)
+   _hasTriggeredCycleThresholdHaptic : Sb  (flags=2)
+   _isSwiping : Sb  (flags=2)
+   _isQuickPeekSwiping : Sb  (flags=2)
+   _isCollapsingSwipe : Sb  (flags=2)
+   displayUUID : SS  (flags=0)
+   _hiddenLiveActivityForSpaceContext : ��  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== ?ctx @0x10053276c kind=2
+   isCharging :   (flags=0)
+   isLowBattery :   (flags=0)
+   isLowPowerMode :   (flags=0)
+   didConnectAirPods :   (flags=0)
+   isLowAirPodsBattery :   (flags=0)
+   isFocus :   (flags=0)
+   didChangeVolume :   (flags=0)
+   didChangeBrightness :   (flags=0)
+   timeToLeave :   (flags=0)
+   none :   (flags=0)
+== ?ctx @0x1005327f4 kind=2
+   none :   (flags=0)
+   isLocked :   (flags=0)
+   isAdjusting :   (flags=0)
+   isCalendar :   (flags=0)
+   isPlaying :   (flags=0)
+== ?ctx @0x100532840 kind=2
+   none :   (flags=0)
+   isAdjusting :   (flags=0)
+   isCalendar :   (flags=0)
+   isPlaying :   (flags=0)
+== ?ctx @0x1005328a8 kind=1
+   _forceSimulatedNotch : ��  (flags=2)
+   _hideFromScreenCapture : ��  (flags=2)
+   _showOnDisplay : �k  (flags=2)
+   _showOnDisplayUUID : ��  (flags=2)
+   controllersByDisplayUUID : SDySS�  (flags=2)
+== ?ctx @0x100532da4 kind=1
+   windowController : So18NSWindowControllerCSg  (flags=2)
+== ?ctx @0x100532dc0 kind=1
+   _isFirstLaunch : ��  (flags=2)
+   _licenseName : ��  (flags=2)
+   _activationLimit : ��  (flags=2)
+   _activationUsage : ��  (flags=2)
+   _hideMenuBarIcon : ��  (flags=2)
+   _showOnDisplay : �k  (flags=2)
+   _showOnDisplayUUID : ��  (flags=2)
+   _showOnDisplayName : c�  (flags=2)
+   _showOnDisplaySymbol : c�  (flags=2)
+   _controlChoice : �k  (flags=2)
+   _automaticMusicApp : ��  (flags=2)
+   _musicApp : 9m  (flags=2)
+   _idleActivity : �  (flags=2)
+   _nowPlayingStyle : �  (flags=2)
+   cancellables : Shy�~  (flags=2)
+   reachabilityMonitor : �  (flags=2)
+   lastReachabilityStatus : )�  (flags=2)
+   lastActivationVerificationAt : ��  (flags=2)
+   activationVerificationCooldown : Sd  (flags=0)
+   $__lazy_storage_$_statusMenu : So6NSMenuCSg  (flags=2)
+   $__lazy_storage_$_statusItem : So12NSStatusItemCSg  (flags=2)
+   $__lazy_storage_$_statusItemButton : So17NSStatusBarButtonCSg  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== ?ctx @0x1005330dc kind=7
+   logger : Ͼ  (flags=0)
+   keychain : ��  (flags=0)
+   locationManager : So17CLLocationManagerC  (flags=0)
+   locationContinuation : ScCySo10CLLocationCD  (flags=2)
+   weatherService : 	�  (flags=0)
+   lastFetchDate : ��  (flags=2)
+   lastFetchLocation : So10CLLocationCSg  (flags=2)
+   cancellables : Shy�~  (flags=2)
+   activeFetchTask : ScTyyt�2  (flags=2)
+   daylightTransitionTimer : So7NSTimerCSg  (flags=2)
+   calendarConditionsTTL : Sd  (flags=0)
+   _allowWeatherWidgetWhenLocked : ��  (flags=2)
+   _weatherStyle : �  (flags=2)
+   _showWeatherOnEmptyDay : ��  (flags=2)
+   _notifyWhenTimeToLeave : ��  (flags=2)
+   _pendingLocationPermissionTarget : �  (flags=2)
+   _hasPromptedLocationPermission : ��  (flags=2)
+   _cachedWeather : ��  (flags=2)
+   _hasWeather : Sb  (flags=2)
+   _weather : �A  (flags=2)
+   _daylight : �,  (flags=2)
+   _daylightEvaluationDate : �  (flags=2)
+   _precipitationChance : SiSg  (flags=2)
+   _isRaining : Sb  (flags=2)
+   _authorizationStatus : �I	  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== ?ctx @0x100533500 kind=1
+   logger : Ͼ  (flags=0)
+   windowController : So18NSWindowControllerCSg  (flags=2)
+   updateTimer : ��  (flags=2)
+   isNetworkSatisfied : Sb  (flags=2)
+   targetUpdateChannel : -  (flags=2)
+   _targetRelease : 5  (flags=2)
+   _progressBar : Sd  (flags=2)
+   _updateState :   (flags=2)
+   _changelog : SaySS6symbol_J�  (flags=2)
+   _earlyBirdUpdates : ��  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== ?ctx @0x1005336a8 kind=2
+   notChecked :   (flags=0)
+   available :   (flags=0)
+   unavailable :   (flags=0)
+   readyToRestart :   (flags=0)
+== ?ctx @0x1005341c0 kind=1
+   logger : Ͼ  (flags=0)
+   eventStore : So12EKEventStoreC  (flags=0)
+   calendarAppDefaults : So14NSUserDefaultsCSg  (flags=0)
+   becameActiveObserver : ypSg  (flags=2)
+   currentLocaleObserver : ypSg  (flags=2)
+   systemClockObserver : ypSg  (flags=2)
+   systemTimeZoneObserver : ypSg  (flags=2)
+   eventStoreObserver : ypSg  (flags=2)
+   wakeObserver : ypSg  (flags=2)
+   midnightTimer : So7NSTimerCSg  (flags=2)
+   hourlyChimeTimer : So7NSTimerCSg  (flags=2)
+   nextRelevantEventTimer : So7NSTimerCSg  (flags=2)
+   countdownTimer : So7NSTimerCSg  (flags=2)
+   durationTimer : So7NSTimerCSg  (flags=2)
+   timeToLeaveTimer : So7NSTimerCSg  (flags=2)
+   sectionRefreshTimer : So7NSTimerCSg  (flags=2)
+   lastTimeToLeaveSignature : SSSg  (flags=2)
+   dismissedEventSignatures : ShySSG  (flags=2)
+   dismissedEventHistory : SaySSG  (flags=2)
+   fetchDebounceTask : ScTyyt�2  (flags=2)
+   isFetchingEvents : Sb  (flags=2)
+   pendingFetchEvents : Sb  (flags=2)
+   startupCalendarDelayTask : ScTyyt�2  (flags=2)
+   selectionRecomputeTask : ScTyyt�2  (flags=2)
+   lastFetchCompletionTime : �  (flags=2)
+   minimumFetchInterval : Sd  (flags=0)
+   calendarStartupLiveActivityDelay : Sd  (flags=0)
+   managerInitializationTime : �  (flags=0)
+   lastKnownToday : �  (flags=2)
+   _isFirstLaunch : ��  (flags=2)
+   _enableCalendar : ��  (flags=2)
+   _enableNowPlaying : ��  (flags=2)
+   _idleActivity : �  (flags=2)
+   _hasPromptedCalendarPermission : ��  (flags=2)
+   _timeBeforeEvent : Qm  (flags=2)
+   _playSoundOnCalendarEvent : ��  (flags=2)
+   _disableActivityDuringEvents : ��  (flags=2)
+   _alwaysShowMonthView : ��  (flags=2)
+   _hideWhileInFullscreen : ��  (flags=2)
+   _playHourlyChime : ��  (flags=2)
+   _notifyWhenTimeToLeave : ��  (flags=2)
+   _timeToLeaveBuffer : Qm  (flags=2)
+   _timeToLeaveDuration : Qm  (flags=2)
+   _playSoundOnTimeToLeave : ��  (flags=2)
+   _defaultTransportType : �`  (flags=2)
+   _excludedCalendars : �`  (flags=2)
+   _calendarDisplayModes : �`  (flags=2)
+   _beforeEventStarts : ��  (flags=2)
+   _whenEventIsStarting : ��  (flags=2)
+   _calendarPeekDuration : Qm  (flags=2)
+   _enableLockScreen : ��  (flags=2)
+   _allowCalendarWidgetWhenLocked : ��  (flags=2)
+   _events : Say��  (flags=2)
+   _timeUntilStart : SdSg  (flags=2)
+   _timeUntilEnd : SdSg  (flags=2)
+   _timeToTravel : SdSg  (flags=2)
+   _progressUntilEnd : SdSg  (flags=2)
+   _dayName : SS  (flags=2)
+   _shortDayName : SS  (flags=2)
+   _dayNumber : SS  (flags=2)
+   _monthName : SS  (flags=2)
+   _shortMonthName : SS  (flags=2)
+   _selectedDate : �  (flags=2)
+   _selectedShortDayName : SS  (flags=2)
+   _selectedDayNumber : SS  (flags=2)
+   _selectedMonthName : SS  (flags=2)
+   _selectedShortMonthName : SS  (flags=2)
+   _compactCalendarWeekdays : Say�R  (flags=2)
+   _compactCalendarDays : SayhV  (flags=2)
+   _authorizationStatus : �I	  (flags=2)
+   includedCalendarIDsCache : ShySSG  (flags=2)
+   liveActivityCalendarIDsCache : ShySSG  (flags=2)
+   expandedViewCalendarIDsCache : ShySSG  (flags=2)
+   filteredEventsCache : Say��  (flags=2)
+   liveActivityFilteredEventsCache : Say��  (flags=2)
+   expandedViewFilteredEventsCache : Say��  (flags=2)
+   _nextEventActivity : �s  (flags=2)
+   _selectedSection :   (flags=2)
+   _upcomingSections : Say  (flags=2)
+   _hasEarlierEventsToday : Sb  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== ?ctx @0x1005345ec kind=0
+   id : SS  (flags=0)
+   type : i  (flags=0)
+   calendar : OC  (flags=0)
+   title : SS  (flags=0)
+   startDate : �  (flags=0)
+   endDate : �  (flags=0)
+   location : ��  (flags=0)
+   meeting : �/  (flags=0)
+   isDeclined : Sb  (flags=0)
+   isCancelled : Sb  (flags=0)
+   isAllDay : Sb  (flags=0)
+   isHoliday : Sb  (flags=0)
+   isBirthday : Sb  (flags=0)
+   hasRecurrenceRules : Sb  (flags=0)
+   iCalUID : SSSg  (flags=0)
+   accountEmail : SSSg  (flags=0)
+   timeLabelStyle : �  (flags=0)
+   recurrenceStartDate : ��  (flags=0)
+== ?ctx @0x1005346d4 kind=0
+   date : �  (flags=0)
+   title : SSSg  (flags=0)
+   visibleAllDay : Say��  (flags=0)
+   visibleRegular : Say��  (flags=0)
+   hiddenAllDay : Say��  (flags=0)
+   hiddenRegular : Say��  (flags=0)
+   detailEventIDs : ShySSG  (flags=0)
+   isFirst : Sb  (flags=0)
+   consumedBudget : Sd  (flags=0)
+   totalBudget : Sd  (flags=0)
+== ?ctx @0x100534840 kind=0
+   id : SS  (flags=0)
+   title : SS  (flags=0)
+   color : ']  (flags=0)
+   isHoliday : Sb  (flags=0)
+   isBirthday : Sb  (flags=0)
+   isSubscription : Sb  (flags=0)
+== ?ctx @0x1005349c0 kind=7
+   logger : Ͼ  (flags=0)
+   bluetoothManager : So16CBCentralManagerCSg  (flags=2)
+   simplyCA : �b  (flags=2)
+   cancellables : Shy�~  (flags=2)
+   timer : �7��_pSg  (flags=2)
+   airPlayRouteLogTask : ScTyyt�2  (flags=2)
+   outputDeviceChangeResetTask : ScTyyt�2  (flags=2)
+   homePodRoutesByGroupID : SDySSSDySS��  (flags=2)
+   homePodLastUpdatedGroupID : SSSg  (flags=2)
+   homePodRouteFreshnessInterval : Sd  (flags=0)
+   outputDeviceModelRegex : So19NSRegularExpressionC  (flags=0)
+   outputContextNameRegex : So19NSRegularExpressionC  (flags=0)
+   outputContextGroupRegex : So19NSRegularExpressionC  (flags=0)
+   outputContextAirPlayGroupRegex : So19NSRegularExpressionC  (flags=0)
+   outputContextSubtypeRegex : So19NSRegularExpressionC  (flags=0)
+   outputContextTypeRegex : So19NSRegularExpressionC  (flags=0)
+   outputContextPrimaryUIDRegex : So19NSRegularExpressionC  (flags=0)
+   outputContextUniqueIdentifierRegex : So19NSRegularExpressionC  (flags=0)
+   outputContextConfiguredClusterSizeRegex : So19NSRegularExpressionC  (flags=0)
+   _enableConnectivity : ��  (flags=2)
+   _hasPromptedBluetoothPermission : ��  (flags=2)
+   _connectivityDuration : Qm  (flags=2)
+   _warnOnLowConnectBattery : ��  (flags=2)
+   _lowConnectBatteryThreshold : Qm  (flags=2)
+   _playSoundOnLowConnectBattery : ��  (flags=2)
+   _allowConnectivityWhenFocused : ��  (flags=2)
+   _enableLockScreen : ��  (flags=2)
+   _allowConnectivityWhenLocked : ��  (flags=2)
+   _allowConnectivityWidgetWhenLocked : ��  (flags=2)
+   _audioDevice : [b  (flags=2)
+   _virtualDevice : ��  (flags=2)
+   _batteryLevel : SdSg  (flags=2)
+   _hasPassedThreshold : Sb  (flags=2)
+   _hasRecentlyChangedOutputDevice : Sb  (flags=2)
+   _authorizationStatus : �I	  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== ?ctx @0x10053536c kind=2
+   none :   (flags=0)
+   nowPlaying :   (flags=0)
+   calendar :   (flags=0)
+   duo :   (flags=0)
+== ?ctx @0x10053547c kind=2
+   music :   (flags=0)
+   spotify :   (flags=0)
+   system :   (flags=0)
+== ?ctx @0x100535518 kind=3
+   displayType : Ù  (flags=0)
+   display : ��  (flags=0)
+== ?ctx @0x100535540 kind=2
+   battery :   (flags=0)
+   connectivity :   (flags=0)
+   focus :   (flags=0)
+   calendar :   (flags=0)
+   weather :   (flags=0)
+== ?ctx @0x100535644 kind=1
+   logger : Ͼ  (flags=0)
+   cancellables : Shy�~  (flags=2)
+   lockDebounce : ScTyyt�2  (flags=2)
+   unlockDebounce : ScTyyt�2  (flags=2)
+   screensaverPresentationTask : ScTyyt�2  (flags=2)
+   hideDebounce : ScTyyt�2  (flags=2)
+   idleAssertionID : �4  (flags=2)
+   noDisplayAssertionID : �4  (flags=2)
+   preventUserIdleDisplayAssertionID : �4  (flags=2)
+   sleepTask : ScTyyt�2  (flags=2)
+   isLockScreenWidgetNotificationVisible : Sb  (flags=2)
+   _enableBrightness : ��  (flags=2)
+   _enableVolume : ��  (flags=2)
+   _enableLockScreen : ��  (flags=2)
+   _keepAwake : Qm  (flags=2)
+   _showOnScreenSaver : ��  (flags=2)
+   _playSoundOnLock : ��  (flags=2)
+   _playSoundOnUnlock : ��  (flags=2)
+   _enableFocus : ��  (flags=2)
+   _enableNowPlaying : ��  (flags=2)
+   _hideWhileSourceIsActive : ��  (flags=2)
+   _hideWhileInFullscreen : ��  (flags=2)
+   _allowBatteryWidgetWhenLocked : ��  (flags=2)
+   _allowConnectivityWidgetWhenLocked : ��  (flags=2)
+   _allowFocusWidgetWhenLocked : ��  (flags=2)
+   _allowNowPlayingWidgetWhenLocked : ��  (flags=2)
+   _allowCalendarWidgetWhenLocked : ��  (flags=2)
+   _allowWeatherWidgetWhenLocked : ��  (flags=2)
+   _showVolumeControl : ��  (flags=2)
+   _nowPlayingWidgetOffset : Qm  (flags=2)
+   _isLocked : Sb  (flags=2)
+   _isVisible : Sb  (flags=2)
+   _isSleeping : Sb  (flags=2)
+   _isAwake : Sb  (flags=2)
+   _isWallpaperNearlyWhite : Sb  (flags=2)
+   _hasScreensaver : Sb  (flags=2)
+   _hasClock : Sb  (flags=2)
+   _hasMessage : Sb  (flags=2)
+   _hasAvatar : Sb  (flags=2)
+   _userAccountCount : Si  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== ?ctx @0x100535868 kind=1
+   service : �m
+  (flags=0)
+   preflightFunction : Si�m
+  (flags=2)
+   requestFunction : y�m
+  (flags=2)
+   appDidBecomeActiveObserver : �t��_pSg  (flags=2)
+   activeSpectrumOwners : SDySOSo8NSObjectCG  (flags=2)
+   spectrumObservers : SDySOSo8NSObjectCG  (flags=2)
+   spectrumPID : �  (flags=2)
+   spectrumAnalyzer : So8NSObjectCSg  (flags=2)
+   spectrumTap : So8NSObjectCSg  (flags=2)
+   _hasPromptedAudioPermission : ��  (flags=2)
+   _authorizationStatus : �?  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== ?ctx @0x100535908 kind=2
+   notDetermined :   (flags=0)
+   denied :   (flags=0)
+   authorized :   (flags=0)
+== ?ctx @0x1005359a4 kind=1
+   cancellables : Shy�~  (flags=2)
+   spotify : 7e��_pSg  (flags=2)
+   music : We��_pSg  (flags=2)
+   pauseDebounce : ScTyyt�2  (flags=2)
+   seekDebounce : ScTyyt�2  (flags=2)
+   hideIdleDebounce : ScTyyt�2  (flags=2)
+   hideIdleDeadline : ��  (flags=2)
+   timerCancellable : ��  (flags=2)
+   seekerPollingInterval : Sd  (flags=0)
+   appleEventsAllowed : Sb  (flags=2)
+   lastMusicURLKey : SSSg  (flags=2)
+   currentArtworkIdentity : SSSg  (flags=2)
+   currentArtworkAlbum : SSSg  (flags=2)
+   artworkFetchTask : ScTyyt�2  (flags=2)
+   artworkFetchIdentity : SSSg  (flags=2)
+   artworkFetchGeneration : Si  (flags=2)
+   pendingMusicLoved : SbSg  (flags=2)
+   pendingSpotifyLoved : SbSg  (flags=2)
+   pendingMusicShuffleEnabled : SbSg  (flags=2)
+   pendingMusicRepeatMode : �
+  (flags=2)
+   spotifyRepeatMode : _�  (flags=2)
+   _enableBrightness : ��  (flags=2)
+   _enableVolume : ��  (flags=2)
+   _isFirstLaunch : ��  (flags=2)
+   _enableNowPlaying : ��  (flags=2)
+   _idleDuration : Qm  (flags=2)
+   _hideIdleDuration : Qm  (flags=2)
+   _hideWhileSourceIsActive : ��  (flags=2)
+   _hideWhileInFullscreen : ��  (flags=2)
+   _controlChoice : �k  (flags=2)
+   _automaticMusicApp : ��  (flags=2)
+   _musicApp : 9m  (flags=2)
+   _whenSongChanges : ��  (flags=2)
+   _peekDuration : Qm  (flags=2)
+   _enableLockScreen : ��  (flags=2)
+   _allowNowPlayingWidgetWhenLocked : ��  (flags=2)
+   timerStartSignal : _�  (flags=0)
+   timerStopSignal : _�  (flags=0)
+   timerPollingSources : Shy0�  (flags=2)
+   isNowPlayingObservationEnabled : Sb  (flags=2)
+   hasCompletedInitialNowPlayingSetup : Sb  (flags=2)
+   transientMediaDurationThreshold : Sd  (flags=0)
+   messageAppBundleIds : SaySSG  (flags=0)
+   idleDebounce : ScTyyt�2  (flags=2)
+   _currentTrack : %�  (flags=2)
+   _shareUrl : SSSg  (flags=2)
+   _trackUri : SSSg  (flags=2)
+   _isHidden : Sb  (flags=2)
+   _isPlaying : Sb  (flags=2)
+   _nowPlaying : SDySSypG  (flags=2)
+   _isFlipped : Sb  (flags=2)
+   _isLoved : Sb  (flags=2)
+   _isShuffled : Sb  (flags=2)
+   _isRepeating : Sb  (flags=2)
+   _isRepeatingOne : Sb  (flags=2)
+   _isLive : Sb  (flags=2)
+   _isPodcast : Sb  (flags=2)
+   _isSourceAppActive : Sb  (flags=2)
+   _trackDuration : Sd  (flags=2)
+   _seekerPosition : Sd  (flags=2)
+   _songChangeToken : Si  (flags=2)
+   _volume : Sf  (flags=2)
+   _playbackSpeed : SdSg  (flags=2)
+   _isDraggingSlider : Sb  (flags=2)
+   _isSeeking : Sb  (flags=2)
+   _appBundleId : SSSg  (flags=2)
+   _nowPlayingAudioProcessIdentifier : �  (flags=2)
+   _nowPlayingAudioClientBundleIdentifier : SSSg  (flags=2)
+   _nowPlayingAudioParentBundleIdentifier : SSSg  (flags=2)
+   _hasShuffle : Sb  (flags=2)
+   _hasPreviousSkip : Sb  (flags=2)
+   _hasNextSkip : Sb  (flags=2)
+   _hasPlaybackSpeed : Sb  (flags=2)
+   _hasRewind : Sb  (flags=2)
+   _hasFastForward : Sb  (flags=2)
+   _hasRecentlyPaused : Sb  (flags=2)
+   _previousTrigger : Sb  (flags=2)
+   _nextTrigger : Sb  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== ?ctx @0x100535dc4 kind=0
+   title : SS  (flags=2)
+   artist : SS  (flags=2)
+   album : SS  (flags=2)
+   isExplicit : Sb  (flags=2)
+   isLossless : Sb  (flags=2)
+   isDolbyAtmos : Sb  (flags=2)
+   albumArt : So7NSImageCSg  (flags=2)
+   albumArtOriginal : So7NSImageCSg  (flags=2)
+   albumArtBrightened : So7NSImageCSg  (flags=2)
+   albumArtDataDigest : SSSg  (flags=2)
+   colors : Say�Z  (flags=2)
+== ?ctx @0x1005367ac kind=1
+   objectID : �E
+  (flags=0)
+   $__lazy_storage_$_classID : �C
+  (flags=2)
+   $__lazy_storage_$_owningObject : k~  (flags=2)
+   $__lazy_storage_$_owningDevice : 9�	  (flags=2)
+== ?ctx @0x100536d54 kind=0
+   _value : Bi8_  (flags=2)
+== ?ctx @0x100536d70 kind=0
+   _value : Bi16_  (flags=2)
+== ?ctx @0x100536d8c kind=0
+   _value : Bi32_  (flags=2)
+== ?ctx @0x100536da8 kind=0
+   _value : Bi64_  (flags=2)
+== ?ctx @0x100536dc4 kind=0
+   _value : Bi128_  (flags=2)
+== ?ctx @0x100536ee8 kind=0
+   first : Su  (flags=2)
+   second : Su  (flags=2)
+== ?ctx @0x100537030 kind=2
+   white :   (flags=0)
+   black :   (flags=0)
+   dark :   (flags=0)
+   bright :   (flags=0)
+   gray :   (flags=0)
+   red :   (flags=0)
+   redOrange :   (flags=0)
+   orange :   (flags=0)
+   yellowOrange :   (flags=0)
+   yellow :   (flags=0)
+   yellowGreen :   (flags=0)
+   green :   (flags=0)
+   blueGreen :   (flags=0)
+   blue :   (flags=0)
+   blueViolet :   (flags=0)
+   violet :   (flags=0)
+   redViolet :   (flags=0)
+   brown :   (flags=0)
+   pink :   (flags=0)
+   unknown :   (flags=0)
+== ?ctx @0x10053959c kind=0
+== ?ctx @0x1005396f8 kind=1
+   name : SS  (flags=0)
+   suite : So14NSUserDefaultsC  (flags=0)
+== ?ctx @0x100539850 kind=7
+   suite : So14NSUserDefaultsCSgXw  (flags=2)
+   name : SS  (flags=0)
+   callback : y&�  (flags=0)
+   isObserving : Sb  (flags=2)
+   lock : o�	  (flags=0)
+== ?ctx @0x1005398f8 kind=0
+   kind : Մ  (flags=0)
+   indexes : ��	  (flags=0)
+   isPrior : Sb  (flags=0)
+   newValue : ypSg  (flags=0)
+   oldValue : ypSg  (flags=0)
+== ?ctx @0x100539a88 kind=1
+== ?ctx @0x100539ad0 kind=1
+   queueContinuation : �$
+  (flags=2)
+   lock : o�	  (flags=0)
+== __C.NSDeviceDescriptionKey @0x10052dc3c kind=0
+   _rawValue : So8NSStringC  (flags=2)
+== __C.Key @0x10052dc58 kind=0
+   _rawValue : So8NSStringC  (flags=2)
+== __C.Level @0x10052dc74 kind=0
+   rawValue : Si  (flags=0)
+== __C.NSEdgeInsets @0x10052dc90 kind=0
+   top : ��
+  (flags=2)
+   left : ��
+  (flags=2)
+   bottom : ��
+  (flags=2)
+   right : ��
+  (flags=2)
+== Alcove.LicenseSettingsView @0x10052dcd0 kind=0
+   _controlActiveState : �	  (flags=2)
+   _licenseManager : 9"  (flags=2)
+   _licenseName : ��  (flags=2)
+   _activationLimit : ��  (flags=2)
+   _activationUsage : ��  (flags=2)
+   _enableHaptics : ��  (flags=2)
+   __licenseKey : �#  (flags=2)
+   __isLoading : q#  (flags=2)
+   __isValidating : q#  (flags=2)
+   __isValidLicense : q#  (flags=2)
+   __hasError : q#  (flags=2)
+   __errorMessage : �#  (flags=2)
+   __shouldError : q#  (flags=2)
+   __shouldShake : q#  (flags=2)
+   __isDeactivating : q#  (flags=2)
+   __hasAppeared : q#  (flags=2)
+   __licenseCardHasEntered : q#  (flags=2)
+   __licenseSealHasEntered : q#  (flags=2)
+   __licenseTitleHasEntered : q#  (flags=2)
+   __licenseNameHasEntered : q#  (flags=2)
+   __licenseUsageHasEntered : q#  (flags=2)
+   __licenseActionHasEntered : q#  (flags=2)
+   __licensePlayback : �#  (flags=2)
+   __licenseTimelineTask : �#  (flags=2)
+   _isFocused :   (flags=2)
+== Alcove.VolumeManager @0x10052de0c kind=1
+   logger : Ͼ  (flags=0)
+   simplyCA : �b  (flags=0)
+   cancellables : Shy�~  (flags=2)
+   volumeWriteTask : ScTyyt�2  (flags=2)
+   outputDeviceSyncTask : ScTyyt�2  (flags=2)
+   volumeFeedbackPreferenceKey : SS  (flags=0)
+   volumeFeedbackSoundName : SS  (flags=0)
+   volumeFeedbackSoundType : SS  (flags=0)
+   edgeDuration : Sd  (flags=0)
+   _enableVolume : ��  (flags=2)
+   _allowVolumeWhenFocused : ��  (flags=2)
+   _allowVolumeWhenLocked : ��  (flags=2)
+   _volumeDuration : Qm  (flags=2)
+   _volumeSpeed : Gm  (flags=2)
+   _musicApp : 9m  (flags=2)
+   _showVolumeControl : ��  (flags=2)
+   _allowNowPlayingWidgetWhenLocked : ��  (flags=2)
+   _volume : Sf  (flags=2)
+   _actualVolume : Sf  (flags=2)
+   _isMuted : Sb  (flags=2)
+   _canControlVolume : Sb  (flags=2)
+   _isDraggingSlider : Sb  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== Alcove.SnapshotManager @0x10052df30 kind=1
+   maxCachedSnapshotCount : Si  (flags=0)
+   maxCachedSnapshotCost : Si  (flags=0)
+   cachedSnapshots : SDy��  (flags=2)
+   cachedSnapshotCosts : SDy�  (flags=2)
+   cachedSnapshotOrder : Say�  (flags=2)
+   cachedSnapshotCost : Si  (flags=2)
+== Alcove.SnapshotManager.Request @0x10052df88 kind=0
+   revision : Su  (flags=0)
+   configurationKey : a�  (flags=0)
+   size : ��
+  (flags=0)
+   scale : ��
+  (flags=0)
+== Alcove.SnapshotManager.Snapshot @0x10052dfc8 kind=0
+   image : ��  (flags=0)
+   size : ��
+  (flags=0)
+   scale : ��
+  (flags=0)
+== Alcove.Snapshot @0x10052dffc kind=0
+   image : ��  (flags=0)
+   size : ��
+  (flags=0)
+   scale : ��
+  (flags=0)
+== Alcove.NowPlayingSettingsView @0x10052e030 kind=0
+   _colorScheme : ��  (flags=2)
+   _controlActiveState : �	  (flags=2)
+   _audioManager : '�  (flags=2)
+   _enableNowPlaying : ��  (flags=2)
+   _showOnDisplay : �k  (flags=2)
+   _forceSimulatedNotch : ��  (flags=2)
+   _idleDuration : Qm  (flags=2)
+   _useLiveWaveform : ��  (flags=2)
+   _hasPromptedAudioPermission : ��  (flags=2)
+   _disableWaveform : ��  (flags=2)
+   _progressStyle : �k  (flags=2)
+   _disableAlbumArtFlip : ��  (flags=2)
+   _hideWhileSourceIsActive : ��  (flags=2)
+   _songTitleBadge : �k  (flags=2)
+   _hideSongTitleExtras : ��  (flags=2)
+   _controlChoice : �k  (flags=2)
+   _automaticMusicApp : ��  (flags=2)
+   _musicApp : 9m  (flags=2)
+   _enableQuickPeek : ��  (flags=2)
+   _whenSongChanges : ��  (flags=2)
+   _peekDuration : Qm  (flags=2)
+   __formatTitleBadgeIndex : u�  (flags=2)
+   __systemControlLikeIndex : u�  (flags=2)
+   __isShowingAudioPermission : q#  (flags=2)
+== Alcove.SettingsController @0x10052e160 kind=1
+   windowController : So18NSWindowControllerCSg  (flags=2)
+   _currentTab : !  (flags=2)
+   _pendingTab : �   (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== Alcove.CircularProgress @0x10052e1a0 kind=0
+   progress : Sd  (flags=2)
+   color : ']  (flags=2)
+   size : ��
+  (flags=2)
+   lineWidth : ��
+  (flags=2)
+== Alcove.FocusSettingsView @0x10052e1e0 kind=0
+   _controlActiveState : �	  (flags=2)
+   _focusManager : �`  (flags=2)
+   _enableFocus : ��  (flags=2)
+   _focusDuration : Qm  (flags=2)
+   _playSoundOnSleepFocus : ��  (flags=2)
+   _replaceWaveformDuringFocus : ��  (flags=2)
+   _replaceWaveformDuringFocusModeIdentifier : ��  (flags=2)
+   _hideLabel : ��  (flags=2)
+   _allowBatteryWhenFocused : ��  (flags=2)
+   _allowConnectivityWhenFocused : ��  (flags=2)
+   _allowBrightnessWhenFocused : ��  (flags=2)
+   _allowVolumeWhenFocused : ��  (flags=2)
+== Alcove.<anon>.FocusWaveformOption @0x10052e280 kind=2
+   mode : 7  (flags=0)
+   any :   (flags=0)
+== Alcove.AboutSettingsView @0x10052e2a8 kind=0
+   _colorScheme : ��  (flags=2)
+   _controlActiveState : �	  (flags=2)
+   _licenseManager : 9"  (flags=2)
+   _updateManager : �X  (flags=2)
+   _enableHaptics : ��  (flags=2)
+   _earlyBirdUpdates : ��  (flags=2)
+   _automaticallyCheckForUpdates : ��  (flags=2)
+   __isLoading : q#  (flags=2)
+== Alcove.LockScreenSettingsView @0x10052e318 kind=0
+   _colorScheme : ��  (flags=2)
+   _controlActiveState : �	  (flags=2)
+   _calendarManager : E  (flags=2)
+   _licenseManager : 9"  (flags=2)
+   _weatherManager : �D  (flags=2)
+   _enableLockScreen : ��  (flags=2)
+   _keepAwake : Qm  (flags=2)
+   _showOnScreenSaver : ��  (flags=2)
+   _playSoundOnLock : ��  (flags=2)
+   _playSoundOnUnlock : ��  (flags=2)
+   _allowBatteryWhenLocked : ��  (flags=2)
+   _allowConnectivityWhenLocked : ��  (flags=2)
+   _allowFocusWhenLocked : ��  (flags=2)
+   _allowBrightnessWhenLocked : ��  (flags=2)
+   _allowVolumeWhenLocked : ��  (flags=2)
+   _allowBatteryWidgetWhenLocked : ��  (flags=2)
+   _allowConnectivityWidgetWhenLocked : ��  (flags=2)
+   _allowFocusWidgetWhenLocked : ��  (flags=2)
+   _allowNowPlayingWidgetWhenLocked : ��  (flags=2)
+   _nowPlayingStyle : �  (flags=2)
+   _hideIdleDuration : Qm  (flags=2)
+   _showVolumeControl : ��  (flags=2)
+   _nowPlayingWidgetOffset : Qm  (flags=2)
+   _allowCalendarWidgetWhenLocked : ��  (flags=2)
+   _hasPromptedCalendarPermission : ��  (flags=2)
+   _allowWeatherWidgetWhenLocked : ��  (flags=2)
+   _weatherStyle : �  (flags=2)
+   _hasPromptedLocationPermission : ��  (flags=2)
+   __isShowingCalendarPermission : q#  (flags=2)
+   __isShowingWeatherPermission : q#  (flags=2)
+   __wallpaperImage : 9F  (flags=2)
+== Alcove.<anon>.FakeClearGlassPreview @0x10052e49c kind=0
+   cornerRadius : ��
+  (flags=0)
+   colorScheme : 9  (flags=0)
+   opacity : SdSg  (flags=2)
+   brightness : Sd  (flags=2)
+   showsOuterBorder : Sb  (flags=2)
+== Alcove.ListCheckbox @0x10052e4e8 kind=0
+   horizontalPadding : ��
+  (flags=0)
+   title : SS  (flags=0)
+   accessory : x  (flags=0)
+   alignment :   (flags=0)
+   minHeight : ��
+  (flags=0)
+   size : �8  (flags=0)
+   disabled : Sb  (flags=0)
+   tint : ']  (flags=0)
+   checkmarkColor : D  (flags=0)
+   uncheckedColor : D  (flags=0)
+   labelFont : A  (flags=0)
+   _value : s  (flags=2)
+== Alcove.ListCheckbox.ViewAlignment @0x10052e588 kind=2
+   leading :   (flags=0)
+   trailing :   (flags=0)
+== Alcove.DropdownPicker @0x10052e5b0 kind=0
+   menuItems : Say�	  (flags=0)
+   size : �8  (flags=0)
+   disabled : Sb  (flags=0)
+   label : SSxc  (flags=0)
+   selectedLabel : SSxc  (flags=0)
+   selectedOpacity : Sdxc  (flags=0)
+   selectedSymbolSpacing : ��
+  (flags=0)
+   selectedSymbolSize : ��
+  (flags=0)
+   selectedSymbolWeight : ��  (flags=0)
+   selectedImageSize : ��
+  (flags=0)
+   menuImageSize : ��
+  (flags=0)
+   menuSymbolWeight : K	  (flags=0)
+   symbol : SSSgxc  (flags=0)
+   image : So7NSImageCSgxc  (flags=0)
+   selectedImage : So7NSImageCSgxc  (flags=0)
+   isHeader : Sbxc  (flags=0)
+   onHover : yxSgc  (flags=0)
+   _colorScheme : ��  (flags=2)
+   _selection : u  (flags=2)
+== Alcove.<anon>.InvisiblePopUpButton @0x10052e6a4 kind=7
+== Alcove.<anon>.AppKitMenuPicker.Coordinator @0x10052e6b4 kind=7
+   selection : u  (flags=2)
+   menuItems : Say�	  (flags=2)
+   isHeader : Sbxc  (flags=2)
+   onHover : yxSgc  (flags=2)
+   initialHoverOption : xSg  (flags=2)
+== Alcove.ListDropdown @0x10052e700 kind=0
+   title : SS  (flags=0)
+   menuItems : Say�	  (flags=0)
+   view : q_  (flags=0)
+   alignment : �  (flags=0)
+   size : �8  (flags=0)
+   disabled : Sb  (flags=0)
+   showTitle : Sb  (flags=0)
+   onDisabledTap : yycSg  (flags=0)
+   symbol : SSSgxc  (flags=0)
+   image : So7NSImageCSgxc  (flags=0)
+   selectedImage : So7NSImageCSgxc  (flags=0)
+   isHeader : Sbxc  (flags=0)
+   onHover : yxSgc  (flags=0)
+   selectedLabel : SSxc  (flags=0)
+   selectedOpacity : Sdxc  (flags=0)
+   selectedSymbolSpacing : ��
+  (flags=0)
+   selectedSymbolSize : ��
+  (flags=0)
+   selectedSymbolWeight : ��  (flags=0)
+   selectedImageSize : ��
+  (flags=0)
+   menuImageSize : ��
+  (flags=0)
+   menuSymbolWeight : K	  (flags=0)
+   label : SSxc  (flags=0)
+   _selection : u  (flags=2)
+== Alcove.ListDropdown.ViewAlignment @0x10052e824 kind=2
+   leading :   (flags=0)
+   trailing :   (flags=0)
+== Alcove.<anon>.DropdownMenuItem @0x10052e84c kind=2
+   option : x  (flags=0)
+   separator :   (flags=0)
+== Alcove.<anon>.AppKitMenuPicker @0x10052e874 kind=0
+   menuItems : Say�	  (flags=0)
+   _selection : u  (flags=2)
+   disabled : Sb  (flags=0)
+   symbol : SSSgxc  (flags=0)
+   image : So7NSImageCSgxc  (flags=0)
+   isHeader : Sbxc  (flags=0)
+   onHover : yxSgc  (flags=0)
+   menuSymbolWeight : K	  (flags=0)
+   menuImageSize : ��
+  (flags=0)
+   label : SSxc  (flags=0)
+== Alcove.<anon>.WindowBackgroundDragExclusionView @0x10052e8fc kind=7
+== Alcove.<anon>.WindowBackgroundDragExclusion @0x10052e90c kind=0
+== Alcove.<anon>.ClearGlassLayerView @0x10052e91c kind=7
+   cornerRadius : ��
+  (flags=2)
+   samplesWindowServer : Sb  (flags=2)
+   materialStyle : �  (flags=0)
+   rootLayer : So7CALayerCSg  (flags=2)
+   backdrop : So7CALayerCSg  (flags=2)
+   sdfLayer : So7CALayerCSg  (flags=2)
+   elementLayer : So7CALayerCSg  (flags=2)
+   glassBackground : So8NSObjectCSg  (flags=2)
+   foregroundBackdrop : So7CALayerCSg  (flags=2)
+   foregroundSDF : So7CALayerCSg  (flags=2)
+   foregroundElement : So7CALayerCSg  (flags=2)
+   glassForeground : So8NSObjectCSg  (flags=2)
+   keyFillPortalLayer : So7CALayerCSg  (flags=2)
+   keyFillLayer : So7CALayerCSg  (flags=2)
+   keyFillChildPortalLayer : So7CALayerCSg  (flags=2)
+   keyFillEffect : So8NSObjectCSg  (flags=2)
+   keyFillFilter : So8NSObjectCSg  (flags=2)
+   outerBorderLayer : So7CALayerCSg  (flags=2)
+   innerContainer : So7CALayerCSg  (flags=2)
+   innerMiddle : So7CALayerCSg  (flags=2)
+   innerBorderLayer : So7CALayerCSg  (flags=2)
+   gradientMask : So15CAGradientLayerCSg  (flags=2)
+   innerBorderEdgeMask : So15CAGradientLayerCSg  (flags=2)
+   outerBorderMask : So15CAGradientLayerCSg  (flags=2)
+== Alcove.<anon>.ClearGlassBorderLayerView @0x10052ea4c kind=7
+   cornerRadius : ��
+  (flags=2)
+   showsOuterBorder : Sb  (flags=2)
+   materialStyle : �  (flags=0)
+   rootLayer : So7CALayerCSg  (flags=2)
+   outerBorderLayer : So7CALayerCSg  (flags=2)
+   innerContainer : So7CALayerCSg  (flags=2)
+   innerMiddle : So7CALayerCSg  (flags=2)
+   innerBorderLayer : So7CALayerCSg  (flags=2)
+   gradientMask : So15CAGradientLayerCSg  (flags=2)
+== Alcove.<anon>.ClearGlassMaterialStyle @0x10052eac8 kind=0
+== Alcove.ClearGlassEffectView @0x10052ead8 kind=0
+   cornerRadius : ��
+  (flags=0)
+   samplesWindowServer : Sb  (flags=0)
+== Alcove.ClearGlassBorderEffectView @0x10052eb00 kind=0
+   cornerRadius : ��
+  (flags=0)
+   showsOuterBorder : Sb  (flags=0)
+== Alcove.HapticFeedback @0x10052eb28 kind=1
+   hasRecentlyTriggeredHaptic : Sb  (flags=2)
+   debounceResetTask : ScTyyt�2  (flags=2)
+== $s6Alcove12MaskProviderP @0x10052eb50 kind=4
+== Alcove.LinearGradientMaskProvider @0x10052eb60 kind=0
+   startPoint : ]�  (flags=0)
+   endPoint : ]�  (flags=0)
+   startOpacity : ��
+  (flags=0)
+   endOpacity : ��
+  (flags=0)
+   isSmooth : Sb  (flags=0)
+== Alcove.RoundedRectangleMaskProvider @0x10052ebac kind=0
+   cornerRadius : ��
+  (flags=0)
+   blurRadius : ��
+  (flags=0)
+   edgeConfigurations : SDyV�  (flags=0)
+   invertAlpha : Sb  (flags=0)
+== Alcove.RoundedRectangleMaskProvider.EdgeConfiguration @0x10052ebec kind=0
+   isFeathered : Sb  (flags=0)
+   padding : {  (flags=0)
+== Alcove.RoundedRectangleMaskProvider.EdgeConfiguration.PaddingUnit @0x10052ec14 kind=3
+   points : ��
+  (flags=0)
+   percentage : ��
+  (flags=0)
+== Alcove.VariableBlurEngine @0x10052ec3c kind=1
+   filter : So8NSObjectCSg  (flags=0)
+   currentMaskImage : �  (flags=2)
+== Alcove.ProgressiveBlurView @0x10052ec64 kind=7
+   maskProvider : x  (flags=2)
+   variableBlur : �  (flags=2)
+   scale : ��
+  (flags=2)
+   lastFrame : �J	  (flags=2)
+   needsToRedrawMask : Sb  (flags=2)
+   ciContext : So9CIContextC  (flags=0)
+== Alcove.ProgressiveBlurEffect @0x10052ecbc kind=0
+   maskProvider : x  (flags=0)
+   maxBlurRadius : ��
+  (flags=0)
+   scale : ��
+  (flags=0)
+== $s6Alcove24MaterialBackdropObserverP @0x10052ecf0 kind=5
+== Alcove.MaterialLuminanceAggregator @0x10052ed00 kind=1
+   sampleLuminances : SDySOSfG  (flags=2)
+   observers : So11NSHashTableCyyXlG  (flags=0)
+   luminance : SfSg  (flags=2)
+== Alcove.MaterialBackdropLumaView @0x10052ed34 kind=7
+   aggregator : !  (flags=2)
+   allowsFilteredLuma : Sb  (flags=2)
+   lumaUpdateRate : Sd  (flags=2)
+   resampleGeneration : [  (flags=2)
+== Alcove.MaterialBackdropLumaReader @0x10052ed74 kind=0
+   aggregator : !  (flags=0)
+   allowsFilteredLuma : Sb  (flags=0)
+   lumaUpdateRate : Sd  (flags=0)
+   resampleGeneration : [  (flags=0)
+== Alcove.NSHostingViewSuppressingSafeArea @0x10052edb4 kind=7
+   $__lazy_storage_$_layoutGuide : So13NSLayoutGuideCSg  (flags=2)
+== Alcove.SettingsWindowView @0x10052edd0 kind=0
+   _controlActiveState : �	  (flags=2)
+   sectionSpacing : ��
+  (flags=0)
+== Alcove.ConnectivitySettingsView @0x10052edf8 kind=0
+   _colorScheme : ��  (flags=2)
+   _controlActiveState : �	  (flags=2)
+   _connectivityManager : 1�  (flags=2)
+   _enableConnectivity : ��  (flags=2)
+   _connectivityDuration : Qm  (flags=2)
+   _warnOnLowConnectBattery : ��  (flags=2)
+   _lowConnectBatteryThreshold : Qm  (flags=2)
+   _playSoundOnLowConnectBattery : ��  (flags=2)
+   _connectivityModel : �  (flags=2)
+   __player : u�  (flags=2)
+   __isShowingWarnBluetoothPermission : q#  (flags=2)
+   __isShowingSoundBluetoothPermission : q#  (flags=2)
+== Alcove.ListToggle @0x10052ee98 kind=0
+   horizontalPadding : ��
+  (flags=0)
+   title : SS  (flags=0)
+   view : x  (flags=0)
+   alignment : !�  (flags=0)
+   minHeight : ��
+  (flags=0)
+   size : �8  (flags=0)
+   disabled : Sb  (flags=0)
+   tint : D  (flags=0)
+   onDisabledTap : yycSg  (flags=0)
+   _value : s  (flags=2)
+== Alcove.ListToggle.ViewAlignment @0x10052ef20 kind=2
+   leading :   (flags=0)
+   trailing :   (flags=0)
+== Alcove.SoundPreview @0x10052ef48 kind=0
+   resources : SS  (flags=0)
+   type : SS  (flags=0)
+   symbol : SS  (flags=0)
+   padding : Sd  (flags=0)
+   __isPressed : q#  (flags=2)
+== Alcove.SoundSettingsView @0x10052ef94 kind=0
+   _colorScheme : ��  (flags=2)
+   _controlActiveState : �	  (flags=2)
+   volumeValues : SaySdG  (flags=0)
+   _enableVolume : ��  (flags=2)
+   _hasPromptedAccessibilityPermission : ��  (flags=2)
+   _volumeOutputDevice : Վ  (flags=2)
+   _volumeDuration : Qm  (flags=2)
+   _volumeProgressStyle : ǎ  (flags=2)
+   _volumeSpeed : Gm  (flags=2)
+   _showVolumePercentage : ��  (flags=2)
+   _hideVolumeLabel : ��  (flags=2)
+   __volume : U�  (flags=2)
+   __stylizedVolume : U�  (flags=2)
+   __currentIndex : u�  (flags=2)
+   __isShowingAccessibilityPermission : q#  (flags=2)
+   __isAccessibilityAuthorized : q#  (flags=2)
+== Alcove.VerticalVolumeSlider @0x10052f064 kind=0
+   _isEnabled : �  (flags=2)
+   _value : u  (flags=2)
+   inRange : SNyxG  (flags=0)
+   height : ��
+  (flags=0)
+   onValueChanged : yxc  (flags=0)
+   onEditingChanged : ySbc  (flags=0)
+   tapCooldown : Sd  (flags=0)
+   dragUpdateInterval : Sd  (flags=0)
+   __localRealProgress : ��  (flags=2)
+   __localTempProgress : ��  (flags=2)
+   __capsuleBounds : '�  (flags=2)
+   __lastDragUpdate : �  (flags=2)
+   _isActive : �  (flags=2)
+   _isPressedLeft : �  (flags=2)
+   _isPressedRight : �  (flags=2)
+== Alcove.CalendarSettingsView @0x10052f128 kind=0
+   _colorScheme : ��  (flags=2)
+   _controlActiveState : �	  (flags=2)
+   _calendarManager : E  (flags=2)
+   _licenseManager : 9"  (flags=2)
+   _weatherManager : �D  (flags=2)
+   _enableCalendar : ��  (flags=2)
+   _showOnDisplay : �k  (flags=2)
+   _forceSimulatedNotch : ��  (flags=2)
+   _hasPromptedCalendarPermission : ��  (flags=2)
+   _timeBeforeEvent : Qm  (flags=2)
+   _playSoundOnCalendarEvent : ��  (flags=2)
+   _useCalendarColor : ��  (flags=2)
+   _disableActivityDuringEvents : ��  (flags=2)
+   _showWeatherOnEmptyDay : ��  (flags=2)
+   _useEventIndicators : ��  (flags=2)
+   _alwaysShowMonthView : ��  (flags=2)
+   _playHourlyChime : ��  (flags=2)
+   _notifyWhenTimeToLeave : ��  (flags=2)
+   _timeToLeaveBuffer : Qm  (flags=2)
+   _timeToLeaveDuration : Qm  (flags=2)
+   _playSoundOnTimeToLeave : ��  (flags=2)
+   _defaultTransportType : �`  (flags=2)
+   _excludedCalendars : �`  (flags=2)
+   _calendarDisplayModes : �`  (flags=2)
+   _enableCalendarQuickPeek : ��  (flags=2)
+   _beforeEventStarts : ��  (flags=2)
+   _whenEventIsStarting : ��  (flags=2)
+   _calendarPeekDuration : Qm  (flags=2)
+   _useColoredCalendarIndicator : ��  (flags=2)
+   _hasPromptedLocationPermission : ��  (flags=2)
+   __isShowingCalendarPermission : q#  (flags=2)
+   __isShowingEmptyDayWeatherPermission : q#  (flags=2)
+   __isShowingTimeToLeaveWeatherPermission : q#  (flags=2)
+== Alcove.CalendarView @0x10052f2c4 kind=0
+   notchController : �h  (flags=0)
+   _calendarManager : E  (flags=2)
+   _weatherManager : �D  (flags=2)
+   _alwaysShowMonthView : ��  (flags=2)
+   _showWeatherOnEmptyDay : ��  (flags=2)
+   _useEventIndicators : ��  (flags=2)
+   compactMode : Sb  (flags=0)
+== Alcove.CalendarView.<anon>.EventSectionColumn @0x10052f328 kind=2
+   left :   (flags=0)
+   right :   (flags=0)
+== Alcove.<anon>.AllDayEventSymbol @0x10052f350 kind=0
+   _isPressed : �  (flags=2)
+   event : Y~  (flags=0)
+== Alcove.AppIcon @0x10052f378 kind=0
+   size : ��
+  (flags=0)
+== Alcove.MediaPlayer @0x10052f394 kind=0
+   notchController : �h  (flags=0)
+   _audioManager : '�  (flags=2)
+   _focusManager : �`  (flags=2)
+   _mediaManager : -W  (flags=2)
+   _volumeManager : W  (flags=2)
+   _disableAlbumArtFlip : ��  (flags=2)
+   _hideSongTitleExtras : ��  (flags=2)
+   _songTitleBadge : �k  (flags=2)
+   _controlChoice : �k  (flags=2)
+   _musicApp : 9m  (flags=2)
+   _showVolumeControl : ��  (flags=2)
+   _enableFocus : ��  (flags=2)
+   _replaceWaveformDuringFocus : ��  (flags=2)
+   _replaceWaveformDuringFocusModeIdentifier : ��  (flags=2)
+   _useLiveWaveform : ��  (flags=2)
+   __measuredTitleTextWidth : U�  (flags=2)
+   __measuredArtistTextWidth : U�  (flags=2)
+   compensatesForNotch : Sb  (flags=0)
+   hasExpand : Sb  (flags=0)
+   hasTranslucency : Sb  (flags=0)
+   blendMode : X  (flags=0)
+   centerMarqueeText : Sb  (flags=0)
+   compactMode : Sb  (flags=0)
+   titleSymbolColor : ']  (flags=0)
+   fixedProgressSectionWidth : �l  (flags=0)
+   showsControlHoverEffect : Sb  (flags=0)
+   allowsArtworkFlip : Sb  (flags=0)
+   onArtworkTap : yycSg  (flags=0)
+   controlStripSnapshotImage : �  (flags=0)
+   controlStripSnapshotSize : �r  (flags=0)
+   controlStripSnapshotScale : �l  (flags=0)
+== Alcove.MediaControlStrip @0x10052f518 kind=0
+   notchController : �h  (flags=0)
+   _connectivityManager : 1�  (flags=2)
+   _mediaManager : -W  (flags=2)
+   _controlChoice : �k  (flags=2)
+   _musicApp : 9m  (flags=2)
+   _enableHaptics : ��  (flags=2)
+   __loveDebounce : �#  (flags=2)
+   __controlDebounce : �#  (flags=2)
+   __copyDebounce : �#  (flags=2)
+   __loveTrigger : q#  (flags=2)
+   __copyLinkTrigger : q#  (flags=2)
+   compactMode : Sb  (flags=0)
+   hasExpand : Sb  (flags=0)
+   blendMode : X  (flags=0)
+== Alcove.MediaPlayPauseButton @0x10052f5d0 kind=0
+   notchController : �h  (flags=0)
+   _mediaManager : -W  (flags=2)
+   compactMode : Sb  (flags=0)
+== Alcove.<anon>.MediaProgressSection @0x10052f604 kind=0
+   _mediaManager : -W  (flags=2)
+   _progressStyle : �k  (flags=2)
+   hasTranslucency : Sb  (flags=0)
+   blendMode : X  (flags=0)
+   width : ��
+  (flags=0)
+== Alcove.MediaPlayer.<anon>.TextMeasurementKey @0x10052f650 kind=0
+   title : SS  (flags=0)
+   artist : SS  (flags=0)
+   titleSymbol : SS  (flags=0)
+   titleSymbolPadding : ��
+  (flags=0)
+== Alcove.LockPanel @0x10052f690 kind=7
+== Alcove.LoopingVideoPlayback @0x10052f6a0 kind=1
+   player : So8AVPlayerC  (flags=0)
+   _isReady : �  (flags=2)
+   looper : So14AVPlayerLooperCSg  (flags=2)
+   currentItemObservation : ��  (flags=2)
+   statusObservation : ��  (flags=2)
+== Alcove.VideoPlayerLayerView @0x10052f6ec kind=7
+   playerLayer : So13AVPlayerLayerC  (flags=0)
+== Alcove.LoopingVideo @0x10052f708 kind=0
+   name : SS  (flags=0)
+== Alcove.<anon>.LoopingVideoPlayer @0x10052f724 kind=0
+   _playback : 7�  (flags=2)
+== Alcove.LoopingVideoRepresented @0x10052f740 kind=0
+   player : So8AVPlayerC  (flags=0)
+== Alcove.PlainTextField @0x10052f75c kind=0
+   elementMinHeight : ��
+  (flags=0)
+   horizontalPadding : ��
+  (flags=0)
+   placeHolder : SS  (flags=0)
+   onSubmit : yycSg  (flags=0)
+   _text : ��  (flags=2)
+   _monitor : k�  (flags=2)
+== Alcove.RoundedToggleStyle @0x10052f7b4 kind=0
+   _isEnabled : �  (flags=2)
+   _isHovering : ��  (flags=2)
+   _isPressed : ��  (flags=2)
+   cornerRadius : ��
+  (flags=0)
+   showsHoverEffect : Sb  (flags=0)
+== Alcove.CheckboxToggleStyle @0x10052f800 kind=0
+   _controlActiveState : �	  (flags=2)
+   _controlSize : ��  (flags=2)
+   _isEnabled : �  (flags=2)
+   color : ']  (flags=0)
+   size : �l  (flags=0)
+   cornerRadius : �l  (flags=0)
+   luminanceThreshold : ��
+  (flags=0)
+   checkmarkColor : D  (flags=0)
+   uncheckedColor : D  (flags=0)
+   labelFont : A  (flags=0)
+   usesGradientFill : Sb  (flags=0)
+== Alcove.<anon>.CheckboxButtonStyle @0x10052f894 kind=0
+== Alcove.<anon>.CheckboxMark @0x10052f8a4 kind=0
+   _colorScheme : ��  (flags=2)
+   _isPressed : �  (flags=2)
+   isOn : Sb  (flags=0)
+   isActive : Sb  (flags=0)
+   color : ']  (flags=0)
+   uncheckedColor : D  (flags=0)
+   checkmarkColor : D  (flags=0)
+   luminanceThreshold : ��
+  (flags=0)
+   metrics : k�  (flags=0)
+   usesGradientFill : Sb  (flags=0)
+== Alcove.<anon>.CheckboxMetrics @0x10052f92c kind=0
+   size : ��
+  (flags=0)
+   checkmarkSize : ��
+  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+   labelSpacing : ��
+  (flags=0)
+== Alcove.<anon>.CheckboxPressedKey @0x10052f96c kind=0
+== Alcove.FocusManager.<anon>.ParsedActiveModeUpdate @0x10052fb1c kind=3
+   active : SS10identifier_�  (flags=0)
+   malformed : SS  (flags=0)
+   inactive :   (flags=0)
+== Alcove.BluetoothView @0x10052fb50 kind=0
+   _controlActiveState : �	  (flags=2)
+   _connectivityManager : 1�  (flags=2)
+   __currentIndex : u�  (flags=2)
+   __timer : �  (flags=2)
+== Alcove.CalendarController @0x10052fb90 kind=1
+   windowController : So18NSWindowControllerCSg  (flags=2)
+== Alcove.CalendarPermissionView @0x10052fbac kind=0
+   _controlActiveState : �	  (flags=2)
+   _calendarManager : E  (flags=2)
+== Alcove.CalendarPermissionView.CalendarApp @0x10052fbd4 kind=2
+   calendar :   (flags=0)
+   fantastical :   (flags=0)
+   notionCalendar :   (flags=0)
+== Alcove.AccessibilityView @0x10052fc08 kind=0
+   _controlActiveState : �	  (flags=2)
+   __isWaitingForAccessibilityReturn : q#  (flags=2)
+   __demoKind : �>  (flags=2)
+   __demoProgress : U�  (flags=2)
+   __demoIsMuted : q#  (flags=2)
+   __demoValueIndex : u�  (flags=2)
+   __hasDemoNotification : q#  (flags=2)
+   __hasMutedInCurrentVolumeCycle : q#  (flags=2)
+== Alcove.BrightnessManager @0x10052fc78 kind=1
+   logger : Ͼ  (flags=0)
+   observedDisplayID : �5  (flags=2)
+   brightnessWriteTask : ScTyyt�2  (flags=2)
+   actualBrightnessByDisplayID : SDy�5  (flags=2)
+   localBrightnessTargetByDisplayID : SDy�5  (flags=2)
+   localBrightnessCallbackSuppressionDeadlines : SDy~5  (flags=2)
+   brightnessWriteCoalescingDelay : 6  (flags=0)
+   localBrightnessCallbackSuppressionDuration : Sd  (flags=0)
+   fallbackNormalMediaKeyStep : Sf  (flags=0)
+   fineMediaKeyStepScale : Sf  (flags=0)
+   edgeDuration : Sd  (flags=0)
+   _enableBrightness : ��  (flags=2)
+   _allowBrightnessWhenFocused : ��  (flags=2)
+   _allowBrightnessWhenLocked : ��  (flags=2)
+   _brightnessDuration : Qm  (flags=2)
+   _brightnessSpeed : Gm  (flags=2)
+   _currentBrightness : Sf  (flags=2)
+   _shouldShowExternalDisplaySymbol : Sb  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== Alcove.BrightnessManager.DisplayTargetPreference @0x10052fd6c kind=2
+   display : �4  (flags=0)
+   automatic :   (flags=0)
+   internalDisplay :   (flags=0)
+   externalDisplay :   (flags=0)
+== $s6Alcove18SpotifyApplicationP @0x10052fdac kind=6
+== $s6Alcove12SpotifyTrackP @0x10052fdbc kind=6
+== Alcove.MusicController @0x10052fdcc kind=1
+   windowController : So18NSWindowControllerCSg  (flags=2)
+== Alcove.GameManager @0x10052fde8 kind=1
+   trackedGameBundleIdentifiers : ShySSG  (flags=0)
+   trackedGamePathFragments : SaySSG  (flags=0)
+   frontmostApplicationObserver : �t��_pSg  (flags=2)
+   isGaming : Sb  (flags=2)
+== Alcove.SpaceManager @0x10052fe28 kind=1
+   spaceID : [  (flags=0)
+   windows : ShySo8NSWindowCG  (flags=2)
+== Alcove.GlassEffectView @0x10052fe50 kind=0
+   material : };  (flags=0)
+   blendingMode : };  (flags=0)
+   state : ];  (flags=0)
+   variant : SiSg  (flags=0)
+   frosted : SbSg  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+== Alcove.BatteryManager @0x10052fea8 kind=1
+   batteryHelper : I�  (flags=2)
+   cancellables : Shy�~  (flags=2)
+   _enableBattery : ��  (flags=2)
+   _batteryDuration : Qm  (flags=2)
+   _notifyOnLowPowerMode : ��  (flags=2)
+   _warnOnLowBattery : ��  (flags=2)
+   _lowBatteryThreshold : Qm  (flags=2)
+   _playSoundOnLowBattery : ��  (flags=2)
+   _allowBatteryWhenFocused : ��  (flags=2)
+   _allowBatteryWhenLocked : ��  (flags=2)
+   _batteryLevel : Sd  (flags=2)
+   _wasOnBattery : Sb  (flags=2)
+   _isLowPowerModeEnabled : Sb  (flags=2)
+   _hasPassedThreshold : Sb  (flags=2)
+   _hasRecentlyChangedPowerSource : Sb  (flags=2)
+   _remainingTime : SiSg  (flags=2)
+   _$observationRegistrar : ��  (flags=0)
+== Alcove.MediaKeyManager.<anon>.VolumeKeyPressState @0x100530168 kind=0
+   downTimestamp : Sd  (flags=0)
+   lastDownTimestamp : Sd  (flags=2)
+   repeatCount : Si  (flags=2)
+   shouldInvertFeedback : Sb  (flags=0)
+== Alcove.MediaKeyManager.<anon>.KeyboardBrightnessResampleState @0x1005301a8 kind=0
+   id : u�  (flags=0)
+   rawKeyCode : Si  (flags=0)
+   targetPreference : 5  (flags=0)
+   isFineAdjustment : Sb  (flags=0)
+== Alcove.MediaKeyManager.<anon>.BrightnessKeyPressState @0x1005301e8 kind=0
+   timestamp : Sd  (flags=0)
+   targetPreference : 5  (flags=0)
+== Alcove.MediaKeyManager.<anon>.BetterDisplayOsdNotificationData @0x100530210 kind=0
+   systemIconID : SiSg  (flags=2)
+   value : SdSg  (flags=2)
+   maxValue : SdSg  (flags=2)
+   displayID : �5  (flags=2)
+   displayId : �5  (flags=2)
+   targetDisplayID : �5  (flags=2)
+   uuid : SSSg  (flags=2)
+   displayUUID : SSSg  (flags=2)
+   targetUUID : SSSg  (flags=2)
+== Alcove.MediaKeyManager.<anon>.BetterDisplayIntegrationRequestData @0x10053028c kind=0
+   uuid : SSSg  (flags=2)
+   commands : SaySSG  (flags=2)
+   parameters : SDyS2SSgG  (flags=2)
+== Alcove.MediaKeyManager.<anon>.BetterDisplayOsdNotificationData.CodingKeys @0x1005302c0 kind=2
+   systemIconID :   (flags=0)
+   value :   (flags=0)
+   maxValue :   (flags=0)
+   displayID :   (flags=0)
+   displayId :   (flags=0)
+   targetDisplayID :   (flags=0)
+   uuid :   (flags=0)
+   displayUUID :   (flags=0)
+   targetUUID :   (flags=0)
+== Alcove.MediaKeyManager.<anon>.BetterDisplayIntegrationRequestData.CodingKeys @0x10053033c kind=2
+   uuid :   (flags=0)
+   commands :   (flags=0)
+   parameters :   (flags=0)
+== Alcove.ValueAdjuster @0x100530370 kind=0
+   _enableHaptics : ��  (flags=2)
+   horizontalPadding : ��
+  (flags=0)
+   formatter : So17NSNumberFormatterC  (flags=0)
+   _isShowingTextBox : ��  (flags=2)
+   _focusedField :   (flags=2)
+   title : SS  (flags=0)
+   infoView : �T  (flags=0)
+   _value : u  (flags=2)
+   sliderRange : SNyxG  (flags=0)
+   suffix : SSSg  (flags=0)
+   step : x  (flags=2)
+   upperClamp : Sb  (flags=0)
+   lowerClamp : Sb  (flags=0)
+   controlSize : 1  (flags=0)
+   decimalPlaces : Si  (flags=0)
+   onEditingChanged : ySbc  (flags=0)
+   _eventMonitor : 5  (flags=2)
+== Alcove.ValueAdjuster.ControlSize @0x10053044c kind=2
+   regular :   (flags=0)
+   compact :   (flags=0)
+== Alcove.ValueAdjuster.FocusedField @0x100530474 kind=2
+   textbox :   (flags=0)
+== Alcove.NotchQuickPeekView @0x100530490 kind=0
+   notchController : �h  (flags=0)
+   _calendarManager : E  (flags=2)
+   _mediaManager : -W  (flags=2)
+   _notchAdjustedWidth : Qm  (flags=2)
+   _hideSongTitleExtras : ��  (flags=2)
+   _useColoredCalendarIndicator : ��  (flags=2)
+== Alcove.PreviewContainerDefaults @0x1005304e8 kind=2
+== Alcove.PreviewContainer @0x1005304f8 kind=0
+   _colorScheme : ��  (flags=2)
+   height : ��
+  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+   innerPadding : ��
+  (flags=0)
+   usesWallpaper : Sb  (flags=0)
+   isLight : Sb  (flags=0)
+   alignment : ��  (flags=0)
+   wallpaper : q_yc  (flags=0)
+   content : xyc  (flags=0)
+== Alcove.PreviewWallpaperBackground @0x100530574 kind=0
+   blurRadius : ��
+  (flags=0)
+   scale : ��
+  (flags=0)
+   width : �l  (flags=0)
+   height : �l  (flags=0)
+   offset : ��
+  (flags=0)
+   wallpaperImage : So7NSImageCSg  (flags=0)
+   __resolvedWallpaperImage : 9F  (flags=2)
+== Alcove.BatteryHelper @0x1005305d8 kind=1
+   service : �4  (flags=2)
+== Alcove.BatteryHelper.BatteryError @0x1005305f4 kind=3
+   connectionAlreadyOpen : SS  (flags=0)
+   serviceNotFound : SS  (flags=0)
+== Alcove.LicenseManager.<anon>.LicenseAPI @0x10053079c kind=0
+   baseURL : SS  (flags=0)
+== Alcove.LicenseManager.<anon>.StoredLicenseStateResolution @0x1005307ec kind=2
+   available : [  (flags=0)
+   transientFailure : �  (flags=0)
+   failure : ��  (flags=0)
+   missing :   (flags=0)
+   invalid :   (flags=0)
+== Alcove.LicenseManager.<anon>.LicenseClaims @0x100530838 kind=0
+   v : Si  (flags=0)
+   iss : SS  (flags=0)
+   sub : SS  (flags=0)
+   lkey : SS  (flags=0)
+   hwid : SS  (flags=0)
+   active : Sb  (flags=0)
+   beta : Sb  (flags=0)
+   limit : Si  (flags=0)
+   usage : Si  (flags=0)
+   iname : SS  (flags=0)
+   imodel : SS  (flags=0)
+   iat : Si  (flags=0)
+   exp : Si  (flags=0)
+   kid : SS  (flags=0)
+== Alcove.LicenseManager.<anon>.LicenseAPI.NetworkError @0x1005308f0 kind=3
+   invalidURL : �  (flags=0)
+   decodingFailed : ��  (flags=0)
+   unauthorized : �  (flags=0)
+   notFound : �  (flags=0)
+   forbidden : �  (flags=0)
+   unprocessableEntity : �  (flags=0)
+   tooManyRequests : �  (flags=0)
+   api : Si10statusCode_SSSg7messaget  (flags=0)
+   missingData :   (flags=0)
+== Alcove.LicenseManager.DeviceError @0x10053096c kind=2
+   missingSystemUUID :   (flags=0)
+   missingModelID :   (flags=0)
+   missingComputerName :   (flags=0)
+== Alcove.LicenseManager.<anon>.LicenseAPI.ErrorResponse @0x1005309a0 kind=0
+   message : SS  (flags=0)
+== Alcove.LicenseManager.<anon>.IssuedLicense @0x1005309bc kind=0
+   key : SS  (flags=0)
+   active : Sb  (flags=0)
+   beta : Sb  (flags=0)
+   name : SSSg  (flags=0)
+   limit : Si  (flags=0)
+   usage : Si  (flags=0)
+   instance : ݶ  (flags=0)
+   instances : Say޸  (flags=0)
+   includesInstances : Sb  (flags=0)
+   token : SS  (flags=0)
+   tokenExpiresAt : �  (flags=0)
+== Alcove.LicenseManager.<anon>.LicenseStateError @0x100530a50 kind=2
+   missingRequiredFields :   (flags=0)
+   encryptionFailed :   (flags=0)
+   missingCurrentInstance :   (flags=0)
+== Alcove.LicenseManager.<anon>.LicenseTokenError @0x100530a84 kind=2
+   malformed :   (flags=0)
+   badSignature :   (flags=0)
+   expired :   (flags=0)
+== Alcove.LicenseManager.Instance.CodingKeys @0x100530ab8 kind=2
+   id :   (flags=0)
+   name :   (flags=0)
+   model :   (flags=0)
+== Alcove.LicenseManager.Trial.CodingKeys @0x100530aec kind=2
+   active :   (flags=0)
+   uuid :   (flags=0)
+   startedAt :   (flags=0)
+   endsAt :   (flags=0)
+== Alcove.LicenseManager.License.CodingKeys @0x100530b2c kind=2
+   key :   (flags=0)
+   active :   (flags=0)
+   beta :   (flags=0)
+   name :   (flags=0)
+   email :   (flags=0)
+   limit :   (flags=0)
+   usage :   (flags=0)
+   instance :   (flags=0)
+== Alcove.LicenseManager.<anon>.StoredLicenseState @0x100530b9c kind=0
+   licenseKey : SS  (flags=0)
+   instanceId : SS  (flags=0)
+   hardwareUUID : SSSg  (flags=0)
+   token : SSSg  (flags=0)
+   tokenExpiresAt : ��  (flags=0)
+   name : SSSg  (flags=0)
+   beta : SbSg  (flags=0)
+   limit : SiSg  (flags=0)
+   usage : SiSg  (flags=0)
+   instanceName : SSSg  (flags=0)
+   instanceModel : SSSg  (flags=0)
+== Alcove.LicenseManager.<anon>.LicenseAPI.Endpoint @0x100530c30 kind=3
+   trial : SS2id_t  (flags=0)
+   licenseInstances : SS3key_t  (flags=0)
+   startTrial :   (flags=0)
+   validateLicense :   (flags=0)
+   deactivateLicense :   (flags=0)
+   issueLicenseToken :   (flags=0)
+== Alcove.LicenseManager.<anon>.LicenseAPI.ErrorResponse.CodingKeys @0x100530c88 kind=2
+   message :   (flags=0)
+== Alcove.LicenseManager.<anon>.StoredLicenseState.CodingKeys @0x100530ca4 kind=2
+   licenseKey :   (flags=0)
+   instanceId :   (flags=0)
+   hardwareUUID :   (flags=0)
+   token :   (flags=0)
+   tokenExpiresAt :   (flags=0)
+   name :   (flags=0)
+   beta :   (flags=0)
+   limit :   (flags=0)
+   usage :   (flags=0)
+   instanceName :   (flags=0)
+   instanceModel :   (flags=0)
+== Alcove.LicenseManager.<anon>.IssuedLicense.CodingKeys @0x100530d38 kind=2
+   key :   (flags=0)
+   active :   (flags=0)
+   beta :   (flags=0)
+   name :   (flags=0)
+   limit :   (flags=0)
+   usage :   (flags=0)
+   instance :   (flags=0)
+   instances :   (flags=0)
+   token :   (flags=0)
+   tokenExpiresAt :   (flags=0)
+== Alcove.LicenseManager.<anon>.LicenseClaims.CodingKeys @0x100530dc0 kind=2
+   v :   (flags=0)
+   iss :   (flags=0)
+   sub :   (flags=0)
+   lkey :   (flags=0)
+   hwid :   (flags=0)
+   active :   (flags=0)
+   beta :   (flags=0)
+   limit :   (flags=0)
+   usage :   (flags=0)
+   iname :   (flags=0)
+   imodel :   (flags=0)
+   iat :   (flags=0)
+   exp :   (flags=0)
+   kid :   (flags=0)
+== Alcove.<anon>.<anon>.BlurModifier @0x100530e78 kind=0
+   radius : ��
+  (flags=0)
+== Alcove.<anon>.<anon>.SlideBlurScaleModifier @0x100530e94 kind=0
+   opacity : Sd  (flags=0)
+   blurRadius : ��
+  (flags=0)
+   offset : ��
+  (flags=0)
+   scale : ��
+  (flags=0)
+   anchor : ]�  (flags=0)
+== Alcove.<anon>.<anon>.ScaleAndFade @0x100530ee0 kind=0
+   scale : ��
+  (flags=0)
+   opacity : Sd  (flags=0)
+== Alcove.<anon>.<anon>.DelayedBlurFadeModifier @0x100530f08 kind=0
+   opacity : Sd  (flags=0)
+   blurRadius : ��
+  (flags=0)
+   fadeDelay : Sd  (flags=0)
+   duration : Sd  (flags=0)
+== Alcove.<anon>.<anon>.VerticalOffsetModifier @0x100530f48 kind=0
+   offset : ��
+  (flags=0)
+== Alcove.XPCManager @0x100530f64 kind=1
+   connection : So15NSXPCConnectionCSg  (flags=2)
+   isNowPlayingObservationEnabled : Sb  (flags=2)
+   _isFirstLaunch : ��  (flags=2)
+   _automaticMusicApp : ��  (flags=2)
+   _musicApp : 9m  (flags=2)
+== Alcove.TriangleShape @0x100530fb0 kind=0
+   cornerRadius : ��
+  (flags=0)
+== Alcove.LockView @0x100530fcc kind=0
+   _colorScheme : ��  (flags=2)
+   notchController : G�  (flags=0)
+   _batteryManager : 9�  (flags=2)
+   _calendarManager : E  (flags=2)
+   _connectivityManager : 1�  (flags=2)
+   _focusManager : �`  (flags=2)
+   _lockManager : +�  (flags=2)
+   _mediaManager : -W  (flags=2)
+   _weatherManager : �D  (flags=2)
+   _lockScreenWidgetOrder : �  (flags=2)
+   _allowBatteryWidgetWhenLocked : ��  (flags=2)
+   _allowConnectivityWidgetWhenLocked : ��  (flags=2)
+   _allowFocusWidgetWhenLocked : ��  (flags=2)
+   _allowNowPlayingWidgetWhenLocked : ��  (flags=2)
+   _nowPlayingStyle : �  (flags=2)
+   _showVolumeControl : ��  (flags=2)
+   _nowPlayingWidgetOffset : Qm  (flags=2)
+   _allowCalendarWidgetWhenLocked : ��  (flags=2)
+   _allowWeatherWidgetWhenLocked : ��  (flags=2)
+   _weatherStyle : �  (flags=2)
+   _hasAppeared : ��  (flags=2)
+== Alcove.AboutController @0x1005310d8 kind=1
+   windowController : So18NSWindowControllerCSg  (flags=2)
+== Alcove.SettingsTab.Badge @0x100531194 kind=0
+   text : SS  (flags=0)
+   style : 5�  (flags=0)
+   color : ']  (flags=0)
+   usesInfoTint : Sb  (flags=0)
+   cutoutText : Sb  (flags=0)
+   bordered : Sb  (flags=0)
+   hidesWhenActive : Sb  (flags=0)
+   opacity : Sd  (flags=0)
+== Alcove.SettingsTab.Badge.Style @0x100531204 kind=2
+   circle :   (flags=0)
+   capsule :   (flags=0)
+== Alcove.SymbolRectangle @0x10053122c kind=0
+   name : SSSg  (flags=0)
+   internalSystemName : SSSg  (flags=0)
+   imageName : SSSg  (flags=0)
+   imageSize : SdSg  (flags=0)
+   text : SSSg  (flags=0)
+   color : ']  (flags=0)
+   highlightColor : ']  (flags=0)
+   symbolColor : ']  (flags=0)
+   foreheadColor : D  (flags=0)
+   size : Sd  (flags=0)
+   scale : 9�  (flags=0)
+   usesAppIconPadding : Sb  (flags=0)
+   symbolOffset : ��
+  (flags=0)
+   symbolWeight : ��  (flags=0)
+   internalSymbolWeight : K	  (flags=0)
+   radiusMultiplier : Sd  (flags=0)
+== Alcove.SymbolRectangle.ImageScale @0x1005312fc kind=2
+   mini :   (flags=0)
+   small :   (flags=0)
+   medium :   (flags=0)
+   large :   (flags=0)
+   extraLarge :   (flags=0)
+   huge :   (flags=0)
+   extraHuge :   (flags=0)
+== Alcove.NotchExpandedView @0x100531360 kind=0
+   _displayScale : =N  (flags=2)
+   notchController : �h  (flags=0)
+   _calendarManager : E  (flags=2)
+   _connectivityManager : 1�  (flags=2)
+   _mediaManager : -W  (flags=2)
+   _weatherManager : �D  (flags=2)
+   _alwaysShowMonthView : ��  (flags=2)
+   _controlChoice : �k  (flags=2)
+   _showWeatherOnEmptyDay : ��  (flags=2)
+   _useEventIndicators : ��  (flags=2)
+   _calendarDisplayModes : �`  (flags=2)
+   _enableCalendar : ��  (flags=2)
+   _musicApp : 9m  (flags=2)
+   __snapshotManager : Yh  (flags=2)
+   __calendarSnapshot : ;h  (flags=2)
+   __calendarSnapshotRequest : �h  (flags=2)
+   __controlStripSnapshot : ;h  (flags=2)
+   __controlStripSnapshotRequest : �h  (flags=2)
+   __showsFrozenSnapshot : q#  (flags=2)
+== Alcove.<anon>.ExpandedActivityTransitionModifier @0x100531454 kind=0
+   opacity : Sd  (flags=0)
+   blurRadius : ��
+  (flags=0)
+   verticalOffset : ��
+  (flags=0)
+   delay : Sd  (flags=0)
+   duration : Sd  (flags=0)
+== Alcove.BatterySettingsView @0x1005314a0 kind=0
+   _controlActiveState : �	  (flags=2)
+   _enableBattery : ��  (flags=2)
+   _batteryDuration : Qm  (flags=2)
+   _notifyOnLowPowerMode : ��  (flags=2)
+   _warnOnLowBattery : ��  (flags=2)
+   _lowBatteryThreshold : Qm  (flags=2)
+   _playSoundOnLowBattery : ��  (flags=2)
+   _hideBatteryLabel : ��  (flags=2)
+   _hideBatteryPercentage : ��  (flags=2)
+== Alcove.LicenseView @0x10053151c kind=0
+   _controlActiveState : �	  (flags=2)
+   _licenseManager : 9"  (flags=2)
+   _isFirstLaunch : ��  (flags=2)
+   _licenseName : ��  (flags=2)
+   _activationLimit : ��  (flags=2)
+   _activationUsage : ��  (flags=2)
+   _enableHaptics : ��  (flags=2)
+   __activation : m5  (flags=2)
+   __licenseKey : �#  (flags=2)
+   __isLoading : q#  (flags=2)
+   __isValidating : q#  (flags=2)
+   __isValidLicense : q#  (flags=2)
+   __isViewCollapsed : q#  (flags=2)
+   __hasError : q#  (flags=2)
+   __errorMessage : �#  (flags=2)
+   __shouldError : q#  (flags=2)
+   __shouldShake : q#  (flags=2)
+   __licenseCardHasEntered : q#  (flags=2)
+   __licenseSealHasEntered : q#  (flags=2)
+   __licenseNameHasEntered : q#  (flags=2)
+   __licenseDescriptionHasEntered : q#  (flags=2)
+   __licenseUsageHasEntered : q#  (flags=2)
+   __licenseActionHasEntered : q#  (flags=2)
+   __licensePlayback : �#  (flags=2)
+   __licenseTimelineTask : �#  (flags=2)
+   _isFocused :   (flags=2)
+   expandedSize : ��
+  (flags=0)
+   collapsedSize : ��
+  (flags=0)
+== Alcove.LicenseView.Activation @0x10053167c kind=2
+   license :   (flags=0)
+   trial :   (flags=0)
+   purchase :   (flags=0)
+== Alcove.LockController @0x1005316b0 kind=1
+   space : �4  (flags=2)
+   windowController : So18NSWindowControllerCSg  (flags=2)
+== Alcove.DisplaySettingsView @0x1005316d8 kind=0
+   _colorScheme : ��  (flags=2)
+   _controlActiveState : �	  (flags=2)
+   brightnessValues : SaySdG  (flags=0)
+   _enableBrightness : ��  (flags=2)
+   _hasPromptedAccessibilityPermission : ��  (flags=2)
+   _brightnessDuration : Qm  (flags=2)
+   _brightnessProgressStyle : ǎ  (flags=2)
+   _brightnessSpeed : Gm  (flags=2)
+   _showBrightnessPercentage : ��  (flags=2)
+   _hideBrightnessLabel : ��  (flags=2)
+   __brightness : U�  (flags=2)
+   __stylizedBrightness : U�  (flags=2)
+   __currentBrightnessIndex : u�  (flags=2)
+   __isShowingAccessibilityPermission : q#  (flags=2)
+   __isAccessibilityAuthorized : q#  (flags=2)
+== Alcove.InfoView @0x10053179c kind=0
+   description : %�  (flags=0)
+   view : x  (flags=0)
+   symbol : SS  (flags=0)
+   symbolWeight : ��  (flags=0)
+   image : SSSg  (flags=0)
+   size : ��
+  (flags=0)
+   padding : Sd  (flags=0)
+   isEnabled : Sb  (flags=0)
+   hasHover : Sb  (flags=0)
+   isPresented : ��  (flags=0)
+   __isShowingDescription : q#  (flags=2)
+   __isHovering : q#  (flags=2)
+   __hoverTimer : �  (flags=2)
+== Alcove.NotchSwipeMonitor @0x100531848 kind=1
+   notchController : ��  (flags=2)
+   globalMouseMonitor : ypSg  (flags=2)
+   localMouseMonitor : ypSg  (flags=2)
+   swipeHandlers : Say��  (flags=2)
+   topPadding : ��
+  (flags=0)
+== Alcove.<anon>.NotchSwipeScrollHandler @0x100531894 kind=1
+   direction : ��  (flags=0)
+   action : y��  (flags=0)
+   accumulatedScrollDeltaX : ��
+  (flags=2)
+   accumulatedScrollDeltaY : ��
+  (flags=2)
+== Alcove.NotchSwipes @0x100531914 kind=0
+   verticalSwipeSuccessThreshold : Sd  (flags=0)
+   verticalSwipeResetThreshold : Sd  (flags=0)
+   cycleActivitySwipeSuccessThreshold : Sd  (flags=0)
+   cycleActivitySwipeResetThreshold : Sd  (flags=0)
+   horizontalSwipeSuccessThreshold : Sd  (flags=0)
+   horizontalSwipeResetThreshold : Sd  (flags=0)
+   notchController : �h  (flags=0)
+   calendarManager : �  (flags=0)
+   mediaManager : �d  (flags=0)
+   enableHaptics : Sb  (flags=0)
+   swipeToSkip : Sb  (flags=0)
+   enableNowPlaying : Sb  (flags=0)
+   enableQuickPeek : Sb  (flags=0)
+   enableCalendarQuickPeek : Sb  (flags=0)
+   swipeToDismiss : Sb  (flags=0)
+   swipeToCycleActivity : Sb  (flags=0)
+   swipeToToggle : Sb  (flags=0)
+== Alcove.NotchBackdropView @0x1005319f0 kind=0
+   notchController : �h  (flags=0)
+== Alcove.NotchContrastOutlineView @0x100531a40 kind=0
+   aggregator : !  (flags=0)
+   isEnabled : Sb  (flags=0)
+   isVisible : Sb  (flags=0)
+   isExpanded : Sb  (flags=0)
+   tintColor : D  (flags=0)
+   outlineShape : ��  (flags=0)
+   __animatedOpacity : U�  (flags=2)
+   __luminanceState : ��  (flags=2)
+== Alcove.NotchContrastOutlineShape.Style @0x100531ae4 kind=2
+   notch :   (flags=0)
+   pill :   (flags=0)
+== Alcove.NotchLumaView @0x100531b0c kind=0
+   notchController : �h  (flags=0)
+   _swipeToDismiss : ��  (flags=2)
+   _swipeToToggle : ��  (flags=2)
+   _notchAdjustedWidth : Qm  (flags=2)
+   _notchAdjustedHeight : Qm  (flags=2)
+   _contrastOutline : ��  (flags=2)
+== Alcove.NotchProgressiveBlurView @0x100531b64 kind=0
+   notchController : �h  (flags=0)
+   _progressiveBlur : ��  (flags=2)
+   progressiveBlurOutset : Sd  (flags=0)
+   progressiveBlurEdgeClearance : Sd  (flags=0)
+== Alcove.NotchView @0x100531ba4 kind=0
+   notchController : �h  (flags=0)
+   _lockManager : +�  (flags=2)
+   _mediaManager : -W  (flags=2)
+   _showOnDisplay : �k  (flags=2)
+   _enableHaptics : ��  (flags=2)
+   _expandNotchOnHover : ��  (flags=2)
+   _hoverDuration : Qm  (flags=2)
+   _swipeToToggle : ��  (flags=2)
+   _swipeToDismiss : ��  (flags=2)
+   _swipeToSkip : ��  (flags=2)
+   _notchAdjustedWidth : Qm  (flags=2)
+   _notchAdjustedHeight : Qm  (flags=2)
+   _enableFocus : ��  (flags=2)
+   _hideWhileSourceIsActive : ��  (flags=2)
+   _hideWhileInFullscreen : ��  (flags=2)
+   _controlChoice : �k  (flags=2)
+   _musicApp : 9m  (flags=2)
+   _contrastOutline : ��  (flags=2)
+   _hoverDebounce : Q�  (flags=2)
+   _cutoutScale : ��  (flags=2)
+   _cutoutWidthProgress : ��  (flags=2)
+   _cutoutContentWidthProgress : ��  (flags=2)
+   _cutoutScaleAnchor : ;�  (flags=2)
+== Alcove.EventType @0x100531cc8 kind=2
+   regular :   (flags=0)
+   holiday :   (flags=0)
+   birthday :   (flags=0)
+== Alcove.NotchLiveActivitiesView @0x100531cfc kind=0
+   notchController : �h  (flags=0)
+   _audioManager : '�  (flags=2)
+   _calendarManager : E  (flags=2)
+   _focusManager : �`  (flags=2)
+   _lockManager : +�  (flags=2)
+   _mediaManager : -W  (flags=2)
+   _expandNotchOnHover : ��  (flags=2)
+   _swipeToToggle : ��  (flags=2)
+   _notchAdjustedHeight : Qm  (flags=2)
+   _hideLabel : ��  (flags=2)
+   _enableNowPlaying : ��  (flags=2)
+   _enableHaptics : ��  (flags=2)
+   _enableFocus : ��  (flags=2)
+   _disableAlbumArtFlip : ��  (flags=2)
+   _disableWaveform : ��  (flags=2)
+   _replaceWaveformDuringFocus : ��  (flags=2)
+   _replaceWaveformDuringFocusModeIdentifier : ��  (flags=2)
+   _hideWhileInFullscreen : ��  (flags=2)
+   _musicApp : 9m  (flags=2)
+   _enableQuickPeek : ��  (flags=2)
+   _useCalendarColor : ��  (flags=2)
+   _enableCalendarQuickPeek : ��  (flags=2)
+   _useLiveWaveform : ��  (flags=2)
+== Alcove.ListButton @0x100531e20 kind=0
+   horizontalPadding : ��
+  (flags=0)
+   view : x  (flags=0)
+   minHeight : ��
+  (flags=0)
+   size : �8  (flags=0)
+   disabled : Sb  (flags=0)
+   action : yyYac  (flags=0)
+   __isLoading : q#  (flags=2)
+== Alcove.<anon>.AppDelegate @0x100531e84 kind=7
+== Alcove.AppMain @0x100531e94 kind=0
+   appState : 3-  (flags=0)
+   _appDelegate : �[  (flags=2)
+== Alcove.MissionControlManager @0x100531ebc kind=1
+   logger : Ͼ  (flags=0)
+   monitoredProcesses : Say�  (flags=0)
+   cancellables : Shy�~  (flags=2)
+   logTask : ScTyyt�2  (flags=2)
+   isMonitoringEnabled : Sb  (flags=2)
+   _hideWhileInMissionControl : ��  (flags=2)
+   isMissionControlActive : Sb  (flags=2)
+== Alcove.MissionControlManager.<anon>.MonitoredProcess @0x100531f20 kind=0
+   bundleIdentifier : SS  (flags=0)
+   processName : SS  (flags=0)
+== Alcove.ScreenManager @0x100531f48 kind=1
+   cancellables : Shy�~  (flags=2)
+   hasRecentlySleptOrWoke : Sb  (flags=2)
+   isFullscreen : Sb  (flags=2)
+   _hideWhileInFullscreen : ��  (flags=2)
+   _hideWhileGaming : ��  (flags=2)
+   _hideWhileInMissionControl : ��  (flags=2)
+   _showOnDisplay : �k  (flags=2)
+   _showOnDisplayUUID : ��  (flags=2)
+== Alcove.ProgressSlider @0x100531fb8 kind=0
+   _value : u  (flags=2)
+   inRange : SNyxG  (flags=0)
+   fillColors : Say�Z  (flags=0)
+   emptyColor : ']  (flags=0)
+   height : ��
+  (flags=0)
+   hasGlow : Sb  (flags=0)
+   progressiveGlow : Sb  (flags=0)
+   animation : �_  (flags=0)
+== Alcove.ModalWindow @0x100532028 kind=7
+   cornerRadius : ��
+  (flags=0)
+   isClosable : Sb  (flags=0)
+   closeButtonOffset : ��
+  (flags=0)
+   onClose : yycSg  (flags=0)
+   originalCloseButtonOrigin : v  (flags=2)
+   customCloseButton : So8NSButtonCSg  (flags=2)
+== Alcove.SettingsSection @0x100532080 kind=0
+   _controlActiveState : �	  (flags=2)
+   title : SSSg  (flags=0)
+   tabs : Sayƕ  (flags=0)
+   titlePadding : ��
+  (flags=0)
+== Alcove.<anon>.SettingsSectionBadge @0x1005320c0 kind=0
+   badge : �  (flags=0)
+   isActive : Sb  (flags=0)
+   isWindowActive : Sb  (flags=0)
+== $s6Alcove28ControlActionClosureProtocolP @0x1005320f4 kind=5
+== Alcove.<anon>.ActionTrampoline @0x100532104 kind=7
+   action : ySo7NSEventCc  (flags=0)
+== Alcove.ObjectAssociation @0x100532120 kind=1
+   defaultValue : x  (flags=0)
+   policy : Ml  (flags=0)
+== Alcove.CallbackMenuItem @0x100532148 kind=7
+   callback : yyc  (flags=0)
+== Alcove.CallbackMenu @0x100532164 kind=7
+   willOpenCallback : ySo6NSMenuCScMYcc  (flags=0)
+== Alcove.AssociationPolicy @0x100532180 kind=2
+   assign :   (flags=0)
+   retainNonatomic :   (flags=0)
+   copyNonatomic :   (flags=0)
+   retain :   (flags=0)
+   copy :   (flags=0)
+== Alcove.PermissionHelper @0x1005321cc kind=1
+== Alcove.NotchController.NotificationContext @0x100532880 kind=0
+   type : Mg  (flags=0)
+   deviceSnapshot : ��  (flags=0)
+== Alcove.LoginWindowContainerView @0x1005328f4 kind=7
+   uiController : So8NSObjectCSg  (flags=2)
+   backgroundView : So6NSViewCSgXw  (flags=2)
+   statusController : So16NSViewControllerCSgXw  (flags=2)
+   bigTimeController : So16NSViewControllerCSg  (flags=2)
+   dateController : So16NSViewControllerCSg  (flags=2)
+   clockSettingsManager : So8NSObjectCSgXw  (flags=2)
+   clockSettings : So8NSObjectCSgXw  (flags=2)
+   focusStatusSymbolContainer : So6NSViewCSgXw  (flags=2)
+   focusStatusSymbolImageView : So11NSImageViewCSgXw  (flags=2)
+   authHintView : So6NSViewCSgXw  (flags=2)
+   mainAuthHintTextField : So11NSTextFieldCSgXw  (flags=2)
+   subAuthHintTextField : So11NSTextFieldCSgXw  (flags=2)
+   notificationObservers : SaySo20NSNotificationCenterC_Ȕ��_ptG  (flags=2)
+   authHintClickGestureRecognizer : So24NSClickGestureRecognizerCSg  (flags=2)
+   hasLoadedSystemBundle : Sb  (flags=2)
+   $__lazy_storage_$_hasTouchID : SbSg  (flags=2)
+   isObservingFocusState : Sb  (flags=2)
+   isFocusStatusSymbolVisible : Sb  (flags=2)
+   focusStatusSymbolAnimationToken : Si  (flags=2)
+   onAuthHintTextClick : yycSg  (flags=2)
+== Alcove.SubpixelTranslation @0x1005329f4 kind=0
+   x : ��
+  (flags=2)
+   y : ��
+  (flags=2)
+== Alcove.DefaultButtonStyle @0x100532a1c kind=0
+   _isEnabled : �  (flags=2)
+   _controlActiveState : �	  (flags=2)
+   elementMinHeight : ��
+  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+   isPrimary : Sb  (flags=0)
+== Alcove.TopNestedButtonStyle @0x100532a68 kind=0
+   _isEnabled : �  (flags=2)
+   topLeftCornerRadius : ��
+  (flags=0)
+   topRightCornerRadius : ��
+  (flags=0)
+   bottomLeftCornerRadius : ��
+  (flags=0)
+   bottomRightCornerRadius : ��
+  (flags=0)
+   elementMinHeight : ��
+  (flags=0)
+== Alcove.BottomNestedButtonStyle @0x100532ac0 kind=0
+   _isEnabled : �  (flags=2)
+   topLeftCornerRadius : ��
+  (flags=0)
+   topRightCornerRadius : ��
+  (flags=0)
+   bottomLeftCornerRadius : ��
+  (flags=0)
+   bottomRightCornerRadius : ��
+  (flags=0)
+   elementMinHeight : ��
+  (flags=0)
+== Alcove.SegmentedButtonStyle @0x100532b18 kind=0
+   _isEnabled : �  (flags=2)
+   _controlActiveState : �	  (flags=2)
+   _isSelected : �  (flags=2)
+   _showsPressedState : �  (flags=2)
+   elementMinHeight : ��
+  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+   showsSelectionHighlight : Sb  (flags=0)
+== Alcove.BorderedButtonStyle @0x100532b7c kind=0
+   _isEnabled : �  (flags=2)
+   cornerRadius : ��
+  (flags=0)
+   elementMinHeight : ��
+  (flags=0)
+   innerPadding : ��
+  (flags=0)
+== Alcove.PopoverButtonStyle @0x100532bbc kind=0
+   _isEnabled : �  (flags=2)
+   topLeftCornerRadius : ��
+  (flags=0)
+   topRightCornerRadius : ��
+  (flags=0)
+   bottomLeftCornerRadius : ��
+  (flags=0)
+   bottomRightCornerRadius : ��
+  (flags=0)
+   elementMinHeight : ��
+  (flags=0)
+== Alcove.RoundedButtonStyle @0x100532c14 kind=0
+   _colorScheme : ��  (flags=2)
+   _isEnabled : �  (flags=2)
+   _isHovering : ��  (flags=2)
+   cornerRadius : ��
+  (flags=0)
+   showsHoverEffect : Sb  (flags=0)
+== Alcove.HighlightButtonStyle @0x100532c60 kind=0
+   mode : �M  (flags=0)
+   pressAnimation : �"  (flags=0)
+== Alcove.HighlightButtonStyle.HighlightMode @0x100532c88 kind=3
+   opacity : Sd  (flags=0)
+   darken : Sd  (flags=0)
+== Alcove.ColoredButtonStyle @0x100532cb0 kind=0
+   color : ']  (flags=0)
+   horizontalPadding : ��
+  (flags=0)
+   verticalPadding : ��
+  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+   bottomLeadingCornerBoost : ��
+  (flags=0)
+   bottomTrailingCornerBoost : ��
+  (flags=0)
+   isCapsule : Sb  (flags=0)
+   luminanceThreshold : ��
+  (flags=0)
+== Alcove.SidebarButtonStyle @0x100532d20 kind=0
+   cornerRadius : ��
+  (flags=0)
+   isActive : Sb  (flags=0)
+== Alcove.ScaleFadeButtonStyle @0x100532d48 kind=0
+== Alcove.<anon>.ColoredButtonIsPressedKey @0x100532d58 kind=0
+== Alcove.<anon>.SegmentedButtonShowsPressedStateKey @0x100532d68 kind=0
+== Alcove.<anon>.SegmentedButtonIsSelectedKey @0x100532d78 kind=0
+== Alcove.AnimatableProgress @0x100532d88 kind=0
+   progress : Sd  (flags=2)
+== Alcove.DeviceInfo @0x100532ee4 kind=0
+   kind : �G  (flags=0)
+   name : SS  (flags=0)
+   symbol : SS  (flags=0)
+== Alcove.DeviceKind @0x100532f18 kind=3
+   iMac : SS4size_t  (flags=0)
+   macBookAir : SS4size_t  (flags=0)
+   macBookPro : SS4size_t  (flags=0)
+   macMini :   (flags=0)
+   macStudio :   (flags=0)
+   macPro :   (flags=0)
+   iMacPro :   (flags=0)
+   macBook :   (flags=0)
+   unknown :   (flags=0)
+== Alcove.AboutView @0x100532f94 kind=0
+   _controlActiveState : �	  (flags=2)
+   __isAnimating : q#  (flags=2)
+   __isHovering : q#  (flags=2)
+   __isHoveringMiddleContainer : q#  (flags=2)
+   __debounce : �#  (flags=2)
+== Alcove.BluetoothController @0x100532fe0 kind=1
+   windowController : So18NSWindowControllerCSg  (flags=2)
+== Alcove.AccessibilityController @0x100532ffc kind=1
+   windowController : So18NSWindowControllerCSg  (flags=2)
+== Alcove.NotchShape @0x100533018 kind=0
+   style : �,  (flags=0)
+   topCornerRadius : Sd  (flags=2)
+   bottomCornerRadius : Sd  (flags=2)
+== Alcove.NotchShape.Style @0x10053304c kind=2
+   notch :   (flags=0)
+   pill :   (flags=0)
+== Alcove.BrowserController @0x100533074 kind=1
+   windowController : So18NSWindowControllerCSg  (flags=2)
+== $s6Alcove14HelperProtocolP @0x100533090 kind=6
+== $s6Alcove14ClientProtocolP @0x1005330a0 kind=6
+== Alcove.NotchPanel @0x1005330b0 kind=7
+   notchController : ��  (flags=2)
+== Alcove.NotchBackdropPanel @0x1005330cc kind=7
+== Alcove.WeatherManager.Weather @0x100533224 kind=0
+   temperatureCelsius : SdSg  (flags=2)
+   condition : �  (flags=2)
+== Alcove.WeatherManager.Daylight @0x10053324c kind=0
+   sunrise : �  (flags=0)
+   sunset : �  (flags=0)
+   nextSunrise : ��  (flags=0)
+   nextSunset : ��  (flags=0)
+== Alcove.WeatherManager.CachedWeather @0x10053328c kind=0
+   weather : -  (flags=0)
+   daylight : �,  (flags=0)
+   precipitationChance : SiSg  (flags=0)
+   isRaining : SbSg  (flags=0)
+   lastFetchDate : �  (flags=0)
+   lastFetchLocation : So10CLLocationC  (flags=0)
+== Alcove.WeatherManager.LocationError @0x1005332e4 kind=2
+   servicesDisabled :   (flags=0)
+   notAuthorized :   (flags=0)
+   timeout :   (flags=0)
+== Alcove.WeatherManager.CachedWeather.CodingKeys @0x100533318 kind=2
+   weather :   (flags=0)
+   daylight :   (flags=0)
+   precipitationChance :   (flags=0)
+   isRaining :   (flags=0)
+   lastFetchDate :   (flags=0)
+   latitude :   (flags=0)
+   longitude :   (flags=0)
+   altitude :   (flags=0)
+== Alcove.WeatherManager.Daylight.<anon>.CodingKeys @0x100533388 kind=2
+   sunrise :   (flags=0)
+   sunset :   (flags=0)
+   nextSunrise :   (flags=0)
+   nextSunset :   (flags=0)
+== Alcove.WeatherManager.Weather.<anon>.CodingKeys @0x1005333c8 kind=2
+   temperatureCelsius :   (flags=0)
+   condition :   (flags=0)
+== Alcove.WeatherManager.Sun @0x1005333f0 kind=0
+   type : +,  (flags=0)
+   time : �  (flags=0)
+== Alcove.WeatherManager.CalendarConditionPresentation @0x100533418 kind=0
+   symbol : SS  (flags=0)
+   text : SS  (flags=0)
+   hasSun : Sb  (flags=0)
+   hasRain : Sb  (flags=0)
+   hasCloud : Sb  (flags=0)
+== Alcove.WeatherManager.SunType @0x100533464 kind=2
+   sunrise :   (flags=0)
+   sunset :   (flags=0)
+== Alcove.WeatherManager.Sun.<anon>.CodingKeys @0x10053348c kind=2
+   type :   (flags=0)
+   time :   (flags=0)
+== Alcove.UpdateController @0x1005334b4 kind=1
+   windowController : So18NSWindowControllerCSg  (flags=2)
+== Alcove.FileTraySettingsView @0x1005334d0 kind=0
+== $s6Alcove16SBObjectProtocolP @0x1005334e0 kind=6
+== $s6Alcove21SBApplicationProtocolP @0x1005334f0 kind=6
+== Alcove.<anon>.UpdateDownloadDelegate @0x100533594 kind=7
+   progressHandler : ySdcSg  (flags=2)
+   completionHandler : yn
+  (flags=2)
+   destinationURL : �  (flags=0)
+   downloadProgressStart : Sd  (flags=0)
+   downloadProgressEnd : Sd  (flags=0)
+   completionResult : Y
+  (flags=2)
+   hasCompleted : Sb  (flags=2)
+== Alcove.UpdateManager.<anon>.UpdateChannel @0x1005335f8 kind=2
+   stable :   (flags=0)
+   trial :   (flags=0)
+   beta :   (flags=0)
+== Alcove.UpdateManager.Release @0x10053362c kind=0
+   id : Si  (flags=2)
+   tagName : SS  (flags=2)
+   name : SS  (flags=2)
+   sections : Say.-  (flags=2)
+   assets : Say�,  (flags=2)
+   prerelease : Sb  (flags=2)
+   publishedAt : SS  (flags=2)
+   minimumSystemVersion : SSSg  (flags=2)
+   buildNumber : SiSg  (flags=2)
+== Alcove.UpdateManager.ChangelogNote @0x1005336e8 kind=0
+   id : u�  (flags=2)
+   text : SS  (flags=2)
+== Alcove.UpdateManager.Release.Section @0x100533710 kind=0
+   marker : SS  (flags=2)
+   items : SaySSG  (flags=2)
+== Alcove.UpdateManager.Release.Asset @0x100533738 kind=0
+   name : SS  (flags=2)
+   url : �  (flags=2)
+== Alcove.UpdateManager.UpdateError @0x100533760 kind=3
+   decodingFailed : ��  (flags=0)
+   api : Si10statusCode_SSSg7messaget  (flags=0)
+   downloadFailed : Si10statusCode_t  (flags=0)
+   invalidURL :   (flags=0)
+   invalidResponse :   (flags=0)
+   missingAuthorizationToken :   (flags=0)
+   downloadUnauthorized :   (flags=0)
+== Alcove.UpdateManager.<anon>.APIError @0x1005337c4 kind=0
+   message : SS  (flags=2)
+== Alcove.UpdateManager.Release.CodingKeys @0x1005337e0 kind=2
+   id :   (flags=0)
+   tagName :   (flags=0)
+   name :   (flags=0)
+   sections :   (flags=0)
+   assets :   (flags=0)
+   prerelease :   (flags=0)
+   publishedAt :   (flags=0)
+   minimumSystemVersion :   (flags=0)
+   buildNumber :   (flags=0)
+== Alcove.UpdateManager.<anon>.APIError.CodingKeys @0x10053385c kind=2
+   message :   (flags=0)
+== Alcove.UpdateManager.Release.Section.<anon>.CodingKeys @0x100533878 kind=2
+   marker :   (flags=0)
+   items :   (flags=0)
+== Alcove.UpdateManager.Release.Asset.CodingKeys @0x1005338a0 kind=2
+   name :   (flags=0)
+   url :   (flags=0)
+== Alcove.Container @0x1005338c8 kind=0
+   _colorScheme : ��  (flags=2)
+   cornerRadius : ��
+  (flags=0)
+   innerPadding : ��
+  (flags=0)
+   isLight : Sb  (flags=0)
+   style : q+  (flags=0)
+   background : q_yc  (flags=0)
+   content : xyc  (flags=0)
+== Alcove.Container.Style @0x10053392c kind=2
+   standard :   (flags=0)
+   preview :   (flags=0)
+== Alcove.Section @0x100533954 kind=0
+   _colorScheme : ��  (flags=2)
+   headerSpacing : ��
+  (flags=0)
+   topCornerRadius : ��
+  (flags=0)
+   bottomCornerRadius : ��
+  (flags=0)
+   header : SSSg  (flags=0)
+   showDividers : Sb  (flags=0)
+   headerAccessory : q_yc  (flags=0)
+   content : xyc  (flags=0)
+== Alcove.UpdateView @0x1005339c4 kind=0
+   _colorScheme : ��  (flags=2)
+   _controlActiveState : �	  (flags=2)
+   updateManager : K  (flags=2)
+   _licenseManager : 9"  (flags=2)
+   _enableHaptics : ��  (flags=2)
+   _earlyBirdUpdates : ��  (flags=2)
+   _isInstalling : ��  (flags=2)
+   __showsRestartState : q#  (flags=2)
+== Alcove.<anon>.ChangelogSectionView @0x100533a34 kind=0
+   item : SS6symbol_�  (flags=0)
+   showsSymbol : Sb  (flags=0)
+   _isExpanded : ��  (flags=2)
+== Alcove.<anon>.ChangelogSectionContainer @0x100533a68 kind=0
+   _colorScheme : ��  (flags=2)
+   topCornerRadius : ��
+  (flags=0)
+   bottomCornerRadius : ��
+  (flags=0)
+   content : xyc  (flags=0)
+== Alcove.MusicView @0x100533aa8 kind=0
+   _controlActiveState : �	  (flags=2)
+== Alcove.NotchNotificationsView @0x100533ac4 kind=0
+   notchController : �h  (flags=0)
+   _batteryManager : 9�  (flags=2)
+   _brightnessManager : �  (flags=2)
+   _calendarManager : E  (flags=2)
+   _connectivityManager : 1�  (flags=2)
+   _focusManager : �`  (flags=2)
+   _volumeManager : W  (flags=2)
+   _notchAdjustedHeight : Qm  (flags=2)
+   _notchAdjustedWidth : Qm  (flags=2)
+   _lowBatteryThreshold : Qm  (flags=2)
+   _hideBatteryLabel : ��  (flags=2)
+   _hideBatteryPercentage : ��  (flags=2)
+   _lowConnectBatteryThreshold : Qm  (flags=2)
+   _connectivityModel : �  (flags=2)
+   _hideLabel : ��  (flags=2)
+   _brightnessProgressStyle : ǎ  (flags=2)
+   _showBrightnessPercentage : ��  (flags=2)
+   _hideBrightnessLabel : ��  (flags=2)
+   _swipeToDismiss : ��  (flags=2)
+   _swipeToToggle : ��  (flags=2)
+   _volumeOutputDevice : Վ  (flags=2)
+   _volumeProgressStyle : ǎ  (flags=2)
+   _showVolumePercentage : ��  (flags=2)
+   _hideVolumeLabel : ��  (flags=2)
+   _defaultTransportType : �`  (flags=2)
+== Alcove.IntroView @0x100533c00 kind=0
+   _isFirstLaunch : ��  (flags=2)
+   __ambianceHasEntered : q#  (flags=2)
+   __appIconHasEntered : q#  (flags=2)
+   __nameHasEntered : q#  (flags=2)
+   __textHasEntered : q#  (flags=2)
+   __footerHasEntered : q#  (flags=2)
+   __isHovering : q#  (flags=2)
+   __isHoveringMiddleContainer : q#  (flags=2)
+   __debounce : �#  (flags=2)
+   __introPlayback : �#  (flags=2)
+   __introTimelineTask : �#  (flags=2)
+== Alcove.Battery @0x100533c94 kind=0
+   level : Sd  (flags=2)
+   lowBatteryThreshold : Sd  (flags=2)
+   showPercentage : Sb  (flags=2)
+   isLowPowerMode : Sb  (flags=2)
+   symbolReduction : Sd  (flags=2)
+== $s6Alcove16MusicApplicationP @0x100533ce0 kind=6
+== $s6Alcove9MusicItemP @0x100533cf0 kind=6
+== $s6Alcove12MusicArtworkP @0x100533d00 kind=6
+== $s6Alcove10MusicTrackP @0x100533d10 kind=6
+== $s6Alcove19SegmentedPickerDataP @0x100533d20 kind=4
+== Alcove.SegmentedPickerBackgroundContext @0x100533d30 kind=0
+   element : x  (flags=0)
+   isActive : Sb  (flags=0)
+   isDisabled : Sb  (flags=0)
+   isWindowFocused : Sb  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+== Alcove.SegmentedPickerWallpaperBackground @0x100533d7c kind=0
+   wallpaperImage : So7NSImageCSg  (flags=0)
+   blurRadius : ��
+  (flags=0)
+   scale : ��
+  (flags=0)
+   offset : ��
+  (flags=0)
+   opacity : Sd  (flags=0)
+   saturation : Sd  (flags=0)
+== Alcove.SegmentedPicker @0x100533dd4 kind=0
+   _controlActiveState : �	  (flags=2)
+   spacing : ��
+  (flags=0)
+   innerPadding : ��
+  (flags=0)
+   elements : Sayq0_G  (flags=0)
+   _selectedItem : ��
+  (flags=2)
+   _internalSelection : #�
+  (flags=2)
+   __disabledPopoverColumn : !�  (flags=2)
+   __hoverTimer : �  (flags=2)
+   content : xq0_c  (flags=0)
+   background : q_��  (flags=0)
+   textProvider : SSSgq0_c  (flags=0)
+   showsSelectionHighlight : Sb  (flags=0)
+== Alcove.NSArtworkCutoutBackdropView @0x100533e74 kind=7
+   viewBounds : �J	  (flags=2)
+   $__lazy_storage_$_artworkCutoutLayer : ��  (flags=2)
+== Alcove.ArtworkCutoutLayer @0x100533e9c kind=1
+   containerLayer : So7CALayerC  (flags=0)
+   maskLayer : So7CALayerC  (flags=0)
+   artworkLayer : So7CALayerC  (flags=0)
+   artworkLightenLayer : So7CALayerC  (flags=0)
+   artworkDimLayer : So7CALayerC  (flags=0)
+   colorSaturateFilter : So8NSObjectCSg  (flags=0)
+   gaussianBlurFilter : So8NSObjectCSg  (flags=0)
+   viewBounds : �J	  (flags=2)
+   artworkScale : ��
+  (flags=2)
+   artworkOffset : J	  (flags=2)
+   usesMask : Sb  (flags=2)
+   currentArtworkIdentity : SOSg  (flags=2)
+== Alcove.ArtworkCutoutBackdrop @0x100533f3c kind=0
+   artwork : So7NSImageC  (flags=2)
+   size : ��
+  (flags=2)
+== Alcove.<anon>.ArtworkFrame @0x100533f64 kind=0
+   content : �
+  (flags=0)
+   identity : a�  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+   isMirrored : Sb  (flags=0)
+   opacity : Sd  (flags=0)
+   blendMode : X  (flags=0)
+== Alcove.ArtworkTransition @0x100533fbc kind=0
+   identity : a�  (flags=0)
+   contentRevision : a�  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+   isMirrored : Sb  (flags=0)
+   isTransitionEnabled : Sb  (flags=0)
+   opacity : Sd  (flags=0)
+   blendMode : X  (flags=0)
+   content : �
+  (flags=0)
+   __currentArtwork : ��  (flags=2)
+   __outgoingArtwork : ��  (flags=2)
+   __queuedArtwork : ��  (flags=2)
+   __incomingArtwork : ��  (flags=2)
+   __currentProgress : U�  (flags=2)
+   __currentEffectProgress : U�  (flags=2)
+   __outgoingProgress : U�  (flags=2)
+   __isTransitioning : q#  (flags=2)
+== Alcove.<anon>.ArtworkKey @0x10053408c kind=0
+   identity : a�  (flags=0)
+   contentRevision : a�  (flags=0)
+   isMirrored : Sb  (flags=0)
+   isTransitionEnabled : Sb  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+   opacity : Sd  (flags=0)
+   blendMode : SS  (flags=0)
+== Alcove.<anon>.ArtworkFlipEffect @0x1005340f0 kind=0
+   progress : Sd  (flags=2)
+   effectProgress : Sd  (flags=2)
+   isIncoming : Sb  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+== Alcove.BrowserView @0x100534130 kind=0
+   _controlActiveState : �	  (flags=2)
+== Alcove.SettingsWindow @0x10053414c kind=7
+== Alcove.<anon>.VibrancyEffectRepresentable.Coordinator @0x10053415c kind=1
+   hostingView : 	c
+  (flags=2)
+== Alcove.<anon>.VibrantHostingView @0x100534178 kind=7
+== Alcove.<anon>.VibrancyEffectRepresentable @0x100534188 kind=0
+   content : x  (flags=0)
+== Alcove.VibrancyEffectView @0x1005341a4 kind=0
+   content : x  (flags=0)
+== Alcove.CalendarManager.EventMeeting @0x10053459c kind=0
+   url : �{  (flags=0)
+   type : ?�  (flags=0)
+== Alcove.CalendarManager.EventLocation @0x1005345c4 kind=0
+   title : SSSg  (flags=0)
+   coordinates : So10CLLocationCSg  (flags=0)
+== Alcove.CalendarManager.CalendarWeekday @0x10053475c kind=0
+   id : Si  (flags=0)
+   symbol : SS  (flags=0)
+   isWeekend : Sb  (flags=0)
+== Alcove.CalendarManager.CalendarDayCell @0x100534790 kind=0
+   id : Si  (flags=0)
+   date : ��  (flags=0)
+   dayNumber : SiSg  (flags=0)
+   isWeekend : Sb  (flags=0)
+   isToday : Sb  (flags=0)
+   isSelected : Sb  (flags=0)
+   eventIndicators : Say��  (flags=0)
+== Alcove.CalendarManager.EventMeetingType @0x1005347f4 kind=2
+   facetime :   (flags=0)
+   zoom :   (flags=0)
+   googleMeet :   (flags=0)
+   teams :   (flags=0)
+   webex :   (flags=0)
+== Alcove.CalendarManager.EventModel.TimeLabelStyle @0x100534898 kind=2
+   range :   (flags=0)
+   startOnly :   (flags=0)
+   endsOnly :   (flags=0)
+== Alcove.CalendarManager.CalendarDayIndicator @0x1005348cc kind=0
+   id : SS  (flags=0)
+   color : ']  (flags=0)
+   colorSignature : SS  (flags=0)
+== Alcove.SoundManager @0x100534900 kind=7
+   logger : Ͼ  (flags=0)
+   audioPlayers : SDySSSaySo13AVAudioPlayerCGG  (flags=2)
+   reusablePlayers : SDySSSo13AVAudioPlayerCG  (flags=2)
+   soundIDs : SDySS��
+  (flags=2)
+   maxInstancesPerSound : Si  (flags=0)
+   defaultVolume : Sf  (flags=0)
+   reusableSoundQueue : So17OS_dispatch_queueC  (flags=0)
+== Alcove.SoundManager.Playback @0x100534964 kind=1
+   startDelay : Sd  (flags=0)
+   manager : _�  (flags=2)
+   player : So13AVAudioPlayerCSgXw  (flags=2)
+   name : SS  (flags=0)
+== Alcove.ShakeEffect @0x1005349a4 kind=0
+   position : Sd  (flags=2)
+== Alcove.ConnectivityManager.<anon>.HomePodRoute @0x100534b80 kind=0
+   uid : SS  (flags=0)
+   name : SS  (flags=0)
+   groupID : SS  (flags=0)
+   subtype : SS  (flags=0)
+   modelID : SSSg  (flags=0)
+   configuredClusterSize : SiSg  (flags=0)
+   observedAt : �  (flags=0)
+== Alcove.ConnectivityManager.VirtualDevice @0x100534be4 kind=3
+   airPods : ׶  (flags=0)
+   airPods2 : ׶  (flags=0)
+   airPods3 : ׶  (flags=0)
+   airPods4 : ׶  (flags=0)
+   airPodsPro : ׶  (flags=0)
+   airPodsPro2 : ׶  (flags=0)
+   airPodsPro3 : ׶  (flags=0)
+   airPodsMax : ��  (flags=0)
+   airPodsMax2 : ��  (flags=0)
+   macBook :   (flags=0)
+   macStudio :   (flags=0)
+   iMac :   (flags=0)
+   macMini :   (flags=0)
+   macPro :   (flags=0)
+   headphones :   (flags=0)
+   homePod :   (flags=0)
+   homePodMini :   (flags=0)
+   homePod2 :   (flags=0)
+   homePodPair :   (flags=0)
+   homePodMiniPair :   (flags=0)
+   homePod2Pair :   (flags=0)
+   homePodGroup :   (flags=0)
+   earPods :   (flags=0)
+   studioDisplay :   (flags=0)
+   studioDisplayXdr :   (flags=0)
+   proDisplayXdr :   (flags=0)
+   speakers :   (flags=0)
+== Alcove.ConnectivityManager.AirPodsMaxColor @0x100534d38 kind=2
+   spaceGray :   (flags=0)
+   skyBlue :   (flags=0)
+   silver :   (flags=0)
+   green :   (flags=0)
+   red :   (flags=0)
+   midnight :   (flags=0)
+   starlight :   (flags=0)
+   blue :   (flags=0)
+   orange :   (flags=0)
+   purple :   (flags=0)
+== Alcove.ConnectivityManager.<anon>.HomePodFamily @0x100534dc0 kind=2
+   homePod :   (flags=0)
+   homePodMini :   (flags=0)
+   homePod2 :   (flags=0)
+== Alcove.ConnectivityManager.AirPodsState @0x100534df4 kind=2
+   leftOnly :   (flags=0)
+   rightOnly :   (flags=0)
+   both :   (flags=0)
+== Alcove.NSMarqueeTextView @0x100534e28 kind=7
+   text : SS  (flags=2)
+   textSize : ��
+  (flags=2)
+   textWeight : K	  (flags=2)
+   textColor : ']  (flags=2)
+   kerning : Sd  (flags=2)
+   isCentered : Sb  (flags=2)
+   leadingSymbol : SS  (flags=2)
+   leadingSymbolSize : ��
+  (flags=2)
+   leadingSymbolColor : ']  (flags=2)
+   leadingSymbolPadding : ��
+  (flags=2)
+   trailingSymbol : SS  (flags=2)
+   trailingSymbolSize : ��
+  (flags=2)
+   trailingSymbolColor : ']  (flags=2)
+   trailingSymbolPadding : ��
+  (flags=2)
+   gradientStops : SaySo8NSNumberCG  (flags=2)
+   totalCycleTime : Sd  (flags=2)
+   startPadding : ��
+  (flags=0)
+   contentSpacing : ��
+  (flags=0)
+   font : So6NSFontC  (flags=2)
+   stringWidth : Sd  (flags=2)
+   stringHeight : Sd  (flags=2)
+   maskLayer : So7CALayerCSg  (flags=2)
+   layer1 : So7CALayerCSg  (flags=2)
+   layer2 : So7CALayerCSg  (flags=2)
+   textLayers : SaySo11CATextLayerCG  (flags=2)
+   symbolLayers : SaySo7CALayerCG  (flags=2)
+   trailingSymbolLayers : SaySo7CALayerCG  (flags=2)
+   lastTextColor : So7NSColorCSg  (flags=2)
+   didBuildForLayout : Sb  (flags=2)
+   lastShouldCenterContent : Sb  (flags=2)
+   lastShouldOverflowContent : Sb  (flags=2)
+   lastLayoutWidth : ��
+  (flags=2)
+   alignmentVelocitySamples : SDySOp�
+  (flags=2)
+   alignmentAnimationKey : SS  (flags=0)
+   alignmentAnimationDuration : Sd  (flags=0)
+   alignmentSpringMass : ��
+  (flags=0)
+   alignmentSpringStiffness : ��
+  (flags=0)
+   alignmentSpringDamping : ��
+  (flags=0)
+   symbolAppearanceAnimationDuration : Sd  (flags=0)
+   shouldAnimateNextSymbolAppearance : Sb  (flags=2)
+== Alcove.MarqueeText @0x100535018 kind=0
+   text : SS  (flags=2)
+   textSize : ��
+  (flags=2)
+   textWeight : K	  (flags=2)
+   textColor : ']  (flags=2)
+   kerning : Sd  (flags=2)
+   isCentered : Sb  (flags=2)
+   leadingSymbol : SS  (flags=2)
+   leadingSymbolSize : ��
+  (flags=2)
+   leadingSymbolColor : ']  (flags=2)
+   leadingSymbolPadding : ��
+  (flags=2)
+   trailingSymbol : SS  (flags=2)
+   trailingSymbolSize : ��
+  (flags=2)
+   trailingSymbolColor : ']  (flags=2)
+   trailingSymbolPadding : ��
+  (flags=2)
+   gradientStops : SaySo8NSNumberCG  (flags=2)
+   totalCycleTime : Sd  (flags=2)
+== Alcove.GeneralSettingsView @0x1005350e8 kind=0
+   _colorScheme : ��  (flags=2)
+   _controlActiveState : �	  (flags=2)
+   notchController : G�  (flags=0)
+   _calendarManager : E  (flags=2)
+   _launchAtLogin : ��  (flags=2)
+   _hideMenuBarIcon : ��  (flags=2)
+   _hideFromScreenCapture : ��  (flags=2)
+   _forceSimulatedNotch : ��  (flags=2)
+   _hideWhileInFullscreen : ��  (flags=2)
+   _hideWhileGaming : ��  (flags=2)
+   _hideWhileInMissionControl : ��  (flags=2)
+   _showOnDisplay : �k  (flags=2)
+   _showOnDisplayUUID : ��  (flags=2)
+   _showOnDisplayName : c�  (flags=2)
+   _showOnDisplaySymbol : c�  (flags=2)
+   _contrastOutline : ��  (flags=2)
+   _progressiveBlur : ��  (flags=2)
+   _enableNowPlaying : ��  (flags=2)
+   _enableCalendar : ��  (flags=2)
+   _useMostRecentActivity : ��  (flags=2)
+   _idleActivity : �  (flags=2)
+   _forceEnableActivity : ��  (flags=2)
+   _enableHaptics : ��  (flags=2)
+   _expandNotchOnHover : ��  (flags=2)
+   _hoverDuration : Qm  (flags=2)
+   _naturalMovement : ��  (flags=2)
+   _swipeToToggle : ��  (flags=2)
+   _swipeToCycleActivity : ��  (flags=2)
+   _swipeToDismiss : ��  (flags=2)
+   _swipeToSkip : ��  (flags=2)
+   _notchAdjustedWidth : Qm  (flags=2)
+   _notchAdjustedHeight : Qm  (flags=2)
+   __displayOptionGroups : �u
+  (flags=2)
+== Alcove.HUDSpeed @0x100535284 kind=2
+   smooth :   (flags=0)
+   fast :   (flags=0)
+   instant :   (flags=0)
+== Alcove.NowPlayingTitleBadge @0x1005352b8 kind=2
+   none :   (flags=0)
+   explicit :   (flags=0)
+   format :   (flags=0)
+== Alcove.ControlType @0x1005352ec kind=2
+   like :   (flags=0)
+   shuffle :   (flags=0)
+   repeating :   (flags=0)
+   copyLink :   (flags=0)
+== Alcove.DisplayType @0x10053532c kind=2
+   builtInDisplay :   (flags=0)
+   mainScreen :   (flags=0)
+   allDisplays :   (flags=0)
+   specificDisplay :   (flags=0)
+== Alcove.NowPlayingStyle @0x1005353ac kind=2
+   glass :   (flags=0)
+   clear :   (flags=0)
+   frosted :   (flags=0)
+== Alcove.WeatherStyle @0x1005353e0 kind=2
+   conditions :   (flags=0)
+   sun :   (flags=0)
+   precipitation :   (flags=0)
+== Alcove.LocationPermissionTarget @0x100535414 kind=2
+   showWeatherOnEmptyDay :   (flags=0)
+   notifyWhenTimeToLeave :   (flags=0)
+   allowWeatherWidgetWhenLocked :   (flags=0)
+== Alcove.TransportType @0x100535448 kind=2
+   drive :   (flags=0)
+   walk :   (flags=0)
+   transit :   (flags=0)
+== Alcove.ConnectedDisplay @0x1005354b0 kind=0
+   uuid : SS  (flags=0)
+   name : SS  (flags=0)
+   symbol : SS  (flags=0)
+== Alcove.ColorStyle @0x1005354e4 kind=2
+   mono :   (flags=0)
+   color :   (flags=0)
+   gradient :   (flags=0)
+== Alcove.OutputDevice @0x10053558c kind=2
+   symbol :   (flags=0)
+   device :   (flags=0)
+== Alcove.HUDProgressStyle @0x1005355b4 kind=2
+   white :   (flags=0)
+   accent :   (flags=0)
+   stylized :   (flags=0)
+== Alcove.ConnectivityModel @0x1005355e8 kind=2
+   threeDimensional :   (flags=0)
+   symbol :   (flags=0)
+== Alcove.CalendarDisplayMode @0x100535610 kind=2
+   liveActivity :   (flags=0)
+   expandedView :   (flags=0)
+   both :   (flags=0)
+== Alcove.LockManager.<anon>.<anon>.ResumeState @0x100535840 kind=1
+   lock : So6NSLockC  (flags=0)
+   hasResumed : Sb  (flags=2)
+== Alcove.AudioManager.AudioFrequencyBand @0x10053593c kind=0
+   startFrequency : Sf  (flags=2)
+   endFrequency : Sf  (flags=2)
+== Alcove.<anon>.ScriptingBridgeTimeoutState @0x100535964 kind=1
+   lock : So6NSLockC  (flags=0)
+   operation : xSgyc  (flags=0)
+   isCancelled : Sb  (flags=2)
+   output : xSg  (flags=2)
+== Alcove.MediaManager.<anon>.SpotifyRepeatMode @0x100535d68 kind=2
+   off :   (flags=0)
+   context :   (flags=0)
+   track :   (flags=0)
+== Alcove.MediaManager.TimerPollingSource @0x100535d9c kind=2
+   notchExpanded :   (flags=0)
+   lockscreen :   (flags=0)
+== Alcove.MediaManager.<anon>.SpotifyTrackSnapshot @0x100535e58 kind=0
+   name : SS  (flags=0)
+   artist : SS  (flags=0)
+   album : SS  (flags=0)
+   artworkUrl : SS  (flags=0)
+   duration : Sd  (flags=0)
+   spotifyUrl : SS  (flags=0)
+   isShuffled : Sb  (flags=0)
+   isRepeating : Sb  (flags=0)
+   hasShuffle : Sb  (flags=0)
+   playerState : �4  (flags=0)
+== Alcove.MediaManager.<anon>.MusicTrackSnapshot @0x100535ee0 kind=0
+   name : SS  (flags=0)
+   artist : SS  (flags=0)
+   album : SS  (flags=0)
+   duration : Sd  (flags=0)
+   loved : Sb  (flags=0)
+   shuffled : Sb  (flags=0)
+   repeatMode : -�  (flags=0)
+   playerState : �  (flags=0)
+== Alcove.<anon>.WallpaperChangeMonitor @0x100535f50 kind=1
+   logger : Ͼ  (flags=0)
+   processName : SS  (flags=0)
+   exportMessage : SS  (flags=0)
+   cancellables : Shy�~  (flags=2)
+   logTask : ScTyyt�2  (flags=2)
+   isMonitoring : Sb  (flags=2)
+== Alcove.<anon>.WallpaperWindow @0x100535fa8 kind=0
+   id : �4  (flags=0)
+   bounds : �J	  (flags=0)
+   name : SS  (flags=0)
+   layer : Si  (flags=0)
+== Alcove.NSWaveformView @0x100535fe8 kind=7
+   isPlaying : Sb  (flags=2)
+   isPaused : Sb  (flags=2)
+   artworkScale : ��
+  (flags=2)
+   artworkOffset : J	  (flags=2)
+   viewBounds : �J	  (flags=2)
+   amplitudeWidth : ��
+  (flags=2)
+   amplitudeHeight : ��
+  (flags=2)
+   amplitudeCount : Si  (flags=2)
+   amplitudeSpacing : Sd  (flags=2)
+   duration : Sd  (flags=2)
+   pauseDuration : Sd  (flags=2)
+   audioSourceRevision : Si  (flags=2)
+   usesLiveSpectrum : Sb  (flags=2)
+   color : ']  (flags=2)
+   seed : [  (flags=2)
+   artwork : So7NSImageCSg  (flags=2)
+   barsContainerLayer : So7CALayerC  (flags=0)
+   artworkCutoutLayer : ��  (flags=2)
+   amplitudes : SaySo7CALayerCG  (flags=2)
+   maskAmplitudes : SaySo7CALayerCG  (flags=2)
+   isRegisteredWithAnimationClock : Sb  (flags=2)
+   liveSpectrumBandCount : SiSg  (flags=2)
+   liveLevels : Say:c
+  (flags=2)
+   isAnimationSourceUpdateScheduled : Sb  (flags=2)
+   lastSimulatedAnimationTick : SiSg  (flags=2)
+   lastLiveTargetSizes : Say8i
+  (flags=2)
+   animationSource : ��  (flags=2)
+   pendingTransition : ϔ  (flags=2)
+== Alcove.<anon>.WaveformAnimationClock @0x100536148 kind=1
+   epoch : Sd  (flags=0)
+   views : So11NSHashTableCy��  (flags=0)
+   timer : So7NSTimerCSg  (flags=2)
+== Alcove.<anon>.WaveformSpectrumCenter @0x10053617c kind=1
+   sessions : SDySi\�  (flags=2)
+== Alcove.<anon>.WaveformSpectrumSession @0x100536198 kind=1
+   views : So11NSHashTableCy��  (flags=0)
+   owner : So8NSObjectC  (flags=0)
+   observer : So8NSObjectC  (flags=0)
+   bandCount : Si  (flags=0)
+   updateBlock : yXlSg  (flags=2)
+   isActive : Sb  (flags=2)
+   isUpdateScheduled : Sb  (flags=2)
+   lastLevels : Say:c
+  (flags=2)
+== Alcove.<anon>.WaveformAnimationSource @0x100536208 kind=2
+   suspended :   (flags=0)
+   simulated :   (flags=0)
+   live :   (flags=0)
+== Alcove.<anon>.WaveformTransition @0x10053623c kind=2
+   continuous :   (flags=0)
+   bridgeFromPresentation :   (flags=0)
+== Alcove.Waveform @0x100536264 kind=0
+   isPlaying : Sb  (flags=2)
+   isPaused : SbSg  (flags=2)
+   color : ']  (flags=2)
+   artwork : So7NSImageCSg  (flags=2)
+   size : ��
+  (flags=2)
+   amplitudeWidth : ��
+  (flags=2)
+   amplitudeHeight : ��
+  (flags=2)
+   amplitudeCount : Si  (flags=2)
+   amplitudeSpacing : Sd  (flags=2)
+   duration : Sd  (flags=2)
+   pauseDuration : Sd  (flags=2)
+   seed : �^
+  (flags=2)
+   audioSourceRevision : Si  (flags=2)
+   usesLiveSpectrum : Sb  (flags=2)
+== Alcove.SliderPicker @0x10053631c kind=0
+   _enableHaptics : ��  (flags=2)
+   height : ��
+  (flags=0)
+   title : SS  (flags=0)
+   options : SayxG  (flags=0)
+   _selection : u  (flags=2)
+   label : SSxc  (flags=0)
+   horizontalPadding : ��
+  (flags=0)
+== Alcove.MediaProgressSlider @0x100536380 kind=0
+   _value : u  (flags=2)
+   songChangeToken : Si  (flags=0)
+   inRange : SNyxG  (flags=0)
+   fillColors : Say�Z  (flags=0)
+   disableGradient : Sb  (flags=0)
+   height : ��
+  (flags=0)
+   width : ��
+  (flags=0)
+   onEditingChanged : ySbc  (flags=0)
+   tapCooldown : Sd  (flags=0)
+   _showRemainingTime : ��  (flags=2)
+   __localRealProgress : ��  (flags=2)
+   __localTempProgress : ��  (flags=2)
+   __progressDuration : ��  (flags=2)
+   __measuredTrackWidth : �A
+  (flags=2)
+   __lastDragEnd : �  (flags=2)
+   _shouldSuppressNextExternalAnimation : ��  (flags=2)
+   __progressAnimationDuration : U�  (flags=2)
+   __progressAnimation : �A
+  (flags=2)
+   __locallyRequestedProgress : _@
+  (flags=2)
+   __interactiveProgressAnimationDeadline : C�  (flags=2)
+   _isDragging : �  (flags=2)
+== Alcove.<anon>.MediaProgressLayerTrackView @0x10053648c kind=7
+   backgroundLayer : So7CALayerC  (flags=0)
+   fillLayer : So15CAGradientLayerC  (flags=0)
+   progressMaskLayer : So7CALayerC  (flags=0)
+   progress : ��
+  (flags=2)
+== Alcove.<anon>.MediaProgressLayerAnimation @0x1005364cc kind=2
+   linear :   (flags=0)
+   spring :   (flags=0)
+== Alcove.<anon>.MediaProgressLayerTrack @0x1005364f4 kind=0
+   progress : Sd  (flags=0)
+   primaryColor : ']  (flags=0)
+   secondaryColor : ']  (flags=0)
+   backgroundColor : ']  (flags=0)
+   animationDuration : Sd  (flags=0)
+   animation : ˇ  (flags=0)
+== Alcove.DividedVerticalStack @0x10053654c kind=0
+   spacing : �l  (flags=0)
+   showDividers : Sb  (flags=0)
+   content : x  (flags=2)
+== Alcove.DividedVerticalStackLayout @0x100536580 kind=0
+   _colorScheme : ��  (flags=2)
+   spacing : ��
+  (flags=0)
+   showDividers : Sb  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+== Alcove.ModalWindowView @0x1005365c0 kind=0
+   sectionSpacing : ��
+  (flags=0)
+   cornerRadius : ��
+  (flags=0)
+   content : x  (flags=0)
+== Alcove.<anon>.ResourceBundleClass @0x1005365f4 kind=1
+== SimplyCoreAudio.AudioHardware @0x100536604 kind=1
+   allKnownDevices : Say��	  (flags=2)
+   $__lazy_storage_$_queueLabel : SSSg  (flags=2)
+   $__lazy_storage_$_queue : So17OS_dispatch_queueCSg  (flags=2)
+   isRegisteredForNotifications : Sb  (flags=2)
+== __C.AudioObjectPropertyAddress @0x100536644 kind=0
+   mSelector : �E
+  (flags=2)
+   mScope : �E
+  (flags=2)
+   mElement : �E
+  (flags=2)
+== __C.AudioStreamBasicDescription @0x100536678 kind=0
+   mSampleRate : Sd  (flags=2)
+   mFormatID : �E
+  (flags=2)
+   mFormatFlags : �E
+  (flags=2)
+   mBytesPerPacket : �E
+  (flags=2)
+   mFramesPerPacket : �E
+  (flags=2)
+   mBytesPerFrame : �E
+  (flags=2)
+   mChannelsPerFrame : �E
+  (flags=2)
+   mBitsPerChannel : �E
+  (flags=2)
+   mReserved : �E
+  (flags=2)
+== __C.AudioStreamRangedDescription @0x1005366f4 kind=0
+   mFormat : 9  (flags=2)
+   mSampleRateRange : i  (flags=2)
+== __C.AudioValueRange @0x10053671c kind=0
+   mMinimum : Sd  (flags=2)
+   mMaximum : Sd  (flags=2)
+== SimplyCoreAudio.AudioObjectPool @0x100536744 kind=1
+   pool : SDy�D
+  (flags=2)
+   $__lazy_storage_$_queueLabel : SSSg  (flags=2)
+   $__lazy_storage_$_queue : So17OS_dispatch_queueCSg  (flags=2)
+== SimplyCoreAudio.AudioDevice @0x100536778 kind=1
+   hardware :   (flags=0)
+   cachedDeviceName : SSSg  (flags=2)
+   isRegisteredForNotifications : Sb  (flags=2)
+== SimplyCoreAudio.AudioStream @0x1005367ec kind=1
+   $__lazy_storage_$_availablePhysicalFormats : Say�M
+  (flags=2)
+   $__lazy_storage_$_availableVirtualFormats : Say�M
+  (flags=2)
+   isRegisteredForNotifications : Sb  (flags=2)
+== SimplyCoreAudio.Element @0x100536820 kind=2
+   custom : mC
+  (flags=0)
+   main :   (flags=0)
+   master :   (flags=0)
+== SimplyCoreAudio.Scope @0x100536854 kind=2
+   global :   (flags=0)
+   input :   (flags=0)
+   output :   (flags=0)
+   playthrough :   (flags=0)
+   master :   (flags=0)
+   wildcard :   (flags=0)
+   main :   (flags=0)
+== SimplyCoreAudio.TerminalType @0x1005368b8 kind=2
+   unknown :   (flags=0)
+   line :   (flags=0)
+   digitalAudioInterface :   (flags=0)
+   speaker :   (flags=0)
+   headphones :   (flags=0)
+   lfeSpeaker :   (flags=0)
+   receiverSpeaker :   (flags=0)
+   microphone :   (flags=0)
+   headsetMicrophone :   (flags=0)
+   receiverMicrophone :   (flags=0)
+   tty :   (flags=0)
+   hdmi :   (flags=0)
+   displayPort :   (flags=0)
+== SimplyCoreAudio.TransportType @0x100536964 kind=2
+   unknown :   (flags=0)
+   builtIn :   (flags=0)
+   aggregate :   (flags=0)
+   virtual :   (flags=0)
+   pci :   (flags=0)
+   usb :   (flags=0)
+   fireWire :   (flags=0)
+   bluetooth :   (flags=0)
+   bluetoothLE :   (flags=0)
+   hdmi :   (flags=0)
+   displayPort :   (flags=0)
+   airPlay :   (flags=0)
+   avb :   (flags=0)
+   thunderbolt :   (flags=0)
+   network :   (flags=0)
+   other :   (flags=0)
+== SimplyCoreAudio.VolumeInfo @0x100536a34 kind=0
+   volume : SfSg  (flags=2)
+   hasVolume : Sb  (flags=2)
+   canSetVolume : Sb  (flags=2)
+   canMute : Sb  (flags=2)
+   isMuted : Sb  (flags=2)
+   canPlayThru : Sb  (flags=2)
+   isPlayThruSet : Sb  (flags=2)
+== SimplyCoreAudio.SimplyCoreAudio @0x100536a98 kind=1
+   hardware :   (flags=0)
+== Atomics.AtomicOptionalRawRepresentableStorage @0x100536ab4 kind=0
+   _storage : 8RawValueSY_28AtomicOptionalRepresentation[�	  (flags=2)
+== Atomics.AtomicRawRepresentableStorage @0x100536ad0 kind=0
+   _storage : 8RawValueSY_20AtomicRepresentation��	  (flags=2)
+== Atomics.<anon>.AtomicRepresentation @0x100536aec kind=0
+   _storage : ��	  (flags=2)
+== Atomics.<anon>.AtomicRepresentation @0x100536b08 kind=0
+   _storage : ��	  (flags=2)
+== Atomics.<anon>.AtomicRepresentation @0x100536b24 kind=0
+   _storage : ��	  (flags=2)
+== Atomics.<anon>.AtomicRepresentation @0x100536b40 kind=0
+   _storage : ��	  (flags=2)
+== Atomics.<anon>.AtomicRepresentation @0x100536b5c kind=0
+   _storage : ��	  (flags=2)
+== Atomics.<anon>.AtomicRepresentation @0x100536b78 kind=0
+   _storage : ��	  (flags=2)
+== Atomics.<anon>.AtomicRepresentation @0x100536b94 kind=0
+   _storage : ��	  (flags=2)
+== Atomics.<anon>.AtomicRepresentation @0x100536bb0 kind=0
+   _storage : ��	  (flags=2)
+== Atomics.<anon>.AtomicRepresentation @0x100536bcc kind=0
+   _storage : ��	  (flags=2)
+== Atomics.<anon>.AtomicRepresentation @0x100536be8 kind=0
+   _storage : ��	  (flags=2)
+== Atomics.<anon>.AtomicRepresentation @0x100536c04 kind=0
+   _storage : ��	  (flags=2)
+== Atomics.<anon>.AtomicRepresentation @0x100536c3c kind=0
+   _storage : ��	  (flags=0)
+== Atomics.<anon>.AtomicRepresentation @0x100536c58 kind=0
+   _storage : ��	  (flags=0)
+== Atomics.<anon>.AtomicRepresentation @0x100536c74 kind=0
+   _storage : ��	  (flags=0)
+== Atomics.<anon>.AtomicRepresentation @0x100536c90 kind=0
+   _storage : ��	  (flags=0)
+== Atomics.<anon>.AtomicRepresentation @0x100536cac kind=0
+   _storage : ��	  (flags=0)
+== ����.<anon>.AtomicRepresentation @0x100536c20 kind=0
+   _storage : ��	  (flags=2)
+== Atomics.<anon>.AtomicOptionalRepresentation @0x100536cc8 kind=0
+   _storage : ��	  (flags=0)
+== Atomics.<anon>.AtomicOptionalRepresentation @0x100536ce4 kind=0
+   _storage : ��	  (flags=0)
+== Atomics.<anon>.AtomicOptionalRepresentation @0x100536d00 kind=0
+   _storage : ��	  (flags=0)
+== Atomics.<anon>.AtomicOptionalRepresentation @0x100536d1c kind=0
+   _storage : ��	  (flags=0)
+== Atomics.<anon>.AtomicOptionalRepresentation @0x100536d38 kind=0
+   _storage : ��	  (flags=0)
+== $s7Atomics13AtomicIntegerP @0x100536de0 kind=4
+== $s7Atomics20AtomicIntegerStorageP @0x100536df0 kind=4
+== $s7Atomics23AtomicOptionalWrappableP @0x100536e00 kind=4
+== $s7Atomics15AtomicReferenceP @0x100536e10 kind=5
+== Atomics._AtomicReferenceStorage @0x100536e20 kind=0
+   _storage : �  (flags=2)
+== Atomics.AtomicReferenceStorage @0x100536e3c kind=0
+   _storage : ��  (flags=2)
+== Atomics.AtomicOptionalReferenceStorage @0x100536e58 kind=0
+   _storage : ��  (flags=2)
+== $s7Atomics13AtomicStorageP @0x100536e74 kind=4
+== $s7Atomics11AtomicValueP @0x100536e84 kind=4
+== Atomics.AtomicLoadOrdering @0x100536e94 kind=0
+   _rawValue : Si  (flags=2)
+== Atomics.AtomicStoreOrdering @0x100536eb0 kind=0
+   _rawValue : Si  (flags=2)
+== Atomics.AtomicUpdateOrdering @0x100536ecc kind=0
+   _rawValue : Si  (flags=2)
+== Atomics.ManagedAtomic @0x100536f10 kind=1
+   __storage : 20AtomicRepresentation��	  (flags=2)
+== Atomics.ManagedAtomicLazyReference @0x100536f2c kind=1
+   _storage : C�  (flags=0)
+== Atomics.UnsafeAtomic @0x100536f48 kind=0
+   _ptr : Spy20AtomicRepresentation�	  (flags=0)
+== Atomics.UnsafeAtomicLazyReference @0x100536f64 kind=0
+   _ptr : Spy\�	  (flags=0)
+== Atomics.UnsafeAtomicLazyReference.Storage @0x100536f80 kind=0
+   _storage : C�  (flags=2)
+== DominantColors.AverageColor @0x100536fb8 kind=1
+== DominantColors.ColorFrequency @0x100536fc8 kind=1
+   color : UF
+  (flags=2)
+   frequency : �@
+  (flags=2)
+   shade : �	  (flags=2)
+== DominantColors.ContrastColors @0x100536ffc kind=0
+   background : UF
+  (flags=0)
+   primary : UF
+  (flags=0)
+   secondary : =F
+  (flags=0)
+== DominantColors.HSL @0x100537130 kind=0
+   hue : Sd  (flags=0)
+   saturation : Sd  (flags=0)
+   lightness : Sd  (flags=0)
+== DominantColors.Hex @0x100537164 kind=0
+   cgColor : UF
+  (flags=0)
+== DominantColors.RGB255 @0x100537180 kind=0
+   red : m;
+  (flags=0)
+   green : m;
+  (flags=0)
+   blue : m;
+  (flags=0)
+== DominantColors.<anon>.ContrastRatioResult @0x1005371b4 kind=3
+   acceptable : �@
+  (flags=0)
+   acceptableForLargeText : �@
+  (flags=0)
+   low : �@
+  (flags=0)
+== DominantColors.DeltaEFormula @0x1005371e8 kind=2
+   euclidean :   (flags=0)
+   CIE76 :   (flags=0)
+   CIE94 :   (flags=0)
+   CIEDE2000 :   (flags=0)
+   CMC :   (flags=0)
+== DominantColors.<anon>.ColorDifferenceResult @0x100537234 kind=3
+   indentical : �@
+  (flags=0)
+   similar : �@
+  (flags=0)
+   close : �@
+  (flags=0)
+   near : �@
+  (flags=0)
+   different : �@
+  (flags=0)
+   far : �@
+  (flags=0)
+== DominantColors.DominantColorAlgorithm @0x10053728c kind=2
+   iterative : �	  (flags=0)
+   kMeansClustering :   (flags=0)
+   areaAverage :   (flags=0)
+== DominantColors.DominantColorQuality @0x1005372c0 kind=2
+   low :   (flags=0)
+   fair :   (flags=0)
+   high :   (flags=0)
+   best :   (flags=0)
+== DominantColors.DominantColors @0x100537300 kind=1
+== DominantColors.DominantColors.Options @0x100537310 kind=2
+   excludeBlack :   (flags=0)
+   excludeWhite :   (flags=0)
+   excludeGray :   (flags=0)
+== DominantColors.DominantColors.Sort @0x100537344 kind=2
+   darkness :   (flags=0)
+   lightness :   (flags=0)
+   frequency :   (flags=0)
+== DominantColors.ImageColorError @0x100537378 kind=2
+   ciFilterCreateFailure : SS6filter_t  (flags=0)
+   ciImageFailure :   (flags=0)
+   cgImageFailure :   (flags=0)
+   cgImageDataFailure :   (flags=0)
+   outputImageFailure :   (flags=0)
+   kCFNullFailure :   (flags=0)
+   lowResolutionFailure :   (flags=0)
+   cgColorFailure :   (flags=0)
+== DominantColors.ImageFilter @0x1005373e8 kind=1
+== DominantColors.<anon>._CGImageTransparencyTrimmer @0x1005373f8 kind=0
+   image : EC
+  (flags=0)
+   maximumAlphaChannel : m;
+  (flags=0)
+   cgContext : WC
+  (flags=0)
+   zeroByteBlock : Sv  (flags=0)
+   pixelRowRange : SnySiG  (flags=0)
+   pixelColumnRange : SnySiG  (flags=0)
+== Vortex.<anon>.BundleFinder @0x100537450 kind=1
+== __C.CGSize @0x100537460 kind=0
+   width : �=
+  (flags=2)
+   height : �=
+  (flags=2)
+== <anon>.Color @0x1005374b0 kind=0
+   red : Sd  (flags=2)
+   green : Sd  (flags=2)
+   blue : Sd  (flags=2)
+   opacity : Sd  (flags=2)
+== <anon>.Color.<anon>.CodingKeys @0x1005374f0 kind=2
+   red :   (flags=0)
+   green :   (flags=0)
+   blue :   (flags=0)
+   opacity :   (flags=0)
+== <anon>.ColorMode @0x100537530 kind=3
+   single : ��  (flags=0)
+   random : Say��	  (flags=0)
+   ramp : Say��	  (flags=0)
+   randomRamp : SaySay��	  (flags=0)
+== <anon>.ColorMode.<anon>.RandomRampCodingKeys @0x100537570 kind=2
+   _0 :   (flags=0)
+== <anon>.ColorMode.<anon>.RampCodingKeys @0x10053758c kind=2
+   _0 :   (flags=0)
+== <anon>.ColorMode.<anon>.RandomCodingKeys @0x1005375a8 kind=2
+   _0 :   (flags=0)
+== <anon>.ColorMode.<anon>.SingleCodingKeys @0x1005375c4 kind=2
+   _0 :   (flags=0)
+== <anon>.ColorMode.<anon>.CodingKeys @0x1005375e0 kind=2
+   single :   (flags=0)
+   random :   (flags=0)
+   ramp :   (flags=0)
+   randomRamp :   (flags=0)
+== <anon>.Particle @0x100537620 kind=0
+   tag : SS  (flags=2)
+   position : K6
+  (flags=2)
+   speed : K6
+  (flags=2)
+   birthTime : Sd  (flags=2)
+   lifespan : Sd  (flags=2)
+   initialSize : Sd  (flags=2)
+   currentSize : Sd  (flags=2)
+   angle : Y6
+  (flags=2)
+   angularSpeed : Y6
+  (flags=2)
+   colors : Say��	  (flags=2)
+   currentColor : ��  (flags=2)
+== <anon>.Shape @0x1005376b4 kind=3
+   box : Sd5width_Sd6heightt  (flags=0)
+   ellipse : Sd6radius_t  (flags=0)
+   ring : Sd6radius_t  (flags=0)
+   point :   (flags=0)
+== <anon>.Shape.<anon>.RingCodingKeys @0x1005376f4 kind=2
+   radius :   (flags=0)
+== <anon>.Shape.<anon>.EllipseCodingKeys @0x100537710 kind=2
+   radius :   (flags=0)
+== <anon>.Shape.<anon>.BoxCodingKeys @0x10053772c kind=2
+   width :   (flags=0)
+   height :   (flags=0)
+== <anon>.Shape.<anon>.PointCodingKeys @0x100537754 kind=2
+== <anon>.Shape.<anon>.CodingKeys @0x100537764 kind=2
+   point :   (flags=0)
+   box :   (flags=0)
+   ellipse :   (flags=0)
+   ring :   (flags=0)
+== <anon>.SpawnOccasion @0x1005377a4 kind=2
+   onBirth :   (flags=0)
+   onDeath :   (flags=0)
+   onUpdate :   (flags=0)
+== <anon>.SpawnOccasion.<anon>.OnUpdateCodingKeys @0x1005377d8 kind=2
+== <anon>.SpawnOccasion.<anon>.OnDeathCodingKeys @0x1005377e8 kind=2
+== <anon>.SpawnOccasion.<anon>.OnBirthCodingKeys @0x1005377f8 kind=2
+== <anon>.SpawnOccasion.<anon>.CodingKeys @0x100537808 kind=2
+   onBirth :   (flags=0)
+   onDeath :   (flags=0)
+   onUpdate :   (flags=0)
+== Vortex.VortexSystem @0x10053783c kind=1
+   id : ��	  (flags=0)
+   outstandingParticles : Sd  (flags=2)
+   lastIdleTime : Sd  (flags=2)
+   selectedColorRamp : Si  (flags=2)
+   lastUpdate : Sd  (flags=2)
+   startTimeOffset : Sd  (flags=2)
+   emissionCount : Si  (flags=2)
+   particles : Say(�	  (flags=2)
+   activeSecondarySystems : Shy&�  (flags=2)
+   lastDrawSize : _�  (flags=2)
+   position : K6
+  (flags=2)
+   tags : SaySSG  (flags=2)
+   isActive : Sb  (flags=2)
+   isEmitting : Sb  (flags=2)
+   secondarySystems : Say|�  (flags=2)
+   spawnOccasion : ��  (flags=2)
+   shape : �  (flags=2)
+   birthRate : Sd  (flags=2)
+   emissionLimit : SiSg  (flags=2)
+   emissionDuration : Sd  (flags=2)
+   idleDuration : Sd  (flags=2)
+   burstCount : Si  (flags=2)
+   burstCountVariation : Si  (flags=2)
+   lifespan : Sd  (flags=2)
+   lifespanVariation : Sd  (flags=2)
+   speed : Sd  (flags=2)
+   speedVariation : Sd  (flags=2)
+   angle : 
+  (flags=2)
+   angleRange : 
+  (flags=2)
+   acceleration : K6
+  (flags=2)
+   attractionCenter : w3
+  (flags=2)
+   attractionStrength : Sd  (flags=2)
+   dampingFactor : Sd  (flags=2)
+   angularSpeed : Y6
+  (flags=2)
+   angularSpeedVariation : Y6
+  (flags=2)
+   colors : }�  (flags=2)
+   size : Sd  (flags=2)
+   sizeVariation : Sd  (flags=2)
+   sizeMultiplierAtDeath : Sd  (flags=2)
+   stretchFactor : Sd  (flags=2)
+== Vortex.VortexSystem.CodingKeys @0x100537a2c kind=2
+   tags :   (flags=0)
+   secondarySystems :   (flags=0)
+   spawnOccasion :   (flags=0)
+   position :   (flags=0)
+   shape :   (flags=0)
+   birthRate :   (flags=0)
+   emissionLimit :   (flags=0)
+   emissionDuration :   (flags=0)
+   idleDuration :   (flags=0)
+   burstCount :   (flags=0)
+   burstCountVariation :   (flags=0)
+   lifespan :   (flags=0)
+   lifespanVariation :   (flags=0)
+   speed :   (flags=0)
+   speedVariation :   (flags=0)
+   angle :   (flags=0)
+   angleRange :   (flags=0)
+   acceleration :   (flags=0)
+   attractionCenter :   (flags=0)
+   attractionStrength :   (flags=0)
+   dampingFactor :   (flags=0)
+   angularSpeed :   (flags=0)
+   angularSpeedVariation :   (flags=0)
+   colors :   (flags=0)
+   size :   (flags=0)
+   sizeVariation :   (flags=0)
+   sizeMultiplierAtDeath :   (flags=0)
+   stretchFactor :   (flags=0)
+== Vortex.VortexProxy @0x100537b8c kind=0
+   particleSystem : ��	  (flags=0)
+   burst : yyc  (flags=0)
+   attractTo : yj>
+  (flags=0)
+== Vortex.VortexSystemPreferenceKey @0x100537bc0 kind=0
+== Vortex.VortexView @0x100537bd0 kind=0
+   symbols : x  (flags=2)
+   _particleSystem : �
+  (flags=2)
+   targetFrameRate : Si  (flags=2)
+== Vortex.VortexViewReader @0x100537c04 kind=0
+   __nearestVortexSystem : �
+  (flags=2)
+   content : x��	  (flags=0)
+== $s6Vortex23_ACResourceInitProtocolP @0x100537c2c kind=4
+== LogStream.ActivityStreamOptions @0x100537c3c kind=0
+   rawValue : u2
+  (flags=0)
+== __C.OSLogType @0x100537c58 kind=0
+   rawValue : �1
+  (flags=2)
+== LogStream.LogEventStreamOptions @0x100537c74 kind=0
+   rawValue : -2
+  (flags=0)
+== LogStream.LogMessage @0x100537c90 kind=0
+   message : SS  (flags=0)
+   date : ��	  (flags=0)
+   subsystem : SSSg  (flags=0)
+   category : SSSg  (flags=0)
+   type : �  (flags=0)
+   process : SS  (flags=0)
+   processID : �0
+  (flags=0)
+== LogStream.LogStream @0x100537cf4 kind=2
+== LogStream.<anon>.EventStreamState @0x100537d04 kind=1
+   lock : So6NSLockC  (flags=0)
+   eventStream : 9LogStream011_OSLogEventB0_pSg  (flags=2)
+   isCancelled : Sb  (flags=2)
+== $s9LogStream011_OSActivityA12MessageEventP @0x100537d38 kind=6
+== $s9LogStream16_OSLogEventStoreP @0x100537d48 kind=6
+== $s9LogStream011_OSLogEventB0P @0x100537d58 kind=6
+== $s9LogStream16_OSLogEventProxyP @0x100537d68 kind=6
+== StringObfuscation.ProtectedText @0x100537d78 kind=2
+== KeychainAccess.ItemClass @0x100537d88 kind=2
+   genericPassword :   (flags=0)
+   internetPassword :   (flags=0)
+== KeychainAccess.ProtocolType @0x100537db0 kind=2
+   ftp :   (flags=0)
+   ftpAccount :   (flags=0)
+   http :   (flags=0)
+   irc :   (flags=0)
+   nntp :   (flags=0)
+   pop3 :   (flags=0)
+   smtp :   (flags=0)
+   socks :   (flags=0)
+   imap :   (flags=0)
+   ldap :   (flags=0)
+   appleTalk :   (flags=0)
+   afp :   (flags=0)
+   telnet :   (flags=0)
+   ssh :   (flags=0)
+   ftps :   (flags=0)
+   https :   (flags=0)
+   httpProxy :   (flags=0)
+   httpsProxy :   (flags=0)
+   ftpProxy :   (flags=0)
+   smb :   (flags=0)
+   rtsp :   (flags=0)
+   rtspProxy :   (flags=0)
+   daap :   (flags=0)
+   eppc :   (flags=0)
+   ipp :   (flags=0)
+   nntps :   (flags=0)
+   ldaps :   (flags=0)
+   telnetS :   (flags=0)
+   imaps :   (flags=0)
+   ircs :   (flags=0)
+   pop3S :   (flags=0)
+== KeychainAccess.AuthenticationType @0x100537f34 kind=2
+   ntlm :   (flags=0)
+   msn :   (flags=0)
+   dpa :   (flags=0)
+   rpa :   (flags=0)
+   httpBasic :   (flags=0)
+   httpDigest :   (flags=0)
+   htmlForm :   (flags=0)
+   default :   (flags=0)
+== KeychainAccess.Accessibility @0x100537fa4 kind=2
+   whenUnlocked :   (flags=0)
+   afterFirstUnlock :   (flags=0)
+   always :   (flags=0)
+   whenPasscodeSetThisDeviceOnly :   (flags=0)
+   whenUnlockedThisDeviceOnly :   (flags=0)
+   afterFirstUnlockThisDeviceOnly :   (flags=0)
+   alwaysThisDeviceOnly :   (flags=0)
+== KeychainAccess.AuthenticationUI @0x100538008 kind=2
+   allow :   (flags=0)
+   fail :   (flags=0)
+   skip :   (flags=0)
+== KeychainAccess.AuthenticationPolicy @0x10053803c kind=0
+   rawValue : Su  (flags=0)
+== KeychainAccess.Attributes @0x100538058 kind=0
+   attributes : SDySSypG  (flags=0)
+== KeychainAccess.Keychain @0x100538074 kind=1
+   options : w�  (flags=0)
+== KeychainAccess.Status @0x100538090 kind=2
+   success :   (flags=0)
+   unimplemented :   (flags=0)
+   diskFull :   (flags=0)
+   io :   (flags=0)
+   opWr :   (flags=0)
+   param :   (flags=0)
+   wrPerm :   (flags=0)
+   allocate :   (flags=0)
+   userCanceled :   (flags=0)
+   badReq :   (flags=0)
+   internalComponent :   (flags=0)
+   notAvailable :   (flags=0)
+   readOnly :   (flags=0)
+   authFailed :   (flags=0)
+   noSuchKeychain :   (flags=0)
+   invalidKeychain :   (flags=0)
+   duplicateKeychain :   (flags=0)
+   duplicateCallback :   (flags=0)
+   invalidCallback :   (flags=0)
+   duplicateItem :   (flags=0)
+   itemNotFound :   (flags=0)
+   bufferTooSmall :   (flags=0)
+   dataTooLarge :   (flags=0)
+   noSuchAttr :   (flags=0)
+   invalidItemRef :   (flags=0)
+   invalidSearchRef :   (flags=0)
+   noSuchClass :   (flags=0)
+   noDefaultKeychain :   (flags=0)
+   interactionNotAllowed :   (flags=0)
+   readOnlyAttr :   (flags=0)
+   wrongSecVersion :   (flags=0)
+   keySizeNotAllowed :   (flags=0)
+   noStorageModule :   (flags=0)
+   noCertificateModule :   (flags=0)
+   noPolicyModule :   (flags=0)
+   interactionRequired :   (flags=0)
+   dataNotAvailable :   (flags=0)
+   dataNotModifiable :   (flags=0)
+   createChainFailed :   (flags=0)
+   invalidPrefsDomain :   (flags=0)
+   inDarkWake :   (flags=0)
+   aclNotSimple :   (flags=0)
+   policyNotFound :   (flags=0)
+   invalidTrustSetting :   (flags=0)
+   noAccessForItem :   (flags=0)
+   invalidOwnerEdit :   (flags=0)
+   trustNotAvailable :   (flags=0)
+   unsupportedFormat :   (flags=0)
+   unknownFormat :   (flags=0)
+   keyIsSensitive :   (flags=0)
+   multiplePrivKeys :   (flags=0)
+   passphraseRequired :   (flags=0)
+   invalidPasswordRef :   (flags=0)
+   invalidTrustSettings :   (flags=0)
+   noTrustSettings :   (flags=0)
+   pkcs12VerifyFailure :   (flags=0)
+   invalidCertificate :   (flags=0)
+   notSigner :   (flags=0)
+   policyDenied :   (flags=0)
+   invalidKey :   (flags=0)
+   decode :   (flags=0)
+   internal :   (flags=0)
+   unsupportedAlgorithm :   (flags=0)
+   unsupportedOperation :   (flags=0)
+   unsupportedPadding :   (flags=0)
+   itemInvalidKey :   (flags=0)
+   itemInvalidKeyType :   (flags=0)
+   itemInvalidValue :   (flags=0)
+   itemClassMissing :   (flags=0)
+   itemMatchUnsupported :   (flags=0)
+   useItemListUnsupported :   (flags=0)
+   useKeychainUnsupported :   (flags=0)
+   useKeychainListUnsupported :   (flags=0)
+   returnDataUnsupported :   (flags=0)
+   returnAttributesUnsupported :   (flags=0)
+   returnRefUnsupported :   (flags=0)
+   returnPersitentRefUnsupported :   (flags=0)
+   valueRefUnsupported :   (flags=0)
+   valuePersistentRefUnsupported :   (flags=0)
+   returnMissingPointer :   (flags=0)
+   matchLimitUnsupported :   (flags=0)
+   itemIllegalQuery :   (flags=0)
+   waitForCallback :   (flags=0)
+   missingEntitlement :   (flags=0)
+   upgradePending :   (flags=0)
+   mpSignatureInvalid :   (flags=0)
+   otrTooOld :   (flags=0)
+   otrIDTooNew :   (flags=0)
+   serviceNotAvailable :   (flags=0)
+   insufficientClientID :   (flags=0)
+   deviceReset :   (flags=0)
+   deviceFailed :   (flags=0)
+   appleAddAppACLSubject :   (flags=0)
+   applePublicKeyIncomplete :   (flags=0)
+   appleSignatureMismatch :   (flags=0)
+   appleInvalidKeyStartDate :   (flags=0)
+   appleInvalidKeyEndDate :   (flags=0)
+   conversionError :   (flags=0)
+   appleSSLv2Rollback :   (flags=0)
+   quotaExceeded :   (flags=0)
+   fileTooBig :   (flags=0)
+   invalidDatabaseBlob :   (flags=0)
+   invalidKeyBlob :   (flags=0)
+   incompatibleDatabaseBlob :   (flags=0)
+   incompatibleKeyBlob :   (flags=0)
+   hostNameMismatch :   (flags=0)
+   unknownCriticalExtensionFlag :   (flags=0)
+   noBasicConstraints :   (flags=0)
+   noBasicConstraintsCA :   (flags=0)
+   invalidAuthorityKeyID :   (flags=0)
+   invalidSubjectKeyID :   (flags=0)
+   invalidKeyUsageForPolicy :   (flags=0)
+   invalidExtendedKeyUsage :   (flags=0)
+   invalidIDLinkage :   (flags=0)
+   pathLengthConstraintExceeded :   (flags=0)
+   invalidRoot :   (flags=0)
+   crlExpired :   (flags=0)
+   crlNotValidYet :   (flags=0)
+   crlNotFound :   (flags=0)
+   crlServerDown :   (flags=0)
+   crlBadURI :   (flags=0)
+   unknownCertExtension :   (flags=0)
+   unknownCRLExtension :   (flags=0)
+   crlNotTrusted :   (flags=0)
+   crlPolicyFailed :   (flags=0)
+   idpFailure :   (flags=0)
+   smimeEmailAddressesNotFound :   (flags=0)
+   smimeBadExtendedKeyUsage :   (flags=0)
+   smimeBadKeyUsage :   (flags=0)
+   smimeKeyUsageNotCritical :   (flags=0)
+   smimeNoEmailAddress :   (flags=0)
+   smimeSubjAltNameNotCritical :   (flags=0)
+   sslBadExtendedKeyUsage :   (flags=0)
+   ocspBadResponse :   (flags=0)
+   ocspBadRequest :   (flags=0)
+   ocspUnavailable :   (flags=0)
+   ocspStatusUnrecognized :   (flags=0)
+   endOfData :   (flags=0)
+   incompleteCertRevocationCheck :   (flags=0)
+   networkFailure :   (flags=0)
+   ocspNotTrustedToAnchor :   (flags=0)
+   recordModified :   (flags=0)
+   ocspSignatureError :   (flags=0)
+   ocspNoSigner :   (flags=0)
+   ocspResponderMalformedReq :   (flags=0)
+   ocspResponderInternalError :   (flags=0)
+   ocspResponderTryLater :   (flags=0)
+   ocspResponderSignatureRequired :   (flags=0)
+   ocspResponderUnauthorized :   (flags=0)
+   ocspResponseNonceMismatch :   (flags=0)
+   codeSigningBadCertChainLength :   (flags=0)
+   codeSigningNoBasicConstraints :   (flags=0)
+   codeSigningBadPathLengthConstraint :   (flags=0)
+   codeSigningNoExtendedKeyUsage :   (flags=0)
+   codeSigningDevelopment :   (flags=0)
+   resourceSignBadCertChainLength :   (flags=0)
+   resourceSignBadExtKeyUsage :   (flags=0)
+   trustSettingDeny :   (flags=0)
+   invalidSubjectName :   (flags=0)
+   unknownQualifiedCertStatement :   (flags=0)
+   mobileMeRequestQueued :   (flags=0)
+   mobileMeRequestRedirected :   (flags=0)
+   mobileMeServerError :   (flags=0)
+   mobileMeServerNotAvailable :   (flags=0)
+   mobileMeServerAlreadyExists :   (flags=0)
+   mobileMeServerServiceErr :   (flags=0)
+   mobileMeRequestAlreadyPending :   (flags=0)
+   mobileMeNoRequestPending :   (flags=0)
+   mobileMeCSRVerifyFailure :   (flags=0)
+   mobileMeFailedConsistencyCheck :   (flags=0)
+   notInitialized :   (flags=0)
+   invalidHandleUsage :   (flags=0)
+   pvcReferentNotFound :   (flags=0)
+   functionIntegrityFail :   (flags=0)
+   internalError :   (flags=0)
+   memoryError :   (flags=0)
+   invalidData :   (flags=0)
+   mdsError :   (flags=0)
+   invalidPointer :   (flags=0)
+   selfCheckFailed :   (flags=0)
+   functionFailed :   (flags=0)
+   moduleManifestVerifyFailed :   (flags=0)
+   invalidGUID :   (flags=0)
+   invalidHandle :   (flags=0)
+   invalidDBList :   (flags=0)
+   invalidPassthroughID :   (flags=0)
+   invalidNetworkAddress :   (flags=0)
+   crlAlreadySigned :   (flags=0)
+   invalidNumberOfFields :   (flags=0)
+   verificationFailure :   (flags=0)
+   unknownTag :   (flags=0)
+   invalidSignature :   (flags=0)
+   invalidName :   (flags=0)
+   invalidCertificateRef :   (flags=0)
+   invalidCertificateGroup :   (flags=0)
+   tagNotFound :   (flags=0)
+   invalidQuery :   (flags=0)
+   invalidValue :   (flags=0)
+   callbackFailed :   (flags=0)
+   aclDeleteFailed :   (flags=0)
+   aclReplaceFailed :   (flags=0)
+   aclAddFailed :   (flags=0)
+   aclChangeFailed :   (flags=0)
+   invalidAccessCredentials :   (flags=0)
+   invalidRecord :   (flags=0)
+   invalidACL :   (flags=0)
+   invalidSampleValue :   (flags=0)
+   incompatibleVersion :   (flags=0)
+   privilegeNotGranted :   (flags=0)
+   invalidScope :   (flags=0)
+   pvcAlreadyConfigured :   (flags=0)
+   invalidPVC :   (flags=0)
+   emmLoadFailed :   (flags=0)
+   emmUnloadFailed :   (flags=0)
+   addinLoadFailed :   (flags=0)
+   invalidKeyRef :   (flags=0)
+   invalidKeyHierarchy :   (flags=0)
+   addinUnloadFailed :   (flags=0)
+   libraryReferenceNotFound :   (flags=0)
+   invalidAddinFunctionTable :   (flags=0)
+   invalidServiceMask :   (flags=0)
+   moduleNotLoaded :   (flags=0)
+   invalidSubServiceID :   (flags=0)
+   attributeNotInContext :   (flags=0)
+   moduleManagerInitializeFailed :   (flags=0)
+   moduleManagerNotFound :   (flags=0)
+   eventNotificationCallbackNotFound :   (flags=0)
+   inputLengthError :   (flags=0)
+   outputLengthError :   (flags=0)
+   privilegeNotSupported :   (flags=0)
+   deviceError :   (flags=0)
+   attachHandleBusy :   (flags=0)
+   notLoggedIn :   (flags=0)
+   algorithmMismatch :   (flags=0)
+   keyUsageIncorrect :   (flags=0)
+   keyBlobTypeIncorrect :   (flags=0)
+   keyHeaderInconsistent :   (flags=0)
+   unsupportedKeyFormat :   (flags=0)
+   unsupportedKeySize :   (flags=0)
+   invalidKeyUsageMask :   (flags=0)
+   unsupportedKeyUsageMask :   (flags=0)
+   invalidKeyAttributeMask :   (flags=0)
+   unsupportedKeyAttributeMask :   (flags=0)
+   invalidKeyLabel :   (flags=0)
+   unsupportedKeyLabel :   (flags=0)
+   invalidKeyFormat :   (flags=0)
+   unsupportedVectorOfBuffers :   (flags=0)
+   invalidInputVector :   (flags=0)
+   invalidOutputVector :   (flags=0)
+   invalidContext :   (flags=0)
+   invalidAlgorithm :   (flags=0)
+   invalidAttributeKey :   (flags=0)
+   missingAttributeKey :   (flags=0)
+   invalidAttributeInitVector :   (flags=0)
+   missingAttributeInitVector :   (flags=0)
+   invalidAttributeSalt :   (flags=0)
+   missingAttributeSalt :   (flags=0)
+   invalidAttributePadding :   (flags=0)
+   missingAttributePadding :   (flags=0)
+   invalidAttributeRandom :   (flags=0)
+   missingAttributeRandom :   (flags=0)
+   invalidAttributeSeed :   (flags=0)
+   missingAttributeSeed :   (flags=0)
+   invalidAttributePassphrase :   (flags=0)
+   missingAttributePassphrase :   (flags=0)
+   invalidAttributeKeyLength :   (flags=0)
+   missingAttributeKeyLength :   (flags=0)
+   invalidAttributeBlockSize :   (flags=0)
+   missingAttributeBlockSize :   (flags=0)
+   invalidAttributeOutputSize :   (flags=0)
+   missingAttributeOutputSize :   (flags=0)
+   invalidAttributeRounds :   (flags=0)
+   missingAttributeRounds :   (flags=0)
+   invalidAlgorithmParms :   (flags=0)
+   missingAlgorithmParms :   (flags=0)
+   invalidAttributeLabel :   (flags=0)
+   missingAttributeLabel :   (flags=0)
+   invalidAttributeKeyType :   (flags=0)
+   missingAttributeKeyType :   (flags=0)
+   invalidAttributeMode :   (flags=0)
+   missingAttributeMode :   (flags=0)
+   invalidAttributeEffectiveBits :   (flags=0)
+   missingAttributeEffectiveBits :   (flags=0)
+   invalidAttributeStartDate :   (flags=0)
+   missingAttributeStartDate :   (flags=0)
+   invalidAttributeEndDate :   (flags=0)
+   missingAttributeEndDate :   (flags=0)
+   invalidAttributeVersion :   (flags=0)
+   missingAttributeVersion :   (flags=0)
+   invalidAttributePrime :   (flags=0)
+   missingAttributePrime :   (flags=0)
+   invalidAttributeBase :   (flags=0)
+   missingAttributeBase :   (flags=0)
+   invalidAttributeSubprime :   (flags=0)
+   missingAttributeSubprime :   (flags=0)
+   invalidAttributeIterationCount :   (flags=0)
+   missingAttributeIterationCount :   (flags=0)
+   invalidAttributeDLDBHandle :   (flags=0)
+   missingAttributeDLDBHandle :   (flags=0)
+   invalidAttributeAccessCredentials :   (flags=0)
+   missingAttributeAccessCredentials :   (flags=0)
+   invalidAttributePublicKeyFormat :   (flags=0)
+   missingAttributePublicKeyFormat :   (flags=0)
+   invalidAttributePrivateKeyFormat :   (flags=0)
+   missingAttributePrivateKeyFormat :   (flags=0)
+   invalidAttributeSymmetricKeyFormat :   (flags=0)
+   missingAttributeSymmetricKeyFormat :   (flags=0)
+   invalidAttributeWrappedKeyFormat :   (flags=0)
+   missingAttributeWrappedKeyFormat :   (flags=0)
+   stagedOperationInProgress :   (flags=0)
+   stagedOperationNotStarted :   (flags=0)
+   verifyFailed :   (flags=0)
+   querySizeUnknown :   (flags=0)
+   blockSizeMismatch :   (flags=0)
+   publicKeyInconsistent :   (flags=0)
+   deviceVerifyFailed :   (flags=0)
+   invalidLoginName :   (flags=0)
+   alreadyLoggedIn :   (flags=0)
+   invalidDigestAlgorithm :   (flags=0)
+   invalidCRLGroup :   (flags=0)
+   certificateCannotOperate :   (flags=0)
+   certificateExpired :   (flags=0)
+   certificateNotValidYet :   (flags=0)
+   certificateRevoked :   (flags=0)
+   certificateSuspended :   (flags=0)
+   insufficientCredentials :   (flags=0)
+   invalidAction :   (flags=0)
+   invalidAuthority :   (flags=0)
+   verifyActionFailed :   (flags=0)
+   invalidCertAuthority :   (flags=0)
+   invaldCRLAuthority :   (flags=0)
+   invalidCRLEncoding :   (flags=0)
+   invalidCRLType :   (flags=0)
+   invalidCRL :   (flags=0)
+   invalidFormType :   (flags=0)
+   invalidID :   (flags=0)
+   invalidIdentifier :   (flags=0)
+   invalidIndex :   (flags=0)
+   invalidPolicyIdentifiers :   (flags=0)
+   invalidTimeString :   (flags=0)
+   invalidReason :   (flags=0)
+   invalidRequestInputs :   (flags=0)
+   invalidResponseVector :   (flags=0)
+   invalidStopOnPolicy :   (flags=0)
+   invalidTuple :   (flags=0)
+   multipleValuesUnsupported :   (flags=0)
+   notTrusted :   (flags=0)
+   noDefaultAuthority :   (flags=0)
+   rejectedForm :   (flags=0)
+   requestLost :   (flags=0)
+   requestRejected :   (flags=0)
+   unsupportedAddressType :   (flags=0)
+   unsupportedService :   (flags=0)
+   invalidTupleGroup :   (flags=0)
+   invalidBaseACLs :   (flags=0)
+   invalidTupleCredendtials :   (flags=0)
+   invalidEncoding :   (flags=0)
+   invalidValidityPeriod :   (flags=0)
+   invalidRequestor :   (flags=0)
+   requestDescriptor :   (flags=0)
+   invalidBundleInfo :   (flags=0)
+   invalidCRLIndex :   (flags=0)
+   noFieldValues :   (flags=0)
+   unsupportedFieldFormat :   (flags=0)
+   unsupportedIndexInfo :   (flags=0)
+   unsupportedLocality :   (flags=0)
+   unsupportedNumAttributes :   (flags=0)
+   unsupportedNumIndexes :   (flags=0)
+   unsupportedNumRecordTypes :   (flags=0)
+   fieldSpecifiedMultiple :   (flags=0)
+   incompatibleFieldFormat :   (flags=0)
+   invalidParsingModule :   (flags=0)
+   databaseLocked :   (flags=0)
+   datastoreIsOpen :   (flags=0)
+   missingValue :   (flags=0)
+   unsupportedQueryLimits :   (flags=0)
+   unsupportedNumSelectionPreds :   (flags=0)
+   unsupportedOperator :   (flags=0)
+   invalidDBLocation :   (flags=0)
+   invalidAccessRequest :   (flags=0)
+   invalidIndexInfo :   (flags=0)
+   invalidNewOwner :   (flags=0)
+   invalidModifyMode :   (flags=0)
+   missingRequiredExtension :   (flags=0)
+   extendedKeyUsageNotCritical :   (flags=0)
+   timestampMissing :   (flags=0)
+   timestampInvalid :   (flags=0)
+   timestampNotTrusted :   (flags=0)
+   timestampServiceNotAvailable :   (flags=0)
+   timestampBadAlg :   (flags=0)
+   timestampBadRequest :   (flags=0)
+   timestampBadDataFormat :   (flags=0)
+   timestampTimeNotAvailable :   (flags=0)
+   timestampUnacceptedPolicy :   (flags=0)
+   timestampUnacceptedExtension :   (flags=0)
+   timestampAddInfoNotAvailable :   (flags=0)
+   timestampSystemFailure :   (flags=0)
+   signingTimeMissing :   (flags=0)
+   timestampRejection :   (flags=0)
+   timestampWaiting :   (flags=0)
+   timestampRevocationWarning :   (flags=0)
+   timestampRevocationNotification :   (flags=0)
+   unexpectedError :   (flags=0)
+== KeychainAccess.Options @0x100539384 kind=0
+   itemClass : )�  (flags=2)
+   service : SS  (flags=2)
+   accessGroup : SSSg  (flags=2)
+   server : 3�	  (flags=2)
+   protocolType : �  (flags=2)
+   authenticationType : U�  (flags=2)
+   accessibility : k�  (flags=2)
+   authenticationPolicy : [�  (flags=2)
+   synchronizable : Sb  (flags=2)
+   label : SSSg  (flags=2)
+   comment : SSSg  (flags=2)
+   authenticationPrompt : SSSg  (flags=2)
+   authenticationUI : 3�  (flags=2)
+   authenticationContext : yXlSg  (flags=2)
+   attributes : SDySSypG  (flags=2)
+== Defaults.<anon>.BundleFinder @0x100539448 kind=1
+== __C.os_unfair_lock_s @0x100539458 kind=0
+   _os_unfair_lock_opaque : .
+  (flags=2)
+== __C.NSKeyValueChangeKey @0x100539474 kind=0
+   _rawValue : So8NSStringC  (flags=2)
+== <anon>.AnySerializable @0x100539490 kind=0
+   value : yp  (flags=2)
+== <anon>.TopLevelCodableBridge @0x1005394ac kind=0
+== <anon>.RawRepresentableCodableBridge @0x1005394bc kind=0
+== <anon>.CodableNSSecureCodingBridge @0x1005394cc kind=0
+== <anon>.URLBridge @0x1005394dc kind=0
+== <anon>.RawRepresentableBridge @0x1005394ec kind=0
+== <anon>.NSSecureCodingBridge @0x1005394fc kind=0
+== <anon>.OptionalBridge @0x10053950c kind=0
+== <anon>.ArrayBridge @0x10053951c kind=0
+== <anon>.DictionaryBridge @0x10053952c kind=0
+== <anon>.SetBridge @0x10053953c kind=0
+== <anon>.SetAlgebraBridge @0x10053954c kind=0
+== <anon>.CollectionBridge @0x10053955c kind=0
+== <anon>.UUIDBridge @0x10053956c kind=0
+== <anon>.RangeBridge @0x10053957c kind=0
+== <anon>.ColorBridge @0x10053958c kind=0
+== $s8DefaultsAAO12SerializableP @0x1005395ac kind=4
+== $s8DefaultsAAO6BridgeP @0x1005395bc kind=4
+== $s8DefaultsAAO22PreferRawRepresentableP @0x1005395cc kind=4
+== $s8DefaultsAAO20PreferNSSecureCodingP @0x1005395dc kind=5
+== $s8DefaultsAAO22CollectionSerializableP @0x1005395ec kind=4
+== $s8DefaultsAAO22SetAlgebraSerializableP @0x1005395fc kind=4
+== $s8DefaultsAAO13CodableBridgeP @0x10053960c kind=4
+== $s8DefaultsAAO5RangeP @0x10053961c kind=4
+== $s8Defaults0A13KeyValueStoreP @0x10053962c kind=4
+== $s8Defaults0A12LockProtocolP @0x10053963c kind=4
+== ����.<anon>.iCloud @0x10053964c kind=2
+== Defaults.iCloudSynchronizer @0x10053965c kind=1
+   cancellables : Shy0�	  (flags=2)
+   defaultsSyncKey : SS  (flags=0)
+   remoteStorage : q�	  (flags=0)
+   backgroundQueue : ��	  (flags=0)
+   _keys : [�	  (flags=2)
+   _remoteSyncingKeys : [�	  (flags=2)
+   $__lazy_storage_$_localKeysMonitor : y�	  (flags=2)
+== ����.<anon>.iCloud.DataSource @0x1005396c0 kind=2
+   local :   (flags=0)
+   remote :   (flags=0)
+== Defaults.Defaults @0x1005396e8 kind=2
+== Defaults.Defaults.Key @0x100539720 kind=1
+   defaultValueGetter : xyc  (flags=0)
+== <anon>.DefaultsSubscription @0x10053973c kind=1
+   subscriber : xSg  (flags=2)
+   observation : ��	  (flags=2)
+   options : Shy�	  (flags=0)
+== <anon>.DefaultsPublisher @0x100539770 kind=0
+   suite : So14NSUserDefaultsC  (flags=0)
+   key : SS  (flags=0)
+   options : Shy�	  (flags=0)
+== $s8Defaults01_A11ObservationP @0x1005397a4 kind=5
+== <anon>.ObservationOption @0x1005397b4 kind=2
+   initial :   (flags=0)
+   prior :   (flags=0)
+== <anon>.KeyChange @0x1005397dc kind=0
+   kind : Մ  (flags=0)
+   indexes : ��	  (flags=0)
+   isPrior : Sb  (flags=0)
+   newValue : x  (flags=0)
+   oldValue : x  (flags=0)
+== <anon>.SuiteKeyPair @0x100539828 kind=1
+   suite : So14NSUserDefaultsCSgXw  (flags=2)
+   key : SS  (flags=0)
+== <anon>.DefaultsObservationWithLifeTime @0x10053989c kind=1
+   observation : �	  (flags=2)
+   lifetimeAssociation : [�	  (flags=2)
+== <anon>.CompositeDefaultsObservation @0x1005398c4 kind=1
+   observations : Shy6�  (flags=2)
+   callback : y&�  (flags=0)
+   lifetimeAssociation : [�	  (flags=2)
+== <anon>.Observable @0x100539944 kind=1
+   cancellable : O�	  (flags=2)
+   task : ScTyytQ
+  (flags=2)
+   key : �	  (flags=0)
+   objectWillChange : ��	  (flags=0)
+== Defaults.Default @0x100539984 kind=0
+   key : �	  (flags=0)
+   _observable : ��	  (flags=2)
+== <anon>.Toggle @0x1005399ac kind=0
+   _onChange : �  (flags=2)
+   label : xyc  (flags=0)
+   _observable : )�	  (flags=2)
+== Defaults.<anon>.ViewStorage.ValueBox @0x1005399e0 kind=1
+   value : x  (flags=2)
+== Defaults.<anon>.ViewStorage @0x1005399fc kind=0
+   _valueBox : �
+  (flags=2)
+== Defaults.ObjectAssociation @0x100539a18 kind=1
+== Defaults.LifetimeAssociation @0x100539a28 kind=1
+   wrappedObject : �  (flags=2)
+   owner : yXlSgXw  (flags=2)
+== Defaults.LifetimeAssociation.<anon>.ObjectLifetimeTracker @0x100539a50 kind=1
+   object : yXlSg  (flags=2)
+   deinitHandler : yyc  (flags=2)
+== $s8Defaults01_A16OptionalProtocolP @0x100539a78 kind=4
+== Defaults.Lock.UnfairLock @0x100539a98 kind=1
+   _lock : Spy�'
+  (flags=0)
+== Defaults.Lock.AllocatedUnfairLock @0x100539ab4 kind=1
+   _lock : �&
+  (flags=0)
+== Defaults._DefaultsAtomic @0x100539af8 kind=1
+   lock : o�	  (flags=0)
+   _value : x  (flags=2)
+== Shimmer.Shimmer @0x100539b20 kind=0
+   animation : �	
+  (flags=0)
+   gradient : A	
+  (flags=0)
+   min : �
+  (flags=0)
+   max : �
+  (flags=0)
+   mode : �  (flags=0)
+   __isInitialState : �
+  (flags=2)
+   _layoutDirection : ��	  (flags=2)
+== Shimmer.Shimmer.Mode @0x100539b84 kind=2
+   overlay : 
+  (flags=0)
+   mask :   (flags=0)
+   background :   (flags=0)

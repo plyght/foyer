@@ -1,0 +1,6 @@
+            ; ICOD XREF from sym.func.1001a5208 @ 0x1001a5af8(r)
+            ; CODE XREF from sym.func.1001b0eec @ 0x1001b0eec(x)
+/ 12: sym.func.1001b035c ();
+|           0x1001b035c      a0ffffd0       adrp x0, 0x1001a6000
+|           0x1001b0360      00d00691       add x0, x0, 0x1b4
+\       ,=< 0x1001b0364      01000014       b sym.func.1001b0368

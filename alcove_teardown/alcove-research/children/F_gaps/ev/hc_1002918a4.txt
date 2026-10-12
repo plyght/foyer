@@ -1,0 +1,34 @@
+            ; ICOD XREF from sym.func.100291820 @ 0x100291860(r)
+/ 116: sym.func.1002918a4 ();
+| `- args(x20) vars(4:sp[0x8..0x20])
+|           0x1002918a4      bd0344b2       orr x29, x29, 0x1000000000000000
+|           0x1002918a8      f30f1ef8       str x19, [var_20h]!
+|           0x1002918ac      fd7b01a9       stp x29, x30, [var_10h]
+|           0x1002918b0      f60700f9       str x22, [var_8h]
+|           0x1002918b4      fd430091       add x29, sp, 0x10
+|           0x1002918b8      d30240f9       ldr x19, [x22]
+|           0x1002918bc      b3831ff8       stur x19, [var_8h]
+|           0x1002918c0      606640f9       ldr x0, [x19, 0xc8]
+|           0x1002918c4      d60240f9       ldr x22, [x22]
+|           0x1002918c8      746a00f9       str x20, [x19, 0xd0]       ; self
+|           0x1002918cc      a1f00694       bl sym.imp.swift_task_dealloc
+|       ,=< 0x1002918d0      f40000b4       cbz x20, 0x1002918ec
+|       |   0x1002918d4      e00314aa       mov x0, x20                ; self
+|       |   0x1002918d8      05f00694       bl sym.imp.swift_errorRelease
+|       |   0x1002918dc      618a4ba9       ldp x1, x2, [x19, 0xb8]
+|       |   0x1002918e0      00000090       adrp x0, 0x100291000
+|       |   0x1002918e4      00803491       add x0, x0, 0xd20
+|      ,==< 0x1002918e8      08000014       b 0x100291908
+|      ||   ; CODE XREF from sym.func.1002918a4 @ 0x1002918d0(x)
+|      |`-> 0x1002918ec      688249a9       ldp x8, x0, [x19, 0x98]
+|      |    0x1002918f0      614a40f9       ldr x1, [x19, 0x90]
+|      |    0x1002918f4      080540f9       ldr x8, [x8, 8]
+|      |    0x1002918f8      00013fd6       blr x8
+|      |    0x1002918fc      618a4ba9       ldp x1, x2, [x19, 0xb8]
+|      |    0x100291900      00000090       adrp x0, 0x100291000
+|      |    0x100291904      00602491       add x0, x0, 0x918
+|      |    ; CODE XREF from sym.func.1002918a4 @ 0x1002918e8(x)
+|      `--> 0x100291908      fd7b41a9       ldp x29, x30, [var_10h]
+|           0x10029190c      f30742f8       ldr x19, [sp], 0x20
+|           0x100291910      bdfb4392       and x29, x29, 0xefffffffffffffff
+\       ,=< 0x100291914      a7f00614       b sym.imp.swift_task_switch

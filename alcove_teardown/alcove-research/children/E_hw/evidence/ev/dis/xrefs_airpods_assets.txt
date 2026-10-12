@@ -1,0 +1,2 @@
+sym.func.100108c18 0x100108f30 [STRN:r--] add x8, x8, str.airpods_max_midnight
+sym.func.100108c18 0x100109684 [STRN:r--] add x8, x8, str.airpods_max_blue

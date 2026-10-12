@@ -1,0 +1,15 @@
+== NATURAL ON: dy=+40 (was dismiss)  seq=0:5,0:5,0:5,0:5,0:5,0:5,0:5,0:5
+1791740827.291 swipeseq ended cum=(0.0,40.0)
+1791740828.189 width=234 left=683 height=33
+1791740829.617 width=218 left=691 height=29
+== NATURAL ON: dy=-40 (was open)  seq=0:-5,0:-5,0:-5,0:-5,0:-5,0:-5,0:-5,0:-5
+1791740830.371 swipeseq ended cum=(0.0,-40.0)
+1791740831.275 width=365 left=618 height=120
+1791740832.759 width=218 left=691 height=29
+== NATURAL ON: open then +120 (was close)  seq=0:-5,0:-5,0:-5,0:-5,0:-5,0:-5,0:-5,0:-5
+1791740833.555 swipeseq ended cum=(0.0,-40.0)
+1791740834.472 width=365 left=618 height=120
+1791740836.365 swipeseq ended cum=(0.0,120.0)
+1791740837.468 width=234 left=683 height=33
+1791740837.766 swipeseq ended cum=(0.0,-120.0)
+1791740838.876 width=234 left=683 height=33

@@ -1,0 +1,5 @@
+0x1003187f8 objc   method   2      centralManagerDidUpdateState:
+0x100453b78 objc   method   4      centralManagerDidUpdateState:
+0x100453b78 objc   method   5      centralManagerDidUpdateState:
+0x100515dec [0x100515dec - 0x100515dec]      0 swift class 87 Alcove.LockPanel :: __C.NSPanel
+0x1005cdbc8 [0x1000eff2c - 0x1000eff70]     68 objc class 585 Alcove.LockPanel :: NSPanel

@@ -1,0 +1,37 @@
+== open(-40) then close attempt +70
+1791740197.471 swipeseq ended cum=(0.0,70.0)
+before: 1791740197.140 width=365 left=618 height=120
+1791740198.500 width=365 left=618 height=120
+== open(-40) then close attempt +80
+1791740202.026 swipeseq ended cum=(0.0,80.0)
+before: 1791740201.702 width=365 left=618 height=120
+1791740203.050 width=365 left=618 height=120
+== open(-40) then close attempt +90
+1791740206.583 swipeseq ended cum=(0.0,90.0)
+before: 1791740206.261 width=365 left=618 height=120
+1791740207.609 width=365 left=618 height=120
+== open(-40) then close attempt +100
+1791740211.164 swipeseq ended cum=(0.0,100.0)
+before: 1791740210.840 width=365 left=618 height=120
+1791740212.202 width=365 left=618 height=120
+== open(-40) then close attempt +110
+1791740215.741 swipeseq ended cum=(0.0,110.0)
+before: 1791740215.414 width=365 left=618 height=120
+1791740216.794 width=234 left=683 height=33
+##### dismiss scan on compact (positive dy)
+== dismiss dy=+32
+1791740219.078 swipeseq ended cum=(0.0,32.0)
+1791740220.027 width=234 left=683 height=33
+== dismiss dy=+34
+1791740222.032 swipeseq ended cum=(0.0,34.0)
+1791740222.974 width=234 left=683 height=33
+== dismiss dy=+36
+1791740224.955 swipeseq ended cum=(0.0,36.0)
+1791740225.908 width=152 left=724 height=33
+dismissed -> restarting Alcove
+1791740235.388 width=218 left=691 height=29
+== dismiss dy=+38
+1791740236.164 swipeseq ended cum=(0.0,38.0)
+1791740237.115 width=152 left=724 height=33
+dismissed -> restarting Alcove
+1791740246.575 width=218 left=691 height=29

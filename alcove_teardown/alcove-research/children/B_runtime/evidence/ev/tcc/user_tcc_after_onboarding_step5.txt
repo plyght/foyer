@@ -1,0 +1,2 @@
+kTCCServiceCalendar|com.henrikruscon.Alcove|2|2|UNUSED|2026-10-11 17:04:30
+kTCCServiceBluetoothAlways|com.henrikruscon.Alcove|2|2|UNUSED|2026-10-11 17:04:44

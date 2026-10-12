@@ -1,0 +1,58 @@
+            ; CODE XREF from sym.func.100359230 @ 0x100359304(x)
+/ 220: sym.func.10035d3ec ();
+| afv: vars(4:sp[0x8..0x20])
+|           0x10035d3ec      bd0344b2       orr x29, x29, 0x1000000000000000
+|           0x10035d3f0      f30f1ef8       str x19, [var_20h]!
+|           0x10035d3f4      fd7b01a9       stp x29, x30, [var_10h]
+|           0x10035d3f8      f60700f9       str x22, [var_8h]
+|           0x10035d3fc      fd430091       add x29, sp, 0x10
+|           0x10035d400      a01300d0       adrp x0, field.class.Alcove.MissionControlManager.var.cancellables ; 0x1005d3000
+|           0x10035d404      00401191       add x0, x0, 0x450          ; int64_t arg1
+|           0x10035d408      c10700b0       adrp x1, 0x100456000
+|           0x10035d40c      21401391       add x1, x1, 0x4d0          ; int64_t arg2
+|           0x10035d410      c395f297       bl sym.func.100002b1c
+|           0x10035d414      08805ff8       ldur x8, [x0, -8]
+|           0x10035d418      082140f9       ldr x8, [x8, 0x40]
+|           0x10035d41c      083d0091       add x8, x8, 0xf
+|           0x10035d420      00ed7c92       and x0, x8, 0xfffffffffffffff0
+|           0x10035d424      c5c10394       bl sym.imp.swift_task_alloc
+|           0x10035d428      c04200f9       str x0, [x22, 0x80]
+|           0x10035d42c      e01300b0       adrp x0, 0x1005da000
+|           0x10035d430      00802291       add x0, x0, 0x8a0          ; int64_t arg1
+|           0x10035d434      a10800d0       adrp x1, 0x100473000
+|           0x10035d438      21001791       add x1, x1, 0x5c0          ; int64_t arg2
+|           0x10035d43c      b895f297       bl sym.func.100002b1c
+|           0x10035d440      c04600f9       str x0, [x22, 0x88]
+|           0x10035d444      08805ff8       ldur x8, [x0, -8]
+|           0x10035d448      c84a00f9       str x8, [x22, 0x90]
+|           0x10035d44c      082140f9       ldr x8, [x8, 0x40]
+|           0x10035d450      c84e00f9       str x8, [x22, 0x98]
+|           0x10035d454      143d0091       add x20, x8, 0xf
+|           0x10035d458      80ee7c92       and x0, x20, 0xfffffffffffffff0
+|           0x10035d45c      b7c10394       bl sym.imp.swift_task_alloc
+|           0x10035d460      c05200f9       str x0, [x22, 0xa0]
+|           0x10035d464      80ee7c92       and x0, x20, 0xfffffffffffffff0
+|           0x10035d468      b4c10394       bl sym.imp.swift_task_alloc
+|           0x10035d46c      c05600f9       str x0, [x22, 0xa8]
+|           0x10035d470      000080d2       mov x0, 0
+|           0x10035d474      00bb0394       bl sym.imp....ScMMa
+|           0x10035d478      f30300aa       mov x19, x0
+|           0x10035d47c      c05a00f9       str x0, [x22, 0xb0]
+|           0x10035d480      f40300aa       mov x20, x0
+|           0x10035d484      f9ba0394       bl sym.imp.shared_...cMvgZ_ ; shared(...cMvgZ)
+|           0x10035d488      c05e00f9       str x0, [x22, 0xb8]
+|           0x10035d48c      c11200b0       adrp x1, reloc.Int64...VMn ; 0x1005b6000
+|           0x10035d490      21d043f9       ldr x1, [x1, 0x7a0]        ; [0x1005b67a0:8]=0x8010000000000ad5 ; reloc....ScMScAsWP
+|           0x10035d494      f40300aa       mov x20, x0
+|           0x10035d498      e00313aa       mov x0, x19
+|           0x10035d49c      e1ba0394       bl sym.imp.unownedExecutor_...cevgTj_ ; unownedExecutor(...cevgTj)
+|           0x10035d4a0      e20300aa       mov x2, x0
+|           0x10035d4a4      e30301aa       mov x3, x1
+|           0x10035d4a8      00000090       adrp x0, sym.func.10035d000 ; 0x10035d000
+|           0x10035d4ac      00201391       add x0, x0, 0x4c8
+|           0x10035d4b0      e10302aa       mov x1, x2
+|           0x10035d4b4      e20303aa       mov x2, x3
+|           0x10035d4b8      fd7b41a9       ldp x29, x30, [var_10h]
+|           0x10035d4bc      f30742f8       ldr x19, [sp], 0x20
+|           0x10035d4c0      bdfb4392       and x29, x29, 0xefffffffffffffff
+\       ,=< 0x10035d4c4      bbc10314       b sym.imp.swift_task_switch

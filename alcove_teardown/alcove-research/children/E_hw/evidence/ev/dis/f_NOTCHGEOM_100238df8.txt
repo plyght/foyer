@@ -1,0 +1,173 @@
+            ; CALL XREF from sym.func.100233518 @ 0x1002335a4(x)
+            ; CALL XREF from sym.func.10035ac84 @ 0x10035ad84(x)
+/ 632: sym.func.100238df8 (int64_t arg1, int64_t arg2);
+| `- args(x0, x1) vars(38:sp[0x8..0x130])
+|           0x100238df8      ffc304d1       sub sp, sp, 0x130
+|           0x100238dfc      ef3b0c6d       stp d15, d14, [var_c0h]
+|           0x100238e00      ed330d6d       stp d13, d12, [var_d0h]
+|           0x100238e04      eb2b0e6d       stp d11, d10, [var_e0h]
+|           0x100238e08      e9230f6d       stp d9, d8, [var_f0h]
+|           0x100238e0c      fc6f10a9       stp x28, x27, [var_100h]
+|           0x100238e10      f44f11a9       stp x20, x19, [var_110h]
+|           0x100238e14      fd7b12a9       stp x29, x30, [var_120h]
+|           0x100238e18      fd830491       add x29, sp, 0x120
+|           0x100238e1c      f30301aa       mov x19, x1                ; arg2
+|           0x100238e20      f40300aa       mov x20, x0                ; arg1
+|           0x100238e24      e8830091       add x8, sp, 0x20
+|           0x100238e28      cb4d0894       bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+|           0x100238e2c      e8034139       ldrb w8, [var_40h]
+|           0x100238e30      1f050071       cmp w8, 1
+|       ,=< 0x100238e34      60060054       b.eq 0x100238f00
+|       |   0x100238e38      e20f436d       ldp d2, d3, [var_30h]
+|       |   0x100238e3c      e007426d       ldp d0, d1, [var_20h]
+|       |   0x100238e40      e0500894       bl sym.imp.CGRectGetWidth
+|       |   0x100238e44      081ca04e       mov v8.16b, v0.16b
+|       |   0x100238e48      e8230191       add x8, sp, 0x48
+|       |   0x100238e4c      c54d0894       bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+|       |   0x100238e50      e8a34139       ldrb w8, [var_68h]
+|       |   0x100238e54      1f050071       cmp w8, 1
+|      ,==< 0x100238e58      40050054       b.eq 0x100238f00
+|      ||   0x100238e5c      e28f456d       ldp d2, d3, [var_58h]
+|      ||   0x100238e60      e087446d       ldp d0, d1, [var_48h]
+|      ||   0x100238e64      d7500894       bl sym.imp.CGRectGetWidth
+|      ||   0x100238e68      0a1ca04e       mov v10.16b, v0.16b
+|      ||   0x100238e6c      e00314aa       mov x0, x20
+|      ||   0x100238e70      8c600894       bl fcn.1004510a0
+|      ||   0x100238e74      091ca04e       mov v9.16b, v0.16b
+|      ||   0x100238e78      e00314aa       mov x0, x20
+|      ||   0x100238e7c      61590894       bl fcn.10044f400
+|      ||   0x100238e80      d0500894       bl sym.imp.CGRectGetWidth
+|      ||   0x100238e84      0b1ca04e       mov v11.16b, v0.16b
+|      ||   0x100238e88      e00314aa       mov x0, x20
+|      ||   0x100238e8c      85600894       bl fcn.1004510a0
+|      ||   0x100238e90      0820601e       fcmp d0, 0.0
+|     ,===< 0x100238e94      6d030054       b.le 0x100238f00
+|     |||   0x100238e98      e8c30191       add x8, sp, 0x70
+|     |||   0x100238e9c      ae4d0894       bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+|     |||   0x100238ea0      e8434239       ldrb w8, [var_90h]
+|     |||   0x100238ea4      1f050071       cmp w8, 1
+|    ,====< 0x100238ea8      c0020054       b.eq 0x100238f00
+|    ||||   0x100238eac      ec37476d       ldp d12, d13, [var_70h]
+|    ||||   0x100238eb0      ee3f486d       ldp d14, d15, [var_80h]
+|    ||||   0x100238eb4      a82302d1       sub x8, x29, 0x88
+|    ||||   0x100238eb8      aa4d0894       bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+|    ||||   0x100238ebc      a8835938       ldurb w8, [var_bp_68h]
+|    ||||   0x100238ec0      1f050071       cmp w8, 1
+|   ,=====< 0x100238ec4      e0010054       b.eq 0x100238f00
+|   |||||   0x100238ec8      a183776d       ldp d1, d0, [var_88h]
+|   |||||   0x100238ecc      e007016d       stp d0, d1, [var_10h]
+|   |||||   0x100238ed0      a183786d       ldp d1, d0, [var_78h]
+|   |||||   0x100238ed4      e007006d       stp d0, d1, [sp]
+|   |||||   0x100238ed8      801dac4e       mov v0.16b, v12.16b
+|   |||||   0x100238edc      a11dad4e       mov v1.16b, v13.16b
+|   |||||   0x100238ee0      c21dae4e       mov v2.16b, v14.16b
+|   |||||   0x100238ee4      e31daf4e       mov v3.16b, v15.16b
+|   |||||   0x100238ee8      c2500894       bl sym.imp.CGRectIsEmpty
+|  ,======< 0x100238eec      a0000037       tbnz w0, 0, 0x100238f00
+|  ||||||   0x100238ef0      e103416d       ldp d1, d0, [var_10h]
+|  ||||||   0x100238ef4      e30b406d       ldp d3, d2, [sp]
+|  ||||||   0x100238ef8      be500894       bl sym.imp.CGRectIsEmpty
+| ,=======< 0x100238efc      e0080036       tbz w0, 0, 0x100239018
+| |||||||   ; XREFS: CODE 0x100238e34  CODE 0x100238e58  CODE 0x100238e94  
+| |||||||   ; XREFS: CODE 0x100238ea8  CODE 0x100238ec4  CODE 0x100238eec  
+| |``````-> 0x100238f00      e00314aa       mov x0, x20
+| |         0x100238f04      3f590894       bl fcn.10044f400
+| |         0x100238f08      9f500894       bl sym.imp.CGRectGetMaxY
+| |         0x100238f0c      081ca04e       mov v8.16b, v0.16b
+| |         0x100238f10      e00314aa       mov x0, x20
+| |         0x100238f14      9b680894       bl fcn.100453180
+| |         0x100238f18      9b500894       bl sym.imp.CGRectGetMaxY
+| |         0x100238f1c      0021601e       fcmp d8, d0
+| |     ,=< 0x100238f20      b3010036       tbz w19, 0, 0x100238f54
+| |    ,==< 0x100238f24      cd030054       b.le 0x100238f9c
+| |    ||   0x100238f28      e00314aa       mov x0, x20
+| |    ||   0x100238f2c      35590894       bl fcn.10044f400
+| |    ||   0x100238f30      95500894       bl sym.imp.CGRectGetMaxY
+| |    ||   0x100238f34      081ca04e       mov v8.16b, v0.16b
+| |    ||   0x100238f38      e00314aa       mov x0, x20
+| |    ||   0x100238f3c      91680894       bl fcn.100453180
+| |    ||   0x100238f40      91500894       bl sym.imp.CGRectGetMaxY
+| |    ||   0x100238f44      0039601e       fsub d0, d8, d0
+| |    ||   0x100238f48      01107e1e       fmov d1, -1.00000000
+| |    ||   0x100238f4c      0128611e       fadd d1, d0, d1
+| |   ,===< 0x100238f50      14000014       b 0x100238fa0
+| |   |||   ; CODE XREF from sym.func.100238df8 @ 0x100238f20(x)
+| |  ,==`-> 0x100238f54      8d030054       b.le 0x100238fc4
+| |  |||    0x100238f58      e00314aa       mov x0, x20
+| |  |||    0x100238f5c      29590894       bl fcn.10044f400
+| |  |||    0x100238f60      89500894       bl sym.imp.CGRectGetMaxY
+| |  |||    0x100238f64      081ca04e       mov v8.16b, v0.16b
+| |  |||    0x100238f68      e00314aa       mov x0, x20
+| |  |||    0x100238f6c      85680894       bl fcn.100453180
+| |  |||    0x100238f70      85500894       bl sym.imp.CGRectGetMaxY
+| |  |||    0x100238f74      0039601e       fsub d0, d8, d0
+| |  |||    0x100238f78      01d0721e       fmov d1, -5.50000000
+| |  |||    0x100238f7c      0128611e       fadd d1, d0, d1
+| |  |||    0x100238f80      0800dcd2       mov x8, 0xe00000000000
+| |  |||    0x100238f84      a80ce8f2       movk x8, 0x4065, lsl 48    ; 'e@'
+| |  |||    0x100238f88      0301679e       fmov d3, x8
+| |  |||    0x100238f8c      0800c2d2       mov x8, 0x100000000000
+| |  |||    0x100238f90      880ee8f2       movk x8, 0x4074, lsl 48    ; 't@'
+| |  |||    0x100238f94      0201679e       fmov d2, x8
+| |  |||,=< 0x100238f98      14000014       b 0x100238fe8
+| |  ||||   ; CODE XREF from sym.func.100238df8 @ 0x100238f24(x)
+| |  ||`--> 0x100238f9c      0110671e       fmov d1, 24.00000000
+| |  || |   ; CODE XREF from sym.func.100238df8 @ 0x100238f50(x)
+| |  |`---> 0x100238fa0      0800dcd2       mov x8, 0xe00000000000
+| |  |  |   0x100238fa4      a80ce8f2       movk x8, 0x4065, lsl 48    ; 'e@'
+| |  |  |   0x100238fa8      0301679e       fmov d3, x8
+| |  |  |   0x100238fac      0800d2d2       mov x8, 0x900000000000
+| |  |  |   0x100238fb0      a80ee8f2       movk x8, 0x4075, lsl 48    ; 'u@'
+| |  |  |   0x100238fb4      0201679e       fmov d2, x8
+| |  |  |   0x100238fb8      0800d0d2       mov x8, 0x800000000000
+| |  |  |   0x100238fbc      280ce8f2       movk x8, 0x4061, lsl 48    ; 'a@'
+| |  | ,==< 0x100238fc0      0c000014       b 0x100238ff0
+| |  | ||   ; CODE XREF from sym.func.100238df8 @ 0x100238f54(x)
+| |  `----> 0x100238fc4      0800dcd2       mov x8, 0xe00000000000
+| |    ||   0x100238fc8      a80ce8f2       movk x8, 0x4065, lsl 48    ; 'e@'
+| |    ||   0x100238fcc      0301679e       fmov d3, x8
+| |    ||   0x100238fd0      0800c2d2       mov x8, 0x100000000000
+| |    ||   0x100238fd4      880ee8f2       movk x8, 0x4074, lsl 48    ; 't@'
+| |    ||   0x100238fd8      0201679e       fmov d2, x8
+| |    ||   0x100238fdc      0800d0d2       mov x8, 0x800000000000
+| |    ||   0x100238fe0      6806e8f2       movk x8, 0x4033, lsl 48    ; '3@'
+| |    ||   0x100238fe4      0101679e       fmov d1, x8
+| |    ||   ; CODE XREF from sym.func.100238df8 @ 0x100238f98(x)
+| |    |`-> 0x100238fe8      0800d0d2       mov x8, 0x800000000000
+| |    |    0x100238fec      480ae8f2       movk x8, 0x4052, lsl 48    ; 'R@'
+| |    |    ; CODE XREF from sym.func.100238df8 @ 0x100238fc0(x)
+| |    `--> 0x100238ff0      0001679e       fmov d0, x8
+| |         ; CODE XREFS from sym.func.100238df8 @ 0x100239064(x), 0x10023906c(x)
+| |    ..-> 0x100238ff4      fd7b52a9       ldp x29, x30, [var_120h]
+| |    ::   0x100238ff8      f44f51a9       ldp x20, x19, [var_110h]
+| |    ::   0x100238ffc      fc6f50a9       ldp x28, x27, [var_100h]
+| |    ::   ; XREFS(42)
+| |    ::   0x100239000      e9234f6d       ldp d9, d8, [var_f0h]
+| |    ::   0x100239004      eb2b4e6d       ldp d11, d10, [var_e0h]
+| |    ::   0x100239008      ed334d6d       ldp d13, d12, [var_d0h]
+| |    ::   0x10023900c      ef3b4c6d       ldp d15, d14, [var_c0h]
+| |    ::   0x100239010      ffc30491       add sp, sp, 0x130          ; 0x178000
+| |    ::   0x100239014      c0035fd6       ret
+| |    ::   ; CODE XREF from sym.func.100238df8 @ 0x100238efc(x)
+| `-------> 0x100239018      6039681e       fsub d0, d11, d8
+|      ::   0x10023901c      00386a1e       fsub d0, d0, d10
+|      ::   0x100239020      880ce8d2       mov x8, 0x4064000000000000
+|      ::   0x100239024      0101679e       fmov d1, x8
+|      ::   0x100239028      0128611e       fadd d1, d0, d1
+|      ::   0x10023902c      0800d2d2       mov x8, 0x900000000000
+|      ::   0x100239030      a80ee8f2       movk x8, 0x4075, lsl 48    ; 'u@'
+|      ::   0x100239034      0201679e       fmov d2, x8
+|      ::   0x100239038      2020621e       fcmp d1, d2
+|      ::   0x10023903c      429c611e       fcsel d2, d2, d1, ls
+|      ::   0x100239040      0800d8d2       mov x8, 0xc00000000000
+|      ::   0x100239044      280ce8f2       movk x8, 0x4061, lsl 48    ; 'a@'
+|      ::   0x100239048      0301679e       fmov d3, x8
+|      ::   0x10023904c      211da94e       mov v1.16b, v9.16b
+|      ::   0x100239050      2329631e       fadd d3, d9, d3
+|      ::   0x100239054      0800dcd2       mov x8, 0xe00000000000
+|      ::   0x100239058      a80ce8f2       movk x8, 0x4065, lsl 48    ; 'e@'
+|      ::   0x10023905c      0401679e       fmov d4, x8
+|      ::   0x100239060      6020641e       fcmp d3, d4
+|      `==< 0x100239064      88fcff54       b.hi 0x100238ff4
+|       :   0x100239068      0301679e       fmov d3, x8
+\       `=< 0x10023906c      e2ffff17       b 0x100238ff4

@@ -1,0 +1,32 @@
+AXGroup | t=missing value | v=missing value | d=group | 490,420 620x687
+AXImage | t=missing value | v=missing value | d=image | 735,438 14x14
+AXStaticText | t=missing value | v=License | d=text | 761,435 56x19
+AXButton | t=missing value | v=missing value | d=button | 502,473 200x38
+AXStaticText | t=missing value | v=Notifications | d=text | 510,530 80x16
+AXButton | t=missing value | v=missing value | d=button | 502,553 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,591 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,629 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,667 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,705 200x38
+AXStaticText | t=missing value | v=Live Activities | d=text | 510,762 86x16
+AXButton | t=missing value | v=missing value | d=button | 502,784 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,822 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,860 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,898 200x38
+AXStaticText | t=missing value | v=Alcove | d=text | 510,956 42x16
+AXButton | t=missing value | v=missing value | d=button | 502,978 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,1016 200x38
+AXScrollArea | t=missing value | v=missing value | d=scroll area | 715,470 395x637
+AXImage | t=missing value | v=missing value | d=image | 745,486 14x14
+AXStaticText | t=missing value | v=Trial | d=text | 767,484 26x16
+AXStaticText | t=missing value | v=Activate | d=text | 739,528 51x16
+AXButton | t=missing value | v=missing value | d=button | 1034,528 58x16
+AXImage | t=missing value | v=missing value | d=image | 744,564 9x16
+AXTextField | t=missing value | v= | d=text field | 761,564 288x16
+AXToolbar | t=missing value | v=missing value | d=toolbar | 490,420 620x66
+AXButton | t=missing value | v=missing value | d=close button | 508,438 16x16
+AXButton | t=missing value | v=missing value | d=zoom button | 554,438 16x16
+AXGroup | t=missing value | v=missing value | d=group | 555,439 14x14
+AXGroup | t=missing value | v=missing value | d=group | 555,439 14x14
+AXButton | t=missing value | v=missing value | d=minimize button | 531,438 16x16
+

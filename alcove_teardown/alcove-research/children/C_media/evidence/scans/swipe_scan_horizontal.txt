@@ -1,0 +1,40 @@
+== mid-gesture probe: began(-40) then hold 2s, probe at 1.2s, then changed(0) and ended
+1791739904.956 width=234 left=683 height=33
+1791739909.697 swipeseq ended cum=(0.0,-40.0)
+1791739910.339 width=365 left=618 height=120
+== mid-gesture probe: began(-20) hold, probe (below threshold), then -20 more
+1791739913.682 width=234 left=683 height=33
+1791739918.437 swipeseq ended cum=(0.0,-40.0)
+1791739919.081 width=365 left=618 height=120
+== horiz dx=20  pos_before=104.253997802734
+1791739921.432 swipeseq ended cum=(20.0,0.0)
+after: playing, 105.672996520996
+1791739922.651 width=234 left=683 height=33
+== horiz dx=35  pos_before=107.822998046875
+1791739925.007 swipeseq ended cum=(35.0,0.0)
+after: playing, 109.25700378418
+1791739926.235 width=234 left=683 height=33
+== horiz dx=50  pos_before=111.411003112793
+1791739928.588 swipeseq ended cum=(50.0,0.0)
+after: playing, 112.821998596191
+1791739929.804 width=234 left=683 height=33
+== horiz dx=80  pos_before=114.995002746582
+1791739932.153 swipeseq ended cum=(80.0,0.0)
+after: playing, 0.991999983788
+1791739933.370 width=234 left=683 height=33
+== horiz dx=-20  pos_before=3.147000074387
+1791739935.720 swipeseq ended cum=(-20.0,0.0)
+after: playing, 4.5609998703
+1791739936.936 width=234 left=683 height=33
+== horiz dx=-35  pos_before=6.709000110626
+1791739939.278 swipeseq ended cum=(-35.0,0.0)
+after: playing, 8.128000259399
+1791739940.503 width=234 left=683 height=33
+== horiz dx=-50  pos_before=10.272000312805
+1791739942.849 swipeseq ended cum=(-50.0,0.0)
+after: playing, 11.696000099182
+1791739944.072 width=234 left=683 height=33
+== horiz dx=-80  pos_before=13.866000175476
+1791739946.443 swipeseq ended cum=(-80.0,0.0)
+after: playing, 15.295999526978
+1791739947.675 width=234 left=683 height=33

@@ -1,0 +1,183 @@
+            ; CALL XREF from sym.func.1003604b8 @ 0x100360634(x)
+            ; CALL XREF from sym.func.100360ca0 @ 0x100360ce0(x)
+/ 636: sym.func.1003607c8 ();
+| `- args(x20, x21) vars(12:sp[0x8..0x68])
+|           0x1003607c8      ffc301d1       sub sp, sp, 0x70
+|           0x1003607cc      f85f03a9       stp x24, x23, [var_30h]
+|           0x1003607d0      f65704a9       stp x22, x21, [var_40h]
+|           0x1003607d4      f44f05a9       stp x20, x19, [var_50h]
+|           0x1003607d8      fd7b06a9       stp x29, x30, [var_60h]
+|           0x1003607dc      fd830191       add x29, sp, 0x60
+|           0x1003607e0      f30314aa       mov x19, x20               ; self
+|           0x1003607e4      880e40f9       ldr x8, [x20, 0x18]        ; self
+|       ,=< 0x1003607e8      280400b4       cbz x8, 0x10036086c
+|       |   0x1003607ec      600a40f9       ldr x0, [x19, 0x10]
+|       |   0x1003607f0      010080d2       mov x1, 0
+|       |   0x1003607f4      00013fd6       blr x8
+|       |   0x1003607f8      68c24139       ldrb w8, [x19, 0x70]
+|       |   0x1003607fc      d71300d0       adrp x23, 0x1005da000
+|       |   0x100360800      1f0400f1       cmp x0, 1
+|      ,==< 0x100360804      60070054       b.eq 0x1003608f0
+|     ,===< 0x100360808      400a00b5       cbnz x0, 0x100360950
+|     |||   0x10036080c      1f090071       cmp w8, 2
+|    ,====< 0x100360810      c00d0054       b.eq 0x1003609c8
+|    ||||   0x100360814      800800f0       adrp x0, 0x100473000
+|    ||||   0x100360818      00c02791       add x0, x0, 0x9f0
+|    ||||   0x10036081c      55b40394       bl sym.imp.swift_getKeyPath
+|    ||||   0x100360820      f60300aa       mov x22, x0
+|    ||||   0x100360824      f31300f9       str x19, [var_20h]
+|    ||||   0x100360828      48008052       mov w8, 2
+|    ||||   0x10036082c      e8a30039       strb w8, [var_clob_28h]
+|    ||||   0x100360830      f48a44f9       ldr x20, [x23, 0x910]      ; [0x1005da910:8]=0
+|    ||||                                                              ; field.class.Alcove.AudioManager.var.__observationRegistrar
+|    ||||   0x100360834      f30700f9       str x19, [var_8h]
+|    ||||   0x100360838      40130090       adrp x0, 0x1005c8000
+|    ||||   0x10036083c      00403c91       add x0, x0, 0xf10          ; 0x1005c8f10
+|    ||||                                                              ; aav.0x1005c8f10 ; int64_t arg1
+|    ||||   0x100360840      010000b0       adrp x1, 0x100361000
+|    ||||   0x100360844      21e02b91       add x1, x1, 0xaf8          ; int64_t arg2
+|    ||||   0x100360848      820800f0       adrp x2, 0x100473000
+|    ||||   0x10036084c      42402791       add x2, x2, 0x9d0
+|    ||||   0x100360850      2ba2f297       bl sym.func.1000090fc
+|    ||||   0x100360854      e50300aa       mov x5, x0
+|    ||||   0x100360858      a81200d0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+|    ||||   0x10036085c      080d41f9       ldr x8, [x8, 0x218]        ; [0x1005b6218:8]=0
+|    ||||                                                              ; reloc....ytN
+|    ||||   0x100360860      22000090       adrp x2, 0x100364000
+|    ||||   0x100360864      42500291       add x2, x2, 0x94
+|   ,=====< 0x100360868      4f000014       b 0x1003609a4
+|   |||||   ; CODE XREF from sym.func.1003607c8 @ 0x1003607e8(x)
+|   ||||`-> 0x10036086c      68c24139       ldrb w8, [x19, 0x70]
+|   ||||,=< 0x100360870      e80d0034       cbz w8, 0x100360a2c
+|   |||||   0x100360874      800800f0       adrp x0, 0x100473000
+|   |||||   0x100360878      00c02791       add x0, x0, 0x9f0
+|   |||||   0x10036087c      3db40394       bl sym.imp.swift_getKeyPath
+|   |||||   0x100360880      f60300aa       mov x22, x0
+|   |||||   0x100360884      f31300f9       str x19, [var_20h]
+|   |||||   0x100360888      ffa30039       strb wzr, [var_clob_28h]
+|   |||||   0x10036088c      c81300d0       adrp x8, 0x1005da000
+|   |||||   0x100360890      148944f9       ldr x20, [x8, 0x910]       ; [0x1005da910:8]=0
+|   |||||                                                              ; field.class.Alcove.AudioManager.var.__observationRegistrar
+|   |||||   0x100360894      f30700f9       str x19, [var_8h]
+|   |||||   0x100360898      40130090       adrp x0, 0x1005c8000
+|   |||||   0x10036089c      00403c91       add x0, x0, 0xf10          ; 0x1005c8f10
+|   |||||                                                              ; aav.0x1005c8f10 ; int64_t arg1
+|   |||||   0x1003608a0      010000b0       adrp x1, 0x100361000
+|   |||||   0x1003608a4      21e02b91       add x1, x1, 0xaf8          ; int64_t arg2
+|   |||||   0x1003608a8      820800f0       adrp x2, 0x100473000
+|   |||||   0x1003608ac      42402791       add x2, x2, 0x9d0
+|   |||||   0x1003608b0      13a2f297       bl sym.func.1000090fc
+|   |||||   0x1003608b4      e50300aa       mov x5, x0
+|   |||||   0x1003608b8      a81200d0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+|   |||||   0x1003608bc      080d41f9       ldr x8, [x8, 0x218]        ; [0x1005b6218:8]=0
+|   |||||                                                              ; reloc....ytN
+|   |||||   0x1003608c0      22000090       adrp x2, 0x100364000
+|   |||||   0x1003608c4      42500291       add x2, x2, 0x94
+|   |||||   0x1003608c8      e0230091       add x0, sp, 8
+|   |||||   0x1003608cc      e3430091       add x3, sp, 0x10
+|   |||||   0x1003608d0      04210091       add x4, x8, 8
+|   |||||   0x1003608d4      7402148b       add x20, x19, x20
+|   |||||   0x1003608d8      e10316aa       mov x1, x22
+|   |||||   0x1003608dc      150080d2       mov x21, 0                 ; error
+|   |||||   0x1003608e0      6fa50394       bl sym.imp.Observation.Registrar.withMutation.of.keyPath...q0_x_s03KeyG0Cyxq_Gq0_yKXEtKAA10ObservableRzr1_lF
+|   |||||   0x1003608e4      e00316aa       mov x0, x22                ; void *arg0
+|   |||||   0x1003608e8      76b40394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|  ,======< 0x1003608ec      50000014       b 0x100360a2c
+|  ||||||   ; CODE XREF from sym.func.1003607c8 @ 0x100360804(x)
+|  ||||`--> 0x1003608f0      1f050071       cmp w8, 1
+|  ||||,==< 0x1003608f4      a0060054       b.eq 0x1003609c8
+|  ||||||   0x1003608f8      800800f0       adrp x0, 0x100473000
+|  ||||||   0x1003608fc      00c02791       add x0, x0, 0x9f0
+|  ||||||   0x100360900      1cb40394       bl sym.imp.swift_getKeyPath
+|  ||||||   0x100360904      f60300aa       mov x22, x0
+|  ||||||   0x100360908      f31300f9       str x19, [var_20h]
+|  ||||||   0x10036090c      28008052       mov w8, 1
+|  ||||||   0x100360910      e8a30039       strb w8, [var_clob_28h]
+|  ||||||   0x100360914      f48a44f9       ldr x20, [x23, 0x910]      ; [0x1005da910:8]=0
+|  ||||||                                                              ; field.class.Alcove.AudioManager.var.__observationRegistrar
+|  ||||||   0x100360918      f30700f9       str x19, [var_8h]
+|  ||||||   0x10036091c      40130090       adrp x0, 0x1005c8000
+|  ||||||   0x100360920      00403c91       add x0, x0, 0xf10          ; 0x1005c8f10
+|  ||||||                                                              ; aav.0x1005c8f10 ; int64_t arg1
+|  ||||||   0x100360924      010000b0       adrp x1, 0x100361000
+|  ||||||   0x100360928      21e02b91       add x1, x1, 0xaf8          ; int64_t arg2
+|  ||||||   0x10036092c      820800f0       adrp x2, 0x100473000
+|  ||||||   0x100360930      42402791       add x2, x2, 0x9d0
+|  ||||||   0x100360934      f2a1f297       bl sym.func.1000090fc
+|  ||||||   0x100360938      e50300aa       mov x5, x0
+|  ||||||   0x10036093c      a81200d0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+|  ||||||   0x100360940      080d41f9       ldr x8, [x8, 0x218]        ; [0x1005b6218:8]=0
+|  ||||||                                                              ; reloc....ytN
+|  ||||||   0x100360944      22000090       adrp x2, 0x100364000
+|  ||||||   0x100360948      42500291       add x2, x2, 0x94
+| ,=======< 0x10036094c      16000014       b 0x1003609a4
+| |||||||   ; CODE XREF from sym.func.1003607c8 @ 0x100360808(x)
+| ====`---> 0x100360950      c8030034       cbz w8, 0x1003609c8
+| |||| ||   0x100360954      800800f0       adrp x0, 0x100473000
+| |||| ||   0x100360958      00c02791       add x0, x0, 0x9f0
+| |||| ||   0x10036095c      05b40394       bl sym.imp.swift_getKeyPath
+| |||| ||   0x100360960      f60300aa       mov x22, x0
+| |||| ||   0x100360964      f31300f9       str x19, [var_20h]
+| |||| ||   0x100360968      ffa30039       strb wzr, [var_clob_28h]
+| |||| ||   0x10036096c      f48a44f9       ldr x20, [x23, 0x910]      ; [0x1005da910:8]=0
+| |||| ||                                                              ; field.class.Alcove.AudioManager.var.__observationRegistrar
+| |||| ||   0x100360970      f30700f9       str x19, [var_8h]
+| |||| ||   0x100360974      40130090       adrp x0, 0x1005c8000
+| |||| ||   0x100360978      00403c91       add x0, x0, 0xf10          ; 0x1005c8f10
+| |||| ||                                                              ; aav.0x1005c8f10 ; int64_t arg1
+| |||| ||   0x10036097c      010000b0       adrp x1, 0x100361000
+| |||| ||   0x100360980      21e02b91       add x1, x1, 0xaf8          ; int64_t arg2
+| |||| ||   0x100360984      820800f0       adrp x2, 0x100473000
+| |||| ||   0x100360988      42402791       add x2, x2, 0x9d0
+| |||| ||   0x10036098c      dca1f297       bl sym.func.1000090fc
+| |||| ||   0x100360990      e50300aa       mov x5, x0
+| |||| ||   0x100360994      a81200d0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+| |||| ||   0x100360998      080d41f9       ldr x8, [x8, 0x218]        ; [0x1005b6218:8]=0
+| |||| ||                                                              ; reloc....ytN
+| |||| ||   0x10036099c      22000090       adrp x2, 0x100364000
+| |||| ||   0x1003609a0      42500291       add x2, x2, 0x94
+| |||| ||   ; CODE XREFS from sym.func.1003607c8 @ 0x100360868(x), 0x10036094c(x)
+| `-`-----> 0x1003609a4      e0230091       add x0, sp, 8
+|  | | ||   0x1003609a8      e3430091       add x3, sp, 0x10
+|  | | ||   0x1003609ac      04210091       add x4, x8, 8
+|  | | ||   0x1003609b0      7402148b       add x20, x19, x20
+|  | | ||   0x1003609b4      e10316aa       mov x1, x22
+|  | | ||   0x1003609b8      150080d2       mov x21, 0                 ; error
+|  | | ||   0x1003609bc      38a50394       bl sym.imp.Observation.Registrar.withMutation.of.keyPath...q0_x_s03KeyG0Cyxq_Gq0_yKXEtKAA10ObservableRzr1_lF
+|  | | ||   0x1003609c0      e00316aa       mov x0, x22                ; void *arg0
+|  | | ||   0x1003609c4      3fb40394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|  | | ||   ; CODE XREFS from sym.func.1003607c8 @ 0x100360810(x), 0x1003608f4(x), 0x100360950(x)
+| ---`-`--> 0x1003609c8      800800f0       adrp x0, 0x100473000
+|  |    |   0x1003609cc      00c02791       add x0, x0, 0x9f0
+|  |    |   0x1003609d0      e8b30394       bl sym.imp.swift_getKeyPath
+|  |    |   0x1003609d4      f50300aa       mov x21, x0                ; error
+|  |    |   0x1003609d8      f48a44f9       ldr x20, [x23, 0x910]      ; [0x1005da910:8]=0
+|  |    |                                                              ; field.class.Alcove.AudioManager.var.__observationRegistrar
+|  |    |   0x1003609dc      f30b00f9       str x19, [var_10h]
+|  |    |   0x1003609e0      40130090       adrp x0, 0x1005c8000
+|  |    |   0x1003609e4      00403c91       add x0, x0, 0xf10          ; 0x1005c8f10
+|  |    |                                                              ; aav.0x1005c8f10 ; int64_t arg1
+|  |    |   0x1003609e8      010000b0       adrp x1, 0x100361000
+|  |    |   0x1003609ec      21e02b91       add x1, x1, 0xaf8          ; int64_t arg2
+|  |    |   0x1003609f0      820800f0       adrp x2, 0x100473000
+|  |    |   0x1003609f4      42402791       add x2, x2, 0x9d0
+|  |    |   0x1003609f8      c1a1f297       bl sym.func.1000090fc
+|  |    |   0x1003609fc      e20300aa       mov x2, x0
+|  |    |   0x100360a00      e0430091       add x0, sp, 0x10
+|  |    |   0x100360a04      7402148b       add x20, x19, x20
+|  |    |   0x100360a08      e10315aa       mov x1, x21
+|  |    |   0x100360a0c      27a50394       bl sym.imp.Observation.Registrar.access.keyPath.Key...E0Cyxq_GtAA10ObservableRzr0_lF
+|  |    |   0x100360a10      e00315aa       mov x0, x21                ; void *arg0
+|  |    |   0x100360a14      2bb40394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|  |    |   0x100360a18      68c24139       ldrb w8, [x19, 0x70]
+|  |    |   0x100360a1c      1f090071       cmp w8, 2
+|  |   ,==< 0x100360a20      60000054       b.eq 0x100360a2c
+|  |   ||   0x100360a24      f40313aa       mov x20, x19
+|  |   ||   0x100360a28      bb000094       bl sym.func.100360d14
+|  |   ||   ; CODE XREFS from sym.func.1003607c8 @ 0x100360870(x), 0x1003608ec(x), 0x100360a20(x)
+|  `---``-> 0x100360a2c      fd7b46a9       ldp x29, x30, [var_60h]
+|           0x100360a30      f44f45a9       ldp x20, x19, [var_50h]
+|           0x100360a34      f65744a9       ldp x22, x21, [var_40h]
+|           0x100360a38      f85f43a9       ldp x24, x23, [var_30h]
+|           0x100360a3c      ffc30191       add sp, sp, 0x70           ; 0x178000
+\           0x100360a40      c0035fd6       ret

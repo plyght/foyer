@@ -1,0 +1,15 @@
+objc[11214]: class `NSKVONotifying_AVCaptureScreenInput' not linked into application
+objc[11214]: class `NSKVONotifying_AVCaptureScreenInput' not linked into application
+objc[11214]: class `NSKVONotifying_AVCaptureScreenInput' not linked into application
+[AVFoundation indev @ 0x776c10140] Configuration of video device failed, falling back to default.
+[in#0 @ 0x777024000] Selected pixel format (yuv420p) is not supported by the input device.
+[in#0 @ 0x777024000] Supported pixel formats:
+[in#0 @ 0x777024000]   uyvy422
+[in#0 @ 0x777024000]   yuyv422
+[in#0 @ 0x777024000]   nv12
+[in#0 @ 0x777024000]   0rgb
+[in#0 @ 0x777024000]   bgr0
+[in#0 @ 0x777024000] Overriding selected pixel format to use uyvy422 instead.
+IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
+[in#0/avfoundation @ 0x777024000] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[libx264 @ 0x776e70a80] MB rate (7500000000) > level limit (16711680)

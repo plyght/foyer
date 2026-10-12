@@ -1,0 +1,21247 @@
+[
+{
+"off": 5429948,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"kind"
+],
+[
+0,
+"Sd",
+"progress"
+],
+[
+0,
+"Sb",
+"isMuted"
+],
+[
+0,
+"Sb",
+"usesNotchPresentation"
+],
+[
+0,
+"Sb",
+"hasNotification"
+],
+[
+0,
+"<SYM01>Sg",
+"shape"
+],
+[
+0,
+"Sb",
+"showsLabel"
+]
+]
+},
+{
+"off": 5430048,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"brightness"
+],
+[
+0,
+"",
+"volume"
+]
+]
+},
+{
+"off": 5430088,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"notch"
+],
+[
+0,
+"",
+"pill"
+]
+]
+},
+{
+"off": 5430128,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So8NSStringC",
+"_rawValue"
+]
+]
+},
+{
+"off": 5430156,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"rawValue"
+]
+]
+},
+{
+"off": 5430184,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM01>",
+"origin"
+],
+[
+2,
+"<SYM02>",
+"size"
+]
+]
+},
+{
+"off": 5430224,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Su",
+"rawValue"
+]
+]
+},
+{
+"off": 5430252,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"x"
+],
+[
+2,
+"<SYM02>",
+"y"
+]
+]
+},
+{
+"off": 5430292,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"width"
+],
+[
+2,
+"<SYM02>",
+"height"
+]
+]
+},
+{
+"off": 5430332,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So8NSStringC",
+"_rawValue"
+]
+]
+},
+{
+"off": 5430360,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So8NSStringC",
+"_rawValue"
+]
+]
+},
+{
+"off": 5430388,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Si",
+"rawValue"
+]
+]
+},
+{
+"off": 5430416,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"top"
+],
+[
+2,
+"<SYM02>",
+"left"
+],
+[
+2,
+"<SYM02>",
+"bottom"
+],
+[
+2,
+"<SYM02>",
+"right"
+]
+]
+},
+{
+"off": 5430480,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_licenseManager"
+],
+[
+2,
+"<SYM02>ySSSgG",
+"_licenseName"
+],
+[
+2,
+"<SYM02>ySiSgG",
+"_activationLimit"
+],
+[
+2,
+"<SYM02>ySiSgG",
+"_activationUsage"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableHaptics"
+],
+[
+2,
+"<SYM02>ySSG",
+"__licenseKey"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isLoading"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isValidating"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isValidLicense"
+],
+[
+2,
+"<SYM02>ySbG",
+"__hasError"
+],
+[
+2,
+"<SYM02>ySSG",
+"__errorMessage"
+],
+[
+2,
+"<SYM02>ySbG",
+"__shouldError"
+],
+[
+2,
+"<SYM02>ySbG",
+"__shouldShake"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isDeactivating"
+],
+[
+2,
+"<SYM02>ySbG",
+"__hasAppeared"
+],
+[
+2,
+"<SYM02>ySbG",
+"__licenseCardHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__licenseSealHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__licenseTitleHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__licenseNameHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__licenseUsageHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__licenseActionHasEntered"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__licensePlayback"
+],
+[
+2,
+"<SYM02>yScTyyt<SYM02>GSgG",
+"__licenseTimelineTask"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isFocused"
+]
+]
+},
+{
+"off": 5430796,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"logger"
+],
+[
+0,
+"<SYM02>",
+"simplyCA"
+],
+[
+2,
+"Shy<SYM02>G",
+"cancellables"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"volumeWriteTask"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"outputDeviceSyncTask"
+],
+[
+0,
+"SS",
+"volumeFeedbackPreferenceKey"
+],
+[
+0,
+"SS",
+"volumeFeedbackSoundName"
+],
+[
+0,
+"SS",
+"volumeFeedbackSoundType"
+],
+[
+0,
+"Sd",
+"edgeDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableVolume"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowVolumeWhenFocused"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowVolumeWhenLocked"
+],
+[
+2,
+"<SYM02>ySdG",
+"_volumeDuration"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_volumeSpeed"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_musicApp"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showVolumeControl"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowNowPlayingWidgetWhenLocked"
+],
+[
+2,
+"Sf",
+"_volume"
+],
+[
+2,
+"Sf",
+"_actualVolume"
+],
+[
+2,
+"Sb",
+"_isMuted"
+],
+[
+2,
+"Sb",
+"_canControlVolume"
+],
+[
+2,
+"Sb",
+"_isDraggingSlider"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5431088,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Si",
+"maxCachedSnapshotCount"
+],
+[
+0,
+"Si",
+"maxCachedSnapshotCost"
+],
+[
+2,
+"SDy<SYM01><SYM01>G",
+"cachedSnapshots"
+],
+[
+2,
+"SDy<SYM01>SiG",
+"cachedSnapshotCosts"
+],
+[
+2,
+"Say<SYM01>G",
+"cachedSnapshotOrder"
+],
+[
+2,
+"Si",
+"cachedSnapshotCost"
+]
+]
+},
+{
+"off": 5431176,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Su",
+"revision"
+],
+[
+0,
+"<SYM02>",
+"configurationKey"
+],
+[
+0,
+"<SYM02>",
+"size"
+],
+[
+0,
+"<SYM02>",
+"scale"
+]
+]
+},
+{
+"off": 5431240,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"image"
+],
+[
+0,
+"<SYM02>",
+"size"
+],
+[
+0,
+"<SYM02>",
+"scale"
+]
+]
+},
+{
+"off": 5431292,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"image"
+],
+[
+0,
+"<SYM02>",
+"size"
+],
+[
+0,
+"<SYM02>",
+"scale"
+]
+]
+},
+{
+"off": 5431344,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_audioManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableNowPlaying"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_showOnDisplay"
+],
+[
+2,
+"<SYM02>ySbG",
+"_forceSimulatedNotch"
+],
+[
+2,
+"<SYM02>ySdG",
+"_idleDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_useLiveWaveform"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hasPromptedAudioPermission"
+],
+[
+2,
+"<SYM02>ySbG",
+"_disableWaveform"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_progressStyle"
+],
+[
+2,
+"<SYM02>ySbG",
+"_disableAlbumArtFlip"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileSourceIsActive"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_songTitleBadge"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideSongTitleExtras"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlChoice"
+],
+[
+2,
+"<SYM02>ySbG",
+"_automaticMusicApp"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_musicApp"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableQuickPeek"
+],
+[
+2,
+"<SYM02>ySbG",
+"_whenSongChanges"
+],
+[
+2,
+"<SYM02>ySdG",
+"_peekDuration"
+],
+[
+2,
+"<SYM02>ySiG",
+"__formatTitleBadgeIndex"
+],
+[
+2,
+"<SYM02>ySiG",
+"__systemControlLikeIndex"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isShowingAudioPermission"
+]
+]
+},
+{
+"off": 5431648,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+],
+[
+2,
+"<SYM02>",
+"_currentTab"
+],
+[
+2,
+"<SYM02>Sg",
+"_pendingTab"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5431712,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Sd",
+"progress"
+],
+[
+2,
+"<SYM02>",
+"color"
+],
+[
+2,
+"<SYM02>",
+"size"
+],
+[
+2,
+"<SYM02>",
+"lineWidth"
+]
+]
+},
+{
+"off": 5431776,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_focusManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableFocus"
+],
+[
+2,
+"<SYM02>ySdG",
+"_focusDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnSleepFocus"
+],
+[
+2,
+"<SYM02>ySbG",
+"_replaceWaveformDuringFocus"
+],
+[
+2,
+"<SYM02>ySSSgG",
+"_replaceWaveformDuringFocusModeIdentifier"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideLabel"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowBatteryWhenFocused"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowConnectivityWhenFocused"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowBrightnessWhenFocused"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowVolumeWhenFocused"
+]
+]
+},
+{
+"off": 5431936,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"mode"
+],
+[
+0,
+"",
+"any"
+]
+]
+},
+{
+"off": 5431976,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_licenseManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_updateManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableHaptics"
+],
+[
+2,
+"<SYM02>ySbG",
+"_earlyBirdUpdates"
+],
+[
+2,
+"<SYM02>ySbG",
+"_automaticallyCheckForUpdates"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isLoading"
+]
+]
+},
+{
+"off": 5432088,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_calendarManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_licenseManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_weatherManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableLockScreen"
+],
+[
+2,
+"<SYM02>ySdG",
+"_keepAwake"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showOnScreenSaver"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnLock"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnUnlock"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowBatteryWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowConnectivityWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowFocusWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowBrightnessWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowVolumeWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowBatteryWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowConnectivityWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowFocusWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowNowPlayingWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_nowPlayingStyle"
+],
+[
+2,
+"<SYM02>ySdG",
+"_hideIdleDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showVolumeControl"
+],
+[
+2,
+"<SYM02>ySdG",
+"_nowPlayingWidgetOffset"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowCalendarWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hasPromptedCalendarPermission"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowWeatherWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_weatherStyle"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hasPromptedLocationPermission"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isShowingCalendarPermission"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isShowingWeatherPermission"
+],
+[
+2,
+"<SYM02>ySo7NSImageCSgG",
+"__wallpaperImage"
+]
+]
+},
+{
+"off": 5432476,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"<SYM02>",
+"colorScheme"
+],
+[
+2,
+"SdSg",
+"opacity"
+],
+[
+2,
+"Sd",
+"brightness"
+],
+[
+2,
+"Sb",
+"showsOuterBorder"
+]
+]
+},
+{
+"off": 5432552,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"horizontalPadding"
+],
+[
+0,
+"SS",
+"title"
+],
+[
+0,
+"x",
+"accessory"
+],
+[
+0,
+"<SYM01>yx_G",
+"alignment"
+],
+[
+0,
+"<SYM02>",
+"minHeight"
+],
+[
+0,
+"<SYM02>",
+"size"
+],
+[
+0,
+"Sb",
+"disabled"
+],
+[
+0,
+"<SYM02>",
+"tint"
+],
+[
+0,
+"<SYM02>Sg",
+"checkmarkColor"
+],
+[
+0,
+"<SYM02>Sg",
+"uncheckedColor"
+],
+[
+0,
+"<SYM02>",
+"labelFont"
+],
+[
+2,
+"<SYM02>ySbG",
+"_value"
+]
+]
+},
+{
+"off": 5432712,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"leading"
+],
+[
+0,
+"",
+"trailing"
+]
+]
+},
+{
+"off": 5432752,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Say<SYM01>yxGG",
+"menuItems"
+],
+[
+0,
+"<SYM02>",
+"size"
+],
+[
+0,
+"Sb",
+"disabled"
+],
+[
+0,
+"SSxc",
+"label"
+],
+[
+0,
+"SSxc",
+"selectedLabel"
+],
+[
+0,
+"Sdxc",
+"selectedOpacity"
+],
+[
+0,
+"<SYM02>",
+"selectedSymbolSpacing"
+],
+[
+0,
+"<SYM02>",
+"selectedSymbolSize"
+],
+[
+0,
+"<SYM02>",
+"selectedSymbolWeight"
+],
+[
+0,
+"<SYM02>",
+"selectedImageSize"
+],
+[
+0,
+"<SYM02>",
+"menuImageSize"
+],
+[
+0,
+"<SYM01>",
+"menuSymbolWeight"
+],
+[
+0,
+"SSSgxc",
+"symbol"
+],
+[
+0,
+"So7NSImageCSgxc",
+"image"
+],
+[
+0,
+"So7NSImageCSgxc",
+"selectedImage"
+],
+[
+0,
+"Sbxc",
+"isHeader"
+],
+[
+0,
+"yxSgc",
+"onHover"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+2,
+"<SYM02>yxG",
+"_selection"
+]
+]
+},
+{
+"off": 5432996,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So13NSPopUpButtonC",
+"fields": []
+},
+{
+"off": 5433012,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So8NSObjectC",
+"fields": [
+[
+2,
+"<SYM02>yxG",
+"selection"
+],
+[
+2,
+"Say<SYM01>yxGG",
+"menuItems"
+],
+[
+2,
+"Sbxc",
+"isHeader"
+],
+[
+2,
+"yxSgc",
+"onHover"
+],
+[
+2,
+"xSg",
+"initialHoverOption"
+]
+]
+},
+{
+"off": 5433088,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"title"
+],
+[
+0,
+"Say<SYM01>yxGG",
+"menuItems"
+],
+[
+0,
+"q_",
+"view"
+],
+[
+0,
+"<SYM01>yxq__G",
+"alignment"
+],
+[
+0,
+"<SYM02>",
+"size"
+],
+[
+0,
+"Sb",
+"disabled"
+],
+[
+0,
+"Sb",
+"showTitle"
+],
+[
+0,
+"yycSg",
+"onDisabledTap"
+],
+[
+0,
+"SSSgxc",
+"symbol"
+],
+[
+0,
+"So7NSImageCSgxc",
+"image"
+],
+[
+0,
+"So7NSImageCSgxc",
+"selectedImage"
+],
+[
+0,
+"Sbxc",
+"isHeader"
+],
+[
+0,
+"yxSgc",
+"onHover"
+],
+[
+0,
+"SSxc",
+"selectedLabel"
+],
+[
+0,
+"Sdxc",
+"selectedOpacity"
+],
+[
+0,
+"<SYM02>",
+"selectedSymbolSpacing"
+],
+[
+0,
+"<SYM02>",
+"selectedSymbolSize"
+],
+[
+0,
+"<SYM02>",
+"selectedSymbolWeight"
+],
+[
+0,
+"<SYM02>",
+"selectedImageSize"
+],
+[
+0,
+"<SYM02>",
+"menuImageSize"
+],
+[
+0,
+"<SYM01>",
+"menuSymbolWeight"
+],
+[
+0,
+"SSxc",
+"label"
+],
+[
+2,
+"<SYM02>yxG",
+"_selection"
+]
+]
+},
+{
+"off": 5433380,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"leading"
+],
+[
+0,
+"",
+"trailing"
+]
+]
+},
+{
+"off": 5433420,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"x",
+"option"
+],
+[
+0,
+"",
+"separator"
+]
+]
+},
+{
+"off": 5433460,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Say<SYM01>yxGG",
+"menuItems"
+],
+[
+2,
+"<SYM02>yxG",
+"_selection"
+],
+[
+0,
+"Sb",
+"disabled"
+],
+[
+0,
+"SSSgxc",
+"symbol"
+],
+[
+0,
+"So7NSImageCSgxc",
+"image"
+],
+[
+0,
+"Sbxc",
+"isHeader"
+],
+[
+0,
+"yxSgc",
+"onHover"
+],
+[
+0,
+"<SYM01>",
+"menuSymbolWeight"
+],
+[
+0,
+"<SYM02>",
+"menuImageSize"
+],
+[
+0,
+"SSxc",
+"label"
+]
+]
+},
+{
+"off": 5433596,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So6NSViewC",
+"fields": []
+},
+{
+"off": 5433612,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5433628,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So6NSViewC",
+"fields": [
+[
+2,
+"<SYM02>",
+"cornerRadius"
+],
+[
+2,
+"Sb",
+"samplesWindowServer"
+],
+[
+0,
+"<SYM01>",
+"materialStyle"
+],
+[
+2,
+"So7CALayerCSg",
+"rootLayer"
+],
+[
+2,
+"So7CALayerCSg",
+"backdrop"
+],
+[
+2,
+"So7CALayerCSg",
+"sdfLayer"
+],
+[
+2,
+"So7CALayerCSg",
+"elementLayer"
+],
+[
+2,
+"So8NSObjectCSg",
+"glassBackground"
+],
+[
+2,
+"So7CALayerCSg",
+"foregroundBackdrop"
+],
+[
+2,
+"So7CALayerCSg",
+"foregroundSDF"
+],
+[
+2,
+"So7CALayerCSg",
+"foregroundElement"
+],
+[
+2,
+"So8NSObjectCSg",
+"glassForeground"
+],
+[
+2,
+"So7CALayerCSg",
+"keyFillPortalLayer"
+],
+[
+2,
+"So7CALayerCSg",
+"keyFillLayer"
+],
+[
+2,
+"So7CALayerCSg",
+"keyFillChildPortalLayer"
+],
+[
+2,
+"So8NSObjectCSg",
+"keyFillEffect"
+],
+[
+2,
+"So8NSObjectCSg",
+"keyFillFilter"
+],
+[
+2,
+"So7CALayerCSg",
+"outerBorderLayer"
+],
+[
+2,
+"So7CALayerCSg",
+"innerContainer"
+],
+[
+2,
+"So7CALayerCSg",
+"innerMiddle"
+],
+[
+2,
+"So7CALayerCSg",
+"innerBorderLayer"
+],
+[
+2,
+"So15CAGradientLayerCSg",
+"gradientMask"
+],
+[
+2,
+"So15CAGradientLayerCSg",
+"innerBorderEdgeMask"
+],
+[
+2,
+"So15CAGradientLayerCSg",
+"outerBorderMask"
+]
+]
+},
+{
+"off": 5433932,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So6NSViewC",
+"fields": [
+[
+2,
+"<SYM02>",
+"cornerRadius"
+],
+[
+2,
+"Sb",
+"showsOuterBorder"
+],
+[
+0,
+"<SYM01>",
+"materialStyle"
+],
+[
+2,
+"So7CALayerCSg",
+"rootLayer"
+],
+[
+2,
+"So7CALayerCSg",
+"outerBorderLayer"
+],
+[
+2,
+"So7CALayerCSg",
+"innerContainer"
+],
+[
+2,
+"So7CALayerCSg",
+"innerMiddle"
+],
+[
+2,
+"So7CALayerCSg",
+"innerBorderLayer"
+],
+[
+2,
+"So15CAGradientLayerCSg",
+"gradientMask"
+]
+]
+},
+{
+"off": 5434056,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5434072,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"Sb",
+"samplesWindowServer"
+]
+]
+},
+{
+"off": 5434112,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"Sb",
+"showsOuterBorder"
+]
+]
+},
+{
+"off": 5434152,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Sb",
+"hasRecentlyTriggeredHaptic"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"debounceResetTask"
+]
+]
+},
+{
+"off": 5434192,
+"kind": 4,
+"name": "$s6Alcove12MaskProviderP",
+"super": "",
+"fields": []
+},
+{
+"off": 5434208,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"startPoint"
+],
+[
+0,
+"<SYM02>",
+"endPoint"
+],
+[
+0,
+"<SYM02>",
+"startOpacity"
+],
+[
+0,
+"<SYM02>",
+"endOpacity"
+],
+[
+0,
+"Sb",
+"isSmooth"
+]
+]
+},
+{
+"off": 5434284,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"<SYM02>",
+"blurRadius"
+],
+[
+0,
+"SDy<SYM02><SYM01>G",
+"edgeConfigurations"
+],
+[
+0,
+"Sb",
+"invertAlpha"
+]
+]
+},
+{
+"off": 5434348,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sb",
+"isFeathered"
+],
+[
+0,
+"<SYM01>",
+"padding"
+]
+]
+},
+{
+"off": 5434388,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"points"
+],
+[
+0,
+"<SYM02>",
+"percentage"
+]
+]
+},
+{
+"off": 5434428,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"So8NSObjectCSg",
+"filter"
+],
+[
+2,
+"<SYM02>Sg",
+"currentMaskImage"
+]
+]
+},
+{
+"off": 5434468,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So6NSViewC",
+"fields": [
+[
+2,
+"x",
+"maskProvider"
+],
+[
+2,
+"<SYM01>",
+"variableBlur"
+],
+[
+2,
+"<SYM02>",
+"scale"
+],
+[
+2,
+"<SYM01>",
+"lastFrame"
+],
+[
+2,
+"Sb",
+"needsToRedrawMask"
+],
+[
+0,
+"So9CIContextC",
+"ciContext"
+]
+]
+},
+{
+"off": 5434556,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"x",
+"maskProvider"
+],
+[
+0,
+"<SYM02>",
+"maxBlurRadius"
+],
+[
+0,
+"<SYM02>",
+"scale"
+]
+]
+},
+{
+"off": 5434608,
+"kind": 5,
+"name": "$s6Alcove24MaterialBackdropObserverP",
+"super": "",
+"fields": []
+},
+{
+"off": 5434624,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"SDySOSfG",
+"sampleLuminances"
+],
+[
+0,
+"So11NSHashTableCyyXlG",
+"observers"
+],
+[
+2,
+"SfSg",
+"luminance"
+]
+]
+},
+{
+"off": 5434676,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So6NSViewC",
+"fields": [
+[
+2,
+"<SYM01>",
+"aggregator"
+],
+[
+2,
+"Sb",
+"allowsFilteredLuma"
+],
+[
+2,
+"Sd",
+"lumaUpdateRate"
+],
+[
+2,
+"<SYM02>",
+"resampleGeneration"
+]
+]
+},
+{
+"off": 5434740,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"aggregator"
+],
+[
+0,
+"Sb",
+"allowsFilteredLuma"
+],
+[
+0,
+"Sd",
+"lumaUpdateRate"
+],
+[
+0,
+"<SYM02>",
+"resampleGeneration"
+]
+]
+},
+{
+"off": 5434804,
+"kind": 7,
+"name": "<SYM01>",
+"super": "<SYM02>yxG",
+"fields": [
+[
+2,
+"So13NSLayoutGuideCSg",
+"$__lazy_storage_$_layoutGuide"
+]
+]
+},
+{
+"off": 5434832,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+0,
+"<SYM02>",
+"sectionSpacing"
+]
+]
+},
+{
+"off": 5434872,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_connectivityManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableConnectivity"
+],
+[
+2,
+"<SYM02>ySdG",
+"_connectivityDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_warnOnLowConnectBattery"
+],
+[
+2,
+"<SYM02>ySdG",
+"_lowConnectBatteryThreshold"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnLowConnectBattery"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_connectivityModel"
+],
+[
+2,
+"<SYM02>ySo8AVPlayerCG",
+"__player"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isShowingWarnBluetoothPermission"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isShowingSoundBluetoothPermission"
+]
+]
+},
+{
+"off": 5435032,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"horizontalPadding"
+],
+[
+0,
+"SS",
+"title"
+],
+[
+0,
+"x",
+"view"
+],
+[
+0,
+"<SYM01>yx_G",
+"alignment"
+],
+[
+0,
+"<SYM02>",
+"minHeight"
+],
+[
+0,
+"<SYM02>",
+"size"
+],
+[
+0,
+"Sb",
+"disabled"
+],
+[
+0,
+"<SYM02>Sg",
+"tint"
+],
+[
+0,
+"yycSg",
+"onDisabledTap"
+],
+[
+2,
+"<SYM02>ySbG",
+"_value"
+]
+]
+},
+{
+"off": 5435168,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"leading"
+],
+[
+0,
+"",
+"trailing"
+]
+]
+},
+{
+"off": 5435208,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"resources"
+],
+[
+0,
+"SS",
+"type"
+],
+[
+0,
+"SS",
+"symbol"
+],
+[
+0,
+"Sd",
+"padding"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isPressed"
+]
+]
+},
+{
+"off": 5435284,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+0,
+"SaySdG",
+"volumeValues"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableVolume"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hasPromptedAccessibilityPermission"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_volumeOutputDevice"
+],
+[
+2,
+"<SYM02>ySdG",
+"_volumeDuration"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_volumeProgressStyle"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_volumeSpeed"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showVolumePercentage"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideVolumeLabel"
+],
+[
+2,
+"<SYM02>ySdG",
+"__volume"
+],
+[
+2,
+"<SYM02>ySdG",
+"__stylizedVolume"
+],
+[
+2,
+"<SYM02>ySiG",
+"__currentIndex"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isShowingAccessibilityPermission"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isAccessibilityAuthorized"
+]
+]
+},
+{
+"off": 5435492,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_isEnabled"
+],
+[
+2,
+"<SYM02>yxG",
+"_value"
+],
+[
+0,
+"SNyxG",
+"inRange"
+],
+[
+0,
+"<SYM02>",
+"height"
+],
+[
+0,
+"yxc",
+"onValueChanged"
+],
+[
+0,
+"ySbc",
+"onEditingChanged"
+],
+[
+0,
+"Sd",
+"tapCooldown"
+],
+[
+0,
+"Sd",
+"dragUpdateInterval"
+],
+[
+2,
+"<SYM02>yxG",
+"__localRealProgress"
+],
+[
+2,
+"<SYM02>yxG",
+"__localTempProgress"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__capsuleBounds"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__lastDragUpdate"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isActive"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isPressedLeft"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isPressedRight"
+]
+]
+},
+{
+"off": 5435688,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_calendarManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_licenseManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_weatherManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableCalendar"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_showOnDisplay"
+],
+[
+2,
+"<SYM02>ySbG",
+"_forceSimulatedNotch"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hasPromptedCalendarPermission"
+],
+[
+2,
+"<SYM02>ySdG",
+"_timeBeforeEvent"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnCalendarEvent"
+],
+[
+2,
+"<SYM02>ySbG",
+"_useCalendarColor"
+],
+[
+2,
+"<SYM02>ySbG",
+"_disableActivityDuringEvents"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showWeatherOnEmptyDay"
+],
+[
+2,
+"<SYM02>ySbG",
+"_useEventIndicators"
+],
+[
+2,
+"<SYM02>ySbG",
+"_alwaysShowMonthView"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playHourlyChime"
+],
+[
+2,
+"<SYM02>ySbG",
+"_notifyWhenTimeToLeave"
+],
+[
+2,
+"<SYM02>ySdG",
+"_timeToLeaveBuffer"
+],
+[
+2,
+"<SYM02>ySdG",
+"_timeToLeaveDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnTimeToLeave"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_defaultTransportType"
+],
+[
+2,
+"<SYM02>yShySSGG",
+"_excludedCalendars"
+],
+[
+2,
+"<SYM02>ySDyS2SGG",
+"_calendarDisplayModes"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableCalendarQuickPeek"
+],
+[
+2,
+"<SYM02>ySbG",
+"_beforeEventStarts"
+],
+[
+2,
+"<SYM02>ySbG",
+"_whenEventIsStarting"
+],
+[
+2,
+"<SYM02>ySdG",
+"_calendarPeekDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_useColoredCalendarIndicator"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hasPromptedLocationPermission"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isShowingCalendarPermission"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isShowingEmptyDayWeatherPermission"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isShowingTimeToLeaveWeatherPermission"
+]
+]
+},
+{
+"off": 5436100,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_calendarManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_weatherManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_alwaysShowMonthView"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showWeatherOnEmptyDay"
+],
+[
+2,
+"<SYM02>ySbG",
+"_useEventIndicators"
+],
+[
+0,
+"Sb",
+"compactMode"
+]
+]
+},
+{
+"off": 5436200,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"left"
+],
+[
+0,
+"",
+"right"
+]
+]
+},
+{
+"off": 5436240,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_isPressed"
+],
+[
+0,
+"<SYM02>",
+"event"
+]
+]
+},
+{
+"off": 5436280,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"size"
+]
+]
+},
+{
+"off": 5436308,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_audioManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_focusManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_mediaManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_volumeManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_disableAlbumArtFlip"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideSongTitleExtras"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_songTitleBadge"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlChoice"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_musicApp"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showVolumeControl"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableFocus"
+],
+[
+2,
+"<SYM02>ySbG",
+"_replaceWaveformDuringFocus"
+],
+[
+2,
+"<SYM02>ySSSgG",
+"_replaceWaveformDuringFocusModeIdentifier"
+],
+[
+2,
+"<SYM02>ySbG",
+"_useLiveWaveform"
+],
+[
+2,
+"<SYM02>ySdG",
+"__measuredTitleTextWidth"
+],
+[
+2,
+"<SYM02>ySdG",
+"__measuredArtistTextWidth"
+],
+[
+0,
+"Sb",
+"compensatesForNotch"
+],
+[
+0,
+"Sb",
+"hasExpand"
+],
+[
+0,
+"Sb",
+"hasTranslucency"
+],
+[
+0,
+"<SYM02>",
+"blendMode"
+],
+[
+0,
+"Sb",
+"centerMarqueeText"
+],
+[
+0,
+"Sb",
+"compactMode"
+],
+[
+0,
+"<SYM02>",
+"titleSymbolColor"
+],
+[
+0,
+"<SYM02>Sg",
+"fixedProgressSectionWidth"
+],
+[
+0,
+"Sb",
+"showsControlHoverEffect"
+],
+[
+0,
+"Sb",
+"allowsArtworkFlip"
+],
+[
+0,
+"yycSg",
+"onArtworkTap"
+],
+[
+0,
+"<SYM02>Sg",
+"controlStripSnapshotImage"
+],
+[
+0,
+"<SYM02>Sg",
+"controlStripSnapshotSize"
+],
+[
+0,
+"<SYM02>Sg",
+"controlStripSnapshotScale"
+]
+]
+},
+{
+"off": 5436696,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_connectivityManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_mediaManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlChoice"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_musicApp"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableHaptics"
+],
+[
+2,
+"<SYM02>yScTyyt<SYM02>GSgG",
+"__loveDebounce"
+],
+[
+2,
+"<SYM02>yScTyyt<SYM02>GSgG",
+"__controlDebounce"
+],
+[
+2,
+"<SYM02>yScTyyt<SYM02>GSgG",
+"__copyDebounce"
+],
+[
+2,
+"<SYM02>ySbG",
+"__loveTrigger"
+],
+[
+2,
+"<SYM02>ySbG",
+"__copyLinkTrigger"
+],
+[
+0,
+"Sb",
+"compactMode"
+],
+[
+0,
+"Sb",
+"hasExpand"
+],
+[
+0,
+"<SYM02>",
+"blendMode"
+]
+]
+},
+{
+"off": 5436880,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_mediaManager"
+],
+[
+0,
+"Sb",
+"compactMode"
+]
+]
+},
+{
+"off": 5436932,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_mediaManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_progressStyle"
+],
+[
+0,
+"Sb",
+"hasTranslucency"
+],
+[
+0,
+"<SYM02>",
+"blendMode"
+],
+[
+0,
+"<SYM02>",
+"width"
+]
+]
+},
+{
+"off": 5437008,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"title"
+],
+[
+0,
+"SS",
+"artist"
+],
+[
+0,
+"SS",
+"titleSymbol"
+],
+[
+0,
+"<SYM02>",
+"titleSymbolPadding"
+]
+]
+},
+{
+"off": 5437072,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So7NSPanelC",
+"fields": []
+},
+{
+"off": 5437088,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"So8AVPlayerC",
+"player"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isReady"
+],
+[
+2,
+"So14AVPlayerLooperCSg",
+"looper"
+],
+[
+2,
+"<SYM02>Sg",
+"currentItemObservation"
+],
+[
+2,
+"<SYM02>Sg",
+"statusObservation"
+]
+]
+},
+{
+"off": 5437164,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So6NSViewC",
+"fields": [
+[
+0,
+"So13AVPlayerLayerC",
+"playerLayer"
+]
+]
+},
+{
+"off": 5437192,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"name"
+]
+]
+},
+{
+"off": 5437220,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM01>G",
+"_playback"
+]
+]
+},
+{
+"off": 5437248,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"So8AVPlayerC",
+"player"
+]
+]
+},
+{
+"off": 5437276,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"elementMinHeight"
+],
+[
+0,
+"<SYM02>",
+"horizontalPadding"
+],
+[
+0,
+"SS",
+"placeHolder"
+],
+[
+0,
+"yycSg",
+"onSubmit"
+],
+[
+2,
+"<SYM02>ySSG",
+"_text"
+],
+[
+2,
+"<SYM02>yypSgG",
+"_monitor"
+]
+]
+},
+{
+"off": 5437364,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_isEnabled"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isHovering"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isPressed"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"Sb",
+"showsHoverEffect"
+]
+]
+},
+{
+"off": 5437440,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlSize"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isEnabled"
+],
+[
+0,
+"<SYM02>",
+"color"
+],
+[
+0,
+"<SYM02>Sg",
+"size"
+],
+[
+0,
+"<SYM02>Sg",
+"cornerRadius"
+],
+[
+0,
+"<SYM02>",
+"luminanceThreshold"
+],
+[
+0,
+"<SYM02>Sg",
+"checkmarkColor"
+],
+[
+0,
+"<SYM02>Sg",
+"uncheckedColor"
+],
+[
+0,
+"<SYM02>",
+"labelFont"
+],
+[
+0,
+"Sb",
+"usesGradientFill"
+]
+]
+},
+{
+"off": 5437588,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5437604,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isPressed"
+],
+[
+0,
+"Sb",
+"isOn"
+],
+[
+0,
+"Sb",
+"isActive"
+],
+[
+0,
+"<SYM02>",
+"color"
+],
+[
+0,
+"<SYM02>Sg",
+"uncheckedColor"
+],
+[
+0,
+"<SYM02>Sg",
+"checkmarkColor"
+],
+[
+0,
+"<SYM02>",
+"luminanceThreshold"
+],
+[
+0,
+"<SYM01>",
+"metrics"
+],
+[
+0,
+"Sb",
+"usesGradientFill"
+]
+]
+},
+{
+"off": 5437740,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"size"
+],
+[
+0,
+"<SYM02>",
+"checkmarkSize"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"<SYM02>",
+"labelSpacing"
+]
+]
+},
+{
+"off": 5437804,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5437820,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"logger"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"logTask"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"historicalLogTask"
+],
+[
+2,
+"Sb",
+"hasReceivedLiveFocusUpdate"
+],
+[
+0,
+"SS",
+"stateUpdateMessage"
+],
+[
+0,
+"SS",
+"activeModeUpdateMessage"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"activeModeIdentifierRegex"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"validActiveModeIdentifierRegex"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"nameRegex"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"symbolRegex"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"tintColorRegex"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableFocus"
+],
+[
+2,
+"<SYM02>ySdG",
+"_focusDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnSleepFocus"
+],
+[
+2,
+"<SYM02>ySbG",
+"_replaceWaveformDuringFocus"
+],
+[
+2,
+"<SYM02>ySSSgG",
+"_replaceWaveformDuringFocusModeIdentifier"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableNowPlaying"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableLockScreen"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowFocusWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowFocusWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileInFullscreen"
+],
+[
+2,
+"Sb",
+"_isFocus"
+],
+[
+2,
+"<SYM02>Sg",
+"_focusMode"
+],
+[
+2,
+"Say<SYM02>G",
+"_focusModes"
+],
+[
+2,
+"Sb",
+"_hasBeenFocused"
+],
+[
+2,
+"SSSg",
+"activeFocusIdentifier"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5438160,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"identifier"
+],
+[
+0,
+"SS",
+"symbol"
+],
+[
+0,
+"<SYM02>",
+"tintColor"
+],
+[
+0,
+"SSSg",
+"rawName"
+],
+[
+0,
+"SSSg",
+"nameKey"
+]
+]
+},
+{
+"off": 5438236,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS10identifier_<SYM01>Sg4modet",
+"active"
+],
+[
+0,
+"SS",
+"malformed"
+],
+[
+0,
+"",
+"inactive"
+]
+]
+},
+{
+"off": 5438288,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_connectivityManager"
+],
+[
+2,
+"<SYM02>ySiG",
+"__currentIndex"
+],
+[
+2,
+"<SYM02>ySo7NSTimerCSgG",
+"__timer"
+]
+]
+},
+{
+"off": 5438352,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+]
+]
+},
+{
+"off": 5438380,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_calendarManager"
+]
+]
+},
+{
+"off": 5438420,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"calendar"
+],
+[
+0,
+"",
+"fantastical"
+],
+[
+0,
+"",
+"notionCalendar"
+]
+]
+},
+{
+"off": 5438472,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isWaitingForAccessibilityReturn"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"__demoKind"
+],
+[
+2,
+"<SYM02>ySdG",
+"__demoProgress"
+],
+[
+2,
+"<SYM02>ySbG",
+"__demoIsMuted"
+],
+[
+2,
+"<SYM02>ySiG",
+"__demoValueIndex"
+],
+[
+2,
+"<SYM02>ySbG",
+"__hasDemoNotification"
+],
+[
+2,
+"<SYM02>ySbG",
+"__hasMutedInCurrentVolumeCycle"
+]
+]
+},
+{
+"off": 5438584,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"logger"
+],
+[
+2,
+"<SYM02>Sg",
+"observedDisplayID"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"brightnessWriteTask"
+],
+[
+2,
+"SDy<SYM02>SfG",
+"actualBrightnessByDisplayID"
+],
+[
+2,
+"SDy<SYM02>SfG",
+"localBrightnessTargetByDisplayID"
+],
+[
+2,
+"SDy<SYM02>SdG",
+"localBrightnessCallbackSuppressionDeadlines"
+],
+[
+0,
+"<SYM02>",
+"brightnessWriteCoalescingDelay"
+],
+[
+0,
+"Sd",
+"localBrightnessCallbackSuppressionDuration"
+],
+[
+0,
+"Sf",
+"fallbackNormalMediaKeyStep"
+],
+[
+0,
+"Sf",
+"fineMediaKeyStepScale"
+],
+[
+0,
+"Sd",
+"edgeDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableBrightness"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowBrightnessWhenFocused"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowBrightnessWhenLocked"
+],
+[
+2,
+"<SYM02>ySdG",
+"_brightnessDuration"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_brightnessSpeed"
+],
+[
+2,
+"Sf",
+"_currentBrightness"
+],
+[
+2,
+"Sb",
+"_shouldShowExternalDisplaySymbol"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5438828,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"display"
+],
+[
+0,
+"",
+"automatic"
+],
+[
+0,
+"",
+"internalDisplay"
+],
+[
+0,
+"",
+"externalDisplay"
+]
+]
+},
+{
+"off": 5438892,
+"kind": 6,
+"name": "$s6Alcove18SpotifyApplicationP",
+"super": "",
+"fields": []
+},
+{
+"off": 5438908,
+"kind": 6,
+"name": "$s6Alcove12SpotifyTrackP",
+"super": "",
+"fields": []
+},
+{
+"off": 5438924,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+]
+]
+},
+{
+"off": 5438952,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"ShySSG",
+"trackedGameBundleIdentifiers"
+],
+[
+0,
+"SaySSG",
+"trackedGamePathFragments"
+],
+[
+2,
+"<SYM0c>_pSg",
+"frontmostApplicationObserver"
+],
+[
+2,
+"Sb",
+"isGaming"
+]
+]
+},
+{
+"off": 5439016,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"spaceID"
+],
+[
+2,
+"ShySo8NSWindowCG",
+"windows"
+]
+]
+},
+{
+"off": 5439056,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>Sg",
+"material"
+],
+[
+0,
+"<SYM02>Sg",
+"blendingMode"
+],
+[
+0,
+"<SYM02>Sg",
+"state"
+],
+[
+0,
+"SiSg",
+"variant"
+],
+[
+0,
+"SbSg",
+"frosted"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+]
+]
+},
+{
+"off": 5439144,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>Sg",
+"batteryHelper"
+],
+[
+2,
+"Shy<SYM02>G",
+"cancellables"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableBattery"
+],
+[
+2,
+"<SYM02>ySdG",
+"_batteryDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_notifyOnLowPowerMode"
+],
+[
+2,
+"<SYM02>ySbG",
+"_warnOnLowBattery"
+],
+[
+2,
+"<SYM02>ySdG",
+"_lowBatteryThreshold"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnLowBattery"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowBatteryWhenFocused"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowBatteryWhenLocked"
+],
+[
+2,
+"Sd",
+"_batteryLevel"
+],
+[
+2,
+"Sb",
+"_wasOnBattery"
+],
+[
+2,
+"Sb",
+"_isLowPowerModeEnabled"
+],
+[
+2,
+"Sb",
+"_hasPassedThreshold"
+],
+[
+2,
+"Sb",
+"_hasRecentlyChangedPowerSource"
+],
+[
+2,
+"SiSg",
+"_remainingTime"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5439364,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"So6NSLockC",
+"brightnessKeyStateLock"
+],
+[
+0,
+"Si",
+"systemDefinedSubtypeAuxControl"
+],
+[
+0,
+"Si",
+"brightnessUpKeyCode"
+],
+[
+0,
+"Si",
+"brightnessDownKeyCode"
+],
+[
+0,
+"Si",
+"fallbackBrightnessUpKeyCode"
+],
+[
+0,
+"Si",
+"fallbackBrightnessDownKeyCode"
+],
+[
+2,
+"<SYM02>Sg",
+"eventTap"
+],
+[
+2,
+"<SYM02>Sg",
+"runLoopSource"
+],
+[
+2,
+"<SYM02>Sg",
+"eventTapRunLoop"
+],
+[
+2,
+"Sb",
+"isMonitoring"
+],
+[
+0,
+"Sf",
+"normalStep"
+],
+[
+0,
+"Sf",
+"fineStep"
+],
+[
+0,
+"Sd",
+"volumeFeedbackTapMaxDuration"
+],
+[
+0,
+"Sd",
+"volumeFeedbackStalePressResetInterval"
+],
+[
+0,
+"Sd",
+"keyboardBrightnessMinimumApplyInterval"
+],
+[
+0,
+"<SYM02>",
+"keyboardBrightnessResampleInitialDelay"
+],
+[
+0,
+"<SYM02>",
+"keyboardBrightnessResampleInterval"
+],
+[
+0,
+"ShySSG",
+"internalKeyboardTransports"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableBrightness"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableVolume"
+],
+[
+2,
+"Shy<SYM02>G",
+"cancellables"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"accessibilityPermissionObserverTask"
+],
+[
+2,
+"Sb",
+"cachedAccessibilityAuthorization"
+],
+[
+2,
+"Sb",
+"hasQueuedRevokedPermissionStop"
+],
+[
+2,
+"Sb",
+"isBackgroundObservationEnabled"
+],
+[
+2,
+"Sb",
+"isBetterDisplayNotificationObservationEnabled"
+],
+[
+2,
+"Sb",
+"isBetterDisplayRunning"
+],
+[
+2,
+"Sb",
+"isUsingBetterDisplayBrightness"
+],
+[
+2,
+"SDySi<SYM01>G",
+"volumeKeyPressState"
+],
+[
+2,
+"ShySiG",
+"activeBrightnessKeys"
+],
+[
+2,
+"SDySiSdG",
+"lastKeyboardBrightnessApplyTimestamps"
+],
+[
+2,
+"SDySiScTyyt<SYM02>GG",
+"keyboardBrightnessResampleTasks"
+],
+[
+2,
+"SDySi<SYM01>G",
+"keyboardBrightnessResampleStates"
+],
+[
+0,
+"SS",
+"betterDisplayBundleIdentifier"
+],
+[
+0,
+"SS",
+"betterDisplayLaunchedNotificationName"
+],
+[
+0,
+"SS",
+"betterDisplayTerminatedNotificationName"
+],
+[
+0,
+"SS",
+"betterDisplayOsdNotificationName"
+],
+[
+0,
+"SS",
+"betterDisplayRequestNotificationName"
+],
+[
+2,
+"<SYM01>Sg",
+"lastBrightnessKeyPressState"
+]
+]
+},
+{
+"off": 5439848,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sd",
+"downTimestamp"
+],
+[
+2,
+"Sd",
+"lastDownTimestamp"
+],
+[
+2,
+"Si",
+"repeatCount"
+],
+[
+0,
+"Sb",
+"shouldInvertFeedback"
+]
+]
+},
+{
+"off": 5439912,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"id"
+],
+[
+0,
+"Si",
+"rawKeyCode"
+],
+[
+0,
+"<SYM01>",
+"targetPreference"
+],
+[
+0,
+"Sb",
+"isFineAdjustment"
+]
+]
+},
+{
+"off": 5439976,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sd",
+"timestamp"
+],
+[
+0,
+"<SYM01>",
+"targetPreference"
+]
+]
+},
+{
+"off": 5440016,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"SiSg",
+"systemIconID"
+],
+[
+2,
+"SdSg",
+"value"
+],
+[
+2,
+"SdSg",
+"maxValue"
+],
+[
+2,
+"<SYM02>Sg",
+"displayID"
+],
+[
+2,
+"<SYM02>Sg",
+"displayId"
+],
+[
+2,
+"<SYM02>Sg",
+"targetDisplayID"
+],
+[
+2,
+"SSSg",
+"uuid"
+],
+[
+2,
+"SSSg",
+"displayUUID"
+],
+[
+2,
+"SSSg",
+"targetUUID"
+]
+]
+},
+{
+"off": 5440140,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"SSSg",
+"uuid"
+],
+[
+2,
+"SaySSG",
+"commands"
+],
+[
+2,
+"SDyS2SSgG",
+"parameters"
+]
+]
+},
+{
+"off": 5440192,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"systemIconID"
+],
+[
+0,
+"",
+"value"
+],
+[
+0,
+"",
+"maxValue"
+],
+[
+0,
+"",
+"displayID"
+],
+[
+0,
+"",
+"displayId"
+],
+[
+0,
+"",
+"targetDisplayID"
+],
+[
+0,
+"",
+"uuid"
+],
+[
+0,
+"",
+"displayUUID"
+],
+[
+0,
+"",
+"targetUUID"
+]
+]
+},
+{
+"off": 5440316,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"uuid"
+],
+[
+0,
+"",
+"commands"
+],
+[
+0,
+"",
+"parameters"
+]
+]
+},
+{
+"off": 5440368,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_enableHaptics"
+],
+[
+0,
+"<SYM02>",
+"horizontalPadding"
+],
+[
+0,
+"So17NSNumberFormatterC",
+"formatter"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isShowingTextBox"
+],
+[
+2,
+"<SYM02>y<SYM01>yx_GSgG",
+"_focusedField"
+],
+[
+0,
+"SS",
+"title"
+],
+[
+0,
+"<SYM02>y<SYM02>GSg",
+"infoView"
+],
+[
+2,
+"<SYM02>yxG",
+"_value"
+],
+[
+0,
+"SNyxG",
+"sliderRange"
+],
+[
+0,
+"SSSg",
+"suffix"
+],
+[
+2,
+"x",
+"step"
+],
+[
+0,
+"Sb",
+"upperClamp"
+],
+[
+0,
+"Sb",
+"lowerClamp"
+],
+[
+0,
+"<SYM01>yx_G",
+"controlSize"
+],
+[
+0,
+"Si",
+"decimalPlaces"
+],
+[
+0,
+"ySbc",
+"onEditingChanged"
+],
+[
+2,
+"<SYM02>yyXlSgG",
+"_eventMonitor"
+]
+]
+},
+{
+"off": 5440588,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"regular"
+],
+[
+0,
+"",
+"compact"
+]
+]
+},
+{
+"off": 5440628,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"textbox"
+]
+]
+},
+{
+"off": 5440656,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_calendarManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_mediaManager"
+],
+[
+2,
+"<SYM02>ySdG",
+"_notchAdjustedWidth"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideSongTitleExtras"
+],
+[
+2,
+"<SYM02>ySbG",
+"_useColoredCalendarIndicator"
+]
+]
+},
+{
+"off": 5440744,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5440760,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+0,
+"<SYM02>",
+"height"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"<SYM02>",
+"innerPadding"
+],
+[
+0,
+"Sb",
+"usesWallpaper"
+],
+[
+0,
+"Sb",
+"isLight"
+],
+[
+0,
+"<SYM02>",
+"alignment"
+],
+[
+0,
+"q_yc",
+"wallpaper"
+],
+[
+0,
+"xyc",
+"content"
+]
+]
+},
+{
+"off": 5440884,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"blurRadius"
+],
+[
+0,
+"<SYM02>",
+"scale"
+],
+[
+0,
+"<SYM02>Sg",
+"width"
+],
+[
+0,
+"<SYM02>Sg",
+"height"
+],
+[
+0,
+"<SYM02>",
+"offset"
+],
+[
+0,
+"So7NSImageCSg",
+"wallpaperImage"
+],
+[
+2,
+"<SYM02>ySo7NSImageCSgG",
+"__resolvedWallpaperImage"
+]
+]
+},
+{
+"off": 5440984,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"service"
+]
+]
+},
+{
+"off": 5441012,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"connectionAlreadyOpen"
+],
+[
+0,
+"SS",
+"serviceNotFound"
+]
+]
+},
+{
+"off": 5441052,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"logger"
+],
+[
+0,
+"<SYM02>",
+"keychain"
+],
+[
+0,
+"<SYM01>",
+"api"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"timerTask"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"storageRecoveryTask"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"tokenRefreshTask"
+],
+[
+0,
+"Sd",
+"tokenRefreshThreshold"
+],
+[
+0,
+"Si",
+"offlineGraceSeconds"
+],
+[
+2,
+"<SYM02>ySSSgG",
+"_licenseName"
+],
+[
+2,
+"<SYM02>ySiSgG",
+"_activationLimit"
+],
+[
+2,
+"<SYM02>ySiSgG",
+"_activationUsage"
+],
+[
+2,
+"<SYM02>",
+"_trial"
+],
+[
+2,
+"<SYM02>",
+"_license"
+],
+[
+2,
+"Say<SYM02>G",
+"_instances"
+],
+[
+2,
+"SSSg",
+"_remainingTime"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5441260,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"SSSg",
+"key"
+],
+[
+2,
+"SbSg",
+"active"
+],
+[
+2,
+"SbSg",
+"beta"
+],
+[
+2,
+"SSSg",
+"name"
+],
+[
+2,
+"SSSg",
+"email"
+],
+[
+2,
+"SiSg",
+"limit"
+],
+[
+2,
+"SiSg",
+"usage"
+],
+[
+2,
+"<SYM01>Sg",
+"instance"
+]
+]
+},
+{
+"off": 5441372,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"SbSg",
+"active"
+],
+[
+2,
+"SSSg",
+"uuid"
+],
+[
+2,
+"<SYM02>Sg",
+"startedAt"
+],
+[
+2,
+"<SYM02>Sg",
+"endsAt"
+]
+]
+},
+{
+"off": 5441436,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"baseURL"
+]
+]
+},
+{
+"off": 5441464,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"SS",
+"id"
+],
+[
+2,
+"SS",
+"name"
+],
+[
+2,
+"SS",
+"model"
+]
+]
+},
+{
+"off": 5441516,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"available"
+],
+[
+0,
+"<SYM02>Sg6status_t",
+"transientFailure"
+],
+[
+0,
+"<SYM02>_p",
+"failure"
+],
+[
+0,
+"",
+"missing"
+],
+[
+0,
+"",
+"invalid"
+]
+]
+},
+{
+"off": 5441592,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Si",
+"v"
+],
+[
+0,
+"SS",
+"iss"
+],
+[
+0,
+"SS",
+"sub"
+],
+[
+0,
+"SS",
+"lkey"
+],
+[
+0,
+"SS",
+"hwid"
+],
+[
+0,
+"Sb",
+"active"
+],
+[
+0,
+"Sb",
+"beta"
+],
+[
+0,
+"Si",
+"limit"
+],
+[
+0,
+"Si",
+"usage"
+],
+[
+0,
+"SS",
+"iname"
+],
+[
+0,
+"SS",
+"imodel"
+],
+[
+0,
+"Si",
+"iat"
+],
+[
+0,
+"Si",
+"exp"
+],
+[
+0,
+"SS",
+"kid"
+]
+]
+},
+{
+"off": 5441776,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"invalidURL"
+],
+[
+0,
+"<SYM02>_p",
+"decodingFailed"
+],
+[
+0,
+"<SYM01>",
+"unauthorized"
+],
+[
+0,
+"<SYM01>",
+"notFound"
+],
+[
+0,
+"<SYM01>",
+"forbidden"
+],
+[
+0,
+"<SYM01>",
+"unprocessableEntity"
+],
+[
+0,
+"<SYM01>",
+"tooManyRequests"
+],
+[
+0,
+"Si10statusCode_SSSg7messaget",
+"api"
+],
+[
+0,
+"",
+"missingData"
+]
+]
+},
+{
+"off": 5441900,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"missingSystemUUID"
+],
+[
+0,
+"",
+"missingModelID"
+],
+[
+0,
+"",
+"missingComputerName"
+]
+]
+},
+{
+"off": 5441952,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"message"
+]
+]
+},
+{
+"off": 5441980,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"key"
+],
+[
+0,
+"Sb",
+"active"
+],
+[
+0,
+"Sb",
+"beta"
+],
+[
+0,
+"SSSg",
+"name"
+],
+[
+0,
+"Si",
+"limit"
+],
+[
+0,
+"Si",
+"usage"
+],
+[
+0,
+"<SYM02>",
+"instance"
+],
+[
+0,
+"Say<SYM02>G",
+"instances"
+],
+[
+0,
+"Sb",
+"includesInstances"
+],
+[
+0,
+"SS",
+"token"
+],
+[
+0,
+"<SYM02>",
+"tokenExpiresAt"
+]
+]
+},
+{
+"off": 5442128,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"missingRequiredFields"
+],
+[
+0,
+"",
+"encryptionFailed"
+],
+[
+0,
+"",
+"missingCurrentInstance"
+]
+]
+},
+{
+"off": 5442180,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"malformed"
+],
+[
+0,
+"",
+"badSignature"
+],
+[
+0,
+"",
+"expired"
+]
+]
+},
+{
+"off": 5442232,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"id"
+],
+[
+0,
+"",
+"name"
+],
+[
+0,
+"",
+"model"
+]
+]
+},
+{
+"off": 5442284,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"active"
+],
+[
+0,
+"",
+"uuid"
+],
+[
+0,
+"",
+"startedAt"
+],
+[
+0,
+"",
+"endsAt"
+]
+]
+},
+{
+"off": 5442348,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"key"
+],
+[
+0,
+"",
+"active"
+],
+[
+0,
+"",
+"beta"
+],
+[
+0,
+"",
+"name"
+],
+[
+0,
+"",
+"email"
+],
+[
+0,
+"",
+"limit"
+],
+[
+0,
+"",
+"usage"
+],
+[
+0,
+"",
+"instance"
+]
+]
+},
+{
+"off": 5442460,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"licenseKey"
+],
+[
+0,
+"SS",
+"instanceId"
+],
+[
+0,
+"SSSg",
+"hardwareUUID"
+],
+[
+0,
+"SSSg",
+"token"
+],
+[
+0,
+"<SYM02>Sg",
+"tokenExpiresAt"
+],
+[
+0,
+"SSSg",
+"name"
+],
+[
+0,
+"SbSg",
+"beta"
+],
+[
+0,
+"SiSg",
+"limit"
+],
+[
+0,
+"SiSg",
+"usage"
+],
+[
+0,
+"SSSg",
+"instanceName"
+],
+[
+0,
+"SSSg",
+"instanceModel"
+]
+]
+},
+{
+"off": 5442608,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS2id_t",
+"trial"
+],
+[
+0,
+"SS3key_t",
+"licenseInstances"
+],
+[
+0,
+"",
+"startTrial"
+],
+[
+0,
+"",
+"validateLicense"
+],
+[
+0,
+"",
+"deactivateLicense"
+],
+[
+0,
+"",
+"issueLicenseToken"
+]
+]
+},
+{
+"off": 5442696,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"message"
+]
+]
+},
+{
+"off": 5442724,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"licenseKey"
+],
+[
+0,
+"",
+"instanceId"
+],
+[
+0,
+"",
+"hardwareUUID"
+],
+[
+0,
+"",
+"token"
+],
+[
+0,
+"",
+"tokenExpiresAt"
+],
+[
+0,
+"",
+"name"
+],
+[
+0,
+"",
+"beta"
+],
+[
+0,
+"",
+"limit"
+],
+[
+0,
+"",
+"usage"
+],
+[
+0,
+"",
+"instanceName"
+],
+[
+0,
+"",
+"instanceModel"
+]
+]
+},
+{
+"off": 5442872,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"key"
+],
+[
+0,
+"",
+"active"
+],
+[
+0,
+"",
+"beta"
+],
+[
+0,
+"",
+"name"
+],
+[
+0,
+"",
+"limit"
+],
+[
+0,
+"",
+"usage"
+],
+[
+0,
+"",
+"instance"
+],
+[
+0,
+"",
+"instances"
+],
+[
+0,
+"",
+"token"
+],
+[
+0,
+"",
+"tokenExpiresAt"
+]
+]
+},
+{
+"off": 5443008,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"v"
+],
+[
+0,
+"",
+"iss"
+],
+[
+0,
+"",
+"sub"
+],
+[
+0,
+"",
+"lkey"
+],
+[
+0,
+"",
+"hwid"
+],
+[
+0,
+"",
+"active"
+],
+[
+0,
+"",
+"beta"
+],
+[
+0,
+"",
+"limit"
+],
+[
+0,
+"",
+"usage"
+],
+[
+0,
+"",
+"iname"
+],
+[
+0,
+"",
+"imodel"
+],
+[
+0,
+"",
+"iat"
+],
+[
+0,
+"",
+"exp"
+],
+[
+0,
+"",
+"kid"
+]
+]
+},
+{
+"off": 5443192,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"radius"
+]
+]
+},
+{
+"off": 5443220,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sd",
+"opacity"
+],
+[
+0,
+"<SYM02>",
+"blurRadius"
+],
+[
+0,
+"<SYM02>",
+"offset"
+],
+[
+0,
+"<SYM02>",
+"scale"
+],
+[
+0,
+"<SYM02>",
+"anchor"
+]
+]
+},
+{
+"off": 5443296,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"scale"
+],
+[
+0,
+"Sd",
+"opacity"
+]
+]
+},
+{
+"off": 5443336,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sd",
+"opacity"
+],
+[
+0,
+"<SYM02>",
+"blurRadius"
+],
+[
+0,
+"Sd",
+"fadeDelay"
+],
+[
+0,
+"Sd",
+"duration"
+]
+]
+},
+{
+"off": 5443400,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"offset"
+]
+]
+},
+{
+"off": 5443428,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So15NSXPCConnectionCSg",
+"connection"
+],
+[
+2,
+"Sb",
+"isNowPlayingObservationEnabled"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isFirstLaunch"
+],
+[
+2,
+"<SYM02>ySbG",
+"_automaticMusicApp"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_musicApp"
+]
+]
+},
+{
+"off": 5443504,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"cornerRadius"
+]
+]
+},
+{
+"off": 5443532,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_batteryManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_calendarManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_connectivityManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_focusManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_lockManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_mediaManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_weatherManager"
+],
+[
+2,
+"<SYM02>ySay<SYM02>GG",
+"_lockScreenWidgetOrder"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowBatteryWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowConnectivityWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowFocusWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowNowPlayingWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_nowPlayingStyle"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showVolumeControl"
+],
+[
+2,
+"<SYM02>ySdG",
+"_nowPlayingWidgetOffset"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowCalendarWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowWeatherWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_weatherStyle"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hasAppeared"
+]
+]
+},
+{
+"off": 5443800,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+]
+]
+},
+{
+"off": 5443828,
+"kind": 2,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"general"
+],
+[
+0,
+"",
+"battery"
+],
+[
+0,
+"",
+"connectivity"
+],
+[
+0,
+"",
+"focus"
+],
+[
+0,
+"",
+"display"
+],
+[
+0,
+"",
+"sound"
+],
+[
+0,
+"",
+"nowPlaying"
+],
+[
+0,
+"",
+"calendar"
+],
+[
+0,
+"",
+"fileTray"
+],
+[
+0,
+"",
+"lockScreen"
+],
+[
+0,
+"",
+"license"
+],
+[
+0,
+"",
+"about"
+]
+]
+},
+{
+"off": 5443988,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"text"
+],
+[
+0,
+"<SYM01>",
+"style"
+],
+[
+0,
+"<SYM02>",
+"color"
+],
+[
+0,
+"Sb",
+"usesInfoTint"
+],
+[
+0,
+"Sb",
+"cutoutText"
+],
+[
+0,
+"Sb",
+"bordered"
+],
+[
+0,
+"Sb",
+"hidesWhenActive"
+],
+[
+0,
+"Sd",
+"opacity"
+]
+]
+},
+{
+"off": 5444100,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"circle"
+],
+[
+0,
+"",
+"capsule"
+]
+]
+},
+{
+"off": 5444140,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SSSg",
+"name"
+],
+[
+0,
+"SSSg",
+"internalSystemName"
+],
+[
+0,
+"SSSg",
+"imageName"
+],
+[
+0,
+"SdSg",
+"imageSize"
+],
+[
+0,
+"SSSg",
+"text"
+],
+[
+0,
+"<SYM02>",
+"color"
+],
+[
+0,
+"<SYM02>",
+"highlightColor"
+],
+[
+0,
+"<SYM02>",
+"symbolColor"
+],
+[
+0,
+"<SYM02>Sg",
+"foreheadColor"
+],
+[
+0,
+"Sd",
+"size"
+],
+[
+0,
+"<SYM01>",
+"scale"
+],
+[
+0,
+"Sb",
+"usesAppIconPadding"
+],
+[
+0,
+"<SYM02>",
+"symbolOffset"
+],
+[
+0,
+"<SYM02>",
+"symbolWeight"
+],
+[
+0,
+"<SYM01>",
+"internalSymbolWeight"
+],
+[
+0,
+"Sd",
+"radiusMultiplier"
+]
+]
+},
+{
+"off": 5444348,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"mini"
+],
+[
+0,
+"",
+"small"
+],
+[
+0,
+"",
+"medium"
+],
+[
+0,
+"",
+"large"
+],
+[
+0,
+"",
+"extraLarge"
+],
+[
+0,
+"",
+"huge"
+],
+[
+0,
+"",
+"extraHuge"
+]
+]
+},
+{
+"off": 5444448,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_displayScale"
+],
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_calendarManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_connectivityManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_mediaManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_weatherManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_alwaysShowMonthView"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlChoice"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showWeatherOnEmptyDay"
+],
+[
+2,
+"<SYM02>ySbG",
+"_useEventIndicators"
+],
+[
+2,
+"<SYM02>ySDyS2SGG",
+"_calendarDisplayModes"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableCalendar"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_musicApp"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"__snapshotManager"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__calendarSnapshot"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__calendarSnapshotRequest"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__controlStripSnapshot"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__controlStripSnapshotRequest"
+],
+[
+2,
+"<SYM02>ySbG",
+"__showsFrozenSnapshot"
+]
+]
+},
+{
+"off": 5444692,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sd",
+"opacity"
+],
+[
+0,
+"<SYM02>",
+"blurRadius"
+],
+[
+0,
+"<SYM02>",
+"verticalOffset"
+],
+[
+0,
+"Sd",
+"delay"
+],
+[
+0,
+"Sd",
+"duration"
+]
+]
+},
+{
+"off": 5444768,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableBattery"
+],
+[
+2,
+"<SYM02>ySdG",
+"_batteryDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_notifyOnLowPowerMode"
+],
+[
+2,
+"<SYM02>ySbG",
+"_warnOnLowBattery"
+],
+[
+2,
+"<SYM02>ySdG",
+"_lowBatteryThreshold"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnLowBattery"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideBatteryLabel"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideBatteryPercentage"
+]
+]
+},
+{
+"off": 5444892,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_licenseManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isFirstLaunch"
+],
+[
+2,
+"<SYM02>ySSSgG",
+"_licenseName"
+],
+[
+2,
+"<SYM02>ySiSgG",
+"_activationLimit"
+],
+[
+2,
+"<SYM02>ySiSgG",
+"_activationUsage"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableHaptics"
+],
+[
+2,
+"<SYM02>y<SYM01>G",
+"__activation"
+],
+[
+2,
+"<SYM02>ySSG",
+"__licenseKey"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isLoading"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isValidating"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isValidLicense"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isViewCollapsed"
+],
+[
+2,
+"<SYM02>ySbG",
+"__hasError"
+],
+[
+2,
+"<SYM02>ySSG",
+"__errorMessage"
+],
+[
+2,
+"<SYM02>ySbG",
+"__shouldError"
+],
+[
+2,
+"<SYM02>ySbG",
+"__shouldShake"
+],
+[
+2,
+"<SYM02>ySbG",
+"__licenseCardHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__licenseSealHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__licenseNameHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__licenseDescriptionHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__licenseUsageHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__licenseActionHasEntered"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__licensePlayback"
+],
+[
+2,
+"<SYM02>yScTyyt<SYM02>GSgG",
+"__licenseTimelineTask"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isFocused"
+],
+[
+0,
+"<SYM02>",
+"expandedSize"
+],
+[
+0,
+"<SYM02>",
+"collapsedSize"
+]
+]
+},
+{
+"off": 5445244,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"license"
+],
+[
+0,
+"",
+"trial"
+],
+[
+0,
+"",
+"purchase"
+]
+]
+},
+{
+"off": 5445296,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM01>",
+"space"
+],
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+]
+]
+},
+{
+"off": 5445336,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+0,
+"SaySdG",
+"brightnessValues"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableBrightness"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hasPromptedAccessibilityPermission"
+],
+[
+2,
+"<SYM02>ySdG",
+"_brightnessDuration"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_brightnessProgressStyle"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_brightnessSpeed"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showBrightnessPercentage"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideBrightnessLabel"
+],
+[
+2,
+"<SYM02>ySdG",
+"__brightness"
+],
+[
+2,
+"<SYM02>ySdG",
+"__stylizedBrightness"
+],
+[
+2,
+"<SYM02>ySiG",
+"__currentBrightnessIndex"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isShowingAccessibilityPermission"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isAccessibilityAuthorized"
+]
+]
+},
+{
+"off": 5445532,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>Sg",
+"description"
+],
+[
+0,
+"x",
+"view"
+],
+[
+0,
+"SS",
+"symbol"
+],
+[
+0,
+"<SYM02>",
+"symbolWeight"
+],
+[
+0,
+"SSSg",
+"image"
+],
+[
+0,
+"<SYM02>",
+"size"
+],
+[
+0,
+"Sd",
+"padding"
+],
+[
+0,
+"Sb",
+"isEnabled"
+],
+[
+0,
+"Sb",
+"hasHover"
+],
+[
+0,
+"<SYM02>ySbGSg",
+"isPresented"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isShowingDescription"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isHovering"
+],
+[
+2,
+"<SYM02>ySo7NSTimerCSgG",
+"__hoverTimer"
+]
+]
+},
+{
+"off": 5445704,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>SgXw",
+"notchController"
+],
+[
+2,
+"ypSg",
+"globalMouseMonitor"
+],
+[
+2,
+"ypSg",
+"localMouseMonitor"
+],
+[
+2,
+"Say<SYM01>G",
+"swipeHandlers"
+],
+[
+0,
+"<SYM02>",
+"topPadding"
+]
+]
+},
+{
+"off": 5445780,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"direction"
+],
+[
+0,
+"y<SYM02>_AA<SYM02>ABtc",
+"action"
+],
+[
+2,
+"<SYM02>",
+"accumulatedScrollDeltaX"
+],
+[
+2,
+"<SYM02>",
+"accumulatedScrollDeltaY"
+]
+]
+},
+{
+"off": 5445844,
+"kind": 2,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"left"
+],
+[
+0,
+"",
+"right"
+],
+[
+0,
+"",
+"up"
+],
+[
+0,
+"",
+"down"
+]
+]
+},
+{
+"off": 5445908,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sd",
+"verticalSwipeSuccessThreshold"
+],
+[
+0,
+"Sd",
+"verticalSwipeResetThreshold"
+],
+[
+0,
+"Sd",
+"cycleActivitySwipeSuccessThreshold"
+],
+[
+0,
+"Sd",
+"cycleActivitySwipeResetThreshold"
+],
+[
+0,
+"Sd",
+"horizontalSwipeSuccessThreshold"
+],
+[
+0,
+"Sd",
+"horizontalSwipeResetThreshold"
+],
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+0,
+"<SYM02>",
+"calendarManager"
+],
+[
+0,
+"<SYM02>",
+"mediaManager"
+],
+[
+0,
+"Sb",
+"enableHaptics"
+],
+[
+0,
+"Sb",
+"swipeToSkip"
+],
+[
+0,
+"Sb",
+"enableNowPlaying"
+],
+[
+0,
+"Sb",
+"enableQuickPeek"
+],
+[
+0,
+"Sb",
+"enableCalendarQuickPeek"
+],
+[
+0,
+"Sb",
+"swipeToDismiss"
+],
+[
+0,
+"Sb",
+"swipeToCycleActivity"
+],
+[
+0,
+"Sb",
+"swipeToToggle"
+]
+]
+},
+{
+"off": 5446128,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"notchController"
+]
+]
+},
+{
+"off": 5446156,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>SgXw",
+"aggregator"
+],
+[
+2,
+"SfSg",
+"_luminance"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5446208,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"aggregator"
+],
+[
+0,
+"Sb",
+"isEnabled"
+],
+[
+0,
+"Sb",
+"isVisible"
+],
+[
+0,
+"Sb",
+"isExpanded"
+],
+[
+0,
+"<SYM02>Sg",
+"tintColor"
+],
+[
+0,
+"<SYM02>",
+"outlineShape"
+],
+[
+2,
+"<SYM02>ySdG",
+"__animatedOpacity"
+],
+[
+2,
+"<SYM02>y<SYM01>G",
+"__luminanceState"
+]
+]
+},
+{
+"off": 5446320,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"style"
+],
+[
+2,
+"Sd",
+"bottomCornerRadius"
+],
+[
+2,
+"Sd",
+"thickness"
+]
+]
+},
+{
+"off": 5446372,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"notch"
+],
+[
+0,
+"",
+"pill"
+]
+]
+},
+{
+"off": 5446412,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToDismiss"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToToggle"
+],
+[
+2,
+"<SYM02>ySdG",
+"_notchAdjustedWidth"
+],
+[
+2,
+"<SYM02>ySdG",
+"_notchAdjustedHeight"
+],
+[
+2,
+"<SYM02>ySbG",
+"_contrastOutline"
+]
+]
+},
+{
+"off": 5446500,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>ySbG",
+"_progressiveBlur"
+],
+[
+0,
+"Sd",
+"progressiveBlurOutset"
+],
+[
+0,
+"Sd",
+"progressiveBlurEdgeClearance"
+]
+]
+},
+{
+"off": 5446564,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_lockManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_mediaManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_showOnDisplay"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableHaptics"
+],
+[
+2,
+"<SYM02>ySbG",
+"_expandNotchOnHover"
+],
+[
+2,
+"<SYM02>ySdG",
+"_hoverDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToToggle"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToDismiss"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToSkip"
+],
+[
+2,
+"<SYM02>ySdG",
+"_notchAdjustedWidth"
+],
+[
+2,
+"<SYM02>ySdG",
+"_notchAdjustedHeight"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableFocus"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileSourceIsActive"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileInFullscreen"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlChoice"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_musicApp"
+],
+[
+2,
+"<SYM02>ySbG",
+"_contrastOutline"
+],
+[
+2,
+"<SYM02>yScTyyt<SYM02>GSgG",
+"_hoverDebounce"
+],
+[
+2,
+"<SYM02>ySdG",
+"_cutoutScale"
+],
+[
+2,
+"<SYM02>ySdG",
+"_cutoutWidthProgress"
+],
+[
+2,
+"<SYM02>ySdG",
+"_cutoutContentWidthProgress"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_cutoutScaleAnchor"
+]
+]
+},
+{
+"off": 5446856,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"regular"
+],
+[
+0,
+"",
+"holiday"
+],
+[
+0,
+"",
+"birthday"
+]
+]
+},
+{
+"off": 5446908,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_audioManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_calendarManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_focusManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_lockManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_mediaManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_expandNotchOnHover"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToToggle"
+],
+[
+2,
+"<SYM02>ySdG",
+"_notchAdjustedHeight"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideLabel"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableNowPlaying"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableHaptics"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableFocus"
+],
+[
+2,
+"<SYM02>ySbG",
+"_disableAlbumArtFlip"
+],
+[
+2,
+"<SYM02>ySbG",
+"_disableWaveform"
+],
+[
+2,
+"<SYM02>ySbG",
+"_replaceWaveformDuringFocus"
+],
+[
+2,
+"<SYM02>ySSSgG",
+"_replaceWaveformDuringFocusModeIdentifier"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileInFullscreen"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_musicApp"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableQuickPeek"
+],
+[
+2,
+"<SYM02>ySbG",
+"_useCalendarColor"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableCalendarQuickPeek"
+],
+[
+2,
+"<SYM02>ySbG",
+"_useLiveWaveform"
+]
+]
+},
+{
+"off": 5447200,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"horizontalPadding"
+],
+[
+0,
+"x",
+"view"
+],
+[
+0,
+"<SYM02>",
+"minHeight"
+],
+[
+0,
+"<SYM02>",
+"size"
+],
+[
+0,
+"Sb",
+"disabled"
+],
+[
+0,
+"yyYac",
+"action"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isLoading"
+]
+]
+},
+{
+"off": 5447300,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So8NSObjectC",
+"fields": []
+},
+{
+"off": 5447316,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"appState"
+],
+[
+2,
+"<SYM02>y<SYM01>G",
+"_appDelegate"
+]
+]
+},
+{
+"off": 5447356,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"logger"
+],
+[
+0,
+"Say<SYM01>G",
+"monitoredProcesses"
+],
+[
+2,
+"Shy<SYM02>G",
+"cancellables"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"logTask"
+],
+[
+2,
+"Sb",
+"isMonitoringEnabled"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileInMissionControl"
+],
+[
+2,
+"Sb",
+"isMissionControlActive"
+]
+]
+},
+{
+"off": 5447456,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"bundleIdentifier"
+],
+[
+0,
+"SS",
+"processName"
+]
+]
+},
+{
+"off": 5447496,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Shy<SYM02>G",
+"cancellables"
+],
+[
+2,
+"Sb",
+"hasRecentlySleptOrWoke"
+],
+[
+2,
+"Sb",
+"isFullscreen"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileInFullscreen"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileGaming"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileInMissionControl"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_showOnDisplay"
+],
+[
+2,
+"<SYM02>ySSSgG",
+"_showOnDisplayUUID"
+]
+]
+},
+{
+"off": 5447608,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>yxG",
+"_value"
+],
+[
+0,
+"SNyxG",
+"inRange"
+],
+[
+0,
+"Say<SYM02>G",
+"fillColors"
+],
+[
+0,
+"<SYM02>",
+"emptyColor"
+],
+[
+0,
+"<SYM02>",
+"height"
+],
+[
+0,
+"Sb",
+"hasGlow"
+],
+[
+0,
+"Sb",
+"progressiveGlow"
+],
+[
+0,
+"<SYM02>",
+"animation"
+]
+]
+},
+{
+"off": 5447720,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So8NSWindowC",
+"fields": [
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"Sb",
+"isClosable"
+],
+[
+0,
+"<SYM02>",
+"closeButtonOffset"
+],
+[
+0,
+"yycSg",
+"onClose"
+],
+[
+2,
+"<SYM02>Sg",
+"originalCloseButtonOrigin"
+],
+[
+2,
+"So8NSButtonCSg",
+"customCloseButton"
+]
+]
+},
+{
+"off": 5447808,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+0,
+"SSSg",
+"title"
+],
+[
+0,
+"Say<SYM01>G",
+"tabs"
+],
+[
+0,
+"<SYM02>",
+"titlePadding"
+]
+]
+},
+{
+"off": 5447872,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"badge"
+],
+[
+0,
+"Sb",
+"isActive"
+],
+[
+0,
+"Sb",
+"isWindowActive"
+]
+]
+},
+{
+"off": 5447924,
+"kind": 5,
+"name": "$s6Alcove28ControlActionClosureProtocolP",
+"super": "",
+"fields": []
+},
+{
+"off": 5447940,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So8NSObjectC",
+"fields": [
+[
+0,
+"ySo7NSEventCc",
+"action"
+]
+]
+},
+{
+"off": 5447968,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"x",
+"defaultValue"
+],
+[
+0,
+"<SYM01>",
+"policy"
+]
+]
+},
+{
+"off": 5448008,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So10NSMenuItemC",
+"fields": [
+[
+0,
+"yyc",
+"callback"
+]
+]
+},
+{
+"off": 5448036,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So6NSMenuC",
+"fields": [
+[
+0,
+"ySo6NSMenuCScMYcc",
+"willOpenCallback"
+]
+]
+},
+{
+"off": 5448064,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"assign"
+],
+[
+0,
+"",
+"retainNonatomic"
+],
+[
+0,
+"",
+"copyNonatomic"
+],
+[
+0,
+"",
+"retain"
+],
+[
+0,
+"",
+"copy"
+]
+]
+},
+{
+"off": 5448140,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5448156,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+]
+]
+},
+{
+"off": 5448184,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM01>",
+"_space"
+],
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+],
+[
+2,
+"So18NSWindowControllerCSg",
+"backdropWindowController"
+],
+[
+2,
+"ypSg",
+"topEdgeGlobalMouseMonitor"
+],
+[
+2,
+"ypSg",
+"topEdgeLocalMouseMonitor"
+],
+[
+2,
+"<SYM02>Sg",
+"swipeMonitor"
+],
+[
+2,
+"Sb",
+"topEdgePressStarted"
+],
+[
+2,
+"<SYM02>Sg",
+"topEdgeOpenStartedAt"
+],
+[
+2,
+"<SYM02>",
+"disableTransitionNonce"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"notificationSwapDebounce"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"notificationCloseDebounce"
+],
+[
+2,
+"<SYM02>",
+"notificationCloseGeneration"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"notificationRestoreDebounce"
+],
+[
+2,
+"<SYM02>",
+"notificationClosingType"
+],
+[
+2,
+"<SYM02>",
+"notificationClosingUntil"
+],
+[
+2,
+"<SYM02>",
+"notificationLiveActivityContext"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"liveActivitySwapDebounce"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"quickPeekDebounce"
+],
+[
+2,
+"<SYM02>",
+"quickPeekGeneration"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"adjustDebounce"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"mediaKeyEdgeRestoreDebounce"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"expandedTransitionTask"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"expandedCornerRadiusTask"
+],
+[
+2,
+"<SYM02>",
+"expandedTransitionGeneration"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"progressiveBlurTransitionTask"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"backdropLumaTransitionTask"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"progressDebounce"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"swipeResetDebounce"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"quickPeekResetDebounce"
+],
+[
+2,
+"Say<SYM01>G",
+"dismissedLiveActivityStack"
+],
+[
+2,
+"<SYM02>Sg",
+"pendingCycleIdleActivity"
+],
+[
+2,
+"Sb",
+"isExpandedFromNotification"
+],
+[
+2,
+"<SYM02>Sg",
+"notificationExpandedActivityOverride"
+],
+[
+2,
+"Sb",
+"isHidden"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"visibilityDebounce"
+],
+[
+2,
+"Sb",
+"animateNonNotchCutoutTransition"
+],
+[
+0,
+"<SYM01>",
+"backdropLuminanceAggregator"
+],
+[
+2,
+"<SYM02>",
+"_backdropLumaGeneration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideFromScreenCapture"
+],
+[
+2,
+"<SYM02>ySbG",
+"_forceSimulatedNotch"
+],
+[
+2,
+"<SYM02>ySdG",
+"_notchAdjustedWidth"
+],
+[
+2,
+"<SYM02>ySdG",
+"_notchAdjustedHeight"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableFocus"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableBrightness"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableVolume"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableCalendarQuickPeek"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showWeatherOnEmptyDay"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableNowPlaying"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileSourceIsActive"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileInFullscreen"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableQuickPeek"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableLockScreen"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableHaptics"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowNowPlayingWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_mostRecentActivity"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_idleActivity"
+],
+[
+2,
+"<SYM02>ySbG",
+"_forceEnableActivity"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToCycleActivity"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToDismiss"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToSkip"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToToggle"
+],
+[
+2,
+"Sb",
+"_isEnabled"
+],
+[
+2,
+"Sb",
+"_isVisible"
+],
+[
+2,
+"Sb",
+"_isMouseInside"
+],
+[
+2,
+"Sb",
+"_isMouseInsideLeftContent"
+],
+[
+2,
+"Sb",
+"_isMouseInsideRightContent"
+],
+[
+2,
+"Sb",
+"_isElevated"
+],
+[
+2,
+"Sb",
+"_isPressed"
+],
+[
+2,
+"Sb",
+"_isQuickPeeking"
+],
+[
+2,
+"Sb",
+"_isExpanded"
+],
+[
+2,
+"Sb",
+"_isExpanding"
+],
+[
+2,
+"Sb",
+"_isCollapsing"
+],
+[
+2,
+"Sb",
+"_usesExpandedCornerRadius"
+],
+[
+2,
+"Sb",
+"_isWidening"
+],
+[
+2,
+"Sb",
+"_isAdjusting"
+],
+[
+2,
+"Sb",
+"_hasProgressiveBlur"
+],
+[
+2,
+"Sb",
+"_hasExpandedBackdropLuma"
+],
+[
+2,
+"Sb",
+"_hasNotification"
+],
+[
+2,
+"Sb",
+"_hasLiveActivity"
+],
+[
+2,
+"Sb",
+"_hasOutput"
+],
+[
+2,
+"<SYM02>",
+"_notification"
+],
+[
+2,
+"<SYM02>",
+"_notificationIntent"
+],
+[
+2,
+"<SYM02>",
+"_liveActivity"
+],
+[
+2,
+"<SYM02>",
+"_liveActivityIntent"
+],
+[
+2,
+"<SYM02>",
+"_quickPeek"
+],
+[
+2,
+"<SYM02>",
+"_expandedActivityTransitionNonce"
+],
+[
+2,
+"<SYM02>",
+"_controlStripSnapshotRefreshNonce"
+],
+[
+2,
+"<SYM02>",
+"_expandedActivity"
+],
+[
+2,
+"<SYM01>Sg",
+"_notificationContext"
+],
+[
+2,
+"Sd",
+"_notchWidth"
+],
+[
+2,
+"Sd",
+"_notchHeight"
+],
+[
+2,
+"Sd",
+"_notchExpandedWidth"
+],
+[
+2,
+"Sd",
+"_notchExpandedHeight"
+],
+[
+2,
+"<SYM02>Sg",
+"_lastAdjustment"
+],
+[
+2,
+"Sb",
+"_shouldResetSwipes"
+],
+[
+2,
+"Sd",
+"_mediaKeyStretchMaxScroll"
+],
+[
+2,
+"Sd",
+"_mediaKeyEdgeScroll"
+],
+[
+2,
+"<SYM02>",
+"_mediaKeyEdgeDirection"
+],
+[
+2,
+"Sd",
+"_gestureHorizontalScroll"
+],
+[
+2,
+"Sd",
+"_gestureHorizontalProgress"
+],
+[
+2,
+"<SYM02>",
+"_gestureHorizontalDirection"
+],
+[
+2,
+"Sb",
+"_hasPassedHorizontalSwipeThreshold"
+],
+[
+2,
+"<SYM02>",
+"_startedHorizontalSwipe"
+],
+[
+2,
+"Sd",
+"_gestureVerticalScroll"
+],
+[
+2,
+"Sd",
+"_gestureVerticalProgress"
+],
+[
+2,
+"<SYM02>",
+"_gestureVerticalDirection"
+],
+[
+2,
+"Sb",
+"_hasTriggeredVerticalSwipeAction"
+],
+[
+2,
+"Sb",
+"_cycleSwipeReadyOnRelease"
+],
+[
+2,
+"Sb",
+"_hasTriggeredCycleThresholdHaptic"
+],
+[
+2,
+"Sb",
+"_isSwiping"
+],
+[
+2,
+"Sb",
+"_isQuickPeekSwiping"
+],
+[
+2,
+"Sb",
+"_isCollapsingSwipe"
+],
+[
+0,
+"SS",
+"displayUUID"
+],
+[
+2,
+"<SYM02>",
+"_hiddenLiveActivityForSpaceContext"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5449580,
+"kind": 2,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"isCharging"
+],
+[
+0,
+"",
+"isLowBattery"
+],
+[
+0,
+"",
+"isLowPowerMode"
+],
+[
+0,
+"",
+"didConnectAirPods"
+],
+[
+0,
+"",
+"isLowAirPodsBattery"
+],
+[
+0,
+"",
+"isFocus"
+],
+[
+0,
+"",
+"didChangeVolume"
+],
+[
+0,
+"",
+"didChangeBrightness"
+],
+[
+0,
+"",
+"timeToLeave"
+],
+[
+0,
+"",
+"none"
+]
+]
+},
+{
+"off": 5449716,
+"kind": 2,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"none"
+],
+[
+0,
+"",
+"isLocked"
+],
+[
+0,
+"",
+"isAdjusting"
+],
+[
+0,
+"",
+"isCalendar"
+],
+[
+0,
+"",
+"isPlaying"
+]
+]
+},
+{
+"off": 5449792,
+"kind": 2,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"none"
+],
+[
+0,
+"",
+"isAdjusting"
+],
+[
+0,
+"",
+"isCalendar"
+],
+[
+0,
+"",
+"isPlaying"
+]
+]
+},
+{
+"off": 5449856,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"type"
+],
+[
+0,
+"<SYM02>Sg",
+"deviceSnapshot"
+]
+]
+},
+{
+"off": 5449896,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_forceSimulatedNotch"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideFromScreenCapture"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_showOnDisplay"
+],
+[
+2,
+"<SYM02>ySSSgG",
+"_showOnDisplayUUID"
+],
+[
+2,
+"SDySS<SYM02>G",
+"controllersByDisplayUUID"
+]
+]
+},
+{
+"off": 5449972,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So6NSViewC",
+"fields": [
+[
+2,
+"So8NSObjectCSg",
+"uiController"
+],
+[
+2,
+"So6NSViewCSgXw",
+"backgroundView"
+],
+[
+2,
+"So16NSViewControllerCSgXw",
+"statusController"
+],
+[
+2,
+"So16NSViewControllerCSg",
+"bigTimeController"
+],
+[
+2,
+"So16NSViewControllerCSg",
+"dateController"
+],
+[
+2,
+"So8NSObjectCSgXw",
+"clockSettingsManager"
+],
+[
+2,
+"So8NSObjectCSgXw",
+"clockSettings"
+],
+[
+2,
+"So6NSViewCSgXw",
+"focusStatusSymbolContainer"
+],
+[
+2,
+"So11NSImageViewCSgXw",
+"focusStatusSymbolImageView"
+],
+[
+2,
+"So6NSViewCSgXw",
+"authHintView"
+],
+[
+2,
+"So11NSTextFieldCSgXw",
+"mainAuthHintTextField"
+],
+[
+2,
+"So11NSTextFieldCSgXw",
+"subAuthHintTextField"
+],
+[
+2,
+"SaySo20NSNotificationCenterC_<SYM0c>_ptG",
+"notificationObservers"
+],
+[
+2,
+"So24NSClickGestureRecognizerCSg",
+"authHintClickGestureRecognizer"
+],
+[
+2,
+"Sb",
+"hasLoadedSystemBundle"
+],
+[
+2,
+"SbSg",
+"$__lazy_storage_$_hasTouchID"
+],
+[
+2,
+"Sb",
+"isObservingFocusState"
+],
+[
+2,
+"Sb",
+"isFocusStatusSymbolVisible"
+],
+[
+2,
+"Si",
+"focusStatusSymbolAnimationToken"
+],
+[
+2,
+"yycSg",
+"onAuthHintTextClick"
+]
+]
+},
+{
+"off": 5450228,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"x"
+],
+[
+2,
+"<SYM02>",
+"y"
+]
+]
+},
+{
+"off": 5450268,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_isEnabled"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+0,
+"<SYM02>",
+"elementMinHeight"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"Sb",
+"isPrimary"
+]
+]
+},
+{
+"off": 5450344,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_isEnabled"
+],
+[
+0,
+"<SYM02>",
+"topLeftCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"topRightCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"bottomLeftCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"bottomRightCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"elementMinHeight"
+]
+]
+},
+{
+"off": 5450432,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_isEnabled"
+],
+[
+0,
+"<SYM02>",
+"topLeftCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"topRightCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"bottomLeftCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"bottomRightCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"elementMinHeight"
+]
+]
+},
+{
+"off": 5450520,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_isEnabled"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isSelected"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showsPressedState"
+],
+[
+0,
+"<SYM02>",
+"elementMinHeight"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"Sb",
+"showsSelectionHighlight"
+]
+]
+},
+{
+"off": 5450620,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_isEnabled"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"<SYM02>",
+"elementMinHeight"
+],
+[
+0,
+"<SYM02>",
+"innerPadding"
+]
+]
+},
+{
+"off": 5450684,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_isEnabled"
+],
+[
+0,
+"<SYM02>",
+"topLeftCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"topRightCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"bottomLeftCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"bottomRightCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"elementMinHeight"
+]
+]
+},
+{
+"off": 5450772,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isEnabled"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isHovering"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"Sb",
+"showsHoverEffect"
+]
+]
+},
+{
+"off": 5450848,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"mode"
+],
+[
+0,
+"<SYM02>Sg",
+"pressAnimation"
+]
+]
+},
+{
+"off": 5450888,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sd",
+"opacity"
+],
+[
+0,
+"Sd",
+"darken"
+]
+]
+},
+{
+"off": 5450928,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"color"
+],
+[
+0,
+"<SYM02>",
+"horizontalPadding"
+],
+[
+0,
+"<SYM02>",
+"verticalPadding"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"<SYM02>",
+"bottomLeadingCornerBoost"
+],
+[
+0,
+"<SYM02>",
+"bottomTrailingCornerBoost"
+],
+[
+0,
+"Sb",
+"isCapsule"
+],
+[
+0,
+"<SYM02>",
+"luminanceThreshold"
+]
+]
+},
+{
+"off": 5451040,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"Sb",
+"isActive"
+]
+]
+},
+{
+"off": 5451080,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5451096,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5451112,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5451128,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5451144,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Sd",
+"progress"
+]
+]
+},
+{
+"off": 5451172,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+]
+]
+},
+{
+"off": 5451200,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_isFirstLaunch"
+],
+[
+2,
+"<SYM02>ySSSgG",
+"_licenseName"
+],
+[
+2,
+"<SYM02>ySiSgG",
+"_activationLimit"
+],
+[
+2,
+"<SYM02>ySiSgG",
+"_activationUsage"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideMenuBarIcon"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_showOnDisplay"
+],
+[
+2,
+"<SYM02>ySSSgG",
+"_showOnDisplayUUID"
+],
+[
+2,
+"<SYM02>ySSG",
+"_showOnDisplayName"
+],
+[
+2,
+"<SYM02>ySSG",
+"_showOnDisplaySymbol"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlChoice"
+],
+[
+2,
+"<SYM02>ySbG",
+"_automaticMusicApp"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_musicApp"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_idleActivity"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_nowPlayingStyle"
+],
+[
+2,
+"Shy<SYM02>G",
+"cancellables"
+],
+[
+2,
+"<SYM02>Sg",
+"reachabilityMonitor"
+],
+[
+2,
+"<SYM02>Sg",
+"lastReachabilityStatus"
+],
+[
+2,
+"<SYM02>Sg",
+"lastActivationVerificationAt"
+],
+[
+0,
+"Sd",
+"activationVerificationCooldown"
+],
+[
+2,
+"So6NSMenuCSg",
+"$__lazy_storage_$_statusMenu"
+],
+[
+2,
+"So12NSStatusItemCSg",
+"$__lazy_storage_$_statusItem"
+],
+[
+2,
+"So17NSStatusBarButtonCSg",
+"$__lazy_storage_$_statusItemButton"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5451492,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"kind"
+],
+[
+0,
+"SS",
+"name"
+],
+[
+0,
+"SS",
+"symbol"
+]
+]
+},
+{
+"off": 5451544,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS4size_t",
+"iMac"
+],
+[
+0,
+"SS4size_t",
+"macBookAir"
+],
+[
+0,
+"SS4size_t",
+"macBookPro"
+],
+[
+0,
+"",
+"macMini"
+],
+[
+0,
+"",
+"macStudio"
+],
+[
+0,
+"",
+"macPro"
+],
+[
+0,
+"",
+"iMacPro"
+],
+[
+0,
+"",
+"macBook"
+],
+[
+0,
+"",
+"unknown"
+]
+]
+},
+{
+"off": 5451668,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isAnimating"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isHovering"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isHoveringMiddleContainer"
+],
+[
+2,
+"<SYM02>yScTyyt<SYM02>GSgG",
+"__debounce"
+]
+]
+},
+{
+"off": 5451744,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+]
+]
+},
+{
+"off": 5451772,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+]
+]
+},
+{
+"off": 5451800,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"style"
+],
+[
+2,
+"Sd",
+"topCornerRadius"
+],
+[
+2,
+"Sd",
+"bottomCornerRadius"
+]
+]
+},
+{
+"off": 5451852,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"notch"
+],
+[
+0,
+"",
+"pill"
+]
+]
+},
+{
+"off": 5451892,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+]
+]
+},
+{
+"off": 5451920,
+"kind": 6,
+"name": "$s6Alcove14HelperProtocolP",
+"super": "",
+"fields": []
+},
+{
+"off": 5451936,
+"kind": 6,
+"name": "$s6Alcove14ClientProtocolP",
+"super": "",
+"fields": []
+},
+{
+"off": 5451952,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So7NSPanelC",
+"fields": [
+[
+2,
+"<SYM02>SgXw",
+"notchController"
+]
+]
+},
+{
+"off": 5451980,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So7NSPanelC",
+"fields": []
+},
+{
+"off": 5451996,
+"kind": 7,
+"name": "<SYM02>",
+"super": "So8NSObjectC",
+"fields": [
+[
+0,
+"<SYM02>",
+"logger"
+],
+[
+0,
+"<SYM02>",
+"keychain"
+],
+[
+0,
+"So17CLLocationManagerC",
+"locationManager"
+],
+[
+2,
+"ScCySo10CLLocationC<SYM02>_pGSg",
+"locationContinuation"
+],
+[
+0,
+"<SYM02>",
+"weatherService"
+],
+[
+2,
+"<SYM02>Sg",
+"lastFetchDate"
+],
+[
+2,
+"So10CLLocationCSg",
+"lastFetchLocation"
+],
+[
+2,
+"Shy<SYM02>G",
+"cancellables"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"activeFetchTask"
+],
+[
+2,
+"So7NSTimerCSg",
+"daylightTransitionTimer"
+],
+[
+0,
+"Sd",
+"calendarConditionsTTL"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowWeatherWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_weatherStyle"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showWeatherOnEmptyDay"
+],
+[
+2,
+"<SYM02>ySbG",
+"_notifyWhenTimeToLeave"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"_pendingLocationPermissionTarget"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hasPromptedLocationPermission"
+],
+[
+2,
+"<SYM02>y<SYM01>SgG",
+"_cachedWeather"
+],
+[
+2,
+"Sb",
+"_hasWeather"
+],
+[
+2,
+"<SYM02>Sg",
+"_weather"
+],
+[
+2,
+"<SYM01>Sg",
+"_daylight"
+],
+[
+2,
+"<SYM02>",
+"_daylightEvaluationDate"
+],
+[
+2,
+"SiSg",
+"_precipitationChance"
+],
+[
+2,
+"Sb",
+"_isRaining"
+],
+[
+2,
+"<SYM01>",
+"_authorizationStatus"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5452324,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"SdSg",
+"temperatureCelsius"
+],
+[
+2,
+"<SYM02>Sg",
+"condition"
+]
+]
+},
+{
+"off": 5452364,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"sunrise"
+],
+[
+0,
+"<SYM02>",
+"sunset"
+],
+[
+0,
+"<SYM02>Sg",
+"nextSunrise"
+],
+[
+0,
+"<SYM02>Sg",
+"nextSunset"
+]
+]
+},
+{
+"off": 5452428,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"weather"
+],
+[
+0,
+"<SYM01>Sg",
+"daylight"
+],
+[
+0,
+"SiSg",
+"precipitationChance"
+],
+[
+0,
+"SbSg",
+"isRaining"
+],
+[
+0,
+"<SYM02>",
+"lastFetchDate"
+],
+[
+0,
+"So10CLLocationC",
+"lastFetchLocation"
+]
+]
+},
+{
+"off": 5452516,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"servicesDisabled"
+],
+[
+0,
+"",
+"notAuthorized"
+],
+[
+0,
+"",
+"timeout"
+]
+]
+},
+{
+"off": 5452568,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"weather"
+],
+[
+0,
+"",
+"daylight"
+],
+[
+0,
+"",
+"precipitationChance"
+],
+[
+0,
+"",
+"isRaining"
+],
+[
+0,
+"",
+"lastFetchDate"
+],
+[
+0,
+"",
+"latitude"
+],
+[
+0,
+"",
+"longitude"
+],
+[
+0,
+"",
+"altitude"
+]
+]
+},
+{
+"off": 5452680,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"sunrise"
+],
+[
+0,
+"",
+"sunset"
+],
+[
+0,
+"",
+"nextSunrise"
+],
+[
+0,
+"",
+"nextSunset"
+]
+]
+},
+{
+"off": 5452744,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"temperatureCelsius"
+],
+[
+0,
+"",
+"condition"
+]
+]
+},
+{
+"off": 5452784,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"type"
+],
+[
+0,
+"<SYM02>",
+"time"
+]
+]
+},
+{
+"off": 5452824,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"symbol"
+],
+[
+0,
+"SS",
+"text"
+],
+[
+0,
+"Sb",
+"hasSun"
+],
+[
+0,
+"Sb",
+"hasRain"
+],
+[
+0,
+"Sb",
+"hasCloud"
+]
+]
+},
+{
+"off": 5452900,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"sunrise"
+],
+[
+0,
+"",
+"sunset"
+]
+]
+},
+{
+"off": 5452940,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"type"
+],
+[
+0,
+"",
+"time"
+]
+]
+},
+{
+"off": 5452980,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+]
+]
+},
+{
+"off": 5453008,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5453024,
+"kind": 6,
+"name": "$s6Alcove16SBObjectProtocolP",
+"super": "",
+"fields": []
+},
+{
+"off": 5453040,
+"kind": 6,
+"name": "$s6Alcove21SBApplicationProtocolP",
+"super": "",
+"fields": []
+},
+{
+"off": 5453056,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"logger"
+],
+[
+2,
+"So18NSWindowControllerCSg",
+"windowController"
+],
+[
+2,
+"<SYM02>Sg",
+"updateTimer"
+],
+[
+2,
+"Sb",
+"isNetworkSatisfied"
+],
+[
+2,
+"<SYM01>Sg",
+"targetUpdateChannel"
+],
+[
+2,
+"<SYM02>Sg",
+"_targetRelease"
+],
+[
+2,
+"Sd",
+"_progressBar"
+],
+[
+2,
+"<SYM02>",
+"_updateState"
+],
+[
+2,
+"SaySS6symbol_<SYM02>5colorSS5titleSay<SYM01>G4bodytG",
+"_changelog"
+],
+[
+2,
+"<SYM02>ySbG",
+"_earlyBirdUpdates"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5453204,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So8NSObjectC",
+"fields": [
+[
+2,
+"ySdcSg",
+"progressHandler"
+],
+[
+2,
+"y<SYM02>yyt<SYM02>_pGcSg",
+"completionHandler"
+],
+[
+0,
+"<SYM02>",
+"destinationURL"
+],
+[
+0,
+"Sd",
+"downloadProgressStart"
+],
+[
+0,
+"Sd",
+"downloadProgressEnd"
+],
+[
+2,
+"<SYM02>yyt<SYM02>_pGSg",
+"completionResult"
+],
+[
+2,
+"Sb",
+"hasCompleted"
+]
+]
+},
+{
+"off": 5453304,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"stable"
+],
+[
+0,
+"",
+"trial"
+],
+[
+0,
+"",
+"beta"
+]
+]
+},
+{
+"off": 5453356,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Si",
+"id"
+],
+[
+2,
+"SS",
+"tagName"
+],
+[
+2,
+"SS",
+"name"
+],
+[
+2,
+"Say<SYM01>G",
+"sections"
+],
+[
+2,
+"Say<SYM01>G",
+"assets"
+],
+[
+2,
+"Sb",
+"prerelease"
+],
+[
+2,
+"SS",
+"publishedAt"
+],
+[
+2,
+"SSSg",
+"minimumSystemVersion"
+],
+[
+2,
+"SiSg",
+"buildNumber"
+]
+]
+},
+{
+"off": 5453480,
+"kind": 2,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"notChecked"
+],
+[
+0,
+"",
+"available"
+],
+[
+0,
+"",
+"unavailable"
+],
+[
+0,
+"",
+"readyToRestart"
+]
+]
+},
+{
+"off": 5453544,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"id"
+],
+[
+2,
+"SS",
+"text"
+]
+]
+},
+{
+"off": 5453584,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"SS",
+"marker"
+],
+[
+2,
+"SaySSG",
+"items"
+]
+]
+},
+{
+"off": 5453624,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"SS",
+"name"
+],
+[
+2,
+"<SYM02>",
+"url"
+]
+]
+},
+{
+"off": 5453664,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>_p",
+"decodingFailed"
+],
+[
+0,
+"Si10statusCode_SSSg7messaget",
+"api"
+],
+[
+0,
+"Si10statusCode_t",
+"downloadFailed"
+],
+[
+0,
+"",
+"invalidURL"
+],
+[
+0,
+"",
+"invalidResponse"
+],
+[
+0,
+"",
+"missingAuthorizationToken"
+],
+[
+0,
+"",
+"downloadUnauthorized"
+]
+]
+},
+{
+"off": 5453764,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"SS",
+"message"
+]
+]
+},
+{
+"off": 5453792,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"id"
+],
+[
+0,
+"",
+"tagName"
+],
+[
+0,
+"",
+"name"
+],
+[
+0,
+"",
+"sections"
+],
+[
+0,
+"",
+"assets"
+],
+[
+0,
+"",
+"prerelease"
+],
+[
+0,
+"",
+"publishedAt"
+],
+[
+0,
+"",
+"minimumSystemVersion"
+],
+[
+0,
+"",
+"buildNumber"
+]
+]
+},
+{
+"off": 5453916,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"message"
+]
+]
+},
+{
+"off": 5453944,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"marker"
+],
+[
+0,
+"",
+"items"
+]
+]
+},
+{
+"off": 5453984,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"name"
+],
+[
+0,
+"",
+"url"
+]
+]
+},
+{
+"off": 5454024,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"<SYM02>",
+"innerPadding"
+],
+[
+0,
+"Sb",
+"isLight"
+],
+[
+0,
+"<SYM01>yxq__G",
+"style"
+],
+[
+0,
+"q_yc",
+"background"
+],
+[
+0,
+"xyc",
+"content"
+]
+]
+},
+{
+"off": 5454124,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"standard"
+],
+[
+0,
+"",
+"preview"
+]
+]
+},
+{
+"off": 5454164,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+0,
+"<SYM02>",
+"headerSpacing"
+],
+[
+0,
+"<SYM02>",
+"topCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"bottomCornerRadius"
+],
+[
+0,
+"SSSg",
+"header"
+],
+[
+0,
+"Sb",
+"showDividers"
+],
+[
+0,
+"q_yc",
+"headerAccessory"
+],
+[
+0,
+"xyc",
+"content"
+]
+]
+},
+{
+"off": 5454276,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+2,
+"<SYM02>",
+"updateManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_licenseManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableHaptics"
+],
+[
+2,
+"<SYM02>ySbG",
+"_earlyBirdUpdates"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isInstalling"
+],
+[
+2,
+"<SYM02>ySbG",
+"__showsRestartState"
+]
+]
+},
+{
+"off": 5454388,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS6symbol_<SYM02>5colorSS5titleSay<SYM02>G4bodyt",
+"item"
+],
+[
+0,
+"Sb",
+"showsSymbol"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isExpanded"
+]
+]
+},
+{
+"off": 5454440,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+0,
+"<SYM02>",
+"topCornerRadius"
+],
+[
+0,
+"<SYM02>",
+"bottomCornerRadius"
+],
+[
+0,
+"xyc",
+"content"
+]
+]
+},
+{
+"off": 5454504,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+]
+]
+},
+{
+"off": 5454532,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_batteryManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_brightnessManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_calendarManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_connectivityManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_focusManager"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_volumeManager"
+],
+[
+2,
+"<SYM02>ySdG",
+"_notchAdjustedHeight"
+],
+[
+2,
+"<SYM02>ySdG",
+"_notchAdjustedWidth"
+],
+[
+2,
+"<SYM02>ySdG",
+"_lowBatteryThreshold"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideBatteryLabel"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideBatteryPercentage"
+],
+[
+2,
+"<SYM02>ySdG",
+"_lowConnectBatteryThreshold"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_connectivityModel"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideLabel"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_brightnessProgressStyle"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showBrightnessPercentage"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideBrightnessLabel"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToDismiss"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToToggle"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_volumeOutputDevice"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_volumeProgressStyle"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showVolumePercentage"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideVolumeLabel"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_defaultTransportType"
+]
+]
+},
+{
+"off": 5454848,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_isFirstLaunch"
+],
+[
+2,
+"<SYM02>ySbG",
+"__ambianceHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__appIconHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__nameHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__textHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__footerHasEntered"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isHovering"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isHoveringMiddleContainer"
+],
+[
+2,
+"<SYM02>yScTyyt<SYM02>GSgG",
+"__debounce"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__introPlayback"
+],
+[
+2,
+"<SYM02>yScTyyt<SYM02>GSgG",
+"__introTimelineTask"
+]
+]
+},
+{
+"off": 5454996,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Sd",
+"level"
+],
+[
+2,
+"Sd",
+"lowBatteryThreshold"
+],
+[
+2,
+"Sb",
+"showPercentage"
+],
+[
+2,
+"Sb",
+"isLowPowerMode"
+],
+[
+2,
+"Sd",
+"symbolReduction"
+]
+]
+},
+{
+"off": 5455072,
+"kind": 6,
+"name": "$s6Alcove16MusicApplicationP",
+"super": "",
+"fields": []
+},
+{
+"off": 5455088,
+"kind": 6,
+"name": "$s6Alcove9MusicItemP",
+"super": "",
+"fields": []
+},
+{
+"off": 5455104,
+"kind": 6,
+"name": "$s6Alcove12MusicArtworkP",
+"super": "",
+"fields": []
+},
+{
+"off": 5455120,
+"kind": 6,
+"name": "$s6Alcove10MusicTrackP",
+"super": "",
+"fields": []
+},
+{
+"off": 5455136,
+"kind": 4,
+"name": "$s6Alcove19SegmentedPickerDataP",
+"super": "",
+"fields": []
+},
+{
+"off": 5455152,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"x",
+"element"
+],
+[
+0,
+"Sb",
+"isActive"
+],
+[
+0,
+"Sb",
+"isDisabled"
+],
+[
+0,
+"Sb",
+"isWindowFocused"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+]
+]
+},
+{
+"off": 5455228,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"So7NSImageCSg",
+"wallpaperImage"
+],
+[
+0,
+"<SYM02>",
+"blurRadius"
+],
+[
+0,
+"<SYM02>",
+"scale"
+],
+[
+0,
+"<SYM02>",
+"offset"
+],
+[
+0,
+"Sd",
+"opacity"
+],
+[
+0,
+"Sd",
+"saturation"
+]
+]
+},
+{
+"off": 5455316,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+0,
+"<SYM02>",
+"spacing"
+],
+[
+0,
+"<SYM02>",
+"innerPadding"
+],
+[
+0,
+"Sayq0_G",
+"elements"
+],
+[
+2,
+"<SYM02>yq0_G",
+"_selectedItem"
+],
+[
+2,
+"<SYM02>yq0_G",
+"_internalSelection"
+],
+[
+2,
+"<SYM02>ySiSgG",
+"__disabledPopoverColumn"
+],
+[
+2,
+"<SYM02>ySo7NSTimerCSgG",
+"__hoverTimer"
+],
+[
+0,
+"xq0_c",
+"content"
+],
+[
+0,
+"q_<SYM01>yq0_Gc",
+"background"
+],
+[
+0,
+"SSSgq0_c",
+"textProvider"
+],
+[
+0,
+"Sb",
+"showsSelectionHighlight"
+]
+]
+},
+{
+"off": 5455476,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So6NSViewC",
+"fields": [
+[
+2,
+"<SYM01>",
+"viewBounds"
+],
+[
+2,
+"<SYM01>Sg",
+"$__lazy_storage_$_artworkCutoutLayer"
+]
+]
+},
+{
+"off": 5455516,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"So7CALayerC",
+"containerLayer"
+],
+[
+0,
+"So7CALayerC",
+"maskLayer"
+],
+[
+0,
+"So7CALayerC",
+"artworkLayer"
+],
+[
+0,
+"So7CALayerC",
+"artworkLightenLayer"
+],
+[
+0,
+"So7CALayerC",
+"artworkDimLayer"
+],
+[
+0,
+"So8NSObjectCSg",
+"colorSaturateFilter"
+],
+[
+0,
+"So8NSObjectCSg",
+"gaussianBlurFilter"
+],
+[
+2,
+"<SYM01>",
+"viewBounds"
+],
+[
+2,
+"<SYM02>",
+"artworkScale"
+],
+[
+2,
+"<SYM01>",
+"artworkOffset"
+],
+[
+2,
+"Sb",
+"usesMask"
+],
+[
+2,
+"SOSg",
+"currentArtworkIdentity"
+]
+]
+},
+{
+"off": 5455676,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So7NSImageC",
+"artwork"
+],
+[
+2,
+"<SYM02>",
+"size"
+]
+]
+},
+{
+"off": 5455716,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"content"
+],
+[
+0,
+"<SYM02>",
+"identity"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"Sb",
+"isMirrored"
+],
+[
+0,
+"Sd",
+"opacity"
+],
+[
+0,
+"<SYM02>",
+"blendMode"
+]
+]
+},
+{
+"off": 5455804,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"identity"
+],
+[
+0,
+"<SYM02>",
+"contentRevision"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"Sb",
+"isMirrored"
+],
+[
+0,
+"Sb",
+"isTransitionEnabled"
+],
+[
+0,
+"Sd",
+"opacity"
+],
+[
+0,
+"<SYM02>",
+"blendMode"
+],
+[
+0,
+"<SYM02>",
+"content"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__currentArtwork"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__outgoingArtwork"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__queuedArtwork"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__incomingArtwork"
+],
+[
+2,
+"<SYM02>ySdG",
+"__currentProgress"
+],
+[
+2,
+"<SYM02>ySdG",
+"__currentEffectProgress"
+],
+[
+2,
+"<SYM02>ySdG",
+"__outgoingProgress"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isTransitioning"
+]
+]
+},
+{
+"off": 5456012,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"identity"
+],
+[
+0,
+"<SYM02>",
+"contentRevision"
+],
+[
+0,
+"Sb",
+"isMirrored"
+],
+[
+0,
+"Sb",
+"isTransitionEnabled"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"Sd",
+"opacity"
+],
+[
+0,
+"SS",
+"blendMode"
+]
+]
+},
+{
+"off": 5456112,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Sd",
+"progress"
+],
+[
+2,
+"Sd",
+"effectProgress"
+],
+[
+0,
+"Sb",
+"isIncoming"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+]
+]
+},
+{
+"off": 5456176,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+]
+]
+},
+{
+"off": 5456204,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So8NSWindowC",
+"fields": []
+},
+{
+"off": 5456220,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>yxGSg",
+"hostingView"
+]
+]
+},
+{
+"off": 5456248,
+"kind": 7,
+"name": "<SYM01>",
+"super": "<SYM02>yxG",
+"fields": []
+},
+{
+"off": 5456264,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"x",
+"content"
+]
+]
+},
+{
+"off": 5456292,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"x",
+"content"
+]
+]
+},
+{
+"off": 5456320,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"logger"
+],
+[
+0,
+"So12EKEventStoreC",
+"eventStore"
+],
+[
+0,
+"So14NSUserDefaultsCSg",
+"calendarAppDefaults"
+],
+[
+2,
+"ypSg",
+"becameActiveObserver"
+],
+[
+2,
+"ypSg",
+"currentLocaleObserver"
+],
+[
+2,
+"ypSg",
+"systemClockObserver"
+],
+[
+2,
+"ypSg",
+"systemTimeZoneObserver"
+],
+[
+2,
+"ypSg",
+"eventStoreObserver"
+],
+[
+2,
+"ypSg",
+"wakeObserver"
+],
+[
+2,
+"So7NSTimerCSg",
+"midnightTimer"
+],
+[
+2,
+"So7NSTimerCSg",
+"hourlyChimeTimer"
+],
+[
+2,
+"So7NSTimerCSg",
+"nextRelevantEventTimer"
+],
+[
+2,
+"So7NSTimerCSg",
+"countdownTimer"
+],
+[
+2,
+"So7NSTimerCSg",
+"durationTimer"
+],
+[
+2,
+"So7NSTimerCSg",
+"timeToLeaveTimer"
+],
+[
+2,
+"So7NSTimerCSg",
+"sectionRefreshTimer"
+],
+[
+2,
+"SSSg",
+"lastTimeToLeaveSignature"
+],
+[
+2,
+"ShySSG",
+"dismissedEventSignatures"
+],
+[
+2,
+"SaySSG",
+"dismissedEventHistory"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"fetchDebounceTask"
+],
+[
+2,
+"Sb",
+"isFetchingEvents"
+],
+[
+2,
+"Sb",
+"pendingFetchEvents"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"startupCalendarDelayTask"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"selectionRecomputeTask"
+],
+[
+2,
+"<SYM02>",
+"lastFetchCompletionTime"
+],
+[
+0,
+"Sd",
+"minimumFetchInterval"
+],
+[
+0,
+"Sd",
+"calendarStartupLiveActivityDelay"
+],
+[
+0,
+"<SYM02>",
+"managerInitializationTime"
+],
+[
+2,
+"<SYM02>",
+"lastKnownToday"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isFirstLaunch"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableCalendar"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableNowPlaying"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_idleActivity"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hasPromptedCalendarPermission"
+],
+[
+2,
+"<SYM02>ySdG",
+"_timeBeforeEvent"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnCalendarEvent"
+],
+[
+2,
+"<SYM02>ySbG",
+"_disableActivityDuringEvents"
+],
+[
+2,
+"<SYM02>ySbG",
+"_alwaysShowMonthView"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileInFullscreen"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playHourlyChime"
+],
+[
+2,
+"<SYM02>ySbG",
+"_notifyWhenTimeToLeave"
+],
+[
+2,
+"<SYM02>ySdG",
+"_timeToLeaveBuffer"
+],
+[
+2,
+"<SYM02>ySdG",
+"_timeToLeaveDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnTimeToLeave"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_defaultTransportType"
+],
+[
+2,
+"<SYM02>yShySSGG",
+"_excludedCalendars"
+],
+[
+2,
+"<SYM02>ySDyS2SGG",
+"_calendarDisplayModes"
+],
+[
+2,
+"<SYM02>ySbG",
+"_beforeEventStarts"
+],
+[
+2,
+"<SYM02>ySbG",
+"_whenEventIsStarting"
+],
+[
+2,
+"<SYM02>ySdG",
+"_calendarPeekDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableLockScreen"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowCalendarWidgetWhenLocked"
+],
+[
+2,
+"Say<SYM01>G",
+"_events"
+],
+[
+2,
+"SdSg",
+"_timeUntilStart"
+],
+[
+2,
+"SdSg",
+"_timeUntilEnd"
+],
+[
+2,
+"SdSg",
+"_timeToTravel"
+],
+[
+2,
+"SdSg",
+"_progressUntilEnd"
+],
+[
+2,
+"SS",
+"_dayName"
+],
+[
+2,
+"SS",
+"_shortDayName"
+],
+[
+2,
+"SS",
+"_dayNumber"
+],
+[
+2,
+"SS",
+"_monthName"
+],
+[
+2,
+"SS",
+"_shortMonthName"
+],
+[
+2,
+"<SYM02>",
+"_selectedDate"
+],
+[
+2,
+"SS",
+"_selectedShortDayName"
+],
+[
+2,
+"SS",
+"_selectedDayNumber"
+],
+[
+2,
+"SS",
+"_selectedMonthName"
+],
+[
+2,
+"SS",
+"_selectedShortMonthName"
+],
+[
+2,
+"Say<SYM02>G",
+"_compactCalendarWeekdays"
+],
+[
+2,
+"Say<SYM02>G",
+"_compactCalendarDays"
+],
+[
+2,
+"<SYM01>",
+"_authorizationStatus"
+],
+[
+2,
+"ShySSG",
+"includedCalendarIDsCache"
+],
+[
+2,
+"ShySSG",
+"liveActivityCalendarIDsCache"
+],
+[
+2,
+"ShySSG",
+"expandedViewCalendarIDsCache"
+],
+[
+2,
+"Say<SYM01>G",
+"filteredEventsCache"
+],
+[
+2,
+"Say<SYM01>G",
+"liveActivityFilteredEventsCache"
+],
+[
+2,
+"Say<SYM01>G",
+"expandedViewFilteredEventsCache"
+],
+[
+2,
+"<SYM02>Sg",
+"_nextEventActivity"
+],
+[
+2,
+"<SYM02>Sg",
+"_selectedSection"
+],
+[
+2,
+"Say<SYM02>G",
+"_upcomingSections"
+],
+[
+2,
+"Sb",
+"_hasEarlierEventsToday"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5457308,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>Sg",
+"url"
+],
+[
+0,
+"<SYM01>Sg",
+"type"
+]
+]
+},
+{
+"off": 5457348,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SSSg",
+"title"
+],
+[
+0,
+"So10CLLocationCSg",
+"coordinates"
+]
+]
+},
+{
+"off": 5457388,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"id"
+],
+[
+0,
+"<SYM01>",
+"type"
+],
+[
+0,
+"<SYM02>",
+"calendar"
+],
+[
+0,
+"SS",
+"title"
+],
+[
+0,
+"<SYM02>",
+"startDate"
+],
+[
+0,
+"<SYM02>",
+"endDate"
+],
+[
+0,
+"<SYM01>Sg",
+"location"
+],
+[
+0,
+"<SYM02>Sg",
+"meeting"
+],
+[
+0,
+"Sb",
+"isDeclined"
+],
+[
+0,
+"Sb",
+"isCancelled"
+],
+[
+0,
+"Sb",
+"isAllDay"
+],
+[
+0,
+"Sb",
+"isHoliday"
+],
+[
+0,
+"Sb",
+"isBirthday"
+],
+[
+0,
+"Sb",
+"hasRecurrenceRules"
+],
+[
+0,
+"SSSg",
+"iCalUID"
+],
+[
+0,
+"SSSg",
+"accountEmail"
+],
+[
+0,
+"<SYM01>",
+"timeLabelStyle"
+],
+[
+0,
+"<SYM02>Sg",
+"recurrenceStartDate"
+]
+]
+},
+{
+"off": 5457620,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"date"
+],
+[
+0,
+"SSSg",
+"title"
+],
+[
+0,
+"Say<SYM01>G",
+"visibleAllDay"
+],
+[
+0,
+"Say<SYM01>G",
+"visibleRegular"
+],
+[
+0,
+"Say<SYM01>G",
+"hiddenAllDay"
+],
+[
+0,
+"Say<SYM01>G",
+"hiddenRegular"
+],
+[
+0,
+"ShySSG",
+"detailEventIDs"
+],
+[
+0,
+"Sb",
+"isFirst"
+],
+[
+0,
+"Sd",
+"consumedBudget"
+],
+[
+0,
+"Sd",
+"totalBudget"
+]
+]
+},
+{
+"off": 5457756,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Si",
+"id"
+],
+[
+0,
+"SS",
+"symbol"
+],
+[
+0,
+"Sb",
+"isWeekend"
+]
+]
+},
+{
+"off": 5457808,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Si",
+"id"
+],
+[
+0,
+"<SYM02>Sg",
+"date"
+],
+[
+0,
+"SiSg",
+"dayNumber"
+],
+[
+0,
+"Sb",
+"isWeekend"
+],
+[
+0,
+"Sb",
+"isToday"
+],
+[
+0,
+"Sb",
+"isSelected"
+],
+[
+0,
+"Say<SYM01>G",
+"eventIndicators"
+]
+]
+},
+{
+"off": 5457908,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"facetime"
+],
+[
+0,
+"",
+"zoom"
+],
+[
+0,
+"",
+"googleMeet"
+],
+[
+0,
+"",
+"teams"
+],
+[
+0,
+"",
+"webex"
+]
+]
+},
+{
+"off": 5457984,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"id"
+],
+[
+0,
+"SS",
+"title"
+],
+[
+0,
+"<SYM02>",
+"color"
+],
+[
+0,
+"Sb",
+"isHoliday"
+],
+[
+0,
+"Sb",
+"isBirthday"
+],
+[
+0,
+"Sb",
+"isSubscription"
+]
+]
+},
+{
+"off": 5458072,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"range"
+],
+[
+0,
+"",
+"startOnly"
+],
+[
+0,
+"",
+"endsOnly"
+]
+]
+},
+{
+"off": 5458124,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"id"
+],
+[
+0,
+"<SYM02>",
+"color"
+],
+[
+0,
+"SS",
+"colorSignature"
+]
+]
+},
+{
+"off": 5458176,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So8NSObjectC",
+"fields": [
+[
+0,
+"<SYM02>",
+"logger"
+],
+[
+2,
+"SDySSSaySo13AVAudioPlayerCGG",
+"audioPlayers"
+],
+[
+2,
+"SDySSSo13AVAudioPlayerCG",
+"reusablePlayers"
+],
+[
+2,
+"SDySS<SYM02>G",
+"soundIDs"
+],
+[
+0,
+"Si",
+"maxInstancesPerSound"
+],
+[
+0,
+"Sf",
+"defaultVolume"
+],
+[
+0,
+"So17OS_dispatch_queueC",
+"reusableSoundQueue"
+]
+]
+},
+{
+"off": 5458276,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sd",
+"startDelay"
+],
+[
+2,
+"<SYM01>SgXw",
+"manager"
+],
+[
+2,
+"So13AVAudioPlayerCSgXw",
+"player"
+],
+[
+0,
+"SS",
+"name"
+]
+]
+},
+{
+"off": 5458340,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Sd",
+"position"
+]
+]
+},
+{
+"off": 5458368,
+"kind": 7,
+"name": "<SYM02>",
+"super": "So8NSObjectC",
+"fields": [
+[
+0,
+"<SYM02>",
+"logger"
+],
+[
+2,
+"So16CBCentralManagerCSg",
+"bluetoothManager"
+],
+[
+2,
+"<SYM02>",
+"simplyCA"
+],
+[
+2,
+"Shy<SYM02>G",
+"cancellables"
+],
+[
+2,
+"<SYM0c>_pSg",
+"timer"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"airPlayRouteLogTask"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"outputDeviceChangeResetTask"
+],
+[
+2,
+"SDySSSDySS<SYM01>GG",
+"homePodRoutesByGroupID"
+],
+[
+2,
+"SSSg",
+"homePodLastUpdatedGroupID"
+],
+[
+0,
+"Sd",
+"homePodRouteFreshnessInterval"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"outputDeviceModelRegex"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"outputContextNameRegex"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"outputContextGroupRegex"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"outputContextAirPlayGroupRegex"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"outputContextSubtypeRegex"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"outputContextTypeRegex"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"outputContextPrimaryUIDRegex"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"outputContextUniqueIdentifierRegex"
+],
+[
+0,
+"So19NSRegularExpressionC",
+"outputContextConfiguredClusterSizeRegex"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableConnectivity"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hasPromptedBluetoothPermission"
+],
+[
+2,
+"<SYM02>ySdG",
+"_connectivityDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_warnOnLowConnectBattery"
+],
+[
+2,
+"<SYM02>ySdG",
+"_lowConnectBatteryThreshold"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnLowConnectBattery"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowConnectivityWhenFocused"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableLockScreen"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowConnectivityWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowConnectivityWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>Sg",
+"_audioDevice"
+],
+[
+2,
+"<SYM02>Sg",
+"_virtualDevice"
+],
+[
+2,
+"SdSg",
+"_batteryLevel"
+],
+[
+2,
+"Sb",
+"_hasPassedThreshold"
+],
+[
+2,
+"Sb",
+"_hasRecentlyChangedOutputDevice"
+],
+[
+2,
+"<SYM01>",
+"_authorizationStatus"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5458816,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"uid"
+],
+[
+0,
+"SS",
+"name"
+],
+[
+0,
+"SS",
+"groupID"
+],
+[
+0,
+"SS",
+"subtype"
+],
+[
+0,
+"SSSg",
+"modelID"
+],
+[
+0,
+"SiSg",
+"configuredClusterSize"
+],
+[
+0,
+"<SYM02>",
+"observedAt"
+]
+]
+},
+{
+"off": 5458916,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>Sg5state_t",
+"airPods"
+],
+[
+0,
+"<SYM01>Sg5state_t",
+"airPods2"
+],
+[
+0,
+"<SYM01>Sg5state_t",
+"airPods3"
+],
+[
+0,
+"<SYM01>Sg5state_t",
+"airPods4"
+],
+[
+0,
+"<SYM01>Sg5state_t",
+"airPodsPro"
+],
+[
+0,
+"<SYM01>Sg5state_t",
+"airPodsPro2"
+],
+[
+0,
+"<SYM01>Sg5state_t",
+"airPodsPro3"
+],
+[
+0,
+"<SYM01>5color_t",
+"airPodsMax"
+],
+[
+0,
+"<SYM01>5color_t",
+"airPodsMax2"
+],
+[
+0,
+"",
+"macBook"
+],
+[
+0,
+"",
+"macStudio"
+],
+[
+0,
+"",
+"iMac"
+],
+[
+0,
+"",
+"macMini"
+],
+[
+0,
+"",
+"macPro"
+],
+[
+0,
+"",
+"headphones"
+],
+[
+0,
+"",
+"homePod"
+],
+[
+0,
+"",
+"homePodMini"
+],
+[
+0,
+"",
+"homePod2"
+],
+[
+0,
+"",
+"homePodPair"
+],
+[
+0,
+"",
+"homePodMiniPair"
+],
+[
+0,
+"",
+"homePod2Pair"
+],
+[
+0,
+"",
+"homePodGroup"
+],
+[
+0,
+"",
+"earPods"
+],
+[
+0,
+"",
+"studioDisplay"
+],
+[
+0,
+"",
+"studioDisplayXdr"
+],
+[
+0,
+"",
+"proDisplayXdr"
+],
+[
+0,
+"",
+"speakers"
+]
+]
+},
+{
+"off": 5459256,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"spaceGray"
+],
+[
+0,
+"",
+"skyBlue"
+],
+[
+0,
+"",
+"silver"
+],
+[
+0,
+"",
+"green"
+],
+[
+0,
+"",
+"red"
+],
+[
+0,
+"",
+"midnight"
+],
+[
+0,
+"",
+"starlight"
+],
+[
+0,
+"",
+"blue"
+],
+[
+0,
+"",
+"orange"
+],
+[
+0,
+"",
+"purple"
+]
+]
+},
+{
+"off": 5459392,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"homePod"
+],
+[
+0,
+"",
+"homePodMini"
+],
+[
+0,
+"",
+"homePod2"
+]
+]
+},
+{
+"off": 5459444,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"leftOnly"
+],
+[
+0,
+"",
+"rightOnly"
+],
+[
+0,
+"",
+"both"
+]
+]
+},
+{
+"off": 5459496,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So6NSViewC",
+"fields": [
+[
+2,
+"SS",
+"text"
+],
+[
+2,
+"<SYM02>",
+"textSize"
+],
+[
+2,
+"<SYM01>",
+"textWeight"
+],
+[
+2,
+"<SYM02>",
+"textColor"
+],
+[
+2,
+"Sd",
+"kerning"
+],
+[
+2,
+"Sb",
+"isCentered"
+],
+[
+2,
+"SS",
+"leadingSymbol"
+],
+[
+2,
+"<SYM02>",
+"leadingSymbolSize"
+],
+[
+2,
+"<SYM02>",
+"leadingSymbolColor"
+],
+[
+2,
+"<SYM02>",
+"leadingSymbolPadding"
+],
+[
+2,
+"SS",
+"trailingSymbol"
+],
+[
+2,
+"<SYM02>",
+"trailingSymbolSize"
+],
+[
+2,
+"<SYM02>",
+"trailingSymbolColor"
+],
+[
+2,
+"<SYM02>",
+"trailingSymbolPadding"
+],
+[
+2,
+"SaySo8NSNumberCG",
+"gradientStops"
+],
+[
+2,
+"Sd",
+"totalCycleTime"
+],
+[
+0,
+"<SYM02>",
+"startPadding"
+],
+[
+0,
+"<SYM02>",
+"contentSpacing"
+],
+[
+2,
+"So6NSFontC",
+"font"
+],
+[
+2,
+"Sd",
+"stringWidth"
+],
+[
+2,
+"Sd",
+"stringHeight"
+],
+[
+2,
+"So7CALayerCSg",
+"maskLayer"
+],
+[
+2,
+"So7CALayerCSg",
+"layer1"
+],
+[
+2,
+"So7CALayerCSg",
+"layer2"
+],
+[
+2,
+"SaySo11CATextLayerCG",
+"textLayers"
+],
+[
+2,
+"SaySo7CALayerCG",
+"symbolLayers"
+],
+[
+2,
+"SaySo7CALayerCG",
+"trailingSymbolLayers"
+],
+[
+2,
+"So7NSColorCSg",
+"lastTextColor"
+],
+[
+2,
+"Sb",
+"didBuildForLayout"
+],
+[
+2,
+"Sb",
+"lastShouldCenterContent"
+],
+[
+2,
+"Sb",
+"lastShouldOverflowContent"
+],
+[
+2,
+"<SYM02>",
+"lastLayoutWidth"
+],
+[
+2,
+"SDySO<SYM02>9positionX_Sd9timestamptG",
+"alignmentVelocitySamples"
+],
+[
+0,
+"SS",
+"alignmentAnimationKey"
+],
+[
+0,
+"Sd",
+"alignmentAnimationDuration"
+],
+[
+0,
+"<SYM02>",
+"alignmentSpringMass"
+],
+[
+0,
+"<SYM02>",
+"alignmentSpringStiffness"
+],
+[
+0,
+"<SYM02>",
+"alignmentSpringDamping"
+],
+[
+0,
+"Sd",
+"symbolAppearanceAnimationDuration"
+],
+[
+2,
+"Sb",
+"shouldAnimateNextSymbolAppearance"
+]
+]
+},
+{
+"off": 5459992,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"SS",
+"text"
+],
+[
+2,
+"<SYM02>",
+"textSize"
+],
+[
+2,
+"<SYM01>",
+"textWeight"
+],
+[
+2,
+"<SYM02>",
+"textColor"
+],
+[
+2,
+"Sd",
+"kerning"
+],
+[
+2,
+"Sb",
+"isCentered"
+],
+[
+2,
+"SS",
+"leadingSymbol"
+],
+[
+2,
+"<SYM02>",
+"leadingSymbolSize"
+],
+[
+2,
+"<SYM02>",
+"leadingSymbolColor"
+],
+[
+2,
+"<SYM02>",
+"leadingSymbolPadding"
+],
+[
+2,
+"SS",
+"trailingSymbol"
+],
+[
+2,
+"<SYM02>",
+"trailingSymbolSize"
+],
+[
+2,
+"<SYM02>",
+"trailingSymbolColor"
+],
+[
+2,
+"<SYM02>",
+"trailingSymbolPadding"
+],
+[
+2,
+"SaySo8NSNumberCG",
+"gradientStops"
+],
+[
+2,
+"Sd",
+"totalCycleTime"
+]
+]
+},
+{
+"off": 5460200,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlActiveState"
+],
+[
+0,
+"<SYM02>",
+"notchController"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_calendarManager"
+],
+[
+2,
+"<SYM02>ySbG",
+"_launchAtLogin"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideMenuBarIcon"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideFromScreenCapture"
+],
+[
+2,
+"<SYM02>ySbG",
+"_forceSimulatedNotch"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileInFullscreen"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileGaming"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileInMissionControl"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_showOnDisplay"
+],
+[
+2,
+"<SYM02>ySSSgG",
+"_showOnDisplayUUID"
+],
+[
+2,
+"<SYM02>ySSG",
+"_showOnDisplayName"
+],
+[
+2,
+"<SYM02>ySSG",
+"_showOnDisplaySymbol"
+],
+[
+2,
+"<SYM02>ySbG",
+"_contrastOutline"
+],
+[
+2,
+"<SYM02>ySbG",
+"_progressiveBlur"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableNowPlaying"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableCalendar"
+],
+[
+2,
+"<SYM02>ySbG",
+"_useMostRecentActivity"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_idleActivity"
+],
+[
+2,
+"<SYM02>ySbG",
+"_forceEnableActivity"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableHaptics"
+],
+[
+2,
+"<SYM02>ySbG",
+"_expandNotchOnHover"
+],
+[
+2,
+"<SYM02>ySdG",
+"_hoverDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_naturalMovement"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToToggle"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToCycleActivity"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToDismiss"
+],
+[
+2,
+"<SYM02>ySbG",
+"_swipeToSkip"
+],
+[
+2,
+"<SYM02>ySdG",
+"_notchAdjustedWidth"
+],
+[
+2,
+"<SYM02>ySdG",
+"_notchAdjustedHeight"
+],
+[
+2,
+"<SYM02>ySaySay<SYM02>GGG",
+"__displayOptionGroups"
+]
+]
+},
+{
+"off": 5460612,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"smooth"
+],
+[
+0,
+"",
+"fast"
+],
+[
+0,
+"",
+"instant"
+]
+]
+},
+{
+"off": 5460664,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"none"
+],
+[
+0,
+"",
+"explicit"
+],
+[
+0,
+"",
+"format"
+]
+]
+},
+{
+"off": 5460716,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"like"
+],
+[
+0,
+"",
+"shuffle"
+],
+[
+0,
+"",
+"repeating"
+],
+[
+0,
+"",
+"copyLink"
+]
+]
+},
+{
+"off": 5460780,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"builtInDisplay"
+],
+[
+0,
+"",
+"mainScreen"
+],
+[
+0,
+"",
+"allDisplays"
+],
+[
+0,
+"",
+"specificDisplay"
+]
+]
+},
+{
+"off": 5460844,
+"kind": 2,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"none"
+],
+[
+0,
+"",
+"nowPlaying"
+],
+[
+0,
+"",
+"calendar"
+],
+[
+0,
+"",
+"duo"
+]
+]
+},
+{
+"off": 5460908,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"glass"
+],
+[
+0,
+"",
+"clear"
+],
+[
+0,
+"",
+"frosted"
+]
+]
+},
+{
+"off": 5460960,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"conditions"
+],
+[
+0,
+"",
+"sun"
+],
+[
+0,
+"",
+"precipitation"
+]
+]
+},
+{
+"off": 5461012,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"showWeatherOnEmptyDay"
+],
+[
+0,
+"",
+"notifyWhenTimeToLeave"
+],
+[
+0,
+"",
+"allowWeatherWidgetWhenLocked"
+]
+]
+},
+{
+"off": 5461064,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"drive"
+],
+[
+0,
+"",
+"walk"
+],
+[
+0,
+"",
+"transit"
+]
+]
+},
+{
+"off": 5461116,
+"kind": 2,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"music"
+],
+[
+0,
+"",
+"spotify"
+],
+[
+0,
+"",
+"system"
+]
+]
+},
+{
+"off": 5461168,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"uuid"
+],
+[
+0,
+"SS",
+"name"
+],
+[
+0,
+"SS",
+"symbol"
+]
+]
+},
+{
+"off": 5461220,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"mono"
+],
+[
+0,
+"",
+"color"
+],
+[
+0,
+"",
+"gradient"
+]
+]
+},
+{
+"off": 5461272,
+"kind": 3,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"displayType"
+],
+[
+0,
+"<SYM01>",
+"display"
+]
+]
+},
+{
+"off": 5461312,
+"kind": 2,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"battery"
+],
+[
+0,
+"",
+"connectivity"
+],
+[
+0,
+"",
+"focus"
+],
+[
+0,
+"",
+"calendar"
+],
+[
+0,
+"",
+"weather"
+]
+]
+},
+{
+"off": 5461388,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"symbol"
+],
+[
+0,
+"",
+"device"
+]
+]
+},
+{
+"off": 5461428,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"white"
+],
+[
+0,
+"",
+"accent"
+],
+[
+0,
+"",
+"stylized"
+]
+]
+},
+{
+"off": 5461480,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"threeDimensional"
+],
+[
+0,
+"",
+"symbol"
+]
+]
+},
+{
+"off": 5461520,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"liveActivity"
+],
+[
+0,
+"",
+"expandedView"
+],
+[
+0,
+"",
+"both"
+]
+]
+},
+{
+"off": 5461572,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"logger"
+],
+[
+2,
+"Shy<SYM02>G",
+"cancellables"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"lockDebounce"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"unlockDebounce"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"screensaverPresentationTask"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"hideDebounce"
+],
+[
+2,
+"<SYM02>",
+"idleAssertionID"
+],
+[
+2,
+"<SYM02>",
+"noDisplayAssertionID"
+],
+[
+2,
+"<SYM02>",
+"preventUserIdleDisplayAssertionID"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"sleepTask"
+],
+[
+2,
+"Sb",
+"isLockScreenWidgetNotificationVisible"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableBrightness"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableVolume"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableLockScreen"
+],
+[
+2,
+"<SYM02>ySdG",
+"_keepAwake"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showOnScreenSaver"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnLock"
+],
+[
+2,
+"<SYM02>ySbG",
+"_playSoundOnUnlock"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableFocus"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableNowPlaying"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileSourceIsActive"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileInFullscreen"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowBatteryWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowConnectivityWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowFocusWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowNowPlayingWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowCalendarWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowWeatherWidgetWhenLocked"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showVolumeControl"
+],
+[
+2,
+"<SYM02>ySdG",
+"_nowPlayingWidgetOffset"
+],
+[
+2,
+"Sb",
+"_isLocked"
+],
+[
+2,
+"Sb",
+"_isVisible"
+],
+[
+2,
+"Sb",
+"_isSleeping"
+],
+[
+2,
+"Sb",
+"_isAwake"
+],
+[
+2,
+"Sb",
+"_isWallpaperNearlyWhite"
+],
+[
+2,
+"Sb",
+"_hasScreensaver"
+],
+[
+2,
+"Sb",
+"_hasClock"
+],
+[
+2,
+"Sb",
+"_hasMessage"
+],
+[
+2,
+"Sb",
+"_hasAvatar"
+],
+[
+2,
+"Si",
+"_userAccountCount"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5462080,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"So6NSLockC",
+"lock"
+],
+[
+2,
+"Sb",
+"hasResumed"
+]
+]
+},
+{
+"off": 5462120,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"service"
+],
+[
+2,
+"Si<SYM02>_<SYM02>SgtXCSg",
+"preflightFunction"
+],
+[
+2,
+"y<SYM02>_<SYM02>SgySbctXCSg",
+"requestFunction"
+],
+[
+2,
+"<SYM0c>_pSg",
+"appDidBecomeActiveObserver"
+],
+[
+2,
+"SDySOSo8NSObjectCG",
+"activeSpectrumOwners"
+],
+[
+2,
+"SDySOSo8NSObjectCG",
+"spectrumObservers"
+],
+[
+2,
+"<SYM02>Sg",
+"spectrumPID"
+],
+[
+2,
+"So8NSObjectCSg",
+"spectrumAnalyzer"
+],
+[
+2,
+"So8NSObjectCSg",
+"spectrumTap"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hasPromptedAudioPermission"
+],
+[
+2,
+"<SYM02>",
+"_authorizationStatus"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5462280,
+"kind": 2,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"notDetermined"
+],
+[
+0,
+"",
+"denied"
+],
+[
+0,
+"",
+"authorized"
+]
+]
+},
+{
+"off": 5462332,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Sf",
+"startFrequency"
+],
+[
+2,
+"Sf",
+"endFrequency"
+]
+]
+},
+{
+"off": 5462372,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"So6NSLockC",
+"lock"
+],
+[
+0,
+"xSgyc",
+"operation"
+],
+[
+2,
+"Sb",
+"isCancelled"
+],
+[
+2,
+"xSg",
+"output"
+]
+]
+},
+{
+"off": 5462436,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"Shy<SYM02>G",
+"cancellables"
+],
+[
+2,
+"<SYM0c>_pSg",
+"spotify"
+],
+[
+2,
+"<SYM0c>_pSg",
+"music"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"pauseDebounce"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"seekDebounce"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"hideIdleDebounce"
+],
+[
+2,
+"<SYM02>Sg",
+"hideIdleDeadline"
+],
+[
+2,
+"<SYM02>Sg",
+"timerCancellable"
+],
+[
+0,
+"Sd",
+"seekerPollingInterval"
+],
+[
+2,
+"Sb",
+"appleEventsAllowed"
+],
+[
+2,
+"SSSg",
+"lastMusicURLKey"
+],
+[
+2,
+"SSSg",
+"currentArtworkIdentity"
+],
+[
+2,
+"SSSg",
+"currentArtworkAlbum"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"artworkFetchTask"
+],
+[
+2,
+"SSSg",
+"artworkFetchIdentity"
+],
+[
+2,
+"Si",
+"artworkFetchGeneration"
+],
+[
+2,
+"SbSg",
+"pendingMusicLoved"
+],
+[
+2,
+"SbSg",
+"pendingSpotifyLoved"
+],
+[
+2,
+"SbSg",
+"pendingMusicShuffleEnabled"
+],
+[
+2,
+"<SYM02>Sg",
+"pendingMusicRepeatMode"
+],
+[
+2,
+"<SYM01>Sg",
+"spotifyRepeatMode"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableBrightness"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableVolume"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isFirstLaunch"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableNowPlaying"
+],
+[
+2,
+"<SYM02>ySdG",
+"_idleDuration"
+],
+[
+2,
+"<SYM02>ySdG",
+"_hideIdleDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileSourceIsActive"
+],
+[
+2,
+"<SYM02>ySbG",
+"_hideWhileInFullscreen"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_controlChoice"
+],
+[
+2,
+"<SYM02>ySbG",
+"_automaticMusicApp"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_musicApp"
+],
+[
+2,
+"<SYM02>ySbG",
+"_whenSongChanges"
+],
+[
+2,
+"<SYM02>ySdG",
+"_peekDuration"
+],
+[
+2,
+"<SYM02>ySbG",
+"_enableLockScreen"
+],
+[
+2,
+"<SYM02>ySbG",
+"_allowNowPlayingWidgetWhenLocked"
+],
+[
+0,
+"<SYM02>yyt<SYM02>G",
+"timerStartSignal"
+],
+[
+0,
+"<SYM02>yyt<SYM02>G",
+"timerStopSignal"
+],
+[
+2,
+"Shy<SYM01>G",
+"timerPollingSources"
+],
+[
+2,
+"Sb",
+"isNowPlayingObservationEnabled"
+],
+[
+2,
+"Sb",
+"hasCompletedInitialNowPlayingSetup"
+],
+[
+0,
+"Sd",
+"transientMediaDurationThreshold"
+],
+[
+0,
+"SaySSG",
+"messageAppBundleIds"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"idleDebounce"
+],
+[
+2,
+"<SYM02>",
+"_currentTrack"
+],
+[
+2,
+"SSSg",
+"_shareUrl"
+],
+[
+2,
+"SSSg",
+"_trackUri"
+],
+[
+2,
+"Sb",
+"_isHidden"
+],
+[
+2,
+"Sb",
+"_isPlaying"
+],
+[
+2,
+"SDySSypG",
+"_nowPlaying"
+],
+[
+2,
+"Sb",
+"_isFlipped"
+],
+[
+2,
+"Sb",
+"_isLoved"
+],
+[
+2,
+"Sb",
+"_isShuffled"
+],
+[
+2,
+"Sb",
+"_isRepeating"
+],
+[
+2,
+"Sb",
+"_isRepeatingOne"
+],
+[
+2,
+"Sb",
+"_isLive"
+],
+[
+2,
+"Sb",
+"_isPodcast"
+],
+[
+2,
+"Sb",
+"_isSourceAppActive"
+],
+[
+2,
+"Sd",
+"_trackDuration"
+],
+[
+2,
+"Sd",
+"_seekerPosition"
+],
+[
+2,
+"Si",
+"_songChangeToken"
+],
+[
+2,
+"Sf",
+"_volume"
+],
+[
+2,
+"SdSg",
+"_playbackSpeed"
+],
+[
+2,
+"Sb",
+"_isDraggingSlider"
+],
+[
+2,
+"Sb",
+"_isSeeking"
+],
+[
+2,
+"SSSg",
+"_appBundleId"
+],
+[
+2,
+"<SYM02>Sg",
+"_nowPlayingAudioProcessIdentifier"
+],
+[
+2,
+"SSSg",
+"_nowPlayingAudioClientBundleIdentifier"
+],
+[
+2,
+"SSSg",
+"_nowPlayingAudioParentBundleIdentifier"
+],
+[
+2,
+"Sb",
+"_hasShuffle"
+],
+[
+2,
+"Sb",
+"_hasPreviousSkip"
+],
+[
+2,
+"Sb",
+"_hasNextSkip"
+],
+[
+2,
+"Sb",
+"_hasPlaybackSpeed"
+],
+[
+2,
+"Sb",
+"_hasRewind"
+],
+[
+2,
+"Sb",
+"_hasFastForward"
+],
+[
+2,
+"Sb",
+"_hasRecentlyPaused"
+],
+[
+2,
+"Sb",
+"_previousTrigger"
+],
+[
+2,
+"Sb",
+"_nextTrigger"
+],
+[
+0,
+"<SYM02>",
+"_$observationRegistrar"
+]
+]
+},
+{
+"off": 5463400,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"off"
+],
+[
+0,
+"",
+"context"
+],
+[
+0,
+"",
+"track"
+]
+]
+},
+{
+"off": 5463452,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"notchExpanded"
+],
+[
+0,
+"",
+"lockscreen"
+]
+]
+},
+{
+"off": 5463492,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"SS",
+"title"
+],
+[
+2,
+"SS",
+"artist"
+],
+[
+2,
+"SS",
+"album"
+],
+[
+2,
+"Sb",
+"isExplicit"
+],
+[
+2,
+"Sb",
+"isLossless"
+],
+[
+2,
+"Sb",
+"isDolbyAtmos"
+],
+[
+2,
+"So7NSImageCSg",
+"albumArt"
+],
+[
+2,
+"So7NSImageCSg",
+"albumArtOriginal"
+],
+[
+2,
+"So7NSImageCSg",
+"albumArtBrightened"
+],
+[
+2,
+"SSSg",
+"albumArtDataDigest"
+],
+[
+2,
+"Say<SYM02>G",
+"colors"
+]
+]
+},
+{
+"off": 5463640,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"name"
+],
+[
+0,
+"SS",
+"artist"
+],
+[
+0,
+"SS",
+"album"
+],
+[
+0,
+"SS",
+"artworkUrl"
+],
+[
+0,
+"Sd",
+"duration"
+],
+[
+0,
+"SS",
+"spotifyUrl"
+],
+[
+0,
+"Sb",
+"isShuffled"
+],
+[
+0,
+"Sb",
+"isRepeating"
+],
+[
+0,
+"Sb",
+"hasShuffle"
+],
+[
+0,
+"<SYM01>",
+"playerState"
+]
+]
+},
+{
+"off": 5463776,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"name"
+],
+[
+0,
+"SS",
+"artist"
+],
+[
+0,
+"SS",
+"album"
+],
+[
+0,
+"Sd",
+"duration"
+],
+[
+0,
+"Sb",
+"loved"
+],
+[
+0,
+"Sb",
+"shuffled"
+],
+[
+0,
+"<SYM01>",
+"repeatMode"
+],
+[
+0,
+"<SYM01>",
+"playerState"
+]
+]
+},
+{
+"off": 5463888,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"logger"
+],
+[
+0,
+"SS",
+"processName"
+],
+[
+0,
+"SS",
+"exportMessage"
+],
+[
+2,
+"Shy<SYM02>G",
+"cancellables"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"logTask"
+],
+[
+2,
+"Sb",
+"isMonitoring"
+]
+]
+},
+{
+"off": 5463976,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"id"
+],
+[
+0,
+"<SYM01>",
+"bounds"
+],
+[
+0,
+"SS",
+"name"
+],
+[
+0,
+"Si",
+"layer"
+]
+]
+},
+{
+"off": 5464040,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So6NSViewC",
+"fields": [
+[
+2,
+"Sb",
+"isPlaying"
+],
+[
+2,
+"Sb",
+"isPaused"
+],
+[
+2,
+"<SYM02>",
+"artworkScale"
+],
+[
+2,
+"<SYM01>",
+"artworkOffset"
+],
+[
+2,
+"<SYM01>",
+"viewBounds"
+],
+[
+2,
+"<SYM02>",
+"amplitudeWidth"
+],
+[
+2,
+"<SYM02>",
+"amplitudeHeight"
+],
+[
+2,
+"Si",
+"amplitudeCount"
+],
+[
+2,
+"Sd",
+"amplitudeSpacing"
+],
+[
+2,
+"Sd",
+"duration"
+],
+[
+2,
+"Sd",
+"pauseDuration"
+],
+[
+2,
+"Si",
+"audioSourceRevision"
+],
+[
+2,
+"Sb",
+"usesLiveSpectrum"
+],
+[
+2,
+"<SYM02>",
+"color"
+],
+[
+2,
+"<SYM02>",
+"seed"
+],
+[
+2,
+"So7NSImageCSg",
+"artwork"
+],
+[
+0,
+"So7CALayerC",
+"barsContainerLayer"
+],
+[
+2,
+"<SYM01>Sg",
+"artworkCutoutLayer"
+],
+[
+2,
+"SaySo7CALayerCG",
+"amplitudes"
+],
+[
+2,
+"SaySo7CALayerCG",
+"maskAmplitudes"
+],
+[
+2,
+"Sb",
+"isRegisteredWithAnimationClock"
+],
+[
+2,
+"SiSg",
+"liveSpectrumBandCount"
+],
+[
+2,
+"Say<SYM02>G",
+"liveLevels"
+],
+[
+2,
+"Sb",
+"isAnimationSourceUpdateScheduled"
+],
+[
+2,
+"SiSg",
+"lastSimulatedAnimationTick"
+],
+[
+2,
+"Say<SYM02>G",
+"lastLiveTargetSizes"
+],
+[
+2,
+"<SYM01>",
+"animationSource"
+],
+[
+2,
+"<SYM01>",
+"pendingTransition"
+]
+]
+},
+{
+"off": 5464392,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sd",
+"epoch"
+],
+[
+0,
+"So11NSHashTableCy<SYM01>G",
+"views"
+],
+[
+2,
+"So7NSTimerCSg",
+"timer"
+]
+]
+},
+{
+"off": 5464444,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"SDySi<SYM01>G",
+"sessions"
+]
+]
+},
+{
+"off": 5464472,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"So11NSHashTableCy<SYM01>G",
+"views"
+],
+[
+0,
+"So8NSObjectC",
+"owner"
+],
+[
+0,
+"So8NSObjectC",
+"observer"
+],
+[
+0,
+"Si",
+"bandCount"
+],
+[
+2,
+"yXlSg",
+"updateBlock"
+],
+[
+2,
+"Sb",
+"isActive"
+],
+[
+2,
+"Sb",
+"isUpdateScheduled"
+],
+[
+2,
+"Say<SYM02>G",
+"lastLevels"
+]
+]
+},
+{
+"off": 5464584,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"suspended"
+],
+[
+0,
+"",
+"simulated"
+],
+[
+0,
+"",
+"live"
+]
+]
+},
+{
+"off": 5464636,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"continuous"
+],
+[
+0,
+"",
+"bridgeFromPresentation"
+]
+]
+},
+{
+"off": 5464676,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Sb",
+"isPlaying"
+],
+[
+2,
+"SbSg",
+"isPaused"
+],
+[
+2,
+"<SYM02>",
+"color"
+],
+[
+2,
+"So7NSImageCSg",
+"artwork"
+],
+[
+2,
+"<SYM02>",
+"size"
+],
+[
+2,
+"<SYM02>",
+"amplitudeWidth"
+],
+[
+2,
+"<SYM02>",
+"amplitudeHeight"
+],
+[
+2,
+"Si",
+"amplitudeCount"
+],
+[
+2,
+"Sd",
+"amplitudeSpacing"
+],
+[
+2,
+"Sd",
+"duration"
+],
+[
+2,
+"Sd",
+"pauseDuration"
+],
+[
+2,
+"<SYM02>Sg",
+"seed"
+],
+[
+2,
+"Si",
+"audioSourceRevision"
+],
+[
+2,
+"Sb",
+"usesLiveSpectrum"
+]
+]
+},
+{
+"off": 5464860,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>ySbG",
+"_enableHaptics"
+],
+[
+0,
+"<SYM02>",
+"height"
+],
+[
+0,
+"SS",
+"title"
+],
+[
+0,
+"SayxG",
+"options"
+],
+[
+2,
+"<SYM02>yxG",
+"_selection"
+],
+[
+0,
+"SSxc",
+"label"
+],
+[
+0,
+"<SYM02>",
+"horizontalPadding"
+]
+]
+},
+{
+"off": 5464960,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>yxG",
+"_value"
+],
+[
+0,
+"Si",
+"songChangeToken"
+],
+[
+0,
+"SNyxG",
+"inRange"
+],
+[
+0,
+"Say<SYM02>G",
+"fillColors"
+],
+[
+0,
+"Sb",
+"disableGradient"
+],
+[
+0,
+"<SYM02>",
+"height"
+],
+[
+0,
+"<SYM02>",
+"width"
+],
+[
+0,
+"ySbc",
+"onEditingChanged"
+],
+[
+0,
+"Sd",
+"tapCooldown"
+],
+[
+2,
+"<SYM02>ySbG",
+"_showRemainingTime"
+],
+[
+2,
+"<SYM02>yxG",
+"__localRealProgress"
+],
+[
+2,
+"<SYM02>yxG",
+"__localTempProgress"
+],
+[
+2,
+"<SYM02>yxG",
+"__progressDuration"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"__measuredTrackWidth"
+],
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__lastDragEnd"
+],
+[
+2,
+"<SYM02>ySbG",
+"_shouldSuppressNextExternalAnimation"
+],
+[
+2,
+"<SYM02>ySdG",
+"__progressAnimationDuration"
+],
+[
+2,
+"<SYM02>y<SYM01>G",
+"__progressAnimation"
+],
+[
+2,
+"<SYM02>yxSgG",
+"__locallyRequestedProgress"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"__interactiveProgressAnimationDeadline"
+],
+[
+2,
+"<SYM02>ySbG",
+"_isDragging"
+]
+]
+},
+{
+"off": 5465228,
+"kind": 7,
+"name": "<SYM01>",
+"super": "So6NSViewC",
+"fields": [
+[
+0,
+"So7CALayerC",
+"backgroundLayer"
+],
+[
+0,
+"So15CAGradientLayerC",
+"fillLayer"
+],
+[
+0,
+"So7CALayerC",
+"progressMaskLayer"
+],
+[
+2,
+"<SYM02>",
+"progress"
+]
+]
+},
+{
+"off": 5465292,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"linear"
+],
+[
+0,
+"",
+"spring"
+]
+]
+},
+{
+"off": 5465332,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sd",
+"progress"
+],
+[
+0,
+"<SYM02>",
+"primaryColor"
+],
+[
+0,
+"<SYM02>",
+"secondaryColor"
+],
+[
+0,
+"<SYM02>",
+"backgroundColor"
+],
+[
+0,
+"Sd",
+"animationDuration"
+],
+[
+0,
+"<SYM01>",
+"animation"
+]
+]
+},
+{
+"off": 5465420,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>Sg",
+"spacing"
+],
+[
+0,
+"Sb",
+"showDividers"
+],
+[
+2,
+"x",
+"content"
+]
+]
+},
+{
+"off": 5465472,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>G",
+"_colorScheme"
+],
+[
+0,
+"<SYM02>",
+"spacing"
+],
+[
+0,
+"Sb",
+"showDividers"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+]
+]
+},
+{
+"off": 5465536,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"sectionSpacing"
+],
+[
+0,
+"<SYM02>",
+"cornerRadius"
+],
+[
+0,
+"x",
+"content"
+]
+]
+},
+{
+"off": 5465588,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5465604,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Say<SYM02>G",
+"allKnownDevices"
+],
+[
+2,
+"SSSg",
+"$__lazy_storage_$_queueLabel"
+],
+[
+2,
+"So17OS_dispatch_queueCSg",
+"$__lazy_storage_$_queue"
+],
+[
+2,
+"Sb",
+"isRegisteredForNotifications"
+]
+]
+},
+{
+"off": 5465668,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"mSelector"
+],
+[
+2,
+"<SYM02>",
+"mScope"
+],
+[
+2,
+"<SYM02>",
+"mElement"
+]
+]
+},
+{
+"off": 5465720,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Sd",
+"mSampleRate"
+],
+[
+2,
+"<SYM02>",
+"mFormatID"
+],
+[
+2,
+"<SYM02>",
+"mFormatFlags"
+],
+[
+2,
+"<SYM02>",
+"mBytesPerPacket"
+],
+[
+2,
+"<SYM02>",
+"mFramesPerPacket"
+],
+[
+2,
+"<SYM02>",
+"mBytesPerFrame"
+],
+[
+2,
+"<SYM02>",
+"mChannelsPerFrame"
+],
+[
+2,
+"<SYM02>",
+"mBitsPerChannel"
+],
+[
+2,
+"<SYM02>",
+"mReserved"
+]
+]
+},
+{
+"off": 5465844,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM01>",
+"mFormat"
+],
+[
+2,
+"<SYM01>",
+"mSampleRateRange"
+]
+]
+},
+{
+"off": 5465884,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Sd",
+"mMinimum"
+],
+[
+2,
+"Sd",
+"mMaximum"
+]
+]
+},
+{
+"off": 5465924,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"SDy<SYM02><SYM02>G",
+"pool"
+],
+[
+2,
+"SSSg",
+"$__lazy_storage_$_queueLabel"
+],
+[
+2,
+"So17OS_dispatch_queueCSg",
+"$__lazy_storage_$_queue"
+]
+]
+},
+{
+"off": 5465976,
+"kind": 1,
+"name": "<SYM01>",
+"super": "<SYM02>",
+"fields": [
+[
+0,
+"<SYM01>",
+"hardware"
+],
+[
+2,
+"SSSg",
+"cachedDeviceName"
+],
+[
+2,
+"Sb",
+"isRegisteredForNotifications"
+]
+]
+},
+{
+"off": 5466028,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"objectID"
+],
+[
+2,
+"<SYM02>SgSg",
+"$__lazy_storage_$_classID"
+],
+[
+2,
+"<SYM01>SgSg",
+"$__lazy_storage_$_owningObject"
+],
+[
+2,
+"<SYM02>SgSg",
+"$__lazy_storage_$_owningDevice"
+]
+]
+},
+{
+"off": 5466092,
+"kind": 1,
+"name": "<SYM01>",
+"super": "<SYM02>",
+"fields": [
+[
+2,
+"Say<SYM02>GSgSg",
+"$__lazy_storage_$_availablePhysicalFormats"
+],
+[
+2,
+"Say<SYM02>GSgSg",
+"$__lazy_storage_$_availableVirtualFormats"
+],
+[
+2,
+"Sb",
+"isRegisteredForNotifications"
+]
+]
+},
+{
+"off": 5466144,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>5value_t",
+"custom"
+],
+[
+0,
+"",
+"main"
+],
+[
+0,
+"",
+"master"
+]
+]
+},
+{
+"off": 5466196,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"global"
+],
+[
+0,
+"",
+"input"
+],
+[
+0,
+"",
+"output"
+],
+[
+0,
+"",
+"playthrough"
+],
+[
+0,
+"",
+"master"
+],
+[
+0,
+"",
+"wildcard"
+],
+[
+0,
+"",
+"main"
+]
+]
+},
+{
+"off": 5466296,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"unknown"
+],
+[
+0,
+"",
+"line"
+],
+[
+0,
+"",
+"digitalAudioInterface"
+],
+[
+0,
+"",
+"speaker"
+],
+[
+0,
+"",
+"headphones"
+],
+[
+0,
+"",
+"lfeSpeaker"
+],
+[
+0,
+"",
+"receiverSpeaker"
+],
+[
+0,
+"",
+"microphone"
+],
+[
+0,
+"",
+"headsetMicrophone"
+],
+[
+0,
+"",
+"receiverMicrophone"
+],
+[
+0,
+"",
+"tty"
+],
+[
+0,
+"",
+"hdmi"
+],
+[
+0,
+"",
+"displayPort"
+]
+]
+},
+{
+"off": 5466468,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"unknown"
+],
+[
+0,
+"",
+"builtIn"
+],
+[
+0,
+"",
+"aggregate"
+],
+[
+0,
+"",
+"virtual"
+],
+[
+0,
+"",
+"pci"
+],
+[
+0,
+"",
+"usb"
+],
+[
+0,
+"",
+"fireWire"
+],
+[
+0,
+"",
+"bluetooth"
+],
+[
+0,
+"",
+"bluetoothLE"
+],
+[
+0,
+"",
+"hdmi"
+],
+[
+0,
+"",
+"displayPort"
+],
+[
+0,
+"",
+"airPlay"
+],
+[
+0,
+"",
+"avb"
+],
+[
+0,
+"",
+"thunderbolt"
+],
+[
+0,
+"",
+"network"
+],
+[
+0,
+"",
+"other"
+]
+]
+},
+{
+"off": 5466676,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"SfSg",
+"volume"
+],
+[
+2,
+"Sb",
+"hasVolume"
+],
+[
+2,
+"Sb",
+"canSetVolume"
+],
+[
+2,
+"Sb",
+"canMute"
+],
+[
+2,
+"Sb",
+"isMuted"
+],
+[
+2,
+"Sb",
+"canPlayThru"
+],
+[
+2,
+"Sb",
+"isPlayThruSet"
+]
+]
+},
+{
+"off": 5466776,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"hardware"
+]
+]
+},
+{
+"off": 5466804,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"8RawValueSY_28AtomicOptionalRepresentation<SYM02>QZ",
+"_storage"
+]
+]
+},
+{
+"off": 5466832,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"8RawValueSY_20AtomicRepresentation<SYM02>QZ",
+"_storage"
+]
+]
+},
+{
+"off": 5466860,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5466888,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5466916,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5466944,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5466972,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467000,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467028,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467056,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467084,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467112,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467140,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467168,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467196,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467224,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467252,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467280,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467308,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467336,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467364,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467392,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467420,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467448,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"_storage"
+]
+]
+},
+{
+"off": 5467476,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"Bi8_",
+"_value"
+]
+]
+},
+{
+"off": 5467504,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"Bi16_",
+"_value"
+]
+]
+},
+{
+"off": 5467532,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"Bi32_",
+"_value"
+]
+]
+},
+{
+"off": 5467560,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"Bi64_",
+"_value"
+]
+]
+},
+{
+"off": 5467588,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"Bi128_",
+"_value"
+]
+]
+},
+{
+"off": 5467616,
+"kind": 4,
+"name": "$s7Atomics13AtomicIntegerP",
+"super": "",
+"fields": []
+},
+{
+"off": 5467632,
+"kind": 4,
+"name": "$s7Atomics20AtomicIntegerStorageP",
+"super": "",
+"fields": []
+},
+{
+"off": 5467648,
+"kind": 4,
+"name": "$s7Atomics23AtomicOptionalWrappableP",
+"super": "",
+"fields": []
+},
+{
+"off": 5467664,
+"kind": 5,
+"name": "$s7Atomics15AtomicReferenceP",
+"super": "",
+"fields": []
+},
+{
+"off": 5467680,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM01>",
+"_storage"
+]
+]
+},
+{
+"off": 5467708,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM01>",
+"_storage"
+]
+]
+},
+{
+"off": 5467736,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM01>",
+"_storage"
+]
+]
+},
+{
+"off": 5467764,
+"kind": 4,
+"name": "$s7Atomics13AtomicStorageP",
+"super": "",
+"fields": []
+},
+{
+"off": 5467780,
+"kind": 4,
+"name": "$s7Atomics11AtomicValueP",
+"super": "",
+"fields": []
+},
+{
+"off": 5467796,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Si",
+"_rawValue"
+]
+]
+},
+{
+"off": 5467824,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Si",
+"_rawValue"
+]
+]
+},
+{
+"off": 5467852,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Si",
+"_rawValue"
+]
+]
+},
+{
+"off": 5467880,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"Su",
+"first"
+],
+[
+2,
+"Su",
+"second"
+]
+]
+},
+{
+"off": 5467920,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"20AtomicRepresentation<SYM02>Qz",
+"__storage"
+]
+]
+},
+{
+"off": 5467948,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>yx_G",
+"_storage"
+]
+]
+},
+{
+"off": 5467976,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Spy20AtomicRepresentation<SYM02>QzG",
+"_ptr"
+]
+]
+},
+{
+"off": 5468004,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Spy<SYM02>yx_GG",
+"_ptr"
+]
+]
+},
+{
+"off": 5468032,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM01>yx_G",
+"_storage"
+]
+]
+},
+{
+"off": 5468060,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So8NSStringC",
+"_rawValue"
+]
+]
+},
+{
+"off": 5468088,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5468104,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"color"
+],
+[
+2,
+"<SYM02>",
+"frequency"
+],
+[
+2,
+"<SYM02>",
+"shade"
+]
+]
+},
+{
+"off": 5468156,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"background"
+],
+[
+0,
+"<SYM02>",
+"primary"
+],
+[
+0,
+"<SYM02>Sg",
+"secondary"
+]
+]
+},
+{
+"off": 5468208,
+"kind": 2,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"white"
+],
+[
+0,
+"",
+"black"
+],
+[
+0,
+"",
+"dark"
+],
+[
+0,
+"",
+"bright"
+],
+[
+0,
+"",
+"gray"
+],
+[
+0,
+"",
+"red"
+],
+[
+0,
+"",
+"redOrange"
+],
+[
+0,
+"",
+"orange"
+],
+[
+0,
+"",
+"yellowOrange"
+],
+[
+0,
+"",
+"yellow"
+],
+[
+0,
+"",
+"yellowGreen"
+],
+[
+0,
+"",
+"green"
+],
+[
+0,
+"",
+"blueGreen"
+],
+[
+0,
+"",
+"blue"
+],
+[
+0,
+"",
+"blueViolet"
+],
+[
+0,
+"",
+"violet"
+],
+[
+0,
+"",
+"redViolet"
+],
+[
+0,
+"",
+"brown"
+],
+[
+0,
+"",
+"pink"
+],
+[
+0,
+"",
+"unknown"
+]
+]
+},
+{
+"off": 5468464,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sd",
+"hue"
+],
+[
+0,
+"Sd",
+"saturation"
+],
+[
+0,
+"Sd",
+"lightness"
+]
+]
+},
+{
+"off": 5468516,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"cgColor"
+]
+]
+},
+{
+"off": 5468544,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"red"
+],
+[
+0,
+"<SYM02>",
+"green"
+],
+[
+0,
+"<SYM02>",
+"blue"
+]
+]
+},
+{
+"off": 5468596,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"acceptable"
+],
+[
+0,
+"<SYM02>",
+"acceptableForLargeText"
+],
+[
+0,
+"<SYM02>",
+"low"
+]
+]
+},
+{
+"off": 5468648,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"euclidean"
+],
+[
+0,
+"",
+"CIE76"
+],
+[
+0,
+"",
+"CIE94"
+],
+[
+0,
+"",
+"CIEDE2000"
+],
+[
+0,
+"",
+"CMC"
+]
+]
+},
+{
+"off": 5468724,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"indentical"
+],
+[
+0,
+"<SYM02>",
+"similar"
+],
+[
+0,
+"<SYM02>",
+"close"
+],
+[
+0,
+"<SYM02>",
+"near"
+],
+[
+0,
+"<SYM02>",
+"different"
+],
+[
+0,
+"<SYM02>",
+"far"
+]
+]
+},
+{
+"off": 5468812,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>7formula_t",
+"iterative"
+],
+[
+0,
+"",
+"kMeansClustering"
+],
+[
+0,
+"",
+"areaAverage"
+]
+]
+},
+{
+"off": 5468864,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"low"
+],
+[
+0,
+"",
+"fair"
+],
+[
+0,
+"",
+"high"
+],
+[
+0,
+"",
+"best"
+]
+]
+},
+{
+"off": 5468928,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5468944,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"excludeBlack"
+],
+[
+0,
+"",
+"excludeWhite"
+],
+[
+0,
+"",
+"excludeGray"
+]
+]
+},
+{
+"off": 5468996,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"darkness"
+],
+[
+0,
+"",
+"lightness"
+],
+[
+0,
+"",
+"frequency"
+]
+]
+},
+{
+"off": 5469048,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS6filter_t",
+"ciFilterCreateFailure"
+],
+[
+0,
+"",
+"ciImageFailure"
+],
+[
+0,
+"",
+"cgImageFailure"
+],
+[
+0,
+"",
+"cgImageDataFailure"
+],
+[
+0,
+"",
+"outputImageFailure"
+],
+[
+0,
+"",
+"kCFNullFailure"
+],
+[
+0,
+"",
+"lowResolutionFailure"
+],
+[
+0,
+"",
+"cgColorFailure"
+]
+]
+},
+{
+"off": 5469160,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5469176,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"image"
+],
+[
+0,
+"<SYM02>",
+"maximumAlphaChannel"
+],
+[
+0,
+"<SYM02>",
+"cgContext"
+],
+[
+0,
+"Sv",
+"zeroByteBlock"
+],
+[
+0,
+"SnySiG",
+"pixelRowRange"
+],
+[
+0,
+"SnySiG",
+"pixelColumnRange"
+]
+]
+},
+{
+"off": 5469264,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5469280,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"width"
+],
+[
+2,
+"<SYM02>",
+"height"
+]
+]
+},
+{
+"off": 5469320,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"x"
+],
+[
+2,
+"<SYM02>",
+"y"
+]
+]
+},
+{
+"off": 5469360,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Sd",
+"red"
+],
+[
+2,
+"Sd",
+"green"
+],
+[
+2,
+"Sd",
+"blue"
+],
+[
+2,
+"Sd",
+"opacity"
+]
+]
+},
+{
+"off": 5469424,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"red"
+],
+[
+0,
+"",
+"green"
+],
+[
+0,
+"",
+"blue"
+],
+[
+0,
+"",
+"opacity"
+]
+]
+},
+{
+"off": 5469488,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"single"
+],
+[
+0,
+"Say<SYM02>G",
+"random"
+],
+[
+0,
+"Say<SYM02>G",
+"ramp"
+],
+[
+0,
+"SaySay<SYM02>GG",
+"randomRamp"
+]
+]
+},
+{
+"off": 5469552,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"_0"
+]
+]
+},
+{
+"off": 5469580,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"_0"
+]
+]
+},
+{
+"off": 5469608,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"_0"
+]
+]
+},
+{
+"off": 5469636,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"_0"
+]
+]
+},
+{
+"off": 5469664,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"single"
+],
+[
+0,
+"",
+"random"
+],
+[
+0,
+"",
+"ramp"
+],
+[
+0,
+"",
+"randomRamp"
+]
+]
+},
+{
+"off": 5469728,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"SS",
+"tag"
+],
+[
+2,
+"<SYM02>ySdG",
+"position"
+],
+[
+2,
+"<SYM02>ySdG",
+"speed"
+],
+[
+2,
+"Sd",
+"birthTime"
+],
+[
+2,
+"Sd",
+"lifespan"
+],
+[
+2,
+"Sd",
+"initialSize"
+],
+[
+2,
+"Sd",
+"currentSize"
+],
+[
+2,
+"<SYM02>ySdG",
+"angle"
+],
+[
+2,
+"<SYM02>ySdG",
+"angularSpeed"
+],
+[
+2,
+"Say<SYM02>G",
+"colors"
+],
+[
+2,
+"<SYM01>",
+"currentColor"
+]
+]
+},
+{
+"off": 5469876,
+"kind": 3,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Sd5width_Sd6heightt",
+"box"
+],
+[
+0,
+"Sd6radius_t",
+"ellipse"
+],
+[
+0,
+"Sd6radius_t",
+"ring"
+],
+[
+0,
+"",
+"point"
+]
+]
+},
+{
+"off": 5469940,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"radius"
+]
+]
+},
+{
+"off": 5469968,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"radius"
+]
+]
+},
+{
+"off": 5469996,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"width"
+],
+[
+0,
+"",
+"height"
+]
+]
+},
+{
+"off": 5470036,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5470052,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"point"
+],
+[
+0,
+"",
+"box"
+],
+[
+0,
+"",
+"ellipse"
+],
+[
+0,
+"",
+"ring"
+]
+]
+},
+{
+"off": 5470116,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"onBirth"
+],
+[
+0,
+"",
+"onDeath"
+],
+[
+0,
+"",
+"onUpdate"
+]
+]
+},
+{
+"off": 5470168,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5470184,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5470200,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5470216,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"onBirth"
+],
+[
+0,
+"",
+"onDeath"
+],
+[
+0,
+"",
+"onUpdate"
+]
+]
+},
+{
+"off": 5470268,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"id"
+],
+[
+2,
+"Sd",
+"outstandingParticles"
+],
+[
+2,
+"Sd",
+"lastIdleTime"
+],
+[
+2,
+"Si",
+"selectedColorRamp"
+],
+[
+2,
+"Sd",
+"lastUpdate"
+],
+[
+2,
+"Sd",
+"startTimeOffset"
+],
+[
+2,
+"Si",
+"emissionCount"
+],
+[
+2,
+"Say<SYM02>G",
+"particles"
+],
+[
+2,
+"Shy<SYM01>G",
+"activeSecondarySystems"
+],
+[
+2,
+"<SYM01>",
+"lastDrawSize"
+],
+[
+2,
+"<SYM02>ySdG",
+"position"
+],
+[
+2,
+"SaySSG",
+"tags"
+],
+[
+2,
+"Sb",
+"isActive"
+],
+[
+2,
+"Sb",
+"isEmitting"
+],
+[
+2,
+"Say<SYM01>G",
+"secondarySystems"
+],
+[
+2,
+"<SYM01>",
+"spawnOccasion"
+],
+[
+2,
+"<SYM01>",
+"shape"
+],
+[
+2,
+"Sd",
+"birthRate"
+],
+[
+2,
+"SiSg",
+"emissionLimit"
+],
+[
+2,
+"Sd",
+"emissionDuration"
+],
+[
+2,
+"Sd",
+"idleDuration"
+],
+[
+2,
+"Si",
+"burstCount"
+],
+[
+2,
+"Si",
+"burstCountVariation"
+],
+[
+2,
+"Sd",
+"lifespan"
+],
+[
+2,
+"Sd",
+"lifespanVariation"
+],
+[
+2,
+"Sd",
+"speed"
+],
+[
+2,
+"Sd",
+"speedVariation"
+],
+[
+2,
+"<SYM02>",
+"angle"
+],
+[
+2,
+"<SYM02>",
+"angleRange"
+],
+[
+2,
+"<SYM02>ySdG",
+"acceleration"
+],
+[
+2,
+"<SYM02>ySdGSg",
+"attractionCenter"
+],
+[
+2,
+"Sd",
+"attractionStrength"
+],
+[
+2,
+"Sd",
+"dampingFactor"
+],
+[
+2,
+"<SYM02>ySdG",
+"angularSpeed"
+],
+[
+2,
+"<SYM02>ySdG",
+"angularSpeedVariation"
+],
+[
+2,
+"<SYM01>",
+"colors"
+],
+[
+2,
+"Sd",
+"size"
+],
+[
+2,
+"Sd",
+"sizeVariation"
+],
+[
+2,
+"Sd",
+"sizeMultiplierAtDeath"
+],
+[
+2,
+"Sd",
+"stretchFactor"
+]
+]
+},
+{
+"off": 5470764,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"tags"
+],
+[
+0,
+"",
+"secondarySystems"
+],
+[
+0,
+"",
+"spawnOccasion"
+],
+[
+0,
+"",
+"position"
+],
+[
+0,
+"",
+"shape"
+],
+[
+0,
+"",
+"birthRate"
+],
+[
+0,
+"",
+"emissionLimit"
+],
+[
+0,
+"",
+"emissionDuration"
+],
+[
+0,
+"",
+"idleDuration"
+],
+[
+0,
+"",
+"burstCount"
+],
+[
+0,
+"",
+"burstCountVariation"
+],
+[
+0,
+"",
+"lifespan"
+],
+[
+0,
+"",
+"lifespanVariation"
+],
+[
+0,
+"",
+"speed"
+],
+[
+0,
+"",
+"speedVariation"
+],
+[
+0,
+"",
+"angle"
+],
+[
+0,
+"",
+"angleRange"
+],
+[
+0,
+"",
+"acceleration"
+],
+[
+0,
+"",
+"attractionCenter"
+],
+[
+0,
+"",
+"attractionStrength"
+],
+[
+0,
+"",
+"dampingFactor"
+],
+[
+0,
+"",
+"angularSpeed"
+],
+[
+0,
+"",
+"angularSpeedVariation"
+],
+[
+0,
+"",
+"colors"
+],
+[
+0,
+"",
+"size"
+],
+[
+0,
+"",
+"sizeVariation"
+],
+[
+0,
+"",
+"sizeMultiplierAtDeath"
+],
+[
+0,
+"",
+"stretchFactor"
+]
+]
+},
+{
+"off": 5471116,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>Sg",
+"particleSystem"
+],
+[
+0,
+"yyc",
+"burst"
+],
+[
+0,
+"y<SYM02>Sgc",
+"attractTo"
+]
+]
+},
+{
+"off": 5471168,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5471184,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"x",
+"symbols"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_particleSystem"
+],
+[
+2,
+"Si",
+"targetFrameRate"
+]
+]
+},
+{
+"off": 5471236,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM02>SgG",
+"__nearestVortexSystem"
+],
+[
+0,
+"x<SYM02>c",
+"content"
+]
+]
+},
+{
+"off": 5471276,
+"kind": 4,
+"name": "$s6Vortex23_ACResourceInitProtocolP",
+"super": "",
+"fields": []
+},
+{
+"off": 5471292,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"rawValue"
+]
+]
+},
+{
+"off": 5471320,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"rawValue"
+]
+]
+},
+{
+"off": 5471348,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"rawValue"
+]
+]
+},
+{
+"off": 5471376,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"message"
+],
+[
+0,
+"<SYM02>",
+"date"
+],
+[
+0,
+"SSSg",
+"subsystem"
+],
+[
+0,
+"SSSg",
+"category"
+],
+[
+0,
+"<SYM01>",
+"type"
+],
+[
+0,
+"SS",
+"process"
+],
+[
+0,
+"<SYM02>",
+"processID"
+]
+]
+},
+{
+"off": 5471476,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5471492,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"So6NSLockC",
+"lock"
+],
+[
+2,
+"9LogStream011_OSLogEventB0_pSg",
+"eventStream"
+],
+[
+2,
+"Sb",
+"isCancelled"
+]
+]
+},
+{
+"off": 5471544,
+"kind": 6,
+"name": "$s9LogStream011_OSActivityA12MessageEventP",
+"super": "",
+"fields": []
+},
+{
+"off": 5471560,
+"kind": 6,
+"name": "$s9LogStream16_OSLogEventStoreP",
+"super": "",
+"fields": []
+},
+{
+"off": 5471576,
+"kind": 6,
+"name": "$s9LogStream011_OSLogEventB0P",
+"super": "",
+"fields": []
+},
+{
+"off": 5471592,
+"kind": 6,
+"name": "$s9LogStream16_OSLogEventProxyP",
+"super": "",
+"fields": []
+},
+{
+"off": 5471608,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5471624,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"genericPassword"
+],
+[
+0,
+"",
+"internetPassword"
+]
+]
+},
+{
+"off": 5471664,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"ftp"
+],
+[
+0,
+"",
+"ftpAccount"
+],
+[
+0,
+"",
+"http"
+],
+[
+0,
+"",
+"irc"
+],
+[
+0,
+"",
+"nntp"
+],
+[
+0,
+"",
+"pop3"
+],
+[
+0,
+"",
+"smtp"
+],
+[
+0,
+"",
+"socks"
+],
+[
+0,
+"",
+"imap"
+],
+[
+0,
+"",
+"ldap"
+],
+[
+0,
+"",
+"appleTalk"
+],
+[
+0,
+"",
+"afp"
+],
+[
+0,
+"",
+"telnet"
+],
+[
+0,
+"",
+"ssh"
+],
+[
+0,
+"",
+"ftps"
+],
+[
+0,
+"",
+"https"
+],
+[
+0,
+"",
+"httpProxy"
+],
+[
+0,
+"",
+"httpsProxy"
+],
+[
+0,
+"",
+"ftpProxy"
+],
+[
+0,
+"",
+"smb"
+],
+[
+0,
+"",
+"rtsp"
+],
+[
+0,
+"",
+"rtspProxy"
+],
+[
+0,
+"",
+"daap"
+],
+[
+0,
+"",
+"eppc"
+],
+[
+0,
+"",
+"ipp"
+],
+[
+0,
+"",
+"nntps"
+],
+[
+0,
+"",
+"ldaps"
+],
+[
+0,
+"",
+"telnetS"
+],
+[
+0,
+"",
+"imaps"
+],
+[
+0,
+"",
+"ircs"
+],
+[
+0,
+"",
+"pop3S"
+]
+]
+},
+{
+"off": 5472052,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"ntlm"
+],
+[
+0,
+"",
+"msn"
+],
+[
+0,
+"",
+"dpa"
+],
+[
+0,
+"",
+"rpa"
+],
+[
+0,
+"",
+"httpBasic"
+],
+[
+0,
+"",
+"httpDigest"
+],
+[
+0,
+"",
+"htmlForm"
+],
+[
+0,
+"",
+"default"
+]
+]
+},
+{
+"off": 5472164,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"whenUnlocked"
+],
+[
+0,
+"",
+"afterFirstUnlock"
+],
+[
+0,
+"",
+"always"
+],
+[
+0,
+"",
+"whenPasscodeSetThisDeviceOnly"
+],
+[
+0,
+"",
+"whenUnlockedThisDeviceOnly"
+],
+[
+0,
+"",
+"afterFirstUnlockThisDeviceOnly"
+],
+[
+0,
+"",
+"alwaysThisDeviceOnly"
+]
+]
+},
+{
+"off": 5472264,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"allow"
+],
+[
+0,
+"",
+"fail"
+],
+[
+0,
+"",
+"skip"
+]
+]
+},
+{
+"off": 5472316,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"Su",
+"rawValue"
+]
+]
+},
+{
+"off": 5472344,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"SDySSypG",
+"attributes"
+]
+]
+},
+{
+"off": 5472372,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"options"
+]
+]
+},
+{
+"off": 5472400,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"success"
+],
+[
+0,
+"",
+"unimplemented"
+],
+[
+0,
+"",
+"diskFull"
+],
+[
+0,
+"",
+"io"
+],
+[
+0,
+"",
+"opWr"
+],
+[
+0,
+"",
+"param"
+],
+[
+0,
+"",
+"wrPerm"
+],
+[
+0,
+"",
+"allocate"
+],
+[
+0,
+"",
+"userCanceled"
+],
+[
+0,
+"",
+"badReq"
+],
+[
+0,
+"",
+"internalComponent"
+],
+[
+0,
+"",
+"notAvailable"
+],
+[
+0,
+"",
+"readOnly"
+],
+[
+0,
+"",
+"authFailed"
+],
+[
+0,
+"",
+"noSuchKeychain"
+],
+[
+0,
+"",
+"invalidKeychain"
+],
+[
+0,
+"",
+"duplicateKeychain"
+],
+[
+0,
+"",
+"duplicateCallback"
+],
+[
+0,
+"",
+"invalidCallback"
+],
+[
+0,
+"",
+"duplicateItem"
+],
+[
+0,
+"",
+"itemNotFound"
+],
+[
+0,
+"",
+"bufferTooSmall"
+],
+[
+0,
+"",
+"dataTooLarge"
+],
+[
+0,
+"",
+"noSuchAttr"
+],
+[
+0,
+"",
+"invalidItemRef"
+],
+[
+0,
+"",
+"invalidSearchRef"
+],
+[
+0,
+"",
+"noSuchClass"
+],
+[
+0,
+"",
+"noDefaultKeychain"
+],
+[
+0,
+"",
+"interactionNotAllowed"
+],
+[
+0,
+"",
+"readOnlyAttr"
+],
+[
+0,
+"",
+"wrongSecVersion"
+],
+[
+0,
+"",
+"keySizeNotAllowed"
+],
+[
+0,
+"",
+"noStorageModule"
+],
+[
+0,
+"",
+"noCertificateModule"
+],
+[
+0,
+"",
+"noPolicyModule"
+],
+[
+0,
+"",
+"interactionRequired"
+],
+[
+0,
+"",
+"dataNotAvailable"
+],
+[
+0,
+"",
+"dataNotModifiable"
+],
+[
+0,
+"",
+"createChainFailed"
+],
+[
+0,
+"",
+"invalidPrefsDomain"
+],
+[
+0,
+"",
+"inDarkWake"
+],
+[
+0,
+"",
+"aclNotSimple"
+],
+[
+0,
+"",
+"policyNotFound"
+],
+[
+0,
+"",
+"invalidTrustSetting"
+],
+[
+0,
+"",
+"noAccessForItem"
+],
+[
+0,
+"",
+"invalidOwnerEdit"
+],
+[
+0,
+"",
+"trustNotAvailable"
+],
+[
+0,
+"",
+"unsupportedFormat"
+],
+[
+0,
+"",
+"unknownFormat"
+],
+[
+0,
+"",
+"keyIsSensitive"
+],
+[
+0,
+"",
+"multiplePrivKeys"
+],
+[
+0,
+"",
+"passphraseRequired"
+],
+[
+0,
+"",
+"invalidPasswordRef"
+],
+[
+0,
+"",
+"invalidTrustSettings"
+],
+[
+0,
+"",
+"noTrustSettings"
+],
+[
+0,
+"",
+"pkcs12VerifyFailure"
+],
+[
+0,
+"",
+"invalidCertificate"
+],
+[
+0,
+"",
+"notSigner"
+],
+[
+0,
+"",
+"policyDenied"
+],
+[
+0,
+"",
+"invalidKey"
+],
+[
+0,
+"",
+"decode"
+],
+[
+0,
+"",
+"internal"
+],
+[
+0,
+"",
+"unsupportedAlgorithm"
+],
+[
+0,
+"",
+"unsupportedOperation"
+],
+[
+0,
+"",
+"unsupportedPadding"
+],
+[
+0,
+"",
+"itemInvalidKey"
+],
+[
+0,
+"",
+"itemInvalidKeyType"
+],
+[
+0,
+"",
+"itemInvalidValue"
+],
+[
+0,
+"",
+"itemClassMissing"
+],
+[
+0,
+"",
+"itemMatchUnsupported"
+],
+[
+0,
+"",
+"useItemListUnsupported"
+],
+[
+0,
+"",
+"useKeychainUnsupported"
+],
+[
+0,
+"",
+"useKeychainListUnsupported"
+],
+[
+0,
+"",
+"returnDataUnsupported"
+],
+[
+0,
+"",
+"returnAttributesUnsupported"
+],
+[
+0,
+"",
+"returnRefUnsupported"
+],
+[
+0,
+"",
+"returnPersitentRefUnsupported"
+],
+[
+0,
+"",
+"valueRefUnsupported"
+],
+[
+0,
+"",
+"valuePersistentRefUnsupported"
+],
+[
+0,
+"",
+"returnMissingPointer"
+],
+[
+0,
+"",
+"matchLimitUnsupported"
+],
+[
+0,
+"",
+"itemIllegalQuery"
+],
+[
+0,
+"",
+"waitForCallback"
+],
+[
+0,
+"",
+"missingEntitlement"
+],
+[
+0,
+"",
+"upgradePending"
+],
+[
+0,
+"",
+"mpSignatureInvalid"
+],
+[
+0,
+"",
+"otrTooOld"
+],
+[
+0,
+"",
+"otrIDTooNew"
+],
+[
+0,
+"",
+"serviceNotAvailable"
+],
+[
+0,
+"",
+"insufficientClientID"
+],
+[
+0,
+"",
+"deviceReset"
+],
+[
+0,
+"",
+"deviceFailed"
+],
+[
+0,
+"",
+"appleAddAppACLSubject"
+],
+[
+0,
+"",
+"applePublicKeyIncomplete"
+],
+[
+0,
+"",
+"appleSignatureMismatch"
+],
+[
+0,
+"",
+"appleInvalidKeyStartDate"
+],
+[
+0,
+"",
+"appleInvalidKeyEndDate"
+],
+[
+0,
+"",
+"conversionError"
+],
+[
+0,
+"",
+"appleSSLv2Rollback"
+],
+[
+0,
+"",
+"quotaExceeded"
+],
+[
+0,
+"",
+"fileTooBig"
+],
+[
+0,
+"",
+"invalidDatabaseBlob"
+],
+[
+0,
+"",
+"invalidKeyBlob"
+],
+[
+0,
+"",
+"incompatibleDatabaseBlob"
+],
+[
+0,
+"",
+"incompatibleKeyBlob"
+],
+[
+0,
+"",
+"hostNameMismatch"
+],
+[
+0,
+"",
+"unknownCriticalExtensionFlag"
+],
+[
+0,
+"",
+"noBasicConstraints"
+],
+[
+0,
+"",
+"noBasicConstraintsCA"
+],
+[
+0,
+"",
+"invalidAuthorityKeyID"
+],
+[
+0,
+"",
+"invalidSubjectKeyID"
+],
+[
+0,
+"",
+"invalidKeyUsageForPolicy"
+],
+[
+0,
+"",
+"invalidExtendedKeyUsage"
+],
+[
+0,
+"",
+"invalidIDLinkage"
+],
+[
+0,
+"",
+"pathLengthConstraintExceeded"
+],
+[
+0,
+"",
+"invalidRoot"
+],
+[
+0,
+"",
+"crlExpired"
+],
+[
+0,
+"",
+"crlNotValidYet"
+],
+[
+0,
+"",
+"crlNotFound"
+],
+[
+0,
+"",
+"crlServerDown"
+],
+[
+0,
+"",
+"crlBadURI"
+],
+[
+0,
+"",
+"unknownCertExtension"
+],
+[
+0,
+"",
+"unknownCRLExtension"
+],
+[
+0,
+"",
+"crlNotTrusted"
+],
+[
+0,
+"",
+"crlPolicyFailed"
+],
+[
+0,
+"",
+"idpFailure"
+],
+[
+0,
+"",
+"smimeEmailAddressesNotFound"
+],
+[
+0,
+"",
+"smimeBadExtendedKeyUsage"
+],
+[
+0,
+"",
+"smimeBadKeyUsage"
+],
+[
+0,
+"",
+"smimeKeyUsageNotCritical"
+],
+[
+0,
+"",
+"smimeNoEmailAddress"
+],
+[
+0,
+"",
+"smimeSubjAltNameNotCritical"
+],
+[
+0,
+"",
+"sslBadExtendedKeyUsage"
+],
+[
+0,
+"",
+"ocspBadResponse"
+],
+[
+0,
+"",
+"ocspBadRequest"
+],
+[
+0,
+"",
+"ocspUnavailable"
+],
+[
+0,
+"",
+"ocspStatusUnrecognized"
+],
+[
+0,
+"",
+"endOfData"
+],
+[
+0,
+"",
+"incompleteCertRevocationCheck"
+],
+[
+0,
+"",
+"networkFailure"
+],
+[
+0,
+"",
+"ocspNotTrustedToAnchor"
+],
+[
+0,
+"",
+"recordModified"
+],
+[
+0,
+"",
+"ocspSignatureError"
+],
+[
+0,
+"",
+"ocspNoSigner"
+],
+[
+0,
+"",
+"ocspResponderMalformedReq"
+],
+[
+0,
+"",
+"ocspResponderInternalError"
+],
+[
+0,
+"",
+"ocspResponderTryLater"
+],
+[
+0,
+"",
+"ocspResponderSignatureRequired"
+],
+[
+0,
+"",
+"ocspResponderUnauthorized"
+],
+[
+0,
+"",
+"ocspResponseNonceMismatch"
+],
+[
+0,
+"",
+"codeSigningBadCertChainLength"
+],
+[
+0,
+"",
+"codeSigningNoBasicConstraints"
+],
+[
+0,
+"",
+"codeSigningBadPathLengthConstraint"
+],
+[
+0,
+"",
+"codeSigningNoExtendedKeyUsage"
+],
+[
+0,
+"",
+"codeSigningDevelopment"
+],
+[
+0,
+"",
+"resourceSignBadCertChainLength"
+],
+[
+0,
+"",
+"resourceSignBadExtKeyUsage"
+],
+[
+0,
+"",
+"trustSettingDeny"
+],
+[
+0,
+"",
+"invalidSubjectName"
+],
+[
+0,
+"",
+"unknownQualifiedCertStatement"
+],
+[
+0,
+"",
+"mobileMeRequestQueued"
+],
+[
+0,
+"",
+"mobileMeRequestRedirected"
+],
+[
+0,
+"",
+"mobileMeServerError"
+],
+[
+0,
+"",
+"mobileMeServerNotAvailable"
+],
+[
+0,
+"",
+"mobileMeServerAlreadyExists"
+],
+[
+0,
+"",
+"mobileMeServerServiceErr"
+],
+[
+0,
+"",
+"mobileMeRequestAlreadyPending"
+],
+[
+0,
+"",
+"mobileMeNoRequestPending"
+],
+[
+0,
+"",
+"mobileMeCSRVerifyFailure"
+],
+[
+0,
+"",
+"mobileMeFailedConsistencyCheck"
+],
+[
+0,
+"",
+"notInitialized"
+],
+[
+0,
+"",
+"invalidHandleUsage"
+],
+[
+0,
+"",
+"pvcReferentNotFound"
+],
+[
+0,
+"",
+"functionIntegrityFail"
+],
+[
+0,
+"",
+"internalError"
+],
+[
+0,
+"",
+"memoryError"
+],
+[
+0,
+"",
+"invalidData"
+],
+[
+0,
+"",
+"mdsError"
+],
+[
+0,
+"",
+"invalidPointer"
+],
+[
+0,
+"",
+"selfCheckFailed"
+],
+[
+0,
+"",
+"functionFailed"
+],
+[
+0,
+"",
+"moduleManifestVerifyFailed"
+],
+[
+0,
+"",
+"invalidGUID"
+],
+[
+0,
+"",
+"invalidHandle"
+],
+[
+0,
+"",
+"invalidDBList"
+],
+[
+0,
+"",
+"invalidPassthroughID"
+],
+[
+0,
+"",
+"invalidNetworkAddress"
+],
+[
+0,
+"",
+"crlAlreadySigned"
+],
+[
+0,
+"",
+"invalidNumberOfFields"
+],
+[
+0,
+"",
+"verificationFailure"
+],
+[
+0,
+"",
+"unknownTag"
+],
+[
+0,
+"",
+"invalidSignature"
+],
+[
+0,
+"",
+"invalidName"
+],
+[
+0,
+"",
+"invalidCertificateRef"
+],
+[
+0,
+"",
+"invalidCertificateGroup"
+],
+[
+0,
+"",
+"tagNotFound"
+],
+[
+0,
+"",
+"invalidQuery"
+],
+[
+0,
+"",
+"invalidValue"
+],
+[
+0,
+"",
+"callbackFailed"
+],
+[
+0,
+"",
+"aclDeleteFailed"
+],
+[
+0,
+"",
+"aclReplaceFailed"
+],
+[
+0,
+"",
+"aclAddFailed"
+],
+[
+0,
+"",
+"aclChangeFailed"
+],
+[
+0,
+"",
+"invalidAccessCredentials"
+],
+[
+0,
+"",
+"invalidRecord"
+],
+[
+0,
+"",
+"invalidACL"
+],
+[
+0,
+"",
+"invalidSampleValue"
+],
+[
+0,
+"",
+"incompatibleVersion"
+],
+[
+0,
+"",
+"privilegeNotGranted"
+],
+[
+0,
+"",
+"invalidScope"
+],
+[
+0,
+"",
+"pvcAlreadyConfigured"
+],
+[
+0,
+"",
+"invalidPVC"
+],
+[
+0,
+"",
+"emmLoadFailed"
+],
+[
+0,
+"",
+"emmUnloadFailed"
+],
+[
+0,
+"",
+"addinLoadFailed"
+],
+[
+0,
+"",
+"invalidKeyRef"
+],
+[
+0,
+"",
+"invalidKeyHierarchy"
+],
+[
+0,
+"",
+"addinUnloadFailed"
+],
+[
+0,
+"",
+"libraryReferenceNotFound"
+],
+[
+0,
+"",
+"invalidAddinFunctionTable"
+],
+[
+0,
+"",
+"invalidServiceMask"
+],
+[
+0,
+"",
+"moduleNotLoaded"
+],
+[
+0,
+"",
+"invalidSubServiceID"
+],
+[
+0,
+"",
+"attributeNotInContext"
+],
+[
+0,
+"",
+"moduleManagerInitializeFailed"
+],
+[
+0,
+"",
+"moduleManagerNotFound"
+],
+[
+0,
+"",
+"eventNotificationCallbackNotFound"
+],
+[
+0,
+"",
+"inputLengthError"
+],
+[
+0,
+"",
+"outputLengthError"
+],
+[
+0,
+"",
+"privilegeNotSupported"
+],
+[
+0,
+"",
+"deviceError"
+],
+[
+0,
+"",
+"attachHandleBusy"
+],
+[
+0,
+"",
+"notLoggedIn"
+],
+[
+0,
+"",
+"algorithmMismatch"
+],
+[
+0,
+"",
+"keyUsageIncorrect"
+],
+[
+0,
+"",
+"keyBlobTypeIncorrect"
+],
+[
+0,
+"",
+"keyHeaderInconsistent"
+],
+[
+0,
+"",
+"unsupportedKeyFormat"
+],
+[
+0,
+"",
+"unsupportedKeySize"
+],
+[
+0,
+"",
+"invalidKeyUsageMask"
+],
+[
+0,
+"",
+"unsupportedKeyUsageMask"
+],
+[
+0,
+"",
+"invalidKeyAttributeMask"
+],
+[
+0,
+"",
+"unsupportedKeyAttributeMask"
+],
+[
+0,
+"",
+"invalidKeyLabel"
+],
+[
+0,
+"",
+"unsupportedKeyLabel"
+],
+[
+0,
+"",
+"invalidKeyFormat"
+],
+[
+0,
+"",
+"unsupportedVectorOfBuffers"
+],
+[
+0,
+"",
+"invalidInputVector"
+],
+[
+0,
+"",
+"invalidOutputVector"
+],
+[
+0,
+"",
+"invalidContext"
+],
+[
+0,
+"",
+"invalidAlgorithm"
+],
+[
+0,
+"",
+"invalidAttributeKey"
+],
+[
+0,
+"",
+"missingAttributeKey"
+],
+[
+0,
+"",
+"invalidAttributeInitVector"
+],
+[
+0,
+"",
+"missingAttributeInitVector"
+],
+[
+0,
+"",
+"invalidAttributeSalt"
+],
+[
+0,
+"",
+"missingAttributeSalt"
+],
+[
+0,
+"",
+"invalidAttributePadding"
+],
+[
+0,
+"",
+"missingAttributePadding"
+],
+[
+0,
+"",
+"invalidAttributeRandom"
+],
+[
+0,
+"",
+"missingAttributeRandom"
+],
+[
+0,
+"",
+"invalidAttributeSeed"
+],
+[
+0,
+"",
+"missingAttributeSeed"
+],
+[
+0,
+"",
+"invalidAttributePassphrase"
+],
+[
+0,
+"",
+"missingAttributePassphrase"
+],
+[
+0,
+"",
+"invalidAttributeKeyLength"
+],
+[
+0,
+"",
+"missingAttributeKeyLength"
+],
+[
+0,
+"",
+"invalidAttributeBlockSize"
+],
+[
+0,
+"",
+"missingAttributeBlockSize"
+],
+[
+0,
+"",
+"invalidAttributeOutputSize"
+],
+[
+0,
+"",
+"missingAttributeOutputSize"
+],
+[
+0,
+"",
+"invalidAttributeRounds"
+],
+[
+0,
+"",
+"missingAttributeRounds"
+],
+[
+0,
+"",
+"invalidAlgorithmParms"
+],
+[
+0,
+"",
+"missingAlgorithmParms"
+],
+[
+0,
+"",
+"invalidAttributeLabel"
+],
+[
+0,
+"",
+"missingAttributeLabel"
+],
+[
+0,
+"",
+"invalidAttributeKeyType"
+],
+[
+0,
+"",
+"missingAttributeKeyType"
+],
+[
+0,
+"",
+"invalidAttributeMode"
+],
+[
+0,
+"",
+"missingAttributeMode"
+],
+[
+0,
+"",
+"invalidAttributeEffectiveBits"
+],
+[
+0,
+"",
+"missingAttributeEffectiveBits"
+],
+[
+0,
+"",
+"invalidAttributeStartDate"
+],
+[
+0,
+"",
+"missingAttributeStartDate"
+],
+[
+0,
+"",
+"invalidAttributeEndDate"
+],
+[
+0,
+"",
+"missingAttributeEndDate"
+],
+[
+0,
+"",
+"invalidAttributeVersion"
+],
+[
+0,
+"",
+"missingAttributeVersion"
+],
+[
+0,
+"",
+"invalidAttributePrime"
+],
+[
+0,
+"",
+"missingAttributePrime"
+],
+[
+0,
+"",
+"invalidAttributeBase"
+],
+[
+0,
+"",
+"missingAttributeBase"
+],
+[
+0,
+"",
+"invalidAttributeSubprime"
+],
+[
+0,
+"",
+"missingAttributeSubprime"
+],
+[
+0,
+"",
+"invalidAttributeIterationCount"
+],
+[
+0,
+"",
+"missingAttributeIterationCount"
+],
+[
+0,
+"",
+"invalidAttributeDLDBHandle"
+],
+[
+0,
+"",
+"missingAttributeDLDBHandle"
+],
+[
+0,
+"",
+"invalidAttributeAccessCredentials"
+],
+[
+0,
+"",
+"missingAttributeAccessCredentials"
+],
+[
+0,
+"",
+"invalidAttributePublicKeyFormat"
+],
+[
+0,
+"",
+"missingAttributePublicKeyFormat"
+],
+[
+0,
+"",
+"invalidAttributePrivateKeyFormat"
+],
+[
+0,
+"",
+"missingAttributePrivateKeyFormat"
+],
+[
+0,
+"",
+"invalidAttributeSymmetricKeyFormat"
+],
+[
+0,
+"",
+"missingAttributeSymmetricKeyFormat"
+],
+[
+0,
+"",
+"invalidAttributeWrappedKeyFormat"
+],
+[
+0,
+"",
+"missingAttributeWrappedKeyFormat"
+],
+[
+0,
+"",
+"stagedOperationInProgress"
+],
+[
+0,
+"",
+"stagedOperationNotStarted"
+],
+[
+0,
+"",
+"verifyFailed"
+],
+[
+0,
+"",
+"querySizeUnknown"
+],
+[
+0,
+"",
+"blockSizeMismatch"
+],
+[
+0,
+"",
+"publicKeyInconsistent"
+],
+[
+0,
+"",
+"deviceVerifyFailed"
+],
+[
+0,
+"",
+"invalidLoginName"
+],
+[
+0,
+"",
+"alreadyLoggedIn"
+],
+[
+0,
+"",
+"invalidDigestAlgorithm"
+],
+[
+0,
+"",
+"invalidCRLGroup"
+],
+[
+0,
+"",
+"certificateCannotOperate"
+],
+[
+0,
+"",
+"certificateExpired"
+],
+[
+0,
+"",
+"certificateNotValidYet"
+],
+[
+0,
+"",
+"certificateRevoked"
+],
+[
+0,
+"",
+"certificateSuspended"
+],
+[
+0,
+"",
+"insufficientCredentials"
+],
+[
+0,
+"",
+"invalidAction"
+],
+[
+0,
+"",
+"invalidAuthority"
+],
+[
+0,
+"",
+"verifyActionFailed"
+],
+[
+0,
+"",
+"invalidCertAuthority"
+],
+[
+0,
+"",
+"invaldCRLAuthority"
+],
+[
+0,
+"",
+"invalidCRLEncoding"
+],
+[
+0,
+"",
+"invalidCRLType"
+],
+[
+0,
+"",
+"invalidCRL"
+],
+[
+0,
+"",
+"invalidFormType"
+],
+[
+0,
+"",
+"invalidID"
+],
+[
+0,
+"",
+"invalidIdentifier"
+],
+[
+0,
+"",
+"invalidIndex"
+],
+[
+0,
+"",
+"invalidPolicyIdentifiers"
+],
+[
+0,
+"",
+"invalidTimeString"
+],
+[
+0,
+"",
+"invalidReason"
+],
+[
+0,
+"",
+"invalidRequestInputs"
+],
+[
+0,
+"",
+"invalidResponseVector"
+],
+[
+0,
+"",
+"invalidStopOnPolicy"
+],
+[
+0,
+"",
+"invalidTuple"
+],
+[
+0,
+"",
+"multipleValuesUnsupported"
+],
+[
+0,
+"",
+"notTrusted"
+],
+[
+0,
+"",
+"noDefaultAuthority"
+],
+[
+0,
+"",
+"rejectedForm"
+],
+[
+0,
+"",
+"requestLost"
+],
+[
+0,
+"",
+"requestRejected"
+],
+[
+0,
+"",
+"unsupportedAddressType"
+],
+[
+0,
+"",
+"unsupportedService"
+],
+[
+0,
+"",
+"invalidTupleGroup"
+],
+[
+0,
+"",
+"invalidBaseACLs"
+],
+[
+0,
+"",
+"invalidTupleCredendtials"
+],
+[
+0,
+"",
+"invalidEncoding"
+],
+[
+0,
+"",
+"invalidValidityPeriod"
+],
+[
+0,
+"",
+"invalidRequestor"
+],
+[
+0,
+"",
+"requestDescriptor"
+],
+[
+0,
+"",
+"invalidBundleInfo"
+],
+[
+0,
+"",
+"invalidCRLIndex"
+],
+[
+0,
+"",
+"noFieldValues"
+],
+[
+0,
+"",
+"unsupportedFieldFormat"
+],
+[
+0,
+"",
+"unsupportedIndexInfo"
+],
+[
+0,
+"",
+"unsupportedLocality"
+],
+[
+0,
+"",
+"unsupportedNumAttributes"
+],
+[
+0,
+"",
+"unsupportedNumIndexes"
+],
+[
+0,
+"",
+"unsupportedNumRecordTypes"
+],
+[
+0,
+"",
+"fieldSpecifiedMultiple"
+],
+[
+0,
+"",
+"incompatibleFieldFormat"
+],
+[
+0,
+"",
+"invalidParsingModule"
+],
+[
+0,
+"",
+"databaseLocked"
+],
+[
+0,
+"",
+"datastoreIsOpen"
+],
+[
+0,
+"",
+"missingValue"
+],
+[
+0,
+"",
+"unsupportedQueryLimits"
+],
+[
+0,
+"",
+"unsupportedNumSelectionPreds"
+],
+[
+0,
+"",
+"unsupportedOperator"
+],
+[
+0,
+"",
+"invalidDBLocation"
+],
+[
+0,
+"",
+"invalidAccessRequest"
+],
+[
+0,
+"",
+"invalidIndexInfo"
+],
+[
+0,
+"",
+"invalidNewOwner"
+],
+[
+0,
+"",
+"invalidModifyMode"
+],
+[
+0,
+"",
+"missingRequiredExtension"
+],
+[
+0,
+"",
+"extendedKeyUsageNotCritical"
+],
+[
+0,
+"",
+"timestampMissing"
+],
+[
+0,
+"",
+"timestampInvalid"
+],
+[
+0,
+"",
+"timestampNotTrusted"
+],
+[
+0,
+"",
+"timestampServiceNotAvailable"
+],
+[
+0,
+"",
+"timestampBadAlg"
+],
+[
+0,
+"",
+"timestampBadRequest"
+],
+[
+0,
+"",
+"timestampBadDataFormat"
+],
+[
+0,
+"",
+"timestampTimeNotAvailable"
+],
+[
+0,
+"",
+"timestampUnacceptedPolicy"
+],
+[
+0,
+"",
+"timestampUnacceptedExtension"
+],
+[
+0,
+"",
+"timestampAddInfoNotAvailable"
+],
+[
+0,
+"",
+"timestampSystemFailure"
+],
+[
+0,
+"",
+"signingTimeMissing"
+],
+[
+0,
+"",
+"timestampRejection"
+],
+[
+0,
+"",
+"timestampWaiting"
+],
+[
+0,
+"",
+"timestampRevocationWarning"
+],
+[
+0,
+"",
+"timestampRevocationNotification"
+],
+[
+0,
+"",
+"unexpectedError"
+]
+]
+},
+{
+"off": 5477252,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM01>",
+"itemClass"
+],
+[
+2,
+"SS",
+"service"
+],
+[
+2,
+"SSSg",
+"accessGroup"
+],
+[
+2,
+"<SYM02>Sg",
+"server"
+],
+[
+2,
+"<SYM01>Sg",
+"protocolType"
+],
+[
+2,
+"<SYM01>",
+"authenticationType"
+],
+[
+2,
+"<SYM01>",
+"accessibility"
+],
+[
+2,
+"<SYM01>Sg",
+"authenticationPolicy"
+],
+[
+2,
+"Sb",
+"synchronizable"
+],
+[
+2,
+"SSSg",
+"label"
+],
+[
+2,
+"SSSg",
+"comment"
+],
+[
+2,
+"SSSg",
+"authenticationPrompt"
+],
+[
+2,
+"<SYM01>Sg",
+"authenticationUI"
+],
+[
+2,
+"yXlSg",
+"authenticationContext"
+],
+[
+2,
+"SDySSypG",
+"attributes"
+]
+]
+},
+{
+"off": 5477448,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477464,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"_os_unfair_lock_opaque"
+]
+]
+},
+{
+"off": 5477492,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So8NSStringC",
+"_rawValue"
+]
+]
+},
+{
+"off": 5477520,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"yp",
+"value"
+]
+]
+},
+{
+"off": 5477548,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477564,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477580,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477596,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477612,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477628,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477644,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477660,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477676,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477692,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477708,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477724,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477740,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477756,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477772,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477788,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477804,
+"kind": 4,
+"name": "$s8DefaultsAAO12SerializableP",
+"super": "",
+"fields": []
+},
+{
+"off": 5477820,
+"kind": 4,
+"name": "$s8DefaultsAAO6BridgeP",
+"super": "",
+"fields": []
+},
+{
+"off": 5477836,
+"kind": 4,
+"name": "$s8DefaultsAAO22PreferRawRepresentableP",
+"super": "",
+"fields": []
+},
+{
+"off": 5477852,
+"kind": 5,
+"name": "$s8DefaultsAAO20PreferNSSecureCodingP",
+"super": "So8NSObjectC",
+"fields": []
+},
+{
+"off": 5477868,
+"kind": 4,
+"name": "$s8DefaultsAAO22CollectionSerializableP",
+"super": "",
+"fields": []
+},
+{
+"off": 5477884,
+"kind": 4,
+"name": "$s8DefaultsAAO22SetAlgebraSerializableP",
+"super": "",
+"fields": []
+},
+{
+"off": 5477900,
+"kind": 4,
+"name": "$s8DefaultsAAO13CodableBridgeP",
+"super": "",
+"fields": []
+},
+{
+"off": 5477916,
+"kind": 4,
+"name": "$s8DefaultsAAO5RangeP",
+"super": "",
+"fields": []
+},
+{
+"off": 5477932,
+"kind": 4,
+"name": "$s8Defaults0A13KeyValueStoreP",
+"super": "",
+"fields": []
+},
+{
+"off": 5477948,
+"kind": 4,
+"name": "$s8Defaults0A12LockProtocolP",
+"super": "",
+"fields": []
+},
+{
+"off": 5477964,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5477980,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Shy<SYM02>G",
+"cancellables"
+],
+[
+0,
+"SS",
+"defaultsSyncKey"
+],
+[
+0,
+"<SYM02>_p",
+"remoteStorage"
+],
+[
+0,
+"<SYM02>",
+"backgroundQueue"
+],
+[
+2,
+"<SYM02>yShy<SYM02>GG",
+"_keys"
+],
+[
+2,
+"<SYM02>yShy<SYM02>GG",
+"_remoteSyncingKeys"
+],
+[
+2,
+"<SYM02>Sg",
+"$__lazy_storage_$_localKeysMonitor"
+]
+]
+},
+{
+"off": 5478080,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"local"
+],
+[
+0,
+"",
+"remote"
+]
+]
+},
+{
+"off": 5478120,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5478136,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"SS",
+"name"
+],
+[
+0,
+"So14NSUserDefaultsC",
+"suite"
+]
+]
+},
+{
+"off": 5478176,
+"kind": 1,
+"name": "<SYM01>",
+"super": "<SYM02>",
+"fields": [
+[
+0,
+"xyc",
+"defaultValueGetter"
+]
+]
+},
+{
+"off": 5478204,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"xSg",
+"subscriber"
+],
+[
+2,
+"<SYM02>Sg",
+"observation"
+],
+[
+0,
+"Shy<SYM02>G",
+"options"
+]
+]
+},
+{
+"off": 5478256,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"So14NSUserDefaultsC",
+"suite"
+],
+[
+0,
+"SS",
+"key"
+],
+[
+0,
+"Shy<SYM02>G",
+"options"
+]
+]
+},
+{
+"off": 5478308,
+"kind": 5,
+"name": "$s8Defaults01_A11ObservationP",
+"super": "",
+"fields": []
+},
+{
+"off": 5478324,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"",
+"initial"
+],
+[
+0,
+"",
+"prior"
+]
+]
+},
+{
+"off": 5478364,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"kind"
+],
+[
+0,
+"<SYM02>Sg",
+"indexes"
+],
+[
+0,
+"Sb",
+"isPrior"
+],
+[
+0,
+"x",
+"newValue"
+],
+[
+0,
+"x",
+"oldValue"
+]
+]
+},
+{
+"off": 5478440,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"So14NSUserDefaultsCSgXw",
+"suite"
+],
+[
+0,
+"SS",
+"key"
+]
+]
+},
+{
+"off": 5478480,
+"kind": 7,
+"name": "<SYM02>",
+"super": "So8NSObjectC",
+"fields": [
+[
+2,
+"So14NSUserDefaultsCSgXw",
+"suite"
+],
+[
+0,
+"SS",
+"name"
+],
+[
+0,
+"y<SYM01>_<SYM01>tc",
+"callback"
+],
+[
+2,
+"Sb",
+"isObserving"
+],
+[
+0,
+"<SYM02>",
+"lock"
+]
+]
+},
+{
+"off": 5478556,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>",
+"observation"
+],
+[
+2,
+"<SYM02>Sg",
+"lifetimeAssociation"
+]
+]
+},
+{
+"off": 5478596,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"Shy<SYM01>G",
+"observations"
+],
+[
+0,
+"y<SYM01>_<SYM01>tc",
+"callback"
+],
+[
+2,
+"<SYM02>Sg",
+"lifetimeAssociation"
+]
+]
+},
+{
+"off": 5478648,
+"kind": 0,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM01>",
+"kind"
+],
+[
+0,
+"<SYM02>Sg",
+"indexes"
+],
+[
+0,
+"Sb",
+"isPrior"
+],
+[
+0,
+"ypSg",
+"newValue"
+],
+[
+0,
+"ypSg",
+"oldValue"
+]
+]
+},
+{
+"off": 5478724,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>Sg",
+"cancellable"
+],
+[
+2,
+"ScTyyt<SYM02>GSg",
+"task"
+],
+[
+0,
+"<SYM02>y_xG",
+"key"
+],
+[
+0,
+"<SYM02>",
+"objectWillChange"
+]
+]
+},
+{
+"off": 5478788,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>y_xG",
+"key"
+],
+[
+2,
+"<SYM02>y<SYM01>y_xGG",
+"_observable"
+]
+]
+},
+{
+"off": 5478828,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM01>yySbcSgG",
+"_onChange"
+],
+[
+0,
+"xyc",
+"label"
+],
+[
+2,
+"<SYM02>y<SYM01>y_SbGG",
+"_observable"
+]
+]
+},
+{
+"off": 5478880,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"x",
+"value"
+]
+]
+},
+{
+"off": 5478908,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>y<SYM01>yx_GG",
+"_valueBox"
+]
+]
+},
+{
+"off": 5478936,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": []
+},
+{
+"off": 5478952,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM01>SgXw",
+"wrappedObject"
+],
+[
+2,
+"yXlSgXw",
+"owner"
+]
+]
+},
+{
+"off": 5478992,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+2,
+"yXlSg",
+"object"
+],
+[
+2,
+"yyc",
+"deinitHandler"
+]
+]
+},
+{
+"off": 5479032,
+"kind": 4,
+"name": "$s8Defaults01_A16OptionalProtocolP",
+"super": "",
+"fields": []
+},
+{
+"off": 5479048,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": []
+},
+{
+"off": 5479064,
+"kind": 1,
+"name": "<SYM01>",
+"super": "<SYM02>",
+"fields": [
+[
+0,
+"Spy<SYM02>G",
+"_lock"
+]
+]
+},
+{
+"off": 5479092,
+"kind": 1,
+"name": "<SYM01>",
+"super": "<SYM02>",
+"fields": [
+[
+0,
+"<SYM02>yytG",
+"_lock"
+]
+]
+},
+{
+"off": 5479120,
+"kind": 1,
+"name": "<SYM02>",
+"super": "",
+"fields": [
+[
+2,
+"<SYM02>yyyYaYbc_GSg",
+"queueContinuation"
+],
+[
+0,
+"<SYM02>",
+"lock"
+]
+]
+},
+{
+"off": 5479160,
+"kind": 1,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"lock"
+],
+[
+2,
+"x",
+"_value"
+]
+]
+},
+{
+"off": 5479200,
+"kind": 0,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>",
+"animation"
+],
+[
+0,
+"<SYM02>",
+"gradient"
+],
+[
+0,
+"<SYM02>",
+"min"
+],
+[
+0,
+"<SYM02>",
+"max"
+],
+[
+0,
+"<SYM01>",
+"mode"
+],
+[
+2,
+"<SYM02>ySbG",
+"__isInitialState"
+],
+[
+2,
+"<SYM02>y<SYM02>G",
+"_layoutDirection"
+]
+]
+},
+{
+"off": 5479300,
+"kind": 2,
+"name": "<SYM01>",
+"super": "",
+"fields": [
+[
+0,
+"<SYM02>9blendMode_t",
+"overlay"
+],
+[
+0,
+"",
+"mask"
+],
+[
+0,
+"",
+"background"
+]
+]
+}
+]

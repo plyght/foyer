@@ -1,0 +1,533 @@
+  ; CALL XREF from sym.func.100267564 @ 0x10026769c(x)
+1128: sym.func.1002670fc (double arg1, double arg2, double arg3, double arg4, double arg5, double arg6);
+`- args(x21, d0, d1, d2, d3, d4, d5) vars(54:sp[0x8..0x2e0])
+0x1002670fc      stp d15, d14, [var_sp_a0h]!
+0x100267100      stp d13, d12, [var_10h]
+0x100267104      stp d11, d10, [var_20h]
+0x100267108      stp d9, d8, [var_30h]
+0x10026710c      stp x28, x27, [var_40h]
+0x100267110      stp x26, x25, [var_50h]
+0x100267114      stp x24, x23, [var_60h]
+0x100267118      stp x22, x21, [var_70h]
+0x10026711c      stp x20, x19, [var_80h]
+0x100267120      stp x29, x30, [var_90h]
+0x100267124      add x29, sp, 0x90
+0x100267128      sub sp, sp, 0x240
+0x10026712c      mov x19, sp
+0x100267130      mov v13.16b, v5.16b                                   ; arg6
+0x100267134      mov v12.16b, v4.16b                                   ; arg5
+0x100267138      mov v9.16b, v3.16b                                    ; arg4
+0x10026713c      mov v10.16b, v2.16b                                   ; arg3
+0x100267140      mov v11.16b, v1.16b                                   ; arg2
+0x100267144      mov v15.16b, v0.16b                                   ; arg1
+0x100267148      mov x21, x8                                           ; error
+0x10026714c      mov x0, 0
+0x100267150      bl sym.imp.SwiftUI.RoundedCornerStyle..metadata.accessor_...a_ ; SwiftUI.RoundedCornerStyle..metadata.accessor(...a)
+0x100267154      mov x22, x0
+0x100267158      ldur x26, [x0, -8]
+0x10026715c      ldr x8, [x26, 0x40]
+0x100267160      mov x9, x8
+0x100267164      adrp x16, reloc.Foundation.IndexSet...VMn             ; 0x1005b2000
+0x100267168      ldr x16, [x16, 0x568]                                 ; [0x1005b2568:8]=0
+                                                                       ; reloc.__chkstk_darwin
+0x10026716c      blr x16
+0x100267170      mov x9, sp
+0x100267174      add x8, x8, 0xf
+0x100267178      and x8, x8, 0xfffffffffffffff0
+0x10026717c      sub x23, x9, x8
+0x100267180      mov sp, x23
+0x100267184      mov v0.16b, v15.16b
+0x100267188      mov v1.16b, v11.16b
+0x10026718c      mov v2.16b, v10.16b
+0x100267190      mov v3.16b, v9.16b
+0x100267194      bl sym.imp.CGRectGetWidth
+0x100267198      fmov d1, 0.50000000
+0x10026719c      fmul d8, d0, d1
+0x1002671a0      mov v0.16b, v15.16b
+0x1002671a4      mov v1.16b, v11.16b
+0x1002671a8      mov v2.16b, v10.16b
+0x1002671ac      mov v3.16b, v9.16b
+0x1002671b0      bl sym.imp.CGRectGetHeight
+0x1002671b4      fcmp d8, d13
+0x1002671b8      fcsel d1, d8, d13, mi
+0x1002671bc      fcmp d0, d1
+0x1002671c0      fcsel d14, d0, d1, mi
+0x1002671c4      mov v0.16b, v15.16b
+0x1002671c8      mov v1.16b, v11.16b
+0x1002671cc      mov v2.16b, v10.16b
+0x1002671d0      mov v3.16b, v9.16b
+0x1002671d4      bl sym.imp.CGRectGetHeight
+0x1002671d8      fsub d0, d0, d14
+0x1002671dc      fmov d1, 24.00000000
+0x1002671e0      fcmp d0, d1
+0x1002671e4      fcsel d2, d1, d0, gt
+0x1002671e8      fcmp d12, d1
+0x1002671ec      fcsel d3, d1, d12, gt
+0x1002671f0      fcmp d0, d12
+0x1002671f4      fcsel d2, d2, d3, mi
+0x1002671f8      movi v3.2d, 0000000000000000
+0x1002671fc      fcmp d12, d1
+0x100267200      fcsel d1, d1, d12, gt
+0x100267204      fcmp d12, 0.0
+0x100267208      fcsel d1, d3, d1, gt
+0x10026720c      fcmp d0, 0.0
+0x100267210      fcsel d0, d2, d1, hi
+0x100267214      str d0, [x19, 8]
+0x100267218      fadd d12, d0, d0
+0x10026721c      add x8, x19, 0xd0
+0x100267220      bl sym.imp.SwiftUI.Path...VACycfC
+0x100267224      movi v0.2d, 0000000000000000
+0x100267228      movi v1.2d, 0000000000000000
+0x10026722c      mov v2.16b, v14.16b
+0x100267230      mov v3.16b, v14.16b
+0x100267234      bl sym.imp.SwiftUI.RectangleCornerRadii.topLeft...t0F5Right06bottomH00iG0AC12CoreGraphics7CGFloatV_A3JtcfC
+0x100267238      mov v14.16b, v0.16b
+0x10026723c      mov v8.16b, v1.16b
+0x100267240      mov v13.16b, v2.16b
+0x100267244      str d3, [x19]
+0x100267248      adrp x8, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+0x10026724c      ldr x8, [x8]                                          ; [0x1005b4000:8]=0
+                                                                       ; reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_
+0x100267250      ldr w24, [x8]
+0x100267254      ldr x25, [x26, 0x68]
+0x100267258      mov x0, x23
+0x10026725c      mov x1, x24
+0x100267260      mov x2, x22
+0x100267264      blr x25
+0x100267268      mov x8, 0x3ff0000000000000
+0x10026726c      stp x8, xzr, [x19, 0x150]
+0x100267270      stp xzr, x8, [x19, 0x160]
+0x100267274      stp xzr, xzr, [x19, 0x170]
+0x100267278      add x1, x19, 0x150
+0x10026727c      add x20, x19, 0xd0
+0x100267280      stp d15, d9, [x19, 0x10]
+0x100267284      mov v0.16b, v15.16b
+0x100267288      stp d11, d10, [x19, 0x20]
+0x10026728c      mov v1.16b, v11.16b
+0x100267290      mov v2.16b, v10.16b
+0x100267294      mov v3.16b, v9.16b
+0x100267298      mov v4.16b, v14.16b
+0x10026729c      mov v5.16b, v8.16b
+0x1002672a0      mov v6.16b, v13.16b
+0x1002672a4      mov x0, x23
+0x1002672a8      ldr d7, [x19]
+0x1002672ac      bl sym.imp.SwiftUI.Path.addRoundedRect.in.cornerRadii.style.transform.CGRect.RectangleCorner...I0VAA0eN5StyleOSo17CGAffineTransformVtF
+0x1002672b0      ldr x26, [x26, 8]
+0x1002672b4      mov x0, x23
+0x1002672b8      mov x1, x22
+0x1002672bc      blr x26
+0x1002672c0      mov v0.16b, v15.16b
+0x1002672c4      mov v1.16b, v11.16b
+0x1002672c8      mov v2.16b, v10.16b
+0x1002672cc      mov v3.16b, v9.16b
+0x1002672d0      bl sym.imp.CGRectGetMinX
+0x1002672d4      fsub d8, d0, d12
+0x1002672d8      mov v0.16b, v15.16b
+0x1002672dc      mov v1.16b, v11.16b
+0x1002672e0      mov v2.16b, v10.16b
+0x1002672e4      mov v3.16b, v9.16b
+0x1002672e8      bl sym.imp.CGRectGetMinY
+0x1002672ec      mov v13.16b, v0.16b
+0x1002672f0      add x8, x19, 0xa8
+0x1002672f4      bl sym.imp.SwiftUI.Path...VACycfC
+0x1002672f8      add x0, x19, 0x150
+0x1002672fc      add x20, x19, 0xa8
+0x100267300      mov v0.16b, v8.16b
+0x100267304      mov v1.16b, v13.16b
+0x100267308      mov v2.16b, v12.16b
+0x10026730c      mov v3.16b, v12.16b
+0x100267310      bl sym.imp.SwiftUI.Path.addRect.transform.CGRect.CGAffineTransform...VtF
+0x100267314      add x8, x19, 0x80
+0x100267318      bl sym.imp.SwiftUI.Path...VACycfC
+0x10026731c      movi v0.2d, 0000000000000000
+0x100267320      movi v2.2d, 0000000000000000
+0x100267324      movi v3.2d, 0000000000000000
+0x100267328      ldr d11, [x19, 8]
+0x10026732c      mov v1.16b, v11.16b
+0x100267330      bl sym.imp.SwiftUI.RectangleCornerRadii.topLeft...t0F5Right06bottomH00iG0AC12CoreGraphics7CGFloatV_A3JtcfC
+0x100267334      mov v14.16b, v0.16b
+0x100267338      mov v15.16b, v1.16b
+0x10026733c      mov v9.16b, v2.16b
+0x100267340      mov v10.16b, v3.16b
+0x100267344      mov x0, x23
+0x100267348      mov x1, x24
+0x10026734c      mov x2, x22
+0x100267350      blr x25
+0x100267354      add x1, x19, 0x150
+0x100267358      add x20, x19, 0x80
+0x10026735c      mov v0.16b, v8.16b
+0x100267360      mov v1.16b, v13.16b
+0x100267364      mov v2.16b, v12.16b
+0x100267368      mov v3.16b, v12.16b
+0x10026736c      mov v4.16b, v14.16b
+0x100267370      mov v5.16b, v15.16b
+0x100267374      mov v6.16b, v9.16b
+0x100267378      mov x0, x23
+0x10026737c      mov v7.16b, v10.16b
+0x100267380      bl sym.imp.SwiftUI.Path.addRoundedRect.in.cornerRadii.style.transform.CGRect.RectangleCorner...I0VAA0eN5StyleOSo17CGAffineTransformVtF
+0x100267384      mov x0, x23
+0x100267388      mov x1, x22
+0x10026738c      blr x26
+0x100267390      ldur q0, [x19, 0xa8]
+0x100267394      ldur q1, [x19, 0xb8]
+0x100267398      stp q0, q1, [var_c0h]
+0x10026739c      ldrb w8, [x19, 0xc8]
+0x1002673a0      sturb w8, [var_a0h]
+0x1002673a4      ldp q0, q1, [x19, 0x80]
+0x1002673a8      stp q0, q1, [var_f0h]
+0x1002673ac      ldrb w8, [x19, 0xa0]
+0x1002673b0      sturb w8, [var_d0h]
+0x1002673b4      add x8, x19, 0x100
+0x1002673b8      sub x0, x29, 0xf0
+0x1002673bc      sub x20, x29, 0xc0
+0x1002673c0      mov w1, 0
+0x1002673c4      bl sym.imp.SwiftUI.Path.subtracting.eoFill.C__...tF_  ; SwiftUI.Path.subtracting.eoFill.C_(...tF)
+0x1002673c8      add x0, x19, 0x100
+0x1002673cc      add x1, x19, 0x150
+0x1002673d0      add x20, x19, 0xd0
+0x1002673d4      bl sym.imp.SwiftUI.Path.add...C0_9transformyAC_So17CGAffineTransformVtF
+0x1002673d8      add x0, x19, 0x100                                    ; int64_t arg1
+0x1002673dc      bl sym.func.1001d17bc
+0x1002673e0      ldp d14, d9, [x19, 0x10]
+0x1002673e4      mov v0.16b, v14.16b
+0x1002673e8      ldp d13, d10, [x19, 0x20]
+0x1002673ec      mov v1.16b, v13.16b
+0x1002673f0      mov v2.16b, v10.16b
+0x1002673f4      mov v3.16b, v9.16b
+0x1002673f8      bl sym.imp.CGRectGetMaxX
+0x1002673fc      mov v8.16b, v0.16b
+0x100267400      mov v0.16b, v14.16b
+0x100267404      mov v1.16b, v13.16b
+0x100267408      mov v2.16b, v10.16b
+0x10026740c      mov v3.16b, v9.16b
+0x100267410      bl sym.imp.CGRectGetMinY
+0x100267414      mov v9.16b, v0.16b
+0x100267418      add x8, x19, 0x58
+0x10026741c      bl sym.imp.SwiftUI.Path...VACycfC
+0x100267420      add x0, x19, 0x150
+0x100267424      add x20, x19, 0x58
+0x100267428      mov v0.16b, v8.16b
+0x10026742c      mov v1.16b, v9.16b
+0x100267430      mov v2.16b, v12.16b
+0x100267434      mov v3.16b, v12.16b
+0x100267438      bl sym.imp.SwiftUI.Path.addRect.transform.CGRect.CGAffineTransform...VtF
+0x10026743c      add x8, x19, 0x30
+0x100267440      bl sym.imp.SwiftUI.Path...VACycfC
+0x100267444      movi v1.2d, 0000000000000000
+0x100267448      movi v2.2d, 0000000000000000
+0x10026744c      movi v3.2d, 0000000000000000
+0x100267450      mov v0.16b, v11.16b
+0x100267454      bl sym.imp.SwiftUI.RectangleCornerRadii.topLeft...t0F5Right06bottomH00iG0AC12CoreGraphics7CGFloatV_A3JtcfC
+0x100267458      mov v10.16b, v0.16b
+0x10026745c      mov v11.16b, v1.16b
+0x100267460      mov v13.16b, v2.16b
+0x100267464      mov v14.16b, v3.16b
+0x100267468      mov x0, x23
+0x10026746c      mov x1, x24
+0x100267470      mov x2, x22
+0x100267474      blr x25
+0x100267478      add x1, x19, 0x150
+0x10026747c      add x20, x19, 0x30
+0x100267480      mov v0.16b, v8.16b
+0x100267484      mov v1.16b, v9.16b
+0x100267488      mov v2.16b, v12.16b
+0x10026748c      mov v3.16b, v12.16b
+0x100267490      mov v4.16b, v10.16b
+0x100267494      mov v5.16b, v11.16b
+0x100267498      mov v6.16b, v13.16b
+0x10026749c      mov x0, x23
+0x1002674a0      mov v7.16b, v14.16b
+0x1002674a4      bl sym.imp.SwiftUI.Path.addRoundedRect.in.cornerRadii.style.transform.CGRect.RectangleCorner...I0VAA0eN5StyleOSo17CGAffineTransformVtF
+0x1002674a8      mov x0, x23
+0x1002674ac      mov x1, x22
+0x1002674b0      blr x26
+0x1002674b4      ldur q0, [x19, 0x58]
+0x1002674b8      ldur q1, [x19, 0x68]
+0x1002674bc      stp q0, q1, [x19, 0x1b0]
+0x1002674c0      ldrb w8, [x19, 0x78]
+0x1002674c4      strb w8, [x19, 0x1d0]
+0x1002674c8      ldp q0, q1, [x19, 0x30]
+0x1002674cc      stp q0, q1, [x19, 0x180]
+0x1002674d0      ldrb w8, [x19, 0x50]
+0x1002674d4      strb w8, [x19, 0x1a0]
+0x1002674d8      add x8, x19, 0x128
+0x1002674dc      add x0, x19, 0x180
+0x1002674e0      add x20, x19, 0x1b0
+0x1002674e4      mov w1, 0
+0x1002674e8      bl sym.imp.SwiftUI.Path.subtracting.eoFill.C__...tF_  ; SwiftUI.Path.subtracting.eoFill.C_(...tF)
+0x1002674ec      add x0, x19, 0x128
+0x1002674f0      add x1, x19, 0x150
+0x1002674f4      add x20, x19, 0xd0
+0x1002674f8      bl sym.imp.SwiftUI.Path.add...C0_9transformyAC_So17CGAffineTransformVtF
+0x1002674fc      add x0, x19, 0x128                                    ; int64_t arg1
+0x100267500      bl sym.func.1001d17bc
+0x100267504      add x0, x19, 0x180                                    ; int64_t arg1
+0x100267508      bl sym.func.1001d17bc
+0x10026750c      add x0, x19, 0x1b0                                    ; int64_t arg1
+0x100267510      bl sym.func.1001d17bc
+0x100267514      sub x0, x29, 0xf0                                     ; int64_t arg1
+0x100267518      bl sym.func.1001d17bc
+0x10026751c      sub x0, x29, 0xc0                                     ; int64_t arg1
+0x100267520      bl sym.func.1001d17bc
+0x100267524      ldrb w8, [x19, 0xf0]
+0x100267528      ldp q0, q1, [x19, 0xd0]
+0x10026752c      stp q0, q1, [x21]
+0x100267530      strb w8, [x21, 0x20]
+0x100267534      sub sp, x29, 0x90
+0x100267538      ldp x29, x30, [var_90h]
+0x10026753c      ldp x20, x19, [var_80h]
+0x100267540      ldp x22, x21, [var_70h]
+0x100267544      ldp x24, x23, [var_60h]
+0x100267548      ldp x26, x25, [var_50h]
+0x10026754c      ldp x28, x27, [var_40h]
+0x100267550      ldp d9, d8, [var_30h]
+0x100267554      ldp d11, d10, [var_20h]
+0x100267558      ldp d13, d12, [var_10h]
+0x10026755c      ldp d15, d14, [sp], 0xa0
+0x100267560      ret
+368: sym.func.100267564 (double arg1, double arg2, double arg3, double arg4);
+`- args(x21, x20, d0, d1, d2, d3) vars(20:sp[0x8..0xd0])
+0x100267564      stp d13, d12, [var_sp_70h]!
+0x100267568      stp d11, d10, [var_10h]
+0x10026756c      stp d9, d8, [var_20h]
+0x100267570      stp x24, x23, [var_30h]
+0x100267574      stp x22, x21, [var_40h]
+0x100267578      stp x20, x19, [var_50h]
+0x10026757c      stp x29, x30, [var_60h]
+0x100267580      add x29, sp, 0x60
+0x100267584      sub sp, sp, 0x60
+0x100267588      mov v8.16b, v3.16b                                    ; arg4
+0x10026758c      mov v9.16b, v2.16b                                    ; arg3
+0x100267590      mov v10.16b, v1.16b                                   ; arg2
+0x100267594      mov v11.16b, v0.16b                                   ; arg1
+0x100267598      mov x19, x8
+0x10026759c      mov x0, 0
+0x1002675a0      bl sym.imp.SwiftUI.RoundedCornerStyle..metadata.accessor_...a_ ; SwiftUI.RoundedCornerStyle..metadata.accessor(...a)
+0x1002675a4      mov x21, x0                                           ; error
+0x1002675a8      ldur x23, [x0, -8]
+0x1002675ac      ldr x8, [x23, 0x40]
+0x1002675b0      mov x9, x8
+0x1002675b4      adrp x16, reloc.Foundation.IndexSet...VMn             ; 0x1005b2000
+0x1002675b8      ldr x16, [x16, 0x568]                                 ; [0x1005b2568:8]=0
+                                                                       ; reloc.__chkstk_darwin
+0x1002675bc      blr x16
+0x1002675c0      mov x9, sp
+0x1002675c4      add x8, x8, 0xf
+0x1002675c8      and x8, x8, 0xfffffffffffffff0
+0x1002675cc      sub x22, x9, x8
+0x1002675d0      mov sp, x22
+0x1002675d4      ldrb w0, [x20]                                        ; self
+0x1002675d8      ldr d12, [x20, 0x10]                                  ; self
+0x1002675dc      cmp w0, 1
+0x1002675e0      b.ne 0x100267680
+0x1002675e4      sub x8, x29, 0xc0
+0x1002675e8      bl sym.imp.SwiftUI.Path...VACycfC
+0x1002675ec      mov v0.16b, v11.16b
+0x1002675f0      mov v1.16b, v10.16b
+0x1002675f4      mov v2.16b, v9.16b
+0x1002675f8      mov v3.16b, v8.16b
+0x1002675fc      bl sym.imp.CGRectGetHeight
+0x100267600      fmov d1, 0.50000000
+0x100267604      fmul d0, d0, d1
+0x100267608      fcmp d0, d12
+0x10026760c      fcsel d12, d0, d12, mi
+0x100267610      adrp x8, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+0x100267614      ldr x8, [x8]                                          ; [0x1005b4000:8]=0
+                                                                       ; reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_
+0x100267618      ldr w1, [x8]
+0x10026761c      ldr x8, [x23, 0x68]
+0x100267620      mov x0, x22
+0x100267624      mov x2, x21
+0x100267628      blr x8
+0x10026762c      mov x8, 0x3ff0000000000000
+0x100267630      stp x8, xzr, [var_90h]
+0x100267634      stp xzr, x8, [var_80h]
+0x100267638      stp xzr, xzr, [var_70h]
+0x10026763c      sub x1, x29, 0x90
+0x100267640      sub x20, x29, 0xc0
+0x100267644      mov v0.16b, v11.16b
+0x100267648      mov v1.16b, v10.16b
+0x10026764c      mov v2.16b, v9.16b
+0x100267650      mov v3.16b, v8.16b
+0x100267654      mov v4.16b, v12.16b
+0x100267658      mov x0, x22
+0x10026765c      mov v5.16b, v12.16b
+0x100267660      bl sym.imp.SwiftUI.Path.addRoundedRect.in.cornerSize.style.transform.CGRect.CGSize...A0E11CornerStyleOSo17CGAffineTransformVtF
+0x100267664      ldr x8, [x23, 8]
+0x100267668      mov x0, x22
+0x10026766c      mov x1, x21
+0x100267670      blr x8
+0x100267674      ldp q0, q1, [var_c0h]
+0x100267678      ldurb w8, [var_a0h]
+0x10026767c      b 0x1002676a8
+; CODE XREF from sym.func.100267564 @ 0x1002675e0(x)
+0x100267680      ldr d4, [x20, 8]                                      ; self
+0x100267684      sub x8, x29, 0x90
+0x100267688      mov v0.16b, v11.16b
+0x10026768c      mov v1.16b, v10.16b
+0x100267690      mov v2.16b, v9.16b
+0x100267694      mov v3.16b, v8.16b
+0x100267698      mov v5.16b, v12.16b
+0x10026769c      bl sym.func.1002670fc
+0x1002676a0      ldp q0, q1, [var_90h]
+0x1002676a4      ldurb w8, [var_70h]
+; CODE XREF from sym.func.100267564 @ 0x10026767c(x)
+0x1002676a8      stp q0, q1, [x19]
+0x1002676ac      strb w8, [x19, 0x20]
+0x1002676b0      sub sp, x29, 0x60
+0x1002676b4      ldp x29, x30, [var_60h]
+0x1002676b8      ldp x20, x19, [var_50h]
+0x1002676bc      ldp x22, x21, [var_40h]
+0x1002676c0      ldp x24, x23, [var_30h]
+0x1002676c4      ldp d9, d8, [var_20h]
+0x1002676c8      ldp d11, d10, [var_10h]
+0x1002676cc      ldp d13, d12, [sp], 0x70
+0x1002676d0      ret
+  ; CALL XREFS from sym.func.1001d118c @ 0x1001d126c(x), 0x1001d12a8(x)
+560: sym.func.1001d1368 (int64_t arg1, double arg2, double arg3, double arg4, double arg5, double arg6);
+`- args(x21, x0, d0, d1, d2, d3, d4) vars(21:sp[0x8..0xe0])
+0x1001d1368      stp d15, d14, [var_sp_80h]!
+0x1001d136c      stp d13, d12, [var_10h]
+0x1001d1370      stp d11, d10, [var_20h]
+0x1001d1374      stp d9, d8, [var_30h]
+0x1001d1378      stp x24, x23, [var_40h]
+0x1001d137c      stp x22, x21, [var_50h]
+0x1001d1380      stp x20, x19, [var_60h]
+0x1001d1384      stp x29, x30, [var_10h]
+0x1001d1388      add x29, sp, 0x70
+0x1001d138c      sub sp, sp, 0x60
+0x1001d1390      mov v12.16b, v4.16b                                   ; arg6
+0x1001d1394      mov v8.16b, v3.16b                                    ; arg5
+0x1001d1398      mov v9.16b, v2.16b                                    ; arg4
+0x1001d139c      mov v10.16b, v1.16b                                   ; arg3
+0x1001d13a0      mov v11.16b, v0.16b                                   ; arg2
+0x1001d13a4      mov x19, x8
+0x1001d13a8      and w20, w0, 0xff                                     ; arg1
+0x1001d13ac      mov x0, 0
+0x1001d13b0      bl sym.imp.SwiftUI.RoundedCornerStyle..metadata.accessor_...a_ ; SwiftUI.RoundedCornerStyle..metadata.accessor(...a)
+0x1001d13b4      mov x21, x0                                           ; error
+0x1001d13b8      ldur x23, [x0, -8]
+0x1001d13bc      ldr x8, [x23, 0x40]
+0x1001d13c0      mov x9, x8
+0x1001d13c4      adrp x16, reloc.Foundation.IndexSet...VMn             ; 0x1005b2000
+0x1001d13c8      ldr x16, [x16, 0x568]                                 ; [0x1005b2568:8]=0
+                                                                       ; reloc.__chkstk_darwin
+0x1001d13cc      blr x16
+0x1001d13d0      mov x9, sp
+0x1001d13d4      add x8, x8, 0xf
+0x1001d13d8      and x8, x8, 0xfffffffffffffff0
+0x1001d13dc      sub x22, x9, x8
+0x1001d13e0      mov sp, x22
+0x1001d13e4      sub x8, x29, 0xd0
+0x1001d13e8      cmp w20, 1
+0x1001d13ec      b.ne 0x1001d1490
+0x1001d13f0      bl sym.imp.SwiftUI.Path...VACycfC
+0x1001d13f4      mov v0.16b, v11.16b
+0x1001d13f8      mov v1.16b, v10.16b
+0x1001d13fc      mov v2.16b, v9.16b
+0x1001d1400      mov v3.16b, v8.16b
+0x1001d1404      bl sym.imp.CGRectGetWidth
+0x1001d1408      fmov d13, 0.50000000
+0x1001d140c      fmul d14, d0, d13
+0x1001d1410      mov v0.16b, v11.16b
+0x1001d1414      mov v1.16b, v10.16b
+0x1001d1418      mov v2.16b, v9.16b
+0x1001d141c      mov v3.16b, v8.16b
+0x1001d1420      bl sym.imp.CGRectGetHeight
+0x1001d1424      fcmp d14, d12
+0x1001d1428      fcsel d1, d14, d12, mi
+0x1001d142c      fmul d0, d0, d13
+0x1001d1430      fcmp d0, d1
+0x1001d1434      fcsel d12, d0, d1, mi
+0x1001d1438      adrp x8, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+0x1001d143c      ldr x8, [x8]                                          ; [0x1005b4000:8]=0
+                                                                       ; reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_
+0x1001d1440      ldr w1, [x8]
+0x1001d1444      ldr x8, [x23, 0x68]
+0x1001d1448      mov x0, x22
+0x1001d144c      mov x2, x21
+0x1001d1450      blr x8
+0x1001d1454      mov x8, 0x3ff0000000000000
+0x1001d1458      stp x8, xzr, [var_a0h]
+0x1001d145c      stp xzr, x8, [var_90h]
+0x1001d1460      stp xzr, xzr, [var_80h]
+0x1001d1464      sub x1, x29, 0xa0
+0x1001d1468      sub x20, x29, 0xd0
+0x1001d146c      mov v0.16b, v11.16b
+0x1001d1470      mov v1.16b, v10.16b
+0x1001d1474      mov v2.16b, v9.16b
+0x1001d1478      mov v3.16b, v8.16b
+0x1001d147c      mov v4.16b, v12.16b
+0x1001d1480      mov x0, x22
+0x1001d1484      mov v5.16b, v12.16b
+0x1001d1488      bl sym.imp.SwiftUI.Path.addRoundedRect.in.cornerSize.style.transform.CGRect.CGSize...A0E11CornerStyleOSo17CGAffineTransformVtF
+0x1001d148c      b 0x1001d1550
+; CODE XREF from sym.func.1001d1368 @ 0x1001d13ec(x)
+0x1001d1490      bl sym.imp.SwiftUI.Path...VACycfC
+0x1001d1494      mov v0.16b, v11.16b
+0x1001d1498      mov v1.16b, v10.16b
+0x1001d149c      mov v2.16b, v9.16b
+0x1001d14a0      mov v3.16b, v8.16b
+0x1001d14a4      bl sym.imp.CGRectGetWidth
+0x1001d14a8      fmov d1, 0.50000000
+0x1001d14ac      fmul d13, d0, d1
+0x1001d14b0      mov v0.16b, v11.16b
+0x1001d14b4      mov v1.16b, v10.16b
+0x1001d14b8      mov v2.16b, v9.16b
+0x1001d14bc      mov v3.16b, v8.16b
+0x1001d14c0      bl sym.imp.CGRectGetHeight
+0x1001d14c4      fcmp d13, d12
+0x1001d14c8      fcsel d1, d13, d12, mi
+0x1001d14cc      fcmp d0, d1
+0x1001d14d0      fcsel d2, d0, d1, mi
+0x1001d14d4      movi v0.2d, 0000000000000000
+0x1001d14d8      movi v1.2d, 0000000000000000
+0x1001d14dc      mov v3.16b, v2.16b
+0x1001d14e0      bl sym.imp.SwiftUI.RectangleCornerRadii.topLeft...t0F5Right06bottomH00iG0AC12CoreGraphics7CGFloatV_A3JtcfC
+0x1001d14e4      mov v12.16b, v0.16b
+0x1001d14e8      mov v13.16b, v1.16b
+0x1001d14ec      mov v14.16b, v2.16b
+0x1001d14f0      mov v15.16b, v3.16b
+0x1001d14f4      adrp x8, reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_ ; 0x1005b4000
+0x1001d14f8      ldr x8, [x8]                                          ; [0x1005b4000:8]=0
+                                                                       ; reloc.SwiftUI.RoundedCornerStyle.continuous_...A2CmFWC_
+0x1001d14fc      ldr w1, [x8]
+0x1001d1500      ldr x8, [x23, 0x68]
+0x1001d1504      mov x0, x22
+0x1001d1508      mov x2, x21
+0x1001d150c      blr x8
+0x1001d1510      mov x8, 0x3ff0000000000000
+0x1001d1514      stp x8, xzr, [var_a0h]
+0x1001d1518      stp xzr, x8, [var_90h]
+0x1001d151c      stp xzr, xzr, [var_80h]
+0x1001d1520      sub x1, x29, 0xa0
+0x1001d1524      sub x20, x29, 0xd0
+0x1001d1528      mov v0.16b, v11.16b
+0x1001d152c      mov v1.16b, v10.16b
+0x1001d1530      mov v2.16b, v9.16b
+0x1001d1534      mov v3.16b, v8.16b
+0x1001d1538      mov v4.16b, v12.16b
+0x1001d153c      mov v5.16b, v13.16b
+0x1001d1540      mov v6.16b, v14.16b
+0x1001d1544      mov x0, x22
+0x1001d1548      mov v7.16b, v15.16b
+0x1001d154c      bl sym.imp.SwiftUI.Path.addRoundedRect.in.cornerRadii.style.transform.CGRect.RectangleCorner...I0VAA0eN5StyleOSo17CGAffineTransformVtF
+; CODE XREF from sym.func.1001d1368 @ 0x1001d148c(x)
+0x1001d1550      ldr x8, [x23, 8]
+0x1001d1554      mov x0, x22
+0x1001d1558      mov x1, x21
+0x1001d155c      blr x8
+0x1001d1560      ldp q0, q1, [var_d0h]
+0x1001d1564      ldurb w8, [var_b0h]
+0x1001d1568      stp q0, q1, [x19]
+0x1001d156c      strb w8, [x19, 0x20]
+0x1001d1570      sub sp, x29, 0x70
+0x1001d1574      ldp x29, x30, [var_10h]
+0x1001d1578      ldp x20, x19, [var_60h]
+0x1001d157c      ldp x22, x21, [var_50h]
+0x1001d1580      ldp x24, x23, [var_40h]
+0x1001d1584      ldp d9, d8, [var_30h]
+0x1001d1588      ldp d11, d10, [var_20h]
+0x1001d158c      ldp d13, d12, [var_10h]
+0x1001d1590      ldp d15, d14, [sp], 0x80
+0x1001d1594      ret

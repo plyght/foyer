@@ -1,0 +1,215 @@
+        instanceSize   472
+        reserved       0x0
+        ivarLayout     0x100000000 __mh_execute_header
+        name           0x100552350 _TtC6Vortex12VortexSystem
+        baseMethods    0x100000000 __mh_execute_header
+        baseProtocols  0x100000000 __mh_execute_header
+        ivars          0x1005c2730
+            entsize   32
+            count     40
+            offset    0x100603b20
+            name      0x100558370 id
+            type      0x10055d680 
+            alignment 0
+            size      0
+            offset    0x100603b28
+            name      0x10055a3d0 outstandingParticles
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603b30
+            name      0x100559095 lastIdleTime
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603b38
+            name      0x10055b040 selectedColorRamp
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603b40
+            name      0x1005591f2 lastUpdate
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603b48
+            name      0x1005533ad startTimeOffset
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603b50
+            name      0x1005579ed emissionCount
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603b58
+            name      0x10055a41b particles
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603b60
+            name      0x1005557a0 activeSecondarySystems
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603b68
+            name      0x100559007 lastDrawSize
+            type      0x10055d680 
+            alignment 3
+            size      16
+            offset    0x100603ba8
+            name      0x10055a764 position
+            type      0x10055d680 
+            alignment 4
+            size      16
+            offset    0x100603b70
+            name      0x10055c47d tags
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603b78
+            name      0x1005589e2 isActive
+            type      0x10055d680 
+            alignment 0
+            size      1
+            offset    0x100603b80
+            name      0x100558b1b isEmitting
+            type      0x10055d680 
+            alignment 0
+            size      1
+            offset    0x100603b88
+            name      0x10055afb0 secondarySystems
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603ba0
+            name      0x10055bf61 spawnOccasion
+            type      0x10055d680 
+            alignment 0
+            size      1
+            offset    0x100603bb0
+            name      0x10055bd7f shape
+            type      0x10055d680 
+            alignment 3
+            size      17
+            offset    0x100603bb8
+            name      0x1005568d5 birthRate
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603b90
+            name      0x100557a1f emissionLimit
+            type      0x10055d680 
+            alignment 3
+            size      9
+            offset    0x100603bc0
+            name      0x100557a00 emissionDuration
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603bc8
+            name      0x100558381 idleDuration
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603bd0
+            name      0x100556a2e burstCount
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603bd8
+            name      0x100556a40 burstCountVariation
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603be0
+            name      0x100559324 lifespan
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603be8
+            name      0x100559330 lifespanVariation
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603bf0
+            name      0x10055bfc2 speed
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603bf8
+            name      0x10055bfc8 speedVariation
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603c00
+            name      0x100555bf7 angle
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603c10
+            name      0x100555bfd angleRange
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603c08
+            name      0x1005555b8 acceleration
+            type      0x10055d680 
+            alignment 4
+            size      16
+            offset    0x100603b98
+            name      0x100556490 attractionCenter
+            type      0x10055d680 
+            alignment 4
+            size      17
+            offset    0x100603c18
+            name      0x1005564b0 attractionStrength
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603c20
+            name      0x100557543 dampingFactor
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603c28
+            name      0x100555c11 angularSpeed
+            type      0x10055d680 
+            alignment 4
+            size      32
+            offset    0x100603c30
+            name      0x100555c20 angularSpeedVariation
+            type      0x10055d680 
+            alignment 4
+            size      32
+            offset    0x100603c38
+            name      0x100557066 colors
+            type      0x10055d680 
+            alignment 3
+            size      33
+            offset    0x100603c40
+            name      0x10055be60 size
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603c48
+            name      0x10055be92 sizeVariation
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603c50
+            name      0x10055be70 sizeMultiplierAtDeath
+            type      0x10055d680 
+            alignment 3
+            size      8
+            offset    0x100603c58
+            name      0x10055c186 stretchFactor
+            type      0x10055d680 
+            alignment 3
+            size      8
+        weakIvarLayout 0x100000000 __mh_execute_header
+        baseProperties 0x100000000 __mh_execute_header
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$__TtCs12_SwiftObject
+    superclass 0x0 _OBJC_METACLASS_$__TtCs12_SwiftObject
+    cache      0x0 __objc_empty_cache

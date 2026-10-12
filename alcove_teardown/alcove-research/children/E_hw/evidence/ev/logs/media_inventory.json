@@ -1,0 +1,302 @@
+[
+  {
+    "name": "airpods-3.mp4",
+    "bytes": 28687,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-4.mp4",
+    "bytes": 27700,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-max-blue.mp4",
+    "bytes": 34428,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-max-green.mp4",
+    "bytes": 36411,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-max-midnight.mp4",
+    "bytes": 30623,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-max-orange.mp4",
+    "bytes": 37559,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-max-purple.mp4",
+    "bytes": 36471,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-max-red.mp4",
+    "bytes": 35647,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-max-silver.mp4",
+    "bytes": 36477,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-max-sky-blue.mp4",
+    "bytes": 32047,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-max-space-gray.mp4",
+    "bytes": 28557,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-max-starlight.mp4",
+    "bytes": 36591,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-pro-2.mp4",
+    "bytes": 31696,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-pro-3.mp4",
+    "bytes": 31921,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "airpods-pro.mp4",
+    "bytes": 31977,
+    "duration": "6.000000",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 96,
+        "height": 96,
+        "r_frame_rate": "60/1",
+        "nb_frames": "360"
+      }
+    ]
+  },
+  {
+    "name": "lock.caf",
+    "bytes": 85870,
+    "duration": "0.283938",
+    "streams": [
+      {
+        "codec_name": "pcm_s24le",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_frames": "13629"
+      }
+    ]
+  },
+  {
+    "name": "low-battery.caf",
+    "bytes": 109300,
+    "duration": "1.095875",
+    "streams": [
+      {
+        "codec_name": "pcm_s16le",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 1,
+        "r_frame_rate": "0/0",
+        "nb_frames": "52602"
+      }
+    ]
+  },
+  {
+    "name": "low-power.caf",
+    "bytes": 122640,
+    "duration": "0.672018",
+    "streams": [
+      {
+        "codec_name": "pcm_s16le",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_frames": "29636"
+      }
+    ]
+  },
+  {
+    "name": "unlock.caf",
+    "bytes": 27886,
+    "duration": "0.269728",
+    "streams": [
+      {
+        "codec_name": "pcm_s16le",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 1,
+        "r_frame_rate": "0/0",
+        "nb_frames": "11895"
+      }
+    ]
+  },
+  {
+    "name": "volume.caf",
+    "bytes": 37826,
+    "duration": "0.382426",
+    "streams": [
+      {
+        "codec_name": "pcm_s16le",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 1,
+        "r_frame_rate": "0/0",
+        "nb_frames": "16865"
+      }
+    ]
+  }
+]

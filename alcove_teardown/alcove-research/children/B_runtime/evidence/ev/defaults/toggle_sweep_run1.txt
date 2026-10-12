@@ -1,0 +1,168 @@
+Script failed (exit code 1). Calls made: 406 (computer×406). Wall time: 280s.
+--- output ---
+## PANE Connectivity
+CHECKBOX | Connectivity | was | checked=true | -> | checked=false | diff | {'enableConnectivity': (None, False)} | restore | {'enableConnectivity': (False, True)}
+SKIP button | 5.0 | Duration
+SLIDER | s | val | 5 | incr-> | {'connectivityDuration': (None, 5.5)} | | readback | Incremented @m10567: increment succeeded: the control's value is now "5.500" (was "5"). This read-back already confirms the change took effect; do not re-read i | | decr-> | {'connectivityDuration': (5.5, 5.0)}
+CHECKBOX | Warn on low battery | was | checked=true | -> | checked=false | diff | {'warnOnLowConnectBattery': (True, False)} | restore | {'warnOnLowConnectBattery': (False, True)}
+SKIP button | 20 | Low battery threshold
+SLIDER | % | val | 20 | incr-> | {'lowConnectBatteryThreshold': (None, 30.0)} | | readback | Incremented @m11074: increment succeeded: the control's value is now "30" (was "20"). This read-back already confirms the change took effect; do not re-read it  | | decr-> | {'lowConnectBatteryThreshold': (30.0, 20.0)}
+CHECKBOX | Play sound on low battery | was | checked=true | -> | checked=false | diff | {'playSoundOnLowConnectBattery': (True, False)} | restore | {'playSoundOnLowConnectBattery': (False, True)}
+  SEG | Play sound on low battery | None | None | {} | Pressed @m11579: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | Play sound on low battery | Airpods Pro | airpodspro | {'connectivityModel': (None, 'symbol')} | Pressed @m11705: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG group restored; now | {'connectivityModel': (None, 'threeDimensional')}
+## PANE Focus
+CHECKBOX | Focus | was | checked=true | -> | checked=false | diff | {'enableFocus': (None, False)} | restore | {'enableFocus': (False, True)}
+SKIP button | 5.0 | Duration
+SLIDER | s | val | 5 | incr-> | {'focusDuration': (None, 5.5)} | | readback | Incremented @m12367: increment succeeded: the control's value is now "5.500" (was "5"). This read-back already confirms the change took effect; do not re-read i | | decr-> | {'focusDuration': (5.5, 5.0)}
+CHECKBOX | Play sound on sleep focus | was | checked=false | -> | checked=true | diff | {'playSoundOnSleepFocus': (None, True)} | restore | {'playSoundOnSleepFocus': (True, False)}
+CHECKBOX | Replace waveform during focus | was | checked=false | -> | checked=true | diff | {'replaceWaveformDuringFocus': (None, True)} | restore | {'replaceWaveformDuringFocus': (True, False)}
+CHECKBOX | Hide label | was | checked=false | -> | checked=true | diff | {'hideLabel': (None, True)} | restore | {'hideLabel': (True, False)}
+CHECKBOX | Battery | was | checked=true | -> | checked=false | diff | {'allowBatteryWhenFocused': (None, False)} | restore | {'allowBatteryWhenFocused': (False, True)}
+CHECKBOX | Connectivity | was | checked=true | -> | checked=false | diff | {'allowConnectivityWhenFocused': (None, False)} | restore | {'allowConnectivityWhenFocused': (False, True)}
+CHECKBOX | Display | was | checked=true | -> | checked=false | diff | {'allowBrightnessWhenFocused': (None, False)} | restore | {'allowBrightnessWhenFocused': (False, True)}
+CHECKBOX | Sound | was | checked=true | -> | checked=false | diff | {'allowVolumeWhenFocused': (None, False)} | restore | {'allowVolumeWhenFocused': (False, True)}
+## PANE Display
+CHECKBOX | Display | was | checked=true | -> | checked=false | diff | {'enableBrightness': (True, False)} | restore | {'enableBrightness': (False, True)}
+SKIP button | 1.5 | Duration
+SLIDER | s | val | 1.500 | incr-> | {'brightnessDuration': (None, 2.0)} | | readback | Incremented @m15009: increment succeeded: the control's value is now "2" (was "1.500"). This read-back already confirms the change took effect; do not re-read i | | decr-> | {'brightnessDuration': (2.0, 1.5)}
+  SEG | s | None | None | {} | Pressed @m15265: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | s | None | None | {'brightnessProgressStyle': (None, 'accent')} | Pressed @m15393: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | s | None | None | {'brightnessProgressStyle': ('accent', 'stylized')} | Pressed @m15521: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG group restored; now | {'brightnessProgressStyle': (None, 'white')}
+CHECKBOX | Show percentage | was | checked=false | -> | checked=true | diff | {'showBrightnessPercentage': (None, True)} | restore | {'showBrightnessPercentage': (True, False)}
+CHECKBOX | Hide label | was | checked=false | -> | checked=true | diff | {'hideBrightnessLabel': (None, True)} | restore | {'hideBrightnessLabel': (True, False)}
+  SEG | Hide label | Decrease Speed | tortoise.fill | {'brightnessSpeed': (None, 'smooth')} | Pressed @m16164: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | Hide label | Increase Speed | hare.fill | {'brightnessSpeed': ('smooth', 'fast')} | Pressed @m16292: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | Hide label | Flash | bolt.fill | {'brightnessSpeed': ('fast', 'instant')} | Pressed @m16420: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG group restored; now | {'brightnessSpeed': (None, 'fast')}
+## PANE Sound
+CHECKBOX | Sound | was | checked=true | -> | checked=false | diff | {'enableVolume': (True, False)} | restore | {'enableVolume': (False, True)}
+SKIP button | 1.5 | Duration
+SLIDER | s | val | 1.500 | incr-> | {'volumeDuration': (None, 2.0)} | | readback | Incremented @m17085: increment succeeded: the control's value is now "2" (was "1.500"). This read-back already confirms the change took effect; do not re-read i | | decr-> | {'volumeDuration': (2.0, 1.5)}
+  SEG | s | None | None | {} | Pressed @m17349: dispatched 1 element(s) appeared, 1 disappeared since the press — these a
+  SEG | s | None | None | {'volumeProgressStyle': (None, 'accent')} | Pressed @m17482: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | s | None | None | {'volumeProgressStyle': ('accent', 'stylized')} | Pressed @m17614: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG group restored; now | {'volumeProgressStyle': (None, 'white')}
+CHECKBOX | Show percentage | was | checked=false | -> | checked=true | diff | {'showVolumePercentage': (None, True)} | restore | {'showVolumePercentage': (True, False)}
+CHECKBOX | Hide label | was | checked=false | -> | checked=true | diff | {'hideVolumeLabel': (None, True)} | restore | {'hideVolumeLabel': (True, False)}
+  SEG | Hide label | Decrease Speed | tortoise.fill | {'volumeSpeed': (None, 'smooth')} | Pressed @m18277: dispatched 1 element(s) appeared, 1 disappeared since the press — these a
+  SEG | Hide label | Increase Speed | hare.fill | {'volumeSpeed': ('smooth', 'fast')} | Pressed @m18410: dispatched 1 element(s) appeared, 1 disappeared since the press — these a
+  SEG | Hide label | Flash | bolt.fill | {'volumeSpeed': ('fast', 'instant')} | Pressed @m18547: dispatched 1 element(s) appeared, 1 disappeared since the press — these a
+  SEG | Instant | Volume High | speaker.wave.2.fill | {'volumeOutputDevice': (None, 'symbol')} | Pressed @m18687: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG MISSING | ('button', 'Instant', 'Airpods Pro')
+  SEG group restored; now | {'volumeSpeed': (None, 'fast'), 'volumeOutputDevice': (None, 'device')}
+## PANE Now Playing
+CHECKBOX | Now Playing | was | checked=true | -> | checked=false | diff | {'enableNowPlaying': (None, False)} | restore | {'enableNowPlaying': (False, True)}
+SKIP button | 3 | Idle duration
+SLIDER | s | val | 3 | incr-> | {'idleDuration': (None, 4.0)} | | readback | Incremented @m19603: increment succeeded: the control's value is now "4" (was "3"). This read-back already confirms the change took effect; do not re-read it 1  | | decr-> | {'idleDuration': (4.0, 3.0)}
+  SEG | s | Stop | nosign | {'songTitleBadge': (None, 'none')} | Pressed @m19923: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | s | Explicit | e.square.fill | {'songTitleBadge': ('none', 'explicit')} | Pressed @m20083: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | s | None | None | {'songTitleBadge': ('explicit', 'format')} | Pressed @m20243: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | Format | None | None | {} | Pressed @m20406: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | Format | None | None | {'progressStyle': (None, 'color')} | Pressed @m20566: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | Format | None | None | {'progressStyle': ('color', 'gradient')} | Pressed @m20726: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG group restored; now | {'progressStyle': (None, 'mono'), 'songTitleBadge': (None, 'explicit')}
+SKIP disabled | checkbox | Use live waveform | None
+CHECKBOX | Disable compact waveform | was | checked=false | -> | checked=true | diff | {'disableWaveform': (None, True)} | restore | {'disableWaveform': (True, False)}
+CHECKBOX | Disable artwork flip | was | checked=false | -> | checked=true | diff | {'disableAlbumArtFlip': (None, True)} | restore | {'disableAlbumArtFlip': (True, False)}
+CHECKBOX | Hide while source app is active | was | checked=false | -> | checked=true | diff | {'hideWhileSourceIsActive': (None, True)} | restore | {'hideWhileSourceIsActive': (True, False)}
+CHECKBOX | Hide media title extras | was | checked=false | -> | checked=true | diff | {'hideSongTitleExtras': (None, True)} | restore | {'hideSongTitleExtras': (True, False)}
+  SEG | Hide media title extras | Favorite | star.fill | {'controlChoice': (None, 'like')} | Pressed @m22172: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | Hide media title extras | Shuffle | shuffle | {'controlChoice': ('like', 'shuffle')} | Pressed @m22332: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | Hide media title extras | Repeat 1 | repeat | {'controlChoice': ('shuffle', 'repeating')} | Pressed @m22492: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | Hide media title extras | Link | link | {'controlChoice': ('repeating', 'copyLink')} | Pressed @m22652: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG group restored; now | {'controlChoice': (None, 'shuffle')}
+CHECKBOX |  ∙ System | was | checked=true | -> | checked=false | diff | {'automaticMusicApp': (None, False)} | restore | {}
+CHECKBOX | Quick Peek | was | checked=true | -> | checked=false | diff | {'enableQuickPeek': (None, False)} | restore | {'enableQuickPeek': (False, True)}
+CHECKBOX | When media changes | was | checked=true | -> | checked=false | diff | {'whenSongChanges': (None, False)} | restore | {'whenSongChanges': (False, True)}
+SKIP button | 2 | Peek duration
+SLIDER | s | val | 2 | incr-> | {'peekDuration': (None, 3.0)} | | readback | Incremented @m23847: increment succeeded: the control's value is now "3" (was "2"). This read-back already confirms the change took effect; do not re-read it 1  | | decr-> | {'peekDuration': (3.0, 2.0)}
+## PANE 11, Calendar
+CHECKBOX | Calendar | was | checked=true | -> | checked=false | diff | {'idleActivity': ('calendar', 'nowPlaying'), 'enableCalendar': (True, False)} | restore | {'enableCalendar': (False, True)}
+SKIP button | 15 | Time before event
+SLIDER | m | val | 15 | incr-> | {'timeBeforeEvent': (None, 20.0)} | | readback | Incremented @m24834: increment succeeded: the control's value is now "20" (was "15"). This read-back already confirms the change took effect; do not re-read it  | | decr-> | {'timeBeforeEvent': (20.0, 15.0)}
+CHECKBOX | Play sound on calendar event | was | checked=true | -> | checked=false | diff | {'playSoundOnCalendarEvent': (None, False)} | restore | {'playSoundOnCalendarEvent': (False, True)}
+CHECKBOX | Play hourly chime | was | checked=false | -> | checked=true | diff | {'playHourlyChime': (None, True)} | restore | {'playHourlyChime': (True, False)}
+CHECKBOX | Use calendar color | was | checked=false | -> | checked=true | diff | {'useCalendarColor': (None, True)} | restore | {'useCalendarColor': (True, False)}
+CHECKBOX | Disable activity during events | was | checked=false | -> | checked=true | diff | {'disableActivityDuringEvents': (None, True)} | restore | {'disableActivityDuringEvents': (True, False)}
+SKIP disabled | checkbox | Show weather on empty day | None
+CHECKBOX | Use event indicators | was | checked=false | -> | checked=true | diff | {'useEventIndicators': (None, True)} | restore | {'useEventIndicators': (True, False)}
+CHECKBOX | Always show month view | was | checked=false | -> | checked=true | diff | {'alwaysShowMonthView': (None, True)} | restore | {'alwaysShowMonthView': (True, False)}
+SKIP disabled | checkbox | Notify when time to leave | None
+CHECKBOX | Calendar | was | checked=true,selected=true | -> | checked=false | diff | {'excludedCalendars': (None, ['987A6A56-05B0-40AB-A7E4-AA096BE742BC'])} | restore | {'excludedCalendars': (['987A6A56-05B0-40AB-A7E4-AA096BE742BC'], [])}
+POPUP | Calendars | Both | items | ['Both', 'Live Activity', 'Expanded View']
+  POPUP ITEM | Calendars | Both | {'calendarDisplayModes': (None, {})}
+  POPUP ITEM | Calendars | Live Activity | {'calendarDisplayModes': ({}, {'987A6A56-05B0-40AB-A7E4-AA096BE742BC': 'liveActivity'})}
+  POPUP ITEM | Calendars | Expanded View | {'calendarDisplayModes': ({'987A6A56-05B0-40AB-A7E4-AA096BE742BC': 'liveActivity'}, {'987A6A56-05B0-40AB-A7E4-AA096BE742BC': 'expandedView'})}
+CHECKBOX | Birthdays | was | checked=true,selected=true | -> | checked=false | diff | {'excludedCalendars': ([], ['C996EF88-8BF1-4778-B367-E56C1C10A799'])} | restore | {'excludedCalendars': (['C996EF88-8BF1-4778-B367-E56C1C10A799'], [])}
+POPUP | Calendars | Both | items | ['Both', 'Live Activity', 'Expanded View']
+  POPUP ITEM | Calendars | Both | {'calendarDisplayModes': (None, {})}
+  POPUP ITEM | Calendars | Live Activity | {'calendarDisplayModes': ({}, {'C996EF88-8BF1-4778-B367-E56C1C10A799': 'liveActivity'})}
+  POPUP ITEM | Calendars | Expanded View | {'calendarDisplayModes': ({'C996EF88-8BF1-4778-B367-E56C1C10A799': 'liveActivity'}, {'C996EF88-8BF1-4778-B367-E56C1C10A799': 'expandedView'})}
+CHECKBOX | Quick Peek | was | checked=true | -> | checked=false | diff | {'enableCalendarQuickPeek': (None, False)} | restore | {'enableCalendarQuickPeek': (False, True)}
+CHECKBOX | Before event starts | was | checked=false | -> | checked=true | diff | {'beforeEventStarts': (None, True)} | restore | {'beforeEventStarts': (True, False)}
+CHECKBOX | When event is starting | was | checked=true | -> | checked=false | diff | {'whenEventIsStarting': (None, False)} | restore | {'whenEventIsStarting': (False, True)}
+SKIP button | 4 | Peek duration
+SLIDER | s | val | 4 | incr-> | {'calendarPeekDuration': (None, 5.0)} | | readback | Incremented @m30010: increment succeeded: the control's value is now "5" (was "4"). This read-back already confirms the change took effect; do not re-read it 1  | | decr-> | {'calendarPeekDuration': (5.0, 4.0)}
+CHECKBOX | Use colored calendar indicator | was | checked=true | -> | checked=false | diff | {'useColoredCalendarIndicator': (None, False)} | restore | {'useColoredCalendarIndicator': (False, True)}
+## PANE Lock Screen
+CHECKBOX | Lock Screen | was | checked=true | -> | checked=false | diff | {'enableLockScreen': (None, False)} | restore | {'enableLockScreen': (False, True)}
+SKIP button | 0 | Keep awake
+SLIDER | m | val | 0 | incr-> | {'keepAwake': (None, 5.0)} | | readback | Incremented @m31381: increment succeeded: the control's value is now "5" (was "0"). This read-back already confirms the change took effect; do not re-read it 1  | | decr-> | {'keepAwake': (5.0, 0.0)}
+CHECKBOX | Show on screen saver | was | checked=false | -> | checked=true | diff | {'showOnScreenSaver': (None, True)} | restore | {'showOnScreenSaver': (True, False)}
+CHECKBOX | Play sound on lock | was | checked=false | -> | checked=true | diff | {'playSoundOnLock': (None, True)} | restore | {'playSoundOnLock': (True, False)}
+CHECKBOX | Play sound on unlock | was | checked=true | -> | checked=false | diff | {'playSoundOnUnlock': (None, False)} | restore | {'playSoundOnUnlock': (False, True)}
+CHECKBOX | Battery | was | checked=true | -> | checked=false | diff | {'allowBatteryWidgetWhenLocked': (None, False)} | restore | {'allowBatteryWidgetWhenLocked': (False, True)}
+CHECKBOX | Connectivity | was | checked=true | -> | checked=false | diff | {'allowConnectivityWidgetWhenLocked': (None, False)} | restore | {'allowConnectivityWidgetWhenLocked': (False, True)}
+CHECKBOX | Focus | was | checked=true | -> | checked=false | diff | {'allowFocusWidgetWhenLocked': (None, False)} | restore | {'allowFocusWidgetWhenLocked': (False, True)}
+CHECKBOX | Calendar | was | checked=false | -> | checked=true | diff | {'allowCalendarWidgetWhenLocked': (None, True)} | restore | {'allowCalendarWidgetWhenLocked': (True, False)}
+CHECKBOX | Now Playing | was | checked=true | -> | checked=false | diff | {'allowNowPlayingWidgetWhenLocked': (None, False)} | restore | {'allowNowPlayingWidgetWhenLocked': (False, True)}
+  SEG | Now Playing | None | None | {} | Pressed @m34648: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | Now Playing | None | None | {'nowPlayingStyle': (None, 'clear')} | Pressed @m34829: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG | Now Playing | None | None | {'nowPlayingStyle': ('clear', 'frosted')} | Pressed @m35010: dispatched no state change captured — re-query (e.g. text=<expected statu
+  SEG group restored; now | {'nowPlayingStyle': (None, 'glass')}
+SKIP button | 10 | Idle duration
+SLIDER | m | val | 10 | incr-> | {'hideIdleDuration': (None, 15.0)} | | readback | Incremented @m35197: increment succeeded: the control's value is now "15" (was "10"). This read-back already confirms the change took effect; do not re-read it  | | decr-> | {'hideIdleDuration': (15.0, 10.0)}
+CHECKBOX | Show volume control | was | checked=false | -> | checked=true | diff | {'showVolumeControl': (None, True)} | restore | {'showVolumeControl': (True, False)}
+SKIP button | 0 | Offset tuning
+SLIDER | px | val | 0 | incr-> | {'nowPlayingWidgetOffset': (None, 10.0)} | | readback | Incremented @m35924: increment succeeded: the control's value is now "10" (was "0"). This read-back already confirms the change took effect; do not re-read it 1 | | decr-> | {'nowPlayingWidgetOffset': (10.0, 0.0)}
+SKIP disabled | checkbox | Weather | None
+CHECKBOX | Battery | was | checked=true | -> | checked=false | diff | {'allowBatteryWhenLocked': (None, False)} | restore | {'allowBatteryWhenLocked': (False, True)}
+CHECKBOX | Connectivity | was | checked=true | -> | checked=false | diff | {'allowConnectivityWhenLocked': (None, False)} | restore | {'allowConnectivityWhenLocked': (False, True)}
+CHECKBOX | Focus | was | checked=true | -> | checked=false | diff | {'allowFocusWhenLocked': (None, False)} | restore | {'allowFocusWhenLocked': (False, True)}
+CHECKBOX | Display | was | checked=true | -> | checked=false | diff | {'allowBrightnessWhenLocked': (None, False)} | restore | {'allowBrightnessWhenLocked': (False, True)}
+CHECKBOX | Sound | was | checked=true | -> | checked=false | diff | {'allowVolumeWhenLocked': (None, False)} | restore | {'allowVolumeWhenLocked': (False, True)}
+## PANE About
+SKIP button | Check Updates..., 1.7.7 | None
+CHECKBOX | Automatically check for updates | was | checked=true | -> | checked=false | diff | {'automaticallyCheckForUpdates': (None, False)} | restore | {'automaticallyCheckForUpdates': (False, True)}
+SKIP button | Send Feedback... | Estimated reply: 48h
+SKIP button | Join Discord... | Estimated reply: 48h
+## PANE General
+CHECKBOX | Launch at login | was | checked=false | -> | checked=true | diff | {'launchAtLogin': (False, True)} | restore | {'launchAtLogin': (True, False)}
+CHECKBOX | Hide in fullscreen | was | checked=true | -> | checked=false | diff | {'hideWhileInFullscreen': (True, False)} | restore | {'hideWhileInFullscreen': (False, True)}
+CHECKBOX | Hide in mission control | was | checked=true | -> | checked=false | diff | {'hideWhileInMissionControl': (True, False)} | restore | {'hideWhileInMissionControl': (False, True)}
+CHECKBOX | Hide while gaming | was | checked=false | -> | checked=true | diff | {'hideWhileGaming': (False, True)} | restore | {'hideWhileGaming': (True, False)}
+CHECKBOX | Hide from screen capture | was | checked=false | -> | checked=true | diff | {'hideFromScreenCapture': (False, True)} | restore | {'hideFromScreenCapture': (True, False)}
+CHECKBOX | Force simulated notch | was | checked=true | -> | checked=false | diff | {'forceSimulatedNotch': (True, False)} | restore | {'forceSimulatedNotch': (False, True)}
+POPUP | Display on | Main display | items | ['Main display', 'All displays', 'Apple Virtual']
+  POPUP ITEM | Display on | Main display | {'showOnDisplay': (None, 'mainScreen')}
+  POPUP ITEM | Display on | All displays | {'showOnDisplay': ('mainScreen', 'allDisplays')}
+Traceback (most recent call last):
+  File "/var/folders/jj/fwmm45ns4dz80954vdr61l2w0000gn/T/devin-script-run-o1hyeU/_bootstrap.py", line 70, in <module>
+    _run(_script, _source)
+  File "/var/folders/jj/fwmm45ns4dz80954vdr61l2w0000gn/T/devin-script-run-o1hyeU/_bootstrap.py", line 58, in _run
+    asyncio.run(eval(code, module.__dict__))
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/var/folders/jj/fwmm45ns4dz80954vdr61l2w0000gn/T/devin-script-run-o1hyeU/script.py", line 78, in <module>
+    sm=await act(c["ref"],"show_menu"); mi=re.search(r'(@m\d+) menuitem "'+re.escape(nm)+'"', sm)
+  File "/var/folders/jj/fwmm45ns4dz80954vdr61l2w0000gn/T/devin-script-run-o1hyeU/script.py", line 36, in act
+    return await tools.computer(actions=[a])
+  File "/var/folders/jj/fwmm45ns4dz80954vdr61l2w0000gn/T/devin-script-run-o1hyeU/_devin_tools_generated.py", line 59, in computer
+    return await _call_tool("computer", _args)
+  File "/var/folders/jj/fwmm45ns4dz80954vdr61l2w0000gn/T/devin-script-run-o1hyeU/devin_tools.py", line 108, in call_tool
+    raise ToolCallError(response.get("error") or "tool call failed")
+devin_tools.ToolCallError: unsupported_operation: this element has no context menu (no native AXShowMenu action)

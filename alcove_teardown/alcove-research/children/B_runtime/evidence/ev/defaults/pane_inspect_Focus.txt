@@ -1,0 +1,64 @@
+macos accessibility snapshot v1 (line format: @ref role "name" = "value" #id [states] {actions}; indent = hierarchy)
+target: pid:2607  epoch: 17  app: Alcove  pid: 2607  provenance: axuielement  nodes: 131/131  truncated: false
+@m7604 application "Alcove"
+ @m7605 window
+  @m7606 group
+   @m7607 button
+   @m7608 button
+ @m7609 window
+  @m7610 group
+ @m7611 window "Focus" [focused=true]
+  @m7612 group
+   @m7613 image "Do Not Disturb" #moon.fill
+   @m7614 statictext = "Focus"
+   @m7615 button "General" {press}
+   @m7616 statictext = "Notifications"
+   @m7617 button "Battery" [disabled=true] {press}
+   @m7618 button "Connectivity" {press}
+   @m7619 button "Focus" {press}
+   @m7620 button "Display" {press}
+   @m7621 button "Sound" {press}
+   @m7622 statictext = "Live Activities"
+   @m7623 button "Now Playing" {press}
+   @m7624 button "11, Calendar" {press}
+   @m7625 button "File Tray, Soon" [disabled=true] {press}
+   @m7626 button "Lock Screen" {press}
+   @m7627 statictext = "Alcove"
+   @m7628 button "License, Trial" [selected=true] {press}
+   @m7629 button "About" {press}
+   @m7630 scrollarea {scroll}
+    @m7631 image "Do Not Disturb" #moon.fill
+    @m7632 statictext = "Focus"
+    @m7633 checkbox [checked=true] {press}
+    @m7634 statictext = "Duration"
+    @m7635 button "5.0" {press}
+    @m7636 statictext = "s"
+    @m7637 slider = "5" {increment,decrement}
+     @m7638 valueindicator = "5"
+    @m7639 statictext = "Play sound on sleep focus"
+    @m7640 button "Play" #play.circle.fill
+    @m7641 checkbox [checked=false] {press}
+    @m7642 statictext = "Replace waveform during focus"
+    @m7643 checkbox [checked=false] {press}
+    @m7644 statictext = "Hide label"
+    @m7645 checkbox [checked=false] {press}
+    @m7646 statictext = "Allowed Notifications"
+    @m7647 image "Flash" #bolt.fill
+    @m7648 statictext = "Battery"
+    @m7649 checkbox [checked=true] {press}
+    @m7650 image "Audiobook" #headphones
+    @m7651 statictext = "Connectivity"
+    @m7652 checkbox [checked=true] {press}
+    @m7653 image "Brightness Higher" #sun.max.fill
+    @m7654 statictext = "Display"
+    @m7655 checkbox [checked=true] {press}
+    @m7656 image "Volume High" #speaker.wave.2.fill
+    @m7657 statictext = "Sound"
+    @m7658 checkbox [checked=true] {press}
+  @m7659 toolbar {show_menu}
+  @m7660 button "close" {press}
+  @m7661 button "zoom" [disabled=true] {press,show_menu}
+   @m7662 group
+    @m7663 group
+  @m7664 button "minimize" [disabled=true] {press}
+note: menu bar folded: "Alcove", "Window", "Help", "Alcove" (57 menu item(s) not listed) — `query role=menuitem` or `query role=menuitem text=<command>` lists them with refs; a menu item is pressed directly, the menu need not be opened first

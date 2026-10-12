@@ -1,0 +1,24 @@
+== horiz(repeat one) dx=60  pos_before=28.233999252319
+1791740055.705 swipeseq ended cum=(60.0,0.0)
+after: playing, 29.642999649048
+== horiz(repeat one) dx=70  pos_before=32.658000946045
+1791740060.124 swipeseq ended cum=(70.0,0.0)
+after: playing, 34.057998657227
+== horiz(repeat one) dx=80  pos_before=37.076000213623
+1791740064.546 swipeseq ended cum=(80.0,0.0)
+after: playing, 38.494998931885
+== horiz(repeat one) dx=90  pos_before=41.507999420166
+1791740068.992 swipeseq ended cum=(90.0,0.0)
+after: playing, 42.944999694824
+== horiz(repeat one) dx=-60  pos_before=45.965000152588
+1791740073.450 swipeseq ended cum=(-60.0,0.0)
+after: playing, 47.393001556396
+== horiz(repeat one) dx=-70  pos_before=50.402000427246
+1791740077.856 swipeseq ended cum=(-70.0,0.0)
+after: playing, 51.791999816895
+== horiz(repeat one) dx=-80  pos_before=54.814998626709
+1791740082.312 swipeseq ended cum=(-80.0,0.0)
+after: playing, 56.261001586914
+== horiz(repeat one) dx=-90  pos_before=59.291000366211
+1791740086.758 swipeseq ended cum=(-90.0,0.0)
+after: playing, 60.709999084473

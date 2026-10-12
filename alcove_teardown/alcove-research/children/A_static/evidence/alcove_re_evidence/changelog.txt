@@ -1,0 +1,967 @@
+June 2026
+## 1.7 - Duo mode, a pill shape for notchless displays, a live waveform, notch outlines, and deeper Spotify, AutoMix, and AirPlay support. 
+  ### 1.7.9 30 Jun 2026 Banner suppression will come back soon, needs a rework.
+    + Added extended support for AirPlay
+    + Added speed control for Spotify podcasts
+    - Removed banner suppression (temporarily)
+    - Optimized focus on startup
+    - Improved focus list order to match macOS
+    - Improved transition between waveform and other symbols
+    - Fixed duration missing in some edge cases
+    - Fixed Spotify tap related issues
+    - Improved padding for AutoMix in compact mode
+    - Optimized input monitoring to reduce wakes
+    - Optimized brightness repeats
+    - Optimized volume repeats
+    - Improved connectivity with AirPlay devices
+    - Optimized mission control logic
+    - Improved Spotify album tap to go to playlist
+    - Fixed skips to be accurate for all media
+    - Improved Spotify skips
+    - Fixed Spotify album art being incorrect sometimes
+    - Fixed issues related to hide in fullscreen
+    - Prevented QuickPeek showing when hide in fullscreen
+    - Improved AutoMix reliability
+    - Improved pill hide/show animation
+  ### 1.7.8 28 Jun 2026 
+    + Added AutoMix support
+    + Muted native focus banner (macOS 27+)
+    + Muted native connectivity banner (macOS 27+)
+    - Improved waveform algorithm
+    - Fixed issue where glass prevented toggle
+    - Fixed waveform transition
+    - Improved min contrast for slider color
+    - Fixed animation for progress sliders
+    - Optimized volume slider
+    - Improved marquee symbol sharpness (non-retina)
+    - Fixed glass option clipping (macOS 27)
+    - Fixed volume mute animation
+    - Fixed volume HUD lag
+    - Improved volume sound feedback
+    - Prevented expanded from overlapping with notifications
+    - Improved pill shape visibility animation
+    - Improved hover notch logic
+    - Improved outline logic
+    - Fixed now playing idle
+  ### 1.7.7 25 Jun 2026 Please make sure you update Spotify to ensure that you have the latest AppleScript version!
+    + Added Spotify like
+    + Added Spotify explicit tag
+    + Added Spotify repeat one
+    - Improved focus mode to show customizations
+    - Optimized progress slider
+    - Improved progress slider for smoother progress animation
+    - Fixed lock screen related screen saver issue
+    - Improved brightness to prefer managed display
+    - Reduced cycle swipe threshold
+    - Improved clear glass
+    - Improved outline sampling
+    - Fixed audio tap issue related to Spotify
+  ### 1.7.6 24 Jun 2026 
+    + Added colored outline support
+    + Added compact outline support
+    - Improved live waveform accuracy
+    - Improved waveform during song change
+    - Improved waveform on play/pause
+    - Changed simulated waveform responsiveness
+    - Fixed trial updates
+    - Fixed infinite loading when license limit is reached
+    - Improved outline sampling
+    - Restored progressive blur fix
+    - Improved notch shape
+    - Fixed notch radius inset bug
+    - Fixed fn key related issues
+    - Changed to show sound hud on affected display
+    - Fixed menu item issues on macOS 27
+    - Fixed hide in mission control on macOS 27
+    - Fixed Tidal support for live waveform
+    - Fixed unlock upper position for pill shape
+    - Improved outline visibility
+    - Fixed outline not working correctly even when enabled
+    - Moved down built in display choice
+    - Improved volume toggle animation
+    - Fixed audio tap being incorrect on wake
+    - Fixed lockscreen to fullscreen related issue
+    - Fixed notification triggering a cycle
+    - Reduced elevated shadow opacity
+  ### 1.7.5 21 Jun 2026 
+    + Added contrast outline (macOS 26+)
+    - Improved slider color logic
+    - Fixed progressive blur thin edge
+    - Fixed purchase button under license tab
+    - Prevented skip buttons from being disabled incorrectly
+    - Prevented function keys being overridden
+    - Fixed event indicators toggle not updating live
+    - Improved swipe to cycle on top edge of notch
+    - Fixed edge case with hide while source app is active
+    - Improved artwork memory usage
+    - Reduced memory usage
+    - Fixed issue where cycling could cycle to same activity
+    - Reduced width of simulated notch
+    - Improved Apple Music freeze related issues
+  ### 1.7.4 16 Jun 2026 
+    + Added specific focus option for waveform replace
+    - Replaced swipe symbol with an accurate custom SF symbol
+    - Restored progressive blur toggle
+    - Fixed control button press area on lockscreen
+    - Restored SF symbols in menu items on macOS 27
+    - Fixed output related crash
+    - Restored wallpaper fetch logic on macOS 27
+    - Improved both sliders to match on lockscreen
+    - Improved min luminance logic on slider color
+    - Fixed progressive blur logic to properly disappear
+    - Removed native URL meeting replacements
+    - Fixed replace waveform focus symbol not respecting focus toggle
+    - Fixed live label offset
+    - Changed to allow single press overshoot while hud is already open
+    - Fixed volume control padding on lockscreen
+    - Fixed empty artwork blend on lockscreen
+    - Improved audio tap reliability (live waveform)
+    - Fixed lockscreen sounds triggering too often
+    - Fixed lockscreen live activity getting stuck
+  ### 1.7.3 12 Jun 2026 Massive stability update that needed to come out just before the upcoming 1.8 tray update. Thank you for your patience!
+    + Added live waveform (0-1% Total CPU)
+    + Added repeat 1 support for Apple Music
+    + Added calendar event indicators
+    + Added replace waveform with focus mode
+    + Added show notch on all displays option
+    + Added hide while gaming option
+    + Added lunar year support to calendar
+    - Improved play/pause toggle for certain media
+    - Changed event links to prefer native apps over web
+    - Changed to allow cycle while in duo
+    - Decreased pill width
+    - Fixed incorrect padding on for click expand
+    - Improved notch radius logic
+    - Fixed pill shape clipping related issues
+    - Fixed licensed view truncation
+    - Improved accessibility logic
+    - Changed to show skipped media even while paused
+    - Fixed shuffle/repeat not updating properly
+    - Improved seeker accuracy
+    - Fixed shuffle animation
+    - Improved brightness display choice
+    - Fixed QuickPeek not working properly with Apple Music
+    - Fixed to hide notch if LockScreen is disabled
+    - Prevented swipes on mouse
+    - Improved tab selection handler
+    - Allowed dragging settings anywhere
+    - Improved wallpaper to reflect device wallpaper
+    - Improved HUD overshoot interaction
+    - Removed overshoot HDR glow
+    - Removed clear artwork
+    - Removed progressive blur toggle (enforced)
+    - Improved activation modal by adding a close button
+    - Improved checkbox visuals
+    - Changed to include all calendars by default instead
+    - Prevented drag sound preview spam
+    - Reworked license manager
+    - Reworked update manager
+    - Improved HUD to close faster when overshooting
+    - Improved dropdown components
+    - Replaced silence prompt with auto update checks
+    - Improved vibrancy on LockScreen widgets
+    - Fixed weather widget clipping and incorrect condition format
+    - Improved now playing widget to better match iOS
+    - Improved stroke on frosted now playing widget
+    - Improved LockScreen widget offset
+    - Fixed marquee spacing bug when idle
+    - Removed hide symbol option
+    - Improved calendar all day event hover effect
+    - Improved padding for calendar in pill shape (expanded)
+    - Changed today text color in calendar to match iPad
+    - Improved LockScreen ScreenSaver logic
+    - Improved guest account handling for LockScreen
+    - Improved wallpaper logic efficiency
+    - Fixed focus to work properly on app boot
+    - Improved media progress slider
+    - Fixed opacity bug on skips while disabled
+    - Reworked help menu options
+    - Optimized AirPods connectivity logic
+    - Fixed top edge interaction for pill shape press/hover
+    - Improved brightness smoothness
+    - Improved artwork transitions
+    - Improved waveform visuals to be truly 1:1 with iOS
+    - Fixed to show accurate loved state for Apple Music
+    - Fixed audio format related issues
+  ### 1.7.2 2 Jun 2026 
+    - Improved waveform visuals
+    - Fixed loop causing high CPU usage
+    - Fixed lock screen media player width
+    - Prevented album art press on lock screen
+    - Fixed spam skips freezing up occasionally
+    - Improved padding for artwork on simulated notch
+    - Removed the pill hide in idle temporarily
+    - Restored simulated notch hide logic
+    - Increased calendar time before event range
+  ### 1.7.1 6 Apr 2026 For those who preferred the notch over the pill, you can now force enable the simulated notch.
+    + Added simulated notch toggle
+    - Fixed crashes caused by sizing
+    - Fixed brightness crash
+    - Fixed position of dolby symbol
+    - Renamed force enable activity
+    - Prevent adjusted dimensions for pill
+    - Fixed pill clipping issues
+    - Fixed pill animation crash
+    - Fixed pill hitbox
+  ### 1.7.0 5 Apr 2026 
+    + Added duo mode
+    + Added pill shape for notchless displays
+    + Added audio formats (Lossless/Dolby Atmos)
+    + Added new AirPods Max support
+    + Added calendar onboarding
+    + Added accessibility onboarding
+    - Reworked waveform to visually match iOS
+    - Removed waveform style options
+    - Increased verification cooldown
+    - Improved hide media details logic
+    - Fixed slider color change animation
+    - Fixed to hide weather if lacking permission
+    - Fixed explicit tag not showing on lock screen
+    - Fixed toggle animation under settings tab
+    - Improved device list coverage
+    - Removed network ping causing deactivations
+    - Improved lock symbol sharpness
+    - Fixed 3d loop failing with black/size issues
+    - Disabled battery tab for devices without battery
+    - Fixed press logic in multiple places
+    - Improved bluetooth device output type detection
+    - Fixed brightness tab animation
+    - Prevented sounds when notch is disabled
+    - Fixed brightness spam edge case
+    - Fixed fullscreen related issues
+    - Improved HUD swap
+    - Fixed HUD reopen issues
+    - Fixed HDR flash on start
+    - Fixed all day events spanning multiple days
+    - Improved restore of multi dismissed activities
+## 1.6 - An expanded calendar with third-party calendar support, HUD overshoot, progressive blur, BetterDisplay volume, and support for more Apple devices and displays. 
+  ### 1.6.15 23 Mar 2026 
+    + Added explicit tag support
+    + Added middle click to cycle
+    - Fixed progressive blur capture related issues
+    - Fixed instance name overflowing
+    - Improved fullscreen logic to prevent unwanted restores
+    - Prevented artwork tap if no action
+    - Prevented clearing album art from same album
+    - Prevented cycle animation on expand
+    - Improved artwork for Apple Music with additional fallback
+    - Fixed lock activity not restoring on screen saver
+  ### 1.6.14 17 Mar 2026 
+    + Added progressive blur
+    + Added MacBook Neo support
+    - Prevented conflicts with CMD + FN keys
+    - Fixed Spotify artwork issues
+    - Fixed System failing to clear artwork sometimes
+    - Improved expand/collapse smoothness for now playing
+  ### 1.6.13 16 Mar 2026 
+    + Added display symbol for brightness HUD
+    + Added ctrl + brightness support (alternating)
+    + Added support for Studio Display XDR
+    - Fixed Apple Music artwork failing sometimes
+    - Optimized mission control observer
+    - Removed disable overshoot option
+    - Removed use accent color option
+    - Fixed fallback when missing AirPods 3 symbol
+    - Removed false positive for mission control
+    - Fixed progression showing incorrectly at end
+    - Reworked lock screen scaling
+    - Fixed intro button clipping
+    - Improved volume slider drag smoothness
+    - Improved progress slider on song change
+    - Improved toggle animation for notch
+    - Removed symbol scale option (forced on)
+    - Fixed menubar activity logic
+    - Removed copy link for system
+    - Improved calendar item rounding
+    - Removed disable in fullscreen (hide replaces it)
+  ### 1.6.12 1 Mar 2026 
+    - Fixed cold start issues with expanded
+  ### 1.6.11 1 Mar 2026 Soon there will be beta releases available to opt into, which will reduce bugs in normal releases.
+    - Fixed music related crash
+    - Improved connectivity energy impact
+    - Fixed condition for day/night
+    - Fixed midnight update for calendar view
+    - Prevented Apple Music from reopening
+    - Optimized music progress seeker
+    - Reduced energy usage
+  ### 1.6.10 1 Mar 2026 
+    + Added disable weather on empty day option
+    - Fixed visual state issues
+    - Fixed music slider default nan
+    - Fixed expand interaction delay
+    - Fixed cycle interaction delay
+    - Fixed calendar height for tall months
+  ### 1.6.9 28 Feb 2026 
+    + Added weather condition to empty day
+    + Added disable overshoot option
+    - Reworked calendar budgeting
+    - Improved false positive swipe reversals
+    - Improved now playing expand animation
+    - Tweaked overshoot visuals
+    - Changed restart button to clarify Alcove
+    - Reworded iCloud sync option
+    - Fixed corner radius frame skip
+    - Removed use grayscale artwork option
+    - Removed disable album art opacity option
+    - Fixed a race condition for notifications
+    - Fixed all music UI stuttering related issues
+    - Fixed animation from QuickPeek to notification
+    - Corrected expanded activity on notifications
+    - Fixed fullscreen detection when unable to find Alcove
+    - Fixed visibility for dark calendar colors in expanded view
+    - Improved swipe to expand animation to blur
+    - Removed retain volume control option
+    - Improved to change recent activity on cycle
+  ### 1.6.8 27 Feb 2026 Sorry for the short span of releases, should be very stable now. Stay tuned for a big release next!
+    - Fixed Notion Calendar event opening
+    - Fixed calendar filtering CPU hog
+  ### 1.6.7 27 Feb 2026 
+    - Fixed cycle stutter
+    - Fixed collapse stutter
+    - Fixed calendar jump on expand
+    - Fixed hud stutter
+    - Fixed race condition hover freeze
+    - Fixed expand stutter
+  ### 1.6.6 26 Feb 2026 
+    + Added hide in Mission Control
+    + Added HUD overshoot
+    + Added calendar display options
+    - Improved iCloud sync logic
+    - Fixed volume for BetterDisplay
+    - Improved calendar collapse smoothness
+    - Fixed artwork restoring message apps incorrectly
+    - Changed to only allow cycle once expanded
+    - Fixed focus logic resuming incorrectly
+    - Improved BetterDisplay detection logic
+    - Fixed gestures when cycling activities
+    - Fixed remaining time animation
+    - Fixed volume control cycle bugs
+    - Limited swipe to one action per swipe
+    - Prevented blocking native volume HUD if no control
+    - Increased swipe threshold for cycle
+    - Improved cycle animation
+    - Improved cycle swipe logic
+    - Fixed swipe collapse gradient
+    - Fixed focus mode failing for some setups
+    - Improved display handling logic
+    - Prevented calendar from mapping colors as black
+    - Fixed most recent event restoring incorrectly
+    - Fixed progress not updating when cycling
+    - Fixed day number jump on cycle
+    - Fix reverse swipe cycle animation bug
+    - Improved BetterDisplay start detection
+    - Increased corner radius for notifications
+    - Fixed notch animation skips/lag
+  ### 1.6.5 24 Feb 2026 
+    + Added swipe down to cycle expanded activity
+    + Added Notion Calendar support
+    + Added active fullscreen display detection
+    + Added initial BetterDisplay volume support
+    - Restored fullscreen detection logic
+    - Fixed incorrect SF symbol for iMac output
+    - Fixed an issue with updater unable to restart
+  ### 1.6.4 23 Feb 2026 
+    + Added BetterDisplay support
+    + Added Fantastical support to calendar
+    + Added 3rd party calendar open support
+    + Added restore dismissed calendar events
+    + Added split days calendar event support
+    + Added HomePod support
+    + Added AirPods Max Red support
+    + Added AirPods Pro 3 support
+    + Added copy link support to YouTube Music
+    - Improved expanded settings layout
+    - Fixed swipe while hovering artwork
+    - Fixed startup lag caused by calendar fetch
+    - Improved focus mode reliability
+    - Improved lock screen widget sections
+    - Improved calendar expand accuracy
+    - Changed to allow expand during connectivity notification
+    - Fixed Apple Music reopening when quit
+    - Improved licensing to be more tolerant to failure
+    - Fixed volume mute breaking when changing output
+    - Fixed progress seeker updating incorrectly
+    - Prevented volume changes when disabled
+    - Improved artwork reliability for Apple Music
+    - Fixed lag caused by browser copy link functionality
+    - Improved keychain failure logic
+  ### 1.6.3 17 Feb 2026 Don't forget to grant permission to Alcove if you want to use the custom HUD.
+    - Fixed brightness HUD with external displays
+    - Fixed brightness HUD with external keyboards
+    - Changed to support opt + media key to open settings
+    - Changed to hide settings if lacking permission
+    - Fixed artwork refresh going from system to music
+    - Fixed quick peek for system
+    - Fixed symbol sizing all over
+  ### 1.6.2 17 Feb 2026 Soon there'll be another update that will improve using Calendar and Now Playing simultaneously while expanded. Stay tuned!
+    + Restored HUD mute functionality
+    + Added click on todays date to open calendar
+    - Reworked HUD to rely on accessibility permissions
+    - Improved HUD to always show even if min/max (0/100)
+    - Fixed custom resolution crash
+    - Fixed white corners on app icon
+    - Changed to expand when lacking activity action
+    - Improved license activation logic
+    - Fixed focus states causing crash
+    - Fixed notch jump on start
+    - Fixed fullscreen notch jump
+    - Prevented lock screen from zooming in
+    - Improved widget fade on lock screen
+    - Improved default device to be a laptop
+    - Fixed black album art during collapse
+    - Improved calendar click to join during ongoing/countdown
+    - Improved calendar click to support opt + click to alternate
+    - Fixed incorrect menu items based on activity
+    - Fixed calendar date grid not taking up full height
+    - Removed hide menubar icon option (Tahoe)
+    - Improved play/pause toggle performance
+    - Fixed issue where play/pause changed to system temporarily
+    - Prevented artwork scale crash
+    - Fixed podcast skips
+    - Fixed inverted expand issue on hover to expand
+    - Fixed notch being stuck in a scaled up state occasionally
+    - Filtered out cancelled events from calendar
+    - Improved help options with onboarding reset
+    - Improved segmented pickers visually
+  ### 1.6.1 8 Feb 2026 Critical patch for solving the localization visual bug. Sorry! Hope you're enjoying the new calendar!
+    - Fixed localization bug in settings
+    - Restored now playing widget options (Sequoia)
+  ### 1.6.0 8 Feb 2026 
+    + Added expanded calendar
+    + Added swipe to dismiss QuickPeek
+    + Added idle activity option
+    - Fixed lock screen wake crashes
+    - Fixed window crashes
+    - Improved weather fetching
+    - Improved lock screen on initial start
+    - Improved empty artwork highlight
+    - Fixed toggle play button lag
+    - Fixed artwork jump when switching YouTube media
+    - Improved marquee logic
+    - Prevented unwrap crashes
+    - Improved artwork fetch for Apple Music
+    - Prevented AppleScript freezes
+    - Fixed scale related crashes
+    - Fixed join meeting button dimensions and position
+    - Prevented main actor related crashes
+    - Prevented Alcove showing in Dock on boot
+    - Fixed shadow glitch
+    - Prevented skip gestures while no media
+    - Improved widgets to scale with screen
+    - Fixed system race condition
+    - Replaced remaining battery bolt with device
+    - Improved lock screen positioning logic
+    - Changed weather to respect unit
+    - Removed exclude inept source option (always on)
+    - Fixed seeker jump on system
+    - Fixed lock screen player not idling properly
+    - Reduced calendar fetch load
+    - Improved calendar colors
+    - Fixed initial battery status
+    - Cleaned up calendar settings tab
+## 1.5 - A Tahoe-style redesign with multiple live activities, expanded widget customization, and broader calendar options. 
+  ### 1.5.1 15 Jan 2026 
+    + Added opt click support to alternate between activity actions
+    - Prevented trial countdown loop greatly affecting energy impact
+    - Changed calendar section to be hidden when unauthorized
+    - Improved copy URL logic to be more efficient
+    - Fixed lock screen crash
+    - Improved settings to reset to general when closed
+    - Fixed volume slider at 0 not muting properly
+    - Fixed disable in fullscreen option
+    - Improved default device logic
+    - Improved device handler logic
+    - Fixed calendar toggle being ignored
+    - Fixed scroll not resetting between tabs
+    - Fixed tab not resetting when closed
+    - Fixed window related crashes
+    - Prevented freeze when sleeping
+    - Improved countdown animation
+    - Fixed progress not updating properly
+    - Fixed countdown 0s bug
+    - Fixed calendar events not starting properly
+    - Improved music widget hide
+    - Improved clear artwork visuals
+    - Prevented effect while paused on music widget
+    - Fixed bug where artwork would blur repeatedly
+    - Fixed bug where music would glitch/skip visually
+    - Reworked updater completely
+  ### 1.5.0 5 Jan 2026 
+    + Reworked Alcove to fully match Tahoe style
+    + Added multiple live activity support
+    + Added Dia browser support
+    + Added sleep focus sound option
+    + Added show on screensaver option
+    + Added time to empty for battery widget
+    + Added now playing widget offset
+    + Added now playing widget styles
+    + Added clear artwork option
+    + Added show declined events option
+    + Added calendar list toggle
+    + Added grayscale album art option
+    + Added calendar color option
+    - Restored Apple Music album art on Tahoe
+    - Removed remain while active option
+    - Prevented HUD from restoring on Tahoe (macOS 26.2)
+    - Improved partially black album art handling
+    - Fixed now playing widget not hiding properly
+    - Fixed calendar issues with repeated events
+    - Increased keep awake duration range
+    - Fixed copy link button animation on Tahoe
+    - Reworked volume output height
+    - Increased widget size on lock screen
+    - Prevented output from being stuck on lock screen
+    - Improved volume/brightness stepper logic
+    - Improved album art press by focusing actual song
+    - Prevented Apple Music from reopening when closing
+    - Improved output support with more mac models
+    - Removed artwork glare temporarily
+## 1.4 - Calendar live activities, time to leave notifications, precipitation details, and podcast and live indicators. 
+  ### 1.4.1 7 Nov 2025 
+    + Added time to leave notifications
+    + Added exclude subscribed calendars option
+    - Changed calendar to respect selection in Calendar app
+    - Prevented update prompt when silenced (sorry about that!)
+    - Fixed reverse progress also reversing hourglass
+    - Fixed calendar permission prompt triggering incorrectly
+    - Improved peek content animations
+    - Fixed lock screen crash
+    - Prevented retain volume control from breaking hud
+    - Fixed incorrect trial countdown (48h instead of 78h)
+    - Fixed incorrect white album art on externals
+    - Restored animation on play/pause toggle
+    - Prevented notch hover from breaking now playing widget
+    - Fixed total duration from showing 60m instead of 1h
+    - Improved french focus states translations
+    - Fixed issues related to empty title track
+    - Fixed calendar restore after focus disable
+    - Prevented location freeze
+    - Prevented empty duration from showing on calendar peek
+    - Prevented lock sound from playing on wake up
+    - Improved allowed steps for AirPods volume hud
+    - Prevented certain emojis from displaying in lock screen events
+    - Improved zoom meeting handler
+    - Fixed QuickPeek being stuck at times
+    - Fixed dismiss event related issues
+    - Fixed fullscreen music restore issue
+    - Improved music to restore after dismissing event
+  ### 1.4.0 20 Oct 2025 
+    + Added calendar live activity
+    + Added rain condition details to precipitation
+    + Added mic symbol to podcasts and live quick peek
+    - Fixed disable in fullscreen not working with lock screen
+    - Prevented crash on start if calendar is active
+    - Stripped emojis from calendar widget
+    - Improved notch screen logic
+    - Fixed marquee trigger threshold
+    - Improved notch toggle logic
+    - Fixed transition on focus symbol
+    - Fixed crash caused by device color logic
+    - Increased keep awake slider range
+    - Prevented declined events from showing
+    - Improved now playing widget hide logic
+## 1.3 - Lock Screen widgets — now playing, focus, weather, battery, connectivity, and calendar — plus output volume controls and playback speed. 
+  ### 1.3.9 14 Oct 2025 Somehow this one bug passed through all the beta testers, sorry for that.
+    - Removed mission control hide logic causing havoc
+  ### 1.3.8 14 Oct 2025 Live activity and expanded view coming to the calendar soon. Meanwhile, the tray is still being worked on and perfected.
+    + Added calendar widget
+    + Added ability to toggle slider total duration
+    + Added start of localization with focus widget
+    - Prevented HUD mute if volume control is disabled
+    - Fixed Quick Peek toggle
+    - Fixed lag/freeze caused by duplication of notch
+    - Fixed skips showing incorrectly
+    - Fixed mission control hiding logic
+    - Improved copy URL logic for Apple Music
+    - Improved padding with fine tuned notch height
+    - Improved AirPods model consistency
+    - Changed settings modal to allow inactive state
+    - Prevented battery widget from showing up when fully charged
+    - Fixed tab reactivity when updated
+  ### 1.3.7 6 Oct 2025 
+    + Added notch width fine tuning
+    + Added visible mute to volume control
+    - Fixed playback speed lag on Sequoia
+    - Fixed playback speed on launch
+    - Fixed position of widget with volume control
+    - Improved copy URL logic for Apple Music
+    - Clamped volume control buttons
+    - Fixed volume control to output if changed from apps
+    - Changed volume control to only affect output
+    - Fixed volume if muted on launch
+    - Prevented volume hud from triggering on lock screen
+    - Prevented personalized volume from triggering HUD
+    - Changed to allow expand while in fullscreen
+    - Changed widgets to only show up on primary screen
+    - Fixed Quick Peek album art hover scale while disabled
+    - Improved black album art handling
+    - Improved playback speed design in menu bar
+    - Prevented battery widget from showing when full
+    - Prevented location from freezing Alcove
+    - Improved media state change accuracy
+    - Improved connectivity state updates
+    - Reduced volume change debounce
+    - Prevented mute HUD from triggering in Lock Screen
+    - Improved mute visual logic
+    - Fixed clamshell not working properly
+  ### 1.3.6 1 Oct 2025 
+    + Added connectivity widget
+    + Added battery widget
+    + Added weather widget style
+    + Added keep awake to Lock Screen
+    + Added output volume controls
+    + Added option to show volume control on widget
+    + Added option to retain volume control on collapse
+    + Added exclude inapt sources option
+    + Added playback speed
+    - Changed fake notch to hide when mission control is active
+    - Reworked license tab to include your current device
+    - Fixed missing MacBook Air model to license tab devices
+    - Improved device name formatting
+    - Prevented tap trigger on end of slider drag
+    - Removed hide while inactive option
+    - Fixed hide while inactive not working properly
+    - Prevented lock screen from re-locking
+    - Fixed widgets to work properly even if activity is disabled
+    - Fixed drag shape for music progress slider
+    - Fixed gradient applying incorrectly on marquee
+    - Disabled source menu item if automatic media source
+    - Improved Apple Music empty album art handling
+    - Fixed source menu item not updating player state
+    - Refactored battery manager
+    - Removed unused jingle taking up disk space
+    - Fixed AppleScript to check if app is running
+    - Improved license modal visuals
+    - Fixed invisible padding in modals
+    - Improved about modal visuals
+    - Prevented HUD mute on first launch
+    - Fixed quick peek visual animation skip
+    - Fixed left bounce animation when expanding
+    - Fixed marquee clipping text
+    - Improved now playing widget positioning
+    - Improved low battery sound
+    - Animated toggling of fake notch
+    - Fixed cancelling swipe if notch state changes
+    - Fixed safari web apps not being recognized properly
+  ### 1.3.5 19 Sep 2025 This patch address the recent license activation issues. Sorry for the inconvenience it may have caused.
+    + Added AirPods Pro 3 to supported outputs
+    - Fixed issues causing license activation incorrectly
+    - Increased hover area for album art and waveform
+    - Fixed note symbol not hiding directly based on option
+  ### 1.3.4 18 Sep 2025 If you find the update prompt annoying, you may now silence it. Alcove will still inform you that an update is available.
+    + Added EarPods as supported output device
+    + Added option to disable in fullscreen
+    + Added option to hide now playing widget instantly
+    + Added option to silence update prompt
+    + Added option to hide note symbol
+    - Optimized Alcove to prefer lower frame rate while in idle
+    - Increased size of focus and weather widget
+  ### 1.3.3 15 Sep 2025 Just a small update to address some glaring issues...
+    + Added Apple displays as supported outputs
+    - Fixed incorrect weather metric for UK
+    - Fixed weather not showing up in an edge case
+    - Fixed now playing widget visual issues
+    - Fixed now playing widget flashing on non-idle
+  ### 1.3.2 14 Sep 2025 
+    + Added weather widget
+    + Added low power mode notification
+    - Muted native HUD (macOS Tahoe)
+    - Fixed rounded inset corners on notch (macOS Tahoe)
+    - Fixed license activation/deactivation applying incorrectly
+    - Fixed instances failing to fetch upon activation/deactivation
+    - Prevented copy link from opening Safari
+    - Improved seeker progress animations to be smoother
+    - Fixed music slider crash
+    - Improved live visuals
+    - Fixed trial deactivation related issues
+    - Prevented lock screen freeze
+    - Fixed battery padding issue
+    - Fixed now playing widget not hiding properly
+    - Fixed focus not working on certain devices
+    - Improved hide while active logic to better match apps
+    - Fixed lock screen freezing
+    - Improved tuning notch while notification is active
+    - Changed "low batt." to "low battery"
+  ### 1.3.1 9 Sep 2025 Just making sure we're back to a very stable release yet again. Work continues and keep getting closer to the v1.4 release. Thank you for your patience with these updates.
+    + Added hide while inactive option to now playing widget
+    - Fixed incorrect empty album art color
+    - Fixed progress slider crash
+    - Fixed lock sound delay
+    - Optimized redraw of marquee and visualizer
+    - Fixed expanded height on non notch displays
+    - Prevented QuickTime crash causing incorrect metadata
+    - Fixed focus initially showing incorrect toggle state
+    - Improved focus efficiency
+    - Fixed focus not working with multiple users
+    - Constrained album art height size
+    - Fixed license being disabled incorrectly
+    - Fixed swipe being stuck in collapse
+    - Fixed dismiss to remain unless expanded
+    - Fixed music slider mono color
+    - Fixed visualizer mono color
+    - Fixed now playing widget position with multiple accounts
+    - Prevented now playing from hiding based on focus widget
+    - Fixed issue with now playing idling after unlock
+    - Prevented Spotify app freeze
+    - Improved focus widget visual accuracy
+  ### 1.3.0 4 Sep 2025 
+    + Added lock screen widgets
+    + Added now playing widget
+    + Added focus widget
+    - Fixed slider progress/duration crash
+    - Fixed hover lag caused by seeker
+    - Fixed now playing not restoring if lock screen is disabled
+## 1.2 - Playback controls, podcasts and live streams, copy link, iCloud settings sync, richer HUD options, and reworked onboarding. 
+  ### 1.2.8 30 Aug 2025 Tiny update to resolve the issues that were introduced by last patch...
+    + Added artwork glare effect
+    - Restored focus functionality
+    - Fixed incorrect copy url states
+    - Prevented music apps from opening on hover
+    - Increased notch radius for notifications
+    - Improved artwork radius logic
+    - Changed spectrogram typo
+  ### 1.2.7 29 Aug 2025 If you run into issues with system media support, please manually download the latest version of Alcove and reinstall it.
+    + Added show in browser menu option
+    + Added copy link support for YouTube
+    + Added ability to remove other devices
+    + Improved device recognition support
+    - Prevented focus manager causing 100% CPU usage
+    - Fixed animation stuttering caused by AppleScript
+    - Restored shuffle and repeat updating properly
+    - Prevented updater from failing to update properly
+    - Prevented notification from being frozen after unlock
+    - Restored previous stepper logic
+    - Moved sync settings to general tab
+    - Fixed infinite license activation loop
+    - Prevented crash caused by slider duration
+    - Fixed shuffle availability restoring improperly
+    - Fixed now playing showing state incorrectly
+  ### 1.2.6 21 Aug 2025 Thank you for your incredible patience. Updates will now keep coming regularly as they used to. Many planned features are already in the works.
+    + Restored system media support
+    + Added copy link functionality
+    + Added Spotify podcast support
+    + Added additional AirPods Max colors
+    + Added spectrogram style options
+    + Added swipe down while expanded
+    + Added iCloud settings synchronization option
+    + Added lock sound option
+    + Added disable expand while inactive option
+    - Improved switching between playing media
+    - Changed to allow swipe to skip while Quick Peek
+    - Changed sound previews to play as system sounds
+    - Fixed menu bar capitalization
+    - Improved swipe sensitivity and animations
+    - Fixed low battery sound option being ignored
+    - Fixed unlock sound option being ignored
+    - Prevented expand on lock screen during notification
+    - Optimized low battery functionality
+    - Improved focus manager efficiency
+    - Prevented swipe on lock screen
+    - Fixed focus priority issues
+    - Fixed default headphones lingering
+    - Improved notification to live activity swapping
+    - Improved sound manager to support concurrent sounds
+    - Compressed audio files to reduce file size
+    - Fixed connectivity bug with now playing
+    - Fixed initial focus state notification
+    - Improved connectivity to only check connected devices
+    - Changed volume peak threshold
+    - Prevented lock from showing on screensaver
+    - Changed expand to be disabled as now playing is disabled
+  ### 1.2.5 25 Feb 2025 Well this is awkward...
+    - Fixed missing AirPods 3D model
+  ### 1.2.4 24 Feb 2025 Tiny update to resolve some issues that were introduced with last patch...
+    + Changed alerts to use system sounds instead
+    - Fixed incorrect position for notch on externals
+    - Fixed incorrect battery for connectivity devices
+    - Restored AirPod Max color support
+    - Fixed HUD animation glitch
+    - Increased volume for sound previews to max
+    - Reverted HUD stepper logic
+  ### 1.2.3 22 Feb 2025 This update comes with massive performance gains and immense resource usage improvements. Just wanted to squeeze this one out before the v1.3 update that is still coming soon, don't want to rush it out, rather have it be perfect.
+    + Added speed options for HUDs (smooth/fast/instant)
+    + Added ability to disable sync for HUDs
+    + Added battery support for AirPods Max
+    + Added Bluetooth step to onboarding
+    - Reduced CPU usage massively, down to 0% in most cases
+    - Reduced battery impact massively
+    - Reworked HUD animations entirely to be much smoother
+    - Improved native HUD mute to be more reliable
+    - Fixed expanded mode getting stuck (caused by Ice)
+    - Improved notification transitions
+    - Improved live activity transitions
+    - Prevented notifications from restoring now playing
+    - Fixed visual bug when collapsing with swipe
+    - Changed decibel HUD range to show orange earlier
+    - Increased glow on decibel HUD style
+    - Reworked updater to be more reliable
+    - Improved focus logic to prevent edge case 100% CPU usage
+    - Fixed album art dominant color edge case 100% CPU usage
+    - Fixed picker outline animations
+    - Changed Alcove to a constraint space instead of covering entire screen
+    - Prevented adaptive volume changes showing up in HUD
+    - Fixed issue where now playing would show livestream incorrectly
+    - Improved swipe to reveal in relation to live activity restores
+    - Fixed lock live activity sometimes being stuck after unlock
+    - Improved seeker position reset speed when skipping tracks
+    - Moved swipe to skip to general settings tab
+    - Prevented notch from overlapping menubar on non notch displays
+    - Reworked connectivity entirely
+    - Fixed bug where HUD overlap would animate fade incorrectly
+    - Fixed songs sometimes displaying incorrect progress
+    - Fixed changing battery threshold not updating timers
+    - Fixed issues with live activity restore when fullscreen is disabled
+  ### 1.2.2 9 Feb 2025 Thank you for your patience while I spent time squashing the hardest bugs in Alcove! The v1.3 update is still coming soon (been hard at work on that as well).
+    + Added glow option to display HUD
+    + Added decibel option to sound HUD
+    + Added swipe to skip while expanded
+    + Added menu bar items (controls)
+    + Added low battery sound
+    + Added low battery sound for connectivity
+    + Added sound previews
+    + Added device overview to license tab
+    + Added hide from screen capture option
+    + Improved fullscreen logic (no longer beta)
+    - Prevented native HUD from triggering
+    - Reworked swipes entirely
+    - Improved performance when changing volume while AirPods are connected
+    - Fixed toggle open bounce animation issues while swiping
+    - Disabled focus effects on setting items
+    - Fixed notch overflowing between transitions
+    - Decreased kerning in marquee text to better match iOS
+    - Fixed music progress slider animation bug on lower values
+    - Darkened lock screen icon to better match iOS
+    - Changed to hide play toggle if both spectrogram and hover is disabled
+    - Changed browsers to work with hide while active source app
+    - Prevented HUD from triggering without user input
+    - Improved onboarding
+    - Improved efficiency of low battery check for connectivity
+    - Removed dock menu option
+    - Prevented lock from showing on screen saver
+    - Fixed toggle not working for low battery on connectivity
+    - Fixed permission onboarding freeze
+    - Prevented whitespace and newlines in license input
+    - Raised luminance tolerance
+    - Fixed haptic feedback on repeat toggle
+    - Raised global volume by 20%
+    - Changed wording from "horizontally" to "vertically" for dismiss
+  ### 1.2.1 10 Jan 2025 Unfortunately, there was a bug introduced in v1.2.0 that will cause the update logic to fail, simply redownload from Alcove's website and it will all be resolved. This is already patched in v1.2.1.
+    + Added swipe to dismiss live activity gesture
+    + Added gradient progress bar option
+    + Added sound on unlock
+    + Added album art opacity on pause
+    + Improved logic to restore live activity on collapse
+    + Changed natural movement to only affect skip swipe
+    - Rewrote swipes and removed all situations where it could freeze in place
+    - Fixed permission issue freezing on first launch
+    - Fixed CPU leak caused by album art color algorithm
+    - Fixed animation glitch causing expand to animate inwards
+    - Fixed opacity bug for visualizer when expanded
+    - Prevented native HUD from restoring on additional edge cases
+    - Fixed now playing not restoring after screen unlock
+    - Fixed now playing not showing live activity on boot upon empty title
+    - Changed timer logic to be more efficient for seeker
+    - Reduced amount of duration changes to be more efficient
+    - Reduced timer occurrence for seeker updates for optimization
+    - Fixed incorrect fade applied to visualizer
+    - Fixed lag caused by seeking track
+    - Fixed quick peek animation glitch
+    - Fixed visual inset bug caused by press in combo with expand on hover
+  ### 1.2.0 7 Jan 2025 
+    + Added controls (shuffle/repeat)
+    + Added podcast support
+    + Added live stream support
+    + Added support for all AirPods Max colors (gen. 1)
+    + Added album tap to focus active tab
+    + Added clamshell support
+    + Reworked onboarding
+    + Improved smoothness in progress slider
+    + Improved to allow for empty media titles
+    - Restored open settings when opening app twice logic
+    - Prevented browsers from interacting with hide when active logic
+    - Fixed now playing restoration bug on screen unlock
+    - Fixed music retention on pause
+    - Prevented native HUD from being disabled if custom HUD is disabled
+    - Fixed visual height bug when menubar is hidden
+    - Fixed expanded notch padding for MacBook Air with notch
+    - Prevented native HUD restoring after unlock
+    - Improved reliability of connectivity for AirPods
+    - Disabled haptic for Quick Peek if it's disabled
+    - Fixed Quick Peek staying frozen if disabled while active
+    - Improved update view scroll logic
+    - Lowered overall volume of sounds in app
+    - Fixed bug with wireless mouse and keyboards causing a crash
+    - Fixed progress slider crash and negative durations
+    - Prevented music app change when quitting an app
+    - Fixed seeker position and duration sometimes retaining the previous media data
+## 1.1 - System-wide media player and focus mode support, configurable displays, and new swipe and notification controls. 
+  ### 1.1.0 31 Dec 2024 
+    + Added system player support (all media sources)
+    + Added support for focus modes (including custom ones)
+    + Added configurable preferred display choice
+    + Added natural movement option for swipes
+    + Added notification duration options
+    + Added hover duration option for expand on hover
+    + Added ability to hide song title extras
+    + Improved design on non notch displays
+    + Improved low battery warnings for connectivity to be instant
+    + Improved marquee design to better match iOS
+    + Improved fine tuner by adding haptic sound
+    + Improved AirPods connectivity to be more reliable
+    - Rewrote music manager for better overall experience
+    - Rewrote focus manager for instant feedback
+    - Fixed lock state sometimes getting stuck
+    - Replaced Safari media source with system instead
+    - Changed notifications to be allowed while expanded
+    - Changed expand to be allowed while notification is visible
+    - Prevented enable focus option from triggering focus state
+    - Changed tuning symbol
+    - Fixed HUD on external Apple displays
+    - Lowered default HUD duration
+    - Fixed transitions between focus states
+    - Fixed multiple swipe triggers spam
+    - Fixed slider bounce animation glitch
+    - Prevented native HUD from restoring on screen wake
+    - Prevented volume HUD from triggering on connectivity
+    - Fixed audio device symbol failing on certain Mac
+    - Fixed certain device type crashes
+    - Fixed bug displaying incorrect device type on volume change
+    - Fixed visually stuck bug when pressing and dragging notch
+    - Fixed open app bug when app has non default location
+    - Lowered notification default duration
+    - Fixed all known album art crashes
+## 1.0 - Alcove's first public release — Dynamic Island for your Mac. 
+  ### 1.0.3 5 Dec 2024 Seems we get another patch before v1.1.0, last one... I promise!
+    + Added percentage option to HUD
+    + Added additional device symbols to volume HUD
+    - Fixed lock icon animation freeze during unlock
+    - Stopped native HUD from relaunching on screen wake
+    - Fixed crash in licensing logic
+    - Fixed notch tuning not triggering on manual input
+  ### 1.0.2 4 Dec 2024 Last patch before the v1.1.0 release. Thanks for your patience!
+    + Added ability to fine tune notch height
+    + Added AirPods 4 connectivity support
+    - Fixed design inconsistencies on the update view
+    - Fixed expand state being stuck after hover in rare situations
+    - Fixed crash when Mac goes to sleep with AirPods connected
+    - Increased safe padding around notch area
+    - Fixed low battery warning for AirPods not working properly
+    - Fixed crash on certain external displays
+    - Fixed native HUD sometimes being restored after unlock
+    - Changed now playing icon to better reflect future media types
+    - Fixed trial text animation bug when changing tabs
+    - Fixed update controller breaking the app in certain edge cases
+  ### 1.0.1 29 Nov 2024 Quick patch before the big one. Lots of features and even more fixes coming very soon. Thanks for your patience!
+    + Added option to hide labels on HUD
+    + Added option to disable spectrogram
+    - Fixed lock screen option from disabling notifications entirely
+    - Prevents volume HUD changes from restoring now playing even when disabled
+    - Fixed an edge case where battery levels didn't show for certain AirPods models
+    - Improved clarity of menu bar icon in light appearance mode
+    - Fixed natural scrolling for swipe gestures
+    - Fixed now playing not resuming after focus toggle
+    - Fixed marquee not updating on text change
+    - Fixed AirPods connectivity not showing properly in certain situations
+    - Fixed Alcove not launching properly with Launch on Login option enabled
+    - Improved marquee when artist is empty
+    - Improved logic when album is not set

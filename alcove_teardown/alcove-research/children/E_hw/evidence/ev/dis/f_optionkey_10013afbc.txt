@@ -1,0 +1,64 @@
+            ; CALL XREF from sym.func.100136b4c @ 0x100136d0c(x)
+            ; CALL XREF from sym.func.100136eac @ 0x1001370d8(x)
+/ 232: sym.func.10013afbc (int64_t arg1);
+| `- args(x21, x0) vars(8:sp[0x8..0x40])
+|           0x10013afbc      f85fbca9       stp x24, x23, [var_40h]!
+|           0x10013afc0      f65701a9       stp x22, x21, [var_10h]
+|           0x10013afc4      f44f02a9       stp x20, x19, [var_20h]
+|           0x10013afc8      fd7b03a9       stp x29, x30, [var_30h]
+|           0x10013afcc      fdc30091       add x29, sp, 0x30
+|           0x10013afd0      f60300aa       mov x22, x0                ; arg1
+|           0x10013afd4      c0240090       adrp x0, 0x1005d2000
+|           0x10013afd8      00403e91       add x0, x0, 0xf90          ; int64_t arg1
+|           0x10013afdc      e11800d0       adrp x1, 0x100458000
+|           0x10013afe0      21802291       add x1, x1, 0x8a0          ; int64_t arg2
+|           0x10013afe4      ce1efb97       bl sym.func.100002b1c
+|           0x10013afe8      08805ff8       ldur x8, [x0, -8]
+|           0x10013afec      092140f9       ldr x9, [x8, 0x40]
+|           0x10013aff0      283d0091       add x8, x9, 0xf
+|           0x10013aff4      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x10013aff8      d0230090       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10013affc      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x10013b000      00023fd6       blr x16
+|           0x10013b004      e9030091       mov x9, sp
+|           0x10013b008      350108cb       sub x21, x9, x8            ; error
+|           0x10013b00c      bf020091       mov sp, x21
+|           0x10013b010      000080d2       mov x0, 0
+|           0x10013b014      5e3a0c94       bl sym.imp.Foundation.URL...VMa
+|           0x10013b018      f30300aa       mov x19, x0
+|           0x10013b01c      17805ff8       ldur x23, [x0, -8]
+|           0x10013b020      e82240f9       ldr x8, [x23, 0x40]
+|           0x10013b024      e90308aa       mov x9, x8
+|           0x10013b028      b02300f0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10013b02c      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x10013b030      00023fd6       blr x16
+|           0x10013b034      e9030091       mov x9, sp
+|           0x10013b038      083d0091       add x8, x8, 0xf
+|           0x10013b03c      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x10013b040      340108cb       sub x20, x9, x8
+|           0x10013b044      9f020091       mov sp, x20
+|           0x10013b048      08008052       mov w8, 0
+|           0x10013b04c      df1e00f1       cmp x22, 7
+|       ,=< 0x10013b050      c8080054       b.hi 0x10013b168           ; sym.func.10001d1e8+0x11df80
+|       |   0x10013b054      800680d2       mov x0, 0x34               ; '4'
+|       |   0x10013b058      0000faf2       movk x0, 0xd000, lsl 48
+|       |   0x10013b05c      29008052       mov w9, 1
+|       |   0x10013b060      2921d69a       lsl x9, x9, x22
+|       |   0x10013b064      6a108052       mov w10, 0x83
+|       |   0x10013b068      3f010aea       tst x9, x10
+|      ,==< 0x10013b06c      a0000054       b.eq 0x10013b080
+|      ||   0x10013b070      482000b0       adrp x8, 0x100544000
+|      ||   0x10013b074      08c11d91       add x8, x8, 0x770          ; 0x100544770 ; "x-apple.systempreferences:com.apple.preference.sound"
+|      ||   0x10013b078      188100d1       sub x24, x8, 0x20
+|     ,===< 0x10013b07c      09000014       b 0x10013b0a0
+|     |||   ; CODE XREF from sym.func.10013afbc @ 0x10013b06c(x)
+|     |`--> 0x10013b080      29008052       mov w9, 1
+|     | |   0x10013b084      2921d69a       lsl x9, x9, x22
+|     | |   0x10013b088      3f057ef2       tst x9, 0xc
+|     |,==< 0x10013b08c      e0060054       b.eq 0x10013b168           ; sym.func.10001d1e8+0x11df80
+|     |||   0x10013b090      482000b0       adrp x8, 0x100544000
+|     |||   0x10013b094      08c11c91       add x8, x8, 0x730          ; 0x100544730 ; "x-apple.systempreferences:com.apple.preference.displays"
+|     |||   0x10013b098      188100d1       sub x24, x8, 0x20
+|     |||   0x10013b09c      000c0091       add x0, x0, 3
+|     |||   ; CODE XREF from sym.func.10013afbc @ 0x10013b07c(x)
+\     `---> 0x10013b0a0      010341b2       orr x1, x24, 0x8000000000000000

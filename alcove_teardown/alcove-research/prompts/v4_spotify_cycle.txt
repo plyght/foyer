@@ -1,0 +1,29 @@
+You are on a macOS VM. Task: two targeted live measurements of the Mac app Alcove (https://tryalcove.com, "Dynamic Island for your Mac", v1.7.7, bundle id com.henrikruscon.Alcove). This is competitor research for a clone; output is a measured report plus raw evidence. Label every result OBSERVED (seen live), STATIC (from binary), INFERRED, or UNVERIFIED.
+
+HARD RULES
+- Do NOT purchase Alcove, bypass/patch the trial or licensing, probe license endpoints, open alcove:// license links, or install updates.
+- Do NOT enable display mirroring or create virtual displays: on these VMs it drops the remote connection and kills the session.
+- Never put the Spotify password in any file you attach; put it only in a chat message to the user.
+
+SETUP
+1. Download https://download.tryalcove.com/Alcove.dmg, copy Alcove.app to /Applications, launch, go through onboarding, and start the free 72-hour trial through the normal UI. Grant Accessibility through System Settings > Privacy & Security > Accessibility (macOS password: devin). An earlier VM got stuck at the onboarding Accessibility step: if that happens, add /Applications/Alcove.app with the + button, toggle it on, then quit and reopen Alcove. In Alcove Settings, turn on "Force simulated notch" (this VM has no notch), and under Now Playing set the Explicit badge option to on/visible.
+2. Audio: the VM has no output device. Run `brew install blackhole-2ch switchaudio-osx`, `sudo killall coreaudiod`, `SwitchAudioSource -t output -s "BlackHole 2ch"`, so playback actually progresses.
+3. 60 fps capture: `ffmpeg -f avfoundation -framerate 60 -capture_cursor 1 -i "0:none" -c:v libx264 -preset ultrafast -crf 18 out.mp4`. Kill stale ffmpeg first. Never start a capture while the screen is locked. If `screencapture` returns black for Alcove's overlay, use your computer tool's zoom for pixel sampling. Use a Silver solid wallpaper (/System/Library/Desktop Pictures/Solid Colors/Silver.png), not black.
+
+TASK A: EXPLICIT BADGE VIA SPOTIFY
+Background: Alcove (STATIC) shows an explicit badge, SF Symbol `e.square.fill`, when now-playing info sets kMRMediaRemoteNowPlayingInfoIsExplicitTrack. It also has a Spotify fallback that reads `explicit` / `content_ratings`. Local files tagged explicit in Music, and a custom app publishing the explicit key, both showed NO badge. Spotify is the remaining route.
+1. Install the Spotify desktop app: https://download.scdn.co/Spotify.dmg.
+2. Create a free Spotify account with email nico.jaffer2@gmail.com and a strong password you choose. When Spotify asks for an email verification code, STOP. Send a message with the password you chose and say you're waiting for the code, then wait. You'll be sent the code in chat.
+3. Play several tracks Spotify marks "E" (e.g. search popular hip-hop), plus one clean track as a control. For each, capture at 60 fps: the compact notch, the hover state, the expanded Now Playing view (click the notch), Quick Peek (trigger a track change while Now Playing isn't on screen), and the lock-screen widget if feasible (Ctrl+Cmd+Q, record from before locking; unlock with password devin).
+4. Report: does the badge appear, in which states, and its exact pixel size, position relative to title/artist, colour (sample pixels), and any animation/timing when it appears on a track change. Also report whether the clean control track lacks it. If it never appears, say so and report what Spotify exposes (e.g. `osascript -e 'tell application "Spotify" to get properties of current track'`).
+
+TASK B: CYCLE-ACTIVITY SWIPE THRESHOLD
+Background: Alcove (STATIC) has NotchSwipes fields verticalSwipeSuccess/ResetThreshold, cycleActivitySwipeSuccess/ResetThreshold and horizontalSwipeSuccess/ResetThreshold. Measured earlier: swipe-to-open 35 px, dismiss 35 px, close expanded about 105 px, track skip about 80 px. Cycle activity (switching between two simultaneous activities) was only narrowed to roughly 70–100 px, low confidence, because a calendar countdown kept changing on its own.
+1. Get two simultaneous activities: Now Playing (Spotify or Music playing), plus a second activity that stays stable. Try in this order: a Calendar event starting in about 15–30 min (grant Alcove calendar access) so a countdown activity exists; or a Focus mode on. Confirm visually that the notch can show either activity.
+2. Drive synthetic trackpad-style scroll gestures over the notch with a small Swift CLI using CGEvent scroll-wheel events with scrollPhase began/changed/ended (kCGScrollWheelEventScrollPhase) and continuous pixel deltas (kCGScrollWheelEventIsContinuous = 1). Total distance sweep: 20–160 px in 5 px steps, 3 repeats each, for each direction (left, right, up, down), with the notch both compact and expanded. Record 60 fps during the sweep and log each gesture's start timestamp, direction and distance to a CSV.
+3. Determine: which direction/state cycles activities, the minimum distance that cycles reliably (3/3), the distance at which it is unreliable, whether reversing mid-gesture resets it (reset threshold), and the cycle transition animation timing in frames (start → settled, overshoot %). Distinguish cycle from track-skip and from expand/close.
+
+DELIVERABLE
+- A Markdown report `alcove_v4_spotify_cycle.md` with: setup notes, Task A results, Task B results (a threshold table), and a list of evidence files. Every value labelled OBSERVED/STATIC/INFERRED/UNVERIFIED.
+- A zip containing the report, all clips, extracted key frames/strips (ffmpeg), screenshots, CSV logs, and your Swift sources.
+- Attach both with message_user when done. Also attach key screenshots individually (badge crop, cycle transition strip).

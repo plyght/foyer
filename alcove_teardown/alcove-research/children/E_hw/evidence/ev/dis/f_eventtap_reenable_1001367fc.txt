@@ -1,0 +1,52 @@
+            ; CALL XREF from sym.func.1001368ac @ 0x1001368e8(x)
+/ 176: sym.func.1001367fc (int64_t arg1, int64_t arg2);
+| `- args(x21, x20, x0, x1) vars(6:sp[0x8..0x30])
+|           0x1001367fc      f657bda9       stp x22, x21, [var_30h]!
+|           0x100136800      f44f01a9       stp x20, x19, [var_10h]
+|           0x100136804      fd7b02a9       stp x29, x30, [var_20h]
+|           0x100136808      fd830091       add x29, sp, 0x20
+|           0x10013680c      f30301aa       mov x19, x1                ; arg2
+|           0x100136810      f50300aa       mov x21, x0                ; error
+|           0x100136814      40000094       bl sym.func.100136914
+|       ,=< 0x100136818      c0000036       tbz w0, 0, 0x100136830
+|       |   ; CODE XREFS from sym.func.1001367fc @ 0x100136864(x), 0x10013688c(x), 0x100136894(x)
+|    ...--> 0x10013681c      e00313aa       mov x0, x19
+|    :::|   0x100136820      fd7b42a9       ldp x29, x30, [var_20h]
+|    :::|   0x100136824      f44f41a9       ldp x20, x19, [var_10h]
+|    :::|   0x100136828      f657c3a8       ldp x22, x21, [sp], 0x30
+|    :::|   0x10013682c      c0035fd6       ret
+|    :::|   ; CODE XREF from sym.func.1001367fc @ 0x100136818(x)
+|    :::`-> 0x100136830      a80a0011       add w8, w21, 2
+|    :::    0x100136834      1f090071       cmp w8, 2
+|    :::,=< 0x100136838      43010054       b.lo 0x100136860
+|    :::|   0x10013683c      a82a0051       sub w8, w21, 0xa
+|    :::|   0x100136840      1f090071       cmp w8, 2
+|   ,=====< 0x100136844      62020054       b.hs 0x100136890
+|   |:::|   0x100136848      e00315aa       mov x0, x21
+|   |:::|   0x10013684c      e10313aa       mov x1, x19
+|   |:::|   0x100136850      fd7b42a9       ldp x29, x30, [var_20h]
+|   |:::|   0x100136854      f44f41a9       ldp x20, x19, [var_10h]
+|   |:::|   0x100136858      f657c3a8       ldp x22, x21, [sp], 0x30   ; [0x178000:4]=0
+|  ,======< 0x10013685c      bc000014       b sym.func.100136b4c
+|  ||:::|   ; CODE XREF from sym.func.1001367fc @ 0x100136838(x)
+|  ||:::`-> 0x100136860      802240f9       ldr x0, [x20, 0x40]        ; self
+|  ||`====< 0x100136864      c0fdffb4       cbz x0, 0x10013681c
+|  || ::    0x100136868      915b0c94       bl sym.imp.objc_retain     ; void objc_retain(void *instance)
+|  || ::    0x10013686c      f40300aa       mov x20, x0
+|  || ::    0x100136870      85590c94       bl sym.imp.AXIsProcessTrusted
+|  || ::,=< 0x100136874      80000034       cbz w0, 0x100136884
+|  || ::|   0x100136878      e00314aa       mov x0, x20
+|  || ::|   0x10013687c      21008052       mov w1, 1
+|  || ::|   0x100136880      175a0c94       bl sym.imp.CGEventTapEnable
+|  || ::|   ; CODE XREF from sym.func.1001367fc @ 0x100136874(x)
+|  || ::`-> 0x100136884      e00314aa       mov x0, x20                ; void *instance
+|  || ::    0x100136888      865b0c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|  || `===< 0x10013688c      e4ffff17       b 0x10013681c
+|  ||  :    ; CODE XREF from sym.func.1001367fc @ 0x100136844(x)
+|  |`-----> 0x100136890      bf3a0071       cmp w21, 0xe
+|  |   `==< 0x100136894      41fcff54       b.ne 0x10013681c
+|  |        0x100136898      e00313aa       mov x0, x19
+|  |        0x10013689c      fd7b42a9       ldp x29, x30, [var_20h]
+|  |        0x1001368a0      f44f41a9       ldp x20, x19, [var_10h]
+|  |        0x1001368a4      f657c3a8       ldp x22, x21, [sp], 0x30
+\  |    ,=< 0x1001368a8      81010014       b sym.func.100136eac

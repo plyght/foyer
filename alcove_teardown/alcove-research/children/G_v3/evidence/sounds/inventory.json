@@ -1,0 +1,145 @@
+[
+  {
+    "file": "alt-jingle.m4a",
+    "codec": "alac",
+    "container_duration": 5.995646,
+    "decoded_duration": 5.995645833333334,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -3.3690373394657787,
+    "rms_dbfs": -17.700545729516158,
+    "frames": 287791
+  },
+  {
+    "file": "blips.m4a",
+    "codec": "alac",
+    "container_duration": 6.741333,
+    "decoded_duration": 6.741333333333333,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -4.124062754120927,
+    "rms_dbfs": -23.025076627954967,
+    "frames": 323584
+  },
+  {
+    "file": "chime.caf",
+    "codec": "pcm_s16le",
+    "container_duration": 4.237438,
+    "decoded_duration": 4.237437641723356,
+    "sample_rate": 44100,
+    "channels": 1,
+    "peak_dbfs": -20.041982723075222,
+    "rms_dbfs": -43.76528849876932,
+    "frames": 186871
+  },
+  {
+    "file": "directions.caf",
+    "codec": "pcm_s16le",
+    "container_duration": 1.475556,
+    "decoded_duration": 1.4755555555555555,
+    "sample_rate": 44100,
+    "channels": 1,
+    "peak_dbfs": -14.020051128744607,
+    "rms_dbfs": -33.03454571025999,
+    "frames": 65072
+  },
+  {
+    "file": "event.caf",
+    "codec": "pcm_s16le",
+    "container_duration": 1.743084,
+    "decoded_duration": 1.7430839002267573,
+    "sample_rate": 44100,
+    "channels": 1,
+    "peak_dbfs": -17.52126131884068,
+    "rms_dbfs": -36.3355766735507,
+    "frames": 76870
+  },
+  {
+    "file": "haptic.caf",
+    "codec": "pcm_s24le",
+    "container_duration": 0.010583,
+    "decoded_duration": 0.010583333333333333,
+    "sample_rate": 48000,
+    "channels": 1,
+    "peak_dbfs": -8.531374692111951,
+    "rms_dbfs": -25.20988508383235,
+    "frames": 508
+  },
+  {
+    "file": "lock.caf",
+    "codec": "pcm_s24le",
+    "container_duration": 0.283938,
+    "decoded_duration": 0.2839375,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -10.672934365750915,
+    "rms_dbfs": -38.30638798446466,
+    "frames": 13629
+  },
+  {
+    "file": "low-battery.caf",
+    "codec": "pcm_s16le",
+    "container_duration": 1.095875,
+    "decoded_duration": 1.095875,
+    "sample_rate": 48000,
+    "channels": 1,
+    "peak_dbfs": -0.0005301608106181009,
+    "rms_dbfs": -20.7491170508608,
+    "frames": 52602
+  },
+  {
+    "file": "low-power.caf",
+    "codec": "pcm_s16le",
+    "container_duration": 0.672018,
+    "decoded_duration": 0.6720181405895692,
+    "sample_rate": 44100,
+    "channels": 2,
+    "peak_dbfs": -5.8033300973054915,
+    "rms_dbfs": -25.462781536884407,
+    "frames": 29636
+  },
+  {
+    "file": "pad.m4a",
+    "codec": "alac",
+    "container_duration": 6.058667,
+    "decoded_duration": 6.058666666666666,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -3.9460617971384684,
+    "rms_dbfs": -22.45499937736379,
+    "frames": 290816
+  },
+  {
+    "file": "sleep.caf",
+    "codec": "pcm_s16le",
+    "container_duration": 3.002417,
+    "decoded_duration": 3.0024166666666665,
+    "sample_rate": 48000,
+    "channels": 1,
+    "peak_dbfs": -11.118631159734393,
+    "rms_dbfs": -30.612743948953145,
+    "frames": 144116
+  },
+  {
+    "file": "unlock.caf",
+    "codec": "pcm_s16le",
+    "container_duration": 0.269728,
+    "decoded_duration": 0.26972789115646256,
+    "sample_rate": 44100,
+    "channels": 1,
+    "peak_dbfs": -11.90653217337988,
+    "rms_dbfs": -39.89360784372443,
+    "frames": 11895
+  },
+  {
+    "file": "volume.caf",
+    "codec": "pcm_s16le",
+    "container_duration": 0.382426,
+    "decoded_duration": 0.3824263038548753,
+    "sample_rate": 44100,
+    "channels": 1,
+    "peak_dbfs": -6.9999572425557846,
+    "rms_dbfs": -30.40389576620088,
+    "frames": 16865
+  }
+]

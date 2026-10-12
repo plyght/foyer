@@ -1,0 +1,9 @@
+drwxr-xr-x  5 devin  staff  160 Oct 11 10:05 /Users/devin/Library/Caches/com.henrikruscon.Alcove
+-rw-r--r--  1 devin  staff  32768 Oct 11 10:05 /Users/devin/Library/Caches/com.henrikruscon.Alcove/Cache.db-shm
+-rw-r--r--  1 devin  staff  41232 Oct 11 10:05 /Users/devin/Library/Caches/com.henrikruscon.Alcove/Cache.db-wal
+-rw-r--r--@ 1 devin  staff  49152 Oct 11 10:05 /Users/devin/Library/Caches/com.henrikruscon.Alcove/Cache.db
+drwxr-xr-x@ 5 devin  staff  160 Oct 11 10:05 /Users/devin/Library/HTTPStorages/com.henrikruscon.Alcove
+-rw-r--r--  1 devin  staff  24752 Oct 11 10:05 /Users/devin/Library/HTTPStorages/com.henrikruscon.Alcove/httpstorages.sqlite-wal
+-rw-r--r--@ 1 devin  staff  4096 Oct 11 10:05 /Users/devin/Library/HTTPStorages/com.henrikruscon.Alcove/httpstorages.sqlite
+-rw-r--r--  1 devin  staff  32768 Oct 11 10:05 /Users/devin/Library/HTTPStorages/com.henrikruscon.Alcove/httpstorages.sqlite-shm
+-rw-------@ 1 devin  staff  3192 Oct 11 10:17 /Users/devin/Library/Preferences/com.henrikruscon.Alcove.plist

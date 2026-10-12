@@ -1,0 +1,3 @@
+PID   COMMAND      %CPU MEM   #TH #PORTS IDLEW CSW    
+2607  Alcove       0.1  73M   9   462    0     470230+
+3213  AlcoveHelper 0.0  3457K 2   46     0     604    

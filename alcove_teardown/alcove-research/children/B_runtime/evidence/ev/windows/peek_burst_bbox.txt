@@ -1,0 +1,16 @@
+shots/peek_burst_0.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58462
+shots/peek_burst_1.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58450
+shots/peek_burst_2.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58450
+shots/peek_burst_3.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58474
+shots/peek_burst_4.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58442
+shots/peek_burst_5.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58438
+shots/peek_burst_6.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58442
+shots/peek_burst_7.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58450
+shots/peek_burst_8.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58466
+shots/peek_burst_9.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58430
+shots/peek_burst_10.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58454
+shots/peek_burst_11.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58446
+shots/peek_burst_12.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58442
+shots/peek_burst_13.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58454
+shots/peek_burst_14.png: dark bbox screen x=613..987 (w=375) y=0..174 (h=175) darkpx=58450
+quit QT @ 10:27:52.605889000

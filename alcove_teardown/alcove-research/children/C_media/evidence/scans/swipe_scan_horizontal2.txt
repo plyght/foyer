@@ -1,0 +1,28 @@
+== horiz dx=55  before=A Very Long Song Title That Sh
+1791739968.486 swipeseq ended cum=(55.0,0.0)
+after: playing, A Very Long Song Title That Should Definitely Overf
+1791739969.706 width=234 left=683 height=33
+== horiz dx=60  before=A Very Long Song Title That Sh
+1791739972.083 swipeseq ended cum=(60.0,0.0)
+after: playing, A Very Long Song Title That Should Definitely Overf
+1791739973.314 width=234 left=683 height=33
+== horiz dx=65  before=A Very Long Song Title That Sh
+1791739975.699 swipeseq ended cum=(65.0,0.0)
+after: playing, A Very Long Song Title That Should Definitely Overf
+1791739976.939 width=234 left=683 height=33
+== horiz dx=70  before=A Very Long Song Title That Sh
+1791739979.307 swipeseq ended cum=(70.0,0.0)
+after: playing, A Very Long Song Title That Should Definitely Overf
+1791739980.538 width=234 left=683 height=33
+== horiz dx=75  before=A Very Long Song Title That Sh
+1791739982.878 swipeseq ended cum=(75.0,0.0)
+after: playing, A Very Long Song Title That Should Definitely Overf
+1791739984.108 width=234 left=683 height=33
+== horiz dx=-100  before=A Very Long Song Title That Sh
+1791739986.474 swipeseq ended cum=(-100.0,0.0)
+after: playing, A Very Long Song Title That Should Definitely Overf
+1791739987.710 width=234 left=683 height=33
+== horiz dx=-150  before=A Very Long Song Title That Sh
+1791739990.056 swipeseq ended cum=(-150.0,0.0)
+after: playing, A Very Long Song Title That Should Definitely Overf
+1791739991.288 width=234 left=683 height=33

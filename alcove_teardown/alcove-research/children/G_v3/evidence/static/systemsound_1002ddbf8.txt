@@ -1,0 +1,211 @@
+FUNCTION sym.func.1002ddbf8 0x1002ddbf8-0x1002ddf40
+00000001002ddbf8	orr	x29, x29, #0x1000000000000000
+00000001002ddbfc	sub	sp, sp, #0x60
+00000001002ddc00	stp	x28, x27, [sp, #0x8]
+00000001002ddc04	stp	x26, x25, [sp, #0x18]
+00000001002ddc08	stp	x24, x23, [sp, #0x28]
+00000001002ddc0c	stp	x21, x19, [sp, #0x38]
+00000001002ddc10	stp	x29, x30, [sp, #0x50]
+00000001002ddc14	str	x22, [sp, #0x48]
+00000001002ddc18	add	x29, sp, #0x50
+00000001002ddc1c	ldr	x8, [x22, #0x48]
+00000001002ddc20	adrp	x9, 763 ; 0x1005d8000
+00000001002ddc24	ldr	x9, [x9, #0x5e0]
+00000001002ddc28	add	x8, x8, x9
+00000001002ddc2c	ldp	x20, x19, [x8]
+00000001002ddc30	ldr	x21, [x8, #0x10]
+00000001002ddc34	bl	0x10001e0a4
+00000001002ddc38	mov	x23, x0
+00000001002ddc3c	mov	x0, x20
+00000001002ddc40	bl	0x10044dad8 ; symbol stub for: _swift_retain
+00000001002ddc44	mov	x0, x21
+00000001002ddc48	bl	0x10044dad8 ; symbol stub for: _swift_retain
+00000001002ddc4c	adrp	x3, 728 ; 0x1005b5000
+00000001002ddc50	ldr	x3, [x3, #0x7f8] ; literal pool symbol address: _$sSbN
+00000001002ddc54	add	x8, x22, #0x88
+00000001002ddc58	mov	x0, x20
+00000001002ddc5c	mov	x1, x19
+00000001002ddc60	mov	x2, x21
+00000001002ddc64	mov	x4, x23
+00000001002ddc68	bl	0x10043d9f4
+00000001002ddc6c	mov	x0, x20
+00000001002ddc70	bl	0x10044dac0 ; symbol stub for: _swift_release
+00000001002ddc74	mov	x0, x21
+00000001002ddc78	bl	0x10044dac0 ; symbol stub for: _swift_release
+00000001002ddc7c	ldrb	w8, [x22, #0x88]
+00000001002ddc80	cmp	w8, #0x1
+00000001002ddc84	b.ne	0x1002dddb8
+00000001002ddc88	adrp	x8, 759 ; 0x1005d4000
+00000001002ddc8c	ldr	x8, [x8, #0x558]
+00000001002ddc90	cmn	x8, #0x1
+00000001002ddc94	b.ne	0x1002ddf10
+00000001002ddc98	adrp	x8, 805 ; 0x100602000
+00000001002ddc9c	ldr	x20, [x8, #0xfb0]
+00000001002ddca0	add	x0, x20, #0x70
+00000001002ddca4	add	x1, x22, #0x10
+00000001002ddca8	mov	x2, #0x0
+00000001002ddcac	mov	x3, #0x0
+00000001002ddcb0	bl	0x10044d7cc ; symbol stub for: _swift_beginAccess
+00000001002ddcb4	ldr	x21, [x20, #0x70]
+00000001002ddcb8	mov	x19, x21
+00000001002ddcbc	ldr	x8, [x19, #0x40]!
+00000001002ddcc0	ldrb	w9, [x21, #0x20]
+00000001002ddcc4	mov	x10, #-0x1
+00000001002ddcc8	lsl	x9, x10, x9
+00000001002ddccc	neg	x11, x9
+00000001002ddcd0	lsl	x12, x10, x11
+00000001002ddcd4	cmp	x11, #0x40
+00000001002ddcd8	csinv	x10, x10, x12, hs
+00000001002ddcdc	and	x25, x10, x8
+00000001002ddce0	mov	w8, #0x3f
+00000001002ddce4	sub	x8, x8, x9
+00000001002ddce8	lsr	x23, x8, #6
+00000001002ddcec	mov	x0, x21
+00000001002ddcf0	mov	w1, #0x2
+00000001002ddcf4	bl	0x10044d7fc ; symbol stub for: _swift_bridgeObjectRetain_n
+00000001002ddcf8	mov	x24, #0x0
+00000001002ddcfc	b	0x1002ddd98
+00000001002ddd00	rbit	x8, x25
+00000001002ddd04	clz	x8, x8
+00000001002ddd08	sub	x9, x25, #0x1
+00000001002ddd0c	and	x25, x9, x25
+00000001002ddd10	ldr	x9, [x21, #0x38]
+00000001002ddd14	add	x8, x9, x8, lsl #3
+00000001002ddd18	lsl	x9, x24, #9
+00000001002ddd1c	ldr	x26, [x8, x9]
+00000001002ddd20	adrp	x0, 403 ; 0x100470000
+00000001002ddd24	add	x0, x0, #0x430
+00000001002ddd28	bl	0x10044d970 ; symbol stub for: _swift_getKeyPath
+00000001002ddd2c	mov	x27, x0
+00000001002ddd30	adrp	x8, 758 ; 0x1005d3000
+00000001002ddd34	ldr	x20, [x8, #0xf20]
+00000001002ddd38	stur	x26, [x22, #0x40]
+00000001002ddd3c	adrp	x0, 747 ; 0x1005c8000
+00000001002ddd40	add	x0, x0, #0xe00
+00000001002ddd44	adrp	x1, -171 ; 0x100232000
+00000001002ddd48	add	x1, x1, #0xc38
+00000001002ddd4c	adrp	x2, 396 ; 0x100469000
+00000001002ddd50	add	x2, x2, #0x330
+00000001002ddd54	bl	0x1000090fc
+00000001002ddd58	mov	x28, x0
+00000001002ddd5c	mov	x0, x26
+00000001002ddd60	bl	0x10044dad8 ; symbol stub for: _swift_retain
+00000001002ddd64	add	x0, x22, #0x40
+00000001002ddd68	add	x20, x26, x20
+00000001002ddd6c	mov	x1, x27
+00000001002ddd70	mov	x2, x28
+00000001002ddd74	bl	0x100449ea8 ; symbol stub for: _$s11Observation0A9RegistrarV6access_7keyPathyx_s03KeyE0Cyxq_GtAA10ObservableRzr0_lF
+00000001002ddd78	mov	x0, x27
+00000001002ddd7c	bl	0x10044dac0 ; symbol stub for: _swift_release
+00000001002ddd80	adrp	x8, 758 ; 0x1005d3000
+00000001002ddd84	ldr	x8, [x8, #0xd80]
+00000001002ddd88	ldrb	w20, [x26, x8]
+00000001002ddd8c	mov	x0, x26
+00000001002ddd90	bl	0x10044dac0 ; symbol stub for: _swift_release
+00000001002ddd94	tbnz	w20, #0x0, 0x1002dde7c
+00000001002ddd98	cbnz	x25, 0x1002ddd00
+00000001002ddd9c	adds	x24, x24, #0x1
+00000001002ddda0	b.vs	0x1002ddf0c
+00000001002ddda4	cmp	x24, x23
+00000001002ddda8	b.ge	0x1002dddec
+00000001002dddac	ldr	x25, [x19, x24, lsl #3]
+00000001002dddb0	cbz	x25, 0x1002ddd9c
+00000001002dddb4	b	0x1002ddd00
+00000001002dddb8	ldr	x0, [x22, #0x68]
+00000001002dddbc	bl	0x10044dac0 ; symbol stub for: _swift_release
+00000001002dddc0	ldr	x0, [x22, #0x60]
+00000001002dddc4	bl	0x10044db50 ; symbol stub for: _swift_task_dealloc
+00000001002dddc8	ldr	x0, [x22, #0x8]
+00000001002dddcc	ldp	x29, x30, [sp, #0x50]
+00000001002dddd0	ldp	x21, x19, [sp, #0x38]
+00000001002dddd4	ldp	x24, x23, [sp, #0x28]
+00000001002dddd8	ldp	x26, x25, [sp, #0x18]
+00000001002ddddc	ldp	x28, x27, [sp, #0x8]
+00000001002ddde0	and	x29, x29, #0xefffffffffffffff
+00000001002ddde4	add	sp, sp, #0x60
+00000001002ddde8	br	x0
+00000001002dddec	mov	x0, x21
+00000001002dddf0	bl	0x10044dac0 ; symbol stub for: _swift_release
+00000001002dddf4	mov	x0, x21
+00000001002dddf8	bl	0x10044d7d8 ; symbol stub for: _swift_bridgeObjectRelease
+00000001002dddfc	ldr	x8, [x22, #0x60]
+00000001002dde00	bl	0x10044cca4 ; symbol stub for: _$ss5ClockPss010ContinuousA0VRszrlE10continuousADvgZ
+00000001002dde04	adrp	x8, 396 ; 0x100469000
+00000001002dde08	add	x8, x8, #0x3a8
+00000001002dde0c	ldp	w9, w0, [x8]
+00000001002dde10	sxtw	x9, w9
+00000001002dde14	add	x1, x9, x8
+00000001002dde18	str	x1, [sp]
+00000001002dde1c	bl	0x10044db38 ; symbol stub for: _swift_task_alloc
+00000001002dde20	str	x0, [x22, #0x80]
+00000001002dde24	adrp	x8, 0 ; 0x1002dd000
+00000001002dde28	add	x8, x8, #0xf40
+00000001002dde2c	stp	x22, x8, [x0]
+00000001002dde30	ldr	x20, [x22, #0x60]
+00000001002dde34	mov	x8, #0xa7640000
+00000001002dde38	movk	x8, #0xb6b3, lsl #32
+00000001002dde3c	movk	x8, #0xde0, lsl #48
+00000001002dde40	mov	x22, x0
+00000001002dde44	mov	x0, x8
+00000001002dde48	mov	x1, #0x0
+00000001002dde4c	mov	x2, #0x0
+00000001002dde50	mov	x3, #0x0
+00000001002dde54	mov	w4, #0x1
+00000001002dde58	ldr	x5, [sp]
+00000001002dde5c	ldp	x29, x30, [sp, #0x50]
+00000001002dde60	ldp	x21, x19, [sp, #0x38]
+00000001002dde64	ldp	x24, x23, [sp, #0x28]
+00000001002dde68	ldp	x26, x25, [sp, #0x18]
+00000001002dde6c	ldp	x28, x27, [sp, #0x8]
+00000001002dde70	and	x29, x29, #0xefffffffffffffff
+00000001002dde74	add	sp, sp, #0x60
+00000001002dde78	br	x5
+00000001002dde7c	mov	x0, x21
+00000001002dde80	bl	0x10044dac0 ; symbol stub for: _swift_release
+00000001002dde84	mov	x0, x21
+00000001002dde88	bl	0x10044d7d8 ; symbol stub for: _swift_bridgeObjectRelease
+00000001002dde8c	adrp	x8, 764 ; 0x1005d9000
+00000001002dde90	ldr	x8, [x8, #0x20]
+00000001002dde94	cmn	x8, #0x1
+00000001002dde98	b.ne	0x1002ddf28
+00000001002dde9c	adrp	x8, 805 ; 0x100602000
+00000001002ddea0	ldr	x20, [x8, #0xff8]
+00000001002ddea4	adrp	x8, 763 ; 0x1005d8000
+00000001002ddea8	ldr	x19, [x8, #0xe68]
+00000001002ddeac	add	x0, x20, x19
+00000001002ddeb0	add	x1, x22, #0x28
+00000001002ddeb4	mov	w2, #0x20
+00000001002ddeb8	mov	x3, #0x0
+00000001002ddebc	bl	0x10044d7cc ; symbol stub for: _swift_beginAccess
+00000001002ddec0	ldr	x20, [x20, x19]
+00000001002ddec4	ldr	x8, [x20, #0x10]
+00000001002ddec8	cbz	x8, 0x1002ddf00
+00000001002ddecc	mov	x0, #0x6863
+00000001002dded0	movk	x0, #0x6d69, lsl #16 ; SMALL 'chim'
+00000001002dded4	movk	x0, #0x65, lsl #32 ; SMALL 'chime'
+00000001002dded8	mov	x1, #-0x1b00000000000000
+00000001002ddedc	bl	0x10011f3f8
+00000001002ddee0	tbz	w1, #0x0, 0x1002ddf00
+00000001002ddee4	ldr	x8, [x20, #0x38]
+00000001002ddee8	ldr	w20, [x8, x0, lsl #2]
+00000001002ddeec	add	x0, x22, #0x28
+00000001002ddef0	bl	0x10044d8e0 ; symbol stub for: _swift_endAccess
+00000001002ddef4	mov	x0, x20
+00000001002ddef8	bl	0x10044cf14 ; symbol stub for: _AudioServicesPlaySystemSound
+00000001002ddefc	b	0x1002dddfc
+00000001002ddf00	add	x0, x22, #0x28
+00000001002ddf04	bl	0x10044d8e0 ; symbol stub for: _swift_endAccess
+00000001002ddf08	b	0x1002dddfc
+00000001002ddf0c	brk	#0x1
+00000001002ddf10	adrp	x0, 759 ; 0x1005d4000
+00000001002ddf14	add	x0, x0, #0x558
+00000001002ddf18	adrp	x1, -159 ; 0x10023e000
+00000001002ddf1c	add	x1, x1, #0xea0
+00000001002ddf20	bl	0x10044dab4 ; symbol stub for: _swift_once
+00000001002ddf24	b	0x1002ddc98
+00000001002ddf28	adrp	x0, 764 ; 0x1005d9000
+00000001002ddf2c	add	x0, x0, #0x20
+00000001002ddf30	adrp	x1, 44 ; 0x100309000
+00000001002ddf34	add	x1, x1, #0x370
+00000001002ddf38	bl	0x10044dab4 ; symbol stub for: _swift_once
+00000001002ddf3c	b	0x1002dde9c

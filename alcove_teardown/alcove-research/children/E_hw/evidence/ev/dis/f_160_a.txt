@@ -1,0 +1,48 @@
+|           0x100263b78      e97bf697       bl sym.func.100002b1c
+|           0x100263ba4      0d9e0794       bl sym.imp.SwiftUI.Color.black_...vgZ_ ; SwiftUI.Color.black(...vgZ)
+|           0x100263bb0      e9fcff97       bl sym.func.100262f54
+|           0x100263bc8      d57bf697       bl sym.func.100002b1c
+|           0x100263bdc      439f0794       bl sym.imp.SwiftUI.LazyState.wrappedValue_...g_ ; SwiftUI.LazyState.wrappedValue(...g)
+|           0x100263bf0      0001679e       fmov d0, x8
+|           0x100263c00      ff9d0794       bl sym.imp.SwiftUI.Color.opacity_...CSdF_ ; SwiftUI.Color.opacity(...CSdF)
+|           0x100263c0c      ada70794       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|      :|   0x100263c34      9b82f697       bl sym.func.1000046a0
+|      :|   0x100263c40      eca60794       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+|      :|   0x100263c54      069d0794       bl sym.imp.SwiftUI.Text...VyACxcSyRzlufC
+|      :|   0x100263c68      a79c0794       bl sym.imp.SwiftUI.Font.Weight.heavy_...vgZ_ ; SwiftUI.Font.Weight.heavy(...vgZ)
+|      :|   0x100263c6c      1600669e       fmov x22, d0
+|      :|   0x100263c74      929c0794       bl sym.imp.SwiftUI.Font.Design_...a_ ; SwiftUI.Font.Design(...a)
+|      :|   0x100263c94      680ae8d2       mov x8, 0x4053000000000000
+|      :|   0x100263c98      0001679e       fmov d0, x8
+|      :|   0x100263ca8      a69c0794       bl sym.imp.SwiftUI.Font.system.size.weight.design.CoreGraphics.CGFloat.Weight.Design_...gtFZ_ ; SwiftUI.Font.system.size.weight.design.CoreGraphics.CGFloat.Weight.Design(...gtFZ)
+|      :|   0x100263cc4      719bf697       bl sym.func.10000aa88
+|      :|   0x100263cdc      cf9c0794       bl sym.imp.SwiftUI.Text.font.Font...VSgF
+|      :|   0x100263cf4      73a70794       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|      :|   0x100263d04      1b9bf697       bl sym.func.10000a970
+|      :|   0x100263d0c      b3a60794       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+|      :|   0x100263d10      b29d0794       bl sym.imp.SwiftUI.Color.black_...vgZ_ ; SwiftUI.Color.black(...vgZ)
+|      :|   0x100263d20      0001679e       fmov d0, x8
+|      :|   0x100263d24      b69d0794       bl sym.imp.SwiftUI.Color.opacity_...CSdF_ ; SwiftUI.Color.opacity(...CSdF)
+|      :|   0x100263d30      64a70794       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|      :|   0x100263d60      b59e0794       bl sym.imp.SwiftUI.Alignment.center_...vgZ_ ; SwiftUI.Alignment.center(...vgZ)
+|      :|   0x100263d9c      4b9bf697       bl sym.func.10000aac8
+|      :|   0x100263dac      0a010094       bl sym.func.1002641d4
+|      :|   0x100263e34      259bf697       bl sym.func.10000aac8
+|      :|   0x100263e44      119bf697       bl sym.func.10000aa88
+|      :|   0x100263e54      0d9bf697       bl sym.func.10000aa88
+|      :|   0x100263ef4      f59af697       bl sym.func.10000aac8
+|      :|   0x100263f04      e19af697       bl sym.func.10000aa88
+|      :|   0x100263f14      759e0794       bl sym.imp.SwiftUI.LazyState.wrappedValue_...g_ ; SwiftUI.LazyState.wrappedValue(...g)
+|      :|   0x100263f20      0010621e       fmov d0, 4.00000000
+|      :|   0x100263ff8      b49af697       bl sym.func.10000aac8
+|      :|   0x100264008      a09af697       bl sym.func.10000aa88
+|      :|   0x100264108      880ce8d2       mov x8, 0x4064000000000000
+|      :|   0x100264114      8804e8d2       mov x8, 0x4024000000000000
+|      :|   0x100264128      6ca60794       bl sym.imp.swift_retain
+|      :|   0x10026414c      5f9af697       bl sym.func.10000aac8
+|      :|   0x100264154      61a60794       bl sym.imp.swift_retain
+|      :|   0x100264168      589af697       bl sym.func.10000aac8
+|      :|   0x100264178      449af697       bl sym.func.10000aa88
+|      :|   0x100264184      52a60794       bl sym.imp.swift_release_n
+|      :|   0x100264194      3d9af697       bl sym.func.10000aa88
+|      :    0x1002641cc      3aa60794       bl sym.imp.swift_once

@@ -1,0 +1,49 @@
+            ; ICOD XREF from sym.func.100362274 @ 0x10036252c(r)
+            ; ICOD XREF from sym.func.100362538 @ 0x100362814(r)
+/ 44: sym.func.1003602a8 ();
+| afv: vars(2:sp[0x8..0x10])
+|           0x1003602a8      fd7bbfa9       stp x29, x30, [var_10h]!
+|           0x1003602ac      fd030091       mov x29, sp
+|           0x1003602b0      881200d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1003602b4      00fd41f9       ldr x0, [x8, 0x3f8]        ; [0x1005b23f8:8]=0
+|                                                                      ; reloc.NSNumber ; void *arg0
+|           0x1003602b8      e5b40394       bl sym.imp.objc_allocWithZone ; void *objc_allocWithZone(void *arg0)
+|           0x1003602bc      0090661e       fmov d0, 20.00000000
+|           0x1003602c0      a0bd0394       bl fcn.10044f940
+|           0x1003602c4      c81300d0       adrp x8, 0x1005da000
+|           0x1003602c8      00c105f9       str x0, [x8, 0xb80]
+|           0x1003602cc      fd7bc1a8       ldp x29, x30, [sp], 0x10
+\           0x1003602d0      c0035fd6       ret
+/ 132: sym.func.1003602d4 ();
+| `- args(x20, x21) vars(7:sp[0x8..0x38])
+|           0x1003602d4      ff0301d1       sub sp, sp, 0x40
+|           0x1003602d8      f65701a9       stp x22, x21, [var_10h]
+|           0x1003602dc      f44f02a9       stp x20, x19, [var_20h]
+|           0x1003602e0      fd7b03a9       stp x29, x30, [var_30h]
+|           0x1003602e4      fdc30091       add x29, sp, 0x30
+|           0x1003602e8      f30314aa       mov x19, x20               ; self
+|           0x1003602ec      800800f0       adrp x0, 0x100473000
+|           0x1003602f0      00c02791       add x0, x0, 0x9f0
+|           0x1003602f4      9fb50394       bl sym.imp.swift_getKeyPath
+|           0x1003602f8      f50300aa       mov x21, x0                ; error
+|           0x1003602fc      c81300d0       adrp x8, 0x1005da000
+|           0x100360300      148944f9       ldr x20, [x8, 0x910]       ; [0x1005da910:8]=0
+|                                                                      ; field.class.Alcove.AudioManager.var.__observationRegistrar
+|           0x100360304      f30700f9       str x19, [var_8h]
+|           0x100360308      40130090       adrp x0, 0x1005c8000
+|           0x10036030c      00403c91       add x0, x0, 0xf10          ; 0x1005c8f10
+|                                                                      ; aav.0x1005c8f10 ; int64_t arg1
+|           0x100360310      010000b0       adrp x1, 0x100361000
+|           0x100360314      21e02b91       add x1, x1, 0xaf8          ; int64_t arg2
+|           0x100360318      820800f0       adrp x2, 0x100473000
+|           0x10036031c      42402791       add x2, x2, 0x9d0
+|           0x100360320      77a3f297       bl sym.func.1000090fc
+|           0x100360324      e20300aa       mov x2, x0
+|           0x100360328      e0230091       add x0, sp, 8
+|           0x10036032c      7402148b       add x20, x19, x20
+|           0x100360330      e10315aa       mov x1, x21
+|           0x100360334      dda60394       bl sym.imp.Observation.Registrar.access.keyPath.Key...E0Cyxq_GtAA10ObservableRzr0_lF
+|           0x100360338      e00315aa       mov x0, x21                ; void *arg0
+|           0x10036033c      e1b50394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x100360340      60c24139       ldrb w0, [x19, 0x70]
+|           0x100360344      fd7b43a9       ldp x29, x30, [var_30h]

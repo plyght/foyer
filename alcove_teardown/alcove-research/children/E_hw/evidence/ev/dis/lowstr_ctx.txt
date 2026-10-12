@@ -1,0 +1,123 @@
+|           0x100085634      82290090       adrp x2, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|           0x100085638      42fc43f9       ldr x2, [x2, 0x7f8]        ; [0x1005b57f8:8]=0x80100000000008e5 ; reloc....SbN
+|           0x10008563c      6802088b       add x8, x19, x8
+|           0x100085640      010080d2       mov x1, 0
+|           0x100085644      a6180f94       bl sym.imp.SwiftUI.LazyState.wrappedValue_...cfC_ ; SwiftUI.LazyState.wrappedValue(...cfC)
+|           0x100085648      a0e301d1       sub x0, x29, 0x78          ; void *arg0
+|           0x10008564c      a5200f94       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|           0x100085650      88ed8dd2       mov x8, 0x6f6c             ; 'lo'
+|           0x100085654      e8aea5f2       movk x8, 0x2d77, lsl 16    ; 'w-'
+|           0x100085658      482cccf2       movk x8, 0x6162, lsl 32    ; 'ba'
+|           0x10008565c      888eeef2       movk x8, 0x7474, lsl 48    ; 'tt'
+|           0x100085660      a94c8ed2       mov x9, 0x7265             ; 'er'
+|           0x100085664      290fa0f2       movk x9, 0x79, lsl 16      ; 'y'
+|           0x100085668      0960fdf2       movk x9, 0xeb00, lsl 48
+|           0x10008566c      682600a9       stp x8, x9, [x19]
+|           0x100085670      682c8c52       mov w8, 0x6163             ; 'ca'
+|           0x100085674      c80ca072       movk w8, 0x66, lsl 16      ; 'f'
+|           0x100085678      0960fcd2       mov x9, -0x1d00000000000000
+|           0x10008567c      682601a9       stp x8, x9, [x19, 0x10]
+|           0x100085680      080280d2       mov x8, 0x10
+|           0x10012e370      d76e0c94       bl sym.imp.Observation.Registrar...VACycfC
+|           0x10012e374      482500f0       adrp x8, 0x1005d9000
+|           0x10012e378      081140f9       ldr x8, [x8, 0x20]
+|           0x10012e37c      1f0500b1       cmn x8, 1
+|       ,=< 0x10012e380      010b0054       b.ne 0x10012e4e0
+|       |   ; CODE XREF from sym.func.10012e1ec @ 0x10012e4f4(x)
+|       |   0x10012e384      a8260090       adrp x8, 0x100602000
+|       |   0x10012e388      14fd47f9       ldr x20, [x8, 0xff8]
+|       |   0x10012e38c      80ed8dd2       mov x0, 0x6f6c             ; 'lo'
+|       |   0x10012e390      e0aea5f2       movk x0, 0x2d77, lsl 16    ; 'w-'
+|       |   0x10012e394      00eecdf2       movk x0, 0x6f70, lsl 32    ; 'po'
+|       |   0x10012e398      e0aeecf2       movk x0, 0x6577, lsl 48    ; 'we' ; int64_t arg1
+|       |   0x10012e39c      410e80d2       mov x1, 0x72               ; 'r'
+|       |   0x10012e3a0      0120fdf2       movk x1, 0xe900, lsl 48    ; int64_t arg2
+|       |   0x10012e3a4      622c8c52       mov w2, 0x6163             ; 'ca'
+|       |   0x10012e3a8      c20ca072       movk w2, 0x66, lsl 16      ; 'f' ; int64_t arg3
+|       |   0x10012e3ac      0360fcd2       mov x3, -0x1d00000000000000
+|       |   0x10012e3b0      7d670794       bl sym.func.1003081a4
+|       |   0x10012e3b4      000080d2       mov x0, 0
+|       |   0x10012e3b8      99910094       bl sym.func.100152a1c
+|       |   0x10012e3bc      81028052       mov w1, 0x14
+|           0x100131320      c1a20091       add x1, x22, 0x28          ; void *arg1
+|           0x100131324      02048052       mov w2, 0x20               ; void *arg2
+|           0x100131328      030080d2       mov x3, 0                  ; void *arg3
+|           0x10013132c      28710c94       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x100131330      946a73f8       ldr x20, [x20, x19]
+|           0x100131334      880a40f9       ldr x8, [x20, 0x10]
+|       ,=< 0x100131338      080200b4       cbz x8, 0x100131378
+|       |   0x10013133c      80ed8dd2       mov x0, 0x6f6c             ; 'lo'
+|       |   0x100131340      e0aea5f2       movk x0, 0x2d77, lsl 16    ; 'w-'
+|       |   0x100131344      00eecdf2       movk x0, 0x6f70, lsl 32    ; 'po'
+|       |   0x100131348      e0aeecf2       movk x0, 0x6577, lsl 48    ; 'we' ; int64_t arg1
+|       |   0x10013134c      410e80d2       mov x1, 0x72               ; 'r'
+|       |   0x100131350      0120fdf2       movk x1, 0xe900, lsl 48    ; int64_t arg2
+|       |   0x100131354      29b8ff97       bl sym.func.10011f3f8
+|      ,==< 0x100131358      01010036       tbz w1, 0, 0x100131378
+|      ||   0x10013135c      881e40f9       ldr x8, [x20, 0x38]
+|      ||   0x100131360      147960b8       ldr w20, [x8, x0, lsl 2]
+|      ||   0x100131364      c0a20091       add x0, x22, 0x28          ; void *arg0
+|      ||   0x100131368      5e710c94       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|      ||   0x10013136c      e00314aa       mov x0, x20
+|           0x100199e4c      00403c91       add x0, x0, 0xf10
+|           0x100199e50      c802088b       add x8, x22, x8
+|           0x100199e54      010080d2       mov x1, 0
+|           0x100199e58      e20314aa       mov x2, x20
+|           0x100199e5c      a0c60a94       bl sym.imp.SwiftUI.LazyState.wrappedValue_...cfC_ ; SwiftUI.LazyState.wrappedValue(...cfC)
+|           0x100199e60      a06302d1       sub x0, x29, 0x98          ; void *arg0
+|           0x100199e64      9fce0a94       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|           0x100199e68      88ed8dd2       mov x8, 0x6f6c             ; 'lo'
+|           0x100199e6c      e8aea5f2       movk x8, 0x2d77, lsl 16    ; 'w-'
+|           0x100199e70      08eecdf2       movk x8, 0x6f70, lsl 32    ; 'po'
+|           0x100199e74      e8aeecf2       movk x8, 0x6577, lsl 48    ; 'we'
+|           0x100199e78      490e80d2       mov x9, 0x72               ; 'r'
+|           0x100199e7c      0920fdf2       movk x9, 0xe900, lsl 48
+|           0x100199e80      c82600a9       stp x8, x9, [x22]
+|           0x100199e84      682c8c52       mov w8, 0x6163             ; 'ca'
+|           0x100199e88      c80ca072       movk w8, 0x66, lsl 16      ; 'f'
+|           0x100199e8c      0960fcd2       mov x9, -0x1d00000000000000
+|           0x100199e90      c82601a9       stp x8, x9, [x22, 0x10]
+|           0x100199e94      080280d2       mov x8, 0x10
+|           0x100199e98      0800faf2       movk x8, 0xd000, lsl 48
+|           0x10030eae0      f50300aa       mov x21, x0
+|           0x10030eae4      481600f0       adrp x8, 0x1005d9000
+|           0x10030eae8      081140f9       ldr x8, [x8, 0x20]
+|           0x10030eaec      1f0500b1       cmn x8, 1
+|       ,=< 0x10030eaf0      e1240054       b.ne 0x10030ef8c
+|       |   ; CODE XREF from sym.func.10030e3c8 @ 0x10030efa0(x)
+|       |   0x10030eaf4      a8170090       adrp x8, 0x100602000
+|       |   0x10030eaf8      14fd47f9       ldr x20, [x8, 0xff8]
+|       |   0x10030eafc      80ed8dd2       mov x0, 0x6f6c             ; 'lo'
+|       |   0x10030eb00      e0aea5f2       movk x0, 0x2d77, lsl 16    ; 'w-'
+|       |   0x10030eb04      402cccf2       movk x0, 0x6162, lsl 32    ; 'ba'
+|       |   0x10030eb08      808eeef2       movk x0, 0x7474, lsl 48    ; 'tt' ; int64_t arg1
+|       |   0x10030eb0c      a14c8ed2       mov x1, 0x7265             ; 'er'
+|       |   0x10030eb10      210fa0f2       movk x1, 0x79, lsl 16      ; 'y'
+|       |   0x10030eb14      0160fdf2       movk x1, 0xeb00, lsl 48    ; int64_t arg2
+|       |   0x10030eb18      622c8c52       mov w2, 0x6163             ; 'ca'
+|       |   0x10030eb1c      c20ca072       movk w2, 0x66, lsl 16      ; 'f' ; int64_t arg3
+|       |   0x10030eb20      0360fcd2       mov x3, -0x1d00000000000000
+|       |   0x10030eb24      a0e5ff97       bl sym.func.1003081a4
+|       |   0x10030eb28      682b40f9       ldr x8, [x27, 0x50]        ; [0x1005d9050:8]=0
+|       |                                                              ; field.class.Alcove.ConnectivityManager.var.simplyCA
+|       |   0x10030eb2c      b46a68f8       ldr x20, [x21, x8]
+|           0x1003153ec      030080d2       mov x3, 0                  ; void *arg3
+|           0x1003153f0      f7e00494       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x1003153f4      946a73f8       ldr x20, [x20, x19]
+|           0x1003153f8      880a40f9       ldr x8, [x20, 0x10]
+|           0x1003153fc      fa5f42a9       ldp x26, x23, [var_20h]
+|           0x100315400      f80b40f9       ldr x24, [var_10h]
+|       ,=< 0x100315404      280200b4       cbz x8, 0x100315448
+|       |   0x100315408      80ed8dd2       mov x0, 0x6f6c             ; 'lo'
+|       |   0x10031540c      e0aea5f2       movk x0, 0x2d77, lsl 16    ; 'w-'
+|       |   0x100315410      402cccf2       movk x0, 0x6162, lsl 32    ; 'ba'
+|       |   0x100315414      808eeef2       movk x0, 0x7474, lsl 48    ; 'tt' ; int64_t arg1
+|       |   0x100315418      a14c8ed2       mov x1, 0x7265             ; 'er'
+|       |   0x10031541c      210fa0f2       movk x1, 0x79, lsl 16      ; 'y'
+|       |   0x100315420      0160fdf2       movk x1, 0xeb00, lsl 48    ; int64_t arg2
+|       |   0x100315424      f527f897       bl sym.func.10011f3f8
+|      ,==< 0x100315428      01010036       tbz w1, 0, 0x100315448
+|      ||   0x10031542c      881e40f9       ldr x8, [x20, 0x38]
+|      ||   0x100315430      147960b8       ldr w20, [x8, x0, lsl 2]
+|      ||   0x100315434      c0420091       add x0, x22, 0x10          ; void *arg0
+|      ||   0x100315438      2ae10494       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)

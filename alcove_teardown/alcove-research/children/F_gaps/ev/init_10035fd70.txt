@@ -1,0 +1,48 @@
+            ; ICOD XREF from sym.func.100362538 @ 0x1003627e4(r)
+/ 80: sym.func.10035fd70 ();
+| afv: vars(2:sp[0x8..0x10])
+|           0x10035fd70      c81300f0       adrp x8, 0x1005da000
+|           0x10035fd74      08c545f9       ldr x8, [x8, 0xb88]
+|           0x10035fd78      1f0500b1       cmn x8, 1
+|       ,=< 0x10035fd7c      01010054       b.ne 0x10035fd9c
+|       |   ; CODE XREF from sym.func.10035fd70 @ 0x10035fdbc(x)
+|      .--> 0x10035fd80      c81300f0       adrp x8, 0x1005da000
+|      :|   0x10035fd84      08412e91       add x8, x8, 0xb90
+|      :|   0x10035fd88      090140a9       ldp x9, x0, [x8]
+|      :|   0x10035fd8c      c81300f0       adrp x8, 0x1005da000
+|      :|   0x10035fd90      08412d91       add x8, x8, 0xb50
+|      :|   0x10035fd94      090100a9       stp x9, x0, [x8]
+|     ,===< 0x10035fd98      96b60314       b sym.imp.swift_bridgeObjectRetain
+|     |:|   ; CODE XREF from sym.func.10035fd70 @ 0x10035fd7c(x)
+|     |:`-> 0x10035fd9c      fd7bbfa9       stp x29, x30, [var_10h]!
+|     |:    0x10035fda0      fd030091       mov x29, sp
+|     |:    0x10035fda4      c01300f0       adrp x0, 0x1005da000
+|     |:    0x10035fda8      00202e91       add x0, x0, 0xb88
+|     |:    0x10035fdac      01000090       adrp x1, 0x10035f000
+|     |:    0x10035fdb0      21702491       add x1, x1, 0x91c
+|     |:    0x10035fdb4      40b70394       bl sym.imp.swift_once
+|     |:    0x10035fdb8      fd7bc1a8       ldp x29, x30, [sp], 0x10
+\     |`==< 0x10035fdbc      f1ffff17       b 0x10035fd80
+      |     ; ICOD XREF from sym.func.100363970 @ 0x100363d10(r)
+/ 632: sym.func.10035fdc0 ();
+| `- args(x21) vars(13:sp[0x8..0xa8])
+|     |     0x10035fdc0      ffc302d1       sub sp, sp, 0xb0
+|     |     0x10035fdc4      fc6f05a9       stp x28, x27, [var_50h]
+|     |     0x10035fdc8      fa6706a9       stp x26, x25, [var_60h]
+|     |     0x10035fdcc      f85f07a9       stp x24, x23, [var_70h]
+|     |     0x10035fdd0      f65708a9       stp x22, x21, [var_80h]
+|     |     0x10035fdd4      f44f09a9       stp x20, x19, [var_90h]
+|     |     0x10035fdd8      fd7b0aa9       stp x29, x30, [var_a0h]
+|     |     0x10035fddc      fd830291       add x29, sp, 0xa0
+|     |     0x10035fde0      b5cc85d2       mov x21, 0x2e65            ; 'e.' ; error
+|     |     0x10035fde4      b5a9aef2       movk x21, 0x754d, lsl 16   ; 'Mu'
+|     |     0x10035fde8      752ecdf2       movk x21, 0x6973, lsl 32   ; 'si'
+|     |     0x10035fdec      75ecfdf2       movk x21, 0xef63, lsl 48
+|     |     0x10035fdf0      76ec8dd2       mov x22, 0x6f63            ; 'co'
+|     |     0x10035fdf4      b6cda5f2       movk x22, 0x2e6d, lsl 16   ; 'm.'
+|     |     0x10035fdf8      360ccef2       movk x22, 0x7061, lsl 32   ; 'ap'
+|     |     0x10035fdfc      168eedf2       movk x22, 0x6c70, lsl 48   ; 'pl'
+|     |     0x10035fe00      80130090       adrp x0, 0x1005cf000
+|     |     0x10035fe04      00200491       add x0, x0, 0x108          ; int64_t arg1
+|     |     0x10035fe08      a1080090       adrp x1, 0x100473000
+|     |     0x10035fe0c      21402a91       add x1, x1, 0xa90          ; int64_t arg2

@@ -1,0 +1,2 @@
+sym.func.100075678 0x1000756bc [CALL:--x] bl fcn.1004530e0
+sym.func.1003f32b8 0x1003f34c8 [CALL:--x] bl fcn.1004530e0

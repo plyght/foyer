@@ -1,0 +1,5 @@
+396  0x00471426  0x100471426 15  16   4.__TEXT.__const           ascii   AirPodsMaxColor
+397  0x00471436  0x100471436 12  13   4.__TEXT.__const           ascii   AirPodsState
+394  0x0047110e  0x10047110e 12  13   4.__TEXT.__const           ascii   HomePodRoute
+395  0x00471418  0x100471418 13  14   4.__TEXT.__const           ascii   HomePodFamily
+1168 0x00546a80  0x100546a80 17  18   12.__TEXT.__cstring        ascii   HomePod Mini Pair

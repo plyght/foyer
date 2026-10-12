@@ -1,0 +1,26 @@
+            ; XREFS: CALL 0x100312740  CALL 0x10031280c  CALL 0x100312c0c  
+            ; XREFS: CALL 0x100312f24  CALL 0x1003180cc  CALL 0x1003180e4  
+            ; XREFS: CALL 0x100318144  CALL 0x100319bfc  CALL 0x100319cf4  
+            ; XREFS: CALL 0x10031a6f0  CALL 0x1003cfab8  CALL 0x1003cfb84  
+/ 76: sym.func.1003c4864 (int64_t arg1);
+| `- args(x0) vars(3:sp[0x8..0x18])
+|           0x1003c4864      ff8300d1       sub sp, sp, 0x20
+|           0x1003c4868      fd7b01a9       stp x29, x30, [var_10h]
+|           0x1003c486c      fd430091       add x29, sp, 0x10
+|           0x1003c4870      680f00d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1003c4874      08c542f9       ldr x8, [x8, 0x588]        ; [0x1005b2588:8]=0x80100000000002d2 ; reloc.__stack_chk_guard
+|           0x1003c4878      080140f9       ldr x8, [x8]
+|           0x1003c487c      e80700f9       str x8, [var_8h]
+|           0x1003c4880      e80740f9       ldr x8, [var_8h]
+|           0x1003c4884      690f00d0       adrp x9, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1003c4888      29c542f9       ldr x9, [x9, 0x588]        ; [0x1005b2588:8]=0x80100000000002d2 ; reloc.__stack_chk_guard
+|           0x1003c488c      290140f9       ldr x9, [x9]
+|           0x1003c4890      3f0108eb       cmp x9, x8
+|       ,=< 0x1003c4894      c1000054       b.ne 0x1003c48ac
+|       |   0x1003c4898      880500b0       adrp x8, 0x100475000
+|       |   0x1003c489c      00a545fd       ldr d0, [x8, 0xb48]
+|       |   0x1003c48a0      fd7b41a9       ldp x29, x30, [var_10h]
+|       |   0x1003c48a4      ff830091       add sp, sp, 0x20           ; 0x178000
+|      ,==< 0x1003c48a8      3b000014       b sym.func.1003c4994
+|      ||   ; CODE XREF from sym.func.1003c4864 @ 0x1003c4894(x)
+\      |`-> 0x1003c48ac      f9220294       bl sym.imp.__stack_chk_fail ; void __stack_chk_fail(void)

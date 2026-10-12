@@ -1,0 +1,59 @@
+            ; CODE XREF from sym.func.10035cf00 @ 0x10035cf74(x)
+/ 220: sym.func.100359230 (int64_t arg1);
+| `- args(x3) vars(4:sp[0x8..0x20])
+|           0x100359230      bd0344b2       orr x29, x29, 0x1000000000000000
+|           0x100359234      ff8300d1       sub sp, sp, 0x20
+|           0x100359238      fd7b01a9       stp x29, x30, [var_10h]
+|           0x10035923c      f60700f9       str x22, [var_8h]
+|           0x100359240      fd430091       add x29, sp, 0x10
+|           0x100359244      c81200b0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100359248      08c542f9       ldr x8, [x8, 0x588]        ; [0x1005b2588:8]=0x80100000000002d2 ; reloc.__stack_chk_guard
+|           0x10035924c      080140f9       ldr x8, [x8]
+|           0x100359250      e80300f9       str x8, [sp]
+|           0x100359254      c3ea00f9       str x3, [x22, 0x1d0]       ; arg1
+|           0x100359258      000080d2       mov x0, 0
+|           0x10035925c      24c10394       bl sym.imp.Foundation.CharacterSet...VMa
+|           0x100359260      c0ee00f9       str x0, [x22, 0x1d8]
+|           0x100359264      08805ff8       ldur x8, [x0, -8]
+|           0x100359268      c8f200f9       str x8, [x22, 0x1e0]
+|           0x10035926c      082140f9       ldr x8, [x8, 0x40]
+|           0x100359270      083d0091       add x8, x8, 0xf
+|           0x100359274      00ed7c92       and x0, x8, 0xfffffffffffffff0
+|           0x100359278      30d20394       bl sym.imp.swift_task_alloc
+|           0x10035927c      c0f600f9       str x0, [x22, 0x1e8]
+|           0x100359280      000080d2       mov x0, 0
+|           0x100359284      b0ca0394       bl sym.imp.Foundation.Encoding...VMa
+|           0x100359288      c0fa00f9       str x0, [x22, 0x1f0]
+|           0x10035928c      08805ff8       ldur x8, [x0, -8]
+|           0x100359290      c8fe00f9       str x8, [x22, 0x1f8]
+|           0x100359294      082140f9       ldr x8, [x8, 0x40]
+|           0x100359298      083d0091       add x8, x8, 0xf
+|           0x10035929c      00ed7c92       and x0, x8, 0xfffffffffffffff0
+|           0x1003592a0      26d20394       bl sym.imp.swift_task_alloc
+|           0x1003592a4      c00201f9       str x0, [x22, 0x200]
+|           0x1003592a8      000080d2       mov x0, 0
+|           0x1003592ac      72cb0394       bl sym.imp....ScMMa
+|           0x1003592b0      c00601f9       str x0, [x22, 0x208]
+|           0x1003592b4      f40300aa       mov x20, x0
+|           0x1003592b8      6ccb0394       bl sym.imp.shared_...cMvgZ_ ; shared(...cMvgZ)
+|           0x1003592bc      c00a01f9       str x0, [x22, 0x210]
+|           0x1003592c0      c80800d0       adrp x8, 0x100473000
+|           0x1003592c4      004545b9       ldr w0, [x8, 0x544]
+|           0x1003592c8      1cd20394       bl sym.imp.swift_task_alloc
+|           0x1003592cc      08000090       adrp x8, 0x100359000
+|           0x1003592d0      08310c91       add x8, x8, 0x30c
+|           0x1003592d4      c00e01f9       str x0, [x22, 0x218]
+|           0x1003592d8      162000a9       stp x22, x8, [x0]
+|           0x1003592dc      e80340f9       ldr x8, [sp]
+|           0x1003592e0      c91200b0       adrp x9, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1003592e4      29c542f9       ldr x9, [x9, 0x588]        ; [0x1005b2588:8]=0x80100000000002d2 ; reloc.__stack_chk_guard
+|           0x1003592e8      290140f9       ldr x9, [x9]
+|           0x1003592ec      3f0108eb       cmp x9, x8
+|       ,=< 0x1003592f0      c1000054       b.ne 0x100359308
+|       |   0x1003592f4      f60300aa       mov x22, x0
+|       |   0x1003592f8      fd7b41a9       ldp x29, x30, [var_10h]
+|       |   0x1003592fc      bdfb4392       and x29, x29, 0xefffffffffffffff
+|       |   0x100359300      ff830091       add sp, sp, 0x20           ; 0x178000
+|      ,==< 0x100359304      3a100014       b sym.func.10035d3ec
+|      ||   ; CODE XREF from sym.func.100359230 @ 0x1003592f0(x)
+\      |`-> 0x100359308      62d00394       bl sym.imp.__stack_chk_fail ; void __stack_chk_fail(void)

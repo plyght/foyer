@@ -1,0 +1,488 @@
+[
+  {
+    "name": "HapticFeedback",
+    "kind": 16,
+    "descriptor": "0x1005155e4",
+    "accessor": "0x1000739ac",
+    "fields": [
+      "hasRecentlyTriggeredHaptic",
+      "debounceResetTask"
+    ]
+  },
+  {
+    "name": "DisplayTargetPreference",
+    "kind": 18,
+    "descriptor": "0x100516314",
+    "accessor": "0x100123af4",
+    "fields": [
+      "display",
+      "automatic",
+      "internalDisplay",
+      "externalDisplay"
+    ]
+  },
+  {
+    "name": "GameManager",
+    "kind": 16,
+    "descriptor": "0x100516388",
+    "accessor": "0x100127a9c",
+    "fields": [
+      "trackedGameBundleIdentifiers",
+      "trackedGamePathFragments",
+      "frontmostApplicationObserver",
+      "isGaming"
+    ]
+  },
+  {
+    "name": "ScreenManager",
+    "kind": 16,
+    "descriptor": "0x100517534",
+    "accessor": "0x1002093a8",
+    "fields": [
+      "cancellables",
+      "hasRecentlySleptOrWoke",
+      "isFullscreen",
+      "_hideWhileInFullscreen",
+      "_hideWhileGaming",
+      "_hideWhileInMissionControl",
+      "_showOnDisplay",
+      "_showOnDisplayUUID"
+    ]
+  },
+  {
+    "name": "UpdateController",
+    "kind": 16,
+    "descriptor": "0x1005181c0",
+    "accessor": "0x100279cc0",
+    "fields": [
+      "windowController"
+    ]
+  },
+  {
+    "name": "UpdateManager",
+    "kind": 16,
+    "descriptor": "0x100518240",
+    "accessor": "0x100283198",
+    "fields": [
+      "logger",
+      "windowController",
+      "updateTimer",
+      "isNetworkSatisfied",
+      "targetUpdateChannel",
+      "_targetRelease",
+      "_progressBar",
+      "_updateState",
+      "_changelog",
+      "_earlyBirdUpdates",
+      "_$observationRegistrar"
+    ]
+  },
+  {
+    "name": "UpdateDownloadDelegate",
+    "kind": 16,
+    "descriptor": "0x100518290",
+    "accessor": "0x100283834",
+    "fields": [
+      "progressHandler",
+      "completionHandler",
+      "destinationURL",
+      "downloadProgressStart",
+      "downloadProgressEnd",
+      "completionResult",
+      "hasCompleted"
+    ]
+  },
+  {
+    "name": "UpdateAvailability",
+    "kind": 18,
+    "descriptor": "0x100518300",
+    "accessor": "0x100283d04",
+    "fields": [
+      "notChecked",
+      "available",
+      "unavailable",
+      "readyToRestart"
+    ]
+  },
+  {
+    "name": "Release",
+    "kind": 17,
+    "descriptor": "0x10051831c",
+    "accessor": "0x100284080",
+    "fields": [
+      "id",
+      "tagName",
+      "name",
+      "sections",
+      "assets",
+      "prerelease",
+      "publishedAt",
+      "minimumSystemVersion",
+      "buildNumber"
+    ]
+  },
+  {
+    "name": "UpdateChannel",
+    "kind": 18,
+    "descriptor": "0x100518340",
+    "accessor": "0x100284090",
+    "fields": [
+      "stable",
+      "trial",
+      "beta"
+    ]
+  },
+  {
+    "name": "UpdateError",
+    "kind": 18,
+    "descriptor": "0x10051839c",
+    "accessor": "0x100287f08",
+    "fields": [
+      "decodingFailed",
+      "api",
+      "downloadFailed",
+      "invalidURL",
+      "invalidResponse",
+      "missingAuthorizationToken",
+      "downloadUnauthorized"
+    ]
+  },
+  {
+    "name": "Asset",
+    "kind": 17,
+    "descriptor": "0x1005183b8",
+    "accessor": "0x100287b1c",
+    "fields": [
+      "name",
+      "url"
+    ]
+  },
+  {
+    "name": "SoundManager",
+    "kind": 16,
+    "descriptor": "0x100518efc",
+    "accessor": "0x10030a9fc",
+    "fields": [
+      "logger",
+      "audioPlayers",
+      "reusablePlayers",
+      "soundIDs",
+      "maxInstancesPerSound",
+      "defaultVolume",
+      "reusableSoundQueue"
+    ]
+  },
+  {
+    "name": "Playback",
+    "kind": 16,
+    "descriptor": "0x100518f34",
+    "accessor": "0x10030aadc",
+    "fields": [
+      "startDelay",
+      "manager",
+      "player",
+      "name"
+    ]
+  },
+  {
+    "name": "GeneralSettingsView",
+    "kind": 17,
+    "descriptor": "0x1005190c4",
+    "accessor": "0x100321644",
+    "fields": [
+      "_colorScheme",
+      "_controlActiveState",
+      "notchController",
+      "_calendarManager",
+      "_launchAtLogin",
+      "_hideMenuBarIcon",
+      "_hideFromScreenCapture",
+      "_forceSimulatedNotch",
+      "_hideWhileInFullscreen",
+      "_hideWhileGaming",
+      "_hideWhileInMissionControl",
+      "_showOnDisplay",
+      "_showOnDisplayUUID",
+      "_showOnDisplayName",
+      "_showOnDisplaySymbol",
+      "_contrastOutline",
+      "_progressiveBlur",
+      "_enableNowPlaying",
+      "_enableCalendar",
+      "_useMostRecentActivity",
+      "_idleActivity",
+      "_forceEnableActivity",
+      "_enableHaptics",
+      "_expandNotchOnHover",
+      "_hoverDuration",
+      "_naturalMovement",
+      "_swipeToToggle",
+      "_swipeToCycleActivity",
+      "_swipeToDismiss",
+      "_swipeToSkip",
+      "_notchAdjustedWidth",
+      "_notchAdjustedHeight",
+      "__displayOptionGroups"
+    ]
+  },
+  {
+    "name": "DisplayType",
+    "kind": 18,
+    "descriptor": "0x1005191a0",
+    "accessor": "0x1003303e8",
+    "fields": [
+      "builtInDisplay",
+      "mainScreen",
+      "allDisplays",
+      "specificDisplay"
+    ]
+  },
+  {
+    "name": "ConnectedDisplay",
+    "kind": 17,
+    "descriptor": "0x10051922c",
+    "accessor": "0x10034d410",
+    "fields": [
+      "uuid",
+      "name",
+      "symbol"
+    ]
+  },
+  {
+    "name": "DisplayMenuOption",
+    "kind": 18,
+    "descriptor": "0x100519248",
+    "accessor": "0x10034d638",
+    "fields": [
+      "displayType",
+      "display"
+    ]
+  },
+  {
+    "name": "Color",
+    "kind": 17,
+    "descriptor": "0x10051ac20",
+    "accessor": "0x1003fd1f8",
+    "fields": [
+      "red",
+      "green",
+      "blue",
+      "opacity"
+    ]
+  },
+  {
+    "name": "Shape",
+    "kind": 18,
+    "descriptor": "0x10051ad4c",
+    "accessor": "0x100400834",
+    "fields": [
+      "box",
+      "ellipse",
+      "ring",
+      "point"
+    ]
+  },
+  {
+    "name": "VortexSystem",
+    "kind": 16,
+    "descriptor": "0x10051aec8",
+    "accessor": "0x100409604",
+    "fields": [
+      "id",
+      "outstandingParticles",
+      "lastIdleTime",
+      "selectedColorRamp",
+      "lastUpdate",
+      "startTimeOffset",
+      "emissionCount",
+      "particles",
+      "activeSecondarySystems",
+      "lastDrawSize",
+      "position",
+      "tags",
+      "isActive",
+      "isEmitting",
+      "secondarySystems",
+      "spawnOccasion",
+      "shape",
+      "birthRate",
+      "emissionLimit",
+      "emissionDuration",
+      "idleDuration",
+      "burstCount",
+      "burstCountVariation",
+      "lifespan",
+      "lifespanVariation",
+      "speed",
+      "speedVariation",
+      "angle",
+      "angleRange",
+      "acceleration",
+      "attractionCenter",
+      "attractionStrength",
+      "dampingFactor",
+      "angularSpeed",
+      "angularSpeedVariation",
+      "colors",
+      "size",
+      "sizeVariation",
+      "sizeMultiplierAtDeath",
+      "stretchFactor"
+    ]
+  },
+  {
+    "name": "VortexProxy",
+    "kind": 17,
+    "descriptor": "0x10051b2fc",
+    "accessor": "0x10040a918",
+    "fields": [
+      "particleSystem",
+      "burst",
+      "attractTo"
+    ]
+  },
+  {
+    "name": "VortexView",
+    "kind": 17,
+    "descriptor": "0x10051b334",
+    "accessor": "0x10040b0a8",
+    "fields": [
+      "symbols",
+      "_particleSystem",
+      "targetFrameRate"
+    ]
+  },
+  {
+    "name": "VolumeManager",
+    "kind": 16,
+    "descriptor": "0x100514e2c",
+    "accessor": "0x100023974",
+    "fields": [
+      "logger",
+      "simplyCA",
+      "cancellables",
+      "volumeWriteTask",
+      "outputDeviceSyncTask",
+      "volumeFeedbackPreferenceKey",
+      "volumeFeedbackSoundName",
+      "volumeFeedbackSoundType",
+      "edgeDuration",
+      "_enableVolume",
+      "_allowVolumeWhenFocused",
+      "_allowVolumeWhenLocked",
+      "_volumeDuration",
+      "_volumeSpeed",
+      "_musicApp",
+      "_showVolumeControl",
+      "_allowNowPlayingWidgetWhenLocked",
+      "_volume",
+      "_actualVolume",
+      "_isMuted",
+      "_canControlVolume",
+      "_isDraggingSlider",
+      "_$observationRegistrar"
+    ]
+  },
+  {
+    "name": "Section",
+    "kind": 17,
+    "descriptor": "0x1005183e0",
+    "accessor": "0x1002884ac",
+    "fields": [
+      "marker",
+      "items"
+    ]
+  },
+  {
+    "name": "ColorMode",
+    "kind": 18,
+    "descriptor": "0x10051ac60",
+    "accessor": "0x1003fe668",
+    "fields": [
+      "single",
+      "random",
+      "ramp",
+      "randomRamp"
+    ]
+  },
+  {
+    "name": "SpawnOccasion",
+    "kind": 18,
+    "descriptor": "0x10051ae1c",
+    "accessor": "0x100401750",
+    "fields": [
+      "onBirth",
+      "onDeath",
+      "onUpdate"
+    ]
+  },
+  {
+    "name": "BatteryManager",
+    "kind": 16,
+    "descriptor": "0x10051641c",
+    "accessor": "0x1001315ac",
+    "fields": [
+      "batteryHelper",
+      "cancellables",
+      "_enableBattery",
+      "_batteryDuration",
+      "_notifyOnLowPowerMode",
+      "_warnOnLowBattery",
+      "_lowBatteryThreshold",
+      "_playSoundOnLowBattery",
+      "_allowBatteryWhenFocused",
+      "_allowBatteryWhenLocked",
+      "_batteryLevel",
+      "_wasOnBattery",
+      "_isLowPowerModeEnabled",
+      "_hasPassedThreshold",
+      "_hasRecentlyChangedPowerSource",
+      "_remainingTime",
+      "_$observationRegistrar"
+    ]
+  },
+  {
+    "name": "ConnectivityManager",
+    "kind": 16,
+    "descriptor": "0x100518f8c",
+    "accessor": "0x10030fb44",
+    "fields": [
+      "logger",
+      "bluetoothManager",
+      "simplyCA",
+      "cancellables",
+      "timer",
+      "airPlayRouteLogTask",
+      "outputDeviceChangeResetTask",
+      "homePodRoutesByGroupID",
+      "homePodLastUpdatedGroupID",
+      "homePodRouteFreshnessInterval",
+      "outputDeviceModelRegex",
+      "outputContextNameRegex",
+      "outputContextGroupRegex",
+      "outputContextAirPlayGroupRegex",
+      "outputContextSubtypeRegex",
+      "outputContextTypeRegex",
+      "outputContextPrimaryUIDRegex",
+      "outputContextUniqueIdentifierRegex",
+      "outputContextConfiguredClusterSizeRegex",
+      "_enableConnectivity",
+      "_hasPromptedBluetoothPermission",
+      "_connectivityDuration",
+      "_warnOnLowConnectBattery",
+      "_lowConnectBatteryThreshold",
+      "_playSoundOnLowConnectBattery",
+      "_allowConnectivityWhenFocused",
+      "_enableLockScreen",
+      "_allowConnectivityWhenLocked",
+      "_allowConnectivityWidgetWhenLocked",
+      "_audioDevice",
+      "_virtualDevice",
+      "_batteryLevel",
+      "_hasPassedThreshold",
+      "_hasRecentlyChangedOutputDevice",
+      "_authorizationStatus",
+      "_$observationRegistrar"
+    ]
+  }
+]

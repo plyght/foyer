@@ -1,0 +1,3930 @@
+== 0x10052dabc struct {Alcove.DummyNotch}
+   let kind : {Alcove.DummyNotch.Kind}
+   let progress : Sd
+   let isMuted : Sb
+   let usesNotchPresentation : Sb
+   let hasNotification : Sb
+   let shape : {Alcove.DummyNotch.ShapeConfiguration}Sg
+   let showsLabel : Sb
+== 0x10052db20 enum {Alcove.DummyNotch.Kind}
+   let brightness : 
+   let volume : 
+== 0x10052db48 enum {Alcove.DummyNotch.ShapeConfiguration}
+   let notch : 
+   let pill : 
+== 0x10052db70 struct {__C.CIContextOption}
+   var _rawValue : So8NSStringC
+== 0x10052db8c struct {__C.Weight}
+   let rawValue : {ind}
+== 0x10052dba8 struct {__C.CGRect}
+   var origin : {__C.CGPoint}
+   var size : {__C.CGSize}
+== 0x10052dbd0 struct {__C.Phase}
+   let rawValue : Su
+== 0x10052dbec struct {__C.CGPoint}
+   var x : {ind}
+   var y : {ind}
+== 0x10052dc14 struct {__C.CGSize}
+   var width : {ind}
+   var height : {ind}
+== 0x10052dc3c struct {__C.NSDeviceDescriptionKey}
+   var _rawValue : So8NSStringC
+== 0x10052dc58 struct {__C.Key}
+   var _rawValue : So8NSStringC
+== 0x10052dc74 struct {__C.Level}
+   let rawValue : Si
+== 0x10052dc90 struct {__C.NSEdgeInsets}
+   var top : {ind}
+   var left : {ind}
+   var bottom : {ind}
+   var right : {ind}
+== 0x10052dcd0 struct {Alcove.LicenseSettingsView}
+   var _controlActiveState : {ind}y{ind}G
+   var _licenseManager : {ind}y{Alcove.LicenseManager}G
+   var _licenseName : {Defaults.Default}ySSSgG
+   var _activationLimit : {Defaults.Default}ySiSgG
+   var _activationUsage : {Defaults.Default}ySiSgG
+   var _enableHaptics : {Defaults.Default}ySbG
+   var __licenseKey : {ind}ySSG
+   var __isLoading : {ind}ySbG
+   var __isValidating : {ind}ySbG
+   var __isValidLicense : {ind}ySbG
+   var __hasError : {ind}ySbG
+   var __errorMessage : {ind}ySSG
+   var __shouldError : {ind}ySbG
+   var __shouldShake : {ind}ySbG
+   var __isDeactivating : {ind}ySbG
+   var __hasAppeared : {ind}ySbG
+   var __licenseCardHasEntered : {ind}ySbG
+   var __licenseSealHasEntered : {ind}ySbG
+   var __licenseTitleHasEntered : {ind}ySbG
+   var __licenseNameHasEntered : {ind}ySbG
+   var __licenseUsageHasEntered : {ind}ySbG
+   var __licenseActionHasEntered : {ind}ySbG
+   var __licensePlayback : {ind}y{Alcove.SoundManager.Playback}SgG
+   var __licenseTimelineTask : {ind}yScTyyt{ind}GSgG
+   var _isFocused : {ind}ySbG
+== 0x10052de0c class {Alcove.VolumeManager}
+   let logger : {ind}
+   let simplyCA : {SimplyCoreAudio.SimplyCoreAudio}
+   var cancellables : Shy{ind}G
+   var volumeWriteTask : ScTyyt{ind}GSg
+   var outputDeviceSyncTask : ScTyyt{ind}GSg
+   let volumeFeedbackPreferenceKey : SS
+   let volumeFeedbackSoundName : SS
+   let volumeFeedbackSoundType : SS
+   let edgeDuration : Sd
+   var _enableVolume : {Defaults.Default}ySbG
+   var _allowVolumeWhenFocused : {Defaults.Default}ySbG
+   var _allowVolumeWhenLocked : {Defaults.Default}ySbG
+   var _volumeDuration : {Defaults.Default}ySdG
+   var _volumeSpeed : {Defaults.Default}y{Alcove.HUDSpeed}G
+   var _musicApp : {Defaults.Default}y{Alcove.MusicApp}G
+   var _showVolumeControl : {Defaults.Default}ySbG
+   var _allowNowPlayingWidgetWhenLocked : {Defaults.Default}ySbG
+   var _volume : Sf
+   var _actualVolume : Sf
+   var _isMuted : Sb
+   var _canControlVolume : Sb
+   var _isDraggingSlider : Sb
+   let _$observationRegistrar : {ind}
+== 0x10052df30 class {Alcove.SnapshotManager}
+   let maxCachedSnapshotCount : Si
+   let maxCachedSnapshotCost : Si
+   var cachedSnapshots : SDy{Alcove.SnapshotManager.Request}{Alcove.SnapshotManager.Snapshot}G
+   var cachedSnapshotCosts : SDy{Alcove.SnapshotManager.Request}SiG
+   var cachedSnapshotOrder : Say{Alcove.SnapshotManager.Request}G
+   var cachedSnapshotCost : Si
+== 0x10052df88 struct {Alcove.SnapshotManager.Request}
+   let revision : Su
+   let configurationKey : {ind}
+   let size : {__C.CGSize}
+   let scale : {ind}
+== 0x10052dfc8 struct {Alcove.SnapshotManager.Snapshot}
+   let image : {__C.CGImage}
+   let size : {__C.CGSize}
+   let scale : {ind}
+== 0x10052dffc struct {Alcove.Snapshot}
+   let image : {__C.CGImage}
+   let size : {__C.CGSize}
+   let scale : {ind}
+== 0x10052e030 struct {Alcove.NowPlayingSettingsView}
+   var _colorScheme : {ind}y{ind}G
+   var _controlActiveState : {ind}y{ind}G
+   var _audioManager : {ind}y{Alcove.AudioManager}G
+   var _enableNowPlaying : {Defaults.Default}ySbG
+   var _showOnDisplay : {Defaults.Default}y{Alcove.DisplayType}G
+   var _forceSimulatedNotch : {Defaults.Default}ySbG
+   var _idleDuration : {Defaults.Default}ySdG
+   var _useLiveWaveform : {Defaults.Default}ySbG
+   var _hasPromptedAudioPermission : {Defaults.Default}ySbG
+   var _disableWaveform : {Defaults.Default}ySbG
+   var _progressStyle : {Defaults.Default}y{Alcove.ColorStyle}G
+   var _disableAlbumArtFlip : {Defaults.Default}ySbG
+   var _hideWhileSourceIsActive : {Defaults.Default}ySbG
+   var _songTitleBadge : {Defaults.Default}y{Alcove.NowPlayingTitleBadge}G
+   var _hideSongTitleExtras : {Defaults.Default}ySbG
+   var _controlChoice : {Defaults.Default}y{Alcove.ControlType}G
+   var _automaticMusicApp : {Defaults.Default}ySbG
+   var _musicApp : {Defaults.Default}y{Alcove.MusicApp}G
+   var _enableQuickPeek : {Defaults.Default}ySbG
+   var _whenSongChanges : {Defaults.Default}ySbG
+   var _peekDuration : {Defaults.Default}ySdG
+   var __formatTitleBadgeIndex : {ind}ySiG
+   var __systemControlLikeIndex : {ind}ySiG
+   var __isShowingAudioPermission : {ind}ySbG
+== 0x10052e160 class {Alcove.SettingsController}
+   var windowController : So18NSWindowControllerCSg
+   var _currentTab : {Alcove.SettingsTab}
+   var _pendingTab : {Alcove.SettingsTab}Sg
+   let _$observationRegistrar : {ind}
+== 0x10052e1a0 struct {Alcove.CircularProgress}
+   var progress : Sd
+   var color : {ind}
+   var size : {ind}
+   var lineWidth : {ind}
+== 0x10052e1e0 struct {Alcove.FocusSettingsView}
+   var _controlActiveState : {ind}y{ind}G
+   var _focusManager : {ind}y{Alcove.FocusManager}G
+   var _enableFocus : {Defaults.Default}ySbG
+   var _focusDuration : {Defaults.Default}ySdG
+   var _playSoundOnSleepFocus : {Defaults.Default}ySbG
+   var _replaceWaveformDuringFocus : {Defaults.Default}ySbG
+   var _replaceWaveformDuringFocusModeIdentifier : {Defaults.Default}ySSSgG
+   var _hideLabel : {Defaults.Default}ySbG
+   var _allowBatteryWhenFocused : {Defaults.Default}ySbG
+   var _allowConnectivityWhenFocused : {Defaults.Default}ySbG
+   var _allowBrightnessWhenFocused : {Defaults.Default}ySbG
+   var _allowVolumeWhenFocused : {Defaults.Default}ySbG
+== 0x10052e280 enum {FocusWaveformOption}
+   let mode : {Alcove.FocusManager.FocusMode}
+   let any : 
+== 0x10052e2a8 struct {Alcove.AboutSettingsView}
+   var _colorScheme : {ind}y{ind}G
+   var _controlActiveState : {ind}y{ind}G
+   var _licenseManager : {ind}y{Alcove.LicenseManager}G
+   var _updateManager : {ind}y{Alcove.UpdateManager}G
+   var _enableHaptics : {Defaults.Default}ySbG
+   var _earlyBirdUpdates : {Defaults.Default}ySbG
+   var _automaticallyCheckForUpdates : {Defaults.Default}ySbG
+   var __isLoading : {ind}ySbG
+== 0x10052e318 struct {Alcove.LockScreenSettingsView}
+   var _colorScheme : {ind}y{ind}G
+   var _controlActiveState : {ind}y{ind}G
+   var _calendarManager : {ind}y{Alcove.CalendarManager}G
+   var _licenseManager : {ind}y{Alcove.LicenseManager}G
+   var _weatherManager : {ind}y{Alcove.WeatherManager}G
+   var _enableLockScreen : {Defaults.Default}ySbG
+   var _keepAwake : {Defaults.Default}ySdG
+   var _showOnScreenSaver : {Defaults.Default}ySbG
+   var _playSoundOnLock : {Defaults.Default}ySbG
+   var _playSoundOnUnlock : {Defaults.Default}ySbG
+   var _allowBatteryWhenLocked : {Defaults.Default}ySbG
+   var _allowConnectivityWhenLocked : {Defaults.Default}ySbG
+   var _allowFocusWhenLocked : {Defaults.Default}ySbG
+   var _allowBrightnessWhenLocked : {Defaults.Default}ySbG
+   var _allowVolumeWhenLocked : {Defaults.Default}ySbG
+   var _allowBatteryWidgetWhenLocked : {Defaults.Default}ySbG
+   var _allowConnectivityWidgetWhenLocked : {Defaults.Default}ySbG
+   var _allowFocusWidgetWhenLocked : {Defaults.Default}ySbG
+   var _allowNowPlayingWidgetWhenLocked : {Defaults.Default}ySbG
+   var _nowPlayingStyle : {Defaults.Default}y{Alcove.NowPlayingStyle}G
+   var _hideIdleDuration : {Defaults.Default}ySdG
+   var _showVolumeControl : {Defaults.Default}ySbG
+   var _nowPlayingWidgetOffset : {Defaults.Default}ySdG
+   var _allowCalendarWidgetWhenLocked : {Defaults.Default}ySbG
+   var _hasPromptedCalendarPermission : {Defaults.Default}ySbG
+   var _allowWeatherWidgetWhenLocked : {Defaults.Default}ySbG
+   var _weatherStyle : {Defaults.Default}y{Alcove.WeatherStyle}G
+   var _hasPromptedLocationPermission : {Defaults.Default}ySbG
+   var __isShowingCalendarPermission : {ind}ySbG
+   var __isShowingWeatherPermission : {ind}ySbG
+   var __wallpaperImage : {ind}ySo7NSImageCSgG
+== 0x10052e49c struct {FakeClearGlassPreview}
+   let cornerRadius : {ind}
+   let colorScheme : {ind}
+   var opacity : SdSg
+   var brightness : Sd
+   var showsOuterBorder : Sb
+== 0x10052e4e8 struct {Alcove.ListCheckbox}
+   let horizontalPadding : {ind}
+   let title : SS
+   let accessory : x
+   let alignment : {Alcove.ListCheckbox.ViewAlignment}yx_G
+   let minHeight : {ind}
+   let size : {ind}
+   let disabled : Sb
+   let tint : {ind}
+   let checkmarkColor : {ind}Sg
+   let uncheckedColor : {ind}Sg
+   let labelFont : {ind}
+   var _value : {ind}ySbG
+== 0x10052e588 enum {Alcove.ListCheckbox.ViewAlignment}
+   let leading : 
+   let trailing : 
+== 0x10052e5b0 struct {Alcove.DropdownPicker}
+   let menuItems : Say{DropdownMenuItem}yxGG
+   let size : {ind}
+   let disabled : Sb
+   let label : SSxc
+   let selectedLabel : SSxc
+   let selectedOpacity : Sdxc
+   let selectedSymbolSpacing : {ind}
+   let selectedSymbolSize : {ind}
+   let selectedSymbolWeight : {ind}
+   let selectedImageSize : {ind}
+   let menuImageSize : {ind}
+   let menuSymbolWeight : {__C.Weight}
+   let symbol : SSSgxc
+   let image : So7NSImageCSgxc
+   let selectedImage : So7NSImageCSgxc
+   let isHeader : Sbxc
+   let onHover : yxSgc
+   var _colorScheme : {ind}y{ind}G
+   var _selection : {ind}yxG
+== 0x10052e6a4 objc class {InvisiblePopUpButton} : So13NSPopUpButtonC
+== 0x10052e6b4 objc class {AppKitMenuPicker.Coordinator} : So8NSObjectC
+   var selection : {ind}yxG
+   var menuItems : Say{DropdownMenuItem}yxGG
+   var isHeader : Sbxc
+   var onHover : yxSgc
+   var initialHoverOption : xSg
+== 0x10052e700 struct {Alcove.ListDropdown}
+   let title : SS
+   let menuItems : Say{DropdownMenuItem}yxGG
+   let view : q_
+   let alignment : {Alcove.ListDropdown.ViewAlignment}yxq__G
+   let size : {ind}
+   let disabled : Sb
+   let showTitle : Sb
+   let onDisabledTap : yycSg
+   let symbol : SSSgxc
+   let image : So7NSImageCSgxc
+   let selectedImage : So7NSImageCSgxc
+   let isHeader : Sbxc
+   let onHover : yxSgc
+   let selectedLabel : SSxc
+   let selectedOpacity : Sdxc
+   let selectedSymbolSpacing : {ind}
+   let selectedSymbolSize : {ind}
+   let selectedSymbolWeight : {ind}
+   let selectedImageSize : {ind}
+   let menuImageSize : {ind}
+   let menuSymbolWeight : {__C.Weight}
+   let label : SSxc
+   var _selection : {ind}yxG
+== 0x10052e824 enum {Alcove.ListDropdown.ViewAlignment}
+   let leading : 
+   let trailing : 
+== 0x10052e84c enum {DropdownMenuItem}
+   let option : x
+   let separator : 
+== 0x10052e874 struct {AppKitMenuPicker}
+   let menuItems : Say{DropdownMenuItem}yxGG
+   var _selection : {ind}yxG
+   let disabled : Sb
+   let symbol : SSSgxc
+   let image : So7NSImageCSgxc
+   let isHeader : Sbxc
+   let onHover : yxSgc
+   let menuSymbolWeight : {__C.Weight}
+   let menuImageSize : {ind}
+   let label : SSxc
+== 0x10052e8fc objc class {WindowBackgroundDragExclusionView} : So6NSViewC
+== 0x10052e90c struct {WindowBackgroundDragExclusion}
+== 0x10052e91c objc class {ClearGlassLayerView} : So6NSViewC
+   var cornerRadius : {ind}
+   var samplesWindowServer : Sb
+   let materialStyle : {ClearGlassMaterialStyle}
+   var rootLayer : So7CALayerCSg
+   var backdrop : So7CALayerCSg
+   var sdfLayer : So7CALayerCSg
+   var elementLayer : So7CALayerCSg
+   var glassBackground : So8NSObjectCSg
+   var foregroundBackdrop : So7CALayerCSg
+   var foregroundSDF : So7CALayerCSg
+   var foregroundElement : So7CALayerCSg
+   var glassForeground : So8NSObjectCSg
+   var keyFillPortalLayer : So7CALayerCSg
+   var keyFillLayer : So7CALayerCSg
+   var keyFillChildPortalLayer : So7CALayerCSg
+   var keyFillEffect : So8NSObjectCSg
+   var keyFillFilter : So8NSObjectCSg
+   var outerBorderLayer : So7CALayerCSg
+   var innerContainer : So7CALayerCSg
+   var innerMiddle : So7CALayerCSg
+   var innerBorderLayer : So7CALayerCSg
+   var gradientMask : So15CAGradientLayerCSg
+   var innerBorderEdgeMask : So15CAGradientLayerCSg
+   var outerBorderMask : So15CAGradientLayerCSg
+== 0x10052ea4c objc class {ClearGlassBorderLayerView} : So6NSViewC
+   var cornerRadius : {ind}
+   var showsOuterBorder : Sb
+   let materialStyle : {ClearGlassMaterialStyle}
+   var rootLayer : So7CALayerCSg
+   var outerBorderLayer : So7CALayerCSg
+   var innerContainer : So7CALayerCSg
+   var innerMiddle : So7CALayerCSg
+   var innerBorderLayer : So7CALayerCSg
+   var gradientMask : So15CAGradientLayerCSg
+== 0x10052eac8 struct {ClearGlassMaterialStyle}
+== 0x10052ead8 struct {Alcove.ClearGlassEffectView}
+   let cornerRadius : {ind}
+   let samplesWindowServer : Sb
+== 0x10052eb00 struct {Alcove.ClearGlassBorderEffectView}
+   let cornerRadius : {ind}
+   let showsOuterBorder : Sb
+== 0x10052eb28 class {Alcove.HapticFeedback}
+   var hasRecentlyTriggeredHaptic : Sb
+   var debounceResetTask : ScTyyt{ind}GSg
+== 0x10052eb50 protocol $s6Alcove12MaskProviderP
+== 0x10052eb60 struct {Alcove.LinearGradientMaskProvider}
+   let startPoint : {ind}
+   let endPoint : {ind}
+   let startOpacity : {ind}
+   let endOpacity : {ind}
+   let isSmooth : Sb
+== 0x10052ebac struct {Alcove.RoundedRectangleMaskProvider}
+   let cornerRadius : {ind}
+   let blurRadius : {ind}
+   let edgeConfigurations : SDy{ind}{Alcove.RoundedRectangleMaskProvider.EdgeConfiguration}G
+   let invertAlpha : Sb
+== 0x10052ebec struct {Alcove.RoundedRectangleMaskProvider.EdgeConfiguration}
+   let isFeathered : Sb
+   let padding : {Alcove.RoundedRectangleMaskProvider.EdgeConfiguration.PaddingUnit}
+== 0x10052ec14 multi-payload enum {Alcove.RoundedRectangleMaskProvider.EdgeConfiguration.PaddingUnit}
+   let points : {ind}
+   let percentage : {ind}
+== 0x10052ec3c class {Alcove.VariableBlurEngine}
+   let filter : So8NSObjectCSg
+   var currentMaskImage : {__C.CGImage}Sg
+== 0x10052ec64 objc class {Alcove.ProgressiveBlurView} : So6NSViewC
+   var maskProvider : x
+   var variableBlur : {Alcove.VariableBlurEngine}
+   var scale : {ind}
+   var lastFrame : {__C.CGRect}
+   var needsToRedrawMask : Sb
+   let ciContext : So9CIContextC
+== 0x10052ecbc struct {Alcove.ProgressiveBlurEffect}
+   let maskProvider : x
+   let maxBlurRadius : {ind}
+   let scale : {ind}
+== 0x10052ecf0 class protocol $s6Alcove24MaterialBackdropObserverP
+== 0x10052ed00 class {Alcove.MaterialLuminanceAggregator}
+   var sampleLuminances : SDySOSfG
+   let observers : So11NSHashTableCyyXlG
+   var luminance : SfSg
+== 0x10052ed34 objc class {Alcove.MaterialBackdropLumaView} : So6NSViewC
+   var aggregator : {Alcove.MaterialLuminanceAggregator}
+   var allowsFilteredLuma : Sb
+   var lumaUpdateRate : Sd
+   var resampleGeneration : {ind}
+== 0x10052ed74 struct {Alcove.MaterialBackdropLumaReader}
+   let aggregator : {Alcove.MaterialLuminanceAggregator}
+   let allowsFilteredLuma : Sb
+   let lumaUpdateRate : Sd
+   let resampleGeneration : {ind}
+== 0x10052edb4 objc class {Alcove.NSHostingViewSuppressingSafeArea} : {ind}yxG
+   var $__lazy_storage_$_layoutGuide : So13NSLayoutGuideCSg
+== 0x10052edd0 struct {Alcove.SettingsWindowView}
+   var _controlActiveState : {ind}y{ind}G
+   let sectionSpacing : {ind}
+== 0x10052edf8 struct {Alcove.ConnectivitySettingsView}
+   var _colorScheme : {ind}y{ind}G
+   var _controlActiveState : {ind}y{ind}G
+   var _connectivityManager : {ind}y{Alcove.ConnectivityManager}G
+   var _enableConnectivity : {Defaults.Default}ySbG
+   var _connectivityDuration : {Defaults.Default}ySdG
+   var _warnOnLowConnectBattery : {Defaults.Default}ySbG
+   var _lowConnectBatteryThreshold : {Defaults.Default}ySdG
+   var _playSoundOnLowConnectBattery : {Defaults.Default}ySbG
+   var _connectivityModel : {Defaults.Default}y{Alcove.ConnectivityModel}G
+   var __player : {ind}ySo8AVPlayerCG
+   var __isShowingWarnBluetoothPermission : {ind}ySbG
+   var __isShowingSoundBluetoothPermission : {ind}ySbG
+== 0x10052ee98 struct {Alcove.ListToggle}
+   let horizontalPadding : {ind}
+   let title : SS
+   let view : x
+   let alignment : {Alcove.ListToggle.ViewAlignment}yx_G
+   let minHeight : {ind}
+   let size : {ind}
+   let disabled : Sb
+   let tint : {ind}Sg
+   let onDisabledTap : yycSg
+   var _value : {ind}ySbG
+== 0x10052ef20 enum {Alcove.ListToggle.ViewAlignment}
+   let leading : 
+   let trailing : 
+== 0x10052ef48 struct {Alcove.SoundPreview}
+   let resources : SS
+   let type : SS
+   let symbol : SS
+   let padding : Sd
+   var __isPressed : {ind}ySbG
+== 0x10052ef94 struct {Alcove.SoundSettingsView}
+   var _colorScheme : {ind}y{ind}G
+   var _controlActiveState : {ind}y{ind}G
+   let volumeValues : SaySdG
+   var _enableVolume : {Defaults.Default}ySbG
+   var _hasPromptedAccessibilityPermission : {Defaults.Default}ySbG
+   var _volumeOutputDevice : {Defaults.Default}y{Alcove.OutputDevice}G
+   var _volumeDuration : {Defaults.Default}ySdG
+   var _volumeProgressStyle : {Defaults.Default}y{Alcove.HUDProgressStyle}G
+   var _volumeSpeed : {Defaults.Default}y{Alcove.HUDSpeed}G
+   var _showVolumePercentage : {Defaults.Default}ySbG
+   var _hideVolumeLabel : {Defaults.Default}ySbG
+   var __volume : {ind}ySdG
+   var __stylizedVolume : {ind}ySdG
+   var __currentIndex : {ind}ySiG
+   var __isShowingAccessibilityPermission : {ind}ySbG
+   var __isAccessibilityAuthorized : {ind}ySbG
+== 0x10052f064 struct {Alcove.VerticalVolumeSlider}
+   var _isEnabled : {ind}ySbG
+   var _value : {ind}yxG
+   let inRange : SNyxG
+   let height : {ind}
+   let onValueChanged : yxc
+   let onEditingChanged : ySbc
+   let tapCooldown : Sd
+   let dragUpdateInterval : Sd
+   var __localRealProgress : {ind}yxG
+   var __localTempProgress : {ind}yxG
+   var __capsuleBounds : {ind}y{ind}SgG
+   var __lastDragUpdate : {ind}y{ind}SgG
+   var _isActive : {ind}ySbG
+   var _isPressedLeft : {ind}ySbG
+   var _isPressedRight : {ind}ySbG
+== 0x10052f128 struct {Alcove.CalendarSettingsView}
+   var _colorScheme : {ind}y{ind}G
+   var _controlActiveState : {ind}y{ind}G
+   var _calendarManager : {ind}y{Alcove.CalendarManager}G
+   var _licenseManager : {ind}y{Alcove.LicenseManager}G
+   var _weatherManager : {ind}y{Alcove.WeatherManager}G
+   var _enableCalendar : {Defaults.Default}ySbG
+   var _showOnDisplay : {Defaults.Default}y{Alcove.DisplayType}G
+   var _forceSimulatedNotch : {Defaults.Default}ySbG
+   var _hasPromptedCalendarPermission : {Defaults.Default}ySbG
+   var _timeBeforeEvent : {Defaults.Default}ySdG
+   var _playSoundOnCalendarEvent : {Defaults.Default}ySbG
+   var _useCalendarColor : {Defaults.Default}ySbG
+   var _disableActivityDuringEvents : {Defaults.Default}ySbG
+   var _showWeatherOnEmptyDay : {Defaults.Default}ySbG
+   var _useEventIndicators : {Defaults.Default}ySbG
+   var _alwaysShowMonthView : {Defaults.Default}ySbG
+   var _playHourlyChime : {Defaults.Default}ySbG
+   var _notifyWhenTimeToLeave : {Defaults.Default}ySbG
+   var _timeToLeaveBuffer : {Defaults.Default}ySdG
+   var _timeToLeaveDuration : {Defaults.Default}ySdG
+   var _playSoundOnTimeToLeave : {Defaults.Default}ySbG
+   var _defaultTransportType : {Defaults.Default}y{Alcove.TransportType}G
+   var _excludedCalendars : {Defaults.Default}yShySSGG
+   var _calendarDisplayModes : {Defaults.Default}ySDyS2SGG
+   var _enableCalendarQuickPeek : {Defaults.Default}ySbG
+   var _beforeEventStarts : {Defaults.Default}ySbG
+   var _whenEventIsStarting : {Defaults.Default}ySbG
+   var _calendarPeekDuration : {Defaults.Default}ySdG
+   var _useColoredCalendarIndicator : {Defaults.Default}ySbG
+   var _hasPromptedLocationPermission : {Defaults.Default}ySbG
+   var __isShowingCalendarPermission : {ind}ySbG
+   var __isShowingEmptyDayWeatherPermission : {ind}ySbG
+   var __isShowingTimeToLeaveWeatherPermission : {ind}ySbG
+== 0x10052f2c4 struct {Alcove.CalendarView}
+   let notchController : {Alcove.NotchController}
+   var _calendarManager : {ind}y{Alcove.CalendarManager}G
+   var _weatherManager : {ind}y{Alcove.WeatherManager}G
+   var _alwaysShowMonthView : {Defaults.Default}ySbG
+   var _showWeatherOnEmptyDay : {Defaults.Default}ySbG
+   var _useEventIndicators : {Defaults.Default}ySbG
+   let compactMode : Sb
+== 0x10052f328 enum {EventSectionColumn}
+   let left : 
+   let right : 
+== 0x10052f350 struct {AllDayEventSymbol}
+   var _isPressed : {ind}ySbG
+   let event : {Alcove.CalendarManager.EventModel}
+== 0x10052f378 struct {Alcove.AppIcon}
+   let size : {ind}
+== 0x10052f394 struct {Alcove.MediaPlayer}
+   let notchController : {Alcove.NotchController}
+   var _audioManager : {ind}y{Alcove.AudioManager}G
+   var _focusManager : {ind}y{Alcove.FocusManager}G
+   var _mediaManager : {ind}y{Alcove.MediaManager}G
+   var _volumeManager : {ind}y{Alcove.VolumeManager}G
+   var _disableAlbumArtFlip : {Defaults.Default}ySbG
+   var _hideSongTitleExtras : {Defaults.Default}ySbG
+   var _songTitleBadge : {Defaults.Default}y{Alcove.NowPlayingTitleBadge}G
+   var _controlChoice : {Defaults.Default}y{Alcove.ControlType}G
+   var _musicApp : {Defaults.Default}y{Alcove.MusicApp}G
+   var _showVolumeControl : {Defaults.Default}ySbG
+   var _enableFocus : {Defaults.Default}ySbG
+   var _replaceWaveformDuringFocus : {Defaults.Default}ySbG
+   var _replaceWaveformDuringFocusModeIdentifier : {Defaults.Default}ySSSgG
+   var _useLiveWaveform : {Defaults.Default}ySbG
+   var __measuredTitleTextWidth : {ind}ySdG
+   var __measuredArtistTextWidth : {ind}ySdG
+   let compensatesForNotch : Sb
+   let hasExpand : Sb
+   let hasTranslucency : Sb
+   let blendMode : {ind}
+   let centerMarqueeText : Sb
+   let compactMode : Sb
+   let titleSymbolColor : {ind}
+   let fixedProgressSectionWidth : {ind}Sg
+   let showsControlHoverEffect : Sb
+   let allowsArtworkFlip : Sb
+   let onArtworkTap : yycSg
+   let controlStripSnapshotImage : {__C.CGImage}Sg
+   let controlStripSnapshotSize : {__C.CGSize}Sg
+   let controlStripSnapshotScale : {ind}Sg
+== 0x10052f518 struct {Alcove.MediaControlStrip}
+   let notchController : {Alcove.NotchController}
+   var _connectivityManager : {ind}y{Alcove.ConnectivityManager}G
+   var _mediaManager : {ind}y{Alcove.MediaManager}G
+   var _controlChoice : {Defaults.Default}y{Alcove.ControlType}G
+   var _musicApp : {Defaults.Default}y{Alcove.MusicApp}G
+   var _enableHaptics : {Defaults.Default}ySbG
+   var __loveDebounce : {ind}yScTyyt{ind}GSgG
+   var __controlDebounce : {ind}yScTyyt{ind}GSgG
+   var __copyDebounce : {ind}yScTyyt{ind}GSgG
+   var __loveTrigger : {ind}ySbG
+   var __copyLinkTrigger : {ind}ySbG
+   let compactMode : Sb
+   let hasExpand : Sb
+   let blendMode : {ind}
+== 0x10052f5d0 struct {Alcove.MediaPlayPauseButton}
+   let notchController : {Alcove.NotchController}
+   var _mediaManager : {ind}y{Alcove.MediaManager}G
+   let compactMode : Sb
+== 0x10052f604 struct {MediaProgressSection}
+   var _mediaManager : {ind}y{Alcove.MediaManager}G
+   var _progressStyle : {Defaults.Default}y{Alcove.ColorStyle}G
+   let hasTranslucency : Sb
+   let blendMode : {ind}
+   let width : {ind}
+== 0x10052f650 struct {TextMeasurementKey}
+   let title : SS
+   let artist : SS
+   let titleSymbol : SS
+   let titleSymbolPadding : {ind}
+== 0x10052f690 objc class {Alcove.LockPanel} : So7NSPanelC
+== 0x10052f6a0 class {Alcove.LoopingVideoPlayback}
+   let player : So8AVPlayerC
+   var _isReady : {ind}ySbG
+   var looper : So14AVPlayerLooperCSg
+   var currentItemObservation : {ind}Sg
+   var statusObservation : {ind}Sg
+== 0x10052f6ec objc class {Alcove.VideoPlayerLayerView} : So6NSViewC
+   let playerLayer : So13AVPlayerLayerC
+== 0x10052f708 struct {Alcove.LoopingVideo}
+   let name : SS
+== 0x10052f724 struct {LoopingVideoPlayer}
+   var _playback : {ind}y{Alcove.LoopingVideoPlayback}G
+== 0x10052f740 struct {Alcove.LoopingVideoRepresented}
+   let player : So8AVPlayerC
+== 0x10052f75c struct {Alcove.PlainTextField}
+   let elementMinHeight : {ind}
+   let horizontalPadding : {ind}
+   let placeHolder : SS
+   let onSubmit : yycSg
+   var _text : {ind}ySSG
+   var _monitor : {ind}yypSgG
+== 0x10052f7b4 struct {Alcove.RoundedToggleStyle}
+   var _isEnabled : {ind}ySbG
+   var _isHovering : {ind}ySbG
+   var _isPressed : {ind}ySbG
+   let cornerRadius : {ind}
+   let showsHoverEffect : Sb
+== 0x10052f800 struct {Alcove.CheckboxToggleStyle}
+   var _controlActiveState : {ind}y{ind}G
+   var _controlSize : {ind}y{ind}G
+   var _isEnabled : {ind}ySbG
+   let color : {ind}
+   let size : {ind}Sg
+   let cornerRadius : {ind}Sg
+   let luminanceThreshold : {ind}
+   let checkmarkColor : {ind}Sg
+   let uncheckedColor : {ind}Sg
+   let labelFont : {ind}
+   let usesGradientFill : Sb
+== 0x10052f894 struct {CheckboxButtonStyle}
+== 0x10052f8a4 struct {CheckboxMark}
+   var _colorScheme : {ind}y{ind}G
+   var _isPressed : {ind}ySbG
+   let isOn : Sb
+   let isActive : Sb
+   let color : {ind}
+   let uncheckedColor : {ind}Sg
+   let checkmarkColor : {ind}Sg
+   let luminanceThreshold : {ind}
+   let metrics : {CheckboxMetrics}
+   let usesGradientFill : Sb
+== 0x10052f92c struct {CheckboxMetrics}
+   let size : {ind}
+   let checkmarkSize : {ind}
+   let cornerRadius : {ind}
+   let labelSpacing : {ind}
+== 0x10052f96c struct {CheckboxPressedKey}
+== 0x10052f97c class {Alcove.FocusManager}
+   let logger : {ind}
+   var logTask : ScTyyt{ind}GSg
+   var historicalLogTask : ScTyyt{ind}GSg
+   var hasReceivedLiveFocusUpdate : Sb
+   let stateUpdateMessage : SS
+   let activeModeUpdateMessage : SS
+   let activeModeIdentifierRegex : So19NSRegularExpressionC
+   let validActiveModeIdentifierRegex : So19NSRegularExpressionC
+   let nameRegex : So19NSRegularExpressionC
+   let symbolRegex : So19NSRegularExpressionC
+   let tintColorRegex : So19NSRegularExpressionC
+   var _enableFocus : {Defaults.Default}ySbG
+   var _focusDuration : {Defaults.Default}ySdG
+   var _playSoundOnSleepFocus : {Defaults.Default}ySbG
+   var _replaceWaveformDuringFocus : {Defaults.Default}ySbG
+   var _replaceWaveformDuringFocusModeIdentifier : {Defaults.Default}ySSSgG
+   var _enableNowPlaying : {Defaults.Default}ySbG
+   var _enableLockScreen : {Defaults.Default}ySbG
+   var _allowFocusWhenLocked : {Defaults.Default}ySbG
+   var _allowFocusWidgetWhenLocked : {Defaults.Default}ySbG
+   var _hideWhileInFullscreen : {Defaults.Default}ySbG
+   var _isFocus : Sb
+   var _focusMode : {Alcove.FocusManager.FocusMode}Sg
+   var _focusModes : Say{Alcove.FocusManager.FocusMode}G
+   var _hasBeenFocused : Sb
+   var activeFocusIdentifier : SSSg
+   let _$observationRegistrar : {ind}
+== 0x10052fad0 struct {Alcove.FocusManager.FocusMode}
+   let identifier : SS
+   let symbol : SS
+   let tintColor : {ind}
+   let rawName : SSSg
+   let nameKey : SSSg
+== 0x10052fb1c multi-payload enum {ParsedActiveModeUpdate}
+   let active : SS10identifier_{Alcove.FocusManager.FocusMode}Sg4modet
+   let malformed : SS
+   let inactive : 
+== 0x10052fb50 struct {Alcove.BluetoothView}
+   var _controlActiveState : {ind}y{ind}G
+   var _connectivityManager : {ind}y{Alcove.ConnectivityManager}G
+   var __currentIndex : {ind}ySiG
+   var __timer : {ind}ySo7NSTimerCSgG
+== 0x10052fb90 class {Alcove.CalendarController}
+   var windowController : So18NSWindowControllerCSg
+== 0x10052fbac struct {Alcove.CalendarPermissionView}
+   var _controlActiveState : {ind}y{ind}G
+   var _calendarManager : {ind}y{Alcove.CalendarManager}G
+== 0x10052fbd4 enum {Alcove.CalendarPermissionView.CalendarApp}
+   let calendar : 
+   let fantastical : 
+   let notionCalendar : 
+== 0x10052fc08 struct {Alcove.AccessibilityView}
+   var _controlActiveState : {ind}y{ind}G
+   var __isWaitingForAccessibilityReturn : {ind}ySbG
+   var __demoKind : {ind}y{Alcove.DummyNotch.Kind}G
+   var __demoProgress : {ind}ySdG
+   var __demoIsMuted : {ind}ySbG
+   var __demoValueIndex : {ind}ySiG
+   var __hasDemoNotification : {ind}ySbG
+   var __hasMutedInCurrentVolumeCycle : {ind}ySbG
+== 0x10052fc78 class {Alcove.BrightnessManager}
+   let logger : {ind}
+   var observedDisplayID : {ind}Sg
+   var brightnessWriteTask : ScTyyt{ind}GSg
+   var actualBrightnessByDisplayID : SDy{ind}SfG
+   var localBrightnessTargetByDisplayID : SDy{ind}SfG
+   var localBrightnessCallbackSuppressionDeadlines : SDy{ind}SdG
+   let brightnessWriteCoalescingDelay : {ind}
+   let localBrightnessCallbackSuppressionDuration : Sd
+   let fallbackNormalMediaKeyStep : Sf
+   let fineMediaKeyStepScale : Sf
+   let edgeDuration : Sd
+   var _enableBrightness : {Defaults.Default}ySbG
+   var _allowBrightnessWhenFocused : {Defaults.Default}ySbG
+   var _allowBrightnessWhenLocked : {Defaults.Default}ySbG
+   var _brightnessDuration : {Defaults.Default}ySdG
+   var _brightnessSpeed : {Defaults.Default}y{Alcove.HUDSpeed}G
+   var _currentBrightness : Sf
+   var _shouldShowExternalDisplaySymbol : Sb
+   let _$observationRegistrar : {ind}
+== 0x10052fd6c enum {Alcove.BrightnessManager.DisplayTargetPreference}
+   let display : {ind}
+   let automatic : 
+   let internalDisplay : 
+   let externalDisplay : 
+== 0x10052fdac objc protocol $s6Alcove18SpotifyApplicationP
+== 0x10052fdbc objc protocol $s6Alcove12SpotifyTrackP
+== 0x10052fdcc class {Alcove.MusicController}
+   var windowController : So18NSWindowControllerCSg
+== 0x10052fde8 class {Alcove.GameManager}
+   let trackedGameBundleIdentifiers : ShySSG
+   let trackedGamePathFragments : SaySSG
+   var frontmostApplicationObserver : {sym12}_pSg
+   var isGaming : Sb
+== 0x10052fe28 class {Alcove.SpaceManager}
+   let spaceID : {ind}
+   var windows : ShySo8NSWindowCG
+== 0x10052fe50 struct {Alcove.GlassEffectView}
+   let material : {__C.Material}Sg
+   let blendingMode : {__C.BlendingMode}Sg
+   let state : {__C.State}Sg
+   let variant : SiSg
+   let frosted : SbSg
+   let cornerRadius : {ind}
+== 0x10052fea8 class {Alcove.BatteryManager}
+   var batteryHelper : {Alcove.BatteryHelper}Sg
+   var cancellables : Shy{ind}G
+   var _enableBattery : {Defaults.Default}ySbG
+   var _batteryDuration : {Defaults.Default}ySdG
+   var _notifyOnLowPowerMode : {Defaults.Default}ySbG
+   var _warnOnLowBattery : {Defaults.Default}ySbG
+   var _lowBatteryThreshold : {Defaults.Default}ySdG
+   var _playSoundOnLowBattery : {Defaults.Default}ySbG
+   var _allowBatteryWhenFocused : {Defaults.Default}ySbG
+   var _allowBatteryWhenLocked : {Defaults.Default}ySbG
+   var _batteryLevel : Sd
+   var _wasOnBattery : Sb
+   var _isLowPowerModeEnabled : Sb
+   var _hasPassedThreshold : Sb
+   var _hasRecentlyChangedPowerSource : Sb
+   var _remainingTime : SiSg
+   let _$observationRegistrar : {ind}
+== 0x10052ff84 class {Alcove.MediaKeyManager}
+   let brightnessKeyStateLock : So6NSLockC
+   let systemDefinedSubtypeAuxControl : Si
+   let brightnessUpKeyCode : Si
+   let brightnessDownKeyCode : Si
+   let fallbackBrightnessUpKeyCode : Si
+   let fallbackBrightnessDownKeyCode : Si
+   var eventTap : {__C.CFMachPort}Sg
+   var runLoopSource : {__C.CFRunLoopSource}Sg
+   var eventTapRunLoop : {__C.CFRunLoop}Sg
+   var isMonitoring : Sb
+   let normalStep : Sf
+   let fineStep : Sf
+   let volumeFeedbackTapMaxDuration : Sd
+   let volumeFeedbackStalePressResetInterval : Sd
+   let keyboardBrightnessMinimumApplyInterval : Sd
+   let keyboardBrightnessResampleInitialDelay : {ind}
+   let keyboardBrightnessResampleInterval : {ind}
+   let internalKeyboardTransports : ShySSG
+   var _enableBrightness : {Defaults.Default}ySbG
+   var _enableVolume : {Defaults.Default}ySbG
+   var cancellables : Shy{ind}G
+   var accessibilityPermissionObserverTask : ScTyyt{ind}GSg
+   var cachedAccessibilityAuthorization : Sb
+   var hasQueuedRevokedPermissionStop : Sb
+   var isBackgroundObservationEnabled : Sb
+   var isBetterDisplayNotificationObservationEnabled : Sb
+   var isBetterDisplayRunning : Sb
+   var isUsingBetterDisplayBrightness : Sb
+   var volumeKeyPressState : SDySi{VolumeKeyPressState}G
+   var activeBrightnessKeys : ShySiG
+   var lastKeyboardBrightnessApplyTimestamps : SDySiSdG
+   var keyboardBrightnessResampleTasks : SDySiScTyyt{ind}GG
+   var keyboardBrightnessResampleStates : SDySi{KeyboardBrightnessResampleState}G
+   let betterDisplayBundleIdentifier : SS
+   let betterDisplayLaunchedNotificationName : SS
+   let betterDisplayTerminatedNotificationName : SS
+   let betterDisplayOsdNotificationName : SS
+   let betterDisplayRequestNotificationName : SS
+   var lastBrightnessKeyPressState : {BrightnessKeyPressState}Sg
+== 0x100530168 struct {VolumeKeyPressState}
+   let downTimestamp : Sd
+   var lastDownTimestamp : Sd
+   var repeatCount : Si
+   let shouldInvertFeedback : Sb
+== 0x1005301a8 struct {KeyboardBrightnessResampleState}
+   let id : {ind}
+   let rawKeyCode : Si
+   let targetPreference : {Alcove.BrightnessManager.DisplayTargetPreference}
+   let isFineAdjustment : Sb
+== 0x1005301e8 struct {BrightnessKeyPressState}
+   let timestamp : Sd
+   let targetPreference : {Alcove.BrightnessManager.DisplayTargetPreference}
+== 0x100530210 struct {BetterDisplayOsdNotificationData}
+   var systemIconID : SiSg
+   var value : SdSg
+   var maxValue : SdSg
+   var displayID : {ind}Sg
+   var displayId : {ind}Sg
+   var targetDisplayID : {ind}Sg
+   var uuid : SSSg
+   var displayUUID : SSSg
+   var targetUUID : SSSg
+== 0x10053028c struct {BetterDisplayIntegrationRequestData}
+   var uuid : SSSg
+   var commands : SaySSG
+   var parameters : SDyS2SSgG
+== 0x1005302c0 enum {BetterDisplayOsdNotificationData.CodingKeys}
+   let systemIconID : 
+   let value : 
+   let maxValue : 
+   let displayID : 
+   let displayId : 
+   let targetDisplayID : 
+   let uuid : 
+   let displayUUID : 
+   let targetUUID : 
+== 0x10053033c enum {BetterDisplayIntegrationRequestData.CodingKeys}
+   let uuid : 
+   let commands : 
+   let parameters : 
+== 0x100530370 struct {Alcove.ValueAdjuster}
+   var _enableHaptics : {Defaults.Default}ySbG
+   let horizontalPadding : {ind}
+   let formatter : So17NSNumberFormatterC
+   var _isShowingTextBox : {ind}ySbG
+   var _focusedField : {ind}y{Alcove.ValueAdjuster.FocusedField}yx_GSgG
+   let title : SS
+   let infoView : {Alcove.InfoView}y{ind}GSg
+   var _value : {ind}yxG
+   let sliderRange : SNyxG
+   let suffix : SSSg
+   var step : x
+   let upperClamp : Sb
+   let lowerClamp : Sb
+   let controlSize : {Alcove.ValueAdjuster.ControlSize}yx_G
+   let decimalPlaces : Si
+   let onEditingChanged : ySbc
+   var _eventMonitor : {ind}yyXlSgG
+== 0x10053044c enum {Alcove.ValueAdjuster.ControlSize}
+   let regular : 
+   let compact : 
+== 0x100530474 enum {Alcove.ValueAdjuster.FocusedField}
+   let textbox : 
+== 0x100530490 struct {Alcove.NotchQuickPeekView}
+   let notchController : {Alcove.NotchController}
+   var _calendarManager : {ind}y{Alcove.CalendarManager}G
+   var _mediaManager : {ind}y{Alcove.MediaManager}G
+   var _notchAdjustedWidth : {Defaults.Default}ySdG
+   var _hideSongTitleExtras : {Defaults.Default}ySbG
+   var _useColoredCalendarIndicator : {Defaults.Default}ySbG
+== 0x1005304e8 enum {Alcove.PreviewContainerDefaults}
+== 0x1005304f8 struct {Alcove.PreviewContainer}
+   var _colorScheme : {ind}y{ind}G
+   let height : {ind}
+   let cornerRadius : {ind}
+   let innerPadding : {ind}
+   let usesWallpaper : Sb
+   let isLight : Sb
+   let alignment : {ind}
+   let wallpaper : q_yc
+   let content : xyc
+== 0x100530574 struct {Alcove.PreviewWallpaperBackground}
+   let blurRadius : {ind}
+   let scale : {ind}
+   let width : {ind}Sg
+   let height : {ind}Sg
+   let offset : {__C.CGSize}
+   let wallpaperImage : So7NSImageCSg
+   var __resolvedWallpaperImage : {ind}ySo7NSImageCSgG
+== 0x1005305d8 class {Alcove.BatteryHelper}
+   var service : {ind}
+== 0x1005305f4 multi-payload enum {Alcove.BatteryHelper.BatteryError}
+   let connectionAlreadyOpen : SS
+   let serviceNotFound : SS
+== 0x10053061c class {Alcove.LicenseManager}
+   let logger : {ind}
+   let keychain : {KeychainAccess.Keychain}
+   let api : {LicenseAPI}
+   var timerTask : ScTyyt{ind}GSg
+   var storageRecoveryTask : ScTyyt{ind}GSg
+   var tokenRefreshTask : ScTyyt{ind}GSg
+   let tokenRefreshThreshold : Sd
+   let offlineGraceSeconds : Si
+   var _licenseName : {Defaults.Default}ySSSgG
+   var _activationLimit : {Defaults.Default}ySiSgG
+   var _activationUsage : {Defaults.Default}ySiSgG
+   var _trial : {Alcove.LicenseManager.Trial}
+   var _license : {Alcove.LicenseManager.License}
+   var _instances : Say{Alcove.LicenseManager.Instance}G
+   var _remainingTime : SSSg
+   let _$observationRegistrar : {ind}
+== 0x1005306ec struct {Alcove.LicenseManager.License}
+   var key : SSSg
+   var active : SbSg
+   var beta : SbSg
+   var name : SSSg
+   var email : SSSg
+   var limit : SiSg
+   var usage : SiSg
+   var instance : {Alcove.LicenseManager.Instance}Sg
+== 0x10053075c struct {Alcove.LicenseManager.Trial}
+   var active : SbSg
+   var uuid : SSSg
+   var startedAt : {ind}Sg
+   var endsAt : {ind}Sg
+== 0x10053079c struct {LicenseAPI}
+   let baseURL : SS
+== 0x1005307b8 struct {Alcove.LicenseManager.Instance}
+   var id : SS
+   var name : SS
+   var model : SS
+== 0x1005307ec enum {StoredLicenseStateResolution}
+   let available : {StoredLicenseState}
+   let transientFailure : {ind}Sg6status_t
+   let failure : {ind}_p
+   let missing : 
+   let invalid : 
+== 0x100530838 struct {LicenseClaims}
+   let v : Si
+   let iss : SS
+   let sub : SS
+   let lkey : SS
+   let hwid : SS
+   let active : Sb
+   let beta : Sb
+   let limit : Si
+   let usage : Si
+   let iname : SS
+   let imodel : SS
+   let iat : Si
+   let exp : Si
+   let kid : SS
+== 0x1005308f0 multi-payload enum {LicenseAPI.NetworkError}
+   let invalidURL : {LicenseAPI.Endpoint}
+   let decodingFailed : {ind}_p
+   let unauthorized : {LicenseAPI.ErrorResponse}
+   let notFound : {LicenseAPI.ErrorResponse}
+   let forbidden : {LicenseAPI.ErrorResponse}
+   let unprocessableEntity : {LicenseAPI.ErrorResponse}
+   let tooManyRequests : {LicenseAPI.ErrorResponse}
+   let api : Si10statusCode_SSSg7messaget
+   let missingData : 
+== 0x10053096c enum {Alcove.LicenseManager.DeviceError}
+   let missingSystemUUID : 
+   let missingModelID : 
+   let missingComputerName : 
+== 0x1005309a0 struct {LicenseAPI.ErrorResponse}
+   let message : SS
+== 0x1005309bc struct {IssuedLicense}
+   let key : SS
+   let active : Sb
+   let beta : Sb
+   let name : SSSg
+   let limit : Si
+   let usage : Si
+   let instance : {Alcove.LicenseManager.Instance}
+   let instances : Say{Alcove.LicenseManager.Instance}G
+   let includesInstances : Sb
+   let token : SS
+   let tokenExpiresAt : {ind}
+== 0x100530a50 enum {LicenseStateError}
+   let missingRequiredFields : 
+   let encryptionFailed : 
+   let missingCurrentInstance : 
+== 0x100530a84 enum {LicenseTokenError}
+   let malformed : 
+   let badSignature : 
+   let expired : 
+== 0x100530ab8 enum {Alcove.LicenseManager.Instance.CodingKeys}
+   let id : 
+   let name : 
+   let model : 
+== 0x100530aec enum {Alcove.LicenseManager.Trial.CodingKeys}
+   let active : 
+   let uuid : 
+   let startedAt : 
+   let endsAt : 
+== 0x100530b2c enum {Alcove.LicenseManager.License.CodingKeys}
+   let key : 
+   let active : 
+   let beta : 
+   let name : 
+   let email : 
+   let limit : 
+   let usage : 
+   let instance : 
+== 0x100530b9c struct {StoredLicenseState}
+   let licenseKey : SS
+   let instanceId : SS
+   let hardwareUUID : SSSg
+   let token : SSSg
+   let tokenExpiresAt : {ind}Sg
+   let name : SSSg
+   let beta : SbSg
+   let limit : SiSg
+   let usage : SiSg
+   let instanceName : SSSg
+   let instanceModel : SSSg
+== 0x100530c30 multi-payload enum {LicenseAPI.Endpoint}
+   let trial : SS2id_t
+   let licenseInstances : SS3key_t
+   let startTrial : 
+   let validateLicense : 
+   let deactivateLicense : 
+   let issueLicenseToken : 
+== 0x100530c88 enum {LicenseAPI.ErrorResponse.CodingKeys}
+   let message : 
+== 0x100530ca4 enum {StoredLicenseState.CodingKeys}
+   let licenseKey : 
+   let instanceId : 
+   let hardwareUUID : 
+   let token : 
+   let tokenExpiresAt : 
+   let name : 
+   let beta : 
+   let limit : 
+   let usage : 
+   let instanceName : 
+   let instanceModel : 
+== 0x100530d38 enum {IssuedLicense.CodingKeys}
+   let key : 
+   let active : 
+   let beta : 
+   let name : 
+   let limit : 
+   let usage : 
+   let instance : 
+   let instances : 
+   let token : 
+   let tokenExpiresAt : 
+== 0x100530dc0 enum {LicenseClaims.CodingKeys}
+   let v : 
+   let iss : 
+   let sub : 
+   let lkey : 
+   let hwid : 
+   let active : 
+   let beta : 
+   let limit : 
+   let usage : 
+   let iname : 
+   let imodel : 
+   let iat : 
+   let exp : 
+   let kid : 
+== 0x100530e78 struct {BlurModifier}
+   let radius : {ind}
+== 0x100530e94 struct {SlideBlurScaleModifier}
+   let opacity : Sd
+   let blurRadius : {ind}
+   let offset : {ind}
+   let scale : {__C.CGSize}
+   let anchor : {ind}
+== 0x100530ee0 struct {ScaleAndFade}
+   let scale : {ind}
+   let opacity : Sd
+== 0x100530f08 struct {DelayedBlurFadeModifier}
+   let opacity : Sd
+   let blurRadius : {ind}
+   let fadeDelay : Sd
+   let duration : Sd
+== 0x100530f48 struct {VerticalOffsetModifier}
+   let offset : {ind}
+== 0x100530f64 class {Alcove.XPCManager}
+   var connection : So15NSXPCConnectionCSg
+   var isNowPlayingObservationEnabled : Sb
+   var _isFirstLaunch : {Defaults.Default}ySbG
+   var _automaticMusicApp : {Defaults.Default}ySbG
+   var _musicApp : {Defaults.Default}y{Alcove.MusicApp}G
+== 0x100530fb0 struct {Alcove.TriangleShape}
+   let cornerRadius : {ind}
+== 0x100530fcc struct {Alcove.LockView}
+   var _colorScheme : {ind}y{ind}G
+   let notchController : {Alcove.NotchCoordinator}
+   var _batteryManager : {ind}y{Alcove.BatteryManager}G
+   var _calendarManager : {ind}y{Alcove.CalendarManager}G
+   var _connectivityManager : {ind}y{Alcove.ConnectivityManager}G
+   var _focusManager : {ind}y{Alcove.FocusManager}G
+   var _lockManager : {ind}y{Alcove.LockManager}G
+   var _mediaManager : {ind}y{Alcove.MediaManager}G
+   var _weatherManager : {ind}y{Alcove.WeatherManager}G
+   var _lockScreenWidgetOrder : {Defaults.Default}ySay{Alcove.LockScreenWidgetType}GG
+   var _allowBatteryWidgetWhenLocked : {Defaults.Default}ySbG
+   var _allowConnectivityWidgetWhenLocked : {Defaults.Default}ySbG
+   var _allowFocusWidgetWhenLocked : {Defaults.Default}ySbG
+   var _allowNowPlayingWidgetWhenLocked : {Defaults.Default}ySbG
+   var _nowPlayingStyle : {Defaults.Default}y{Alcove.NowPlayingStyle}G
+   var _showVolumeControl : {Defaults.Default}ySbG
+   var _nowPlayingWidgetOffset : {Defaults.Default}ySdG
+   var _allowCalendarWidgetWhenLocked : {Defaults.Default}ySbG
+   var _allowWeatherWidgetWhenLocked : {Defaults.Default}ySbG
+   var _weatherStyle : {Defaults.Default}y{Alcove.WeatherStyle}G
+   var _hasAppeared : {ind}ySbG
+== 0x1005310d8 class {Alcove.AboutController}
+   var windowController : So18NSWindowControllerCSg
+== 0x1005310f4 enum {Alcove.SettingsTab}
+   let general : 
+   let battery : 
+   let connectivity : 
+   let focus : 
+   let display : 
+   let sound : 
+   let nowPlaying : 
+   let calendar : 
+   let fileTray : 
+   let lockScreen : 
+   let license : 
+   let about : 
+== 0x100531194 struct {Alcove.SettingsTab.Badge}
+   let text : SS
+   let style : {Alcove.SettingsTab.Badge.Style}
+   let color : {ind}
+   let usesInfoTint : Sb
+   let cutoutText : Sb
+   let bordered : Sb
+   let hidesWhenActive : Sb
+   let opacity : Sd
+== 0x100531204 enum {Alcove.SettingsTab.Badge.Style}
+   let circle : 
+   let capsule : 
+== 0x10053122c struct {Alcove.SymbolRectangle}
+   let name : SSSg
+   let internalSystemName : SSSg
+   let imageName : SSSg
+   let imageSize : SdSg
+   let text : SSSg
+   let color : {ind}
+   let highlightColor : {ind}
+   let symbolColor : {ind}
+   let foreheadColor : {ind}Sg
+   let size : Sd
+   let scale : {Alcove.SymbolRectangle.ImageScale}
+   let usesAppIconPadding : Sb
+   let symbolOffset : {__C.CGSize}
+   let symbolWeight : {ind}
+   let internalSymbolWeight : {__C.Weight}
+   let radiusMultiplier : Sd
+== 0x1005312fc enum {Alcove.SymbolRectangle.ImageScale}
+   let mini : 
+   let small : 
+   let medium : 
+   let large : 
+   let extraLarge : 
+   let huge : 
+   let extraHuge : 
+== 0x100531360 struct {Alcove.NotchExpandedView}
+   var _displayScale : {ind}y{ind}G
+   let notchController : {Alcove.NotchController}
+   var _calendarManager : {ind}y{Alcove.CalendarManager}G
+   var _connectivityManager : {ind}y{Alcove.ConnectivityManager}G
+   var _mediaManager : {ind}y{Alcove.MediaManager}G
+   var _weatherManager : {ind}y{Alcove.WeatherManager}G
+   var _alwaysShowMonthView : {Defaults.Default}ySbG
+   var _controlChoice : {Defaults.Default}y{Alcove.ControlType}G
+   var _showWeatherOnEmptyDay : {Defaults.Default}ySbG
+   var _useEventIndicators : {Defaults.Default}ySbG
+   var _calendarDisplayModes : {Defaults.Default}ySDyS2SGG
+   var _enableCalendar : {Defaults.Default}ySbG
+   var _musicApp : {Defaults.Default}y{Alcove.MusicApp}G
+   var __snapshotManager : {ind}y{Alcove.SnapshotManager}G
+   var __calendarSnapshot : {ind}y{Alcove.SnapshotManager.Snapshot}SgG
+   var __calendarSnapshotRequest : {ind}y{Alcove.SnapshotManager.Request}SgG
+   var __controlStripSnapshot : {ind}y{Alcove.SnapshotManager.Snapshot}SgG
+   var __controlStripSnapshotRequest : {ind}y{Alcove.SnapshotManager.Request}SgG
+   var __showsFrozenSnapshot : {ind}ySbG
+== 0x100531454 struct {ExpandedActivityTransitionModifier}
+   let opacity : Sd
+   let blurRadius : {ind}
+   let verticalOffset : {ind}
+   let delay : Sd
+   let duration : Sd
+== 0x1005314a0 struct {Alcove.BatterySettingsView}
+   var _controlActiveState : {ind}y{ind}G
+   var _enableBattery : {Defaults.Default}ySbG
+   var _batteryDuration : {Defaults.Default}ySdG
+   var _notifyOnLowPowerMode : {Defaults.Default}ySbG
+   var _warnOnLowBattery : {Defaults.Default}ySbG
+   var _lowBatteryThreshold : {Defaults.Default}ySdG
+   var _playSoundOnLowBattery : {Defaults.Default}ySbG
+   var _hideBatteryLabel : {Defaults.Default}ySbG
+   var _hideBatteryPercentage : {Defaults.Default}ySbG
+== 0x10053151c struct {Alcove.LicenseView}
+   var _controlActiveState : {ind}y{ind}G
+   var _licenseManager : {ind}y{Alcove.LicenseManager}G
+   var _isFirstLaunch : {Defaults.Default}ySbG
+   var _licenseName : {Defaults.Default}ySSSgG
+   var _activationLimit : {Defaults.Default}ySiSgG
+   var _activationUsage : {Defaults.Default}ySiSgG
+   var _enableHaptics : {Defaults.Default}ySbG
+   var __activation : {ind}y{Alcove.LicenseView.Activation}G
+   var __licenseKey : {ind}ySSG
+   var __isLoading : {ind}ySbG
+   var __isValidating : {ind}ySbG
+   var __isValidLicense : {ind}ySbG
+   var __isViewCollapsed : {ind}ySbG
+   var __hasError : {ind}ySbG
+   var __errorMessage : {ind}ySSG
+   var __shouldError : {ind}ySbG
+   var __shouldShake : {ind}ySbG
+   var __licenseCardHasEntered : {ind}ySbG
+   var __licenseSealHasEntered : {ind}ySbG
+   var __licenseNameHasEntered : {ind}ySbG
+   var __licenseDescriptionHasEntered : {ind}ySbG
+   var __licenseUsageHasEntered : {ind}ySbG
+   var __licenseActionHasEntered : {ind}ySbG
+   var __licensePlayback : {ind}y{Alcove.SoundManager.Playback}SgG
+   var __licenseTimelineTask : {ind}yScTyyt{ind}GSgG
+   var _isFocused : {ind}ySbG
+   let expandedSize : {__C.CGSize}
+   let collapsedSize : {__C.CGSize}
+== 0x10053167c enum {Alcove.LicenseView.Activation}
+   let license : 
+   let trial : 
+   let purchase : 
+== 0x1005316b0 class {Alcove.LockController}
+   var space : {Alcove.SpaceManager}
+   var windowController : So18NSWindowControllerCSg
+== 0x1005316d8 struct {Alcove.DisplaySettingsView}
+   var _colorScheme : {ind}y{ind}G
+   var _controlActiveState : {ind}y{ind}G
+   let brightnessValues : SaySdG
+   var _enableBrightness : {Defaults.Default}ySbG
+   var _hasPromptedAccessibilityPermission : {Defaults.Default}ySbG
+   var _brightnessDuration : {Defaults.Default}ySdG
+   var _brightnessProgressStyle : {Defaults.Default}y{Alcove.HUDProgressStyle}G
+   var _brightnessSpeed : {Defaults.Default}y{Alcove.HUDSpeed}G
+   var _showBrightnessPercentage : {Defaults.Default}ySbG
+   var _hideBrightnessLabel : {Defaults.Default}ySbG
+   var __brightness : {ind}ySdG
+   var __stylizedBrightness : {ind}ySdG
+   var __currentBrightnessIndex : {ind}ySiG
+   var __isShowingAccessibilityPermission : {ind}ySbG
+   var __isAccessibilityAuthorized : {ind}ySbG
+== 0x10053179c struct {Alcove.InfoView}
+   let description : {ind}Sg
+   let view : x
+   let symbol : SS
+   let symbolWeight : {ind}
+   let image : SSSg
+   let size : {ind}
+   let padding : Sd
+   let isEnabled : Sb
+   let hasHover : Sb
+   let isPresented : {ind}ySbGSg
+   var __isShowingDescription : {ind}ySbG
+   var __isHovering : {ind}ySbG
+   var __hoverTimer : {ind}ySo7NSTimerCSgG
+== 0x100531848 class {Alcove.NotchSwipeMonitor}
+   var notchController : {Alcove.NotchController}SgXw
+   var globalMouseMonitor : ypSg
+   var localMouseMonitor : ypSg
+   var swipeHandlers : Say{NotchSwipeScrollHandler}G
+   let topPadding : {ind}
+== 0x100531894 class {NotchSwipeScrollHandler}
+   let direction : {Alcove.NotchSwipeDirection}
+   let action : y{ind}_AA{__C.Phase}ABtc
+   var accumulatedScrollDeltaX : {ind}
+   var accumulatedScrollDeltaY : {ind}
+== 0x1005318d4 enum {Alcove.NotchSwipeDirection}
+   let left : 
+   let right : 
+   let up : 
+   let down : 
+== 0x100531914 struct {Alcove.NotchSwipes}
+   let verticalSwipeSuccessThreshold : Sd
+   let verticalSwipeResetThreshold : Sd
+   let cycleActivitySwipeSuccessThreshold : Sd
+   let cycleActivitySwipeResetThreshold : Sd
+   let horizontalSwipeSuccessThreshold : Sd
+   let horizontalSwipeResetThreshold : Sd
+   let notchController : {Alcove.NotchController}
+   let calendarManager : {Alcove.CalendarManager}
+   let mediaManager : {Alcove.MediaManager}
+   let enableHaptics : Sb
+   let swipeToSkip : Sb
+   let enableNowPlaying : Sb
+   let enableQuickPeek : Sb
+   let enableCalendarQuickPeek : Sb
+   let swipeToDismiss : Sb
+   let swipeToCycleActivity : Sb
+   let swipeToToggle : Sb
+== 0x1005319f0 struct {Alcove.NotchBackdropView}
+   let notchController : {Alcove.NotchController}
+== 0x100531a0c class {NotchContrastOutlineLuminanceState}
+   var aggregator : {Alcove.MaterialLuminanceAggregator}SgXw
+   var _luminance : SfSg
+   let _$observationRegistrar : {ind}
+== 0x100531a40 struct {Alcove.NotchContrastOutlineView}
+   let aggregator : {Alcove.MaterialLuminanceAggregator}
+   let isEnabled : Sb
+   let isVisible : Sb
+   let isExpanded : Sb
+   let tintColor : {ind}Sg
+   let outlineShape : {Alcove.NotchContrastOutlineShape}
+   var __animatedOpacity : {ind}ySdG
+   var __luminanceState : {ind}y{NotchContrastOutlineLuminanceState}G
+== 0x100531ab0 struct {Alcove.NotchContrastOutlineShape}
+   let style : {Alcove.NotchContrastOutlineShape.Style}
+   var bottomCornerRadius : Sd
+   var thickness : Sd
+== 0x100531ae4 enum {Alcove.NotchContrastOutlineShape.Style}
+   let notch : 
+   let pill : 
+== 0x100531b0c struct {Alcove.NotchLumaView}
+   let notchController : {Alcove.NotchController}
+   var _swipeToDismiss : {Defaults.Default}ySbG
+   var _swipeToToggle : {Defaults.Default}ySbG
+   var _notchAdjustedWidth : {Defaults.Default}ySdG
+   var _notchAdjustedHeight : {Defaults.Default}ySdG
+   var _contrastOutline : {Defaults.Default}ySbG
+== 0x100531b64 struct {Alcove.NotchProgressiveBlurView}
+   let notchController : {Alcove.NotchController}
+   var _progressiveBlur : {Defaults.Default}ySbG
+   let progressiveBlurOutset : Sd
+   let progressiveBlurEdgeClearance : Sd
+== 0x100531ba4 struct {Alcove.NotchView}
+   let notchController : {Alcove.NotchController}
+   var _lockManager : {ind}y{Alcove.LockManager}G
+   var _mediaManager : {ind}y{Alcove.MediaManager}G
+   var _showOnDisplay : {Defaults.Default}y{Alcove.DisplayType}G
+   var _enableHaptics : {Defaults.Default}ySbG
+   var _expandNotchOnHover : {Defaults.Default}ySbG
+   var _hoverDuration : {Defaults.Default}ySdG
+   var _swipeToToggle : {Defaults.Default}ySbG
+   var _swipeToDismiss : {Defaults.Default}ySbG
+   var _swipeToSkip : {Defaults.Default}ySbG
+   var _notchAdjustedWidth : {Defaults.Default}ySdG
+   var _notchAdjustedHeight : {Defaults.Default}ySdG
+   var _enableFocus : {Defaults.Default}ySbG
+   var _hideWhileSourceIsActive : {Defaults.Default}ySbG
+   var _hideWhileInFullscreen : {Defaults.Default}ySbG
+   var _controlChoice : {Defaults.Default}y{Alcove.ControlType}G
+   var _musicApp : {Defaults.Default}y{Alcove.MusicApp}G
+   var _contrastOutline : {Defaults.Default}ySbG
+   var _hoverDebounce : {ind}yScTyyt{ind}GSgG
+   var _cutoutScale : {ind}ySdG
+   var _cutoutWidthProgress : {ind}ySdG
+   var _cutoutContentWidthProgress : {ind}ySdG
+   var _cutoutScaleAnchor : {ind}y{ind}G
+== 0x100531cc8 enum {Alcove.EventType}
+   let regular : 
+   let holiday : 
+   let birthday : 
+== 0x100531cfc struct {Alcove.NotchLiveActivitiesView}
+   let notchController : {Alcove.NotchController}
+   var _audioManager : {ind}y{Alcove.AudioManager}G
+   var _calendarManager : {ind}y{Alcove.CalendarManager}G
+   var _focusManager : {ind}y{Alcove.FocusManager}G
+   var _lockManager : {ind}y{Alcove.LockManager}G
+   var _mediaManager : {ind}y{Alcove.MediaManager}G
+   var _expandNotchOnHover : {Defaults.Default}ySbG
+   var _swipeToToggle : {Defaults.Default}ySbG
+   var _notchAdjustedHeight : {Defaults.Default}ySdG
+   var _hideLabel : {Defaults.Default}ySbG
+   var _enableNowPlaying : {Defaults.Default}ySbG
+   var _enableHaptics : {Defaults.Default}ySbG
+   var _enableFocus : {Defaults.Default}ySbG
+   var _disableAlbumArtFlip : {Defaults.Default}ySbG
+   var _disableWaveform : {Defaults.Default}ySbG
+   var _replaceWaveformDuringFocus : {Defaults.Default}ySbG
+   var _replaceWaveformDuringFocusModeIdentifier : {Defaults.Default}ySSSgG
+   var _hideWhileInFullscreen : {Defaults.Default}ySbG
+   var _musicApp : {Defaults.Default}y{Alcove.MusicApp}G
+   var _enableQuickPeek : {Defaults.Default}ySbG
+   var _useCalendarColor : {Defaults.Default}ySbG
+   var _enableCalendarQuickPeek : {Defaults.Default}ySbG
+   var _useLiveWaveform : {Defaults.Default}ySbG
+== 0x100531e20 struct {Alcove.ListButton}
+   let horizontalPadding : {ind}
+   let view : x
+   let minHeight : {ind}
+   let size : {ind}
+   let disabled : Sb
+   let action : yyYac
+   var __isLoading : {ind}ySbG
+== 0x100531e84 objc class {AppDelegate} : So8NSObjectC
+== 0x100531e94 struct {Alcove.AppMain}
+   let appState : {Alcove.AppState}
+   var _appDelegate : {ind}y{AppDelegate}G
+== 0x100531ebc class {Alcove.MissionControlManager}
+   let logger : {ind}
+   let monitoredProcesses : Say{MonitoredProcess}G
+   var cancellables : Shy{ind}G
+   var logTask : ScTyyt{ind}GSg
+   var isMonitoringEnabled : Sb
+   var _hideWhileInMissionControl : {Defaults.Default}ySbG
+   var isMissionControlActive : Sb
+== 0x100531f20 struct {MonitoredProcess}
+   let bundleIdentifier : SS
+   let processName : SS
+== 0x100531f48 class {Alcove.ScreenManager}
+   var cancellables : Shy{ind}G
+   var hasRecentlySleptOrWoke : Sb
+   var isFullscreen : Sb
+   var _hideWhileInFullscreen : {Defaults.Default}ySbG
+   var _hideWhileGaming : {Defaults.Default}ySbG
+   var _hideWhileInMissionControl : {Defaults.Default}ySbG
+   var _showOnDisplay : {Defaults.Default}y{Alcove.DisplayType}G
+   var _showOnDisplayUUID : {Defaults.Default}ySSSgG
+== 0x100531fb8 struct {Alcove.ProgressSlider}
+   var _value : {ind}yxG
+   let inRange : SNyxG
+   let fillColors : Say{ind}G
+   let emptyColor : {ind}
+   let height : {ind}
+   let hasGlow : Sb
+   let progressiveGlow : Sb
+   let animation : {ind}
+== 0x100532028 objc class {Alcove.ModalWindow} : So8NSWindowC
+   let cornerRadius : {ind}
+   let isClosable : Sb
+   let closeButtonOffset : {__C.CGSize}
+   let onClose : yycSg
+   var originalCloseButtonOrigin : {__C.CGPoint}Sg
+   var customCloseButton : So8NSButtonCSg
+== 0x100532080 struct {Alcove.SettingsSection}
+   var _controlActiveState : {ind}y{ind}G
+   let title : SSSg
+   let tabs : Say{Alcove.SettingsTab}G
+   let titlePadding : {ind}
+== 0x1005320c0 struct {SettingsSectionBadge}
+   let badge : {Alcove.SettingsTab.Badge}
+   let isActive : Sb
+   let isWindowActive : Sb
+== 0x1005320f4 class protocol $s6Alcove28ControlActionClosureProtocolP
+== 0x100532104 objc class {ActionTrampoline} : So8NSObjectC
+   let action : ySo7NSEventCc
+== 0x100532120 class {Alcove.ObjectAssociation}
+   let defaultValue : x
+   let policy : {Alcove.AssociationPolicy}
+== 0x100532148 objc class {Alcove.CallbackMenuItem} : So10NSMenuItemC
+   let callback : yyc
+== 0x100532164 objc class {Alcove.CallbackMenu} : So6NSMenuC
+   let willOpenCallback : ySo6NSMenuCScMYcc
+== 0x100532180 enum {Alcove.AssociationPolicy}
+   let assign : 
+   let retainNonatomic : 
+   let copyNonatomic : 
+   let retain : 
+   let copy : 
+== 0x1005321cc class {Alcove.PermissionHelper}
+== 0x1005321dc class {Alcove.LicenseController}
+   var windowController : So18NSWindowControllerCSg
+== 0x1005321f8 class {Alcove.NotchController}
+   var _space : {Alcove.SpaceManager}
+   var windowController : So18NSWindowControllerCSg
+   var backdropWindowController : So18NSWindowControllerCSg
+   var topEdgeGlobalMouseMonitor : ypSg
+   var topEdgeLocalMouseMonitor : ypSg
+   var swipeMonitor : {Alcove.NotchSwipeMonitor}Sg
+   var topEdgePressStarted : Sb
+   var topEdgeOpenStartedAt : {ind}Sg
+   var disableTransitionNonce : {ind}
+   var notificationSwapDebounce : ScTyyt{ind}GSg
+   var notificationCloseDebounce : ScTyyt{ind}GSg
+   var notificationCloseGeneration : {ind}
+   var notificationRestoreDebounce : ScTyyt{ind}GSg
+   var notificationClosingType : {Alcove.NotchController.Notification}
+   var notificationClosingUntil : {ind}
+   var notificationLiveActivityContext : {Alcove.NotchController.LiveActivity}
+   var liveActivitySwapDebounce : ScTyyt{ind}GSg
+   var quickPeekDebounce : ScTyyt{ind}GSg
+   var quickPeekGeneration : {ind}
+   var adjustDebounce : ScTyyt{ind}GSg
+   var mediaKeyEdgeRestoreDebounce : ScTyyt{ind}GSg
+   var expandedTransitionTask : ScTyyt{ind}GSg
+   var expandedCornerRadiusTask : ScTyyt{ind}GSg
+   var expandedTransitionGeneration : {ind}
+   var progressiveBlurTransitionTask : ScTyyt{ind}GSg
+   var backdropLumaTransitionTask : ScTyyt{ind}GSg
+   var progressDebounce : ScTyyt{ind}GSg
+   var swipeResetDebounce : ScTyyt{ind}GSg
+   var quickPeekResetDebounce : ScTyyt{ind}GSg
+   var dismissedLiveActivityStack : Say{Alcove.NotchController.LiveActivity}G
+   var pendingCycleIdleActivity : {Alcove.ExpandedActivity}Sg
+   var isExpandedFromNotification : Sb
+   var notificationExpandedActivityOverride : {Alcove.ExpandedActivity}Sg
+   var isHidden : Sb
+   var visibilityDebounce : ScTyyt{ind}GSg
+   var animateNonNotchCutoutTransition : Sb
+   let backdropLuminanceAggregator : {Alcove.MaterialLuminanceAggregator}
+   var _backdropLumaGeneration : {ind}
+   var _hideFromScreenCapture : {Defaults.Default}ySbG
+   var _forceSimulatedNotch : {Defaults.Default}ySbG
+   var _notchAdjustedWidth : {Defaults.Default}ySdG
+   var _notchAdjustedHeight : {Defaults.Default}ySdG
+   var _enableFocus : {Defaults.Default}ySbG
+   var _enableBrightness : {Defaults.Default}ySbG
+   var _enableVolume : {Defaults.Default}ySbG
+   var _enableCalendarQuickPeek : {Defaults.Default}ySbG
+   var _showWeatherOnEmptyDay : {Defaults.Default}ySbG
+   var _enableNowPlaying : {Defaults.Default}ySbG
+   var _hideWhileSourceIsActive : {Defaults.Default}ySbG
+   var _hideWhileInFullscreen : {Defaults.Default}ySbG
+   var _enableQuickPeek : {Defaults.Default}ySbG
+   var _enableLockScreen : {Defaults.Default}ySbG
+   var _enableHaptics : {Defaults.Default}ySbG
+   var _allowNowPlayingWidgetWhenLocked : {Defaults.Default}ySbG
+   var _mostRecentActivity : {Defaults.Default}ySbG
+   var _idleActivity : {Defaults.Default}y{Alcove.ExpandedActivity}G
+   var _forceEnableActivity : {Defaults.Default}ySbG
+   var _swipeToCycleActivity : {Defaults.Default}ySbG
+   var _swipeToDismiss : {Defaults.Default}ySbG
+   var _swipeToSkip : {Defaults.Default}ySbG
+   var _swipeToToggle : {Defaults.Default}ySbG
+   var _isEnabled : Sb
+   var _isVisible : Sb
+   var _isMouseInside : Sb
+   var _isMouseInsideLeftContent : Sb
+   var _isMouseInsideRightContent : Sb
+   var _isElevated : Sb
+   var _isPressed : Sb
+   var _isQuickPeeking : Sb
+   var _isExpanded : Sb
+   var _isExpanding : Sb
+   var _isCollapsing : Sb
+   var _usesExpandedCornerRadius : Sb
+   var _isWidening : Sb
+   var _isAdjusting : Sb
+   var _hasProgressiveBlur : Sb
+   var _hasExpandedBackdropLuma : Sb
+   var _hasNotification : Sb
+   var _hasLiveActivity : Sb
+   var _hasOutput : Sb
+   var _notification : {Alcove.NotchController.Notification}
+   var _notificationIntent : {Alcove.NotchController.Notification}
+   var _liveActivity : {Alcove.NotchController.LiveActivity}
+   var _liveActivityIntent : {Alcove.NotchController.LiveActivity}
+   var _quickPeek : {Alcove.NotchController.QuickPeek}
+   var _expandedActivityTransitionNonce : {ind}
+   var _controlStripSnapshotRefreshNonce : {ind}
+   var _expandedActivity : {Alcove.ExpandedActivity}
+   var _notificationContext : {Alcove.NotchController.NotificationContext}Sg
+   var _notchWidth : Sd
+   var _notchHeight : Sd
+   var _notchExpandedWidth : Sd
+   var _notchExpandedHeight : Sd
+   var _lastAdjustment : {ind}Sg
+   var _shouldResetSwipes : Sb
+   var _mediaKeyStretchMaxScroll : Sd
+   var _mediaKeyEdgeScroll : Sd
+   var _mediaKeyEdgeDirection : {Alcove.NotchSwipeDirection}
+   var _gestureHorizontalScroll : Sd
+   var _gestureHorizontalProgress : Sd
+   var _gestureHorizontalDirection : {Alcove.NotchSwipeDirection}
+   var _hasPassedHorizontalSwipeThreshold : Sb
+   var _startedHorizontalSwipe : {ind}
+   var _gestureVerticalScroll : Sd
+   var _gestureVerticalProgress : Sd
+   var _gestureVerticalDirection : {Alcove.NotchSwipeDirection}
+   var _hasTriggeredVerticalSwipeAction : Sb
+   var _cycleSwipeReadyOnRelease : Sb
+   var _hasTriggeredCycleThresholdHaptic : Sb
+   var _isSwiping : Sb
+   var _isQuickPeekSwiping : Sb
+   var _isCollapsingSwipe : Sb
+   let displayUUID : SS
+   var _hiddenLiveActivityForSpaceContext : {Alcove.NotchController.LiveActivity}
+   let _$observationRegistrar : {ind}
+== 0x10053276c enum {Alcove.NotchController.Notification}
+   let isCharging : 
+   let isLowBattery : 
+   let isLowPowerMode : 
+   let didConnectAirPods : 
+   let isLowAirPodsBattery : 
+   let isFocus : 
+   let didChangeVolume : 
+   let didChangeBrightness : 
+   let timeToLeave : 
+   let none : 
+== 0x1005327f4 enum {Alcove.NotchController.LiveActivity}
+   let none : 
+   let isLocked : 
+   let isAdjusting : 
+   let isCalendar : 
+   let isPlaying : 
+== 0x100532840 enum {Alcove.NotchController.QuickPeek}
+   let none : 
+   let isAdjusting : 
+   let isCalendar : 
+   let isPlaying : 
+== 0x100532880 struct {Alcove.NotchController.NotificationContext}
+   let type : {Alcove.NotchController.Notification}
+   let deviceSnapshot : {Alcove.ConnectivityManager.VirtualDevice}Sg
+== 0x1005328a8 class {Alcove.NotchCoordinator}
+   var _forceSimulatedNotch : {Defaults.Default}ySbG
+   var _hideFromScreenCapture : {Defaults.Default}ySbG
+   var _showOnDisplay : {Defaults.Default}y{Alcove.DisplayType}G
+   var _showOnDisplayUUID : {Defaults.Default}ySSSgG
+   var controllersByDisplayUUID : SDySS{Alcove.NotchController}G
+== 0x1005328f4 objc class {Alcove.LoginWindowContainerView} : So6NSViewC
+   var uiController : So8NSObjectCSg
+   var backgroundView : So6NSViewCSgXw
+   var statusController : So16NSViewControllerCSgXw
+   var bigTimeController : So16NSViewControllerCSg
+   var dateController : So16NSViewControllerCSg
+   var clockSettingsManager : So8NSObjectCSgXw
+   var clockSettings : So8NSObjectCSgXw
+   var focusStatusSymbolContainer : So6NSViewCSgXw
+   var focusStatusSymbolImageView : So11NSImageViewCSgXw
+   var authHintView : So6NSViewCSgXw
+   var mainAuthHintTextField : So11NSTextFieldCSgXw
+   var subAuthHintTextField : So11NSTextFieldCSgXw
+   var notificationObservers : SaySo20NSNotificationCenterC_{sym12}_ptG
+   var authHintClickGestureRecognizer : So24NSClickGestureRecognizerCSg
+   var hasLoadedSystemBundle : Sb
+   var $__lazy_storage_$_hasTouchID : SbSg
+   var isObservingFocusState : Sb
+   var isFocusStatusSymbolVisible : Sb
+   var focusStatusSymbolAnimationToken : Si
+   var onAuthHintTextClick : yycSg
+== 0x1005329f4 struct {Alcove.SubpixelTranslation}
+   var x : {ind}
+   var y : {ind}
+== 0x100532a1c struct {Alcove.DefaultButtonStyle}
+   var _isEnabled : {ind}ySbG
+   var _controlActiveState : {ind}y{ind}G
+   let elementMinHeight : {ind}
+   let cornerRadius : {ind}
+   let isPrimary : Sb
+== 0x100532a68 struct {Alcove.TopNestedButtonStyle}
+   var _isEnabled : {ind}ySbG
+   let topLeftCornerRadius : {ind}
+   let topRightCornerRadius : {ind}
+   let bottomLeftCornerRadius : {ind}
+   let bottomRightCornerRadius : {ind}
+   let elementMinHeight : {ind}
+== 0x100532ac0 struct {Alcove.BottomNestedButtonStyle}
+   var _isEnabled : {ind}ySbG
+   let topLeftCornerRadius : {ind}
+   let topRightCornerRadius : {ind}
+   let bottomLeftCornerRadius : {ind}
+   let bottomRightCornerRadius : {ind}
+   let elementMinHeight : {ind}
+== 0x100532b18 struct {Alcove.SegmentedButtonStyle}
+   var _isEnabled : {ind}ySbG
+   var _controlActiveState : {ind}y{ind}G
+   var _isSelected : {ind}ySbG
+   var _showsPressedState : {ind}ySbG
+   let elementMinHeight : {ind}
+   let cornerRadius : {ind}
+   let showsSelectionHighlight : Sb
+== 0x100532b7c struct {Alcove.BorderedButtonStyle}
+   var _isEnabled : {ind}ySbG
+   let cornerRadius : {ind}
+   let elementMinHeight : {ind}
+   let innerPadding : {ind}
+== 0x100532bbc struct {Alcove.PopoverButtonStyle}
+   var _isEnabled : {ind}ySbG
+   let topLeftCornerRadius : {ind}
+   let topRightCornerRadius : {ind}
+   let bottomLeftCornerRadius : {ind}
+   let bottomRightCornerRadius : {ind}
+   let elementMinHeight : {ind}
+== 0x100532c14 struct {Alcove.RoundedButtonStyle}
+   var _colorScheme : {ind}y{ind}G
+   var _isEnabled : {ind}ySbG
+   var _isHovering : {ind}ySbG
+   let cornerRadius : {ind}
+   let showsHoverEffect : Sb
+== 0x100532c60 struct {Alcove.HighlightButtonStyle}
+   let mode : {Alcove.HighlightButtonStyle.HighlightMode}
+   let pressAnimation : {ind}Sg
+== 0x100532c88 multi-payload enum {Alcove.HighlightButtonStyle.HighlightMode}
+   let opacity : Sd
+   let darken : Sd
+== 0x100532cb0 struct {Alcove.ColoredButtonStyle}
+   let color : {ind}
+   let horizontalPadding : {ind}
+   let verticalPadding : {ind}
+   let cornerRadius : {ind}
+   let bottomLeadingCornerBoost : {ind}
+   let bottomTrailingCornerBoost : {ind}
+   let isCapsule : Sb
+   let luminanceThreshold : {ind}
+== 0x100532d20 struct {Alcove.SidebarButtonStyle}
+   let cornerRadius : {ind}
+   let isActive : Sb
+== 0x100532d48 struct {Alcove.ScaleFadeButtonStyle}
+== 0x100532d58 struct {ColoredButtonIsPressedKey}
+== 0x100532d68 struct {SegmentedButtonShowsPressedStateKey}
+== 0x100532d78 struct {SegmentedButtonIsSelectedKey}
+== 0x100532d88 struct {Alcove.AnimatableProgress}
+   var progress : Sd
+== 0x100532da4 class {Alcove.IntroController}
+   var windowController : So18NSWindowControllerCSg
+== 0x100532dc0 class {Alcove.AppState}
+   var _isFirstLaunch : {Defaults.Default}ySbG
+   var _licenseName : {Defaults.Default}ySSSgG
+   var _activationLimit : {Defaults.Default}ySiSgG
+   var _activationUsage : {Defaults.Default}ySiSgG
+   var _hideMenuBarIcon : {Defaults.Default}ySbG
+   var _showOnDisplay : {Defaults.Default}y{Alcove.DisplayType}G
+   var _showOnDisplayUUID : {Defaults.Default}ySSSgG
+   var _showOnDisplayName : {Defaults.Default}ySSG
+   var _showOnDisplaySymbol : {Defaults.Default}ySSG
+   var _controlChoice : {Defaults.Default}y{Alcove.ControlType}G
+   var _automaticMusicApp : {Defaults.Default}ySbG
+   var _musicApp : {Defaults.Default}y{Alcove.MusicApp}G
+   var _idleActivity : {Defaults.Default}y{Alcove.ExpandedActivity}G
+   var _nowPlayingStyle : {Defaults.Default}y{Alcove.NowPlayingStyle}G
+   var cancellables : Shy{ind}G
+   var reachabilityMonitor : {ind}Sg
+   var lastReachabilityStatus : {ind}Sg
+   var lastActivationVerificationAt : {ind}Sg
+   let activationVerificationCooldown : Sd
+   var $__lazy_storage_$_statusMenu : So6NSMenuCSg
+   var $__lazy_storage_$_statusItem : So12NSStatusItemCSg
+   var $__lazy_storage_$_statusItemButton : So17NSStatusBarButtonCSg
+   let _$observationRegistrar : {ind}
+== 0x100532ee4 struct {Alcove.DeviceInfo}
+   let kind : {Alcove.DeviceKind}
+   let name : SS
+   let symbol : SS
+== 0x100532f18 multi-payload enum {Alcove.DeviceKind}
+   let iMac : SS4size_t
+   let macBookAir : SS4size_t
+   let macBookPro : SS4size_t
+   let macMini : 
+   let macStudio : 
+   let macPro : 
+   let iMacPro : 
+   let macBook : 
+   let unknown : 
+== 0x100532f94 struct {Alcove.AboutView}
+   var _controlActiveState : {ind}y{ind}G
+   var __isAnimating : {ind}ySbG
+   var __isHovering : {ind}ySbG
+   var __isHoveringMiddleContainer : {ind}ySbG
+   var __debounce : {ind}yScTyyt{ind}GSgG
+== 0x100532fe0 class {Alcove.BluetoothController}
+   var windowController : So18NSWindowControllerCSg
+== 0x100532ffc class {Alcove.AccessibilityController}
+   var windowController : So18NSWindowControllerCSg
+== 0x100533018 struct {Alcove.NotchShape}
+   let style : {Alcove.NotchShape.Style}
+   var topCornerRadius : Sd
+   var bottomCornerRadius : Sd
+== 0x10053304c enum {Alcove.NotchShape.Style}
+   let notch : 
+   let pill : 
+== 0x100533074 class {Alcove.BrowserController}
+   var windowController : So18NSWindowControllerCSg
+== 0x100533090 objc protocol $s6Alcove14HelperProtocolP
+== 0x1005330a0 objc protocol $s6Alcove14ClientProtocolP
+== 0x1005330b0 objc class {Alcove.NotchPanel} : So7NSPanelC
+   var notchController : {Alcove.NotchController}SgXw
+== 0x1005330cc objc class {Alcove.NotchBackdropPanel} : So7NSPanelC
+== 0x1005330dc objc class {Alcove.WeatherManager} : So8NSObjectC
+   let logger : {ind}
+   let keychain : {KeychainAccess.Keychain}
+   let locationManager : So17CLLocationManagerC
+   var locationContinuation : ScCySo10CLLocationC{ind}_pGSg
+   let weatherService : {ind}
+   var lastFetchDate : {ind}Sg
+   var lastFetchLocation : So10CLLocationCSg
+   var cancellables : Shy{ind}G
+   var activeFetchTask : ScTyyt{ind}GSg
+   var daylightTransitionTimer : So7NSTimerCSg
+   let calendarConditionsTTL : Sd
+   var _allowWeatherWidgetWhenLocked : {Defaults.Default}ySbG
+   var _weatherStyle : {Defaults.Default}y{Alcove.WeatherStyle}G
+   var _showWeatherOnEmptyDay : {Defaults.Default}ySbG
+   var _notifyWhenTimeToLeave : {Defaults.Default}ySbG
+   var _pendingLocationPermissionTarget : {Defaults.Default}y{Alcove.LocationPermissionTarget}SgG
+   var _hasPromptedLocationPermission : {Defaults.Default}ySbG
+   var _cachedWeather : {Defaults.Default}y{Alcove.WeatherManager.CachedWeather}SgG
+   var _hasWeather : Sb
+   var _weather : {Alcove.WeatherManager.Weather}Sg
+   var _daylight : {Alcove.WeatherManager.Daylight}Sg
+   var _daylightEvaluationDate : {ind}
+   var _precipitationChance : SiSg
+   var _isRaining : Sb
+   var _authorizationStatus : {__C.CLAuthorizationStatus}
+   let _$observationRegistrar : {ind}
+== 0x100533224 struct {Alcove.WeatherManager.Weather}
+   var temperatureCelsius : SdSg
+   var condition : {ind}Sg
+== 0x10053324c struct {Alcove.WeatherManager.Daylight}
+   let sunrise : {ind}
+   let sunset : {ind}
+   let nextSunrise : {ind}Sg
+   let nextSunset : {ind}Sg
+== 0x10053328c struct {Alcove.WeatherManager.CachedWeather}
+   let weather : {Alcove.WeatherManager.Weather}
+   let daylight : {Alcove.WeatherManager.Daylight}Sg
+   let precipitationChance : SiSg
+   let isRaining : SbSg
+   let lastFetchDate : {ind}
+   let lastFetchLocation : So10CLLocationC
+== 0x1005332e4 enum {Alcove.WeatherManager.LocationError}
+   let servicesDisabled : 
+   let notAuthorized : 
+   let timeout : 
+== 0x100533318 enum {Alcove.WeatherManager.CachedWeather.CodingKeys}
+   let weather : 
+   let daylight : 
+   let precipitationChance : 
+   let isRaining : 
+   let lastFetchDate : 
+   let latitude : 
+   let longitude : 
+   let altitude : 
+== 0x100533388 enum {CodingKeys}
+   let sunrise : 
+   let sunset : 
+   let nextSunrise : 
+   let nextSunset : 
+== 0x1005333c8 enum {CodingKeys}
+   let temperatureCelsius : 
+   let condition : 
+== 0x1005333f0 struct {Alcove.WeatherManager.Sun}
+   let type : {Alcove.WeatherManager.SunType}
+   let time : {ind}
+== 0x100533418 struct {Alcove.WeatherManager.CalendarConditionPresentation}
+   let symbol : SS
+   let text : SS
+   let hasSun : Sb
+   let hasRain : Sb
+   let hasCloud : Sb
+== 0x100533464 enum {Alcove.WeatherManager.SunType}
+   let sunrise : 
+   let sunset : 
+== 0x10053348c enum {CodingKeys}
+   let type : 
+   let time : 
+== 0x1005334b4 class {Alcove.UpdateController}
+   var windowController : So18NSWindowControllerCSg
+== 0x1005334d0 struct {Alcove.FileTraySettingsView}
+== 0x1005334e0 objc protocol $s6Alcove16SBObjectProtocolP
+== 0x1005334f0 objc protocol $s6Alcove21SBApplicationProtocolP
+== 0x100533500 class {Alcove.UpdateManager}
+   let logger : {ind}
+   var windowController : So18NSWindowControllerCSg
+   var updateTimer : {ind}Sg
+   var isNetworkSatisfied : Sb
+   var targetUpdateChannel : {UpdateChannel}Sg
+   var _targetRelease : {Alcove.UpdateManager.Release}Sg
+   var _progressBar : Sd
+   var _updateState : {Alcove.UpdateManager.UpdateAvailability}
+   var _changelog : SaySS6symbol_{ind}5colorSS5titleSay{Alcove.UpdateManager.ChangelogNote}G4bodytG
+   var _earlyBirdUpdates : {Defaults.Default}ySbG
+   let _$observationRegistrar : {ind}
+== 0x100533594 objc class {UpdateDownloadDelegate} : So8NSObjectC
+   var progressHandler : ySdcSg
+   var completionHandler : y{ind}yyt{ind}_pGcSg
+   let destinationURL : {ind}
+   let downloadProgressStart : Sd
+   let downloadProgressEnd : Sd
+   var completionResult : {ind}yyt{ind}_pGSg
+   var hasCompleted : Sb
+== 0x1005335f8 enum {UpdateChannel}
+   let stable : 
+   let trial : 
+   let beta : 
+== 0x10053362c struct {Alcove.UpdateManager.Release}
+   var id : Si
+   var tagName : SS
+   var name : SS
+   var sections : Say{Alcove.UpdateManager.Release.Section}G
+   var assets : Say{Alcove.UpdateManager.Release.Asset}G
+   var prerelease : Sb
+   var publishedAt : SS
+   var minimumSystemVersion : SSSg
+   var buildNumber : SiSg
+== 0x1005336a8 enum {Alcove.UpdateManager.UpdateAvailability}
+   let notChecked : 
+   let available : 
+   let unavailable : 
+   let readyToRestart : 
+== 0x1005336e8 struct {Alcove.UpdateManager.ChangelogNote}
+   var id : {ind}
+   var text : SS
+== 0x100533710 struct {Alcove.UpdateManager.Release.Section}
+   var marker : SS
+   var items : SaySSG
+== 0x100533738 struct {Alcove.UpdateManager.Release.Asset}
+   var name : SS
+   var url : {ind}
+== 0x100533760 multi-payload enum {Alcove.UpdateManager.UpdateError}
+   let decodingFailed : {ind}_p
+   let api : Si10statusCode_SSSg7messaget
+   let downloadFailed : Si10statusCode_t
+   let invalidURL : 
+   let invalidResponse : 
+   let missingAuthorizationToken : 
+   let downloadUnauthorized : 
+== 0x1005337c4 struct {APIError}
+   var message : SS
+== 0x1005337e0 enum {Alcove.UpdateManager.Release.CodingKeys}
+   let id : 
+   let tagName : 
+   let name : 
+   let sections : 
+   let assets : 
+   let prerelease : 
+   let publishedAt : 
+   let minimumSystemVersion : 
+   let buildNumber : 
+== 0x10053385c enum {APIError.CodingKeys}
+   let message : 
+== 0x100533878 enum {CodingKeys}
+   let marker : 
+   let items : 
+== 0x1005338a0 enum {Alcove.UpdateManager.Release.Asset.CodingKeys}
+   let name : 
+   let url : 
+== 0x1005338c8 struct {Alcove.Container}
+   var _colorScheme : {ind}y{ind}G
+   let cornerRadius : {ind}
+   let innerPadding : {ind}
+   let isLight : Sb
+   let style : {Alcove.Container.Style}yxq__G
+   let background : q_yc
+   let content : xyc
+== 0x10053392c enum {Alcove.Container.Style}
+   let standard : 
+   let preview : 
+== 0x100533954 struct {Alcove.Section}
+   var _colorScheme : {ind}y{ind}G
+   let headerSpacing : {ind}
+   let topCornerRadius : {ind}
+   let bottomCornerRadius : {ind}
+   let header : SSSg
+   let showDividers : Sb
+   let headerAccessory : q_yc
+   let content : xyc
+== 0x1005339c4 struct {Alcove.UpdateView}
+   var _colorScheme : {ind}y{ind}G
+   var _controlActiveState : {ind}y{ind}G
+   var updateManager : {Alcove.UpdateManager}
+   var _licenseManager : {ind}y{Alcove.LicenseManager}G
+   var _enableHaptics : {Defaults.Default}ySbG
+   var _earlyBirdUpdates : {Defaults.Default}ySbG
+   var _isInstalling : {ind}ySbG
+   var __showsRestartState : {ind}ySbG
+== 0x100533a34 struct {ChangelogSectionView}
+   let item : SS6symbol_{ind}5colorSS5titleSay{Alcove.UpdateManager.ChangelogNote}G4bodyt
+   let showsSymbol : Sb
+   var _isExpanded : {ind}ySbG
+== 0x100533a68 struct {ChangelogSectionContainer}
+   var _colorScheme : {ind}y{ind}G
+   let topCornerRadius : {ind}
+   let bottomCornerRadius : {ind}
+   let content : xyc
+== 0x100533aa8 struct {Alcove.MusicView}
+   var _controlActiveState : {ind}y{ind}G
+== 0x100533ac4 struct {Alcove.NotchNotificationsView}
+   let notchController : {Alcove.NotchController}
+   var _batteryManager : {ind}y{Alcove.BatteryManager}G
+   var _brightnessManager : {ind}y{Alcove.BrightnessManager}G
+   var _calendarManager : {ind}y{Alcove.CalendarManager}G
+   var _connectivityManager : {ind}y{Alcove.ConnectivityManager}G
+   var _focusManager : {ind}y{Alcove.FocusManager}G
+   var _volumeManager : {ind}y{Alcove.VolumeManager}G
+   var _notchAdjustedHeight : {Defaults.Default}ySdG
+   var _notchAdjustedWidth : {Defaults.Default}ySdG
+   var _lowBatteryThreshold : {Defaults.Default}ySdG
+   var _hideBatteryLabel : {Defaults.Default}ySbG
+   var _hideBatteryPercentage : {Defaults.Default}ySbG
+   var _lowConnectBatteryThreshold : {Defaults.Default}ySdG
+   var _connectivityModel : {Defaults.Default}y{Alcove.ConnectivityModel}G
+   var _hideLabel : {Defaults.Default}ySbG
+   var _brightnessProgressStyle : {Defaults.Default}y{Alcove.HUDProgressStyle}G
+   var _showBrightnessPercentage : {Defaults.Default}ySbG
+   var _hideBrightnessLabel : {Defaults.Default}ySbG
+   var _swipeToDismiss : {Defaults.Default}ySbG
+   var _swipeToToggle : {Defaults.Default}ySbG
+   var _volumeOutputDevice : {Defaults.Default}y{Alcove.OutputDevice}G
+   var _volumeProgressStyle : {Defaults.Default}y{Alcove.HUDProgressStyle}G
+   var _showVolumePercentage : {Defaults.Default}ySbG
+   var _hideVolumeLabel : {Defaults.Default}ySbG
+   var _defaultTransportType : {Defaults.Default}y{Alcove.TransportType}G
+== 0x100533c00 struct {Alcove.IntroView}
+   var _isFirstLaunch : {Defaults.Default}ySbG
+   var __ambianceHasEntered : {ind}ySbG
+   var __appIconHasEntered : {ind}ySbG
+   var __nameHasEntered : {ind}ySbG
+   var __textHasEntered : {ind}ySbG
+   var __footerHasEntered : {ind}ySbG
+   var __isHovering : {ind}ySbG
+   var __isHoveringMiddleContainer : {ind}ySbG
+   var __debounce : {ind}yScTyyt{ind}GSgG
+   var __introPlayback : {ind}y{Alcove.SoundManager.Playback}SgG
+   var __introTimelineTask : {ind}yScTyyt{ind}GSgG
+== 0x100533c94 struct {Alcove.Battery}
+   var level : Sd
+   var lowBatteryThreshold : Sd
+   var showPercentage : Sb
+   var isLowPowerMode : Sb
+   var symbolReduction : Sd
+== 0x100533ce0 objc protocol $s6Alcove16MusicApplicationP
+== 0x100533cf0 objc protocol $s6Alcove9MusicItemP
+== 0x100533d00 objc protocol $s6Alcove12MusicArtworkP
+== 0x100533d10 objc protocol $s6Alcove10MusicTrackP
+== 0x100533d20 protocol $s6Alcove19SegmentedPickerDataP
+== 0x100533d30 struct {Alcove.SegmentedPickerBackgroundContext}
+   let element : x
+   let isActive : Sb
+   let isDisabled : Sb
+   let isWindowFocused : Sb
+   let cornerRadius : {ind}
+== 0x100533d7c struct {Alcove.SegmentedPickerWallpaperBackground}
+   let wallpaperImage : So7NSImageCSg
+   let blurRadius : {ind}
+   let scale : {ind}
+   let offset : {__C.CGSize}
+   let opacity : Sd
+   let saturation : Sd
+== 0x100533dd4 struct {Alcove.SegmentedPicker}
+   var _controlActiveState : {ind}y{ind}G
+   let spacing : {ind}
+   let innerPadding : {ind}
+   let elements : Sayq0_G
+   var _selectedItem : {ind}yq0_G
+   var _internalSelection : {ind}yq0_G
+   var __disabledPopoverColumn : {ind}ySiSgG
+   var __hoverTimer : {ind}ySo7NSTimerCSgG
+   let content : xq0_c
+   let background : q_{Alcove.SegmentedPickerBackgroundContext}yq0_Gc
+   let textProvider : SSSgq0_c
+   let showsSelectionHighlight : Sb
+== 0x100533e74 objc class {Alcove.NSArtworkCutoutBackdropView} : So6NSViewC
+   var viewBounds : {__C.CGRect}
+   var $__lazy_storage_$_artworkCutoutLayer : {Alcove.ArtworkCutoutLayer}Sg
+== 0x100533e9c class {Alcove.ArtworkCutoutLayer}
+   let containerLayer : So7CALayerC
+   let maskLayer : So7CALayerC
+   let artworkLayer : So7CALayerC
+   let artworkLightenLayer : So7CALayerC
+   let artworkDimLayer : So7CALayerC
+   let colorSaturateFilter : So8NSObjectCSg
+   let gaussianBlurFilter : So8NSObjectCSg
+   var viewBounds : {__C.CGRect}
+   var artworkScale : {__C.CGSize}
+   var artworkOffset : {__C.CGPoint}
+   var usesMask : Sb
+   var currentArtworkIdentity : SOSg
+== 0x100533f3c struct {Alcove.ArtworkCutoutBackdrop}
+   var artwork : So7NSImageC
+   var size : {__C.CGSize}
+== 0x100533f64 struct {ArtworkFrame}
+   let content : {ind}
+   let identity : {ind}
+   let cornerRadius : {ind}
+   let isMirrored : Sb
+   let opacity : Sd
+   let blendMode : {ind}
+== 0x100533fbc struct {Alcove.ArtworkTransition}
+   let identity : {ind}
+   let contentRevision : {ind}
+   let cornerRadius : {ind}
+   let isMirrored : Sb
+   let isTransitionEnabled : Sb
+   let opacity : Sd
+   let blendMode : {ind}
+   let content : {ind}
+   var __currentArtwork : {ind}y{ArtworkFrame}SgG
+   var __outgoingArtwork : {ind}y{ArtworkFrame}SgG
+   var __queuedArtwork : {ind}y{ArtworkFrame}SgG
+   var __incomingArtwork : {ind}y{ArtworkFrame}SgG
+   var __currentProgress : {ind}ySdG
+   var __currentEffectProgress : {ind}ySdG
+   var __outgoingProgress : {ind}ySdG
+   var __isTransitioning : {ind}ySbG
+== 0x10053408c struct {ArtworkKey}
+   let identity : {ind}
+   let contentRevision : {ind}
+   let isMirrored : Sb
+   let isTransitionEnabled : Sb
+   let cornerRadius : {ind}
+   let opacity : Sd
+   let blendMode : SS
+== 0x1005340f0 struct {ArtworkFlipEffect}
+   var progress : Sd
+   var effectProgress : Sd
+   let isIncoming : Sb
+   let cornerRadius : {ind}
+== 0x100534130 struct {Alcove.BrowserView}
+   var _controlActiveState : {ind}y{ind}G
+== 0x10053414c objc class {Alcove.SettingsWindow} : So8NSWindowC
+== 0x10053415c class {VibrancyEffectRepresentable.Coordinator}
+   var hostingView : {ind}yxGSg
+== 0x100534178 objc class {VibrantHostingView} : {ind}yxG
+== 0x100534188 struct {VibrancyEffectRepresentable}
+   let content : x
+== 0x1005341a4 struct {Alcove.VibrancyEffectView}
+   let content : x
+== 0x1005341c0 class {Alcove.CalendarManager}
+   let logger : {ind}
+   let eventStore : So12EKEventStoreC
+   let calendarAppDefaults : So14NSUserDefaultsCSg
+   var becameActiveObserver : ypSg
+   var currentLocaleObserver : ypSg
+   var systemClockObserver : ypSg
+   var systemTimeZoneObserver : ypSg
+   var eventStoreObserver : ypSg
+   var wakeObserver : ypSg
+   var midnightTimer : So7NSTimerCSg
+   var hourlyChimeTimer : So7NSTimerCSg
+   var nextRelevantEventTimer : So7NSTimerCSg
+   var countdownTimer : So7NSTimerCSg
+   var durationTimer : So7NSTimerCSg
+   var timeToLeaveTimer : So7NSTimerCSg
+   var sectionRefreshTimer : So7NSTimerCSg
+   var lastTimeToLeaveSignature : SSSg
+   var dismissedEventSignatures : ShySSG
+   var dismissedEventHistory : SaySSG
+   var fetchDebounceTask : ScTyyt{ind}GSg
+   var isFetchingEvents : Sb
+   var pendingFetchEvents : Sb
+   var startupCalendarDelayTask : ScTyyt{ind}GSg
+   var selectionRecomputeTask : ScTyyt{ind}GSg
+   var lastFetchCompletionTime : {ind}
+   let minimumFetchInterval : Sd
+   let calendarStartupLiveActivityDelay : Sd
+   let managerInitializationTime : {ind}
+   var lastKnownToday : {ind}
+   var _isFirstLaunch : {Defaults.Default}ySbG
+   var _enableCalendar : {Defaults.Default}ySbG
+   var _enableNowPlaying : {Defaults.Default}ySbG
+   var _idleActivity : {Defaults.Default}y{Alcove.ExpandedActivity}G
+   var _hasPromptedCalendarPermission : {Defaults.Default}ySbG
+   var _timeBeforeEvent : {Defaults.Default}ySdG
+   var _playSoundOnCalendarEvent : {Defaults.Default}ySbG
+   var _disableActivityDuringEvents : {Defaults.Default}ySbG
+   var _alwaysShowMonthView : {Defaults.Default}ySbG
+   var _hideWhileInFullscreen : {Defaults.Default}ySbG
+   var _playHourlyChime : {Defaults.Default}ySbG
+   var _notifyWhenTimeToLeave : {Defaults.Default}ySbG
+   var _timeToLeaveBuffer : {Defaults.Default}ySdG
+   var _timeToLeaveDuration : {Defaults.Default}ySdG
+   var _playSoundOnTimeToLeave : {Defaults.Default}ySbG
+   var _defaultTransportType : {Defaults.Default}y{Alcove.TransportType}G
+   var _excludedCalendars : {Defaults.Default}yShySSGG
+   var _calendarDisplayModes : {Defaults.Default}ySDyS2SGG
+   var _beforeEventStarts : {Defaults.Default}ySbG
+   var _whenEventIsStarting : {Defaults.Default}ySbG
+   var _calendarPeekDuration : {Defaults.Default}ySdG
+   var _enableLockScreen : {Defaults.Default}ySbG
+   var _allowCalendarWidgetWhenLocked : {Defaults.Default}ySbG
+   var _events : Say{Alcove.CalendarManager.EventModel}G
+   var _timeUntilStart : SdSg
+   var _timeUntilEnd : SdSg
+   var _timeToTravel : SdSg
+   var _progressUntilEnd : SdSg
+   var _dayName : SS
+   var _shortDayName : SS
+   var _dayNumber : SS
+   var _monthName : SS
+   var _shortMonthName : SS
+   var _selectedDate : {ind}
+   var _selectedShortDayName : SS
+   var _selectedDayNumber : SS
+   var _selectedMonthName : SS
+   var _selectedShortMonthName : SS
+   var _compactCalendarWeekdays : Say{Alcove.CalendarManager.CalendarWeekday}G
+   var _compactCalendarDays : Say{Alcove.CalendarManager.CalendarDayCell}G
+   var _authorizationStatus : {__C.EKAuthorizationStatus}
+   var includedCalendarIDsCache : ShySSG
+   var liveActivityCalendarIDsCache : ShySSG
+   var expandedViewCalendarIDsCache : ShySSG
+   var filteredEventsCache : Say{Alcove.CalendarManager.EventModel}G
+   var liveActivityFilteredEventsCache : Say{Alcove.CalendarManager.EventModel}G
+   var expandedViewFilteredEventsCache : Say{Alcove.CalendarManager.EventModel}G
+   var _nextEventActivity : {Alcove.CalendarManager.EventModel}Sg
+   var _selectedSection : {Alcove.CalendarManager.EventSection}Sg
+   var _upcomingSections : Say{Alcove.CalendarManager.EventSection}G
+   var _hasEarlierEventsToday : Sb
+   let _$observationRegistrar : {ind}
+== 0x10053459c struct {Alcove.CalendarManager.EventMeeting}
+   let url : {ind}Sg
+   let type : {Alcove.CalendarManager.EventMeetingType}Sg
+== 0x1005345c4 struct {Alcove.CalendarManager.EventLocation}
+   let title : SSSg
+   let coordinates : So10CLLocationCSg
+== 0x1005345ec struct {Alcove.CalendarManager.EventModel}
+   let id : SS
+   let type : {Alcove.EventType}
+   let calendar : {Alcove.CalendarManager.EventCalendar}
+   let title : SS
+   let startDate : {ind}
+   let endDate : {ind}
+   let location : {Alcove.CalendarManager.EventLocation}Sg
+   let meeting : {Alcove.CalendarManager.EventMeeting}Sg
+   let isDeclined : Sb
+   let isCancelled : Sb
+   let isAllDay : Sb
+   let isHoliday : Sb
+   let isBirthday : Sb
+   let hasRecurrenceRules : Sb
+   let iCalUID : SSSg
+   let accountEmail : SSSg
+   let timeLabelStyle : {Alcove.CalendarManager.EventModel.TimeLabelStyle}
+   let recurrenceStartDate : {ind}Sg
+== 0x1005346d4 struct {Alcove.CalendarManager.EventSection}
+   let date : {ind}
+   let title : SSSg
+   let visibleAllDay : Say{Alcove.CalendarManager.EventModel}G
+   let visibleRegular : Say{Alcove.CalendarManager.EventModel}G
+   let hiddenAllDay : Say{Alcove.CalendarManager.EventModel}G
+   let hiddenRegular : Say{Alcove.CalendarManager.EventModel}G
+   let detailEventIDs : ShySSG
+   let isFirst : Sb
+   let consumedBudget : Sd
+   let totalBudget : Sd
+== 0x10053475c struct {Alcove.CalendarManager.CalendarWeekday}
+   let id : Si
+   let symbol : SS
+   let isWeekend : Sb
+== 0x100534790 struct {Alcove.CalendarManager.CalendarDayCell}
+   let id : Si
+   let date : {ind}Sg
+   let dayNumber : SiSg
+   let isWeekend : Sb
+   let isToday : Sb
+   let isSelected : Sb
+   let eventIndicators : Say{Alcove.CalendarManager.CalendarDayIndicator}G
+== 0x1005347f4 enum {Alcove.CalendarManager.EventMeetingType}
+   let facetime : 
+   let zoom : 
+   let googleMeet : 
+   let teams : 
+   let webex : 
+== 0x100534840 struct {Alcove.CalendarManager.EventCalendar}
+   let id : SS
+   let title : SS
+   let color : {ind}
+   let isHoliday : Sb
+   let isBirthday : Sb
+   let isSubscription : Sb
+== 0x100534898 enum {Alcove.CalendarManager.EventModel.TimeLabelStyle}
+   let range : 
+   let startOnly : 
+   let endsOnly : 
+== 0x1005348cc struct {Alcove.CalendarManager.CalendarDayIndicator}
+   let id : SS
+   let color : {ind}
+   let colorSignature : SS
+== 0x100534900 objc class {Alcove.SoundManager} : So8NSObjectC
+   let logger : {ind}
+   var audioPlayers : SDySSSaySo13AVAudioPlayerCGG
+   var reusablePlayers : SDySSSo13AVAudioPlayerCG
+   var soundIDs : SDySS{ind}G
+   let maxInstancesPerSound : Si
+   let defaultVolume : Sf
+   let reusableSoundQueue : So17OS_dispatch_queueC
+== 0x100534964 class {Alcove.SoundManager.Playback}
+   let startDelay : Sd
+   var manager : {Alcove.SoundManager}SgXw
+   var player : So13AVAudioPlayerCSgXw
+   let name : SS
+== 0x1005349a4 struct {Alcove.ShakeEffect}
+   var position : Sd
+== 0x1005349c0 objc class {Alcove.ConnectivityManager} : So8NSObjectC
+   let logger : {ind}
+   var bluetoothManager : So16CBCentralManagerCSg
+   var simplyCA : {SimplyCoreAudio.SimplyCoreAudio}
+   var cancellables : Shy{ind}G
+   var timer : {sym12}_pSg
+   var airPlayRouteLogTask : ScTyyt{ind}GSg
+   var outputDeviceChangeResetTask : ScTyyt{ind}GSg
+   var homePodRoutesByGroupID : SDySSSDySS{HomePodRoute}GG
+   var homePodLastUpdatedGroupID : SSSg
+   let homePodRouteFreshnessInterval : Sd
+   let outputDeviceModelRegex : So19NSRegularExpressionC
+   let outputContextNameRegex : So19NSRegularExpressionC
+   let outputContextGroupRegex : So19NSRegularExpressionC
+   let outputContextAirPlayGroupRegex : So19NSRegularExpressionC
+   let outputContextSubtypeRegex : So19NSRegularExpressionC
+   let outputContextTypeRegex : So19NSRegularExpressionC
+   let outputContextPrimaryUIDRegex : So19NSRegularExpressionC
+   let outputContextUniqueIdentifierRegex : So19NSRegularExpressionC
+   let outputContextConfiguredClusterSizeRegex : So19NSRegularExpressionC
+   var _enableConnectivity : {Defaults.Default}ySbG
+   var _hasPromptedBluetoothPermission : {Defaults.Default}ySbG
+   var _connectivityDuration : {Defaults.Default}ySdG
+   var _warnOnLowConnectBattery : {Defaults.Default}ySbG
+   var _lowConnectBatteryThreshold : {Defaults.Default}ySdG
+   var _playSoundOnLowConnectBattery : {Defaults.Default}ySbG
+   var _allowConnectivityWhenFocused : {Defaults.Default}ySbG
+   var _enableLockScreen : {Defaults.Default}ySbG
+   var _allowConnectivityWhenLocked : {Defaults.Default}ySbG
+   var _allowConnectivityWidgetWhenLocked : {Defaults.Default}ySbG
+   var _audioDevice : {SimplyCoreAudio.AudioDevice}Sg
+   var _virtualDevice : {Alcove.ConnectivityManager.VirtualDevice}Sg
+   var _batteryLevel : SdSg
+   var _hasPassedThreshold : Sb
+   var _hasRecentlyChangedOutputDevice : Sb
+   var _authorizationStatus : {__C.CBManagerAuthorization}
+   let _$observationRegistrar : {ind}
+== 0x100534b80 struct {HomePodRoute}
+   let uid : SS
+   let name : SS
+   let groupID : SS
+   let subtype : SS
+   let modelID : SSSg
+   let configuredClusterSize : SiSg
+   let observedAt : {ind}
+== 0x100534be4 multi-payload enum {Alcove.ConnectivityManager.VirtualDevice}
+   let airPods : {Alcove.ConnectivityManager.AirPodsState}Sg5state_t
+   let airPods2 : {Alcove.ConnectivityManager.AirPodsState}Sg5state_t
+   let airPods3 : {Alcove.ConnectivityManager.AirPodsState}Sg5state_t
+   let airPods4 : {Alcove.ConnectivityManager.AirPodsState}Sg5state_t
+   let airPodsPro : {Alcove.ConnectivityManager.AirPodsState}Sg5state_t
+   let airPodsPro2 : {Alcove.ConnectivityManager.AirPodsState}Sg5state_t
+   let airPodsPro3 : {Alcove.ConnectivityManager.AirPodsState}Sg5state_t
+   let airPodsMax : {Alcove.ConnectivityManager.AirPodsMaxColor}5color_t
+   let airPodsMax2 : {Alcove.ConnectivityManager.AirPodsMaxColor}5color_t
+   let macBook : 
+   let macStudio : 
+   let iMac : 
+   let macMini : 
+   let macPro : 
+   let headphones : 
+   let homePod : 
+   let homePodMini : 
+   let homePod2 : 
+   let homePodPair : 
+   let homePodMiniPair : 
+   let homePod2Pair : 
+   let homePodGroup : 
+   let earPods : 
+   let studioDisplay : 
+   let studioDisplayXdr : 
+   let proDisplayXdr : 
+   let speakers : 
+== 0x100534d38 enum {Alcove.ConnectivityManager.AirPodsMaxColor}
+   let spaceGray : 
+   let skyBlue : 
+   let silver : 
+   let green : 
+   let red : 
+   let midnight : 
+   let starlight : 
+   let blue : 
+   let orange : 
+   let purple : 
+== 0x100534dc0 enum {HomePodFamily}
+   let homePod : 
+   let homePodMini : 
+   let homePod2 : 
+== 0x100534df4 enum {Alcove.ConnectivityManager.AirPodsState}
+   let leftOnly : 
+   let rightOnly : 
+   let both : 
+== 0x100534e28 objc class {Alcove.NSMarqueeTextView} : So6NSViewC
+   var text : SS
+   var textSize : {ind}
+   var textWeight : {__C.Weight}
+   var textColor : {ind}
+   var kerning : Sd
+   var isCentered : Sb
+   var leadingSymbol : SS
+   var leadingSymbolSize : {ind}
+   var leadingSymbolColor : {ind}
+   var leadingSymbolPadding : {ind}
+   var trailingSymbol : SS
+   var trailingSymbolSize : {ind}
+   var trailingSymbolColor : {ind}
+   var trailingSymbolPadding : {ind}
+   var gradientStops : SaySo8NSNumberCG
+   var totalCycleTime : Sd
+   let startPadding : {ind}
+   let contentSpacing : {ind}
+   var font : So6NSFontC
+   var stringWidth : Sd
+   var stringHeight : Sd
+   var maskLayer : So7CALayerCSg
+   var layer1 : So7CALayerCSg
+   var layer2 : So7CALayerCSg
+   var textLayers : SaySo11CATextLayerCG
+   var symbolLayers : SaySo7CALayerCG
+   var trailingSymbolLayers : SaySo7CALayerCG
+   var lastTextColor : So7NSColorCSg
+   var didBuildForLayout : Sb
+   var lastShouldCenterContent : Sb
+   var lastShouldOverflowContent : Sb
+   var lastLayoutWidth : {ind}
+   var alignmentVelocitySamples : SDySO{ind}9positionX_Sd9timestamptG
+   let alignmentAnimationKey : SS
+   let alignmentAnimationDuration : Sd
+   let alignmentSpringMass : {ind}
+   let alignmentSpringStiffness : {ind}
+   let alignmentSpringDamping : {ind}
+   let symbolAppearanceAnimationDuration : Sd
+   var shouldAnimateNextSymbolAppearance : Sb
+== 0x100535018 struct {Alcove.MarqueeText}
+   var text : SS
+   var textSize : {ind}
+   var textWeight : {__C.Weight}
+   var textColor : {ind}
+   var kerning : Sd
+   var isCentered : Sb
+   var leadingSymbol : SS
+   var leadingSymbolSize : {ind}
+   var leadingSymbolColor : {ind}
+   var leadingSymbolPadding : {ind}
+   var trailingSymbol : SS
+   var trailingSymbolSize : {ind}
+   var trailingSymbolColor : {ind}
+   var trailingSymbolPadding : {ind}
+   var gradientStops : SaySo8NSNumberCG
+   var totalCycleTime : Sd
+== 0x1005350e8 struct {Alcove.GeneralSettingsView}
+   var _colorScheme : {ind}y{ind}G
+   var _controlActiveState : {ind}y{ind}G
+   let notchController : {Alcove.NotchCoordinator}
+   var _calendarManager : {ind}y{Alcove.CalendarManager}G
+   var _launchAtLogin : {Defaults.Default}ySbG
+   var _hideMenuBarIcon : {Defaults.Default}ySbG
+   var _hideFromScreenCapture : {Defaults.Default}ySbG
+   var _forceSimulatedNotch : {Defaults.Default}ySbG
+   var _hideWhileInFullscreen : {Defaults.Default}ySbG
+   var _hideWhileGaming : {Defaults.Default}ySbG
+   var _hideWhileInMissionControl : {Defaults.Default}ySbG
+   var _showOnDisplay : {Defaults.Default}y{Alcove.DisplayType}G
+   var _showOnDisplayUUID : {Defaults.Default}ySSSgG
+   var _showOnDisplayName : {Defaults.Default}ySSG
+   var _showOnDisplaySymbol : {Defaults.Default}ySSG
+   var _contrastOutline : {Defaults.Default}ySbG
+   var _progressiveBlur : {Defaults.Default}ySbG
+   var _enableNowPlaying : {Defaults.Default}ySbG
+   var _enableCalendar : {Defaults.Default}ySbG
+   var _useMostRecentActivity : {Defaults.Default}ySbG
+   var _idleActivity : {Defaults.Default}y{Alcove.ExpandedActivity}G
+   var _forceEnableActivity : {Defaults.Default}ySbG
+   var _enableHaptics : {Defaults.Default}ySbG
+   var _expandNotchOnHover : {Defaults.Default}ySbG
+   var _hoverDuration : {Defaults.Default}ySdG
+   var _naturalMovement : {Defaults.Default}ySbG
+   var _swipeToToggle : {Defaults.Default}ySbG
+   var _swipeToCycleActivity : {Defaults.Default}ySbG
+   var _swipeToDismiss : {Defaults.Default}ySbG
+   var _swipeToSkip : {Defaults.Default}ySbG
+   var _notchAdjustedWidth : {Defaults.Default}ySdG
+   var _notchAdjustedHeight : {Defaults.Default}ySdG
+   var __displayOptionGroups : {ind}ySaySay{Alcove.DisplayMenuOption}GGG
+== 0x100535284 enum {Alcove.HUDSpeed}
+   let smooth : 
+   let fast : 
+   let instant : 
+== 0x1005352b8 enum {Alcove.NowPlayingTitleBadge}
+   let none : 
+   let explicit : 
+   let format : 
+== 0x1005352ec enum {Alcove.ControlType}
+   let like : 
+   let shuffle : 
+   let repeating : 
+   let copyLink : 
+== 0x10053532c enum {Alcove.DisplayType}
+   let builtInDisplay : 
+   let mainScreen : 
+   let allDisplays : 
+   let specificDisplay : 
+== 0x10053536c enum {Alcove.ExpandedActivity}
+   let none : 
+   let nowPlaying : 
+   let calendar : 
+   let duo : 
+== 0x1005353ac enum {Alcove.NowPlayingStyle}
+   let glass : 
+   let clear : 
+   let frosted : 
+== 0x1005353e0 enum {Alcove.WeatherStyle}
+   let conditions : 
+   let sun : 
+   let precipitation : 
+== 0x100535414 enum {Alcove.LocationPermissionTarget}
+   let showWeatherOnEmptyDay : 
+   let notifyWhenTimeToLeave : 
+   let allowWeatherWidgetWhenLocked : 
+== 0x100535448 enum {Alcove.TransportType}
+   let drive : 
+   let walk : 
+   let transit : 
+== 0x10053547c enum {Alcove.MusicApp}
+   let music : 
+   let spotify : 
+   let system : 
+== 0x1005354b0 struct {Alcove.ConnectedDisplay}
+   let uuid : SS
+   let name : SS
+   let symbol : SS
+== 0x1005354e4 enum {Alcove.ColorStyle}
+   let mono : 
+   let color : 
+   let gradient : 
+== 0x100535518 multi-payload enum {Alcove.DisplayMenuOption}
+   let displayType : {Alcove.DisplayType}
+   let display : {Alcove.ConnectedDisplay}
+== 0x100535540 enum {Alcove.LockScreenWidgetType}
+   let battery : 
+   let connectivity : 
+   let focus : 
+   let calendar : 
+   let weather : 
+== 0x10053558c enum {Alcove.OutputDevice}
+   let symbol : 
+   let device : 
+== 0x1005355b4 enum {Alcove.HUDProgressStyle}
+   let white : 
+   let accent : 
+   let stylized : 
+== 0x1005355e8 enum {Alcove.ConnectivityModel}
+   let threeDimensional : 
+   let symbol : 
+== 0x100535610 enum {Alcove.CalendarDisplayMode}
+   let liveActivity : 
+   let expandedView : 
+   let both : 
+== 0x100535644 class {Alcove.LockManager}
+   let logger : {ind}
+   var cancellables : Shy{ind}G
+   var lockDebounce : ScTyyt{ind}GSg
+   var unlockDebounce : ScTyyt{ind}GSg
+   var screensaverPresentationTask : ScTyyt{ind}GSg
+   var hideDebounce : ScTyyt{ind}GSg
+   var idleAssertionID : {ind}
+   var noDisplayAssertionID : {ind}
+   var preventUserIdleDisplayAssertionID : {ind}
+   var sleepTask : ScTyyt{ind}GSg
+   var isLockScreenWidgetNotificationVisible : Sb
+   var _enableBrightness : {Defaults.Default}ySbG
+   var _enableVolume : {Defaults.Default}ySbG
+   var _enableLockScreen : {Defaults.Default}ySbG
+   var _keepAwake : {Defaults.Default}ySdG
+   var _showOnScreenSaver : {Defaults.Default}ySbG
+   var _playSoundOnLock : {Defaults.Default}ySbG
+   var _playSoundOnUnlock : {Defaults.Default}ySbG
+   var _enableFocus : {Defaults.Default}ySbG
+   var _enableNowPlaying : {Defaults.Default}ySbG
+   var _hideWhileSourceIsActive : {Defaults.Default}ySbG
+   var _hideWhileInFullscreen : {Defaults.Default}ySbG
+   var _allowBatteryWidgetWhenLocked : {Defaults.Default}ySbG
+   var _allowConnectivityWidgetWhenLocked : {Defaults.Default}ySbG
+   var _allowFocusWidgetWhenLocked : {Defaults.Default}ySbG
+   var _allowNowPlayingWidgetWhenLocked : {Defaults.Default}ySbG
+   var _allowCalendarWidgetWhenLocked : {Defaults.Default}ySbG
+   var _allowWeatherWidgetWhenLocked : {Defaults.Default}ySbG
+   var _showVolumeControl : {Defaults.Default}ySbG
+   var _nowPlayingWidgetOffset : {Defaults.Default}ySdG
+   var _isLocked : Sb
+   var _isVisible : Sb
+   var _isSleeping : Sb
+   var _isAwake : Sb
+   var _isWallpaperNearlyWhite : Sb
+   var _hasScreensaver : Sb
+   var _hasClock : Sb
+   var _hasMessage : Sb
+   var _hasAvatar : Sb
+   var _userAccountCount : Si
+   let _$observationRegistrar : {ind}
+== 0x100535840 class {ResumeState}
+   let lock : So6NSLockC
+   var hasResumed : Sb
+== 0x100535868 class {Alcove.AudioManager}
+   let service : {__C.CFString}
+   var preflightFunction : Si{__C.CFString}_{__C.CFDictionary}SgtXCSg
+   var requestFunction : y{__C.CFString}_{__C.CFDictionary}SgySbctXCSg
+   var appDidBecomeActiveObserver : {sym12}_pSg
+   var activeSpectrumOwners : SDySOSo8NSObjectCG
+   var spectrumObservers : SDySOSo8NSObjectCG
+   var spectrumPID : {ind}Sg
+   var spectrumAnalyzer : So8NSObjectCSg
+   var spectrumTap : So8NSObjectCSg
+   var _hasPromptedAudioPermission : {Defaults.Default}ySbG
+   var _authorizationStatus : {Alcove.AudioManager.AudioPermissionStatus}
+   let _$observationRegistrar : {ind}
+== 0x100535908 enum {Alcove.AudioManager.AudioPermissionStatus}
+   let notDetermined : 
+   let denied : 
+   let authorized : 
+== 0x10053593c struct {Alcove.AudioManager.AudioFrequencyBand}
+   var startFrequency : Sf
+   var endFrequency : Sf
+== 0x100535964 class {ScriptingBridgeTimeoutState}
+   let lock : So6NSLockC
+   let operation : xSgyc
+   var isCancelled : Sb
+   var output : xSg
+== 0x1005359a4 class {Alcove.MediaManager}
+   var cancellables : Shy{ind}G
+   var spotify : {sym12}_pSg
+   var music : {sym12}_pSg
+   var pauseDebounce : ScTyyt{ind}GSg
+   var seekDebounce : ScTyyt{ind}GSg
+   var hideIdleDebounce : ScTyyt{ind}GSg
+   var hideIdleDeadline : {ind}Sg
+   var timerCancellable : {ind}Sg
+   let seekerPollingInterval : Sd
+   var appleEventsAllowed : Sb
+   var lastMusicURLKey : SSSg
+   var currentArtworkIdentity : SSSg
+   var currentArtworkAlbum : SSSg
+   var artworkFetchTask : ScTyyt{ind}GSg
+   var artworkFetchIdentity : SSSg
+   var artworkFetchGeneration : Si
+   var pendingMusicLoved : SbSg
+   var pendingSpotifyLoved : SbSg
+   var pendingMusicShuffleEnabled : SbSg
+   var pendingMusicRepeatMode : {Alcove.MusicERpt}Sg
+   var spotifyRepeatMode : {SpotifyRepeatMode}Sg
+   var _enableBrightness : {Defaults.Default}ySbG
+   var _enableVolume : {Defaults.Default}ySbG
+   var _isFirstLaunch : {Defaults.Default}ySbG
+   var _enableNowPlaying : {Defaults.Default}ySbG
+   var _idleDuration : {Defaults.Default}ySdG
+   var _hideIdleDuration : {Defaults.Default}ySdG
+   var _hideWhileSourceIsActive : {Defaults.Default}ySbG
+   var _hideWhileInFullscreen : {Defaults.Default}ySbG
+   var _controlChoice : {Defaults.Default}y{Alcove.ControlType}G
+   var _automaticMusicApp : {Defaults.Default}ySbG
+   var _musicApp : {Defaults.Default}y{Alcove.MusicApp}G
+   var _whenSongChanges : {Defaults.Default}ySbG
+   var _peekDuration : {Defaults.Default}ySdG
+   var _enableLockScreen : {Defaults.Default}ySbG
+   var _allowNowPlayingWidgetWhenLocked : {Defaults.Default}ySbG
+   let timerStartSignal : {ind}yyt{ind}G
+   let timerStopSignal : {ind}yyt{ind}G
+   var timerPollingSources : Shy{Alcove.MediaManager.TimerPollingSource}G
+   var isNowPlayingObservationEnabled : Sb
+   var hasCompletedInitialNowPlayingSetup : Sb
+   let transientMediaDurationThreshold : Sd
+   let messageAppBundleIds : SaySSG
+   var idleDebounce : ScTyyt{ind}GSg
+   var _currentTrack : {Alcove.MediaManager.Track}
+   var _shareUrl : SSSg
+   var _trackUri : SSSg
+   var _isHidden : Sb
+   var _isPlaying : Sb
+   var _nowPlaying : SDySSypG
+   var _isFlipped : Sb
+   var _isLoved : Sb
+   var _isShuffled : Sb
+   var _isRepeating : Sb
+   var _isRepeatingOne : Sb
+   var _isLive : Sb
+   var _isPodcast : Sb
+   var _isSourceAppActive : Sb
+   var _trackDuration : Sd
+   var _seekerPosition : Sd
+   var _songChangeToken : Si
+   var _volume : Sf
+   var _playbackSpeed : SdSg
+   var _isDraggingSlider : Sb
+   var _isSeeking : Sb
+   var _appBundleId : SSSg
+   var _nowPlayingAudioProcessIdentifier : {ind}Sg
+   var _nowPlayingAudioClientBundleIdentifier : SSSg
+   var _nowPlayingAudioParentBundleIdentifier : SSSg
+   var _hasShuffle : Sb
+   var _hasPreviousSkip : Sb
+   var _hasNextSkip : Sb
+   var _hasPlaybackSpeed : Sb
+   var _hasRewind : Sb
+   var _hasFastForward : Sb
+   var _hasRecentlyPaused : Sb
+   var _previousTrigger : Sb
+   var _nextTrigger : Sb
+   let _$observationRegistrar : {ind}
+== 0x100535d68 enum {SpotifyRepeatMode}
+   let off : 
+   let context : 
+   let track : 
+== 0x100535d9c enum {Alcove.MediaManager.TimerPollingSource}
+   let notchExpanded : 
+   let lockscreen : 
+== 0x100535dc4 struct {Alcove.MediaManager.Track}
+   var title : SS
+   var artist : SS
+   var album : SS
+   var isExplicit : Sb
+   var isLossless : Sb
+   var isDolbyAtmos : Sb
+   var albumArt : So7NSImageCSg
+   var albumArtOriginal : So7NSImageCSg
+   var albumArtBrightened : So7NSImageCSg
+   var albumArtDataDigest : SSSg
+   var colors : Say{ind}G
+== 0x100535e58 struct {SpotifyTrackSnapshot}
+   let name : SS
+   let artist : SS
+   let album : SS
+   let artworkUrl : SS
+   let duration : Sd
+   let spotifyUrl : SS
+   let isShuffled : Sb
+   let isRepeating : Sb
+   let hasShuffle : Sb
+   let playerState : {Alcove.SpotifyEPlS}
+== 0x100535ee0 struct {MusicTrackSnapshot}
+   let name : SS
+   let artist : SS
+   let album : SS
+   let duration : Sd
+   let loved : Sb
+   let shuffled : Sb
+   let repeatMode : {Alcove.MusicERpt}
+   let playerState : {Alcove.MusicEPlS}
+== 0x100535f50 class {WallpaperChangeMonitor}
+   let logger : {ind}
+   let processName : SS
+   let exportMessage : SS
+   var cancellables : Shy{ind}G
+   var logTask : ScTyyt{ind}GSg
+   var isMonitoring : Sb
+== 0x100535fa8 struct {WallpaperWindow}
+   let id : {ind}
+   let bounds : {__C.CGRect}
+   let name : SS
+   let layer : Si
+== 0x100535fe8 objc class {Alcove.NSWaveformView} : So6NSViewC
+   var isPlaying : Sb
+   var isPaused : Sb
+   var artworkScale : {__C.CGSize}
+   var artworkOffset : {__C.CGPoint}
+   var viewBounds : {__C.CGRect}
+   var amplitudeWidth : {ind}
+   var amplitudeHeight : {ind}
+   var amplitudeCount : Si
+   var amplitudeSpacing : Sd
+   var duration : Sd
+   var pauseDuration : Sd
+   var audioSourceRevision : Si
+   var usesLiveSpectrum : Sb
+   var color : {ind}
+   var seed : {ind}
+   var artwork : So7NSImageCSg
+   let barsContainerLayer : So7CALayerC
+   var artworkCutoutLayer : {Alcove.ArtworkCutoutLayer}Sg
+   var amplitudes : SaySo7CALayerCG
+   var maskAmplitudes : SaySo7CALayerCG
+   var isRegisteredWithAnimationClock : Sb
+   var liveSpectrumBandCount : SiSg
+   var liveLevels : Say{ind}G
+   var isAnimationSourceUpdateScheduled : Sb
+   var lastSimulatedAnimationTick : SiSg
+   var lastLiveTargetSizes : Say{__C.CGSize}G
+   var animationSource : {WaveformAnimationSource}
+   var pendingTransition : {WaveformTransition}
+== 0x100536148 class {WaveformAnimationClock}
+   let epoch : Sd
+   let views : So11NSHashTableCy{Alcove.NSWaveformView}G
+   var timer : So7NSTimerCSg
+== 0x10053617c class {WaveformSpectrumCenter}
+   var sessions : SDySi{WaveformSpectrumSession}G
+== 0x100536198 class {WaveformSpectrumSession}
+   let views : So11NSHashTableCy{Alcove.NSWaveformView}G
+   let owner : So8NSObjectC
+   let observer : So8NSObjectC
+   let bandCount : Si
+   var updateBlock : yXlSg
+   var isActive : Sb
+   var isUpdateScheduled : Sb
+   var lastLevels : Say{ind}G
+== 0x100536208 enum {WaveformAnimationSource}
+   let suspended : 
+   let simulated : 
+   let live : 
+== 0x10053623c enum {WaveformTransition}
+   let continuous : 
+   let bridgeFromPresentation : 
+== 0x100536264 struct {Alcove.Waveform}
+   var isPlaying : Sb
+   var isPaused : SbSg
+   var color : {ind}
+   var artwork : So7NSImageCSg
+   var size : {__C.CGSize}
+   var amplitudeWidth : {ind}
+   var amplitudeHeight : {ind}
+   var amplitudeCount : Si
+   var amplitudeSpacing : Sd
+   var duration : Sd
+   var pauseDuration : Sd
+   var seed : {ind}Sg
+   var audioSourceRevision : Si
+   var usesLiveSpectrum : Sb
+== 0x10053631c struct {Alcove.SliderPicker}
+   var _enableHaptics : {Defaults.Default}ySbG
+   let height : {ind}
+   let title : SS
+   let options : SayxG
+   var _selection : {ind}yxG
+   let label : SSxc
+   let horizontalPadding : {ind}
+== 0x100536380 struct {Alcove.MediaProgressSlider}
+   var _value : {ind}yxG
+   let songChangeToken : Si
+   let inRange : SNyxG
+   let fillColors : Say{ind}G
+   let disableGradient : Sb
+   let height : {ind}
+   let width : {ind}
+   let onEditingChanged : ySbc
+   let tapCooldown : Sd
+   var _showRemainingTime : {Defaults.Default}ySbG
+   var __localRealProgress : {ind}yxG
+   var __localTempProgress : {ind}yxG
+   var __progressDuration : {ind}yxG
+   var __measuredTrackWidth : {ind}y{ind}G
+   var __lastDragEnd : {ind}y{ind}SgG
+   var _shouldSuppressNextExternalAnimation : {ind}ySbG
+   var __progressAnimationDuration : {ind}ySdG
+   var __progressAnimation : {ind}y{MediaProgressLayerAnimation}G
+   var __locallyRequestedProgress : {ind}yxSgG
+   var __interactiveProgressAnimationDeadline : {ind}y{ind}G
+   var _isDragging : {ind}ySbG
+== 0x10053648c objc class {MediaProgressLayerTrackView} : So6NSViewC
+   let backgroundLayer : So7CALayerC
+   let fillLayer : So15CAGradientLayerC
+   let progressMaskLayer : So7CALayerC
+   var progress : {ind}
+== 0x1005364cc enum {MediaProgressLayerAnimation}
+   let linear : 
+   let spring : 
+== 0x1005364f4 struct {MediaProgressLayerTrack}
+   let progress : Sd
+   let primaryColor : {ind}
+   let secondaryColor : {ind}
+   let backgroundColor : {ind}
+   let animationDuration : Sd
+   let animation : {MediaProgressLayerAnimation}
+== 0x10053654c struct {Alcove.DividedVerticalStack}
+   let spacing : {ind}Sg
+   let showDividers : Sb
+   var content : x
+== 0x100536580 struct {Alcove.DividedVerticalStackLayout}
+   var _colorScheme : {ind}y{ind}G
+   let spacing : {ind}
+   let showDividers : Sb
+   let cornerRadius : {ind}
+== 0x1005365c0 struct {Alcove.ModalWindowView}
+   let sectionSpacing : {ind}
+   let cornerRadius : {ind}
+   let content : x
+== 0x1005365f4 class {ResourceBundleClass}
+== 0x100536604 class {SimplyCoreAudio.AudioHardware}
+   var allKnownDevices : Say{SimplyCoreAudio.AudioDevice}G
+   var $__lazy_storage_$_queueLabel : SSSg
+   var $__lazy_storage_$_queue : So17OS_dispatch_queueCSg
+   var isRegisteredForNotifications : Sb
+== 0x100536644 struct {__C.AudioObjectPropertyAddress}
+   var mSelector : {ind}
+   var mScope : {ind}
+   var mElement : {ind}
+== 0x100536678 struct {__C.AudioStreamBasicDescription}
+   var mSampleRate : Sd
+   var mFormatID : {ind}
+   var mFormatFlags : {ind}
+   var mBytesPerPacket : {ind}
+   var mFramesPerPacket : {ind}
+   var mBytesPerFrame : {ind}
+   var mChannelsPerFrame : {ind}
+   var mBitsPerChannel : {ind}
+   var mReserved : {ind}
+== 0x1005366f4 struct {__C.AudioStreamRangedDescription}
+   var mFormat : {__C.AudioStreamBasicDescription}
+   var mSampleRateRange : {__C.AudioValueRange}
+== 0x10053671c struct {__C.AudioValueRange}
+   var mMinimum : Sd
+   var mMaximum : Sd
+== 0x100536744 class {SimplyCoreAudio.AudioObjectPool}
+   var pool : SDy{ind}{SimplyCoreAudio.AudioObject}G
+   var $__lazy_storage_$_queueLabel : SSSg
+   var $__lazy_storage_$_queue : So17OS_dispatch_queueCSg
+== 0x100536778 class {SimplyCoreAudio.AudioDevice} : {SimplyCoreAudio.AudioObject}
+   let hardware : {SimplyCoreAudio.AudioHardware}
+   var cachedDeviceName : SSSg
+   var isRegisteredForNotifications : Sb
+== 0x1005367ac class {SimplyCoreAudio.AudioObject}
+   let objectID : {ind}
+   var $__lazy_storage_$_classID : {ind}SgSg
+   var $__lazy_storage_$_owningObject : {SimplyCoreAudio.AudioObject}SgSg
+   var $__lazy_storage_$_owningDevice : {SimplyCoreAudio.AudioDevice}SgSg
+== 0x1005367ec class {SimplyCoreAudio.AudioStream} : {SimplyCoreAudio.AudioObject}
+   var $__lazy_storage_$_availablePhysicalFormats : Say{__C.AudioStreamRangedDescription}GSgSg
+   var $__lazy_storage_$_availableVirtualFormats : Say{__C.AudioStreamRangedDescription}GSgSg
+   var isRegisteredForNotifications : Sb
+== 0x100536820 enum {SimplyCoreAudio.Element}
+   let custom : {ind}5value_t
+   let main : 
+   let master : 
+== 0x100536854 enum {SimplyCoreAudio.Scope}
+   let global : 
+   let input : 
+   let output : 
+   let playthrough : 
+   let master : 
+   let wildcard : 
+   let main : 
+== 0x1005368b8 enum {SimplyCoreAudio.TerminalType}
+   let unknown : 
+   let line : 
+   let digitalAudioInterface : 
+   let speaker : 
+   let headphones : 
+   let lfeSpeaker : 
+   let receiverSpeaker : 
+   let microphone : 
+   let headsetMicrophone : 
+   let receiverMicrophone : 
+   let tty : 
+   let hdmi : 
+   let displayPort : 
+== 0x100536964 enum {SimplyCoreAudio.TransportType}
+   let unknown : 
+   let builtIn : 
+   let aggregate : 
+   let virtual : 
+   let pci : 
+   let usb : 
+   let fireWire : 
+   let bluetooth : 
+   let bluetoothLE : 
+   let hdmi : 
+   let displayPort : 
+   let airPlay : 
+   let avb : 
+   let thunderbolt : 
+   let network : 
+   let other : 
+== 0x100536a34 struct {SimplyCoreAudio.VolumeInfo}
+   var volume : SfSg
+   var hasVolume : Sb
+   var canSetVolume : Sb
+   var canMute : Sb
+   var isMuted : Sb
+   var canPlayThru : Sb
+   var isPlayThruSet : Sb
+== 0x100536a98 class {SimplyCoreAudio.SimplyCoreAudio}
+   let hardware : {SimplyCoreAudio.AudioHardware}
+== 0x100536ab4 struct {Atomics.AtomicOptionalRawRepresentableStorage}
+   var _storage : 8RawValueSY_28AtomicOptionalRepresentation{Atomics.AtomicOptionalWrappable}QZ
+== 0x100536ad0 struct {Atomics.AtomicRawRepresentableStorage}
+   var _storage : 8RawValueSY_20AtomicRepresentation{Atomics.AtomicValue}QZ
+== 0x100536aec struct {AtomicRepresentation}
+   var _storage : {Atomics._AtomicInt8Storage}
+== 0x100536b08 struct {AtomicRepresentation}
+   var _storage : {Atomics._AtomicInt8Storage}
+== 0x100536b24 struct {AtomicRepresentation}
+   var _storage : {Atomics._AtomicInt16Storage}
+== 0x100536b40 struct {AtomicRepresentation}
+   var _storage : {Atomics._AtomicInt32Storage}
+== 0x100536b5c struct {AtomicRepresentation}
+   var _storage : {Atomics._AtomicInt64Storage}
+== 0x100536b78 struct {AtomicRepresentation}
+   var _storage : {Atomics._AtomicInt8Storage}
+== 0x100536b94 struct {AtomicRepresentation}
+   var _storage : {Atomics._AtomicInt16Storage}
+== 0x100536bb0 struct {AtomicRepresentation}
+   var _storage : {Atomics._AtomicInt32Storage}
+== 0x100536bcc struct {AtomicRepresentation}
+   var _storage : {Atomics._AtomicInt64Storage}
+== 0x100536be8 struct {AtomicRepresentation}
+   var _storage : {Atomics._AtomicInt64Storage}
+== 0x100536c04 struct {AtomicRepresentation}
+   var _storage : {Atomics._AtomicInt64Storage}
+== 0x100536c20 struct {AtomicRepresentation}
+   var _storage : {Atomics._AtomicInt128Storage}
+== 0x100536c3c struct {AtomicRepresentation}
+   let _storage : {Atomics._AtomicInt64Storage}
+== 0x100536c58 struct {AtomicRepresentation}
+   let _storage : {Atomics._AtomicInt64Storage}
+== 0x100536c74 struct {AtomicRepresentation}
+   let _storage : {Atomics._AtomicInt64Storage}
+== 0x100536c90 struct {AtomicRepresentation}
+   let _storage : {Atomics._AtomicInt64Storage}
+== 0x100536cac struct {AtomicRepresentation}
+   let _storage : {Atomics._AtomicInt64Storage}
+== 0x100536cc8 struct {AtomicOptionalRepresentation}
+   let _storage : {Atomics._AtomicInt64Storage}
+== 0x100536ce4 struct {AtomicOptionalRepresentation}
+   let _storage : {Atomics._AtomicInt64Storage}
+== 0x100536d00 struct {AtomicOptionalRepresentation}
+   let _storage : {Atomics._AtomicInt64Storage}
+== 0x100536d1c struct {AtomicOptionalRepresentation}
+   let _storage : {Atomics._AtomicInt64Storage}
+== 0x100536d38 struct {AtomicOptionalRepresentation}
+   let _storage : {Atomics._AtomicInt64Storage}
+== 0x100536d54 struct {Atomics._AtomicInt8Storage}
+   var _value : Bi8_
+== 0x100536d70 struct {Atomics._AtomicInt16Storage}
+   var _value : Bi16_
+== 0x100536d8c struct {Atomics._AtomicInt32Storage}
+   var _value : Bi32_
+== 0x100536da8 struct {Atomics._AtomicInt64Storage}
+   var _value : Bi64_
+== 0x100536dc4 struct {Atomics._AtomicInt128Storage}
+   var _value : Bi128_
+== 0x100536de0 protocol $s7Atomics13AtomicIntegerP
+== 0x100536df0 protocol $s7Atomics20AtomicIntegerStorageP
+== 0x100536e00 protocol $s7Atomics23AtomicOptionalWrappableP
+== 0x100536e10 class protocol $s7Atomics15AtomicReferenceP
+== 0x100536e20 struct {Atomics._AtomicReferenceStorage}
+   var _storage : {AtomicRepresentation}
+== 0x100536e3c struct {Atomics.AtomicReferenceStorage}
+   var _storage : {Atomics._AtomicReferenceStorage}
+== 0x100536e58 struct {Atomics.AtomicOptionalReferenceStorage}
+   var _storage : {Atomics._AtomicReferenceStorage}
+== 0x100536e74 protocol $s7Atomics13AtomicStorageP
+== 0x100536e84 protocol $s7Atomics11AtomicValueP
+== 0x100536e94 struct {Atomics.AtomicLoadOrdering}
+   var _rawValue : Si
+== 0x100536eb0 struct {Atomics.AtomicStoreOrdering}
+   var _rawValue : Si
+== 0x100536ecc struct {Atomics.AtomicUpdateOrdering}
+   var _rawValue : Si
+== 0x100536ee8 struct {Atomics.DoubleWord}
+   var first : Su
+   var second : Su
+== 0x100536f10 class {Atomics.ManagedAtomic}
+   var __storage : 20AtomicRepresentation{Atomics.AtomicValue}Qz
+== 0x100536f2c class {Atomics.ManagedAtomicLazyReference}
+   let _storage : {AtomicOptionalRepresentation}yx_G
+== 0x100536f48 struct {Atomics.UnsafeAtomic}
+   let _ptr : Spy20AtomicRepresentation{Atomics.AtomicValue}QzG
+== 0x100536f64 struct {Atomics.UnsafeAtomicLazyReference}
+   let _ptr : Spy{AtomicOptionalRepresentation}yx_GG
+== 0x100536f80 struct {Atomics.UnsafeAtomicLazyReference.Storage}
+   var _storage : {AtomicOptionalRepresentation}yx_G
+== 0x100536f9c struct {__C.CIContextOption}
+   var _rawValue : So8NSStringC
+== 0x100536fb8 class {DominantColors.AverageColor}
+== 0x100536fc8 class {DominantColors.ColorFrequency}
+   var color : {__C.CGColor}
+   var frequency : {ind}
+   var shade : {DominantColors.ColorShade}
+== 0x100536ffc struct {DominantColors.ContrastColors}
+   let background : {__C.CGColor}
+   let primary : {__C.CGColor}
+   let secondary : {__C.CGColor}Sg
+== 0x100537030 enum {DominantColors.ColorShade}
+   let white : 
+   let black : 
+   let dark : 
+   let bright : 
+   let gray : 
+   let red : 
+   let redOrange : 
+   let orange : 
+   let yellowOrange : 
+   let yellow : 
+   let yellowGreen : 
+   let green : 
+   let blueGreen : 
+   let blue : 
+   let blueViolet : 
+   let violet : 
+   let redViolet : 
+   let brown : 
+   let pink : 
+   let unknown : 
+== 0x100537130 struct {DominantColors.HSL}
+   let hue : Sd
+   let saturation : Sd
+   let lightness : Sd
+== 0x100537164 struct {DominantColors.Hex}
+   let cgColor : {__C.CGColor}
+== 0x100537180 struct {DominantColors.RGB255}
+   let red : {ind}
+   let green : {ind}
+   let blue : {ind}
+== 0x1005371b4 multi-payload enum {ContrastRatioResult}
+   let acceptable : {ind}
+   let acceptableForLargeText : {ind}
+   let low : {ind}
+== 0x1005371e8 enum {DominantColors.DeltaEFormula}
+   let euclidean : 
+   let CIE76 : 
+   let CIE94 : 
+   let CIEDE2000 : 
+   let CMC : 
+== 0x100537234 multi-payload enum {ColorDifferenceResult}
+   let indentical : {ind}
+   let similar : {ind}
+   let close : {ind}
+   let near : {ind}
+   let different : {ind}
+   let far : {ind}
+== 0x10053728c enum {DominantColors.DominantColorAlgorithm}
+   let iterative : {DominantColors.DeltaEFormula}7formula_t
+   let kMeansClustering : 
+   let areaAverage : 
+== 0x1005372c0 enum {DominantColors.DominantColorQuality}
+   let low : 
+   let fair : 
+   let high : 
+   let best : 
+== 0x100537300 class {DominantColors.DominantColors}
+== 0x100537310 enum {DominantColors.DominantColors.Options}
+   let excludeBlack : 
+   let excludeWhite : 
+   let excludeGray : 
+== 0x100537344 enum {DominantColors.DominantColors.Sort}
+   let darkness : 
+   let lightness : 
+   let frequency : 
+== 0x100537378 enum {DominantColors.ImageColorError}
+   let ciFilterCreateFailure : SS6filter_t
+   let ciImageFailure : 
+   let cgImageFailure : 
+   let cgImageDataFailure : 
+   let outputImageFailure : 
+   let kCFNullFailure : 
+   let lowResolutionFailure : 
+   let cgColorFailure : 
+== 0x1005373e8 class {DominantColors.ImageFilter}
+== 0x1005373f8 struct {_CGImageTransparencyTrimmer}
+   let image : {__C.CGImage}
+   let maximumAlphaChannel : {ind}
+   let cgContext : {__C.CGContext}
+   let zeroByteBlock : Sv
+   let pixelRowRange : SnySiG
+   let pixelColumnRange : SnySiG
+== 0x100537450 class {BundleFinder}
+== 0x100537460 struct {__C.CGSize}
+   var width : {ind}
+   var height : {ind}
+== 0x100537488 struct {__C.CGPoint}
+   var x : {ind}
+   var y : {ind}
+== 0x1005374b0 struct {Color}
+   var red : Sd
+   var green : Sd
+   var blue : Sd
+   var opacity : Sd
+== 0x1005374f0 enum {CodingKeys}
+   let red : 
+   let green : 
+   let blue : 
+   let opacity : 
+== 0x100537530 multi-payload enum {ColorMode}
+   let single : {Color}
+   let random : Say{Color}G
+   let ramp : Say{Color}G
+   let randomRamp : SaySay{Color}GG
+== 0x100537570 enum {RandomRampCodingKeys}
+   let _0 : 
+== 0x10053758c enum {RampCodingKeys}
+   let _0 : 
+== 0x1005375a8 enum {RandomCodingKeys}
+   let _0 : 
+== 0x1005375c4 enum {SingleCodingKeys}
+   let _0 : 
+== 0x1005375e0 enum {CodingKeys}
+   let single : 
+   let random : 
+   let ramp : 
+   let randomRamp : 
+== 0x100537620 struct {Particle}
+   var tag : SS
+   var position : {ind}ySdG
+   var speed : {ind}ySdG
+   var birthTime : Sd
+   var lifespan : Sd
+   var initialSize : Sd
+   var currentSize : Sd
+   var angle : {ind}ySdG
+   var angularSpeed : {ind}ySdG
+   var colors : Say{Color}G
+   var currentColor : {Color}
+== 0x1005376b4 multi-payload enum {Shape}
+   let box : Sd5width_Sd6heightt
+   let ellipse : Sd6radius_t
+   let ring : Sd6radius_t
+   let point : 
+== 0x1005376f4 enum {RingCodingKeys}
+   let radius : 
+== 0x100537710 enum {EllipseCodingKeys}
+   let radius : 
+== 0x10053772c enum {BoxCodingKeys}
+   let width : 
+   let height : 
+== 0x100537754 enum {PointCodingKeys}
+== 0x100537764 enum {CodingKeys}
+   let point : 
+   let box : 
+   let ellipse : 
+   let ring : 
+== 0x1005377a4 enum {SpawnOccasion}
+   let onBirth : 
+   let onDeath : 
+   let onUpdate : 
+== 0x1005377d8 enum {OnUpdateCodingKeys}
+== 0x1005377e8 enum {OnDeathCodingKeys}
+== 0x1005377f8 enum {OnBirthCodingKeys}
+== 0x100537808 enum {CodingKeys}
+   let onBirth : 
+   let onDeath : 
+   let onUpdate : 
+== 0x10053783c class {Vortex.VortexSystem}
+   let id : {ind}
+   var outstandingParticles : Sd
+   var lastIdleTime : Sd
+   var selectedColorRamp : Si
+   var lastUpdate : Sd
+   var startTimeOffset : Sd
+   var emissionCount : Si
+   var particles : Say{Particle}G
+   var activeSecondarySystems : Shy{Vortex.VortexSystem}G
+   var lastDrawSize : {__C.CGSize}
+   var position : {ind}ySdG
+   var tags : SaySSG
+   var isActive : Sb
+   var isEmitting : Sb
+   var secondarySystems : Say{Vortex.VortexSystem}G
+   var spawnOccasion : {SpawnOccasion}
+   var shape : {Shape}
+   var birthRate : Sd
+   var emissionLimit : SiSg
+   var emissionDuration : Sd
+   var idleDuration : Sd
+   var burstCount : Si
+   var burstCountVariation : Si
+   var lifespan : Sd
+   var lifespanVariation : Sd
+   var speed : Sd
+   var speedVariation : Sd
+   var angle : {ind}
+   var angleRange : {ind}
+   var acceleration : {ind}ySdG
+   var attractionCenter : {ind}ySdGSg
+   var attractionStrength : Sd
+   var dampingFactor : Sd
+   var angularSpeed : {ind}ySdG
+   var angularSpeedVariation : {ind}ySdG
+   var colors : {ColorMode}
+   var size : Sd
+   var sizeVariation : Sd
+   var sizeMultiplierAtDeath : Sd
+   var stretchFactor : Sd
+== 0x100537a2c enum {Vortex.VortexSystem.CodingKeys}
+   let tags : 
+   let secondarySystems : 
+   let spawnOccasion : 
+   let position : 
+   let shape : 
+   let birthRate : 
+   let emissionLimit : 
+   let emissionDuration : 
+   let idleDuration : 
+   let burstCount : 
+   let burstCountVariation : 
+   let lifespan : 
+   let lifespanVariation : 
+   let speed : 
+   let speedVariation : 
+   let angle : 
+   let angleRange : 
+   let acceleration : 
+   let attractionCenter : 
+   let attractionStrength : 
+   let dampingFactor : 
+   let angularSpeed : 
+   let angularSpeedVariation : 
+   let colors : 
+   let size : 
+   let sizeVariation : 
+   let sizeMultiplierAtDeath : 
+   let stretchFactor : 
+== 0x100537b8c struct {Vortex.VortexProxy}
+   let particleSystem : {Vortex.VortexSystem}Sg
+   let burst : yyc
+   let attractTo : y{__C.CGPoint}Sgc
+== 0x100537bc0 struct {Vortex.VortexSystemPreferenceKey}
+== 0x100537bd0 struct {Vortex.VortexView}
+   var symbols : x
+   var _particleSystem : {ind}y{Vortex.VortexSystem}G
+   var targetFrameRate : Si
+== 0x100537c04 struct {Vortex.VortexViewReader}
+   var __nearestVortexSystem : {ind}y{Vortex.VortexSystem}SgG
+   let content : x{Vortex.VortexProxy}c
+== 0x100537c2c protocol $s6Vortex23_ACResourceInitProtocolP
+== 0x100537c3c struct {LogStream.ActivityStreamOptions}
+   let rawValue : {ind}
+== 0x100537c58 struct {__C.OSLogType}
+   var rawValue : {ind}
+== 0x100537c74 struct {LogStream.LogEventStreamOptions}
+   let rawValue : {ind}
+== 0x100537c90 struct {LogStream.LogMessage}
+   let message : SS
+   let date : {ind}
+   let subsystem : SSSg
+   let category : SSSg
+   let type : {__C.OSLogType}
+   let process : SS
+   let processID : {ind}
+== 0x100537cf4 enum {LogStream.LogStream}
+== 0x100537d04 class {EventStreamState}
+   let lock : So6NSLockC
+   var eventStream : 9LogStream011_OSLogEventB0_pSg
+   var isCancelled : Sb
+== 0x100537d38 objc protocol $s9LogStream011_OSActivityA12MessageEventP
+== 0x100537d48 objc protocol $s9LogStream16_OSLogEventStoreP
+== 0x100537d58 objc protocol $s9LogStream011_OSLogEventB0P
+== 0x100537d68 objc protocol $s9LogStream16_OSLogEventProxyP
+== 0x100537d78 enum {StringObfuscation.ProtectedText}
+== 0x100537d88 enum {KeychainAccess.ItemClass}
+   let genericPassword : 
+   let internetPassword : 
+== 0x100537db0 enum {KeychainAccess.ProtocolType}
+   let ftp : 
+   let ftpAccount : 
+   let http : 
+   let irc : 
+   let nntp : 
+   let pop3 : 
+   let smtp : 
+   let socks : 
+   let imap : 
+   let ldap : 
+   let appleTalk : 
+   let afp : 
+   let telnet : 
+   let ssh : 
+   let ftps : 
+   let https : 
+   let httpProxy : 
+   let httpsProxy : 
+   let ftpProxy : 
+   let smb : 
+   let rtsp : 
+   let rtspProxy : 
+   let daap : 
+   let eppc : 
+   let ipp : 
+   let nntps : 
+   let ldaps : 
+   let telnetS : 
+   let imaps : 
+   let ircs : 
+   let pop3S : 
+== 0x100537f34 enum {KeychainAccess.AuthenticationType}
+   let ntlm : 
+   let msn : 
+   let dpa : 
+   let rpa : 
+   let httpBasic : 
+   let httpDigest : 
+   let htmlForm : 
+   let default : 
+== 0x100537fa4 enum {KeychainAccess.Accessibility}
+   let whenUnlocked : 
+   let afterFirstUnlock : 
+   let always : 
+   let whenPasscodeSetThisDeviceOnly : 
+   let whenUnlockedThisDeviceOnly : 
+   let afterFirstUnlockThisDeviceOnly : 
+   let alwaysThisDeviceOnly : 
+== 0x100538008 enum {KeychainAccess.AuthenticationUI}
+   let allow : 
+   let fail : 
+   let skip : 
+== 0x10053803c struct {KeychainAccess.AuthenticationPolicy}
+   let rawValue : Su
+== 0x100538058 struct {KeychainAccess.Attributes}
+   let attributes : SDySSypG
+== 0x100538074 class {KeychainAccess.Keychain}
+   let options : {KeychainAccess.Options}
+== 0x100538090 enum {KeychainAccess.Status}
+   let success : 
+   let unimplemented : 
+   let diskFull : 
+   let io : 
+   let opWr : 
+   let param : 
+   let wrPerm : 
+   let allocate : 
+   let userCanceled : 
+   let badReq : 
+   let internalComponent : 
+   let notAvailable : 
+   let readOnly : 
+   let authFailed : 
+   let noSuchKeychain : 
+   let invalidKeychain : 
+   let duplicateKeychain : 
+   let duplicateCallback : 
+   let invalidCallback : 
+   let duplicateItem : 
+   let itemNotFound : 
+   let bufferTooSmall : 
+   let dataTooLarge : 
+   let noSuchAttr : 
+   let invalidItemRef : 
+   let invalidSearchRef : 
+   let noSuchClass : 
+   let noDefaultKeychain : 
+   let interactionNotAllowed : 
+   let readOnlyAttr : 
+   let wrongSecVersion : 
+   let keySizeNotAllowed : 
+   let noStorageModule : 
+   let noCertificateModule : 
+   let noPolicyModule : 
+   let interactionRequired : 
+   let dataNotAvailable : 
+   let dataNotModifiable : 
+   let createChainFailed : 
+   let invalidPrefsDomain : 
+   let inDarkWake : 
+   let aclNotSimple : 
+   let policyNotFound : 
+   let invalidTrustSetting : 
+   let noAccessForItem : 
+   let invalidOwnerEdit : 
+   let trustNotAvailable : 
+   let unsupportedFormat : 
+   let unknownFormat : 
+   let keyIsSensitive : 
+   let multiplePrivKeys : 
+   let passphraseRequired : 
+   let invalidPasswordRef : 
+   let invalidTrustSettings : 
+   let noTrustSettings : 
+   let pkcs12VerifyFailure : 
+   let invalidCertificate : 
+   let notSigner : 
+   let policyDenied : 
+   let invalidKey : 
+   let decode : 
+   let internal : 
+   let unsupportedAlgorithm : 
+   let unsupportedOperation : 
+   let unsupportedPadding : 
+   let itemInvalidKey : 
+   let itemInvalidKeyType : 
+   let itemInvalidValue : 
+   let itemClassMissing : 
+   let itemMatchUnsupported : 
+   let useItemListUnsupported : 
+   let useKeychainUnsupported : 
+   let useKeychainListUnsupported : 
+   let returnDataUnsupported : 
+   let returnAttributesUnsupported : 
+   let returnRefUnsupported : 
+   let returnPersitentRefUnsupported : 
+   let valueRefUnsupported : 
+   let valuePersistentRefUnsupported : 
+   let returnMissingPointer : 
+   let matchLimitUnsupported : 
+   let itemIllegalQuery : 
+   let waitForCallback : 
+   let missingEntitlement : 
+   let upgradePending : 
+   let mpSignatureInvalid : 
+   let otrTooOld : 
+   let otrIDTooNew : 
+   let serviceNotAvailable : 
+   let insufficientClientID : 
+   let deviceReset : 
+   let deviceFailed : 
+   let appleAddAppACLSubject : 
+   let applePublicKeyIncomplete : 
+   let appleSignatureMismatch : 
+   let appleInvalidKeyStartDate : 
+   let appleInvalidKeyEndDate : 
+   let conversionError : 
+   let appleSSLv2Rollback : 
+   let quotaExceeded : 
+   let fileTooBig : 
+   let invalidDatabaseBlob : 
+   let invalidKeyBlob : 
+   let incompatibleDatabaseBlob : 
+   let incompatibleKeyBlob : 
+   let hostNameMismatch : 
+   let unknownCriticalExtensionFlag : 
+   let noBasicConstraints : 
+   let noBasicConstraintsCA : 
+   let invalidAuthorityKeyID : 
+   let invalidSubjectKeyID : 
+   let invalidKeyUsageForPolicy : 
+   let invalidExtendedKeyUsage : 
+   let invalidIDLinkage : 
+   let pathLengthConstraintExceeded : 
+   let invalidRoot : 
+   let crlExpired : 
+   let crlNotValidYet : 
+   let crlNotFound : 
+   let crlServerDown : 
+   let crlBadURI : 
+   let unknownCertExtension : 
+   let unknownCRLExtension : 
+   let crlNotTrusted : 
+   let crlPolicyFailed : 
+   let idpFailure : 
+   let smimeEmailAddressesNotFound : 
+   let smimeBadExtendedKeyUsage : 
+   let smimeBadKeyUsage : 
+   let smimeKeyUsageNotCritical : 
+   let smimeNoEmailAddress : 
+   let smimeSubjAltNameNotCritical : 
+   let sslBadExtendedKeyUsage : 
+   let ocspBadResponse : 
+   let ocspBadRequest : 
+   let ocspUnavailable : 
+   let ocspStatusUnrecognized : 
+   let endOfData : 
+   let incompleteCertRevocationCheck : 
+   let networkFailure : 
+   let ocspNotTrustedToAnchor : 
+   let recordModified : 
+   let ocspSignatureError : 
+   let ocspNoSigner : 
+   let ocspResponderMalformedReq : 
+   let ocspResponderInternalError : 
+   let ocspResponderTryLater : 
+   let ocspResponderSignatureRequired : 
+   let ocspResponderUnauthorized : 
+   let ocspResponseNonceMismatch : 
+   let codeSigningBadCertChainLength : 
+   let codeSigningNoBasicConstraints : 
+   let codeSigningBadPathLengthConstraint : 
+   let codeSigningNoExtendedKeyUsage : 
+   let codeSigningDevelopment : 
+   let resourceSignBadCertChainLength : 
+   let resourceSignBadExtKeyUsage : 
+   let trustSettingDeny : 
+   let invalidSubjectName : 
+   let unknownQualifiedCertStatement : 
+   let mobileMeRequestQueued : 
+   let mobileMeRequestRedirected : 
+   let mobileMeServerError : 
+   let mobileMeServerNotAvailable : 
+   let mobileMeServerAlreadyExists : 
+   let mobileMeServerServiceErr : 
+   let mobileMeRequestAlreadyPending : 
+   let mobileMeNoRequestPending : 
+   let mobileMeCSRVerifyFailure : 
+   let mobileMeFailedConsistencyCheck : 
+   let notInitialized : 
+   let invalidHandleUsage : 
+   let pvcReferentNotFound : 
+   let functionIntegrityFail : 
+   let internalError : 
+   let memoryError : 
+   let invalidData : 
+   let mdsError : 
+   let invalidPointer : 
+   let selfCheckFailed : 
+   let functionFailed : 
+   let moduleManifestVerifyFailed : 
+   let invalidGUID : 
+   let invalidHandle : 
+   let invalidDBList : 
+   let invalidPassthroughID : 
+   let invalidNetworkAddress : 
+   let crlAlreadySigned : 
+   let invalidNumberOfFields : 
+   let verificationFailure : 
+   let unknownTag : 
+   let invalidSignature : 
+   let invalidName : 
+   let invalidCertificateRef : 
+   let invalidCertificateGroup : 
+   let tagNotFound : 
+   let invalidQuery : 
+   let invalidValue : 
+   let callbackFailed : 
+   let aclDeleteFailed : 
+   let aclReplaceFailed : 
+   let aclAddFailed : 
+   let aclChangeFailed : 
+   let invalidAccessCredentials : 
+   let invalidRecord : 
+   let invalidACL : 
+   let invalidSampleValue : 
+   let incompatibleVersion : 
+   let privilegeNotGranted : 
+   let invalidScope : 
+   let pvcAlreadyConfigured : 
+   let invalidPVC : 
+   let emmLoadFailed : 
+   let emmUnloadFailed : 
+   let addinLoadFailed : 
+   let invalidKeyRef : 
+   let invalidKeyHierarchy : 
+   let addinUnloadFailed : 
+   let libraryReferenceNotFound : 
+   let invalidAddinFunctionTable : 
+   let invalidServiceMask : 
+   let moduleNotLoaded : 
+   let invalidSubServiceID : 
+   let attributeNotInContext : 
+   let moduleManagerInitializeFailed : 
+   let moduleManagerNotFound : 
+   let eventNotificationCallbackNotFound : 
+   let inputLengthError : 
+   let outputLengthError : 
+   let privilegeNotSupported : 
+   let deviceError : 
+   let attachHandleBusy : 
+   let notLoggedIn : 
+   let algorithmMismatch : 
+   let keyUsageIncorrect : 
+   let keyBlobTypeIncorrect : 
+   let keyHeaderInconsistent : 
+   let unsupportedKeyFormat : 
+   let unsupportedKeySize : 
+   let invalidKeyUsageMask : 
+   let unsupportedKeyUsageMask : 
+   let invalidKeyAttributeMask : 
+   let unsupportedKeyAttributeMask : 
+   let invalidKeyLabel : 
+   let unsupportedKeyLabel : 
+   let invalidKeyFormat : 
+   let unsupportedVectorOfBuffers : 
+   let invalidInputVector : 
+   let invalidOutputVector : 
+   let invalidContext : 
+   let invalidAlgorithm : 
+   let invalidAttributeKey : 
+   let missingAttributeKey : 
+   let invalidAttributeInitVector : 
+   let missingAttributeInitVector : 
+   let invalidAttributeSalt : 
+   let missingAttributeSalt : 
+   let invalidAttributePadding : 
+   let missingAttributePadding : 
+   let invalidAttributeRandom : 
+   let missingAttributeRandom : 
+   let invalidAttributeSeed : 
+   let missingAttributeSeed : 
+   let invalidAttributePassphrase : 
+   let missingAttributePassphrase : 
+   let invalidAttributeKeyLength : 
+   let missingAttributeKeyLength : 
+   let invalidAttributeBlockSize : 
+   let missingAttributeBlockSize : 
+   let invalidAttributeOutputSize : 
+   let missingAttributeOutputSize : 
+   let invalidAttributeRounds : 
+   let missingAttributeRounds : 
+   let invalidAlgorithmParms : 
+   let missingAlgorithmParms : 
+   let invalidAttributeLabel : 
+   let missingAttributeLabel : 
+   let invalidAttributeKeyType : 
+   let missingAttributeKeyType : 
+   let invalidAttributeMode : 
+   let missingAttributeMode : 
+   let invalidAttributeEffectiveBits : 
+   let missingAttributeEffectiveBits : 
+   let invalidAttributeStartDate : 
+   let missingAttributeStartDate : 
+   let invalidAttributeEndDate : 
+   let missingAttributeEndDate : 
+   let invalidAttributeVersion : 
+   let missingAttributeVersion : 
+   let invalidAttributePrime : 
+   let missingAttributePrime : 
+   let invalidAttributeBase : 
+   let missingAttributeBase : 
+   let invalidAttributeSubprime : 
+   let missingAttributeSubprime : 
+   let invalidAttributeIterationCount : 
+   let missingAttributeIterationCount : 
+   let invalidAttributeDLDBHandle : 
+   let missingAttributeDLDBHandle : 
+   let invalidAttributeAccessCredentials : 
+   let missingAttributeAccessCredentials : 
+   let invalidAttributePublicKeyFormat : 
+   let missingAttributePublicKeyFormat : 
+   let invalidAttributePrivateKeyFormat : 
+   let missingAttributePrivateKeyFormat : 
+   let invalidAttributeSymmetricKeyFormat : 
+   let missingAttributeSymmetricKeyFormat : 
+   let invalidAttributeWrappedKeyFormat : 
+   let missingAttributeWrappedKeyFormat : 
+   let stagedOperationInProgress : 
+   let stagedOperationNotStarted : 
+   let verifyFailed : 
+   let querySizeUnknown : 
+   let blockSizeMismatch : 
+   let publicKeyInconsistent : 
+   let deviceVerifyFailed : 
+   let invalidLoginName : 
+   let alreadyLoggedIn : 
+   let invalidDigestAlgorithm : 
+   let invalidCRLGroup : 
+   let certificateCannotOperate : 
+   let certificateExpired : 
+   let certificateNotValidYet : 
+   let certificateRevoked : 
+   let certificateSuspended : 
+   let insufficientCredentials : 
+   let invalidAction : 
+   let invalidAuthority : 
+   let verifyActionFailed : 
+   let invalidCertAuthority : 
+   let invaldCRLAuthority : 
+   let invalidCRLEncoding : 
+   let invalidCRLType : 
+   let invalidCRL : 
+   let invalidFormType : 
+   let invalidID : 
+   let invalidIdentifier : 
+   let invalidIndex : 
+   let invalidPolicyIdentifiers : 
+   let invalidTimeString : 
+   let invalidReason : 
+   let invalidRequestInputs : 
+   let invalidResponseVector : 
+   let invalidStopOnPolicy : 
+   let invalidTuple : 
+   let multipleValuesUnsupported : 
+   let notTrusted : 
+   let noDefaultAuthority : 
+   let rejectedForm : 
+   let requestLost : 
+   let requestRejected : 
+   let unsupportedAddressType : 
+   let unsupportedService : 
+   let invalidTupleGroup : 
+   let invalidBaseACLs : 
+   let invalidTupleCredendtials : 
+   let invalidEncoding : 
+   let invalidValidityPeriod : 
+   let invalidRequestor : 
+   let requestDescriptor : 
+   let invalidBundleInfo : 
+   let invalidCRLIndex : 
+   let noFieldValues : 
+   let unsupportedFieldFormat : 
+   let unsupportedIndexInfo : 
+   let unsupportedLocality : 
+   let unsupportedNumAttributes : 
+   let unsupportedNumIndexes : 
+   let unsupportedNumRecordTypes : 
+   let fieldSpecifiedMultiple : 
+   let incompatibleFieldFormat : 
+   let invalidParsingModule : 
+   let databaseLocked : 
+   let datastoreIsOpen : 
+   let missingValue : 
+   let unsupportedQueryLimits : 
+   let unsupportedNumSelectionPreds : 
+   let unsupportedOperator : 
+   let invalidDBLocation : 
+   let invalidAccessRequest : 
+   let invalidIndexInfo : 
+   let invalidNewOwner : 
+   let invalidModifyMode : 
+   let missingRequiredExtension : 
+   let extendedKeyUsageNotCritical : 
+   let timestampMissing : 
+   let timestampInvalid : 
+   let timestampNotTrusted : 
+   let timestampServiceNotAvailable : 
+   let timestampBadAlg : 
+   let timestampBadRequest : 
+   let timestampBadDataFormat : 
+   let timestampTimeNotAvailable : 
+   let timestampUnacceptedPolicy : 
+   let timestampUnacceptedExtension : 
+   let timestampAddInfoNotAvailable : 
+   let timestampSystemFailure : 
+   let signingTimeMissing : 
+   let timestampRejection : 
+   let timestampWaiting : 
+   let timestampRevocationWarning : 
+   let timestampRevocationNotification : 
+   let unexpectedError : 
+== 0x100539384 struct {KeychainAccess.Options}
+   var itemClass : {KeychainAccess.ItemClass}
+   var service : SS
+   var accessGroup : SSSg
+   var server : {ind}Sg
+   var protocolType : {KeychainAccess.ProtocolType}Sg
+   var authenticationType : {KeychainAccess.AuthenticationType}
+   var accessibility : {KeychainAccess.Accessibility}
+   var authenticationPolicy : {KeychainAccess.AuthenticationPolicy}Sg
+   var synchronizable : Sb
+   var label : SSSg
+   var comment : SSSg
+   var authenticationPrompt : SSSg
+   var authenticationUI : {KeychainAccess.AuthenticationUI}Sg
+   var authenticationContext : yXlSg
+   var attributes : SDySSypG
+== 0x100539448 class {BundleFinder}
+== 0x100539458 struct {__C.os_unfair_lock_s}
+   var _os_unfair_lock_opaque : {ind}
+== 0x100539474 struct {__C.NSKeyValueChangeKey}
+   var _rawValue : So8NSStringC
+== 0x100539490 struct {AnySerializable}
+   var value : yp
+== 0x1005394ac struct {TopLevelCodableBridge}
+== 0x1005394bc struct {RawRepresentableCodableBridge}
+== 0x1005394cc struct {CodableNSSecureCodingBridge}
+== 0x1005394dc struct {URLBridge}
+== 0x1005394ec struct {RawRepresentableBridge}
+== 0x1005394fc struct {NSSecureCodingBridge}
+== 0x10053950c struct {OptionalBridge}
+== 0x10053951c struct {ArrayBridge}
+== 0x10053952c struct {DictionaryBridge}
+== 0x10053953c struct {SetBridge}
+== 0x10053954c struct {SetAlgebraBridge}
+== 0x10053955c struct {CollectionBridge}
+== 0x10053956c struct {UUIDBridge}
+== 0x10053957c struct {RangeBridge}
+== 0x10053958c struct {ColorBridge}
+== 0x10053959c struct {AnyBridge}
+== 0x1005395ac protocol $s8DefaultsAAO12SerializableP
+== 0x1005395bc protocol $s8DefaultsAAO6BridgeP
+== 0x1005395cc protocol $s8DefaultsAAO22PreferRawRepresentableP
+== 0x1005395dc class protocol $s8DefaultsAAO20PreferNSSecureCodingP : So8NSObjectC
+== 0x1005395ec protocol $s8DefaultsAAO22CollectionSerializableP
+== 0x1005395fc protocol $s8DefaultsAAO22SetAlgebraSerializableP
+== 0x10053960c protocol $s8DefaultsAAO13CodableBridgeP
+== 0x10053961c protocol $s8DefaultsAAO5RangeP
+== 0x10053962c protocol $s8Defaults0A13KeyValueStoreP
+== 0x10053963c protocol $s8Defaults0A12LockProtocolP
+== 0x10053964c enum {iCloud}
+== 0x10053965c class {Defaults.iCloudSynchronizer}
+   var cancellables : Shy{ind}G
+   let defaultsSyncKey : SS
+   let remoteStorage : {Defaults.DefaultsKeyValueStore}_p
+   let backgroundQueue : {Defaults.TaskQueue}
+   var _keys : {Defaults._DefaultsAtomic}yShy{Defaults.Defaults._AnyKey}GG
+   var _remoteSyncingKeys : {Defaults._DefaultsAtomic}yShy{Defaults.Defaults._AnyKey}GG
+   var $__lazy_storage_$_localKeysMonitor : {CompositeDefaultsObservation}Sg
+== 0x1005396c0 enum {iCloud.DataSource}
+   let local : 
+   let remote : 
+== 0x1005396e8 enum {Defaults.Defaults}
+== 0x1005396f8 class {Defaults.Defaults._AnyKey}
+   let name : SS
+   let suite : So14NSUserDefaultsC
+== 0x100539720 class {Defaults.Defaults.Key} : {Defaults.Defaults._AnyKey}
+   let defaultValueGetter : xyc
+== 0x10053973c class {DefaultsSubscription}
+   var subscriber : xSg
+   var observation : {DefaultsObservationWithLifeTime}Sg
+   let options : Shy{ObservationOption}G
+== 0x100539770 struct {DefaultsPublisher}
+   let suite : So14NSUserDefaultsC
+   let key : SS
+   let options : Shy{ObservationOption}G
+== 0x1005397a4 class protocol $s8Defaults01_A11ObservationP
+== 0x1005397b4 enum {ObservationOption}
+   let initial : 
+   let prior : 
+== 0x1005397dc struct {KeyChange}
+   let kind : {__C.NSKeyValueChange}
+   let indexes : {ind}Sg
+   let isPrior : Sb
+   let newValue : x
+   let oldValue : x
+== 0x100539828 class {SuiteKeyPair}
+   var suite : So14NSUserDefaultsCSgXw
+   let key : SS
+== 0x100539850 objc class {DefaultsObservation} : So8NSObjectC
+   var suite : So14NSUserDefaultsCSgXw
+   let name : SS
+   let callback : y{SuiteKeyPair}_{BaseChange}tc
+   var isObserving : Sb
+   let lock : {Defaults.Lock}
+== 0x10053989c class {DefaultsObservationWithLifeTime}
+   var observation : {DefaultsObservation}
+   var lifetimeAssociation : {Defaults.LifetimeAssociation}Sg
+== 0x1005398c4 class {CompositeDefaultsObservation}
+   var observations : Shy{DefaultsObservation}G
+   let callback : y{SuiteKeyPair}_{BaseChange}tc
+   var lifetimeAssociation : {Defaults.LifetimeAssociation}Sg
+== 0x1005398f8 struct {BaseChange}
+   let kind : {__C.NSKeyValueChange}
+   let indexes : {ind}Sg
+   let isPrior : Sb
+   let newValue : ypSg
+   let oldValue : ypSg
+== 0x100539944 class {Observable}
+   var cancellable : {ind}Sg
+   var task : ScTyyt{ind}GSg
+   let key : {Defaults.Defaults.Key}y_xG
+   let objectWillChange : {ind}
+== 0x100539984 struct {Defaults.Default}
+   let key : {Defaults.Defaults.Key}y_xG
+   var _observable : {ind}y{Observable}y_xGG
+== 0x1005399ac struct {Toggle}
+   var _onChange : {ViewStorage}yySbcSgG
+   let label : xyc
+   var _observable : {ind}y{Observable}y_SbGG
+== 0x1005399e0 class {ViewStorage.ValueBox}
+   var value : x
+== 0x1005399fc struct {ViewStorage}
+   var _valueBox : {ind}y{ViewStorage.ValueBox}yx_GG
+== 0x100539a18 class {Defaults.ObjectAssociation}
+== 0x100539a28 class {Defaults.LifetimeAssociation}
+   var wrappedObject : {ObjectLifetimeTracker}SgXw
+   var owner : yXlSgXw
+== 0x100539a50 class {ObjectLifetimeTracker}
+   var object : yXlSg
+   var deinitHandler : yyc
+== 0x100539a78 protocol $s8Defaults01_A16OptionalProtocolP
+== 0x100539a88 class {Defaults.Lock}
+== 0x100539a98 class {Defaults.Lock.UnfairLock} : {Defaults.Lock}
+   let _lock : Spy{__C.os_unfair_lock_s}G
+== 0x100539ab4 class {Defaults.Lock.AllocatedUnfairLock} : {Defaults.Lock}
+   let _lock : {ind}yytG
+== 0x100539ad0 class {Defaults.TaskQueue}
+   var queueContinuation : {ind}yyyYaYbc_GSg
+   let lock : {Defaults.Lock}
+== 0x100539af8 class {Defaults._DefaultsAtomic}
+   let lock : {Defaults.Lock}
+   var _value : x
+== 0x100539b20 struct {Shimmer.Shimmer}
+   let animation : {ind}
+   let gradient : {ind}
+   let min : {ind}
+   let max : {ind}
+   let mode : {Shimmer.Shimmer.Mode}
+   var __isInitialState : {ind}ySbG
+   var _layoutDirection : {ind}y{ind}G
+== 0x100539b84 enum {Shimmer.Shimmer.Mode}
+   let overlay : {ind}9blendMode_t
+   let mask : 
+   let background : 

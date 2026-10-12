@@ -1,0 +1,87 @@
+macos accessibility snapshot v1 (line format: @ref role "name" = "value" #id [states] {actions}; indent = hierarchy)
+target: pid:2607  epoch: 21  app: Alcove  pid: 2607  provenance: axuielement  nodes: 154/154  truncated: false
+@m8875 application "Alcove"
+ @m8876 window
+  @m8877 group
+   @m8878 button
+   @m8879 button
+ @m8880 window
+  @m8881 group
+ @m8882 window "Calendar" [focused=true]
+  @m8883 group
+   @m8884 statictext = "11"
+   @m8885 statictext = "Calendar"
+   @m8886 button "General" {press}
+   @m8887 statictext = "Notifications"
+   @m8888 button "Battery" [disabled=true] {press}
+   @m8889 button "Connectivity" {press}
+   @m8890 button "Focus" {press}
+   @m8891 button "Display" {press}
+   @m8892 button "Sound" {press}
+   @m8893 statictext = "Live Activities"
+   @m8894 button "Now Playing" {press}
+   @m8895 button "11, Calendar" {press}
+   @m8896 button "File Tray, Soon" [disabled=true] {press}
+   @m8897 button "Lock Screen" {press}
+   @m8898 statictext = "Alcove"
+   @m8899 button "License, Trial" [selected=true] {press}
+   @m8900 button "About" {press}
+   @m8901 scrollarea {scroll}
+    @m8902 image "Date And Time" #calendar.badge.clock
+    @m8903 statictext = "Calendar"
+    @m8904 checkbox [checked=true] {press}
+    @m8905 statictext = "Time before event"
+    @m8906 button "15" {press}
+    @m8907 statictext = "m"
+    @m8908 slider = "15" {increment,decrement}
+     @m8909 valueindicator = "15"
+    @m8910 statictext = "Play sound on calendar event"
+    @m8911 button "Play" #play.circle.fill
+    @m8912 checkbox [checked=true] {press}
+    @m8913 statictext = "Play hourly chime"
+    @m8914 button "Play" #play.circle.fill
+    @m8915 checkbox [checked=false] {press}
+    @m8916 statictext = "Use calendar color"
+    @m8917 checkbox [checked=false] {press}
+    @m8918 statictext = "Disable activity during events"
+    @m8919 checkbox [checked=false] {press}
+    @m8920 statictext = "Show weather on empty day"
+    @m8921 button "lock"
+    @m8922 checkbox [checked=false,disabled=true] {press}
+    @m8923 statictext = "Use event indicators"
+    @m8924 checkbox [checked=false] {press}
+    @m8925 statictext = "Always show month view"
+    @m8926 checkbox [checked=false] {press}
+    @m8927 statictext = "Notify when time to leave"
+    @m8928 button "unblock"
+    @m8929 checkbox [checked=false,disabled=true] {press}
+    @m8930 statictext = "Calendars"
+    @m8931 checkbox "Calendar" [checked=true,selected=true] {press}
+    @m8932 button = "Both" {press,show_menu}
+    @m8933 button "Both"
+    @m8934 checkbox "Birthdays" [checked=true,selected=true] {press}
+    @m8935 button = "Both" {press,show_menu}
+    @m8936 button "Both"
+    @m8937 statictext = "Extension"
+    @m8938 image "Reading List" #eyeglasses
+    @m8939 statictext = "Quick Peek"
+    @m8940 checkbox [checked=true] {press}
+    @m8941 statictext = "Before event starts"
+    @m8942 checkbox [checked=false] {press}
+    @m8943 statictext = "When event is starting"
+    @m8944 checkbox [checked=true] {press}
+    @m8945 statictext = "Peek duration"
+    @m8946 button "4" {press}
+    @m8947 statictext = "s"
+    @m8948 slider = "4" {increment,decrement}
+     @m8949 valueindicator = "4"
+    @m8950 statictext = "Use colored calendar indicator"
+    @m8951 checkbox [checked=true] {press}
+    @m8952 scrollbar = "0"
+  @m8953 toolbar {show_menu}
+  @m8954 button "close" {press}
+  @m8955 button "zoom" [disabled=true] {press,show_menu}
+   @m8956 group
+    @m8957 group
+  @m8958 button "minimize" [disabled=true] {press}
+note: menu bar folded: "Alcove", "Window", "Help", "Alcove" (57 menu item(s) not listed) — `query role=menuitem` or `query role=menuitem text=<command>` lists them with refs; a menu item is pressed directly, the menu need not be opened first

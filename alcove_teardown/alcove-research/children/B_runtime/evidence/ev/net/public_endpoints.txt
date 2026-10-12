@@ -1,0 +1,38 @@
+=== GET https://api.tryalcove.com/changelog
+HTTP/2 200 
+date: Sun, 11 Oct 2026 17:26:11 GMT
+content-type: application/json
+content-length: 46031
+access-control-allow-origin: *
+cache-control: public, s-maxage=300, max-age=60, stale-while-revalidate=86400
+cf-placement: local-PDX
+server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+--- body shape:
+updated: str 'June 2026'
+entries: list 
+  list[8]
+    version: str '1.7'
+    description: str 'Duo mode, a pill shape for notchless displays, a live waveform, notch
+    minors: list 
+      list[10]
+        version: str '1.7.9'
+        date: str '30 Jun 2026'
+        note: str 'Banner suppression will come back soon, needs a rework.'
+        features: list 
+          list[2]
+        fixes: list 
+          list[20]
+=== GET https://api.tryalcove.com/updates/latest
+HTTP/2 401 
+date: Sun, 11 Oct 2026 17:26:11 GMT
+content-type: application/json
+content-length: 61
+access-control-allow-origin: *
+cf-placement: local-PDX
+server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+--- body shape:
+message: str 'An active license is required for this channel.'

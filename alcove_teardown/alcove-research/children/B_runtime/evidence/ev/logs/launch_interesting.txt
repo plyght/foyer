@@ -1,0 +1,30 @@
+2026-10-11 10:03:07.248 Db Alcove[2607:5858] [com.apple.CFBundle:loading] dlfcn check load bundle CFBundle 0x… </System/Library/PrivateFrameworks/MediaRemote.framework> (not loaded), dlopen of /System/Library/Pri
+2026-10-11 10:03:07.248 Db Alcove[2607:5858] [com.apple.CFBundle:plugin] PlugIn CFBundle 0x… </System/Library/PrivateFrameworks/MediaRemote.framework> (loaded) is now unscheduled for unloading
+2026-10-11 10:03:07.323 Df Alcove[2607:5858] [com.apple.AppKit:Appearance] Current system appearance, (HLTB: 1), (SLS: 0)
+2026-10-11 10:03:07.333 Df Alcove[2607:5858] [com.apple.AppKit:Appearance] Current system appearance, (HLTB: 1), (SLS: 0)
+2026-10-11 10:03:07.339 Df Alcove[2607:5858] [com.apple.FrontBoard:Common] FBSWorkspace: default shell endpoint is disabled.
+2026-10-11 10:03:07.339 Df Alcove[2607:5858] [com.apple.FrontBoard:Common] FBSWorkspace: endpoint monitoring is disabled.
+2026-10-11 10:03:07.450 A  Alcove[2607:5858] (CoreLocation) CL: CLLocationManager
+2026-10-11 10:03:07.451 Df Alcove[2607:5858] [com.apple.locationd.Core:Client] {"msg":"CLLocationManager", "event":"activity", "_cmd":"initWithEffectiveBundleIdentifier:bundlePath:delegate:silo:", "self":"0x…", "
+2026-10-11 10:03:07.479 Df Alcove[2607:5858] [com.apple.weather:AuthService] About to determine whether to authenticate in process or via com.apple.weatherkit.authservice...
+2026-10-11 10:03:07.479 Df Alcove[2607:5858] [com.apple.weather:AuthService] This is a 3rd party process so authenticate via com.apple.weatherkit.authservice
+2026-10-11 10:03:07.488 Df Alcove[2607:5858] [com.apple.weather:WeatherDataService] Sending request with User Agent=WeatherKit_Alcove_macOS_Version 26.6.2 (Build 25G83)
+2026-10-11 10:03:07.491 A  Alcove[2607:5858] (CoreLocation) CL: CLLocationManager
+2026-10-11 10:03:07.491 Df Alcove[2607:5858] [com.apple.locationd.Core:Client] {"msg":"CLLocationManager", "event":"activity", "_cmd":"setDelegate:", "self":"0x…", "delegate":"0x…"}
+2026-10-11 10:03:07.637 A  Alcove[2607:5858] (CoreLocation) CL: CLLocationManager
+2026-10-11 10:03:07.637 Df Alcove[2607:5858] [com.apple.locationd.Core:Client] {"msg":"#CLLocationManager invoking #delegate", "self":"0x…", "delegate":"0x…", "selector":"locationManagerDidChangeAuthoriza
+2026-10-11 10:03:07.637 Df Alcove[2607:5858] [com.apple.locationd.Core:Client] {"msg":"CLLocationManager", "event":"activity", "_cmd":"onClientEventRegistration:", "self":"0x…", "clientKey":"8C5DCA50-85AE-48DF-A0
+2026-10-11 10:03:07.639 I  Alcove[2607:5858] [com.apple.SkyLight:processes] 0[outside of RPC]: SLSSetFrontProcessWithInfo(0x…-0x… window=0 options=0x…
+2026-10-11 10:03:07.673 Df Alcove[2607:5858] [com.apple.libxpc.SMAppService:all] Unregister (<private>) error: 1
+2026-10-11 10:03:07.774 Df Alcove[2607:5858] [com.apple.FrontBoard:Common] FBSWorkspace registering source: <private>
+2026-10-11 10:03:07.776 Df Alcove[2607:5858] [com.apple.FrontBoard:Common] FBSWorkspace connected to endpoint : <private>
+2026-10-11 10:03:07.777 Df Alcove[2607:5858] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x… <private>> attempting immediate handshake from activate
+2026-10-11 10:03:07.778 Df Alcove[2607:5858] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x… <private>> sent handshake
+2026-10-11 10:03:07.791 Df Alcove[2607:5888] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x… <private>> Reconnecting scene com.apple.controlcenter:39ADCA6D-1903-4605-8E0D-7053FBF48A97
+2026-10-11 10:03:07.794 Df Alcove[2607:5888] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x… <private>> Reconnecting scene com.apple.controlcenter:39ADCA6D-1903-4605-8E0D-7053FBF48A97-Aux[1]-NSStatusI
+2026-10-11 10:03:08.997 I  Alcove[2607:5858] [com.apple.TCC:access] SEND: 0/7 synchronous to com.apple.tccd.system: request: msgID=2607.4, function=TCCAccessRequest, service=kTCCServiceScreenCapture,
+2026-10-11 10:05:50.129 Db Alcove[2607:7c0f] [com.apple.network:quic] quic_ack_flush_for_pn_space flushing all PN for initial
+2026-10-11 10:05:50.129 Db Alcove[2607:7c0f] [com.apple.network:quic] quic_recovery_destroy_pn_space destroying PN space initial
+2026-10-11 10:05:50.129 Db Alcove[2607:7c0f] [com.apple.network:quic] quic_recovery_reset_pn_space reset loss recovery 0x… for packet number space initial
+2026-10-11 10:05:50.141 Db Alcove[2607:6f98] [com.apple.network:quic] quic_ack_flush_for_pn_space flushing all PN for handshake
+2026-10-11 10:05:50.141 Db Alcove[2607:6f98] [com.apple.network:quic] quic_recovery_destroy_pn_space destroying PN space handshake

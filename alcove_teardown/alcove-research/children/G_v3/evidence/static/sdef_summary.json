@@ -1,0 +1,497 @@
+{
+  "Standard Suite": {
+    "commands": [
+      {
+        "name": "close",
+        "code": "coreclos",
+        "description": "Close an object."
+      },
+      {
+        "name": "count",
+        "code": "corecnte",
+        "description": "Return the number of elements of a particular class within an object."
+      },
+      {
+        "name": "delete",
+        "code": "coredelo",
+        "description": "Delete an object."
+      },
+      {
+        "name": "duplicate",
+        "code": "coreclon",
+        "description": "Copy object(s) and put the copies at a new location."
+      },
+      {
+        "name": "exists",
+        "code": "coredoex",
+        "description": "Verify if an object exists."
+      },
+      {
+        "name": "get",
+        "code": "coregetd",
+        "description": "Get the data for an object."
+      },
+      {
+        "name": "make",
+        "code": "corecrel",
+        "description": "Make a new object."
+      },
+      {
+        "name": "move",
+        "code": "coremove",
+        "description": "Move object(s) to a new location."
+      },
+      {
+        "name": "open",
+        "code": "aevtodoc",
+        "description": "Open an object."
+      },
+      {
+        "name": "print",
+        "code": "aevtpdoc",
+        "description": "Print an object."
+      },
+      {
+        "name": "quit",
+        "code": "aevtquit",
+        "description": "Quit an application."
+      },
+      {
+        "name": "save",
+        "code": "coresave",
+        "description": "Save an object."
+      },
+      {
+        "name": "set",
+        "code": "coresetd",
+        "description": "Set an object's data."
+      }
+    ],
+    "classes": [
+      {
+        "name": "application",
+        "code": "capp",
+        "description": "An application's top level scripting object.",
+        "inherits": "item",
+        "plural": "applications",
+        "properties": [
+          {
+            "name": "frontmost",
+            "code": "pisf",
+            "type": "boolean",
+            "access": "r",
+            "description": "Is this the frontmost (active) application?"
+          },
+          {
+            "name": "name",
+            "code": "pnam",
+            "type": "text",
+            "access": "r",
+            "description": "The name of the application."
+          },
+          {
+            "name": "version",
+            "code": "vers",
+            "type": "text",
+            "access": "r",
+            "description": "The version of the application."
+          }
+        ]
+      },
+      {
+        "name": "color",
+        "code": "colr",
+        "description": "A color.",
+        "inherits": "item",
+        "plural": "colors",
+        "properties": []
+      },
+      {
+        "name": "document",
+        "code": "docu",
+        "description": "A document.",
+        "inherits": "item",
+        "plural": "documents",
+        "properties": [
+          {
+            "name": "modified",
+            "code": "imod",
+            "type": "boolean",
+            "access": "r",
+            "description": "Has the document been modified since the last save?"
+          },
+          {
+            "name": "name",
+            "code": "pnam",
+            "type": "text",
+            "description": "The document's name."
+          },
+          {
+            "name": "path",
+            "code": "ppth",
+            "type": "text",
+            "description": "The document's path."
+          }
+        ]
+      },
+      {
+        "name": "item",
+        "code": "cobj",
+        "description": "A scriptable object.",
+        "plural": "items",
+        "properties": [
+          {
+            "name": "class",
+            "code": "pcls",
+            "type": "type",
+            "access": "r",
+            "description": "The class of the object."
+          },
+          {
+            "name": "properties",
+            "code": "pALL",
+            "type": "record",
+            "description": "All of the object's properties."
+          }
+        ]
+      },
+      {
+        "name": "window",
+        "code": "cwin",
+        "description": "A window.",
+        "inherits": "item",
+        "plural": "windows",
+        "properties": [
+          {
+            "name": "bounds",
+            "code": "pbnd",
+            "type": "rectangle",
+            "description": "The bounding rectangle of the window."
+          },
+          {
+            "name": "closeable",
+            "code": "hclb",
+            "type": "boolean",
+            "access": "r",
+            "description": "Whether the window has a close box."
+          },
+          {
+            "name": "document",
+            "code": "docu",
+            "type": "document",
+            "access": "r",
+            "description": "The document whose contents are being displayed in the window."
+          },
+          {
+            "name": "floating",
+            "code": "isfl",
+            "type": "boolean",
+            "access": "r",
+            "description": "Whether the window floats."
+          },
+          {
+            "name": "id",
+            "code": "ID  ",
+            "type": "integer",
+            "access": "r",
+            "description": "The unique identifier of the window."
+          },
+          {
+            "name": "index",
+            "code": "pidx",
+            "type": "integer",
+            "description": "The index of the window, ordered front to back."
+          },
+          {
+            "name": "miniaturizable",
+            "code": "ismn",
+            "type": "boolean",
+            "access": "r",
+            "description": "Whether the window can be miniaturized."
+          },
+          {
+            "name": "miniaturized",
+            "code": "pmnd",
+            "type": "boolean",
+            "description": "Whether the window is currently miniaturized."
+          },
+          {
+            "name": "modal",
+            "code": "pmod",
+            "type": "boolean",
+            "access": "r",
+            "description": "Whether the window is the application's current modal window."
+          },
+          {
+            "name": "name",
+            "code": "pnam",
+            "type": "text",
+            "description": "The full title of the window."
+          },
+          {
+            "name": "resizable",
+            "code": "prsz",
+            "type": "boolean",
+            "access": "r",
+            "description": "Whether the window can be resized."
+          },
+          {
+            "name": "titled",
+            "code": "ptit",
+            "type": "boolean",
+            "access": "r",
+            "description": "Whether the window has a title bar."
+          },
+          {
+            "name": "visible",
+            "code": "pvis",
+            "type": "boolean",
+            "description": "Whether the window is currently visible."
+          },
+          {
+            "name": "zoomable",
+            "code": "iszm",
+            "type": "boolean",
+            "access": "r",
+            "description": "Whether the window can be zoomed."
+          },
+          {
+            "name": "zoomed",
+            "code": "pzum",
+            "type": "boolean",
+            "description": "Whether the window is currently zoomed."
+          }
+        ]
+      }
+    ]
+  },
+  "Text Suite": {
+    "commands": [],
+    "classes": [
+      {
+        "name": "attachment",
+        "code": "atts",
+        "description": "Represents an inline text attachment.  This class is used mainly for make commands.",
+        "inherits": "text.ctxt",
+        "properties": [
+          {
+            "name": "file name",
+            "code": "atfn",
+            "type": "text",
+            "description": "The path to the file for the attachment"
+          }
+        ]
+      },
+      {
+        "name": "attribute run",
+        "code": "catr",
+        "description": "This subdivides the text into chunks that all have the same attributes.",
+        "inherits": "item",
+        "plural": "attribute runs",
+        "properties": [
+          {
+            "name": "color",
+            "code": "colr",
+            "type": "color",
+            "description": "The color of the first character."
+          },
+          {
+            "name": "font",
+            "code": "font",
+            "type": "text",
+            "description": "The name of the font of the first character."
+          },
+          {
+            "name": "size",
+            "code": "ptsz",
+            "type": "integer",
+            "description": "The size in points of the first character."
+          }
+        ]
+      },
+      {
+        "name": "character",
+        "code": "cha ",
+        "description": "This subdivides the text into characters.",
+        "inherits": "item",
+        "plural": "characters",
+        "properties": [
+          {
+            "name": "color",
+            "code": "colr",
+            "type": "color",
+            "description": "The color of the first character."
+          },
+          {
+            "name": "font",
+            "code": "font",
+            "type": "text",
+            "description": "The name of the font of the first character."
+          },
+          {
+            "name": "size",
+            "code": "ptsz",
+            "type": "integer",
+            "description": "The size in points of the first character."
+          }
+        ]
+      },
+      {
+        "name": "paragraph",
+        "code": "cpar",
+        "description": "This subdivides the text into paragraphs.",
+        "inherits": "item",
+        "plural": "paragraphs",
+        "properties": [
+          {
+            "name": "color",
+            "code": "colr",
+            "type": "color",
+            "description": "The color of the first character."
+          },
+          {
+            "name": "font",
+            "code": "font",
+            "type": "text",
+            "description": "The name of the font of the first character."
+          },
+          {
+            "name": "size",
+            "code": "ptsz",
+            "type": "integer",
+            "description": "The size in points of the first character."
+          }
+        ]
+      },
+      {
+        "name": "text",
+        "code": "ctxt",
+        "description": "Rich (styled) text",
+        "id": "text.ctxt",
+        "inherits": "item",
+        "properties": [
+          {
+            "name": "color",
+            "code": "colr",
+            "type": "color",
+            "description": "The color of the first character."
+          },
+          {
+            "name": "font",
+            "code": "font",
+            "type": "text",
+            "description": "The name of the font of the first character."
+          },
+          {
+            "name": "size",
+            "code": "ptsz",
+            "type": "integer",
+            "description": "The size in points of the first character."
+          }
+        ]
+      },
+      {
+        "name": "word",
+        "code": "cwor",
+        "description": "This subdivides the text into words.",
+        "inherits": "item",
+        "plural": "words",
+        "properties": [
+          {
+            "name": "color",
+            "code": "colr",
+            "type": "color",
+            "description": "The color of the first character."
+          },
+          {
+            "name": "font",
+            "code": "font",
+            "type": "text",
+            "description": "The name of the font of the first character."
+          },
+          {
+            "name": "size",
+            "code": "ptsz",
+            "type": "integer",
+            "description": "The size in points of the first character."
+          }
+        ]
+      }
+    ]
+  },
+  "Type Definitions": {
+    "commands": [],
+    "classes": [
+      {
+        "name": "print settings",
+        "code": "pset",
+        "properties": [
+          {
+            "name": "copies",
+            "code": "lwcp",
+            "type": "integer",
+            "description": "the number of copies of a document to be printed"
+          },
+          {
+            "name": "collating",
+            "code": "lwcl",
+            "type": "boolean",
+            "description": "Should printed copies be collated?"
+          },
+          {
+            "name": "starting page",
+            "code": "lwfp",
+            "type": "integer",
+            "description": "the first page of the document to be printed"
+          },
+          {
+            "name": "ending page",
+            "code": "lwlp",
+            "type": "integer",
+            "description": "the last page of the document to be printed"
+          },
+          {
+            "name": "pages across",
+            "code": "lwla",
+            "type": "integer",
+            "description": "number of logical pages laid across a physical page"
+          },
+          {
+            "name": "pages down",
+            "code": "lwld",
+            "type": "integer",
+            "description": "number of logical pages laid out down a physical page"
+          },
+          {
+            "name": "requested print time",
+            "code": "lwqt",
+            "type": "date",
+            "description": "the time at which the desktop printer should print the document"
+          },
+          {
+            "name": "error handling",
+            "code": "lweh",
+            "type": "enum",
+            "description": "how errors are handled"
+          },
+          {
+            "name": "fax number",
+            "code": "faxn",
+            "type": "text",
+            "description": "for fax number"
+          },
+          {
+            "name": "target printer",
+            "code": "trpr",
+            "type": "text",
+            "description": "for target printer"
+          }
+        ]
+      }
+    ]
+  },
+  "Type Names": {
+    "commands": [],
+    "classes": []
+  }
+}

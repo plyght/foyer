@@ -1,0 +1,1 @@
+fcn.10044f000 0x10044f004 [DATA:r--] ldr x1, reloc.fixup.deviceDescription

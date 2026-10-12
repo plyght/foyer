@@ -1,0 +1,5 @@
+fcn.100451de0 0x100451de4 [DATA:r--] ldr x1, reloc.fixup.setLevel:
+fcn.100452ca0 0x100452ca4 [DATA:r--] ldr x1, reloc.fixup.styleMask
+fcn.1004513e0 0x1004513e4 [DATA:r--] ldr x1, reloc.fixup.setAlphaValue:
+fcn.10044e220 0x10044e224 [DATA:r--] ldr x1, reloc.fixup.animationBehavior
+fcn.10044f880 0x10044f884 [DATA:r--] ldr x1, reloc.fixup.initWithContentRect:styleMask:b

@@ -1,0 +1,87 @@
+AXGroup | t=missing value | v=missing value | d=group | 490,420 620x687
+AXImage | t=missing value | v=missing value | d=image | 738,440 10x11
+AXStaticText | t=missing value | v=Now Playing | d=text | 761,435 88x19
+AXButton | t=missing value | v=missing value | d=button | 502,473 200x38
+AXStaticText | t=missing value | v=Notifications | d=text | 510,530 80x16
+AXButton | t=missing value | v=missing value | d=button | 502,553 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,591 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,629 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,667 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,705 200x38
+AXStaticText | t=missing value | v=Live Activities | d=text | 510,762 86x16
+AXButton | t=missing value | v=missing value | d=button | 502,784 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,822 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,860 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,898 200x38
+AXStaticText | t=missing value | v=Alcove | d=text | 510,956 42x16
+AXButton | t=missing value | v=missing value | d=button | 502,978 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,1016 200x38
+AXScrollArea | t=missing value | v=missing value | d=scroll area | 715,470 395x637
+AXImage | t=missing value | v=missing value | d=image | 746,488 10x12
+AXStaticText | t=missing value | v=Now Playing | d=text | 764,485 75x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,484 44x20
+AXStaticText | t=missing value | v=Idle duration | d=text | 742,533 76x16
+AXButton | t=missing value | v=missing value | d=button | 1054,533 9x16
+AXStaticText | t=missing value | v=s | d=text | 1065,533 9x16
+AXSlider | t=missing value | v=3.0 | d=slider | 743,562 340x16
+AXValueIndicator | t=missing value | v=3.0 | d=value indicator | 839,562 20x16
+AXButton | t=missing value | v=missing value | d=button | 743,605 105x38
+AXButton | t=missing value | v=missing value | d=button | 860,605 105x38
+AXButton | t=missing value | v=missing value | d=button | 977,605 105x38
+AXStaticText | t=missing value | v=None | d=text | 779,651 33x16
+AXStaticText | t=missing value | v=Explicit | d=text | 889,651 47x16
+AXStaticText | t=missing value | v=Format | d=text | 1008,651 43x16
+AXButton | t=missing value | v=missing value | d=button | 743,690 105x38
+AXButton | t=missing value | v=missing value | d=button | 860,690 105x38
+AXButton | t=missing value | v=missing value | d=button | 977,690 105x38
+AXStaticText | t=missing value | v=Monochrome | d=text | 754,735 83x16
+AXStaticText | t=missing value | v=Colored | d=text | 888,735 48x16
+AXStaticText | t=missing value | v=Gradient | d=text | 1003,735 53x16
+AXStaticText | t=missing value | v=Use live waveform | d=text | 742,774 111x16
+AXButton | t=missing value | v=missing value | d=button | 1015,773 18x19
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,773 44x20
+AXStaticText | t=missing value | v=Disable compact waveform | d=text | 742,816 164x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,815 44x20
+AXStaticText | t=missing value | v=Disable artwork flip | d=text | 742,858 117x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,857 44x20
+AXStaticText | t=missing value | v=Hide while source app is active | d=text | 742,900 188x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,899 44x20
+AXStaticText | t=missing value | v=Hide media title extras | d=text | 742,942 136x16
+AXCheckBox | t=missing value | v=0 | d=toggle button | 1039,941 44x20
+AXButton | t=missing value | v=missing value | d=button | 743,984 76x38
+AXButton | t=missing value | v=missing value | d=button | 831,984 76x38
+AXButton | t=missing value | v=missing value | d=button | 919,984 75x38
+AXButton | t=missing value | v=missing value | d=button | 1006,984 76x38
+AXStaticText | t=missing value | v=Favorite | d=text | 756,1030 48x16
+AXStaticText | t=missing value | v=Shuffle | d=text | 845,1030 46x16
+AXStaticText | t=missing value | v=Repeat | d=text | 934,1030 43x16
+AXStaticText | t=missing value | v=Copy | d=text | 1028,1030 32x16
+AXStaticText | t=missing value | v=Source | d=text | 739,1071 44x16
+AXImage | t=missing value | v=missing value | d=image | 745,1109 15x15
+AXStaticText | t=missing value | v=Automatic | d=text | 769,1108 62x16
+AXStaticText | t=missing value | v= ∙ System | d=text | 831,1108 61x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,1106 44x20
+AXStaticText | t=missing value | v=Extension | d=text | 739,1152 61x16
+AXImage | t=missing value | v=missing value | d=image | 744,1193 20x8
+AXStaticText | t=missing value | v=Quick Peek | d=text | 771,1189 69x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,1187 44x20
+AXStaticText | t=missing value | v=When media changes | d=text | 742,1231 131x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,1229 44x20
+AXStaticText | t=missing value | v=Peek duration | d=text | 742,1278 84x16
+AXButton | t=missing value | v=missing value | d=button | 1054,1278 9x16
+AXStaticText | t=missing value | v=s | d=text | 1065,533 9x16
+AXSlider | t=missing value | v=2.0 | d=slider | 743,1307 340x16
+AXValueIndicator | t=missing value | v=2.0 | d=value indicator | 807,1307 20x16
+AXScrollBar | t=missing value | v=0.0 | d=scroll bar | 1092,469 19x621
+AXValueIndicator | t=missing value | v=0.0 | d=value indicator | 1101,473 6x451
+AXButton | t=missing value | v=missing value | d=increment arrow button | 1093,470 0x0
+AXButton | t=missing value | v=missing value | d=decrement arrow button | 1093,470 0x0
+AXButton | t=missing value | v=missing value | d=increment page button | 1101,924 6x162
+AXButton | t=missing value | v=missing value | d=decrement page button | 1101,473 6x0
+AXToolbar | t=missing value | v=missing value | d=toolbar | 490,420 620x66
+AXButton | t=missing value | v=missing value | d=close button | 508,438 16x16
+AXButton | t=missing value | v=missing value | d=zoom button | 554,438 16x16
+AXGroup | t=missing value | v=missing value | d=group | 555,439 14x14
+AXGroup | t=missing value | v=missing value | d=group | 555,439 14x14
+AXButton | t=missing value | v=missing value | d=minimize button | 531,438 16x16
+

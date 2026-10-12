@@ -1,0 +1,5 @@
+        :   ; ICOD XREF from sym.func.1003a5744 @ 0x1003a58a8(r)
+/ 8: sym.func.1003a7174 ();
+| `- args(x20)
+|       :   0x1003a7174      e00314aa       mov x0, x20                ; self
+\       `=< 0x1003a7178      3afaff17       b sym.func.1003a5a60

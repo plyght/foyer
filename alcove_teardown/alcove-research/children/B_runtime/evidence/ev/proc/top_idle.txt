@@ -1,0 +1,9 @@
+PID   COMMAND      %CPU MEM   #TH #PORTS IDLEW CSW   
+3213  AlcoveHelper 0.0  3057K 4   46     0     339   
+2607  Alcove       0.0  71M   8   461    0     467367
+PID   COMMAND      %CPU MEM   #TH #PORTS IDLEW CSW    
+2607  Alcove       0.0  71M   8   461    0     467380+
+3213  AlcoveHelper 0.0  3057K 4   46     0     339    
+PID   COMMAND      %CPU MEM    #TH #PORTS IDLEW CSW    
+2607  Alcove       0.0  71M    8   461    0     467392+
+3213  AlcoveHelper 0.0  2961K- 2   44-    0     341+   

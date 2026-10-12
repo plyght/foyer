@@ -1,0 +1,9 @@
+sym.func.10012de20 0x10012de7c [CALL:--x] bl sym.imp.IORegistryEntryCreateCFProperty
+sym.func.100151f84 0x100151fdc [CALL:--x] bl sym.imp.IORegistryEntryCreateCFProperty
+sym.func.100151f84 0x10015206c [CALL:--x] bl sym.imp.IORegistryEntryCreateCFProperty
+sym.func.100151f84 0x1001520f0 [CALL:--x] bl sym.imp.IORegistryEntryCreateCFProperty
+sym.func.100151f84 0x100152174 [CALL:--x] bl sym.imp.IORegistryEntryCreateCFProperty
+sym.func.1001521f0 0x100152238 [CALL:--x] bl sym.imp.IORegistryEntryCreateCFProperty
+sym.func.1001523b4 0x1001523f8 [CALL:--x] bl sym.imp.IORegistryEntryCreateCFProperty
+sym.func.10016b9d4 0x10016ba54 [CALL:--x] bl sym.imp.IORegistryEntryCreateCFProperty
+sym.func.10016badc 0x10016bbc4 [CALL:--x] bl sym.imp.IORegistryEntryCreateCFProperty

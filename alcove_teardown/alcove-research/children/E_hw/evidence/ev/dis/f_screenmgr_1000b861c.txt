@@ -1,0 +1,70 @@
+            ; CALL XREF from sym.func.1000bb4e0 @ 0x1000bb5ec(x)
+            ; CALL XREF from sym.func.1000bb904 @ 0x1000bb918(x)
+/ 248: sym.func.1000b861c ();
+| `- args(x20) vars(22:sp[0x8..0xb0])
+|           0x1000b861c      ffc302d1       sub sp, sp, 0xb0
+|           0x1000b8620      ef3b056d       stp d15, d14, [var_50h]
+|           0x1000b8624      ed33066d       stp d13, d12, [var_60h]
+|           0x1000b8628      eb2b076d       stp d11, d10, [var_70h]
+|           0x1000b862c      e923086d       stp d9, d8, [var_80h]
+|           0x1000b8630      f44f09a9       stp x20, x19, [var_90h]
+|           0x1000b8634      fd7b0aa9       stp x29, x30, [var_a0h]
+|           0x1000b8638      fd830291       add x29, sp, 0xa0
+|           0x1000b863c      000080d2       mov x0, 0                  ; int64_t arg1
+|           0x1000b8640      70ffff97       bl sym.func.1000b8400
+|           0x1000b8644      082880b9       ldrsw x8, [x0, 0x28]
+|           0x1000b8648      886a6838       ldrb w8, [x20, x8]         ; self
+|           0x1000b864c      1f050071       cmp w8, 1
+|       ,=< 0x1000b8650      c1030054       b.ne 0x1000b86c8
+|       |   0x1000b8654      940240f9       ldr x20, [x20]             ; self
+|       |   0x1000b8658      798c0594       bl sym.func.10021b83c
+|      ,==< 0x1000b865c      800300b4       cbz x0, 0x1000b86cc
+|      ||   0x1000b8660      f40300aa       mov x20, x0
+|      ||   0x1000b8664      8f620e94       bl fcn.1004510a0
+|      ||   0x1000b8668      0820601e       fcmp d0, 0.0
+|     ,===< 0x1000b866c      ad020054       b.le 0x1000b86c0
+|     |||   0x1000b8670      e8030091       mov x8, sp
+|     |||   0x1000b8674      b84f0e94       bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopLeftArea.CGRect...VSgvg
+|     |||   0x1000b8678      e8834039       ldrb w8, [var_20h]
+|     |||   0x1000b867c      1f050071       cmp w8, 1
+|    ,====< 0x1000b8680      00020054       b.eq 0x1000b86c0
+|    ||||   0x1000b8684      e827406d       ldp d8, d9, [sp]
+|    ||||   0x1000b8688      ea2f416d       ldp d10, d11, [var_10h]
+|    ||||   0x1000b868c      e8a30091       add x8, sp, 0x28
+|    ||||   0x1000b8690      b44f0e94       bl sym.imp.NSScreen.AppKit.allocator.auxiliaryTopRightArea.CGRect...VSgvg
+|    ||||   0x1000b8694      e8234139       ldrb w8, [var_48h]
+|    ||||   0x1000b8698      1f050071       cmp w8, 1
+|   ,=====< 0x1000b869c      20010054       b.eq 0x1000b86c0
+|   |||||   0x1000b86a0      ecb7426d       ldp d12, d13, [var_28h]
+|   |||||   0x1000b86a4      eebf436d       ldp d14, d15, [var_38h]
+|   |||||   0x1000b86a8      001da84e       mov v0.16b, v8.16b
+|   |||||   0x1000b86ac      211da94e       mov v1.16b, v9.16b
+|   |||||   0x1000b86b0      421daa4e       mov v2.16b, v10.16b
+|   |||||   0x1000b86b4      631dab4e       mov v3.16b, v11.16b
+|   |||||   0x1000b86b8      ce520e94       bl sym.imp.CGRectIsEmpty
+|  ,======< 0x1000b86bc      80010036       tbz w0, 0, 0x1000b86ec
+|  ||||||   ; CODE XREFS from sym.func.1000b861c @ 0x1000b866c(x), 0x1000b8680(x), 0x1000b869c(x)
+|  |```---> 0x1000b86c0      e00314aa       mov x0, x20                ; void *instance
+|  |   ||   0x1000b86c4      f7530e94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|  |   ||   ; CODE XREF from sym.func.1000b861c @ 0x1000b8650(x)
+|  |   |`-> 0x1000b86c8      00008052       mov w0, 0
+|  |   |    ; CODE XREFS from sym.func.1000b861c @ 0x1000b865c(x), 0x1000b8710(x)
+|  |   `.-> 0x1000b86cc      fd7b4aa9       ldp x29, x30, [var_a0h]
+|  |    :   0x1000b86d0      f44f49a9       ldp x20, x19, [var_90h]
+|  |    :   0x1000b86d4      e923486d       ldp d9, d8, [var_80h]
+|  |    :   0x1000b86d8      eb2b476d       ldp d11, d10, [var_70h]
+|  |    :   0x1000b86dc      ed33466d       ldp d13, d12, [var_60h]
+|  |    :   0x1000b86e0      ef3b456d       ldp d15, d14, [var_50h]
+|  |    :   0x1000b86e4      ffc30291       add sp, sp, 0xb0           ; 0x178000
+|  |    :   0x1000b86e8      c0035fd6       ret
+|  |    :   ; CODE XREF from sym.func.1000b861c @ 0x1000b86bc(x)
+|  `------> 0x1000b86ec      801dac4e       mov v0.16b, v12.16b
+|       :   0x1000b86f0      a11dad4e       mov v1.16b, v13.16b
+|       :   0x1000b86f4      c21dae4e       mov v2.16b, v14.16b
+|       :   0x1000b86f8      e31daf4e       mov v3.16b, v15.16b
+|       :   0x1000b86fc      bd520e94       bl sym.imp.CGRectIsEmpty
+|       :   0x1000b8700      f30300aa       mov x19, x0
+|       :   0x1000b8704      e00314aa       mov x0, x20                ; void *instance
+|       :   0x1000b8708      e6530e94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|       :   0x1000b870c      60020052       eor w0, w19, 1
+\       `=< 0x1000b8710      efffff17       b 0x1000b86cc

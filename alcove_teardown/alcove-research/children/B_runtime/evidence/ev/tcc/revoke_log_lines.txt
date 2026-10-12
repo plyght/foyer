@@ -1,0 +1,2 @@
+2026-10-11 10:31:03.943 Df tccd[185:ebd8] [com.apple.TCC:events] Publishing <TCCDEvent: type=Delete, service=kTCCServiceAccessibility, identifier_type=Bundle ID, identifier=com.henrikruscon.Alcove> to 0 subscribers: {
+2026-10-11 10:31:05.515 I  tccd[185:e51e] [com.apple.TCC:access] Handling access request to kTCCServicePostEvent, from Sub:{com.henrikruscon.Alcove}Resp:{TCCDProcess: identifier=com.henrikruscon.Alcove, pid=2607, auid=501, euid=50

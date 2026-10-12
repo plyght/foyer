@@ -1,0 +1,98 @@
+            ; CALL XREF from sym.func.100311c58 @ 0x1003121e4(x)
+            ; CALL XREF from sym.func.100312328 @ 0x100312904(x)
+            ; CALL XREF from sym.func.100317100 @ 0x100317630(x)
+/ 324: sym.func.10031b7cc (uint64_t arg1, int64_t arg2);
+| `- args(x21, x0, x1) vars(6:sp[0x8..0x30])
+|           0x10031b7cc      f657bda9       stp x22, x21, [var_30h]!
+|           0x10031b7d0      f44f01a9       stp x20, x19, [var_10h]
+|           0x10031b7d4      fd7b02a9       stp x29, x30, [var_20h]
+|           0x10031b7d8      fd830091       add x29, sp, 0x20
+|           0x10031b7dc      f30301aa       mov x19, x1                ; arg2
+|           0x10031b7e0      f40300aa       mov x20, x0                ; arg1
+|           0x10031b7e4      350280d2       mov x21, 0x11              ; error
+|           0x10031b7e8      1500faf2       movk x21, 0xd000, lsl 48
+|           0x10031b7ec      481100f0       adrp x8, 0x100546000
+|           0x10031b7f0      08411d91       add x8, x8, 0x750          ; 0x100546750 ; "AudioAccessory1,1"
+|           0x10031b7f4      088100d1       sub x8, x8, 0x20
+|           0x10031b7f8      010141b2       orr x1, x8, 0x8000000000000000
+|           0x10031b7fc      1f0015eb       cmp x0, x21                ; arg1
+|       ,=< 0x10031b800      61000054       b.ne 0x10031b80c
+|       |   0x10031b804      3f0013eb       cmp x1, x19
+|      ,==< 0x10031b808      00010054       b.eq 0x10031b828
+|      ||   ; CODE XREF from sym.func.10031b7cc @ 0x10031b800(x)
+|      |`-> 0x10031b80c      200280d2       mov x0, 0x11
+|      |    0x10031b810      0000faf2       movk x0, 0xd000, lsl 48
+|      |    0x10031b814      e20314aa       mov x2, x20
+|      |    0x10031b818      e30313aa       mov x3, x19
+|      |    0x10031b81c      04008052       mov w4, 0
+|      |    0x10031b820      f1c40494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+|      |,=< 0x10031b824      60000036       tbz w0, 0, 0x10031b830
+|      ||   ; CODE XREF from sym.func.10031b7cc @ 0x10031b808(x)
+|      `--> 0x10031b828      c8008052       mov w8, 6
+|      ,==< 0x10031b82c      20000014       b 0x10031b8ac              ; sym.func.10031ae88+0xa24
+|      ||   ; CODE XREF from sym.func.10031b7cc @ 0x10031b824(x)
+|      |`-> 0x10031b830      481100f0       adrp x8, 0x100546000
+|      |    0x10031b834      08c11d91       add x8, x8, 0x770          ; 0x100546770 ; "AudioAccessory1,2"
+|      |    0x10031b838      088100d1       sub x8, x8, 0x20
+|      |    0x10031b83c      010141b2       orr x1, x8, 0x8000000000000000
+|      |    0x10031b840      9f0215eb       cmp x20, x21
+|      |,=< 0x10031b844      61000054       b.ne 0x10031b850
+|      ||   0x10031b848      3f0013eb       cmp x1, x19
+|     ,===< 0x10031b84c      e0020054       b.eq 0x10031b8a8
+|     |||   ; CODE XREF from sym.func.10031b7cc @ 0x10031b844(x)
+|     ||`-> 0x10031b850      200280d2       mov x0, 0x11
+|     ||    0x10031b854      0000faf2       movk x0, 0xd000, lsl 48
+|     ||    0x10031b858      e20314aa       mov x2, x20
+|     ||    0x10031b85c      e30313aa       mov x3, x19
+|     ||    0x10031b860      04008052       mov w4, 0
+|     ||    0x10031b864      e0c40494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+|     ||,=< 0x10031b868      00020037       tbnz w0, 0, 0x10031b8a8
+|     |||   0x10031b86c      481100f0       adrp x8, 0x100546000
+|     |||   0x10031b870      08411e91       add x8, x8, 0x790          ; 0x100546790 ; "AudioAccessory5,1"
+|     |||   0x10031b874      088100d1       sub x8, x8, 0x20
+|     |||   0x10031b878      010141b2       orr x1, x8, 0x8000000000000000
+|     |||   0x10031b87c      9f0215eb       cmp x20, x21
+|    ,====< 0x10031b880      61000054       b.ne 0x10031b88c
+|    ||||   0x10031b884      3f0013eb       cmp x1, x19
+|   ,=====< 0x10031b888      00010054       b.eq 0x10031b8a8
+|   |||||   ; CODE XREF from sym.func.10031b7cc @ 0x10031b880(x)
+|   |`----> 0x10031b88c      200280d2       mov x0, 0x11
+|   | |||   0x10031b890      0000faf2       movk x0, 0xd000, lsl 48
+|   | |||   0x10031b894      e20314aa       mov x2, x20
+|   | |||   0x10031b898      e30313aa       mov x3, x19
+|   | |||   0x10031b89c      04008052       mov w4, 0
+|   | |||   0x10031b8a0      d1c40494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+|   |,====< 0x10031b8a4      00010036       tbz w0, 0, 0x10031b8c4
+|   |||||   ; CODE XREFS from sym.func.10031b7cc @ 0x10031b84c(x), 0x10031b868(x), 0x10031b888(x)
+|   `-`-`-> 0x10031b8a8      e8008052       mov w8, 7
+|    | |    ; CODE XREF from sym.func.10031b7cc @ 0x10031b82c(x)
+|    | |    ; CODE XREFS from sym.func.10031ae88 @ 0x10031b940(x), 0x10031b980(x)
+..
+|    |      ; CODE XREF from sym.func.10031b7cc @ 0x10031b8a4(x)
+|    `----> 0x10031b8c4      481100f0       adrp x8, 0x100546000
+|           0x10031b8c8      08c11e91       add x8, x8, 0x7b0          ; 0x1005467b0 ; "AudioAccessory1,3"
+|           0x10031b8cc      088100d1       sub x8, x8, 0x20
+|           0x10031b8d0      010141b2       orr x1, x8, 0x8000000000000000
+|           0x10031b8d4      9f0215eb       cmp x20, x21
+|       ,=< 0x10031b8d8      61000054       b.ne 0x10031b8e4
+|       |   0x10031b8dc      3f0013eb       cmp x1, x19
+|      ,==< 0x10031b8e0      e0020054       b.eq 0x10031b93c           ; sym.func.10031ae88+0xab4
+|      ||   ; CODE XREF from sym.func.10031b7cc @ 0x10031b8d8(x)
+|      |`-> 0x10031b8e4      200280d2       mov x0, 0x11
+|      |    0x10031b8e8      0000faf2       movk x0, 0xd000, lsl 48
+|      |    0x10031b8ec      e20314aa       mov x2, x20
+|      |    0x10031b8f0      e30313aa       mov x3, x19
+|      |    0x10031b8f4      04008052       mov w4, 0
+|      |    0x10031b8f8      bbc40494       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+|      |,=< 0x10031b8fc      00020037       tbnz w0, 0, 0x10031b93c    ; sym.func.10031ae88+0xab4
+|      ||   0x10031b900      481100f0       adrp x8, 0x100546000
+|      ||   0x10031b904      08411f91       add x8, x8, 0x7d0          ; 0x1005467d0 ; "AudioAccessory6,1"
+|      ||   0x10031b908      088100d1       sub x8, x8, 0x20
+|      ||   0x10031b90c      010141b2       orr x1, x8, 0x8000000000000000
+|      ||   0x10031b910      9f0215eb       cmp x20, x21
+|     ,===< 0x10031b914      61000054       b.ne 0x10031b920
+|     |||   0x10031b918      3f0013eb       cmp x1, x19
+|    ,====< 0x10031b91c      00010054       b.eq 0x10031b93c           ; sym.func.10031ae88+0xab4
+|    ||||   ; CODE XREF from sym.func.10031b7cc @ 0x10031b914(x)
+|    |`---> 0x10031b920      200280d2       mov x0, 0x11
+\    | ||   0x10031b924      0000faf2       movk x0, 0xd000, lsl 48

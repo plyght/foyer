@@ -1,0 +1,27 @@
+
+ #4:
+                 UUID: 13F0F524-5075-4599-A67E-9F723E30266F
+                 Name: Alcove
+       Developer Name: Henrik Ruscon
+      Team Identifier: 287NUTSP69
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, notified] (0xa)
+           Identifier: 2.com.henrikruscon.Alcove
+                  URL: file:///Applications/Alcove.app/
+           Generation: 4
+    Bundle Identifier: com.henrikruscon.Alcove
+
+ #5:
+                 UUID: B4A53D15-6223-44F2-BD1A-867A1379F7E3
+                 Name: Icon Composer
+       Developer Name: (null)
+      Team Identifier: 59GAB85EFG
+                 Type: app (0x2)
+                Flags: [ sandboxed ] (0x40)
+          Disposition: [disabled, allowed, notified] (0xa)
+           Identifier: 2.com.apple.IconComposer
+                  URL: file:///Applications/Xcode.app/Contents/Applications/Icon%20Composer.app/
+           Generation: 1
+    Bundle Identifier: com.apple.IconComposer
+

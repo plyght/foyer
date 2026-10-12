@@ -1,0 +1,35 @@
+AXGroup | t=missing value | v=missing value | d=group | 490,420 620x687
+AXImage | t=missing value | v=missing value | d=image | 736,439 13x13
+AXStaticText | t=missing value | v=About | d=text | 761,435 44x19
+AXButton | t=missing value | v=missing value | d=button | 502,473 200x38
+AXStaticText | t=missing value | v=Notifications | d=text | 510,530 80x16
+AXButton | t=missing value | v=missing value | d=button | 502,553 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,591 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,629 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,667 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,705 200x38
+AXStaticText | t=missing value | v=Live Activities | d=text | 510,762 86x16
+AXButton | t=missing value | v=missing value | d=button | 502,784 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,822 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,860 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,898 200x38
+AXStaticText | t=missing value | v=Alcove | d=text | 510,956 42x16
+AXButton | t=missing value | v=missing value | d=button | 502,978 200x38
+AXButton | t=missing value | v=missing value | d=button | 502,1016 200x38
+AXScrollArea | t=missing value | v=missing value | d=scroll area | 715,470 395x637
+AXButton | t=missing value | v=missing value | d=button | 736,478 352x35
+AXImage | t=missing value | v=missing value | d=image | 745,533 15x15
+AXStaticText | t=missing value | v=Automatically check for updates | d=text | 769,532 195x16
+AXCheckBox | t=missing value | v=1 | d=toggle button | 1039,531 44x20
+AXStaticText | t=missing value | v=Share feedback regarding bugs, suggested features, or provide other valuable input. | d=text | 744,590 322x32
+AXImage | t=missing value | v=missing value | d=image | 745,636 7x11
+AXStaticText | t=missing value | v=Estimated reply: 48h | d=text | 757,634 118x15
+AXButton | t=missing value | v=missing value | d=button | 736,667 174x35
+AXButton | t=missing value | v=missing value | d=button | 915,667 173x35
+AXToolbar | t=missing value | v=missing value | d=toolbar | 490,420 620x66
+AXButton | t=missing value | v=missing value | d=close button | 508,438 16x16
+AXButton | t=missing value | v=missing value | d=zoom button | 554,438 16x16
+AXGroup | t=missing value | v=missing value | d=group | 555,439 14x14
+AXGroup | t=missing value | v=missing value | d=group | 555,439 14x14
+AXButton | t=missing value | v=missing value | d=minimize button | 531,438 16x16
+

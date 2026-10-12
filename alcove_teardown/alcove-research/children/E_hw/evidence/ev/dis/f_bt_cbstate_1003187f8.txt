@@ -1,0 +1,21 @@
+/ 76: sym.func.1003187f8 (int64_t arg1, void *instance);
+| `- args(x21, x0, x2) vars(6:sp[0x8..0x30])
+|           0x1003187f8      f657bda9       stp x22, x21, [var_30h]!
+|           0x1003187fc      f44f01a9       stp x20, x19, [var_10h]
+|           0x100318800      fd7b02a9       stp x29, x30, [var_20h]
+|           0x100318804      fd830091       add x29, sp, 0x20
+|           0x100318808      f30300aa       mov x19, x0                ; arg1
+|           0x10031880c      e00302aa       mov x0, x2                 ; void *instance
+|           0x100318810      a7d30494       bl sym.imp.objc_retain     ; void objc_retain(void *instance)
+|           0x100318814      f50300aa       mov x21, x0                ; error
+|           0x100318818      e00313aa       mov x0, x19                ; void *instance
+|           0x10031881c      a4d30494       bl sym.imp.objc_retain     ; void objc_retain(void *instance)
+|           0x100318820      f40300aa       mov x20, x0
+|           0x100318824      e80c0094       bl sym.func.10031bbc4
+|           0x100318828      e00315aa       mov x0, x21                ; void *instance
+|           0x10031882c      9dd30494       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x100318830      e00314aa       mov x0, x20
+|           0x100318834      fd7b42a9       ldp x29, x30, [var_20h]
+|           0x100318838      f44f41a9       ldp x20, x19, [var_10h]
+|           0x10031883c      f657c3a8       ldp x22, x21, [sp], 0x30
+\       ,=< 0x100318840      98d30414       b sym.imp.objc_release

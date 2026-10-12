@@ -1,0 +1,25 @@
+ 100 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] UserInfo <private>
+  48 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification <private>
+  11 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Posting Notification <private>
+   3 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:NowPlaying] [MRNowPlayingPlayerClientRequests] 【 􁊸 LOCL (Mac) ❯ 􀐥 com.apple.QuickTimePlayerX (5446) QuickTime Player ❯ 􀽍 default 】 UpdatingCache: sup
+   3 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:NowPlaying] [MRNowPlayingPlayerClientRequests] 【 􁊸 LOCL (Mac) ❯ 􀐥 com.apple.QuickTimePlayerX (5446) QuickTime Player ❯ 􀽍 default 】 UpdatingCache: pla
+   3 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _MRMediaRemotePlayerNowPlayingInfoDidChangeNotification
+   3 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Posting Notification _MRMediaRemotePlayerNowPlayingInfoDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification kMRMediaRemoteSupportedCommandsDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification kMRMediaRemoteOriginSupportedCommandsDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _kMRNowPlayingPlaybackQueueChangedNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _MRMediaRemotePlayerSupportedCommandsDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _MRMediaRemotePlayerStateDidChange
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _MRMediaRemotePlayerPlaybackStateDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _MRMediaRemotePlayerIsPlayingDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Receieved Notification _MRMediaRemoteApplicationDisplayNameDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Posting Notification _kMRNowPlayingPlaybackQueueChangedNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Posting Notification _MRMediaRemotePlayerSupportedCommandsDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Posting Notification _MRMediaRemotePlayerStateDidChange
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Posting Notification _MRMediaRemotePlayerPlaybackStateDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Posting Notification _MRMediaRemotePlayerIsPlayingDidChangeNotification
+   2 Db AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:MediaRemote] Posting Notification _MRMediaRemoteApplicationDisplayNameDidChangeNotification
+   1 Df AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:rr] Response: supportedCommands<DD4406B7-58DE-401A-981A-34D1CB5CAECA> returned <<private>> for 【 􁊸 LOCL (Mac) ❯ 􀐥 com.apple.QuickTimePlayerX (5446) QuickTim
+   1 Df AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:rr] Response: resolvePlayerPath<F80A8C6F-4B2A-42DA-AF2A-6A42D83613EA> returned <<private>> for 【 􁊸 LOCL (Mac) ❯ 􀐥 com.apple.QuickTimePlayerX (5446) QuickTim
+   1 Df AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:rr] Response: resolvePlayerPath<F7A65904-17D3-4AAD-BBE0-C3C9B5C33BE1> returned <<private>> for 〖 􁊸 LOCL (Mac) ❯ 􀐥 com.apple.QuickTimePlayerX (5446) QuickTim
+   1 Df AlcoveHelper[pid:tid] [com.apple.amp.mediaremote:rr] Response: resolvePlayerPath<E0215FC3-0064-4F25-95AE-F714F2849DD7> returned <<private>> for 【 􁊸 LOCL (Mac) ❯ 􀐥 com.apple.QuickTimePlayerX (5446) QuickTim

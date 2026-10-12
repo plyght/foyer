@@ -1,0 +1,1 @@
+sym.func.1003357fc 0x100335824 [STRN:r--] add x8, x8, str.notchAdjustedWidth

@@ -1,0 +1,346 @@
+  ; CODE XREF from sym.func.1003cfa68 @ 0x1003cfa68(x)
+1276: sym.func.1003cfa70 (int64_t arg1, int64_t arg2, int64_t arg3, int64_t arg4, int64_t arg5, int64_t arg6);
+`- args(x21, x0, x1, x2, x3, x4, x5) vars(23:sp[0x8..0x250])
+0x1003cfa70      stp x28, x27, [var_sp_60h]!
+0x1003cfa74      stp x26, x25, [var_10h]
+0x1003cfa78      stp x24, x23, [var_20h]
+0x1003cfa7c      stp x22, x21, [var_30h]
+0x1003cfa80      stp x20, x19, [var_40h]
+0x1003cfa84      stp x29, x30, [var_50h]
+0x1003cfa88      add x29, sp, 0x50
+0x1003cfa8c      sub sp, sp, 0x1f0
+0x1003cfa90      mov x21, x5                                           ; error
+0x1003cfa94      mov x19, x4                                           ; arg5
+0x1003cfa98      mov x22, x3                                           ; arg4
+0x1003cfa9c      mov x25, x2                                           ; arg3
+0x1003cfaa0      mov x26, x1                                           ; arg2
+0x1003cfaa4      adrp x8, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x1003cfaa8      ldr x8, [x8, 0x588]                                   ; [0x1005b2588:8]=0
+                                                                       ; reloc.__stack_chk_guard
+0x1003cfaac      ldr x8, [x8]
+0x1003cfab0      stur x8, [var_60h]
+0x1003cfab4      mov x20, x0                                           ; arg1
+0x1003cfab8      bl sym.func.1003c4864
+0x1003cfabc      cbz x1, 0x1003cfe3c
+0x1003cfac0      mov x23, x0
+0x1003cfac4      mov x24, x1
+0x1003cfac8      stp x25, x19, [sp]
+0x1003cfacc      mov w25, 0x6975                                       ; 'ui'
+0x1003cfad0      movk w25, 0x64, lsl 16                                ; 'd'
+0x1003cfad4      adrp x0, field.class.Alcove._CCE779E1FB76C4FB8F13B4772C7887B3.MediaProgressLayerTrackView.var.progress ; 0x1005dc000
+0x1003cfad8      add x0, x0, 0x9d8                                     ; int64_t arg1
+0x1003cfadc      adrp x1, 0x100475000
+0x1003cfae0      add x1, x1, 0xd78                                     ; int64_t arg2
+0x1003cfae4      bl sym.func.1003bd3e8
+0x1003cfae8      mov w1, 0x28                                          ; '('
+0x1003cfaec      mov w2, 7
+0x1003cfaf0      bl sym.imp.swift_allocObject
+0x1003cfaf4      mov x19, x0
+0x1003cfaf8      adrp x8, 0x100454000
+0x1003cfafc      ldr q0, [x8, 0xb80]
+0x1003cfb00      str q0, [var_10h_2]
+0x1003cfb04      str q0, [x0, 0x10]
+0x1003cfb08      adrp x0, reloc.fixup.Receiver_Speaker                 ; 0x1005dd000
+0x1003cfb0c      add x0, x0, 0x308                                     ; int64_t arg1
+0x1003cfb10      adrp x1, 0x100476000
+0x1003cfb14      add x1, x1, 0x298                                     ; int64_t arg2
+0x1003cfb18      bl sym.func.1003bd3e8
+0x1003cfb1c      mov x28, x0
+0x1003cfb20      sub x1, x29, 0xb0                                     ; void *arg1
+0x1003cfb24      bl sym.imp.swift_initStackObject                      ; void *swift_initStackObject(void *arg0, void *arg1)
+0x1003cfb28      mov x20, x0
+0x1003cfb2c      ldr q0, [var_10h_2]
+0x1003cfb30      str q0, [x0, 0x10]
+0x1003cfb34      mov x27, x0
+0x1003cfb38      str x25, [x27, 0x20]!
+0x1003cfb3c      mov x9, -0x1d00000000000000
+0x1003cfb40      adrp x8, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+0x1003cfb44      ldr x8, [x8, 0x648]                                   ; [0x1005b5648:8]=0
+                                                                       ; reloc....SSN
+0x1003cfb48      str x8, [x0, 0x48]
+0x1003cfb4c      stp x9, x23, [x0, 0x28]
+0x1003cfb50      str x24, [x0, 0x38]
+0x1003cfb54      mov x0, x24                                           ; void *arg0
+0x1003cfb58      bl sym.imp.swift_bridgeObjectRetain                   ; void *swift_bridgeObjectRetain(void *arg0)
+0x1003cfb5c      mov x0, x20                                           ; int64_t arg1
+0x1003cfb60      bl sym.func.1003c0e10
+0x1003cfb64      mov x25, x0
+0x1003cfb68      mov x0, x20
+0x1003cfb6c      bl sym.imp.swift_setDeallocating
+0x1003cfb70      mov x0, x27                                           ; int64_t arg1
+0x1003cfb74      bl sym.func.1003cff6c
+0x1003cfb78      str x25, [x19, 0x20]
+0x1003cfb7c      cbz x26, 0x1003cfba4
+0x1003cfb80      mov x20, x26
+0x1003cfb84      bl sym.func.1003c4864
+0x1003cfb88      cbz x1, 0x1003cfba4
+0x1003cfb8c      cmp x0, x23
+0x1003cfb90      b.ne 0x1003cfbac
+0x1003cfb94      cmp x1, x24
+0x1003cfb98      b.ne 0x1003cfbac
+0x1003cfb9c      mov x0, x1
+0x1003cfba0      b 0x1003cfbcc
+; CODE XREFS from sym.func.1003cfa70 @ 0x1003cfb7c(x), 0x1003cfb88(x)
+0x1003cfba4      ldr x27, [var_8h]
+0x1003cfba8      b 0x1003cfc50
+; CODE XREFS from sym.func.1003cfa70 @ 0x1003cfb90(x), 0x1003cfb98(x)
+0x1003cfbac      mov x27, x0
+0x1003cfbb0      mov x20, x1
+0x1003cfbb4      mov x2, x23
+0x1003cfbb8      mov x3, x24
+0x1003cfbbc      mov w4, 0
+0x1003cfbc0      bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+0x1003cfbc4      tbz w0, 0, 0x1003cfbd8
+0x1003cfbc8      mov x0, x20
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cfba0(x)
+0x1003cfbcc      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x1003cfbd0      ldr x27, [var_8h]
+0x1003cfbd4      b 0x1003cfc50
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cfbc4(x)
+0x1003cfbd8      add x1, sp, 0x30                                      ; void *arg1
+0x1003cfbdc      mov x0, x28                                           ; void *arg0
+0x1003cfbe0      bl sym.imp.swift_initStackObject                      ; void *swift_initStackObject(void *arg0, void *arg1)
+0x1003cfbe4      mov x25, x0
+0x1003cfbe8      mov x26, x0
+0x1003cfbec      mov w8, 0x6975                                        ; 'ui'
+0x1003cfbf0      movk w8, 0x64, lsl 16                                 ; 'd'
+0x1003cfbf4      str x8, [x26, 0x20]!
+0x1003cfbf8      ldr q0, [var_10h_2]
+0x1003cfbfc      str q0, [x0, 0x10]
+0x1003cfc00      mov x8, -0x1d00000000000000
+0x1003cfc04      adrp x9, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+0x1003cfc08      ldr x9, [x9, 0x648]                                   ; [0x1005b5648:8]=0
+                                                                       ; reloc....SSN
+0x1003cfc0c      str x9, [x0, 0x48]
+0x1003cfc10      stp x8, x27, [x0, 0x28]
+0x1003cfc14      str x20, [x0, 0x38]
+0x1003cfc18      bl sym.func.1003c0e10
+0x1003cfc1c      mov x20, x0
+0x1003cfc20      mov x0, x25
+0x1003cfc24      bl sym.imp.swift_setDeallocating
+0x1003cfc28      mov x0, x26                                           ; int64_t arg1
+0x1003cfc2c      bl sym.func.1003cff6c
+0x1003cfc30      ldp x25, x8, [x19, 0x10]
+0x1003cfc34      add x26, x25, 1
+0x1003cfc38      cmp x25, x8, lsr 1
+0x1003cfc3c      b.hs 0x1003cff48
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cff64(x)
+0x1003cfc40      ldr x27, [var_8h]
+0x1003cfc44      str x26, [x19, 0x10]
+0x1003cfc48      add x8, x19, x25, lsl 3
+0x1003cfc4c      str x20, [x8, 0x20]
+; CODE XREFS from sym.func.1003cfa70 @ 0x1003cfba8(x), 0x1003cfbd4(x)
+0x1003cfc50      add x1, sp, 0xb0                                      ; void *arg1
+0x1003cfc54      mov x0, x28                                           ; void *arg0
+0x1003cfc58      bl sym.imp.swift_initStackObject                      ; void *swift_initStackObject(void *arg0, void *arg1)
+0x1003cfc5c      mov x26, x0
+0x1003cfc60      adrp x8, 0x10045b000
+0x1003cfc64      ldr q0, [x8, 0xd40]
+0x1003cfc68      str q0, [x0, 0x10]
+0x1003cfc6c      mov w8, 0x616e                                        ; 'na'
+0x1003cfc70      movk w8, 0x656d, lsl 16                               ; 'me'
+0x1003cfc74      mov x20, x0
+0x1003cfc78      str x8, [x20, 0x20]!
+0x1003cfc7c      mov x9, -0x1c00000000000000
+0x1003cfc80      ldr x8, [sp]
+0x1003cfc84      stp x9, x8, [x0, 0x28]
+0x1003cfc88      str x22, [x0, 0x38]
+0x1003cfc8c      adrp x25, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+0x1003cfc90      ldr x25, [x25, 0x648]                                 ; [0x1005b5648:8]=0
+                                                                       ; reloc....SSN
+0x1003cfc94      mov w8, 0x6975                                        ; 'ui'
+0x1003cfc98      movk w8, 0x64, lsl 16                                 ; 'd'
+0x1003cfc9c      stp x25, x8, [x0, 0x48]
+0x1003cfca0      mov x8, -0x1d00000000000000
+0x1003cfca4      stp x8, x27, [x0, 0x58]
+0x1003cfca8      str x21, [x0, 0x68]
+0x1003cfcac      mov x8, 0x7573                                        ; 'su'
+0x1003cfcb0      movk x8, 0x6462, lsl 16                               ; 'bd'
+0x1003cfcb4      movk x8, 0x7665, lsl 32                               ; 'ev'
+0x1003cfcb8      movk x8, 0x6369, lsl 48                               ; 'ic'
+0x1003cfcbc      stp x25, x8, [x0, 0x78]
+0x1003cfcc0      mov x8, 0x7365                                        ; 'es'
+0x1003cfcc4      movk x8, 0xea00, lsl 48
+0x1003cfcc8      str x8, [x0, 0x88]
+0x1003cfccc      adrp x0, reloc.fixup.Receiver_Speaker                 ; 0x1005dd000
+0x1003cfcd0      add x0, x0, 0x318                                     ; int64_t arg1
+0x1003cfcd4      adrp x1, 0x100476000
+0x1003cfcd8      add x1, x1, 0x2a8                                     ; int64_t arg2
+0x1003cfcdc      bl sym.func.1003bd3e8
+0x1003cfce0      str x19, [x26, 0x90]
+0x1003cfce4      mov x8, 0x616d                                        ; 'ma'
+0x1003cfce8      movk x8, 0x7473, lsl 16                               ; 'st'
+0x1003cfcec      movk x8, 0x7265, lsl 32                               ; 'er'
+0x1003cfcf0      stp x0, x8, [x26, 0xa8]
+0x1003cfcf4      mov x8, -0x1a00000000000000
+0x1003cfcf8      str x25, [x26, 0xd8]
+0x1003cfcfc      stp x8, x23, [x26, 0xb8]
+0x1003cfd00      str x24, [x26, 0xc8]
+0x1003cfd04      mov x0, x22                                           ; void *arg0
+0x1003cfd08      bl sym.imp.swift_bridgeObjectRetain                   ; void *swift_bridgeObjectRetain(void *arg0)
+0x1003cfd0c      mov x0, x21                                           ; void *arg0
+0x1003cfd10      bl sym.imp.swift_bridgeObjectRetain                   ; void *swift_bridgeObjectRetain(void *arg0)
+0x1003cfd14      mov x0, x19                                           ; void *arg0
+0x1003cfd18      bl sym.imp.swift_bridgeObjectRetain                   ; void *swift_bridgeObjectRetain(void *arg0)
+0x1003cfd1c      mov x0, x26                                           ; int64_t arg1
+0x1003cfd20      bl sym.func.1003c0e10
+0x1003cfd24      mov x21, x0
+0x1003cfd28      mov x0, x26
+0x1003cfd2c      bl sym.imp.swift_setDeallocating
+0x1003cfd30      adrp x0, reloc.fixup.Receiver_Speaker                 ; 0x1005dd000
+0x1003cfd34      add x0, x0, 0x310                                     ; int64_t arg1
+0x1003cfd38      adrp x1, 0x100476000
+0x1003cfd3c      add x1, x1, 0x2a0                                     ; int64_t arg2
+0x1003cfd40      bl sym.func.1003bd3e8
+0x1003cfd44      mov x2, x0
+0x1003cfd48      mov x0, x20
+0x1003cfd4c      mov w1, 4
+0x1003cfd50      bl sym.imp.swift_arrayDestroy
+0x1003cfd54      str wzr, [var_clob_2ch]
+0x1003cfd58      adrp x8, reloc.Int64...VMn                            ; 0x1005b6000
+0x1003cfd5c      ldr x8, [x8, 0x210]                                   ; [0x1005b6210:8]=0
+                                                                       ; reloc....ypN
+0x1003cfd60      adrp x3, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+0x1003cfd64      ldr x3, [x3, 0x658]
+0x1003cfd68      add x2, x8, 8
+0x1003cfd6c      mov x0, x21
+0x1003cfd70      mov x1, x25
+0x1003cfd74      bl sym.imp.Foundationbool_...ridgeToObjectiveCSo12NSDictionaryCyF_ ; Foundationbool(...ridgeToObjectiveCSo12NSDictionaryCyF)
+0x1003cfd78      mov x22, x0
+0x1003cfd7c      mov x0, x21                                           ; void *arg0
+0x1003cfd80      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x1003cfd84      add x1, sp, 0x2c
+0x1003cfd88      mov x0, x22
+0x1003cfd8c      bl sym.imp.AudioHardwareCreateAggregateDevice
+0x1003cfd90      mov x20, x0
+0x1003cfd94      mov x0, x22                                           ; void *instance
+0x1003cfd98      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1003cfd9c      cbz w20, 0x1003cfe44
+0x1003cfda0      adrp x8, field.class.Alcove._CCE779E1FB76C4FB8F13B4772C7887B3.MediaProgressLayerTrackView.var.progress ; 0x1005dc000
+0x1003cfda4      ldr x8, [x8, 0x9d0]
+0x1003cfda8      cmn x8, 1
+0x1003cfdac      b.ne 0x1003cff18
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cff2c(x)
+0x1003cfdb0      adrp x8, 0x100603000
+0x1003cfdb4      ldr x21, [x8, 0xa00]
+0x1003cfdb8      bl sym.imp.os_log_type_t.addressor..debug_...vgZ_     ; os_log_type_t.addressor..debug(...vgZ)
+0x1003cfdbc      mov x22, x0
+0x1003cfdc0      adrp x0, field.class.Alcove._CCE779E1FB76C4FB8F13B4772C7887B3.MediaProgressLayerTrackView.var.progress ; 0x1005dc000
+0x1003cfdc4      add x0, x0, 0x7b0                                     ; int64_t arg1
+0x1003cfdc8      adrp x1, 0x100475000
+0x1003cfdcc      add x1, x1, 0xcd0                                     ; int64_t arg2
+0x1003cfdd0      bl sym.func.1003bd3e8
+0x1003cfdd4      mov w1, 0x48                                          ; 'H'
+0x1003cfdd8      mov w2, 7
+0x1003cfddc      bl sym.imp.swift_allocObject
+0x1003cfde0      mov x23, x0
+0x1003cfde4      adrp x8, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+0x1003cfde8      ldr x8, [x8, 0xfd8]                                   ; [0x1005b5fd8:8]=0
+                                                                       ; reloc.Int32...VN
+0x1003cfdec      ldr q0, [var_10h_2]
+0x1003cfdf0      str q0, [x0, 0x10]
+0x1003cfdf4      adrp x9, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+0x1003cfdf8      ldr x9, [x9, 0xff8]                                   ; [0x1005b5ff8:8]=0
+                                                                       ; reloc.Int32...Vs7CVarArgsWP
+0x1003cfdfc      stp x8, x9, [x0, 0x38]
+0x1003cfe00      str w20, [x0, 0x20]
+0x1003cfe04      adrp x0, 0x100549000
+0x1003cfe08      add x0, x0, 0xc50                                     ; 0x100549c50 ; "Failed creating aggregate device with error: %d."
+0x1003cfe0c      adrp x3, sym.__mh_execute_header                      ; 0x100000000
+0x1003cfe10      add x3, x3, 0
+0x1003cfe14      mov w1, 0x30                                          ; '0'
+0x1003cfe18      mov w2, 2
+0x1003cfe1c      mov x4, x21
+0x1003cfe20      mov x5, x22
+0x1003cfe24      mov x6, x23
+0x1003cfe28      bl sym.imp.os._log.dsobool_...dtF_                    ; os._log.dsobool(...dtF)
+0x1003cfe2c      mov x0, x19                                           ; void *arg0
+0x1003cfe30      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x1003cfe34      mov x0, x23                                           ; void *arg0
+0x1003cfe38      bl sym.imp.swift_release                              ; void swift_release(void *arg0)
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cfabc(x)
+0x1003cfe3c      mov x0, 0
+0x1003cfe40      b 0x1003cfee0
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cfd9c(x)
+0x1003cfe44      ldr w22, [var_clob_2ch]
+0x1003cfe48      adrp x8, field.class.Alcove._CCE779E1FB76C4FB8F13B4772C7887B3.MediaProgressLayerTrackView.var.progress ; 0x1005dc000
+0x1003cfe4c      ldr x8, [x8, 0x9b0]
+0x1003cfe50      cmn x8, 1
+0x1003cfe54      b.ne 0x1003cff30
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cff44(x)
+0x1003cfe58      adrp x8, 0x100603000
+0x1003cfe5c      ldr x20, [x8, 0x9f8]
+0x1003cfe60      bl method.getter.SimplyCoreAudio.AudioObjectPool.func.1003c10e4
+0x1003cfe64      mov x23, x0
+0x1003cfe68      str x20, [var_90h]
+0x1003cfe6c      str w22, [var_98h]
+0x1003cfe70      adrp x0, field.class.Alcove._CCE779E1FB76C4FB8F13B4772C7887B3.MediaProgressLayerTrackView.var.progress ; 0x1005dc000
+0x1003cfe74      add x0, x0, 0x858                                     ; int64_t arg1
+0x1003cfe78      adrp x1, 0x100475000
+0x1003cfe7c      add x1, x1, 0xd10                                     ; int64_t arg2
+0x1003cfe80      bl sym.func.1003bd3e8
+0x1003cfe84      mov x2, x0
+0x1003cfe88      adrp x0, 0x1003c0000
+0x1003cfe8c      add x0, x0, 0xc2c
+0x1003cfe90      add x8, sp, 0xa8
+0x1003cfe94      add x1, sp, 0x80
+0x1003cfe98      mov x20, x23
+0x1003cfe9c      mov x21, 0
+0x1003cfea0      bl sym.imp.OS_dispatch_queue.Dispatch.allocator_...KlF_ ; OS_dispatch_queue.Dispatch.allocator(...KlF)
+0x1003cfea4      mov x0, x23                                           ; void *instance
+0x1003cfea8      bl sym.imp.objc_release                               ; void objc_release(void *instance)
+0x1003cfeac      ldr x0, [var_a8h]
+0x1003cfeb0      cbnz x0, 0x1003cfed0
+0x1003cfeb4      bl sym.func.1003ca600
+0x1003cfeb8      mov w1, 0x49                                          ; 'I'
+0x1003cfebc      mov w2, 7
+0x1003cfec0      bl sym.imp.swift_allocObject
+0x1003cfec4      mov x20, x0
+0x1003cfec8      mov x0, x22                                           ; int64_t arg1
+0x1003cfecc      bl sym.func.1003c9c28
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cfeb0(x)
+0x1003cfed0      mov x20, x0
+0x1003cfed4      mov x0, x19                                           ; void *arg0
+0x1003cfed8      bl sym.imp.swift_bridgeObjectRelease                  ; void swift_bridgeObjectRelease(void *arg0)
+0x1003cfedc      mov x0, x20
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cfe40(x)
+0x1003cfee0      ldur x8, [var_60h]
+0x1003cfee4      adrp x9, reloc.Foundation.IndexSet...VMn              ; 0x1005b2000
+0x1003cfee8      ldr x9, [x9, 0x588]                                   ; [0x1005b2588:8]=0
+                                                                       ; reloc.__stack_chk_guard
+0x1003cfeec      ldr x9, [x9]
+0x1003cfef0      cmp x9, x8
+0x1003cfef4      b.ne 0x1003cff68
+0x1003cfef8      add sp, sp, 0x1f0
+0x1003cfefc      ldp x29, x30, [var_50h]
+0x1003cff00      ldp x20, x19, [var_40h]
+0x1003cff04      ldp x22, x21, [var_30h]
+0x1003cff08      ldp x24, x23, [var_20h]
+0x1003cff0c      ldp x26, x25, [var_10h]
+0x1003cff10      ldp x28, x27, [sp], 0x60
+0x1003cff14      ret
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cfdac(x)
+0x1003cff18      adrp x0, field.class.Alcove._CCE779E1FB76C4FB8F13B4772C7887B3.MediaProgressLayerTrackView.var.progress ; 0x1005dc000
+0x1003cff1c      add x0, x0, 0x9d0
+0x1003cff20      adrp x1, 0x1003c1000
+0x1003cff24      add x1, x1, 0x86c
+0x1003cff28      bl sym.imp.swift_once
+0x1003cff2c      b 0x1003cfdb0
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cfe54(x)
+0x1003cff30      adrp x0, field.class.Alcove._CCE779E1FB76C4FB8F13B4772C7887B3.MediaProgressLayerTrackView.var.progress ; 0x1005dc000
+0x1003cff34      add x0, x0, 0x9b0
+0x1003cff38      adrp x1, 0x1003c1000
+0x1003cff3c      add x1, x1, 0x258
+0x1003cff40      bl sym.imp.swift_once
+0x1003cff44      b 0x1003cfe58
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cfc3c(x)
+0x1003cff48      cmp x8, 1
+0x1003cff4c      cset w0, hi                                           ; int64_t arg1
+0x1003cff50      mov x1, x26                                           ; int64_t arg2
+0x1003cff54      mov w2, 1                                             ; int64_t arg3
+0x1003cff58      mov x3, x19
+0x1003cff5c      bl sym.func.1003c22a4
+0x1003cff60      mov x19, x0
+0x1003cff64      b 0x1003cfc40
+; CODE XREF from sym.func.1003cfa70 @ 0x1003cfef4(x)
+0x1003cff68      bl sym.imp.__stack_chk_fail                           ; void __stack_chk_fail(void)

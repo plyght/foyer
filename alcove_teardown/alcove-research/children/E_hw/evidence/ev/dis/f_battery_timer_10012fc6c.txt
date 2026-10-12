@@ -1,0 +1,40 @@
+            ; ICOD XREF from sym.func.10012fbd8 @ 0x10012fc54(r)
+/ 148: sym.func.10012fc6c ();
+| `- args(x21) vars(6:sp[0x8..0x30])
+|           0x10012fc6c      bd0344b2       orr x29, x29, 0x1000000000000000
+|           0x10012fc70      ffc300d1       sub sp, sp, 0x30
+|           0x10012fc74      f5cf00a9       stp x21, x19, [var_8h]
+|           0x10012fc78      fd7b02a9       stp x29, x30, [var_20h]
+|           0x10012fc7c      f60f00f9       str x22, [var_18h]
+|           0x10012fc80      fd830091       add x29, sp, 0x20
+|           0x10012fc84      d42a40f9       ldr x20, [x22, 0x50]
+|           0x10012fc88      00106c1e       fmov d0, 0.50000000
+|           0x10012fc8c      60740c94       bl sym.imp.Duration.seconds_...BSdFZ_ ; Duration.seconds(...BSdFZ)
+|           0x10012fc90      f30300aa       mov x19, x0
+|           0x10012fc94      f50301aa       mov x21, x1                ; error
+|           0x10012fc98      e80314aa       mov x8, x20
+|           0x10012fc9c      02740c94       bl sym.imp.Clock.setterContinuous_...VRszrlE10continuousADvgZ_ ; Clock.setterContinuous(...VRszrlE10continuousADvgZ)
+|           0x10012fca0      c81900d0       adrp x8, 0x100469000
+|           0x10012fca4      08a10e91       add x8, x8, 0x3a8
+|           0x10012fca8      09014029       ldp w9, w0, [x8]
+|           0x10012fcac      297d4093       sxtw x9, w9
+|           0x10012fcb0      2101088b       add x1, x9, x8
+|           0x10012fcb4      e10300f9       str x1, [sp]
+|           0x10012fcb8      a0770c94       bl sym.imp.swift_task_alloc
+|           0x10012fcbc      c03a00f9       str x0, [x22, 0x70]
+|           0x10012fcc0      08000090       adrp x8, 0x10012f000
+|           0x10012fcc4      08013491       add x8, x8, 0xd00
+|           0x10012fcc8      162000a9       stp x22, x8, [x0]
+|           0x10012fccc      d42a40f9       ldr x20, [x22, 0x50]
+|           0x10012fcd0      f60300aa       mov x22, x0
+|           0x10012fcd4      e00313aa       mov x0, x19
+|           0x10012fcd8      e10315aa       mov x1, x21
+|           0x10012fcdc      020080d2       mov x2, 0
+|           0x10012fce0      030080d2       mov x3, 0
+|           0x10012fce4      24008052       mov w4, 1
+|           0x10012fce8      e50340f9       ldr x5, [sp]
+|           0x10012fcec      fd7b42a9       ldp x29, x30, [var_20h]
+|           0x10012fcf0      f5cf40a9       ldp x21, x19, [var_8h]
+|           0x10012fcf4      bdfb4392       and x29, x29, 0xefffffffffffffff
+|           0x10012fcf8      ffc30091       add sp, sp, 0x30           ; 0x178000
+\           0x10012fcfc      a0001fd6       br x5

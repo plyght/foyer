@@ -1,0 +1,26 @@
+volume set @ 10:19:11.656014000
+10:19:12 Alcove 116 2147483629 488 0 624 320 1.0
+10:19:12 Alcove 115 2147483628 488 0 624 320 1.0
+10:19:12 Alcove 116 2147483629 488 0 624 320 1.0
+10:19:12 Alcove 115 2147483628 488 0 624 320 1.0
+brightup x3 @ 10:20:10.121762000
+posted brightup x3 via CGEvent.post(.cghidEventTap)
+10:20:10 Alcove 116 2147483629 488 0 624 320 1.0
+10:20:10 Alcove 115 2147483628 488 0 624 320 1.0
+brightdown x3 @ 10:20:12.017211000
+posted brightdown x3 via CGEvent.post(.cghidEventTap)
+10:20:12 Alcove 116 2147483629 488 0 624 320 1.0
+10:20:12 Alcove 115 2147483628 488 0 624 320 1.0
+osascript set volume 30 @ 10:21:31.560187000
+10:21:32 Alcove 116 2147483629 488 0 624 320 1.0
+10:21:32 Alcove 115 2147483628 488 0 624 320 1.0
+mediakey volup x2 @ 10:21:34.734753000
+posted volup x2 via CGEvent.post(.cghidEventTap)
+10:21:35 Alcove 116 2147483629 488 0 624 320 1.0
+10:21:35 Alcove 115 2147483628 488 0 624 320 1.0
+mediakey mute @ 10:21:38.108447000
+posted mute x1 via CGEvent.post(.cghidEventTap)
+10:21:38 Alcove 116 2147483629 488 0 624 320 1.0
+10:21:38 Alcove 115 2147483628 488 0 624 320 1.0
+posted mute x1 via CGEvent.post(.cghidEventTap)
+output volume:43, input volume:43, alert volume:100, output muted:false

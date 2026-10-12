@@ -1,0 +1,529 @@
+            ; CALL XREF from sym.func.10034f410 @ 0x10034fa3c(x)
+/ 2096: sym.func.10034fec4 ();
+| `- args(x20, x21) vars(14:sp[0x8..0x80])
+|           0x10034fec4      fc6fbaa9       stp x28, x27, [var_60h]!
+|           0x10034fec8      fa6701a9       stp x26, x25, [var_10h]
+|           0x10034fecc      f85f02a9       stp x24, x23, [var_20h]
+|           0x10034fed0      f65703a9       stp x22, x21, [var_10h]
+|           0x10034fed4      f44f04a9       stp x20, x19, [var_20h]
+|           0x10034fed8      fd7b05a9       stp x29, x30, [var_30h]
+|           0x10034fedc      fd430191       add x29, sp, 0x50
+|           0x10034fee0      ff8300d1       sub sp, sp, 0x20
+|           0x10034fee4      f30314aa       mov x19, x20               ; self
+|           0x10034fee8      000080d2       mov x0, 0
+|           0x10034feec      67f10394       bl sym.imp.NSNotificationCenter.Foundation.allocator.Publisher...VMa
+|           0x10034fef0      f50300aa       mov x21, x0                ; error
+|           0x10034fef4      171300f0       adrp x23, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10034fef8      f7e640f9       ldr x23, [x23, 0x1c8]      ; [0x1005b21c8:8]=0x801000000000025b
+|           0x10034fefc      1b805ff8       ldur x27, [x0, -8]
+|           0x10034ff00      682340f9       ldr x8, [x27, 0x40]
+|           0x10034ff04      e90308aa       mov x9, x8
+|           0x10034ff08      101300f0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10034ff0c      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x10034ff10      00023fd6       blr x16
+|           0x10034ff14      e9030091       mov x9, sp
+|           0x10034ff18      083d0091       add x8, x8, 0xf
+|           0x10034ff1c      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x10034ff20      360108cb       sub x22, x9, x8
+|           0x10034ff24      df020091       mov sp, x22
+|           0x10034ff28      081300f0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10034ff2c      00c941f9       ldr x0, [x8, 0x390]        ; [0x1005b2390:8]=0x8010000000000294 ; reloc.NSDistributedNotificationCenter ; void *arg0
+|           0x10034ff30      d9f50394       bl sym.imp.objc_opt_self   ; void *objc_opt_self(void *arg0)
+|           0x10034ff34      f90300aa       mov x25, x0
+|           0x10034ff38      e2fb0394       bl fcn.10044eec0
+|           0x10034ff3c      fd031daa       mov x29, x29
+|           0x10034ff40      e1f50394       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|           0x10034ff44      f40300aa       mov x20, x0
+|           0x10034ff48      c80f00b0       adrp x8, str.playSoundOnTimeToLeave ; 0x100548000
+|           0x10034ff4c      08411691       add x8, x8, 0x590          ; 0x100548590 ; "com.apple.screensaver.didstart"
+|           0x10034ff50      088100d1       sub x8, x8, 0x20
+|           0x10034ff54      a90380d2       mov x9, 0x1d
+|           0x10034ff58      0900faf2       movk x9, 0xd000, lsl 48
+|           0x10034ff5c      20050091       add x0, x9, 1
+|           0x10034ff60      010141b2       orr x1, x8, 0x8000000000000000
+|           0x10034ff64      5def0394       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+|           0x10034ff68      f80300aa       mov x24, x0
+|           0x10034ff6c      e80316aa       mov x8, x22
+|           0x10034ff70      010080d2       mov x1, 0
+|           0x10034ff74      48f10394       bl sym.imp.NSNotificationCenter.Foundation.allocator_...XlSgtF___1 ; NSNotificationCenter.Foundation.allocator(...XlSgtF)
+|           0x10034ff78      e00314aa       mov x0, x20                ; void *instance
+|           0x10034ff7c      c9f50394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x10034ff80      e00318aa       mov x0, x24                ; void *instance
+|           0x10034ff84      c7f50394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x10034ff88      b81200d0       adrp x24, aav.0x1005a5000
+|           0x10034ff8c      18c31291       add x24, x24, 0x4b0
+|           0x10034ff90      e00318aa       mov x0, x24
+|           0x10034ff94      01038052       mov w1, 0x18
+|           0x10034ff98      e2008052       mov w2, 7
+|           0x10034ff9c      f7f50394       bl sym.imp.swift_allocObject
+|           0x10034ffa0      fa0300aa       mov x26, x0
+|           0x10034ffa4      00400091       add x0, x0, 0x10
+|           0x10034ffa8      e10313aa       mov x1, x19
+|           0x10034ffac      25f70394       bl sym.imp.swift_weakInit
+|           0x10034ffb0      201400f0       adrp x0, 0x1005d6000
+|           0x10034ffb4      00c00291       add x0, x0, 0xb0           ; int64_t arg1
+|           0x10034ffb8      021300f0       adrp x2, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10034ffbc      42e040f9       ldr x2, [x2, 0x1c0]        ; [0x1005b21c0:8]=0x801000000000025a
+|           0x10034ffc0      e10317aa       mov x1, x23                ; int64_t arg2
+|           0x10034ffc4      4ee4f297       bl sym.func.1000090fc
+|           0x10034ffc8      fc0300aa       mov x28, x0
+|           0x10034ffcc      600000f0       adrp x0, 0x10035e000
+|           0x10034ffd0      00002e91       add x0, x0, 0xb80
+|           0x10034ffd4      e1031aaa       mov x1, x26
+|           0x10034ffd8      e20315aa       mov x2, x21
+|           0x10034ffdc      e3031caa       mov x3, x28
+|           0x10034ffe0      f40316aa       mov x20, x22
+|           0x10034ffe4      35e80394       bl sym.imp.Combine.Publisher.Never_...F_ ; Combine.Publisher.Never(...F)
+|           0x10034ffe8      f40300aa       mov x20, x0
+|           0x10034ffec      e0031aaa       mov x0, x26                ; void *arg0
+|           0x10034fff0      b4f60394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x10034fff4      770740f9       ldr x23, [x27, 8]
+|           0x10034fff8      e00316aa       mov x0, x22
+|           0x10034fffc      e10315aa       mov x1, x21
+|           ; DATA XREF from sym.func.10035eb80 @ 0x10035eb8c(r)
+|           0x100350000      e0023fd6       blr x23
+|           0x100350004      481400d0       adrp x8, 0x1005da000
+|           0x100350008      1b1942f9       ldr x27, [x8, 0x430]       ; [0x1005da430:8]=0
+|                                                                      ; field.class.Alcove.LockManager.var.cancellables
+|           0x10035000c      60021b8b       add x0, x19, x27           ; void *arg0
+|           0x100350010      a1a301d1       sub x1, x29, 0x68          ; void *arg1
+|           0x100350014      22048052       mov w2, 0x21               ; '!' ; void *arg2
+|           0x100350018      030080d2       mov x3, 0                  ; void *arg3
+|           0x10035001c      ecf50394       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x100350020      60021b8b       add x0, x19, x27
+|           0x100350024      ece70394       bl sym.imp.Combine.AnyCancellable.store.allocator_...F_ ; Combine.AnyCancellable.store.allocator(...F)
+|           0x100350028      a0a301d1       sub x0, x29, 0x68          ; void *arg0
+|           0x10035002c      2df60394       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|           0x100350030      e00314aa       mov x0, x20                ; void *arg0
+|           0x100350034      a3f60394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x100350038      e00319aa       mov x0, x25
+|           0x10035003c      a1fb0394       bl fcn.10044eec0
+|           0x100350040      fd031daa       mov x29, x29
+|           0x100350044      a0f50394       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|           0x100350048      f40300aa       mov x20, x0
+|           0x10035004c      c80f0090       adrp x8, str.playSoundOnTimeToLeave ; 0x100548000
+|           0x100350050      08c11691       add x8, x8, 0x5b0          ; 0x1005485b0 ; "com.apple.screensaver.didstop"
+|           0x100350054      088100d1       sub x8, x8, 0x20
+|           0x100350058      010141b2       orr x1, x8, 0x8000000000000000
+|           0x10035005c      a00380d2       mov x0, 0x1d
+|           0x100350060      0000faf2       movk x0, 0xd000, lsl 48
+|           0x100350064      1def0394       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+|           0x100350068      fa0300aa       mov x26, x0
+|           0x10035006c      e80316aa       mov x8, x22
+|           0x100350070      010080d2       mov x1, 0
+|           0x100350074      08f10394       bl sym.imp.NSNotificationCenter.Foundation.allocator_...XlSgtF___1 ; NSNotificationCenter.Foundation.allocator(...XlSgtF)
+|           0x100350078      e00314aa       mov x0, x20                ; void *instance
+|           0x10035007c      89f50394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x100350080      e0031aaa       mov x0, x26                ; void *instance
+|           0x100350084      87f50394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x100350088      e00318aa       mov x0, x24
+|           0x10035008c      01038052       mov w1, 0x18
+|           0x100350090      e2008052       mov w2, 7
+|           0x100350094      b9f50394       bl sym.imp.swift_allocObject
+|           0x100350098      fa0300aa       mov x26, x0
+|           0x10035009c      00400091       add x0, x0, 0x10
+|           0x1003500a0      e10313aa       mov x1, x19
+|           0x1003500a4      e7f60394       bl sym.imp.swift_weakInit
+|           0x1003500a8      600000d0       adrp x0, 0x10035e000
+|           0x1003500ac      00802e91       add x0, x0, 0xba0
+|           0x1003500b0      e1031aaa       mov x1, x26
+|           0x1003500b4      e20315aa       mov x2, x21
+|           0x1003500b8      e3031caa       mov x3, x28
+|           0x1003500bc      f40316aa       mov x20, x22
+|           0x1003500c0      fee70394       bl sym.imp.Combine.Publisher.Never_...F_ ; Combine.Publisher.Never(...F)
+|           0x1003500c4      f40300aa       mov x20, x0
+|           0x1003500c8      e0031aaa       mov x0, x26                ; void *arg0
+|           0x1003500cc      7df60394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x1003500d0      e00316aa       mov x0, x22
+|           0x1003500d4      e10315aa       mov x1, x21
+|           0x1003500d8      e0023fd6       blr x23
+|           0x1003500dc      60021b8b       add x0, x19, x27           ; void *arg0
+|           0x1003500e0      a1a301d1       sub x1, x29, 0x68          ; void *arg1
+|           0x1003500e4      22048052       mov w2, 0x21               ; '!' ; void *arg2
+|           0x1003500e8      030080d2       mov x3, 0                  ; void *arg3
+|           0x1003500ec      b8f50394       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x1003500f0      60021b8b       add x0, x19, x27
+|           0x1003500f4      b8e70394       bl sym.imp.Combine.AnyCancellable.store.allocator_...F_ ; Combine.AnyCancellable.store.allocator(...F)
+|           0x1003500f8      a0a301d1       sub x0, x29, 0x68          ; void *arg0
+|           0x1003500fc      f9f50394       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|           0x100350100      e00314aa       mov x0, x20                ; void *arg0
+|           0x100350104      6ff60394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x100350108      e00319aa       mov x0, x25
+|           0x10035010c      6dfb0394       bl fcn.10044eec0
+|           0x100350110      fd031daa       mov x29, x29
+|           0x100350114      6cf50394       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|           0x100350118      f40300aa       mov x20, x0
+|           0x10035011c      a80f00b0       adrp x8, 0x100545000
+|           0x100350120      08811091       add x8, x8, 0x420          ; 0x100545420 ; "com.apple.screenLockUIIsShown"
+|           0x100350124      088100d1       sub x8, x8, 0x20
+|           0x100350128      010141b2       orr x1, x8, 0x8000000000000000
+|           0x10035012c      a00380d2       mov x0, 0x1d
+|           0x100350130      0000faf2       movk x0, 0xd000, lsl 48
+|           0x100350134      e9ee0394       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+|           0x100350138      fa0300aa       mov x26, x0
+|           0x10035013c      e80316aa       mov x8, x22
+|           0x100350140      010080d2       mov x1, 0
+|           0x100350144      d4f00394       bl sym.imp.NSNotificationCenter.Foundation.allocator_...XlSgtF___1 ; NSNotificationCenter.Foundation.allocator(...XlSgtF)
+|           0x100350148      e00314aa       mov x0, x20                ; void *instance
+|           0x10035014c      55f50394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x100350150      e0031aaa       mov x0, x26                ; void *instance
+|           0x100350154      53f50394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x100350158      e00318aa       mov x0, x24
+|           0x10035015c      01038052       mov w1, 0x18
+|           0x100350160      e2008052       mov w2, 7
+|           0x100350164      85f50394       bl sym.imp.swift_allocObject
+|           0x100350168      fa0300aa       mov x26, x0
+|           0x10035016c      00400091       add x0, x0, 0x10
+|           0x100350170      e10313aa       mov x1, x19
+|           0x100350174      b3f60394       bl sym.imp.swift_weakInit
+|           0x100350178      600000d0       adrp x0, 0x10035e000
+|           0x10035017c      00a02e91       add x0, x0, 0xba8
+|           0x100350180      e1031aaa       mov x1, x26
+|           0x100350184      e20315aa       mov x2, x21
+|           0x100350188      e3031caa       mov x3, x28
+|           0x10035018c      f40316aa       mov x20, x22
+|           0x100350190      cae70394       bl sym.imp.Combine.Publisher.Never_...F_ ; Combine.Publisher.Never(...F)
+|           0x100350194      f40300aa       mov x20, x0
+|           0x100350198      e0031aaa       mov x0, x26                ; void *arg0
+|           0x10035019c      49f60394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x1003501a0      e00316aa       mov x0, x22
+|           0x1003501a4      e10315aa       mov x1, x21
+|           0x1003501a8      e0023fd6       blr x23
+|           0x1003501ac      60021b8b       add x0, x19, x27           ; void *arg0
+|           0x1003501b0      a1a301d1       sub x1, x29, 0x68          ; void *arg1
+|           0x1003501b4      22048052       mov w2, 0x21               ; '!' ; void *arg2
+|           0x1003501b8      030080d2       mov x3, 0                  ; void *arg3
+|           0x1003501bc      84f50394       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x1003501c0      60021b8b       add x0, x19, x27
+|           0x1003501c4      84e70394       bl sym.imp.Combine.AnyCancellable.store.allocator_...F_ ; Combine.AnyCancellable.store.allocator(...F)
+|           0x1003501c8      a0a301d1       sub x0, x29, 0x68          ; void *arg0
+|           0x1003501cc      c5f50394       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|           0x1003501d0      e00314aa       mov x0, x20                ; void *arg0
+|           0x1003501d4      3bf60394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x1003501d8      e00319aa       mov x0, x25
+|           0x1003501dc      39fb0394       bl fcn.10044eec0
+|           0x1003501e0      fd031daa       mov x29, x29
+|           0x1003501e4      38f50394       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|           0x1003501e8      f40300aa       mov x20, x0
+|           0x1003501ec      a80f00b0       adrp x8, 0x100545000
+|           0x1003501f0      08011191       add x8, x8, 0x440          ; 0x100545440 ; "com.apple.screenLockUIIsHidden"
+|           0x1003501f4      088100d1       sub x8, x8, 0x20
+|           0x1003501f8      a90380d2       mov x9, 0x1d
+|           0x1003501fc      0900faf2       movk x9, 0xd000, lsl 48
+|           0x100350200      20050091       add x0, x9, 1
+|           0x100350204      010141b2       orr x1, x8, 0x8000000000000000
+|           0x100350208      b4ee0394       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+|           0x10035020c      fa0300aa       mov x26, x0
+|           0x100350210      e80316aa       mov x8, x22
+|           0x100350214      010080d2       mov x1, 0
+|           0x100350218      9ff00394       bl sym.imp.NSNotificationCenter.Foundation.allocator_...XlSgtF___1 ; NSNotificationCenter.Foundation.allocator(...XlSgtF)
+|           0x10035021c      e00314aa       mov x0, x20                ; void *instance
+|           0x100350220      20f50394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x100350224      e0031aaa       mov x0, x26                ; void *instance
+|           0x100350228      1ef50394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x10035022c      e00318aa       mov x0, x24
+|           0x100350230      01038052       mov w1, 0x18
+|           0x100350234      e2008052       mov w2, 7
+|           0x100350238      50f50394       bl sym.imp.swift_allocObject
+|           0x10035023c      fa0300aa       mov x26, x0
+|           0x100350240      00400091       add x0, x0, 0x10
+|           0x100350244      e10313aa       mov x1, x19
+|           0x100350248      7ef60394       bl sym.imp.swift_weakInit
+|           0x10035024c      600000d0       adrp x0, 0x10035e000
+|           0x100350250      00202f91       add x0, x0, 0xbc8
+|           0x100350254      e1031aaa       mov x1, x26
+|           0x100350258      e20315aa       mov x2, x21
+|           0x10035025c      e3031caa       mov x3, x28
+|           0x100350260      f8031caa       mov x24, x28
+|           0x100350264      f40316aa       mov x20, x22
+|           0x100350268      94e70394       bl sym.imp.Combine.Publisher.Never_...F_ ; Combine.Publisher.Never(...F)
+|           0x10035026c      f40300aa       mov x20, x0
+|           0x100350270      e0031aaa       mov x0, x26                ; void *arg0
+|           0x100350274      13f60394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x100350278      e00316aa       mov x0, x22
+|           0x10035027c      e10315aa       mov x1, x21
+|           0x100350280      e0023fd6       blr x23
+|           0x100350284      60021b8b       add x0, x19, x27           ; void *arg0
+|           0x100350288      a1a301d1       sub x1, x29, 0x68          ; void *arg1
+|           0x10035028c      22048052       mov w2, 0x21               ; '!' ; void *arg2
+|           0x100350290      030080d2       mov x3, 0                  ; void *arg3
+|           0x100350294      4ef50394       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x100350298      60021b8b       add x0, x19, x27
+|           0x10035029c      4ee70394       bl sym.imp.Combine.AnyCancellable.store.allocator_...F_ ; Combine.AnyCancellable.store.allocator(...F)
+|           0x1003502a0      a0a301d1       sub x0, x29, 0x68          ; void *arg0
+|           0x1003502a4      8ff50394       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|           0x1003502a8      e00314aa       mov x0, x20                ; void *arg0
+|           0x1003502ac      05f60394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x1003502b0      e00319aa       mov x0, x25
+|           0x1003502b4      03fb0394       bl fcn.10044eec0
+|           0x1003502b8      fd031daa       mov x29, x29
+|           0x1003502bc      02f50394       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|           0x1003502c0      f40300aa       mov x20, x0
+|           0x1003502c4      c80f0090       adrp x8, str.playSoundOnTimeToLeave ; 0x100548000
+|           0x1003502c8      08411791       add x8, x8, 0x5d0          ; 0x1005485d0 ; "com.apple.screenIsLocked"
+|           0x1003502cc      088100d1       sub x8, x8, 0x20
+|           0x1003502d0      a90380d2       mov x9, 0x1d
+|           0x1003502d4      0900faf2       movk x9, 0xd000, lsl 48
+|           0x1003502d8      201500d1       sub x0, x9, 5
+|           0x1003502dc      010141b2       orr x1, x8, 0x8000000000000000
+|           0x1003502e0      7eee0394       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+|           0x1003502e4      fa0300aa       mov x26, x0
+|           0x1003502e8      e80316aa       mov x8, x22
+|           0x1003502ec      010080d2       mov x1, 0
+|           0x1003502f0      69f00394       bl sym.imp.NSNotificationCenter.Foundation.allocator_...XlSgtF___1 ; NSNotificationCenter.Foundation.allocator(...XlSgtF)
+|           0x1003502f4      e00314aa       mov x0, x20                ; void *instance
+|           0x1003502f8      eaf40394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x1003502fc      e0031aaa       mov x0, x26                ; void *instance
+|           0x100350300      e8f40394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x100350304      bc1200b0       adrp x28, aav.0x1005a5000
+|           0x100350308      9cc31291       add x28, x28, 0x4b0
+|           0x10035030c      e0031caa       mov x0, x28
+|           0x100350310      01038052       mov w1, 0x18
+|           0x100350314      e2008052       mov w2, 7
+|           0x100350318      18f50394       bl sym.imp.swift_allocObject
+|           0x10035031c      fa0300aa       mov x26, x0
+|           0x100350320      00400091       add x0, x0, 0x10
+|           0x100350324      e10313aa       mov x1, x19
+|           0x100350328      46f60394       bl sym.imp.swift_weakInit
+|           0x10035032c      600000d0       adrp x0, 0x10035e000
+|           0x100350330      00a02f91       add x0, x0, 0xbe8
+|           0x100350334      e1031aaa       mov x1, x26
+|           0x100350338      e20315aa       mov x2, x21
+|           0x10035033c      e30318aa       mov x3, x24
+|           0x100350340      f40316aa       mov x20, x22
+|           0x100350344      5de70394       bl sym.imp.Combine.Publisher.Never_...F_ ; Combine.Publisher.Never(...F)
+|           0x100350348      f40300aa       mov x20, x0
+|           0x10035034c      e0031aaa       mov x0, x26                ; void *arg0
+|           0x100350350      dcf50394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x100350354      e00316aa       mov x0, x22
+|           0x100350358      e10315aa       mov x1, x21
+|           0x10035035c      e0023fd6       blr x23
+|           0x100350360      60021b8b       add x0, x19, x27           ; void *arg0
+|           0x100350364      a1a301d1       sub x1, x29, 0x68          ; void *arg1
+|           0x100350368      22048052       mov w2, 0x21               ; '!' ; void *arg2
+|           0x10035036c      030080d2       mov x3, 0                  ; void *arg3
+|           0x100350370      17f50394       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x100350374      60021b8b       add x0, x19, x27
+|           0x100350378      17e70394       bl sym.imp.Combine.AnyCancellable.store.allocator_...F_ ; Combine.AnyCancellable.store.allocator(...F)
+|           0x10035037c      a0a301d1       sub x0, x29, 0x68          ; void *arg0
+|           0x100350380      58f50394       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|           0x100350384      e00314aa       mov x0, x20                ; void *arg0
+|           0x100350388      cef50394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x10035038c      e00319aa       mov x0, x25
+|           0x100350390      ccfa0394       bl fcn.10044eec0
+|           0x100350394      fd031daa       mov x29, x29
+|           0x100350398      cbf40394       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|           0x10035039c      f40300aa       mov x20, x0
+|           0x1003503a0      c80f0090       adrp x8, str.playSoundOnTimeToLeave ; 0x100548000
+|           0x1003503a4      08c11791       add x8, x8, 0x5f0          ; 0x1005485f0 ; "com.apple.screenIsUnlocked"
+|           0x1003503a8      088100d1       sub x8, x8, 0x20
+|           0x1003503ac      a90380d2       mov x9, 0x1d
+|           0x1003503b0      0900faf2       movk x9, 0xd000, lsl 48
+|           0x1003503b4      200d00d1       sub x0, x9, 3
+|           0x1003503b8      010141b2       orr x1, x8, 0x8000000000000000
+|           0x1003503bc      47ee0394       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+|           0x1003503c0      f90300aa       mov x25, x0
+|           0x1003503c4      e80316aa       mov x8, x22
+|           0x1003503c8      010080d2       mov x1, 0
+|           0x1003503cc      32f00394       bl sym.imp.NSNotificationCenter.Foundation.allocator_...XlSgtF___1 ; NSNotificationCenter.Foundation.allocator(...XlSgtF)
+|           0x1003503d0      e00314aa       mov x0, x20                ; void *instance
+|           0x1003503d4      b3f40394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x1003503d8      e00319aa       mov x0, x25                ; void *instance
+|           0x1003503dc      b1f40394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x1003503e0      e0031caa       mov x0, x28
+|           0x1003503e4      01038052       mov w1, 0x18
+|           0x1003503e8      e2008052       mov w2, 7
+|           0x1003503ec      e3f40394       bl sym.imp.swift_allocObject
+|           0x1003503f0      f90300aa       mov x25, x0
+|           0x1003503f4      00400091       add x0, x0, 0x10
+|           0x1003503f8      e10313aa       mov x1, x19
+|           0x1003503fc      11f60394       bl sym.imp.swift_weakInit
+|           0x100350400      600000d0       adrp x0, 0x10035e000
+|           0x100350404      00203091       add x0, x0, 0xc08
+|           0x100350408      e10319aa       mov x1, x25
+|           0x10035040c      e20315aa       mov x2, x21
+|           0x100350410      fc0318aa       mov x28, x24
+|           0x100350414      e30318aa       mov x3, x24
+|           0x100350418      f40316aa       mov x20, x22
+|           0x10035041c      27e70394       bl sym.imp.Combine.Publisher.Never_...F_ ; Combine.Publisher.Never(...F)
+|           0x100350420      f40300aa       mov x20, x0
+|           0x100350424      e00319aa       mov x0, x25                ; void *arg0
+|           0x100350428      a6f50394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x10035042c      e00316aa       mov x0, x22
+|           0x100350430      e10315aa       mov x1, x21
+|           0x100350434      e0023fd6       blr x23
+|           0x100350438      60021b8b       add x0, x19, x27           ; void *arg0
+|           0x10035043c      a1a301d1       sub x1, x29, 0x68          ; void *arg1
+|           0x100350440      22048052       mov w2, 0x21               ; '!' ; void *arg2
+|           0x100350444      030080d2       mov x3, 0                  ; void *arg3
+|           0x100350448      e1f40394       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x10035044c      60021b8b       add x0, x19, x27
+|           0x100350450      e1e60394       bl sym.imp.Combine.AnyCancellable.store.allocator_...F_ ; Combine.AnyCancellable.store.allocator(...F)
+|           0x100350454      a0a301d1       sub x0, x29, 0x68          ; void *arg0
+|           0x100350458      22f50394       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|           0x10035045c      e00314aa       mov x0, x20                ; void *arg0
+|           0x100350460      98f50394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x100350464      081300d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100350468      008944f9       ldr x0, [x8, 0x910]        ; [0x1005b2910:8]=0x8010000000000343 ; void *arg0
+|           0x10035046c      8af40394       bl sym.imp.objc_opt_self   ; void *objc_opt_self(void *arg0)
+|           0x100350470      f90300aa       mov x25, x0
+|           0x100350474      1b090494       bl fcn.1004528e0
+|           0x100350478      fd031daa       mov x29, x29
+|           0x10035047c      92f40394       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|           0x100350480      f40300aa       mov x20, x0
+|           0x100350484      2f000494       bl fcn.100450540
+|           0x100350488      fd031daa       mov x29, x29
+|           0x10035048c      8ef40394       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|           0x100350490      fa0300aa       mov x26, x0
+|           0x100350494      e00314aa       mov x0, x20                ; void *instance
+|           0x100350498      82f40394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x10035049c      081300d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1003504a0      08fd43f9       ldr x8, [x8, 0x7f8]        ; [0x1005b27f8:8]=0x8010000000000320
+|           0x1003504a4      000140f9       ldr x0, [x8]
+|           0x1003504a8      e80316aa       mov x8, x22
+|           0x1003504ac      010080d2       mov x1, 0
+|           0x1003504b0      f4031aaa       mov x20, x26
+|           0x1003504b4      f8ef0394       bl sym.imp.NSNotificationCenter.Foundation.allocator_...XlSgtF___1 ; NSNotificationCenter.Foundation.allocator(...XlSgtF)
+|           0x1003504b8      e0031aaa       mov x0, x26                ; void *instance
+|           0x1003504bc      79f40394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x1003504c0      b81200b0       adrp x24, aav.0x1005a5000
+|           0x1003504c4      18c31291       add x24, x24, 0x4b0
+|           0x1003504c8      e00318aa       mov x0, x24
+|           0x1003504cc      01038052       mov w1, 0x18
+|           0x1003504d0      e2008052       mov w2, 7
+|           0x1003504d4      a9f40394       bl sym.imp.swift_allocObject
+|           0x1003504d8      fa0300aa       mov x26, x0
+|           0x1003504dc      00400091       add x0, x0, 0x10
+|           0x1003504e0      e10313aa       mov x1, x19
+|           0x1003504e4      d7f50394       bl sym.imp.swift_weakInit
+|           0x1003504e8      600000d0       adrp x0, 0x10035e000
+|           0x1003504ec      00403091       add x0, x0, 0xc10
+|           0x1003504f0      e1031aaa       mov x1, x26
+|           0x1003504f4      e20315aa       mov x2, x21
+|           0x1003504f8      e3031caa       mov x3, x28
+|           0x1003504fc      f40316aa       mov x20, x22
+|           0x100350500      eee60394       bl sym.imp.Combine.Publisher.Never_...F_ ; Combine.Publisher.Never(...F)
+|           0x100350504      f40300aa       mov x20, x0
+|           0x100350508      e0031aaa       mov x0, x26                ; void *arg0
+|           0x10035050c      6df50394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x100350510      e00316aa       mov x0, x22
+|           0x100350514      e10315aa       mov x1, x21
+|           0x100350518      e0023fd6       blr x23
+|           0x10035051c      60021b8b       add x0, x19, x27           ; void *arg0
+|           0x100350520      a1a301d1       sub x1, x29, 0x68          ; void *arg1
+|           0x100350524      22048052       mov w2, 0x21               ; '!' ; void *arg2
+|           0x100350528      030080d2       mov x3, 0                  ; void *arg3
+|           0x10035052c      a8f40394       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x100350530      60021b8b       add x0, x19, x27
+|           0x100350534      a8e60394       bl sym.imp.Combine.AnyCancellable.store.allocator_...F_ ; Combine.AnyCancellable.store.allocator(...F)
+|           0x100350538      a0a301d1       sub x0, x29, 0x68          ; void *arg0
+|           0x10035053c      e9f40394       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|           0x100350540      e00314aa       mov x0, x20                ; void *arg0
+|           0x100350544      5ff50394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x100350548      e00319aa       mov x0, x25
+|           0x10035054c      e5080494       bl fcn.1004528e0
+|           0x100350550      fd031daa       mov x29, x29
+|           0x100350554      5cf40394       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|           0x100350558      f40300aa       mov x20, x0
+|           0x10035055c      f9ff0394       bl fcn.100450540
+|           0x100350560      fd031daa       mov x29, x29
+|           0x100350564      58f40394       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|           0x100350568      f90300aa       mov x25, x0
+|           0x10035056c      e00314aa       mov x0, x20                ; void *instance
+|           0x100350570      4cf40394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x100350574      081300d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100350578      080144f9       ldr x8, [x8, 0x800]        ; [0x1005b2800:8]=0x8010000000000321
+|           0x10035057c      000140f9       ldr x0, [x8]
+|           0x100350580      e80316aa       mov x8, x22
+|           0x100350584      010080d2       mov x1, 0
+|           0x100350588      f40319aa       mov x20, x25
+|           0x10035058c      c2ef0394       bl sym.imp.NSNotificationCenter.Foundation.allocator_...XlSgtF___1 ; NSNotificationCenter.Foundation.allocator(...XlSgtF)
+|           0x100350590      e00319aa       mov x0, x25                ; void *instance
+|           0x100350594      43f40394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x100350598      e00318aa       mov x0, x24
+|           0x10035059c      01038052       mov w1, 0x18
+|           0x1003505a0      e2008052       mov w2, 7
+|           0x1003505a4      75f40394       bl sym.imp.swift_allocObject
+|           0x1003505a8      f80300aa       mov x24, x0
+|           0x1003505ac      00400091       add x0, x0, 0x10
+|           0x1003505b0      e10313aa       mov x1, x19
+|           0x1003505b4      a3f50394       bl sym.imp.swift_weakInit
+|           0x1003505b8      600000d0       adrp x0, 0x10035e000
+|           0x1003505bc      00603091       add x0, x0, 0xc18
+|           0x1003505c0      e10318aa       mov x1, x24
+|           0x1003505c4      e20315aa       mov x2, x21
+|           0x1003505c8      e3031caa       mov x3, x28
+|           0x1003505cc      f40316aa       mov x20, x22
+|           0x1003505d0      bae60394       bl sym.imp.Combine.Publisher.Never_...F_ ; Combine.Publisher.Never(...F)
+|           0x1003505d4      f40300aa       mov x20, x0
+|           0x1003505d8      e00318aa       mov x0, x24                ; void *arg0
+|           0x1003505dc      39f50394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x1003505e0      e00316aa       mov x0, x22
+|           0x1003505e4      e10315aa       mov x1, x21
+|           0x1003505e8      e0023fd6       blr x23
+|           0x1003505ec      60021b8b       add x0, x19, x27           ; void *arg0
+|           0x1003505f0      a1a301d1       sub x1, x29, 0x68          ; void *arg1
+|           0x1003505f4      22048052       mov w2, 0x21               ; '!' ; void *arg2
+|           0x1003505f8      030080d2       mov x3, 0                  ; void *arg3
+|           0x1003505fc      74f40394       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x100350600      60021b8b       add x0, x19, x27
+|           0x100350604      74e60394       bl sym.imp.Combine.AnyCancellable.store.allocator_...F_ ; Combine.AnyCancellable.store.allocator(...F)
+|           0x100350608      a0a301d1       sub x0, x29, 0x68          ; void *arg0
+|           0x10035060c      b5f40394       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|           0x100350610      e00314aa       mov x0, x20                ; void *arg0
+|           0x100350614      2bf50394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x100350618      081300d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10035061c      00f941f9       ldr x0, [x8, 0x3f0]        ; [0x1005b23f0:8]=0x80100000000002a0 ; reloc.NSNotificationCenter ; void *arg0
+|           0x100350620      1df40394       bl sym.imp.objc_opt_self   ; void *objc_opt_self(void *arg0)
+|           0x100350624      27fa0394       bl fcn.10044eec0
+|           0x100350628      fd031daa       mov x29, x29
+|           0x10035062c      26f40394       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|           0x100350630      f40300aa       mov x20, x0
+|           0x100350634      081300d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100350638      08a943f9       ldr x8, [x8, 0x750]        ; [0x1005b2750:8]=0x801000000000030b
+|           0x10035063c      180140f9       ldr x24, [x8]
+|           0x100350640      081300d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100350644      001944f9       ldr x0, [x8, 0x830]        ; [0x1005b2830:8]=0x8010000000000327 ; void *arg0
+|           0x100350648      13f40394       bl sym.imp.objc_opt_self   ; void *objc_opt_self(void *arg0)
+|           0x10035064c      95080494       bl fcn.1004528a0
+|           0x100350650      fd031daa       mov x29, x29
+|           0x100350654      1cf40394       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|           0x100350658      f90300aa       mov x25, x0
+|           0x10035065c      e80316aa       mov x8, x22
+|           0x100350660      e00318aa       mov x0, x24
+|           0x100350664      e10319aa       mov x1, x25
+|           0x100350668      8bef0394       bl sym.imp.NSNotificationCenter.Foundation.allocator_...XlSgtF___1 ; NSNotificationCenter.Foundation.allocator(...XlSgtF)
+|           0x10035066c      e00314aa       mov x0, x20                ; void *instance
+|           0x100350670      0cf40394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x100350674      e00319aa       mov x0, x25                ; void *instance
+|           0x100350678      0af40394       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|           0x10035067c      000000d0       adrp x0, 0x100352000
+|           0x100350680      00d02091       add x0, x0, 0x834
+|           0x100350684      010080d2       mov x1, 0
+|           0x100350688      e20315aa       mov x2, x21
+|           0x10035068c      e3031caa       mov x3, x28
+|           0x100350690      f40316aa       mov x20, x22
+|           0x100350694      89e60394       bl sym.imp.Combine.Publisher.Never_...F_ ; Combine.Publisher.Never(...F)
+|           0x100350698      f40300aa       mov x20, x0
+|           0x10035069c      e00316aa       mov x0, x22
+|           0x1003506a0      e10315aa       mov x1, x21
+|           0x1003506a4      e0023fd6       blr x23
+|           0x1003506a8      60021b8b       add x0, x19, x27           ; void *arg0
+|           0x1003506ac      a1a301d1       sub x1, x29, 0x68          ; void *arg1
+|           0x1003506b0      22048052       mov w2, 0x21               ; '!' ; void *arg2
+|           0x1003506b4      030080d2       mov x3, 0                  ; void *arg3
+|           0x1003506b8      45f40394       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|           0x1003506bc      60021b8b       add x0, x19, x27
+|           0x1003506c0      45e60394       bl sym.imp.Combine.AnyCancellable.store.allocator_...F_ ; Combine.AnyCancellable.store.allocator(...F)
+|           0x1003506c4      a0a301d1       sub x0, x29, 0x68          ; void *arg0
+|           0x1003506c8      86f40394       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|           0x1003506cc      e00314aa       mov x0, x20                ; void *arg0
+|           0x1003506d0      fcf40394       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|           0x1003506d4      bf4301d1       sub sp, x29, 0x50
+|           0x1003506d8      fd7b45a9       ldp x29, x30, [var_30h]
+|           0x1003506dc      f44f44a9       ldp x20, x19, [var_20h]
+|           0x1003506e0      f65743a9       ldp x22, x21, [var_10h]
+|           0x1003506e4      f85f42a9       ldp x24, x23, [var_20h]
+|           0x1003506e8      fa6741a9       ldp x26, x25, [var_10h]
+|           0x1003506ec      fc6fc6a8       ldp x28, x27, [sp], 0x60
+\           0x1003506f0      c0035fd6       ret

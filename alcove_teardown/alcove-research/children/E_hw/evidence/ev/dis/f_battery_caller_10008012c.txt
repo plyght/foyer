@@ -1,0 +1,497 @@
+            ; CALL XREF from sym.func.10007f674 @ 0x10007f9f8(x)
+/ 1956: sym.func.10008012c ();
+| `- args(x21) vars(91:sp[0x8..0x11a0])
+|           0x10008012c      ed33b76d       stp d13, d12, [var_90h]!
+|           0x100080130      eb2b016d       stp d11, d10, [var_10h]
+|           0x100080134      e923026d       stp d9, d8, [var_20h]
+|           0x100080138      fc6f03a9       stp x28, x27, [var_30h]
+|           0x10008013c      fa6704a9       stp x26, x25, [var_40h]
+|           0x100080140      f85f05a9       stp x24, x23, [var_50h]
+|           0x100080144      f65706a9       stp x22, x21, [var_60h]
+|           0x100080148      f44f07a9       stp x20, x19, [var_70h]
+|           0x10008014c      fd7b08a9       stp x29, x30, [var_80h]
+|           0x100080150      fd030291       add x29, sp, 0x80
+|           0x100080154      09228252       mov w9, 0x1110             ; '\x10\x11'
+|           0x100080158      902900d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10008015c      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x100080160      00023fd6       blr x16
+|           0x100080164      ff0740d1       sub sp, sp, 1, lsl 12
+|           0x100080168      ff4304d1       sub sp, sp, 0x110
+|           0x10008016c      f3030091       mov x19, sp
+|           0x100080170      f50300aa       mov x21, x0                ; error
+|           0x100080174      681600f9       str x8, [x19, 0x28]
+|           0x100080178      000080d2       mov x0, 0
+|           0x10008017c      152a0f94       bl sym.imp.SwiftUI.ControlActiveState..metadata.accessor_...a_ ; SwiftUI.ControlActiveState..metadata.accessor(...a)
+|           0x100080180      08805ff8       ldur x8, [x0, -8]
+|           0x100080184      602201a9       stp x0, x8, [x19, 0x10]
+|           0x100080188      082140f9       ldr x8, [x8, 0x40]
+|           0x10008018c      e90308aa       mov x9, x8
+|           0x100080190      902900d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x100080194      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x100080198      00023fd6       blr x16
+|           0x10008019c      e9030091       mov x9, sp
+|           0x1000801a0      0a3d0091       add x10, x8, 0xf
+|           0x1000801a4      4ced7c92       and x12, x10, 0xfffffffffffffff0
+|           0x1000801a8      39010ccb       sub x25, x9, x12
+|           0x1000801ac      3f030091       mov sp, x25
+|           0x1000801b0      e90308aa       mov x9, x8
+|           0x1000801b4      902900d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1000801b8      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x1000801bc      00023fd6       blr x16
+|           0x1000801c0      e8030091       mov x8, sp
+|           0x1000801c4      1a010ccb       sub x26, x8, x12
+|           0x1000801c8      5f030091       mov sp, x26
+|           0x1000801cc      402a00f0       adrp x0, 0x1005cb000
+|           0x1000801d0      00602391       add x0, x0, 0x8d8          ; int64_t arg1
+|           0x1000801d4      c11e00b0       adrp x1, 0x100459000
+|           0x1000801d8      21e03491       add x1, x1, 0xd38          ; int64_t arg2
+|           0x1000801dc      500afe97       bl sym.func.100002b1c
+|           0x1000801e0      f80300aa       mov x24, x0
+|           0x1000801e4      08805ff8       ldur x8, [x0, -8]
+|           0x1000801e8      082140f9       ldr x8, [x8, 0x40]
+|           0x1000801ec      e90308aa       mov x9, x8
+|           0x1000801f0      902900d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x1000801f4      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x1000801f8      00023fd6       blr x16
+|           0x1000801fc      e9030091       mov x9, sp
+|           0x100080200      0a3d0091       add x10, x8, 0xf
+|           0x100080204      4ced7c92       and x12, x10, 0xfffffffffffffff0
+|           0x100080208      29010ccb       sub x9, x9, x12
+|           0x10008020c      691200f9       str x9, [x19, 0x20]
+|           0x100080210      3f010091       mov sp, x9
+|           0x100080214      e90308aa       mov x9, x8
+|           0x100080218      902900d0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10008021c      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x100080220      00023fd6       blr x16
+|           0x100080224      e8030091       mov x8, sp
+|           0x100080228      17010ccb       sub x23, x8, x12
+|           0x10008022c      ff020091       mov sp, x23
+|           0x100080230      022b0f94       bl sym.imp.SwiftUI.Axis.Set.vertical_...vgZ_ ; SwiftUI.Axis.Set.vertical(...vgZ)
+|           0x100080234      f40300aa       mov x20, x0
+|           0x100080238      750600f9       str x21, [x19, 8]
+|           0x10008023c      75c205f9       str x21, [x19, 0xb80]
+|           0x100080240      402a00f0       adrp x0, 0x1005cb000
+|           0x100080244      00802391       add x0, x0, 0x8e0          ; int64_t arg1
+|           0x100080248      c11e00b0       adrp x1, 0x100459000
+|           0x10008024c      21003591       add x1, x1, 0xd40          ; int64_t arg2
+|           0x100080250      330afe97       bl sym.func.100002b1c
+|           0x100080254      f50300aa       mov x21, x0
+|           0x100080258      e7060094       bl sym.func.100081df4
+|           0x10008025c      e50300aa       mov x5, x0
+|           0x100080260      020000b0       adrp x2, 0x100081000
+|           0x100080264      42b03791       add x2, x2, 0xdec
+|           0x100080268      63c22d91       add x3, x19, 0xb70
+|           0x10008026c      e80317aa       mov x8, x23
+|           0x100080270      e00314aa       mov x0, x20
+|           0x100080274      21008052       mov w1, 1
+|           0x100080278      e40315aa       mov x4, x21
+|           0x10008027c      d7270f94       bl sym.imp.SwiftUI.ScrollView...V_15showsIndicators7contentACyxGAA4AxisO3SetV_SbxyXEtcfC
+|           0x100080280      482a00b0       adrp x8, 0x1005c9000
+|           0x100080284      080d43f9       ldr x8, [x8, 0x618]
+|           0x100080288      1f0500b1       cmn x8, 1
+|       ,=< 0x10008028c      61310054       b.ne 0x1000808b8
+|       |   ; CODE XREF from sym.func.10008012c @ 0x1000808cc(x)
+|      .--> 0x100080290      7c220791       add x28, x19, 0x1c8
+|      :|   0x100080294      082c00d0       adrp x8, 0x100602000
+|      :|   0x100080298      164547f9       ldr x22, [x8, 0xe88]
+|      :|   0x10008029c      c01e00b0       adrp x0, 0x100459000
+|      :|   0x1000802a0      00603591       add x0, x0, 0xd58
+|      :|   0x1000802a4      b3350f94       bl sym.imp.swift_getKeyPath
+|      :|   0x1000802a8      f50300aa       mov x21, x0
+|      :|   0x1000802ac      482a00b0       adrp x8, 0x1005c9000
+|      :|   0x1000802b0      14a142f9       ldr x20, [x8, 0x540]       ; [0x1005c9540:8]=0
+|      :|                                                              ; field.class.Alcove.SettingsController.var.__observationRegistrar
+|      :|   0x1000802b4      76ba05f9       str x22, [x19, 0xb70]
+|      :|   0x1000802b8      402a00b0       adrp x0, 0x1005c9000
+|      :|   0x1000802bc      00401891       add x0, x0, 0x610          ; int64_t arg1
+|      :|   0x1000802c0      a1fdfff0       adrp x1, 0x100037000
+|      :|   0x1000802c4      21800191       add x1, x1, 0x60           ; int64_t arg2
+|      :|   0x1000802c8      a21e00f0       adrp x2, 0x100457000
+|      :|   0x1000802cc      42402291       add x2, x2, 0x890
+|      :|   0x1000802d0      8b23fe97       bl sym.func.1000090fc
+|      :|   0x1000802d4      e20300aa       mov x2, x0
+|      :|   0x1000802d8      60c22d91       add x0, x19, 0xb70
+|      :|   0x1000802dc      d402148b       add x20, x22, x20
+|      :|   0x1000802e0      e10315aa       mov x1, x21
+|      :|   0x1000802e4      f1260f94       bl sym.imp.Observation.Registrar.access.keyPath.Key...E0Cyxq_GtAA10ObservableRzr0_lF
+|      :|   0x1000802e8      e00315aa       mov x0, x21                ; void *arg0
+|      :|   0x1000802ec      f5350f94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|      :|   0x1000802f0      d4624039       ldrb w20, [x22, 0x18]
+|      :|   0x1000802f4      9f220071       cmp w20, 8
+|     ,===< 0x1000802f8      60020054       b.eq 0x100080344
+|     |:|   0x1000802fc      9f060071       cmp w20, 1
+|    ,====< 0x100080300      61020054       b.ne 0x10008034c
+|    ||:|   0x100080304      000080d2       mov x0, 0
+|    ||:|   0x100080308      c5490394       bl sym.func.100152a1c
+|    ||:|   0x10008030c      f40300aa       mov x20, x0
+|    ||:|   0x100080310      68c22d91       add x8, x19, 0xb70
+|    ||:|   0x100080314      00008052       mov w0, 0                  ; int64_t arg1
+|    ||:|   0x100080318      5c480394       bl sym.func.100152488
+|    ||:|   0x10008031c      74c645f9       ldr x20, [x19, 0xb88]
+|    ||:|   0x100080320      412a0090       adrp x1, 0x1005c8000
+|    ||:|   0x100080324      21603791       add x1, x1, 0xdd8          ; int64_t arg2
+|    ||:|   0x100080328      c21e00b0       adrp x2, 0x100459000
+|    ||:|   0x10008032c      42001a91       add x2, x2, 0x680          ; int64_t arg3
+|    ||:|   0x100080330      60c22d91       add x0, x19, 0xb70         ; int64_t arg1
+|    ||:|   0x100080334      d529fe97       bl sym.func.10000aa88
+|   ,=====< 0x100080338      740000b4       cbz x20, 0x100080344
+|   |||:|   0x10008033c      34008052       mov w20, 1
+|  ,======< 0x100080340      03000014       b 0x10008034c
+|  ||||:|   ; CODE XREFS from sym.func.10008012c @ 0x1000802f8(x), 0x100080338(x)
+|  |`-`---> 0x100080344      d618fe97       bl sym.func.10000669c
+|  | | :|   0x100080348      f40300aa       mov x20, x0
+|  | | :|   ; CODE XREFS from sym.func.10008012c @ 0x100080300(x), 0x100080340(x)
+|  `-`----> 0x10008034c      402a00f0       adrp x0, 0x1005cb000
+|      :|   0x100080350      00402491       add x0, x0, 0x910          ; int64_t arg1
+|      :|   0x100080354      c11e00b0       adrp x1, 0x100459000
+|      :|   0x100080358      21003691       add x1, x1, 0xd80          ; int64_t arg2
+|      :|   0x10008035c      f009fe97       bl sym.func.100002b1c
+|      :|   0x100080360      083480b9       ldrsw x8, [x0, 0x34]
+|      :|   0x100080364      f46a2838       strb w20, [x23, x8]
+|      :|   0x100080368      bd2a0f94       bl sym.imp.SwiftUI.Edge.Set.top_...vgZ_ ; SwiftUI.Edge.Set.top(...vgZ)
+|      :|   0x10008036c      f40300aa       mov x20, x0
+|      :|   0x100080370      2809e8d2       mov x8, 0x4049000000000000
+|      :|   0x100080374      0001679e       fmov d0, x8
+|      :|   0x100080378      80270f94       bl sym.imp.SwiftUI.EdgeInsets._all.CoreGraphics.CGFloat...V_tcfC
+|      :|   0x10008037c      081ca04e       mov v8.16b, v0.16b
+|      :|   0x100080380      291ca14e       mov v9.16b, v1.16b
+|      :|   0x100080384      4a1ca24e       mov v10.16b, v2.16b
+|      :|   0x100080388      6b1ca34e       mov v11.16b, v3.16b
+|      :|   0x10008038c      402a00f0       adrp x0, 0x1005cb000
+|      :|   0x100080390      00602491       add x0, x0, 0x918          ; int64_t arg1
+|      :|   0x100080394      c11e00b0       adrp x1, 0x100459000
+|      :|   0x100080398      21203691       add x1, x1, 0xd88          ; int64_t arg2
+|      :|   0x10008039c      e009fe97       bl sym.func.100002b1c
+|      :|   0x1000803a0      082480b9       ldrsw x8, [x0, 0x24]
+|      :|   0x1000803a4      e802088b       add x8, x23, x8
+|      :|   0x1000803a8      14010039       strb w20, [x8]
+|      :|   0x1000803ac      08a5006d       stp d8, d9, [x8, 8]
+|      :|   0x1000803b0      0aad016d       stp d10, d11, [x8, 0x18]
+|      :|   0x1000803b4      1fa10039       strb wzr, [x8, 0x28]
+|      :|   0x1000803b8      1f2d0f94       bl sym.imp.SwiftUI.Alignment.center_...vgZ_ ; SwiftUI.Alignment.center(...vgZ)
+|      :|   0x1000803bc      f40300aa       mov x20, x0
+|      :|   0x1000803c0      f50301aa       mov x21, x1
+|      :|   0x1000803c4      bf290f94       bl sym.imp.SwiftUI.HorizontalAlignment.center_...vgZ_ ; SwiftUI.HorizontalAlignment.center(...vgZ)
+|      :|   0x1000803c8      608606f9       str x0, [x19, 0xd08]
+|      :|   0x1000803cc      7f8a06f9       str xzr, [x19, 0xd10]
+|      :|   0x1000803d0      7f623439       strb wzr, [x19, 0xd18]
+|      :|   0x1000803d4      68223491       add x8, x19, 0xd08
+|      :|   0x1000803d8      08610091       add x8, x8, 0x18
+|      :|   0x1000803dc      e1010094       bl sym.func.100080b60
+|      :|   0x1000803e0      80e3c23d       ldr q0, [x28, 0xb80]
+|      :|   0x1000803e4      81e7c23d       ldr q1, [x28, 0xb90]
+|      :|   0x1000803e8      6072833d       str q0, [x19, 0xdc0]
+|      :|   0x1000803ec      6176833d       str q1, [x19, 0xdd0]
+|      :|   0x1000803f0      82ebc23d       ldr q2, [x28, 0xba0]
+|      :|   0x1000803f4      627a833d       str q2, [x19, 0xde0]
+|      :|   0x1000803f8      68be46f9       ldr x8, [x19, 0xd78]
+|      :|   0x1000803fc      68fa06f9       str x8, [x19, 0xdf0]
+|      :|   0x100080400      83d3c23d       ldr q3, [x28, 0xb40]
+|      :|   0x100080404      84d7c23d       ldr q4, [x28, 0xb50]
+|      :|   0x100080408      6362833d       str q3, [x19, 0xd80]
+|      :|   0x10008040c      6466833d       str q4, [x19, 0xd90]
+|      :|   0x100080410      85dbc23d       ldr q5, [x28, 0xb60]
+|      :|   0x100080414      86dfc23d       ldr q6, [x28, 0xb70]
+|      :|   0x100080418      656a833d       str q5, [x19, 0xda0]
+|      :|   0x10008041c      666e833d       str q6, [x19, 0xdb0]
+|      :|   0x100080420      6382833d       str q3, [x19, 0xe00]
+|      :|   0x100080424      6486833d       str q4, [x19, 0xe10]
+|      :|   0x100080428      658a833d       str q5, [x19, 0xe20]
+|      :|   0x10008042c      668e833d       str q6, [x19, 0xe30]
+|      :|   0x100080430      6092833d       str q0, [x19, 0xe40]
+|      :|   0x100080434      6196833d       str q1, [x19, 0xe50]
+|      :|   0x100080438      629a833d       str q2, [x19, 0xe60]
+|      :|   0x10008043c      683a07f9       str x8, [x19, 0xe70]
+|      :|   0x100080440      5b2a00f0       adrp x27, 0x1005cb000
+|      :|   0x100080444      7b832491       add x27, x27, 0x920
+|      :|   0x100080448      d61e00b0       adrp x22, 0x100459000
+|      :|   0x10008044c      d6423691       add x22, x22, 0xd90
+|      :|   0x100080450      60023691       add x0, x19, 0xd80         ; int64_t arg1
+|      :|   0x100080454      61c22d91       add x1, x19, 0xb70         ; int64_t arg2
+|      :|   0x100080458      e2031baa       mov x2, x27                ; int64_t arg3
+|      :|   0x10008045c      e30316aa       mov x3, x22
+|      :|   0x100080460      9a29fe97       bl sym.func.10000aac8
+|      :|   0x100080464      60023891       add x0, x19, 0xe00         ; int64_t arg1
+|      :|   0x100080468      e1031baa       mov x1, x27                ; int64_t arg2
+|      :|   0x10008046c      e20316aa       mov x2, x22                ; int64_t arg3
+|      :|   0x100080470      8629fe97       bl sym.func.10000aa88
+|      :|   0x100080474      68be46f9       ldr x8, [x19, 0xd78]
+|      :|   0x100080478      69be46f9       ldr x9, [x19, 0xd78]
+|      :|   0x10008047c      688207f9       str x8, [x19, 0xf00]
+|      :|   0x100080480      744207f9       str x20, [x19, 0xe80]
+|      :|   0x100080484      754607f9       str x21, [x19, 0xe88]
+|      :|   0x100080488      80e3c23d       ldr q0, [x28, 0xb80]
+|      :|   0x10008048c      81e7c23d       ldr q1, [x28, 0xb90]
+|      :|   0x100080490      60b6833d       str q0, [x19, 0xed0]
+|      :|   0x100080494      61ba833d       str q1, [x19, 0xee0]
+|      :|   0x100080498      80ebc23d       ldr q0, [x28, 0xba0]
+|      :|   0x10008049c      60be833d       str q0, [x19, 0xef0]
+|      :|   0x1000804a0      80d3c23d       ldr q0, [x28, 0xb40]
+|      :|   0x1000804a4      81d7c23d       ldr q1, [x28, 0xb50]
+|      :|   0x1000804a8      60a6833d       str q0, [x19, 0xe90]
+|      :|   0x1000804ac      61aa833d       str q1, [x19, 0xea0]
+|      :|   0x1000804b0      80dbc23d       ldr q0, [x28, 0xb60]
+|      :|   0x1000804b4      81dfc23d       ldr q1, [x28, 0xb70]
+|      :|   0x1000804b8      60ae833d       str q0, [x19, 0xeb0]
+|      :|   0x1000804bc      61b2833d       str q1, [x19, 0xec0]
+|      :|   0x1000804c0      7f223c39       strb wzr, [x19, 0xf08]
+|      :|   0x1000804c4      082780b9       ldrsw x8, [x24, 0x24]
+|      :|   0x1000804c8      e802088b       add x8, x23, x8
+|      :|   0x1000804cc      60bac33d       ldr q0, [x19, 0xee0]
+|      :|   0x1000804d0      61bec33d       ldr q1, [x19, 0xef0]
+|      :|   0x1000804d4      000503ad       stp q0, q1, [x8, 0x60]
+|      :|   0x1000804d8      6aea3791       add x10, x19, 0xdfa
+|      :|   0x1000804dc      40f1cf3c       ldur q0, [x10, 0xff]
+|      :|   0x1000804e0      0091873c       stur q0, [x8, 0x79]
+|      :|   0x1000804e4      60aac33d       ldr q0, [x19, 0xea0]
+|      :|   0x1000804e8      61aec33d       ldr q1, [x19, 0xeb0]
+|      :|   0x1000804ec      000501ad       stp q0, q1, [x8, 0x20]
+|      :|   0x1000804f0      60b6c33d       ldr q0, [x19, 0xed0]
+|      :|   0x1000804f4      61b2c33d       ldr q1, [x19, 0xec0]
+|      :|   0x1000804f8      010102ad       stp q1, q0, [x8, 0x40]
+|      :|   0x1000804fc      60a6c33d       ldr q0, [x19, 0xe90]
+|      :|   0x100080500      61a2c33d       ldr q1, [x19, 0xe80]
+|      :|   0x100080504      010100ad       stp q1, q0, [x8]
+|      :|   0x100080508      748a07f9       str x20, [x19, 0xf10]
+|      :|   0x10008050c      758e07f9       str x21, [x19, 0xf18]
+|      :|   0x100080510      80e3c23d       ldr q0, [x28, 0xb80]
+|      :|   0x100080514      81e7c23d       ldr q1, [x28, 0xb90]
+|      :|   0x100080518      60da833d       str q0, [x19, 0xf60]
+|      :|   0x10008051c      61de833d       str q1, [x19, 0xf70]
+|      :|   0x100080520      80ebc23d       ldr q0, [x28, 0xba0]
+|      :|   0x100080524      60e2833d       str q0, [x19, 0xf80]
+|      :|   0x100080528      69ca07f9       str x9, [x19, 0xf90]
+|      :|   0x10008052c      80d3c23d       ldr q0, [x28, 0xb40]
+|      :|   0x100080530      81d7c23d       ldr q1, [x28, 0xb50]
+|      :|   0x100080534      60ca833d       str q0, [x19, 0xf20]
+|      :|   0x100080538      61ce833d       str q1, [x19, 0xf30]
+|      :|   0x10008053c      80dbc23d       ldr q0, [x28, 0xb60]
+|      :|   0x100080540      81dfc23d       ldr q1, [x28, 0xb70]
+|      :|   0x100080544      60d2833d       str q0, [x19, 0xf40]
+|      :|   0x100080548      61d6833d       str q1, [x19, 0xf50]
+|      :|   0x10008054c      7f623e39       strb wzr, [x19, 0xf98]
+|      :|   0x100080550      542a00f0       adrp x20, 0x1005cb000
+|      :|   0x100080554      94a22491       add x20, x20, 0x928
+|      :|   0x100080558      d51e00b0       adrp x21, 0x100459000
+|      :|   0x10008055c      b5623691       add x21, x21, 0xd98
+|      :|   0x100080560      76c22d91       add x22, x19, 0xb70
+|      :|   0x100080564      60023a91       add x0, x19, 0xe80         ; int64_t arg1
+|      :|   0x100080568      61c22d91       add x1, x19, 0xb70         ; int64_t arg2
+|      :|   0x10008056c      e20314aa       mov x2, x20                ; int64_t arg3
+|      :|   0x100080570      e30315aa       mov x3, x21
+|      :|   0x100080574      5529fe97       bl sym.func.10000aac8
+|      :|   0x100080578      60423c91       add x0, x19, 0xf10         ; int64_t arg1
+|      :|   0x10008057c      e10314aa       mov x1, x20                ; int64_t arg2
+|      :|   0x100080580      e20315aa       mov x2, x21                ; int64_t arg3
+|      :|   0x100080584      4129fe97       bl sym.func.10000aa88
+|      :|   0x100080588      f92c0f94       bl sym.imp.SwiftUI.UnitPoint.top_...vgZ_ ; SwiftUI.UnitPoint.top(...vgZ)
+|      :|   0x10008058c      081ca04e       mov v8.16b, v0.16b
+|      :|   0x100080590      291ca14e       mov v9.16b, v1.16b
+|      :|   0x100080594      f92c0f94       bl sym.imp.SwiftUI.UnitPoint.bottom_...vgZ_ ; SwiftUI.UnitPoint.bottom(...vgZ)
+|      :|   0x100080598      0a1ca04e       mov v10.16b, v0.16b
+|      :|   0x10008059c      2b1ca14e       mov v11.16b, v1.16b
+|      :|   0x1000805a0      a52c0f94       bl sym.imp.SwiftUI.Alignment.center_...vgZ_ ; SwiftUI.Alignment.center(...vgZ)
+|      :|   0x1000805a4      e40300aa       mov x4, x0
+|      :|   0x1000805a8      e50301aa       mov x5, x1
+|      :|   0x1000805ac      68220791       add x8, x19, 0x1c8
+|      :|   0x1000805b0      000080d2       mov x0, 0
+|      :|   0x1000805b4      21008052       mov w1, 1
+|      :|   0x1000805b8      8209e8d2       mov x2, 0x404c000000000000
+|      :|   0x1000805bc      03008052       mov w3, 0
+|      :|   0x1000805c0      63270f94       bl sym.imp.SwiftUI._FrameLayout.width.height.alignment.CoreGraphics.CGFloat.Alignment...VtcfC
+|      :|   0x1000805c4      3f290f94       bl sym.imp.SwiftUI.HorizontalAlignment.center_...vgZ_ ; SwiftUI.HorizontalAlignment.center(...vgZ)
+|      :|   0x1000805c8      60ba05f9       str x0, [x19, 0xb70]
+|      :|   0x1000805cc      7fbe05f9       str xzr, [x19, 0xb78]
+|      :|   0x1000805d0      7f022e39       strb wzr, [x19, 0xb80]
+|      :|   0x1000805d4      c8620091       add x8, x22, 0x18
+|      :|   0x1000805d8      740640f9       ldr x20, [x19, 8]
+|      :|   0x1000805dc      e00314aa       mov x0, x20                ; int64_t arg1
+|      :|   0x1000805e0      f0010094       bl sym.func.100080da0
+|      :|   0x1000805e4      942c0f94       bl sym.imp.SwiftUI.Alignment.center_...vgZ_ ; SwiftUI.Alignment.center(...vgZ)
+|      :|   0x1000805e8      f80300aa       mov x24, x0
+|      :|   0x1000805ec      f50301aa       mov x21, x1
+|      :|   0x1000805f0      60823e91       add x0, x19, 0xfa0         ; void *s1
+|      :|   0x1000805f4      61c22d91       add x1, x19, 0xb70         ; const void *s2
+|      :|   0x1000805f8      222b8052       mov w2, 0x159              ; size_t n
+|      :|   0x1000805fc      08340f94       bl sym.imp.memcpy          ; void *memcpy(void *s1, const void *s2, size_t n)
+|      :|   0x100080600      562a00f0       adrp x22, 0x1005cb000
+|      :|   0x100080604      d6c22491       add x22, x22, 0x930
+|      :|   0x100080608      db1e00b0       adrp x27, 0x100459000
+|      :|   0x10008060c      7b833691       add x27, x27, 0xda0
+|      :|   0x100080610      60823e91       add x0, x19, 0xfa0         ; int64_t arg1
+|      :|   0x100080614      61222191       add x1, x19, 0x848         ; int64_t arg2
+|      :|   0x100080618      e20316aa       mov x2, x22                ; int64_t arg3
+|      :|   0x10008061c      e3031baa       mov x3, x27
+|      :|   0x100080620      2a29fe97       bl sym.func.10000aac8
+|      :|   0x100080624      68822791       add x8, x19, 0x9e0
+|      :|   0x100080628      08810591       add x8, x8, 0x160
+|      :|   0x10008062c      000080d2       mov x0, 0
+|      :|   0x100080630      21008052       mov w1, 1
+|      :|   0x100080634      2209e8d2       mov x2, 0x4049000000000000
+|      :|   0x100080638      03008052       mov w3, 0
+|      :|   0x10008063c      e40318aa       mov x4, x24
+|      :|   0x100080640      e50315aa       mov x5, x21
+|      :|   0x100080644      42270f94       bl sym.imp.SwiftUI._FrameLayout.width.height.alignment.CoreGraphics.CGFloat.Alignment...VtcfC
+|      :|   0x100080648      60822791       add x0, x19, 0x9e0         ; void *s1
+|      :|   0x10008064c      61823e91       add x1, x19, 0xfa0         ; const void *s2
+|      :|   0x100080650      222b8052       mov w2, 0x159              ; size_t n
+|      :|   0x100080654      f2330f94       bl sym.imp.memcpy          ; void *memcpy(void *s1, const void *s2, size_t n)
+|      :|   0x100080658      60c22d91       add x0, x19, 0xb70         ; int64_t arg1
+|      :|   0x10008065c      e10316aa       mov x1, x22                ; int64_t arg2
+|      :|   0x100080660      e2031baa       mov x2, x27                ; int64_t arg3
+|      :|   0x100080664      0929fe97       bl sym.func.10000aa88
+|      :|   0x100080668      e8031aaa       mov x8, x26
+|      :|   0x10008066c      8bd50194       bl sym.func.1000f5c98
+|      :|   0x100080670      882900f0       adrp x8, reloc.EKEventStore ; 0x1005b3000
+|      :|   0x100080674      08c947f9       ldr x8, [x8, 0xf90]        ; [0x1005b3f90:8]=0x80100000000005e3 ; reloc.SwiftUI.ControlActiveState.key_...A2CmFWC_
+|      :|   0x100080678      010140b9       ldr w1, [x8]
+|      :|   0x10008067c      765641a9       ldp x22, x21, [x19, 0x10]
+|      :|   0x100080680      a83640f9       ldr x8, [x21, 0x68]
+|      :|   0x100080684      e00319aa       mov x0, x25
+|      :|   0x100080688      e20316aa       mov x2, x22
+|      :|   0x10008068c      00013fd6       blr x8
+|      :|   0x100080690      e0031aaa       mov x0, x26
+|      :|   0x100080694      e10319aa       mov x1, x25
+|      :|   0x100080698      cb280f94       bl sym.imp.SwiftUI.ControlActiveState.ee._...FZ_ ; SwiftUI.ControlActiveState.ee.(...FZ)
+|      :|   0x10008069c      f40300aa       mov x20, x0
+|      :|   0x1000806a0      b50640f9       ldr x21, [x21, 8]
+|      :|   0x1000806a4      e00319aa       mov x0, x25
+|      :|   0x1000806a8      e10316aa       mov x1, x22
+|      :|   0x1000806ac      a0023fd6       blr x21
+|      :|   0x1000806b0      e0031aaa       mov x0, x26
+|      :|   0x1000806b4      e10316aa       mov x1, x22
+|      :|   0x1000806b8      a0023fd6       blr x21
+|      :|   0x1000806bc      9f020072       tst w20, 1
+|      :|   0x1000806c0      00106c1e       fmov d0, 0.50000000
+|      :|   0x1000806c4      01106e1e       fmov d1, 1.00000000
+|      :|   0x1000806c8      2c1c601e       fcsel d12, d1, d0, ne
+|      :|   0x1000806cc      60e20791       add x0, x19, 0x1f8         ; void *s1
+|      :|   0x1000806d0      61822791       add x1, x19, 0x9e0         ; const void *s2
+|      :|   0x1000806d4      02328052       mov w2, 0x190              ; size_t n
+|      :|   0x1000806d8      d1330f94       bl sym.imp.memcpy          ; void *memcpy(void *s1, const void *s2, size_t n)
+|      :|   0x1000806dc      6c8206fd       str d12, [x19, 0xd00]
+|      :|   0x1000806e0      60c22d91       add x0, x19, 0xb70         ; void *s1
+|      :|   0x1000806e4      61822791       add x1, x19, 0x9e0         ; const void *s2
+|      :|   0x1000806e8      02328052       mov w2, 0x190              ; size_t n
+|      :|   0x1000806ec      cc330f94       bl sym.imp.memcpy          ; void *memcpy(void *s1, const void *s2, size_t n)
+|      :|   0x1000806f0      60220e91       add x0, x19, 0x388         ; void *s1
+|      :|   0x1000806f4      61822791       add x1, x19, 0x9e0         ; const void *s2
+|      :|   0x1000806f8      02328052       mov w2, 0x190              ; size_t n
+|      :|   0x1000806fc      c8330f94       bl sym.imp.memcpy          ; void *memcpy(void *s1, const void *s2, size_t n)
+|      :|   0x100080700      542a00f0       adrp x20, 0x1005cb000
+|      :|   0x100080704      94e22491       add x20, x20, 0x938
+|      :|   0x100080708      d51e00b0       adrp x21, 0x100459000
+|      :|   0x10008070c      b5a23691       add x21, x21, 0xda8
+|      :|   0x100080710      60e20791       add x0, x19, 0x1f8         ; int64_t arg1
+|      :|   0x100080714      61222191       add x1, x19, 0x848         ; int64_t arg2
+|      :|   0x100080718      e20314aa       mov x2, x20                ; int64_t arg3
+|      :|   0x10008071c      e30315aa       mov x3, x21
+|      :|   0x100080720      ea28fe97       bl sym.func.10000aac8
+|      :|   0x100080724      60220e91       add x0, x19, 0x388         ; int64_t arg1
+|      :|   0x100080728      e10314aa       mov x1, x20                ; int64_t arg2
+|      :|   0x10008072c      e20315aa       mov x2, x21                ; int64_t arg3
+|      :|   0x100080730      d628fe97       bl sym.func.10000aa88
+|      :|   0x100080734      542a00f0       adrp x20, 0x1005cb000
+|      :|   0x100080738      94622391       add x20, x20, 0x8d8
+|      :|   0x10008073c      d51e00b0       adrp x21, 0x100459000
+|      :|   0x100080740      b5e23491       add x21, x21, 0xd38
+|      :|   0x100080744      e00317aa       mov x0, x23                ; int64_t arg1
+|      :|   0x100080748      791240f9       ldr x25, [x19, 0x20]
+|      :|   0x10008074c      e10319aa       mov x1, x25                ; int64_t arg2
+|      :|   0x100080750      e20314aa       mov x2, x20                ; int64_t arg3
+|      :|   0x100080754      e30315aa       mov x3, x21
+|      :|   0x100080758      dc28fe97       bl sym.func.10000aac8
+|      :|   0x10008075c      60621491       add x0, x19, 0x518         ; void *s1
+|      :|   0x100080760      61c22d91       add x1, x19, 0xb70         ; const void *s2
+|      :|   0x100080764      02338052       mov w2, 0x198              ; size_t n
+|      :|   0x100080768      ad330f94       bl sym.imp.memcpy          ; void *memcpy(void *s1, const void *s2, size_t n)
+|      :|   0x10008076c      60222191       add x0, x19, 0x848         ; void *s1
+|      :|   0x100080770      61c22d91       add x1, x19, 0xb70         ; const void *s2
+|      :|   0x100080774      02338052       mov w2, 0x198              ; size_t n
+|      :|   0x100080778      a9330f94       bl sym.imp.memcpy          ; void *memcpy(void *s1, const void *s2, size_t n)
+|      :|   0x10008077c      e00319aa       mov x0, x25                ; int64_t arg1
+|      :|   0x100080780      781640f9       ldr x24, [x19, 0x28]
+|      :|   0x100080784      e10318aa       mov x1, x24                ; int64_t arg2
+|      :|   0x100080788      e20314aa       mov x2, x20                ; int64_t arg3
+|      :|   0x10008078c      e30315aa       mov x3, x21
+|      :|   0x100080790      ce28fe97       bl sym.func.10000aac8
+|      :|   0x100080794      402a00f0       adrp x0, 0x1005cb000
+|      :|   0x100080798      00002591       add x0, x0, 0x940          ; int64_t arg1
+|      :|   0x10008079c      c11e00b0       adrp x1, 0x100459000
+|      :|   0x1000807a0      21c03691       add x1, x1, 0xdb0          ; int64_t arg2
+|      :|   0x1000807a4      de08fe97       bl sym.func.100002b1c
+|      :|   0x1000807a8      083080b9       ldrsw x8, [x0, 0x30]
+|      :|   0x1000807ac      0803088b       add x8, x24, x8
+|      :|   0x1000807b0      0825006d       stp d8, d9, [x8]
+|      :|   0x1000807b4      0a2d016d       stp d10, d11, [x8, 0x10]
+|      :|   0x1000807b8      a91e00d0       adrp x9, 0x100456000
+|      :|   0x1000807bc      207dc03d       ldr q0, [x9, 0x1f0]
+|      :|   0x1000807c0      0009803d       str q0, [x8, 0x20]
+|      :|   0x1000807c4      29008052       mov w9, 1
+|      :|   0x1000807c8      09c10039       strb w9, [x8, 0x30]
+|      :|   0x1000807cc      c91e00b0       adrp x9, 0x100459000
+|      :|   0x1000807d0      20fdc23d       ldr q0, [x9, 0xbf0]
+|      :|   0x1000807d4      0081833c       stur q0, [x8, 0x38]
+|      :|   0x1000807d8      800740ad       ldp q0, q1, [x28]
+|      :|   0x1000807dc      0081843c       stur q0, [x8, 0x48]
+|      :|   0x1000807e0      0181853c       stur q1, [x8, 0x58]
+|      :|   0x1000807e4      800bc03d       ldr q0, [x28, 0x20]
+|      :|   0x1000807e8      0081863c       stur q0, [x8, 0x68]
+|      :|   0x1000807ec      1fe10139       strb wzr, [x8, 0x78]
+|      :|   0x1000807f0      164080b9       ldrsw x22, [x0, 0x40]
+|      :|   0x1000807f4      60c21a91       add x0, x19, 0x6b0         ; void *s1
+|      :|   0x1000807f8      61c22d91       add x1, x19, 0xb70         ; const void *s2
+|      :|   0x1000807fc      02338052       mov w2, 0x198              ; size_t n
+|      :|   0x100080800      87330f94       bl sym.imp.memcpy          ; void *memcpy(void *s1, const void *s2, size_t n)
+|      :|   0x100080804      0003168b       add x0, x24, x22           ; void *s1
+|      :|   0x100080808      61c22d91       add x1, x19, 0xb70         ; const void *s2
+|      :|   0x10008080c      02338052       mov w2, 0x198              ; size_t n
+|      :|   0x100080810      83330f94       bl sym.imp.memcpy          ; void *memcpy(void *s1, const void *s2, size_t n)
+|      :|   0x100080814      562a00f0       adrp x22, 0x1005cb000
+|      :|   0x100080818      d6222591       add x22, x22, 0x948
+|      :|   0x10008081c      d81e00b0       adrp x24, 0x100459000
+|      :|   0x100080820      18e33691       add x24, x24, 0xdb8
+|      :|   0x100080824      60621491       add x0, x19, 0x518         ; int64_t arg1
+|      :|   0x100080828      61c20091       add x1, x19, 0x30          ; int64_t arg2
+|      :|   0x10008082c      e20316aa       mov x2, x22                ; int64_t arg3
+|      :|   0x100080830      e30318aa       mov x3, x24
+|      :|   0x100080834      a528fe97       bl sym.func.10000aac8
+|      :|   0x100080838      60c21a91       add x0, x19, 0x6b0         ; int64_t arg1
+|      :|   0x10008083c      61c20091       add x1, x19, 0x30          ; int64_t arg2
+|      :|   0x100080840      e20316aa       mov x2, x22                ; int64_t arg3
+|      :|   0x100080844      e30318aa       mov x3, x24
+|      :|   0x100080848      a028fe97       bl sym.func.10000aac8
+|      :|   0x10008084c      60222191       add x0, x19, 0x848         ; int64_t arg1
+|      :|   0x100080850      e10316aa       mov x1, x22                ; int64_t arg2
+|      :|   0x100080854      e20318aa       mov x2, x24                ; int64_t arg3
+|      :|   0x100080858      8c28fe97       bl sym.func.10000aa88
+|      :|   0x10008085c      e00319aa       mov x0, x25                ; int64_t arg1
+|      :|   0x100080860      e10314aa       mov x1, x20                ; int64_t arg2
+|      :|   0x100080864      e20315aa       mov x2, x21                ; int64_t arg3
+|      :|   0x100080868      8828fe97       bl sym.func.10000aa88
+|      :|   0x10008086c      e00317aa       mov x0, x23                ; int64_t arg1
+|      :|   0x100080870      e10314aa       mov x1, x20                ; int64_t arg2
+|      :|   0x100080874      e20315aa       mov x2, x21                ; int64_t arg3
+|      :|   0x100080878      8428fe97       bl sym.func.10000aa88
+|      :|   0x10008087c      60c22d91       add x0, x19, 0xb70         ; int64_t arg1
+|      :|   0x100080880      e10316aa       mov x1, x22                ; int64_t arg2
+|      :|   0x100080884      e20318aa       mov x2, x24                ; int64_t arg3
+|      :|   0x100080888      8028fe97       bl sym.func.10000aa88
+|      :|   0x10008088c      bf0302d1       sub sp, x29, 0x80
+|      :|   0x100080890      fd7b48a9       ldp x29, x30, [var_80h]
+|      :|   0x100080894      f44f47a9       ldp x20, x19, [var_70h]
+|      :|   0x100080898      f65746a9       ldp x22, x21, [var_60h]
+|      :|   0x10008089c      f85f45a9       ldp x24, x23, [var_50h]
+|      :|   0x1000808a0      fa6744a9       ldp x26, x25, [var_40h]
+|      :|   0x1000808a4      fc6f43a9       ldp x28, x27, [var_30h]
+|      :|   0x1000808a8      e923426d       ldp d9, d8, [var_20h]
+|      :|   0x1000808ac      eb2b416d       ldp d11, d10, [var_10h]
+|      :|   0x1000808b0      ed33c96c       ldp d13, d12, [sp], 0x90
+|      :|   0x1000808b4      c0035fd6       ret
+|      :|   ; CODE XREF from sym.func.10008012c @ 0x10008028c(x)
+|      :`-> 0x1000808b8      402a00b0       adrp x0, 0x1005c9000
+|      :    0x1000808bc      00601891       add x0, x0, 0x618
+|      :    0x1000808c0      a1fdffd0       adrp x1, 0x100036000
+|      :    0x1000808c4      21e00791       add x1, x1, 0x1f8
+|      :    0x1000808c8      7b340f94       bl sym.imp.swift_once
+\      `==< 0x1000808cc      71feff17       b 0x100080290

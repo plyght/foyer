@@ -1,0 +1,1 @@
+fcn.1004510a0 0x1004510a4 [DATA:r--] ldr x1, reloc.fixup.safeAreaInsets

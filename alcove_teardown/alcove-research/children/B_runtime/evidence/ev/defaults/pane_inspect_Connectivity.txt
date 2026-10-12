@@ -1,0 +1,58 @@
+macos accessibility snapshot v1 (line format: @ref role "name" = "value" #id [states] {actions}; indent = hierarchy)
+target: pid:2607  epoch: 16  app: Alcove  pid: 2607  provenance: axuielement  nodes: 125/125  truncated: false
+@m7322 application "Alcove"
+ @m7323 window
+  @m7324 group
+   @m7325 button
+   @m7326 button
+ @m7327 window
+  @m7328 group
+ @m7329 window "Connectivity" [focused=true]
+  @m7330 group
+   @m7331 image "Audiobook" #headphones
+   @m7332 statictext = "Connectivity"
+   @m7333 button "General" {press}
+   @m7334 statictext = "Notifications"
+   @m7335 button "Battery" [disabled=true] {press}
+   @m7336 button "Connectivity" {press}
+   @m7337 button "Focus" {press}
+   @m7338 button "Display" {press}
+   @m7339 button "Sound" {press}
+   @m7340 statictext = "Live Activities"
+   @m7341 button "Now Playing" {press}
+   @m7342 button "11, Calendar" {press}
+   @m7343 button "File Tray, Soon" [disabled=true] {press}
+   @m7344 button "Lock Screen" {press}
+   @m7345 statictext = "Alcove"
+   @m7346 button "License, Trial" [selected=true] {press}
+   @m7347 button "About" {press}
+   @m7348 scrollarea {scroll}
+    @m7349 image "Audiobook" #headphones
+    @m7350 statictext = "Connectivity"
+    @m7351 checkbox [checked=true] {press}
+    @m7352 statictext = "Duration"
+    @m7353 button "5.0" {press}
+    @m7354 statictext = "s"
+    @m7355 slider = "5" {increment,decrement}
+     @m7356 valueindicator = "5"
+    @m7357 statictext = "Warn on low battery"
+    @m7358 checkbox [checked=true] {press}
+    @m7359 statictext = "Low battery threshold"
+    @m7360 button "20" {press}
+    @m7361 statictext = "%"
+    @m7362 slider = "20" {increment,decrement}
+     @m7363 valueindicator = "20"
+    @m7364 statictext = "Play sound on low battery"
+    @m7365 button "Play" #play.circle.fill
+    @m7366 checkbox [checked=true] {press}
+    @m7367 button {press}
+    @m7368 button "Airpods Pro" #airpodspro {press}
+    @m7369 statictext = "3D models"
+    @m7370 statictext = "Symbols"
+  @m7371 toolbar {show_menu}
+  @m7372 button "close" {press}
+  @m7373 button "zoom" [disabled=true] {press,show_menu}
+   @m7374 group
+    @m7375 group
+  @m7376 button "minimize" [disabled=true] {press}
+note: menu bar folded: "Alcove", "Window", "Help", "Alcove" (57 menu item(s) not listed) — `query role=menuitem` or `query role=menuitem text=<command>` lists them with refs; a menu item is pressed directly, the menu need not be opened first

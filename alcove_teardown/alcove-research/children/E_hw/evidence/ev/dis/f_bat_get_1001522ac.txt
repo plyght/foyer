@@ -1,0 +1,64 @@
+            ; CALL XREF from sym.func.10012e4f8 @ 0x10012e698(x)
+/ 224: sym.func.1001522ac ();
+| `- args(x20) vars(7:sp[0x8..0x48])
+|           0x1001522ac      ff4301d1       sub sp, sp, 0x50
+|           0x1001522b0      f44f03a9       stp x20, x19, [var_30h]
+|           0x1001522b4      fd7b04a9       stp x29, x30, [var_40h]
+|           0x1001522b8      fd030191       add x29, sp, 0x40
+|           0x1001522bc      940240f9       ldr x20, [x20]             ; self
+|           0x1001522c0      e8430091       add x8, sp, 0x10
+|           0x1001522c4      e0008052       mov w0, 7                  ; int64_t arg1
+|           0x1001522c8      70000094       bl sym.func.100152488
+|           0x1001522cc      e81740f9       ldr x8, [var_28h]
+|           0x1001522d0      33230090       adrp x19, reloc.Int64...VMn ; 0x1005b6000
+|           0x1001522d4      730a41f9       ldr x19, [x19, 0x210]      ; [0x1005b6210:8]=0x8010000000000a23
+|       ,=< 0x1001522d8      880100b4       cbz x8, 0x100152308
+|       |   0x1001522dc      032300f0       adrp x3, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|       |   0x1001522e0      637044f9       ldr x3, [x3, 0x8e0]        ; [0x1005b58e0:8]=0x8010000000000902 ; reloc....SiN
+|       |   0x1001522e4      e0230091       add x0, sp, 8
+|       |   0x1001522e8      e1430091       add x1, sp, 0x10
+|       |   0x1001522ec      62220091       add x2, x19, 8
+|       |   0x1001522f0      c4008052       mov w4, 6
+|       |   0x1001522f4      66ed0b94       bl sym.imp.swift_dynamicCast
+|      ,==< 0x1001522f8      c0000036       tbz w0, 0, 0x100152310
+|      ||   0x1001522fc      01008052       mov w1, 0
+|      ||   0x100152300      e00740f9       ldr x0, [var_8h]
+|     ,===< 0x100152304      1e000014       b 0x10015237c
+|     |||   ; CODE XREF from sym.func.1001522ac @ 0x1001522d8(x)
+|     ||`-> 0x100152308      e0430091       add x0, sp, 0x10           ; int64_t arg1
+|     ||    0x10015230c      a059ff97       bl sym.func.10012898c
+|     ||    ; CODE XREF from sym.func.1001522ac @ 0x1001522f8(x)
+|     |`--> 0x100152310      e8430091       add x8, sp, 0x10
+|     |     0x100152314      e0008052       mov w0, 7                  ; int64_t arg1
+|     |     0x100152318      5c000094       bl sym.func.100152488
+|     |     0x10015231c      e81740f9       ldr x8, [var_28h]
+|     | ,=< 0x100152320      680200b4       cbz x8, 0x10015236c
+|     | |   0x100152324      000080d2       mov x0, 0
+|     | |   0x100152328      edecff97       bl sym.func.10014d6dc
+|     | |   0x10015232c      e30300aa       mov x3, x0
+|     | |   0x100152330      e0230091       add x0, sp, 8
+|     | |   0x100152334      e1430091       add x1, sp, 0x10
+|     | |   0x100152338      62220091       add x2, x19, 8
+|     | |   0x10015233c      c4008052       mov w4, 6
+|     | |   0x100152340      53ed0b94       bl sym.imp.swift_dynamicCast
+|     |,==< 0x100152344      80010036       tbz w0, 0, 0x100152374
+|     |||   0x100152348      f30740f9       ldr x19, [var_8h]
+|     |||   0x10015234c      e00313aa       mov x0, x19
+|     |||   0x100152350      6cf60b94       bl fcn.10044fd00
+|     |||   0x100152354      f40300aa       mov x20, x0
+|     |||   0x100152358      e00313aa       mov x0, x19                ; void *instance
+|     |||   0x10015235c      d1ec0b94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|     |||   0x100152360      e00314aa       mov x0, x20
+|     |||   0x100152364      01008052       mov w1, 0
+|    ,====< 0x100152368      05000014       b 0x10015237c
+|    ||||   ; CODE XREF from sym.func.1001522ac @ 0x100152320(x)
+|    |||`-> 0x10015236c      e0430091       add x0, sp, 0x10           ; int64_t arg1
+|    |||    0x100152370      8759ff97       bl sym.func.10012898c
+|    |||    ; CODE XREF from sym.func.1001522ac @ 0x100152344(x)
+|    ||`--> 0x100152374      000080d2       mov x0, 0
+|    ||     0x100152378      21008052       mov w1, 1
+|    ||     ; CODE XREFS from sym.func.1001522ac @ 0x100152304(x), 0x100152368(x)
+|    ``---> 0x10015237c      fd7b44a9       ldp x29, x30, [var_40h]
+|           0x100152380      f44f43a9       ldp x20, x19, [var_30h]
+|           0x100152384      ff430191       add sp, sp, 0x50           ; 0x178000
+\           0x100152388      c0035fd6       ret

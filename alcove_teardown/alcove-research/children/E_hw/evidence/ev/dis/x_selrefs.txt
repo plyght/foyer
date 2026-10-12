@@ -1,0 +1,20 @@
+fcn.10044e460 0x10044e464 [DATA:r--] ldr x1, reloc.fixup.batteryPercentLeft
+fcn.10044e480 0x10044e484 [DATA:r--] ldr x1, reloc.fixup.batteryPercentRight
+fcn.10044e4a0 0x10044e4a4 [DATA:r--] ldr x1, reloc.fixup.batteryPercentSingle
+fcn.10044fec0 0x10044fec4 [DATA:r--] ldr x1, reloc.fixup.isLowPowerModeEnabled
+fcn.100450700 0x100450704 [DATA:r--] ldr x1, reloc.fixup.pairedDevices
+fcn.10044fda0 0x10044fda4 [DATA:r--] ldr x1, reloc.fixup.isConnected
+fcn.10044efa0 0x10044efa4 [DATA:r--] ldr x1, reloc.fixup.deviceClassMajor
+fcn.10044e100 0x10044e104 [DATA:r--] ldr x1, reloc.fixup.addressString
+fcn.100450a20 0x100450a24 [DATA:r--] ldr x1, reloc.fixup.postNotificationName:object:use
+fcn.1004516c0 0x1004516c4 [DATA:r--] ldr x1, reloc.fixup.setCanBecomeVisibleWithoutLogin
+fcn.100450840 0x100450844 [DATA:r--] ldr x1, reloc.fixup.play
+fcn.1004527e0 0x1004527e4 [DATA:r--] ldr x1, reloc.fixup.setVolume:
+fcn.100452800 0x100452804 [DATA:r--] ldr x1, reloc.fixup.setVolume:fadeDuration:
+sym.func.10031a62c 0x10031a68c [DATA:r--] ldr x0, [x8, 0x10]
+sym.func.10034eb50 0x10034eb5c [ICOD:r--] add x2, x2, 0x10
+sym.func.10010a1b4 0x10010a200 [DATA:r--] ldr x0, reloc.CBCentralManager
+sym.func.10030e3c8 0x10030ea9c [ICOD:r--] add x2, x2, reloc.CBCentralManager
+sym.func.10031bbc4 0x10031bbe8 [ICOD:r--] add x2, x2, reloc.CBCentralManager
+sym.func.10012f148 0x10012f32c [DATA:r--] ldr x8, reloc.NSProcessInfoPowerStateDidChangeNotification
+fcn.1004510a0 0x1004510a4 [DATA:r--] ldr x1, reloc.fixup.safeAreaInsets

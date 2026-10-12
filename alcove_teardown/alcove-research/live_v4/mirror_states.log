@@ -1,0 +1,27 @@
+Display-mirroring rerun after VM restart: 2026-10-12T16:20:19Z
+Initial Alcove selection observed: Main Display; test begins with All Displays.
+===== all displays baseline =====
+all_before timestamp=2026-10-12T16:20:19Z
+main_display_id=1
+active_display_ids=[1, 2]
+CGGetActiveDisplayList=0
+display_id=1 in_mirror_set=0 mirrors_display_id=0
+display_id=2 in_mirror_set=0 mirrors_display_id=0
+===== all displays transition pre-state =====
+all_transition_before timestamp=2026-10-12T16:20:34Z
+main_display_id=1
+active_display_ids=[1, 2]
+CGGetActiveDisplayList=0
+display_id=1 in_mirror_set=0 mirrors_display_id=0
+display_id=2 in_mirror_set=0 mirrors_display_id=0
+===== all displays mirror on =====
+before_on timestamp=2026-10-12T16:20:37Z
+main_display_id=1
+active_display_ids=[1, 2]
+CGGetActiveDisplayList=0
+display_id=1 in_mirror_set=0 mirrors_display_id=0
+display_id=2 in_mirror_set=0 mirrors_display_id=0
+after_on timestamp=2026-10-12T16:20:38Z
+main_display_id=0
+active_display_ids=[]
+CGGetActiveDisplayList=0

@@ -1,0 +1,661 @@
+            ; XREFS(95)
+/ 2468: sym.func.10023f6e0 (int64_t arg1);
+| `- args(x20, x21, x0) vars(32:sp[0x8..0x130])
+|           0x10023f6e0      fc6fbaa9       stp x28, x27, [var_sp_60h]!
+|           0x10023f6e4      fa6701a9       stp x26, x25, [var_10h]
+|           0x10023f6e8      f85f02a9       stp x24, x23, [var_20h]
+|           0x10023f6ec      f65703a9       stp x22, x21, [var_30h]
+|           0x10023f6f0      f44f04a9       stp x20, x19, [var_40h]
+|           0x10023f6f4      fd7b05a9       stp x29, x30, [var_50h]
+|           0x10023f6f8      fd430191       add x29, sp, 0x50
+|           0x10023f6fc      ff4303d1       sub sp, sp, 0xd0
+|           0x10023f700      f30300aa       mov x19, x0                ; arg1
+|           0x10023f704      801c00b0       adrp x0, 0x1005d0000
+|           0x10023f708      00a00791       add x0, x0, 0x1e8          ; int64_t arg1
+|           0x10023f70c      011100b0       adrp x1, 0x100460000
+|           0x10023f710      21a03f91       add x1, x1, 0xfe8          ; int64_t arg2
+|           0x10023f714      020df797       bl sym.func.100002b1c
+|           0x10023f718      08805ff8       ldur x8, [x0, -8]
+|           0x10023f71c      092140f9       ldr x9, [x8, 0x40]
+|           0x10023f720      283d0091       add x8, x9, 0xf
+|           0x10023f724      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x10023f728      901b00f0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10023f72c      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x10023f730      00023fd6       blr x16
+|           0x10023f734      e9030091       mov x9, sp
+|           0x10023f738      3c0108cb       sub x28, x9, x8
+|           0x10023f73c      9f030091       mov sp, x28
+|           0x10023f740      000080d2       mov x0, 0
+|           0x10023f744      fb280894       bl sym.imp.Foundation.UUID...VMa
+|           0x10023f748      08805ff8       ldur x8, [x0, -8]
+|           0x10023f74c      a88335a9       stp x8, x0, [var_a8h]
+|           0x10023f750      082140f9       ldr x8, [x8, 0x40]
+|           0x10023f754      e90308aa       mov x9, x8
+|           0x10023f758      901b00f0       adrp x16, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|           0x10023f75c      10b642f9       ldr x16, [x16, 0x568]      ; [0x1005b2568:8]=0x80100000000002ce ; reloc.__chkstk_darwin
+|           0x10023f760      00023fd6       blr x16
+|           0x10023f764      e9030091       mov x9, sp
+|           0x10023f768      083d0091       add x8, x8, 0xf
+|           0x10023f76c      08ed7c92       and x8, x8, 0xfffffffffffffff0
+|           0x10023f770      280108cb       sub x8, x9, x8
+|           0x10023f774      a80311f8       stur x8, [var_clob_ffffffffffffff10h]
+|           0x10023f778      1f010091       mov sp, x8
+|           0x10023f77c      b48312f8       stur x20, [var_d8h]        ; self
+|           0x10023f780      a4140094       bl sym.func.100244a10
+|           0x10023f784      f90300aa       mov x25, x0
+|           0x10023f788      a00312f8       stur x0, [var_clob_ffffffffffffff20h]
+|       ,=< 0x10023f78c      533b0036       tbz w19, 0, 0x10023fef4
+|       |   0x10023f790      a91b00f0       adrp x9, reloc.Int64...VMn ; 0x1005b6000
+|       |   0x10023f794      291541f9       ldr x9, [x9, 0x228]        ; [0x1005b6228:8]=0x8010000000000a26
+|       |   0x10023f798      a9031af8       stur x9, [var_60h]
+|       |   0x10023f79c      280b40f9       ldr x8, [x25, 0x10]
+|       |   0x10023f7a0      aa2300d1       sub x10, x29, 8
+|       |   0x10023f7a4      480110f8       stur x8, [x10, -0x100]
+|      ,==< 0x10023f7a8      084400b4       cbz x8, 0x100240028
+|      ||   0x10023f7ac      180080d2       mov x24, 0
+|      ||   0x10023f7b0      28830091       add x8, x25, 0x20
+|      ||   0x10023f7b4      a94300d1       sub x9, x29, 0x10
+|      ||   0x10023f7b8      280110f8       stur x8, [x9, -0x100]
+|      ||   0x10023f7bc      a81b00f0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+|      ||   0x10023f7c0      081541f9       ldr x8, [x8, 0x228]        ; [0x1005b6228:8]=0x8010000000000a26
+|      ||   0x10023f7c4      a96300d1       sub x9, x29, 0x18
+|      ||   0x10023f7c8      280110f8       stur x8, [x9, -0x100]
+|      ||   0x10023f7cc      bc0315f8       stur x28, [var_clob_ffffffffffffff50h]
+|     ,===< 0x10023f7d0      0e000014       b 0x10023f808
+|     |||   ; CODE XREFS from sym.func.10023f6e0 @ 0x10023f980(x), 0x10023f9d4(x)
+|   ..----> 0x10023f7d4      a00350f8       ldur x0, [var_100h]        ; void *arg0
+|   ::|||   0x10023f7d8      00380894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+|   ::|||   0x10023f7dc      a08351f8       ldur x0, [var_clob_ffffffffffffff18h]
+|   ::|||   0x10023f7e0      41008052       mov w1, 2
+|   ::|||   0x10023f7e4      00380894       bl sym.imp.swift_bridgeObjectRelease_n
+|   ::|||   0x10023f7e8      e00316aa       mov x0, x22                ; void *arg0
+|   ::|||   0x10023f7ec      fb370894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+|   ::|||   0x10023f7f0      b90352f8       ldur x25, [var_clob_ffffffffffffff20h]
+|   ::|||   0x10023f7f4      b88350f8       ldur x24, [var_f8h]
+|   ::|||   ; CODE XREFS from sym.func.10023f6e0 @ 0x10023fd3c(x), 0x10023fe90(x)
+| ..------> 0x10023f7f8      a82300d1       sub x8, x29, 8
+| ::::|||   0x10023f7fc      080150f8       ldur x8, [x8, -0x100]
+| ::::|||   0x10023f800      1f0308eb       cmp x24, x8
+| ========< 0x10023f804      c0410054       b.eq 0x10024003c
+| ::::|||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023f7d0(x)
+| ::::`---> 0x10023f808      280b40f9       ldr x8, [x25, 0x10]
+| :::: ||   0x10023f80c      1f0308eb       cmp x24, x8
+| ::::,===< 0x10023f810      62430054       b.hs 0x10024007c
+| ::::|||   0x10023f814      a84300d1       sub x8, x29, 0x10
+| ::::|||   0x10023f818      080150f8       ldur x8, [x8, -0x100]
+| ::::|||   0x10023f81c      0811188b       add x8, x8, x24, lsl 4
+| ::::|||   0x10023f820      096940a9       ldp x9, x26, [x8]
+| ::::|||   0x10023f824      a90313f8       stur x9, [var_clob_ffffffffffffff30h]
+| ::::|||   0x10023f828      18070091       add x24, x24, 1
+| ::::|||   0x10023f82c      e0031aaa       mov x0, x26                ; void *arg0
+| ::::|||   0x10023f830      f0370894       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+| ::::|||   0x10023f834      b48352f8       ldur x20, [var_d8h]
+| ::::|||   0x10023f838      76140094       bl sym.func.100244a10
+| ::::|||   0x10023f83c      f30300aa       mov x19, x0
+| ::::|||   0x10023f840      140840f9       ldr x20, [x0, 0x10]
+| ::::|||   0x10023f844      e0031aaa       mov x0, x26                ; void *arg0
+| ::::|||   0x10023f848      ea370894       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+| ========< 0x10023f84c      740200b4       cbz x20, 0x10023f898
+| ::::|||   0x10023f850      150080d2       mov x21, 0                 ; error
+| ::::|||   0x10023f854      77a20091       add x23, x19, 0x28
+| ::::|||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023f894(x)
+| --------> 0x10023f858      680a40f9       ldr x8, [x19, 0x10]
+| ::::|||   0x10023f85c      bf0208eb       cmp x21, x8
+| ========< 0x10023f860      a2400054       b.hs 0x100240074
+| ::::|||   0x10023f864      e0867fa9       ldp x0, x1, [x23, -8]
+| ::::|||   0x10023f868      a20353f8       ldur x2, [var_clob_ffffffffffffff30h]
+| ::::|||   0x10023f86c      1f0002eb       cmp x0, x2
+| ::::|||   0x10023f870      20005afa       ccmp x1, x26, 0, eq
+| ========< 0x10023f874      40020054       b.eq 0x10023f8bc
+| ::::|||   0x10023f878      e3031aaa       mov x3, x26
+| ::::|||   0x10023f87c      04008052       mov w4, 0
+| ::::|||   0x10023f880      d9340894       bl sym.imp._stringCompareWithSmolCheck..._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+| ========< 0x10023f884      c0010037       tbnz w0, 0, 0x10023f8bc
+| ::::|||   0x10023f888      b5060091       add x21, x21, 1
+| ::::|||   0x10023f88c      f7420091       add x23, x23, 0x10
+| ::::|||   0x10023f890      9f0215eb       cmp x20, x21
+| ========< 0x10023f894      21feff54       b.ne 0x10023f858
+| ::::|||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023f84c(x)
+| --------> 0x10023f898      e0031aaa       mov x0, x26                ; void *arg0
+| ::::|||   0x10023f89c      cf370894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| ::::|||   0x10023f8a0      680a40f9       ldr x8, [x19, 0x10]
+| ========< 0x10023f8a4      482400b4       cbz x8, 0x10023fd2c
+| ::::|||   0x10023f8a8      680242a9       ldp x8, x0, [x19, 0x20]
+| ::::|||   0x10023f8ac      a80313f8       stur x8, [var_clob_ffffffffffffff30h]
+| ::::|||   0x10023f8b0      a08311f8       stur x0, [var_clob_ffffffffffffff18h]
+| ::::|||   0x10023f8b4      cf370894       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+| ========< 0x10023f8b8      02000014       b 0x10023f8c0
+| ::::|||   ; CODE XREFS from sym.func.10023f6e0 @ 0x10023f874(x), 0x10023f884(x)
+| --------> 0x10023f8bc      ba8311f8       stur x26, [var_clob_ffffffffffffff18h]
+| ::::|||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023f8b8(x)
+| --------> 0x10023f8c0      e00313aa       mov x0, x19                ; void *arg0
+| ::::|||   0x10023f8c4      c5370894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| ::::|||   0x10023f8c8      b38352f8       ldur x19, [var_d8h]
+| ::::|||   0x10023f8cc      60c20191       add x0, x19, 0x70          ; void *arg0
+| ::::|||   0x10023f8d0      a14302d1       sub x1, x29, 0x90          ; void *arg1
+| ::::|||   0x10023f8d4      02048052       mov w2, 0x20               ; void *arg2
+| ::::|||   0x10023f8d8      030080d2       mov x3, 0                  ; void *arg3
+| ::::|||   0x10023f8dc      bc370894       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+| ::::|||   0x10023f8e0      740247f8       ldur x20, [x19, 0x70]
+| ::::|||   0x10023f8e4      880a40f9       ldr x8, [x20, 0x10]
+| ::::|||   0x10023f8e8      b78351f8       ldur x23, [var_clob_ffffffffffffff18h]
+| ========< 0x10023f8ec      a80000b4       cbz x8, 0x10023f900
+| ::::|||   0x10023f8f0      a00353f8       ldur x0, [var_clob_ffffffffffffff30h] ; int64_t arg1
+| ::::|||   0x10023f8f4      e10317aa       mov x1, x23                ; int64_t arg2
+| ::::|||   0x10023f8f8      c07efb97       bl sym.func.10011f3f8
+| ========< 0x10023f8fc      c12c0037       tbnz w1, 0, 0x10023fe94
+| ::::|||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023f8ec(x)
+| --------> 0x10023f900      ba6330a9       stp x26, x24, [var_100h]
+| ::::|||   0x10023f904      a04302d1       sub x0, x29, 0x90          ; void *arg0
+| ::::|||   0x10023f908      f6370894       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+| ::::|||   0x10023f90c      941b00f0       adrp x20, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+| ::::|||   0x10023f910      94022391       add x20, x20, 0x8c0
+| ::::|||   0x10023f914      800240f9       ldr x0, [x20]              ; [0x1005b28c0:8]=0x8010000000000339 ; void *arg0
+| ::::|||   0x10023f918      5f370894       bl sym.imp.objc_opt_self   ; void *objc_opt_self(void *arg0)
+| ::::|||   0x10023f91c      f30300aa       mov x19, x0
+| ::::|||   0x10023f920      e00317aa       mov x0, x23                ; void *arg0
+| ::::|||   0x10023f924      b3370894       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+| ::::|||   0x10023f928      e00313aa       mov x0, x19
+| ::::|||   0x10023f92c      fd450894       bl fcn.100451120
+| ::::|||   0x10023f930      fd031daa       mov x29, x29
+| ::::|||   0x10023f934      64370894       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+| ::::|||   0x10023f938      f30300aa       mov x19, x0
+| ::::|||   0x10023f93c      000080d2       mov x0, 0                  ; int64_t arg1
+| ::::|||   0x10023f940      611c00f0       adrp x1, 0x1005ce000
+| ::::|||   0x10023f944      21203191       add x1, x1, 0xc48          ; int64_t arg2
+| ::::|||   0x10023f948      e20314aa       mov x2, x20
+| ::::|||   0x10023f94c      89acf897       bl sym.func.10006ab70
+| ::::|||   0x10023f950      e10300aa       mov x1, x0
+| ::::|||   0x10023f954      e00313aa       mov x0, x19
+| ::::|||   0x10023f958      85310894       bl sym.imp.Foundation_...nconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ_ ; Foundation(...nconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ)
+| ::::|||   0x10023f95c      f60300aa       mov x22, x0
+| ::::|||   0x10023f960      e00313aa       mov x0, x19                ; void *instance
+| ::::|||   0x10023f964      4f370894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::::|||   0x10023f968      c8fe7ed3       lsr x8, x22, 0x3e
+| ========< 0x10023f96c      682a00b5       cbnz x8, 0x10023feb8
+| ::::|||   0x10023f970      c8e27d92       and x8, x22, 0xffffffffffffff8
+| ::::|||   0x10023f974      130940f9       ldr x19, [x8, 0x10]
+| ::::|||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023fecc(x)
+| --------> 0x10023f978      a80353f8       ldur x8, [var_clob_ffffffffffffff30h]
+| ::::|||   0x10023f97c      a85f39a9       stp x8, x23, [var_70h]
+| ::`=====< 0x10023f980      b3f2ffb4       cbz x19, 0x10023f7d4
+| :: :|||   0x10023f984      1a0080d2       mov x26, 0
+| :: :|||   0x10023f988      c90a4292       and x9, x22, 0xc000000000000001
+| :: :|||   0x10023f98c      c8e27d92       and x8, x22, 0xffffffffffffff8
+| :: :|||   0x10023f990      a82734a9       stp x8, x9, [var_c0h]
+| :: :|||   0x10023f994      b38313f8       stur x19, [var_clob_ffffffffffffff38h]
+| ::,=====< 0x10023f998      10000014       b 0x10023f9d8
+| ::|:|||   ; CODE XREFS from sym.func.10023f6e0 @ 0x10023fc08(x), 0x10023fc14(x)
+| --------> 0x10023f99c      e00314aa       mov x0, x20                ; void *arg0
+| ::|:|||   0x10023f9a0      8e370894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| ::|:|||   0x10023f9a4      e00317aa       mov x0, x23                ; void *instance
+| ::|:|||   0x10023f9a8      3e370894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|:|||   0x10023f9ac      e00319aa       mov x0, x25                ; void *instance
+| ::|:|||   0x10023f9b0      3c370894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|:|||   0x10023f9b4      e00319aa       mov x0, x25                ; void *instance
+| ::|:|||   0x10023f9b8      3a370894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|:|||   0x10023f9bc      e00315aa       mov x0, x21                ; void *instance
+| ::|:|||   0x10023f9c0      38370894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|:|||   0x10023f9c4      bc0355f8       ldur x28, [var_clob_ffffffffffffff50h]
+| ::|:|||   ; CODE XREFS from sym.func.10023f6e0 @ 0x10023fcf0(x), 0x10023fd10(x)
+| --------> 0x10023f9c8      5a070091       add x26, x26, 1
+| ::|:|||   0x10023f9cc      b38353f8       ldur x19, [var_clob_ffffffffffffff38h]
+| ::|:|||   0x10023f9d0      7f0313eb       cmp x27, x19
+| ::|`====< 0x10023f9d4      00f0ff54       b.eq 0x10023f7d4
+| ::| |||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023f998(x)
+| ::`-----> 0x10023f9d8      a88354f8       ldur x8, [var_b8h]
+| :: ,====< 0x10023f9dc      c81900b5       cbnz x8, 0x10023fd14
+| :: ||||   0x10023f9e0      a80354f8       ldur x8, [var_c0h]
+| :: ||||   0x10023f9e4      080940f9       ldr x8, [x8, 0x10]
+| :: ||||   0x10023f9e8      5f0308eb       cmp x26, x8
+| ::,=====< 0x10023f9ec      22340054       b.hs 0x100240070
+| ::|||||   0x10023f9f0      c80e1a8b       add x8, x22, x26, lsl 3
+| ::|||||   0x10023f9f4      001140f9       ldr x0, [x8, 0x20]         ; void *instance
+| ::|||||   0x10023f9f8      2d370894       bl sym.imp.objc_retain     ; void objc_retain(void *instance)
+| ::|||||   0x10023f9fc      5b0700b1       adds x27, x26, 1
+| ========< 0x10023fa00      66330054       b.vs 0x10024006c
+| ::|||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023fd24(x)
+| --------> 0x10023fa04      2a370894       bl sym.imp.objc_retain     ; void objc_retain(void *instance)
+| ::|||||   0x10023fa08      f90300aa       mov x25, x0
+| ::|||||   0x10023fa0c      80288dd2       mov x0, 0x6944             ; 'Di'
+| ::|||||   0x10023fa10      600eaef2       movk x0, 0x7073, lsl 16    ; 'sp'
+| ::|||||   0x10023fa14      802dccf2       movk x0, 0x616c, lsl 32    ; 'la'
+| ::|||||   0x10023fa18      20afeaf2       movk x0, 0x5579, lsl 48    ; 'yU'
+| ::|||||   0x10023fa1c      a12a89d2       mov x1, 0x4955             ; 'UI'
+| ::|||||   0x10023fa20      8108a0f2       movk x1, 0x44, lsl 16      ; 'D'
+| ::|||||   0x10023fa24      0160fdf2       movk x1, 0xeb00, lsl 48
+| ::|||||   0x10023fa28      ac300894       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+| ::|||||   0x10023fa2c      f50300aa       mov x21, x0                ; error
+| ::|||||   0x10023fa30      e00319aa       mov x0, x25
+| ::|||||   0x10023fa34      733d0894       bl fcn.10044f000
+| ::|||||   0x10023fa38      fd031daa       mov x29, x29
+| ::|||||   0x10023fa3c      22370894       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+| ::|||||   0x10023fa40      f70300aa       mov x23, x0
+| ::|||||   0x10023fa44      000080d2       mov x0, 0
+| ::|||||   0x10023fa48      6a2cf797       bl sym.func.10000abf0
+| ::|||||   0x10023fa4c      f80300aa       mov x24, x0
+| ::|||||   0x10023fa50      401c00b0       adrp x0, 0x1005c8000
+| ::|||||   0x10023fa54      00400c91       add x0, x0, 0x310          ; int64_t arg1
+| ::|||||   0x10023fa58      41eefff0       adrp x1, 0x10000a000
+| ::|||||   0x10023fa5c      21c02f91       add x1, x1, 0xbf0          ; int64_t arg2
+| ::|||||   0x10023fa60      a21000f0       adrp x2, 0x100456000
+| ::|||||   0x10023fa64      42b00591       add x2, x2, 0x16c
+| ::|||||   0x10023fa68      a525f797       bl sym.func.1000090fc
+| ::|||||   0x10023fa6c      f30300aa       mov x19, x0
+| ::|||||   0x10023fa70      a81b00f0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+| ::|||||   0x10023fa74      080941f9       ldr x8, [x8, 0x210]        ; [0x1005b6210:8]=0x8010000000000a23
+| ::|||||   0x10023fa78      02210091       add x2, x8, 8
+| ::|||||   0x10023fa7c      e00317aa       mov x0, x23
+| ::|||||   0x10023fa80      e10318aa       mov x1, x24
+| ::|||||   0x10023fa84      e30313aa       mov x3, x19
+| ::|||||   0x10023fa88      4f300894       bl sym.imp.Foundation.NSDictionary_...gFZ_ ; Foundation.NSDictionary(...gFZ)
+| ::|||||   0x10023fa8c      f40300aa       mov x20, x0
+| ::|||||   0x10023fa90      e00317aa       mov x0, x23                ; void *instance
+| ::|||||   0x10023fa94      03370894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|||||   0x10023fa98      880a40f9       ldr x8, [x20, 0x10]
+| ========< 0x10023fa9c      880600b4       cbz x8, 0x10023fb6c
+| ::|||||   0x10023faa0      e00315aa       mov x0, x21
+| ::|||||   0x10023faa4      3f90fb97       bl sym.func.100123ba0
+| ========< 0x10023faa8      21060036       tbz w1, 0, 0x10023fb6c
+| ::|||||   0x10023faac      881e40f9       ldr x8, [x20, 0x38]
+| ::|||||   0x10023fab0      0015008b       add x0, x8, x0, lsl 5      ; int64_t arg1
+| ::|||||   0x10023fab4      a14302d1       sub x1, x29, 0x90          ; int64_t arg2
+| ::|||||   0x10023fab8      a428f797       bl sym.func.100009d48
+| ::|||||   0x10023fabc      e00314aa       mov x0, x20                ; void *arg0
+| ::|||||   0x10023fac0      46370894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| ::|||||   0x10023fac4      a14302d1       sub x1, x29, 0x90
+| ::|||||   0x10023fac8      a81b00f0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+| ::|||||   0x10023facc      080941f9       ldr x8, [x8, 0x210]        ; [0x1005b6210:8]=0x8010000000000a23
+| ::|||||   0x10023fad0      02210091       add x2, x8, 8
+| ::|||||   0x10023fad4      e0031caa       mov x0, x28
+| ::|||||   0x10023fad8      b40356f8       ldur x20, [var_a0h]
+| ::|||||   0x10023fadc      e30314aa       mov x3, x20
+| ::|||||   0x10023fae0      c4008052       mov w4, 6
+| ::|||||   0x10023fae4      6a370894       bl sym.imp.swift_dynamicCast
+| ::|||||   0x10023fae8      b78355f8       ldur x23, [var_a8h]
+| ::|||||   0x10023faec      e81e40f9       ldr x8, [x23, 0x38]
+| ::|||||   0x10023faf0      01000052       eor w1, w0, 1
+| ::|||||   0x10023faf4      e0031caa       mov x0, x28
+| ::|||||   0x10023faf8      22008052       mov w2, 1
+| ::|||||   0x10023fafc      e30314aa       mov x3, x20
+| ::|||||   0x10023fb00      00013fd6       blr x8
+| ::|||||   0x10023fb04      e81a40f9       ldr x8, [x23, 0x30]
+| ::|||||   0x10023fb08      e0031caa       mov x0, x28
+| ::|||||   0x10023fb0c      21008052       mov w1, 1
+| ::|||||   0x10023fb10      e20314aa       mov x2, x20
+| ::|||||   0x10023fb14      00013fd6       blr x8
+| ::|||||   0x10023fb18      1f040071       cmp w0, 1
+| ========< 0x10023fb1c      80030054       b.eq 0x10023fb8c
+| ::|||||   0x10023fb20      a16375a9       ldp x1, x24, [var_a8h]
+| ::|||||   0x10023fb24      081340f9       ldr x8, [x24, 0x20]
+| ::|||||   0x10023fb28      bc0351f8       ldur x28, [var_clob_ffffffffffffff10h]
+| ::|||||   0x10023fb2c      e0031caa       mov x0, x28
+| ::|||||   0x10023fb30      b70356f8       ldur x23, [var_a0h]
+| ::|||||   0x10023fb34      e20317aa       mov x2, x23
+| ::|||||   0x10023fb38      00013fd6       blr x8
+| ::|||||   0x10023fb3c      f4031caa       mov x20, x28
+| ::|||||   0x10023fb40      f3270894       bl sym.imp.Foundation.UUID.uuidString_...vg_ ; Foundation.UUID.uuidString(...vg)
+| ::|||||   0x10023fb44      f40300aa       mov x20, x0
+| ::|||||   0x10023fb48      f30301aa       mov x19, x1
+| ::|||||   0x10023fb4c      e00315aa       mov x0, x21                ; void *instance
+| ::|||||   0x10023fb50      d4360894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|||||   0x10023fb54      080740f9       ldr x8, [x24, 8]
+| ::|||||   0x10023fb58      e0031caa       mov x0, x28
+| ::|||||   0x10023fb5c      bc0355f8       ldur x28, [var_clob_ffffffffffffff50h]
+| ::|||||   0x10023fb60      e10317aa       mov x1, x23
+| ::|||||   0x10023fb64      00013fd6       blr x8
+| ========< 0x10023fb68      51000014       b 0x10023fcac
+| ::|||||   ; CODE XREFS from sym.func.10023f6e0 @ 0x10023fa9c(x), 0x10023faa8(x)
+| --------> 0x10023fb6c      e00314aa       mov x0, x20                ; void *arg0
+| ::|||||   0x10023fb70      1a370894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| ::|||||   0x10023fb74      a88f75a9       ldp x8, x3, [var_a8h]
+| ::|||||   0x10023fb78      081d40f9       ldr x8, [x8, 0x38]
+| ::|||||   0x10023fb7c      e0031caa       mov x0, x28
+| ::|||||   0x10023fb80      21008052       mov w1, 1
+| ::|||||   0x10023fb84      22008052       mov w2, 1
+| ::|||||   0x10023fb88      00013fd6       blr x8
+| ::|||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023fb1c(x)
+| --------> 0x10023fb8c      e0031caa       mov x0, x28                ; int64_t arg1
+| ::|||||   0x10023fb90      811c00b0       adrp x1, 0x1005d0000
+| ::|||||   0x10023fb94      21a00791       add x1, x1, 0x1e8          ; int64_t arg2
+| ::|||||   0x10023fb98      021100b0       adrp x2, 0x100460000
+| ::|||||   0x10023fb9c      42a03f91       add x2, x2, 0xfe8          ; int64_t arg3
+| ::|||||   0x10023fba0      ba2bf797       bl sym.func.10000aa88
+| ::|||||   0x10023fba4      c0698ad2       mov x0, 0x534e             ; 'NS'
+| ::|||||   0x10023fba8      606aacf2       movk x0, 0x6353, lsl 16    ; 'Sc'
+| ::|||||   0x10023fbac      40aeccf2       movk x0, 0x6572, lsl 32    ; 're'
+| ::|||||   0x10023fbb0      a0ccedf2       movk x0, 0x6e65, lsl 48    ; 'en'
+| ::|||||   0x10023fbb4      c1a98ed2       mov x1, 0x754e             ; 'Nu'
+| ::|||||   0x10023fbb8      a14dacf2       movk x1, 0x626d, lsl 16    ; 'mb'
+| ::|||||   0x10023fbbc      a14ccef2       movk x1, 0x7265, lsl 32    ; 'er'
+| ::|||||   0x10023fbc0      01c0fdf2       movk x1, 0xee00, lsl 48
+| ::|||||   0x10023fbc4      45300894       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+| ::|||||   0x10023fbc8      f70300aa       mov x23, x0
+| ::|||||   0x10023fbcc      e00319aa       mov x0, x25
+| ::|||||   0x10023fbd0      0c3d0894       bl fcn.10044f000
+| ::|||||   0x10023fbd4      fd031daa       mov x29, x29
+| ::|||||   0x10023fbd8      bb360894       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+| ::|||||   0x10023fbdc      fc0300aa       mov x28, x0
+| ::|||||   0x10023fbe0      a81b00f0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+| ::|||||   0x10023fbe4      080941f9       ldr x8, [x8, 0x210]        ; [0x1005b6210:8]=0x8010000000000a23
+| ::|||||   0x10023fbe8      02210091       add x2, x8, 8
+| ::|||||   0x10023fbec      e10318aa       mov x1, x24
+| ::|||||   0x10023fbf0      e30313aa       mov x3, x19
+| ::|||||   0x10023fbf4      f42f0894       bl sym.imp.Foundation.NSDictionary_...gFZ_ ; Foundation.NSDictionary(...gFZ)
+| ::|||||   0x10023fbf8      f40300aa       mov x20, x0
+| ::|||||   0x10023fbfc      e0031caa       mov x0, x28                ; void *instance
+| ::|||||   0x10023fc00      a8360894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|||||   0x10023fc04      880a40f9       ldr x8, [x20, 0x10]
+| ========< 0x10023fc08      a8ecffb4       cbz x8, 0x10023f99c
+| ::|||||   0x10023fc0c      e00317aa       mov x0, x23
+| ::|||||   0x10023fc10      e48ffb97       bl sym.func.100123ba0
+| ========< 0x10023fc14      41ec0736       tbz w1, 0, 0x10023f99c
+| ::|||||   0x10023fc18      881e40f9       ldr x8, [x20, 0x38]
+| ::|||||   0x10023fc1c      0015008b       add x0, x8, x0, lsl 5      ; int64_t arg1
+| ::|||||   0x10023fc20      a14302d1       sub x1, x29, 0x90          ; int64_t arg2
+| ::|||||   0x10023fc24      4928f797       bl sym.func.100009d48
+| ::|||||   0x10023fc28      e00314aa       mov x0, x20                ; void *arg0
+| ::|||||   0x10023fc2c      eb360894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| ::|||||   0x10023fc30      e00317aa       mov x0, x23                ; void *instance
+| ::|||||   0x10023fc34      9b360894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|||||   0x10023fc38      a05302d1       sub x0, x29, 0x94
+| ::|||||   0x10023fc3c      a14302d1       sub x1, x29, 0x90
+| ::|||||   0x10023fc40      a81b00f0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+| ::|||||   0x10023fc44      080941f9       ldr x8, [x8, 0x210]        ; [0x1005b6210:8]=0x8010000000000a23
+| ::|||||   0x10023fc48      02210091       add x2, x8, 8
+| ::|||||   0x10023fc4c      a31b00f0       adrp x3, reloc.Int64...VMn ; 0x1005b6000
+| ::|||||   0x10023fc50      638840f9       ldr x3, [x3, 0x110]        ; [0x1005b6110:8]=0x8010000000000a03 ; reloc.UInt32...VN
+| ::|||||   0x10023fc54      c4008052       mov w4, 6
+| ::|||||   0x10023fc58      0d370894       bl sym.imp.swift_dynamicCast
+| ::|||||   0x10023fc5c      bc0355f8       ldur x28, [var_clob_ffffffffffffff50h]
+| ========< 0x10023fc60      c0040036       tbz w0, 0, 0x10023fcf8
+| ::|||||   0x10023fc64      a0c356b8       ldur w0, [var_94h]
+| ::|||||   0x10023fc68      0b350894       bl sym.imp.CGDisplayCreateUUIDFromDisplayID
+| ========< 0x10023fc6c      600400b4       cbz x0, 0x10023fcf8
+| ::|||||   0x10023fc70      f70300aa       mov x23, x0
+| ::|||||   0x10023fc74      000080d2       mov x0, 0
+| ::|||||   0x10023fc78      e10317aa       mov x1, x23
+| ::|||||   0x10023fc7c      d6340894       bl sym.imp.CFUUIDCreateString
+| ========< 0x10023fc80      002000b4       cbz x0, 0x100240080
+| ::|||||   0x10023fc84      f80300aa       mov x24, x0
+| ::|||||   0x10023fc88      20300894       bl sym.imp.Foundation_...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ_ ; Foundation(...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ)
+| ::|||||   0x10023fc8c      f40300aa       mov x20, x0
+| ::|||||   0x10023fc90      f30301aa       mov x19, x1
+| ::|||||   0x10023fc94      e00315aa       mov x0, x21                ; void *instance
+| ::|||||   0x10023fc98      82360894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|||||   0x10023fc9c      e00317aa       mov x0, x23                ; void *instance
+| ::|||||   0x10023fca0      80360894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|||||   0x10023fca4      e00318aa       mov x0, x24                ; void *instance
+| ::|||||   0x10023fca8      7e360894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023fb68(x)
+| --------> 0x10023fcac      b44f37a9       stp x20, x19, [arg0]
+| ::|||||   0x10023fcb0      7c12f797       bl sym.func.1000046a0
+| ::|||||   0x10023fcb4      e30300aa       mov x3, x0
+| ::|||||   0x10023fcb8      a0c301d1       sub x0, x29, 0x70
+| ::|||||   0x10023fcbc      b44302d1       sub x20, x29, 0x90
+| ::|||||   0x10023fcc0      a11b00d0       adrp x1, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+| ::|||||   0x10023fcc4      212443f9       ldr x1, [x1, 0x648]        ; [0x1005b5648:8]=0x80100000000008af ; reloc....SSN
+| ::|||||   0x10023fcc8      e20301aa       mov x2, x1
+| ::|||||   0x10023fccc      e40303aa       mov x4, x3
+| ::|||||   0x10023fcd0      69320894       bl sym.imp.Foundation...SyRd__lF
+| ::|||||   0x10023fcd4      f40300aa       mov x20, x0
+| ::|||||   0x10023fcd8      e00313aa       mov x0, x19                ; void *arg0
+| ::|||||   0x10023fcdc      bf360894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| ::|||||   0x10023fce0      e00319aa       mov x0, x25                ; void *instance
+| ::|||||   0x10023fce4      6f360894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|||||   0x10023fce8      e00319aa       mov x0, x25                ; void *instance
+| ::|||||   0x10023fcec      6d360894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ========< 0x10023fcf0      d4e6ffb5       cbnz x20, 0x10023f9c8
+| ========< 0x10023fcf4      13000014       b 0x10023fd40
+| ::|||||   ; CODE XREFS from sym.func.10023f6e0 @ 0x10023fc60(x), 0x10023fc6c(x)
+| --------> 0x10023fcf8      e00319aa       mov x0, x25                ; void *instance
+| ::|||||   0x10023fcfc      69360894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|||||   0x10023fd00      e00319aa       mov x0, x25                ; void *instance
+| ::|||||   0x10023fd04      67360894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ::|||||   0x10023fd08      e00315aa       mov x0, x21                ; void *instance
+| ::|||||   0x10023fd0c      65360894       bl sym.imp.objc_release    ; void objc_release(void *instance)
+| ========< 0x10023fd10      2effff17       b 0x10023f9c8
+| ::|||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023f9dc(x)
+| ::|`----> 0x10023fd14      e0031aaa       mov x0, x26
+| ::| |||   0x10023fd18      e10316aa       mov x1, x22
+| ::| |||   0x10023fd1c      cb320894       bl sym.imp._ArrayBuffer._getElementSlowPath...s5
+| ::| |||   0x10023fd20      5b0700b1       adds x27, x26, 1
+| ========< 0x10023fd24      07e7ff54       b.vc 0x10023fa04
+| ::|,====< 0x10023fd28      d1000014       b 0x10024006c
+| ::|||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023f8a4(x)
+| --------> 0x10023fd2c      e0031aaa       mov x0, x26                ; void *arg0
+| ::|||||   0x10023fd30      aa360894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| ::|||||   0x10023fd34      e00313aa       mov x0, x19                ; void *arg0
+| ::|||||   0x10023fd38      a8360894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| `=======< 0x10023fd3c      affeff17       b 0x10023f7f8
+|  :|||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023fcf4(x)
+| --------> 0x10023fd40      bb8351f8       ldur x27, [var_clob_ffffffffffffff18h]
+|  :|||||   0x10023fd44      e0031baa       mov x0, x27                ; void *arg0
+|  :|||||   0x10023fd48      a4360894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+|  :|||||   0x10023fd4c      e00316aa       mov x0, x22                ; void *arg0
+|  :|||||   0x10023fd50      a2360894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+|  :|||||   0x10023fd54      000080d2       mov x0, 0                  ; int64_t arg1
+|  :|||||   0x10023fd58      b8cbff97       bl sym.func.100232c38
+|  :|||||   0x10023fd5c      013040b9       ldr w1, [x0, 0x30]
+|  :|||||   0x10023fd60      02684079       ldrh w2, [x0, 0x34]
+|  :|||||   0x10023fd64      85360894       bl sym.imp.swift_allocObject
+|  :|||||   0x10023fd68      f40300aa       mov x20, x0
+|  :|||||   0x10023fd6c      e0031baa       mov x0, x27                ; void *arg0
+|  :|||||   0x10023fd70      a0360894       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+|  :|||||   0x10023fd74      ba0353f8       ldur x26, [var_clob_ffffffffffffff30h]
+|  :|||||   0x10023fd78      e0031aaa       mov x0, x26                ; int64_t arg1
+|  :|||||   0x10023fd7c      e1031baa       mov x1, x27                ; int64_t arg2
+|  :|||||   0x10023fd80      8f8aff97       bl sym.func.1002227bc
+|  :|||||   0x10023fd84      f50300aa       mov x21, x0
+|  :|||||   0x10023fd88      b98352f8       ldur x25, [var_d8h]
+|  :|||||   0x10023fd8c      33d342a9       ldp x19, x20, [x25, 0x28]
+|  :|||||   0x10023fd90      371f40f9       ldr x23, [x25, 0x38]
+|  :|||||   0x10023fd94      c478f797       bl sym.func.10001e0a4
+|  :|||||   0x10023fd98      f80300aa       mov x24, x0
+|  :|||||   0x10023fd9c      e00313aa       mov x0, x19
+|  :|||||   0x10023fda0      4e370894       bl sym.imp.swift_retain
+|  :|||||   0x10023fda4      e00317aa       mov x0, x23
+|  :|||||   0x10023fda8      4c370894       bl sym.imp.swift_retain
+|  :|||||   0x10023fdac      a84302d1       sub x8, x29, 0x90
+|  :|||||   0x10023fdb0      e00313aa       mov x0, x19                ; int64_t arg1
+|  :|||||   0x10023fdb4      e10314aa       mov x1, x20
+|  :|||||   0x10023fdb8      e20317aa       mov x2, x23
+|  :|||||   0x10023fdbc      a31b00d0       adrp x3, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|  :|||||   0x10023fdc0      63fc43f9       ldr x3, [x3, 0x7f8]        ; [0x1005b57f8:8]=0x80100000000008e5 ; reloc....SbN
+|  :|||||   0x10023fdc4      e40318aa       mov x4, x24
+|  :|||||   0x10023fdc8      0bf70794       bl sym.func.10043d9f4
+|  :|||||   0x10023fdcc      e00317aa       mov x0, x23                ; void *arg0
+|  :|||||   0x10023fdd0      3c370894       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|  :|||||   0x10023fdd4      e00313aa       mov x0, x19                ; void *arg0
+|  :|||||   0x10023fdd8      3a370894       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|  :|||||   0x10023fddc      a0035738       ldurb w0, [var_94h]        ; int64_t arg1
+|  :|||||   0x10023fde0      f40315aa       mov x20, x21
+|  :|||||   0x10023fde4      c1d6ff97       bl sym.func.1002358e8
+|  :|||||   0x10023fde8      20c30191       add x0, x25, 0x70          ; void *arg0
+|  :|||||   0x10023fdec      a14302d1       sub x1, x29, 0x90          ; void *arg1
+|  :|||||   0x10023fdf0      22048052       mov w2, 0x21               ; '!' ; void *arg2
+|  :|||||   0x10023fdf4      030080d2       mov x3, 0                  ; void *arg3
+|  :|||||   0x10023fdf8      75360894       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+|  :|||||   0x10023fdfc      e00315aa       mov x0, x21
+|  :|||||   0x10023fe00      41008052       mov w1, 2
+|  :|||||   0x10023fe04      38370894       bl sym.imp.swift_retain_n
+|  :|||||   0x10023fe08      203b40f9       ldr x0, [x25, 0x70]
+|  :|||||   0x10023fe0c      24370894       bl sym.imp.swift_isUniquelyReferenced_nonNull_native
+|  :|||||   0x10023fe10      e30300aa       mov x3, x0
+|  :|||||   0x10023fe14      283b40f9       ldr x8, [x25, 0x70]
+|  :|||||   0x10023fe18      a80319f8       stur x8, [var_70h]
+|  :|||||   0x10023fe1c      b4c301d1       sub x20, x29, 0x70
+|  :|||||   0x10023fe20      e00315aa       mov x0, x21                ; int64_t arg1
+|  :|||||   0x10023fe24      e1031aaa       mov x1, x26                ; int64_t arg2
+|  :|||||   0x10023fe28      e2031baa       mov x2, x27                ; int64_t arg3
+|  :|||||   0x10023fe2c      d4dbf897       bl sym.func.100076d7c
+|  :|||||   0x10023fe30      e00315aa       mov x0, x21                ; void *arg0
+|  :|||||   0x10023fe34      23370894       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|  :|||||   0x10023fe38      e0031baa       mov x0, x27                ; void *arg0
+|  :|||||   0x10023fe3c      67360894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+|  :|||||   0x10023fe40      a80359f8       ldur x8, [var_70h]
+|  :|||||   0x10023fe44      283b00f9       str x8, [x25, 0x70]
+|  :|||||   0x10023fe48      a04302d1       sub x0, x29, 0x90          ; void *arg0
+|  :|||||   0x10023fe4c      a5360894       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+|  :|||||   0x10023fe50      b90352f8       ldur x25, [var_clob_ffffffffffffff20h]
+|  :|||||   0x10023fe54      ba6370a9       ldp x26, x24, [var_100h]
+|  :|||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023feb4(x)
+| .-------> 0x10023fe58      e0031aaa       mov x0, x26                ; void *arg0
+| ::|||||   0x10023fe5c      5f360894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| ::|||||   0x10023fe60      b48301d1       sub x20, x29, 0x60
+| ::|||||   0x10023fe64      39300894       bl sym.imp._makeUniqueAndReserveCapacityIfNot____String ; _makeUniqueAndReserveCapacityIfNot -> String
+| ::|||||   0x10023fe68      a8035af8       ldur x8, [var_60h]
+| ::|||||   0x10023fe6c      08e17d92       and x8, x8, 0xffffffffffffff8
+| ::|||||   0x10023fe70      002141a9       ldp x0, x8, [x8, 0x10]
+| ::|||||   0x10023fe74      1f0448eb       cmp x0, x8, lsr 1
+| ========< 0x10023fe78      c2020054       b.hs 0x10023fed0
+| ::|||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023fef0(x)
+| --------> 0x10023fe7c      e10315aa       mov x1, x21
+| ::|||||   0x10023fe80      4a300894       bl sym.imp._appendElementAssumeUniqueAndCapacity.new...B0ySi_xntFyXl_Ts5
+| ::|||||   0x10023fe84      a8035af8       ldur x8, [var_60h]
+| ::|||||   0x10023fe88      a96300d1       sub x9, x29, 0x18
+| ::|||||   0x10023fe8c      280110f8       stur x8, [x9, -0x100]
+| :`======< 0x10023fe90      5afeff17       b 0x10023f7f8
+| : |||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023f8fc(x)
+| --------> 0x10023fe94      881e40f9       ldr x8, [x20, 0x38]
+| : |||||   0x10023fe98      157960f8       ldr x21, [x8, x0, lsl 3]   ; error
+| : |||||   0x10023fe9c      a04302d1       sub x0, x29, 0x90          ; void *arg0
+| : |||||   0x10023fea0      90360894       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+| : |||||   0x10023fea4      e00315aa       mov x0, x21
+| : |||||   0x10023fea8      0c370894       bl sym.imp.swift_retain
+| : |||||   0x10023feac      e00317aa       mov x0, x23                ; void *arg0
+| : |||||   0x10023feb0      4a360894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| `=======< 0x10023feb4      e9ffff17       b 0x10023fe58
+|   |||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023f96c(x)
+| --------> 0x10023feb8      c8e27d92       and x8, x22, 0xffffffffffffff8
+|   |||||   0x10023febc      df0600b1       cmn x22, 1
+|   |||||   0x10023fec0      00c1969a       csel x0, x8, x22, gt
+|   |||||   0x10023fec4      c1320894       bl sym.imp.getter__CocoaArrayWrapper.endIndex_...vg_ ; getter _CocoaArrayWrapper.endIndex(...vg)
+|   |||||   0x10023fec8      f30300aa       mov x19, x0
+| ========< 0x10023fecc      abfeff17       b 0x10023f978
+|   |||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023fe78(x)
+| --------> 0x10023fed0      1f0500f1       cmp x8, 1
+|   |||||   0x10023fed4      e8979f1a       cset w8, hi
+|   |||||   0x10023fed8      01040091       add x1, x0, 1
+|   |||||   0x10023fedc      f30300aa       mov x19, x0
+|   |||||   0x10023fee0      e00308aa       mov x0, x8
+|   |||||   0x10023fee4      22008052       mov w2, 1
+|   |||||   0x10023fee8      27300894       bl sym.imp._createNewBuffer.bufferIsUnique.minimumCapacity.growForAppend____String ; _createNewBuffer.bufferIsUnique.minimumCapacity.growForAppend -> String
+|   |||||   0x10023feec      e00313aa       mov x0, x19
+| ========< 0x10023fef0      e3ffff17       b 0x10023fe7c
+|   |||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023f78c(x)
+|   ||||`-> 0x10023fef4      a81b00f0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+|   ||||    0x10023fef8      081541f9       ldr x8, [x8, 0x228]        ; [0x1005b6228:8]=0x8010000000000a26
+|   ||||    0x10023fefc      a80319f8       stur x8, [var_70h]
+|   ||||    0x10023ff00      360b40f9       ldr x22, [x25, 0x10]
+|   ||||,=< 0x10023ff04      960900b4       cbz x22, 0x100240034
+|   |||||   0x10023ff08      130080d2       mov x19, 0
+|   |||||   0x10023ff0c      37a30091       add x23, x25, 0x28
+|   |||||   0x10023ff10      d80600d1       sub x24, x22, 1
+|   |||||   0x10023ff14      a96300d1       sub x9, x29, 0x18
+|   |||||   0x10023ff18      280110f8       stur x8, [x9, -0x100]
+|   |||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023fff4(x)
+|  .------> 0x10023ff1c      fa12138b       add x26, x23, x19, lsl 4
+|  :|||||   0x10023ff20      f90313aa       mov x25, x19
+| ,=======< 0x10023ff24      09000014       b 0x10023ff48
+| |:|||||   ; CODE XREFS from sym.func.10023f6e0 @ 0x10023ff84(x), 0x10023ff94(x)
+| --------> 0x10023ff28      39070091       add x25, x25, 1
+| |:|||||   0x10023ff2c      a04302d1       sub x0, x29, 0x90          ; void *arg0
+| |:|||||   0x10023ff30      6c360894       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+| |:|||||   0x10023ff34      e00313aa       mov x0, x19                ; void *arg0
+| |:|||||   0x10023ff38      28360894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| |:|||||   0x10023ff3c      5a430091       add x26, x26, 0x10
+| |:|||||   0x10023ff40      df0219eb       cmp x22, x25
+| ========< 0x10023ff44      e0060054       b.eq 0x100240020
+| |:|||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023ff24(x)
+| `-------> 0x10023ff48      a80352f8       ldur x8, [var_clob_ffffffffffffff20h]
+|  :|||||   0x10023ff4c      080940f9       ldr x8, [x8, 0x10]
+|  :|||||   0x10023ff50      3f0308eb       cmp x25, x8
+| ,=======< 0x10023ff54      22090054       b.hs 0x100240078
+| |:|||||   0x10023ff58      55cf7fa9       ldp x21, x19, [x26, -8]    ; error
+| |:|||||   0x10023ff5c      b48352f8       ldur x20, [var_d8h]
+| |:|||||   0x10023ff60      80c20191       add x0, x20, 0x70          ; void *arg0
+| |:|||||   0x10023ff64      a14302d1       sub x1, x29, 0x90          ; void *arg1
+| |:|||||   0x10023ff68      02048052       mov w2, 0x20               ; void *arg2
+| |:|||||   0x10023ff6c      030080d2       mov x3, 0                  ; void *arg3
+| |:|||||   0x10023ff70      17360894       bl sym.imp.swift_beginAccess ; void swift_beginAccess(void *arg0, void *arg1, void *arg2, void *arg3)
+| |:|||||   0x10023ff74      940247f8       ldur x20, [x20, 0x70]
+| |:|||||   0x10023ff78      9b0a40f9       ldr x27, [x20, 0x10]
+| |:|||||   0x10023ff7c      e00313aa       mov x0, x19                ; void *arg0
+| |:|||||   0x10023ff80      1c360894       bl sym.imp.swift_bridgeObjectRetain ; void *swift_bridgeObjectRetain(void *arg0)
+| ========< 0x10023ff84      3bfdffb4       cbz x27, 0x10023ff28
+| |:|||||   0x10023ff88      e00315aa       mov x0, x21                ; int64_t arg1
+| |:|||||   0x10023ff8c      e10313aa       mov x1, x19                ; int64_t arg2
+| |:|||||   0x10023ff90      1a7dfb97       bl sym.func.10011f3f8
+| ========< 0x10023ff94      a1fc0736       tbz w1, 0, 0x10023ff28
+| |:|||||   0x10023ff98      881e40f9       ldr x8, [x20, 0x38]
+| |:|||||   0x10023ff9c      157960f8       ldr x21, [x8, x0, lsl 3]
+| |:|||||   0x10023ffa0      a04302d1       sub x0, x29, 0x90          ; void *arg0
+| |:|||||   0x10023ffa4      4f360894       bl sym.imp.swift_endAccess ; void swift_endAccess(void *arg0)
+| |:|||||   0x10023ffa8      e00315aa       mov x0, x21
+| |:|||||   0x10023ffac      cb360894       bl sym.imp.swift_retain
+| |:|||||   0x10023ffb0      e00313aa       mov x0, x19                ; void *arg0
+| |:|||||   0x10023ffb4      09360894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| |:|||||   0x10023ffb8      b4c301d1       sub x20, x29, 0x70
+| |:|||||   0x10023ffbc      e32f0894       bl sym.imp._makeUniqueAndReserveCapacityIfNot____String ; _makeUniqueAndReserveCapacityIfNot -> String
+| |:|||||   0x10023ffc0      a80359f8       ldur x8, [var_70h]
+| |:|||||   0x10023ffc4      08e17d92       and x8, x8, 0xffffffffffffff8
+| |:|||||   0x10023ffc8      002141a9       ldp x0, x8, [x8, 0x10]
+| |:|||||   0x10023ffcc      1f0448eb       cmp x0, x8, lsr 1
+| ========< 0x10023ffd0      62010054       b.hs 0x10023fffc
+| |:|||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10024001c(x)
+| --------> 0x10023ffd4      33070091       add x19, x25, 1
+| |:|||||   0x10023ffd8      e10315aa       mov x1, x21
+| |:|||||   0x10023ffdc      f32f0894       bl sym.imp._appendElementAssumeUniqueAndCapacity.new...B0ySi_xntFyXl_Ts5
+| |:|||||   0x10023ffe0      a80359f8       ldur x8, [var_70h]
+| |:|||||   0x10023ffe4      a96300d1       sub x9, x29, 0x18
+| |:|||||   0x10023ffe8      280110f8       stur x8, [x9, -0x100]
+| |:|||||   0x10023ffec      1f0319eb       cmp x24, x25
+| |:|||||   0x10023fff0      b90352f8       ldur x25, [var_clob_ffffffffffffff20h]
+| |`======< 0x10023fff4      41f9ff54       b.ne 0x10023ff1c
+| |,======< 0x10023fff8      11000014       b 0x10024003c
+| |||||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023ffd0(x)
+| --------> 0x10023fffc      1f0500f1       cmp x8, 1
+| |||||||   0x100240000      e8979f1a       cset w8, hi
+| |||||||   0x100240004      01040091       add x1, x0, 1
+| |||||||   0x100240008      f30300aa       mov x19, x0
+| |||||||   0x10024000c      e00308aa       mov x0, x8
+| |||||||   0x100240010      22008052       mov w2, 1
+| |||||||   0x100240014      dc2f0894       bl sym.imp._createNewBuffer.bufferIsUnique.minimumCapacity.growForAppend____String ; _createNewBuffer.bufferIsUnique.minimumCapacity.growForAppend -> String
+| |||||||   0x100240018      e00313aa       mov x0, x19
+| ========< 0x10024001c      eeffff17       b 0x10023ffd4
+| |||||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023ff44(x)
+| --------> 0x100240020      b90352f8       ldur x25, [var_clob_ffffffffffffff20h]
+| ========< 0x100240024      06000014       b 0x10024003c
+| |||||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023f7a8(x)
+| |||||`--> 0x100240028      a86300d1       sub x8, x29, 0x18
+| ||||| |   0x10024002c      090110f8       stur x9, [x8, -0x100]
+| |||||,==< 0x100240030      03000014       b 0x10024003c
+| |||||||   ; CODE XREF from sym.func.10023f6e0 @ 0x10023ff04(x)
+| ||||||`-> 0x100240034      a96300d1       sub x9, x29, 0x18
+| ||||||    0x100240038      280110f8       stur x8, [x9, -0x100]
+| ||||||    ; CODE XREFS from sym.func.10023f6e0 @ 0x10023f804(x), 0x10023fff8(x), 0x100240024(x), 0x100240030(x)
+| -`---`--> 0x10024003c      e00319aa       mov x0, x25                ; void *arg0
+| | |||     0x100240040      e6350894       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+| | |||     0x100240044      a86300d1       sub x8, x29, 0x18
+| | |||     0x100240048      000150f8       ldur x0, [x8, -0x100]
+| | |||     0x10024004c      bf4301d1       sub sp, x29, 0x50
+| | |||     0x100240050      fd7b45a9       ldp x29, x30, [var_50h]
+| | |||     0x100240054      f44f44a9       ldp x20, x19, [var_40h]
+| | |||     0x100240058      f65743a9       ldp x22, x21, [var_30h]
+| | |||     0x10024005c      f85f42a9       ldp x24, x23, [var_20h]
+| | |||     0x100240060      fa6741a9       ldp x26, x25, [var_10h]
+| | |||     0x100240064      fc6fc6a8       ldp x28, x27, [sp], 0x60
+| | |||     0x100240068      c0035fd6       ret
+| | |||     ; CODE XREFS from sym.func.10023f6e0 @ 0x10023fa00(x), 0x10023fd28(x)
+| ---`----> 0x10024006c      200020d4       brk 1
+| | | |     ; CODE XREF from sym.func.10023f6e0 @ 0x10023f9ec(x)
+| | `-----> 0x100240070      200020d4       brk 1
+| |   |     ; CODE XREF from sym.func.10023f6e0 @ 0x10023f860(x)
+| --------> 0x100240074      200020d4       brk 1
+| |   |     ; CODE XREF from sym.func.10023f6e0 @ 0x10023ff54(x)
+| `-------> 0x100240078      200020d4       brk 1
+|     |     ; CODE XREF from sym.func.10023f6e0 @ 0x10023f810(x)
+|     `---> 0x10024007c      200020d4       brk 1
+|           ; CODE XREF from sym.func.10023f6e0 @ 0x10023fc80(x)
+\ --------> 0x100240080      200020d4       brk 1

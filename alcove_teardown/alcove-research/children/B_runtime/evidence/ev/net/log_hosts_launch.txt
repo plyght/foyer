@@ -1,0 +1,6 @@
+  63 com.apple.compilers.llvm.clang.1_0",
+   5 www.apple.com/DTDs/PropertyList-1.0.dtd"><plist
+   2 com.apple.compilers.llvm.clang.1_<…>
+   1 com.apple.compilers.llvm.clang.1_0<…>
+   1 com.apple.compilers.llvm.cla<…>)
+   1 com.apple.compiler<…>

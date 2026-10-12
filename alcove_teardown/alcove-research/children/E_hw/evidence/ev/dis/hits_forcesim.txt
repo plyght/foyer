@@ -1,0 +1,8 @@
+0x10051cf21 hit26_0 "_forceSimulatedNotch_idleDuration"
+0x10051e341 hit26_1 "_showOnDisplay_forceSimulatedNotch_has"
+0x1005222d1 hit26_2 "pture_forceSimulatedNotch_not"
+0x100522b71 hit26_3 "t_forceSimulatedNotch_hid"
+0x100525ae1 hit26_4 "pture_forceSimulatedNotch_hid"
+0x100547051 hit26_5 "ettings.general.forceSimulatedNotchsett"
+0x100547480 hit26_6 "ickPeekforceSimulatedNotchhid"
+0x100554331 hit26_7 "ity_forceSimulatedNotch_ges"

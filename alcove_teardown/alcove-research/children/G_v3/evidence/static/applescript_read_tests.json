@@ -1,0 +1,50 @@
+[
+  {
+    "test": "get name",
+    "code": 0,
+    "stdout": "Alcove\n",
+    "stderr": ""
+  },
+  {
+    "test": "get version",
+    "code": 0,
+    "stdout": "1.7.7\n",
+    "stderr": ""
+  },
+  {
+    "test": "get frontmost",
+    "code": 0,
+    "stdout": "true\n",
+    "stderr": ""
+  },
+  {
+    "test": "count windows",
+    "code": 1,
+    "stdout": "",
+    "stderr": "76:89: execution error: Alcove got an error: AppleEvent timed out. (-1712)\n"
+  },
+  {
+    "test": "get properties",
+    "code": 1,
+    "stdout": "",
+    "stderr": "80:90: execution error: Alcove got an error: AppleEvent timed out. (-1712)\n"
+  },
+  {
+    "test": "get properties of windows",
+    "code": 1,
+    "stdout": "",
+    "stderr": "80:90: execution error: Alcove got an error: AppleEvent timed out. (-1712)\n"
+  },
+  {
+    "test": "count documents",
+    "code": 1,
+    "stdout": "",
+    "stderr": "76:91: execution error: Alcove got an error: AppleEvent timed out. (-1712)\n"
+  },
+  {
+    "test": "exists window 1",
+    "code": 0,
+    "stdout": "true\n",
+    "stderr": ""
+  }
+]

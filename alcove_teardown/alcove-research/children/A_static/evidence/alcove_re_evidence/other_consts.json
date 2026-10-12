@@ -1,0 +1,3269 @@
+[
+{
+"tag": "easeInOut",
+"fn": "sym.func.10014b4d8",
+"addr": "0x10014b880",
+"call": "bl sym.imp.SwiftUI.Animation.easeInOut.duration_...FZ_",
+"d0": 0.2,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeInOut",
+"fn": "sym.func.1002a2b7c",
+"addr": "0x1002a2ef0",
+"call": "bl sym.imp.SwiftUI.Animation.easeInOut.duration_...FZ_",
+"d0": 0.2,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeIn",
+"fn": "sym.func.1002c7988",
+"addr": "0x1002c799c",
+"call": "bl sym.imp.SwiftUI.Animation.easeIn.duration_...FZ_",
+"d0": 0.15,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.10000f2e0",
+"addr": "0x10000f3b4",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.10000f580",
+"addr": "0x10000f654",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.100013a00",
+"addr": "0x1000143e4",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.100014b20",
+"addr": "0x100014d34",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.100014f84",
+"addr": "0x100015084",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.100015c48",
+"addr": "0x100015e08",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.100016844",
+"addr": "0x1000168d4",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.100016918",
+"addr": "0x100016a34",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.100016918",
+"addr": "0x100016adc",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.100016f30",
+"addr": "0x100017134",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.100017330",
+"addr": "0x100017440",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.10003f780",
+"addr": "0x10003f7b0",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.10003fbc8",
+"addr": "0x10003fc00",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.10003fdf4",
+"addr": "0x10003feb4",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.10003ff08",
+"addr": "0x10003ffd4",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.10008ca90",
+"addr": "0x10008cd9c",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.100142a08",
+"addr": "0x100142a44",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.10019c570",
+"addr": "0x10019c648",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001a5208",
+"addr": "0x1001a5b8c",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001a61b4",
+"addr": "0x1001a63c8",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001a6618",
+"addr": "0x1001a6718",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001a989c",
+"addr": "0x1001a98d8",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001a9a40",
+"addr": "0x1001a9a74",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001a9fa8",
+"addr": "0x1001aa038",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001aa07c",
+"addr": "0x1001aa198",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001aa07c",
+"addr": "0x1001aa240",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001aa49c",
+"addr": "0x1001aa4cc",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001aa61c",
+"addr": "0x1001aa988",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001aaa78",
+"addr": "0x1001aab88",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001bc57c",
+"addr": "0x1001bcb40",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001bc57c",
+"addr": "0x1001bcc50",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001cf294",
+"addr": "0x1001cf2c4",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.4,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1001fe654",
+"addr": "0x1001fe730",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1002129b0",
+"addr": "0x1002130e0",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": "?mem",
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1002b3184",
+"addr": "0x1002b396c",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.6,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1002b7910",
+"addr": "0x1002b7a80",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1002bf8b8",
+"addr": "0x1002bf95c",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.1,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.1002c7930",
+"addr": "0x1002c794c",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.55,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.100353c68",
+"addr": "0x100354438",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.15,
+"d1": null,
+"d2": null
+},
+{
+"tag": "easeOut",
+"fn": "sym.func.10035d128",
+"addr": "0x10035d23c",
+"call": "bl sym.imp.SwiftUI.Animation.easeOut.duration_...FZ_",
+"d0": 0.15,
+"d1": null,
+"d2": null
+},
+{
+"tag": "linear",
+"fn": "sym.func.100444364",
+"addr": "0x100444374",
+"call": "bl sym.imp.SwiftUI.Animation.linear.duration_...FZ_",
+"d0": 1.5,
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "linear",
+"fn": "sym.func.1004452b4",
+"addr": "0x100445328",
+"call": "bl sym.imp.SwiftUI.Animation.linear.duration_...FZ_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "default",
+"fn": "sym.func.100013a00",
+"addr": "0x10001448c",
+"call": "bl sym.imp.SwiftUI.Animation.default_...vgZ_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "default",
+"fn": "sym.func.1000ed63c",
+"addr": "0x1000ed63c",
+"call": "b sym.imp.SwiftUI.Animation.default_...vgZ_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "default",
+"fn": "sym.func.1001a5208",
+"addr": "0x1001a5c34",
+"call": "bl sym.imp.SwiftUI.Animation.default_...vgZ_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "default",
+"fn": "sym.func.1002b7224",
+"addr": "0x1002b7224",
+"call": "b sym.imp.SwiftUI.Animation.default_...vgZ_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "delay",
+"fn": "sym.func.1000e0394",
+"addr": "0x1000e0bb4",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": 0.1,
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "delay",
+"fn": "sym.func.1000e4690",
+"addr": "0x1000e4740",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": 0.05,
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "delay",
+"fn": "sym.func.1000e90b0",
+"addr": "0x1000e963c",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": 0.1,
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "delay",
+"fn": "sym.func.1000e90b0",
+"addr": "0x1000e9bd0",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": 0.1,
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "delay",
+"fn": "sym.func.1001732d8",
+"addr": "0x1001733d4",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "delay",
+"fn": "sym.func.1001732d8",
+"addr": "0x10017340c",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "delay",
+"fn": "sym.func.10017b354",
+"addr": "0x10017b494",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": 0.075,
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "delay",
+"fn": "sym.func.100195738",
+"addr": "0x100195868",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "delay",
+"fn": "sym.func.100195738",
+"addr": "0x1001958b4",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "delay",
+"fn": "sym.func.100195738",
+"addr": "0x1001958ec",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "delay",
+"fn": "sym.func.1002b3184",
+"addr": "0x1002b3980",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": 0.3,
+"d1": null,
+"d2": null
+},
+{
+"tag": "delay",
+"fn": "sym.func.1002c7930",
+"addr": "0x1002c7964",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": 0.05,
+"d1": null,
+"d2": null
+},
+{
+"tag": "delay",
+"fn": "sym.func.100444364",
+"addr": "0x100444380",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": 0.25,
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "delay",
+"fn": "sym.func.1004452b4",
+"addr": "0x100445334",
+"call": "bl sym.imp.SwiftUI.Animation.delay_...CSdF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "repeatForever",
+"fn": "sym.func.100444364",
+"addr": "0x100444398",
+"call": "bl sym.imp.SwiftUI.Animation.repeatForever.autoreverses_...F_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "repeatForever",
+"fn": "sym.func.1004452b4",
+"addr": "0x10044534c",
+"call": "bl sym.imp.SwiftUI.Animation.repeatForever.autoreverses_...F_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c14b4",
+"addr": "0x1001c15ac",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c5c44",
+"addr": "0x1001c5d0c",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c5e14",
+"addr": "0x1001c5f0c",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c869c",
+"addr": "0x1001c8da4",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c8ebc",
+"addr": "0x1001c8f84",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021f344",
+"addr": "0x10021fc6c",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021f344",
+"addr": "0x100220344",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021f344",
+"addr": "0x100220560",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002244f4",
+"addr": "0x100224a38",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100224c88",
+"addr": "0x100225380",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100225730",
+"addr": "0x100226dd0",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100225730",
+"addr": "0x100226fe8",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100225730",
+"addr": "0x10022733c",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022776c",
+"addr": "0x100227ab0",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100227ca0",
+"addr": "0x100227ec4",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100227fb8",
+"addr": "0x100228154",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100228230",
+"addr": "0x1002282dc",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100228b7c",
+"addr": "0x100228db0",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100228f08",
+"addr": "0x100229104",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022eef4",
+"addr": "0x10022efc0",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022f8b0",
+"addr": "0x1002302d8",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100230aa0",
+"addr": "0x10023119c",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100231430",
+"addr": "0x100231b44",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10023de08",
+"addr": "0x10023e880",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002416f0",
+"addr": "0x100241ebc",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002c9404",
+"addr": "0x1002c97d4",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002c988c",
+"addr": "0x1002c9af4",
+"call": "bl sym.imp.SwiftUI.withAnimation.completionCriteria..._0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10000f2e0",
+"addr": "0x10000f3dc",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10000f580",
+"addr": "0x10000f67c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100014b20",
+"addr": "0x100014d5c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100014f84",
+"addr": "0x1000150ac",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100015c48",
+"addr": "0x100015e30",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100016844",
+"addr": "0x1000168ac",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100016844",
+"addr": "0x1000168f0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100016918",
+"addr": "0x100016a5c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100016918",
+"addr": "0x100016af8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100016f30",
+"addr": "0x100017150",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100017330",
+"addr": "0x100017468",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100018078",
+"addr": "0x1000180d0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1000181ec",
+"addr": "0x100018244",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100018360",
+"addr": "0x1000183fc",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100018520",
+"addr": "0x100018578",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100018694",
+"addr": "0x1000186ec",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100018808",
+"addr": "0x1000188a4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1000219a4",
+"addr": "0x100021c14",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100022440",
+"addr": "0x100022698",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10002d960",
+"addr": "0x10002d9c4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10002da90",
+"addr": "0x10002db04",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10003f780",
+"addr": "0x10003f7d8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10003fbc8",
+"addr": "0x10003fc24",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10003fdf4",
+"addr": "0x10003fed8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10003ff08",
+"addr": "0x10003fffc",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10006c614",
+"addr": "0x10006c68c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100093644",
+"addr": "0x1000936ac",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10009380c",
+"addr": "0x100093884",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10009e458",
+"addr": "0x10009e774",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10009fd18",
+"addr": "0x10009ff00",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1000a0118",
+"addr": "0x1000a0434",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1000a0818",
+"addr": "0x1000a08c8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1000f44f0",
+"addr": "0x1000f4578",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1000ff1dc",
+"addr": "0x1000ff530",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1000ff1dc",
+"addr": "0x1000ff6ac",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1000ff1dc",
+"addr": "0x1000ff818",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1000ff1dc",
+"addr": "0x1000ffdb0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10010a84c",
+"addr": "0x10010a8a0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100114470",
+"addr": "0x1001146ec",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10011480c",
+"addr": "0x100114a90",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100114be4",
+"addr": "0x100114cb0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100114d40",
+"addr": "0x100114e1c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100114f20",
+"addr": "0x10011513c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10011522c",
+"addr": "0x100115458",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100119c80",
+"addr": "0x100119e58",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10011ce10",
+"addr": "0x10011cf4c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100141648",
+"addr": "0x1001416bc",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100142a08",
+"addr": "0x100142a6c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10015d6bc",
+"addr": "0x10015d768",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001763e8",
+"addr": "0x100176650",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001a61b4",
+"addr": "0x1001a63f0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001a6618",
+"addr": "0x1001a6740",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001a8ebc",
+"addr": "0x1001a9018",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001a989c",
+"addr": "0x1001a9900",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001a9a40",
+"addr": "0x1001a9a98",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001a9fa8",
+"addr": "0x1001aa010",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001a9fa8",
+"addr": "0x1001aa054",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001aa07c",
+"addr": "0x1001aa1c0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001aa07c",
+"addr": "0x1001aa25c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001aa49c",
+"addr": "0x1001aa4f4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001aa61c",
+"addr": "0x1001aa9a4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001aaa78",
+"addr": "0x1001aabb0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001aad9c",
+"addr": "0x1001aaea4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001ab210",
+"addr": "0x1001ab268",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001ab340",
+"addr": "0x1001ab398",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001ab470",
+"addr": "0x1001ab50c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001ab5ec",
+"addr": "0x1001ab644",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001ab71c",
+"addr": "0x1001ab774",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001ab84c",
+"addr": "0x1001ab8e8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c0a20",
+"addr": "0x1001c0a68",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c0a20",
+"addr": "0x1001c0aa8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c0d78",
+"addr": "0x1001c0ec0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c0d78",
+"addr": "0x1001c0f00",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c19c8",
+"addr": "0x1001c1eb0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c19c8",
+"addr": "0x1001c1f80",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c19c8",
+"addr": "0x1001c2084",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c2710",
+"addr": "0x1001c27bc",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c2710",
+"addr": "0x1001c27f0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c2710",
+"addr": "0x1001c2830",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c2870",
+"addr": "0x1001c2930",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c2870",
+"addr": "0x1001c2964",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c2870",
+"addr": "0x1001c29a4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c2e10",
+"addr": "0x1001c2ed4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c2e10",
+"addr": "0x1001c2f08",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c2e10",
+"addr": "0x1001c2f48",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c3080",
+"addr": "0x1001c35e4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c3080",
+"addr": "0x1001c36c4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c3080",
+"addr": "0x1001c3770",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c4094",
+"addr": "0x1001c4da4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c613c",
+"addr": "0x1001c6cfc",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c613c",
+"addr": "0x1001c6f38",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c7e04",
+"addr": "0x1001c7fcc",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c8080",
+"addr": "0x1001c80e4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c82ac",
+"addr": "0x1001c831c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c83d8",
+"addr": "0x1001c845c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c869c",
+"addr": "0x1001c8894",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c869c",
+"addr": "0x1001c8d08",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c9350",
+"addr": "0x1001c93fc",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001c9350",
+"addr": "0x1001c9430",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001cf294",
+"addr": "0x1001cf2f0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001e0d10",
+"addr": "0x1001e106c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001e0d10",
+"addr": "0x1001e10a0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001e12e4",
+"addr": "0x1001e13d0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001e14d4",
+"addr": "0x1001e1580",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001e14d4",
+"addr": "0x1001e15d0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001e161c",
+"addr": "0x1001e16e0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001e161c",
+"addr": "0x1001e1730",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001e17f0",
+"addr": "0x1001e18a8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001e18f0",
+"addr": "0x1001e19bc",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001e1b5c",
+"addr": "0x1001e2f54",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001e3440",
+"addr": "0x1001e35ac",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001e36a8",
+"addr": "0x1001e3818",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001f8e24",
+"addr": "0x1001f93d8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001f94d4",
+"addr": "0x1001f9660",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001fa7d4",
+"addr": "0x1001fa940",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001faed0",
+"addr": "0x1001fb03c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1001fe654",
+"addr": "0x1001fe760",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021ba1c",
+"addr": "0x10021bd8c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021c974",
+"addr": "0x10021da14",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021c974",
+"addr": "0x10021dbb0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021c974",
+"addr": "0x10021ddac",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021c974",
+"addr": "0x10021de64",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021e724",
+"addr": "0x10021eccc",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021e724",
+"addr": "0x10021ee18",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021e724",
+"addr": "0x10021ef14",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021f344",
+"addr": "0x10021fbb8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10021f344",
+"addr": "0x100220184",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100223660",
+"addr": "0x1002239b0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100224a94",
+"addr": "0x100224c5c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100224c88",
+"addr": "0x1002252d8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100225730",
+"addr": "0x1002267ec",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100225730",
+"addr": "0x100227288",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022a848",
+"addr": "0x10022a9ac",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022a9d4",
+"addr": "0x10022ab7c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022bf60",
+"addr": "0x10022c0c0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022d078",
+"addr": "0x10022d2ec",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022d348",
+"addr": "0x10022d5cc",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022d964",
+"addr": "0x10022d9f4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022da48",
+"addr": "0x10022daec",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022df8c",
+"addr": "0x10022e028",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022f778",
+"addr": "0x10022f7c0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022f84c",
+"addr": "0x10022f894",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022f8b0",
+"addr": "0x100230044",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10022f8b0",
+"addr": "0x100230200",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100230aa0",
+"addr": "0x100231104",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100230aa0",
+"addr": "0x100231380",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100231430",
+"addr": "0x100231aac",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100231430",
+"addr": "0x100231d28",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100231dd8",
+"addr": "0x100232120",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002323f0",
+"addr": "0x1002324b8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100232500",
+"addr": "0x1002325d8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100235270",
+"addr": "0x1002357b4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100235988",
+"addr": "0x100235b44",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10023de08",
+"addr": "0x10023e714",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002416f0",
+"addr": "0x100241e08",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100243a7c",
+"addr": "0x10024408c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10025170c",
+"addr": "0x100251798",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10025cc3c",
+"addr": "0x10025cc9c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10025cd74",
+"addr": "0x10025cdd0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002644d4",
+"addr": "0x10026487c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100264a9c",
+"addr": "0x100264b3c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100264b7c",
+"addr": "0x100264c2c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100291918",
+"addr": "0x100291a90",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100291918",
+"addr": "0x100291af4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100291918",
+"addr": "0x100291c30",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100291d20",
+"addr": "0x100291eb0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100291d20",
+"addr": "0x100291f14",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100291d20",
+"addr": "0x100292054",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002932b4",
+"addr": "0x10029330c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002ae780",
+"addr": "0x1002aeb28",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002aed48",
+"addr": "0x1002aede8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002aee28",
+"addr": "0x1002aeed8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002b4ed0",
+"addr": "0x1002b4f20",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002b5034",
+"addr": "0x1002b5084",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002b5198",
+"addr": "0x1002b51e8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002b52fc",
+"addr": "0x1002b534c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002b5460",
+"addr": "0x1002b54b8",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002bdadc",
+"addr": "0x1002bdb64",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002bf8b8",
+"addr": "0x1002bf990",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1002c988c",
+"addr": "0x1002c9b3c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100351c84",
+"addr": "0x100352394",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100353c68",
+"addr": "0x100354454",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10035d128",
+"addr": "0x10035d258",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100364dc8",
+"addr": "0x1003651e4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100365b44",
+"addr": "0x100365e20",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100365f64",
+"addr": "0x100366314",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100365f64",
+"addr": "0x1003663a0",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1003672fc",
+"addr": "0x100367548",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.1003686d4",
+"addr": "0x100368794",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100369640",
+"addr": "0x10036a1a4",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100369640",
+"addr": "0x10036a5ac",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100369640",
+"addr": "0x10036ac2c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100369640",
+"addr": "0x10036b268",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100379124",
+"addr": "0x100379858",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100379124",
+"addr": "0x100379988",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100382d74",
+"addr": "0x10038365c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.100382d74",
+"addr": "0x1003836ac",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10038a098",
+"addr": "0x10038a174",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10038a1b0",
+"addr": "0x10038a25c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10038ad18",
+"addr": "0x10038ae3c",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "withAnimation",
+"fn": "sym.func.10038ae6c",
+"addr": "0x10038af80",
+"call": "bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "AnimationTimelineSchedule",
+"fn": "sym.func.10040aba4",
+"addr": "0x10040acdc",
+"call": "bl sym.imp.SwiftUI.AnimationTimelineSchedule.minimumInterval.paused_...btcfC_",
+"d0": "?fdiv",
+"d1": 1.0,
+"d2": null
+},
+{
+"tag": "AnimationTimelineSchedule",
+"fn": "sym.func.10040aba4",
+"addr": "0x10040abfc",
+"call": "bl sym.imp.SwiftUI.AnimationTimelineSchedule...VMa",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "AnimationTimelineSchedule",
+"fn": "sym.func.10040c294",
+"addr": "0x10040c2b0",
+"call": "bl sym.imp.SwiftUI.AnimationTimelineSchedule...VMa",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Clock.sleep",
+"fn": "sym.func.10002d7c8",
+"addr": "0x10002d8c0",
+"call": "b sym.imp.Clock.sleep.until.tolerance_...DurationQzSgtYaKFTj_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Clock.sleep",
+"fn": "sym.func.1000934ac",
+"addr": "0x1000935a4",
+"call": "b sym.imp.Clock.sleep.until.tolerance_...DurationQzSgtYaKFTj_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Clock.sleep",
+"fn": "sym.func.1001142d0",
+"addr": "0x1001143c8",
+"call": "b sym.imp.Clock.sleep.until.tolerance_...DurationQzSgtYaKFTj_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Clock.sleep",
+"fn": "sym.func.100135418",
+"addr": "0x10013554c",
+"call": "b sym.imp.Clock.sleep.until.tolerance_...DurationQzSgtYaKFTj_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Clock.sleep",
+"fn": "sym.func.100157688",
+"addr": "0x100157780",
+"call": "b sym.imp.Clock.sleep.until.tolerance_...DurationQzSgtYaKFTj_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Clock.sleep",
+"fn": "sym.func.10015f7a8",
+"addr": "0x10015f8a0",
+"call": "b sym.imp.Clock.sleep.until.tolerance_...DurationQzSgtYaKFTj_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Clock.sleep",
+"fn": "sym.func.1001b6ef4",
+"addr": "0x1001b6fec",
+"call": "b sym.imp.Clock.sleep.until.tolerance_...DurationQzSgtYaKFTj_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Clock.sleep",
+"fn": "sym.func.100236148",
+"addr": "0x10023624c",
+"call": "b sym.imp.Clock.sleep.until.tolerance_...DurationQzSgtYaKFTj_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.100041024",
+"addr": "0x100041038",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSgvs",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.100195708",
+"addr": "0x100195724",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSgvs",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.10025291c",
+"addr": "0x100252948",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSgvs",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.1002929a8",
+"addr": "0x1002929bc",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSgvs",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.100191400",
+"addr": "0x100191420",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSg_tcfC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.1002244f4",
+"addr": "0x1002248a0",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSg_tcfC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.10022dce0",
+"addr": "0x10022dd58",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSg_tcfC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.10022ddf8",
+"addr": "0x10022de7c",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSg_tcfC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.10022e224",
+"addr": "0x10022e300",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSg_tcfC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.10022e5dc",
+"addr": "0x10022e6cc",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSg_tcfC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.10022ebc4",
+"addr": "0x10022ec38",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSg_tcfC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.10022ecd0",
+"addr": "0x10022ed54",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSg_tcfC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Transaction.animation",
+"fn": "sym.func.10022f00c",
+"addr": "0x10022f1f0",
+"call": "bl sym.imp.SwiftUI.Transaction.animation.Animation...VSg_tcfC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Binding.animation",
+"fn": "sym.func.10005cbbc",
+"addr": "0x10005cd18",
+"call": "bl sym.imp.SwiftUI.Binding.animation.Animation...VSgF",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "Binding.animation",
+"fn": "sym.func.10008ac34",
+"addr": "0x10008af94",
+"call": "bl sym.imp.SwiftUI.Binding.animation.Animation...VSgF",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "Binding.animation",
+"fn": "sym.func.1000ac264",
+"addr": "0x1000ac640",
+"call": "bl sym.imp.SwiftUI.Binding.animation.Animation...VSgF",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "PhaseAnimator",
+"fn": "sym.func.1002b00a4",
+"addr": "0x1002b0294",
+"call": "bl sym.imp.SwiftUI.PhaseAnimator...V_7content9animationACyxq_Gqd___q_xcAA9AnimationVSgxctc7ElementQyd__RszSTRd__lufC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "PhaseAnimator",
+"fn": "sym.func.1002b15c8",
+"addr": "0x1002b17b8",
+"call": "bl sym.imp.SwiftUI.PhaseAnimator...V_7content9animationACyxq_Gqd___q_xcAA9AnimationVSgxctc7ElementQyd__RszSTRd__lufC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "PhaseAnimator",
+"fn": "sym.func.1002b2bf8",
+"addr": "0x1002b2de8",
+"call": "bl sym.imp.SwiftUI.PhaseAnimator...V_7content9animationACyxq_Gqd___q_xcAA9AnimationVSgxctc7ElementQyd__RszSTRd__lufC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "PhaseAnimator",
+"fn": "sym.func.1000e01e0",
+"addr": "0x1000e0370",
+"call": "bl sym.imp.SwiftUI.PhaseAnimator...V_7trigger7content9animationACyxq_Gqd___qd_0_q_xcAA9AnimationVSgxctc7ElementQyd__RszSTRd__SQRd_0_r0_lufC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "PhaseAnimator",
+"fn": "sym.func.1000e3e24",
+"addr": "0x1000e3f34",
+"call": "bl sym.imp.SwiftUI.PhaseAnimator...V_7trigger7content9animationACyxq_Gqd___qd_0_q_xcAA9AnimationVSgxctc7ElementQyd__RszSTRd__SQRd_0_r0_lufC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "PhaseAnimator",
+"fn": "sym.func.1000e4770",
+"addr": "0x1000e4a48",
+"call": "bl sym.imp.SwiftUI.PhaseAnimator...V_7trigger7content9animationACyxq_Gqd___qd_0_q_xcAA9AnimationVSgxctc7ElementQyd__RszSTRd__SQRd_0_r0_lufC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "PhaseAnimator",
+"fn": "sym.func.1000e4770",
+"addr": "0x1000e4bd4",
+"call": "bl sym.imp.SwiftUI.PhaseAnimator...V_7trigger7content9animationACyxq_Gqd___qd_0_q_xcAA9AnimationVSgxctc7ElementQyd__RszSTRd__SQRd_0_r0_lufC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "PhaseAnimator",
+"fn": "sym.func.1000e64c0",
+"addr": "0x1000e6798",
+"call": "bl sym.imp.SwiftUI.PhaseAnimator...V_7trigger7content9animationACyxq_Gqd___qd_0_q_xcAA9AnimationVSgxctc7ElementQyd__RszSTRd__SQRd_0_r0_lufC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "PhaseAnimator",
+"fn": "sym.func.1000e64c0",
+"addr": "0x1000e6924",
+"call": "bl sym.imp.SwiftUI.PhaseAnimator...V_7trigger7content9animationACyxq_Gqd___qd_0_q_xcAA9AnimationVSgxctc7ElementQyd__RszSTRd__SQRd_0_r0_lufC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "contentTransition",
+"fn": "sym.func.1000ecbd8",
+"addr": "0x1000ecbe8",
+"call": "bl sym.imp.SwiftUI.EnvironmentValues.contentTransition.Content...F0Vvg",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "contentTransition",
+"fn": "sym.func.1000ed4f4",
+"addr": "0x1000ed504",
+"call": "bl sym.imp.SwiftUI.EnvironmentValues.contentTransition.Content...F0Vvg",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "contentTransition",
+"fn": "sym.func.1000ecbf8",
+"addr": "0x1000ecc5c",
+"call": "bl sym.imp.SwiftUI.EnvironmentValues.contentTransition.Content...F0Vvs",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "TimelineView",
+"fn": "sym.func.10040b11c",
+"addr": "0x10040b1cc",
+"call": "bl sym.imp.SwiftUI.TimelineView.Context.date.Foundation.Date...Vvg",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "TimelineView",
+"fn": "sym.func.10040c3d8",
+"addr": "0x10040c468",
+"call": "bl sym.imp.SwiftUI.TimelineView.Context...VMa",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "TimelineView",
+"fn": "sym.func.10040ba98",
+"addr": "0x10040bb58",
+"call": "bl sym.imp.SwiftUI.TimelineView...VA2A0D0R_rlE_7contentACyxq_Gx_q_AC7ContextVyxq__GctcfC",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "TimelineView",
+"fn": "sym.func.10040aba4",
+"addr": "0x10040ac80",
+"call": "bl sym.imp.SwiftUI.TimelineView...VMa",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "TimelineView",
+"fn": "sym.func.10040c294",
+"addr": "0x10040c2fc",
+"call": "bl sym.imp.SwiftUI.TimelineView...VMa",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "CABasicAnimation_classref_GOT",
+"fn": "sym.func.10031db8c",
+"addr": "0x10031de00",
+"call": "mov x0, x20",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "CABasicAnimation_classref_GOT",
+"fn": "sym.func.10031f3d8",
+"addr": "0x10031f48c",
+"call": "mov w0, 1",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "CABasicAnimation_classref_GOT",
+"fn": "sym.func.1003a350c",
+"addr": "0x1003a395c",
+"call": "mov v2.16b, v10.16b",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "CABasicAnimation_classref_GOT",
+"fn": "sym.func.1003a4360",
+"addr": "0x1003a480c",
+"call": "ldr x0, [var_clob_8h]",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "CABasicAnimation_classref_GOT",
+"fn": "sym.func.1003b1098",
+"addr": "0x1003b14f0",
+"call": "mov x3, x21",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "CAMediaTimingFunction_GOT",
+"fn": "sym.func.10021a478",
+"addr": "0x10021a4b4",
+"call": "b sym.imp.swift_deallocObject",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "CAMediaTimingFunction_GOT",
+"fn": "sym.func.10024b7dc",
+"addr": "0x10024b81c",
+"call": "ldr x8, [x19, x8]",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "CAMediaTimingFunction_GOT",
+"fn": "sym.func.10031f3d8",
+"addr": "0x10031f49c",
+"call": "mov x2, x26",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "CAMediaTimingFunction_GOT",
+"fn": "sym.func.1003a350c",
+"addr": "0x1003a3a00",
+"call": "mov x25, x0",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "CAMediaTimingFunction_GOT",
+"fn": "sym.func.1003a4360",
+"addr": "0x1003a44e0",
+"call": "bl fcn.10044e5e0",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "CAMediaTimingFunction_GOT",
+"fn": "sym.func.1003b1098",
+"addr": "0x1003b1570",
+"call": "mov x29, sp",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "NSAnimationContext_GOT",
+"fn": "sym.func.10021a2a8",
+"addr": "0x10021a34c",
+"call": "bl sym.imp.swift_release",
+"d0": "?fsub",
+"d1": "?fadd",
+"d2": null
+},
+{
+"tag": "NSAnimationContext_GOT",
+"fn": "sym.func.10024b134",
+"addr": "0x10024b1dc",
+"call": "bl sym.imp.swift_allocObject",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "NSAnimationContext_GOT",
+"fn": "sym.func.100279b44",
+"addr": "0x100279ba0",
+"call": "bl sym.imp.swift_release",
+"d0": "?fsub",
+"d1": null,
+"d2": null
+},
+{
+"tag": "CAAnimationGroup_GOT",
+"fn": "sym.func.10031db8c",
+"addr": "0x10031df2c",
+"call": "adrp x8, 0x1005d9000",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "CAAnimationGroup_GOT",
+"fn": "sym.func.10031f3d8",
+"addr": "0x10031f5d8",
+"call": "bl sym.imp.objc_release",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "kCAMediaTimingFunction*",
+"fn": "sym.func.10021a478",
+"addr": "0x10021a4a8",
+"call": "mov x0, x20",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "kCAMediaTimingFunction*",
+"fn": "sym.func.10024b7dc",
+"addr": "0x10024b810",
+"call": "mov x20, x0",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "kCAMediaTimingFunction*",
+"fn": "sym.func.10031f3d8",
+"addr": "0x10031f4c8",
+"call": "mov x29, x29",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "kCAMediaTimingFunction*",
+"fn": "sym.func.1003a350c",
+"addr": "0x1003a3858",
+"call": "mov x1, 0x7a69",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "kCAMediaTimingFunction*",
+"fn": "sym.func.1003a4360",
+"addr": "0x1003a44b0",
+"call": "bl sym.imp.objc_retain",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "kCAMediaTimingFunction*",
+"fn": "sym.func.1003b1098",
+"addr": "0x1003b1564",
+"call": "add sp, sp, 0xb0",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "CGSSpaceCreate___SetAbsoluteLevel___Shielding",
+"fn": "sym.imp.CGSSpaceCreate",
+"addr": "0x10044d260",
+"call": "adrp x16, reloc.EKEventStore",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "CGSSpaceCreate___SetAbsoluteLevel___Shielding",
+"fn": "sym.imp.CGSSpaceSetAbsoluteLevel",
+"addr": "0x10044d284",
+"call": "adrp x16, reloc.EKEventStore",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "CGSSpaceCreate___SetAbsoluteLevel___Shielding",
+"fn": "sym.imp.CGShieldingWindowLevel",
+"addr": "0x10044d29c",
+"call": "adrp x16, reloc.EKEventStore",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "AudioHardwareCreateAggregateDevice",
+"fn": "sym.imp.AudioHardwareCreateAggregateDevice",
+"addr": "0x10044cea0",
+"call": "adrp x16, reloc.Foundation.IndexSet...VMn",
+"d0": null,
+"d1": null,
+"d2": null
+}
+]

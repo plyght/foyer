@@ -1,0 +1,57 @@
+            ; CALL XREF from sym.func.10012ee58 @ 0x10012ee88(x)
+/ 208: sym.func.10012de20 ();
+| `- args(x20, x21) vars(9:sp[0x8..0x51])
+|           0x10012de20      ff8301d1       sub sp, sp, 0x60
+|           0x10012de24      f65703a9       stp x22, x21, [var_30h]
+|           0x10012de28      f44f04a9       stp x20, x19, [var_40h]
+|           0x10012de2c      fd7b05a9       stp x29, x30, [var_50h]
+|           0x10012de30      fd430191       add x29, sp, 0x50
+|           0x10012de34      930a40f9       ldr x19, [x20, 0x10]       ; self
+|       ,=< 0x10012de38      130500b4       cbz x19, 0x10012ded8
+|       |   0x10012de3c      741240b9       ldr w20, [x19, 0x10]
+|      ,==< 0x10012de40      d4040034       cbz w20, 0x10012ded8
+|      ||   0x10012de44      a82000f0       adrp x8, 0x100544000
+|      ||   0x10012de48      08c11891       add x8, x8, 0x630          ; 0x100544630 ; "ExternalConnected"
+|      ||   0x10012de4c      158100d1       sub x21, x8, 0x20          ; error
+|      ||   0x10012de50      e00313aa       mov x0, x19
+|      ||   0x10012de54      217f0c94       bl sym.imp.swift_retain
+|      ||   0x10012de58      a10241b2       orr x1, x21, 0x8000000000000000
+|      ||   0x10012de5c      200280d2       mov x0, 0x11
+|      ||   0x10012de60      0000faf2       movk x0, 0xd000, lsl 48
+|      ||   0x10012de64      9d770c94       bl sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_ ; Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)
+|      ||   0x10012de68      f50300aa       mov x21, x0
+|      ||   0x10012de6c      e00314aa       mov x0, x20
+|      ||   0x10012de70      e10315aa       mov x1, x21
+|      ||   0x10012de74      020080d2       mov x2, 0
+|      ||   0x10012de78      03008052       mov w3, 0
+|      ||   0x10012de7c      3d7d0c94       bl sym.imp.IORegistryEntryCreateCFProperty
+|      ||   0x10012de80      f40300aa       mov x20, x0
+|      ||   0x10012de84      e00315aa       mov x0, x21                ; void *instance
+|      ||   0x10012de88      067e0c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|      ||   0x10012de8c      e00313aa       mov x0, x19                ; void *arg0
+|      ||   0x10012de90      0c7f0c94       bl sym.imp.swift_release   ; void swift_release(void *arg0)
+|     ,===< 0x10012de94      340200b4       cbz x20, 0x10012ded8
+|     |||   0x10012de98      e00314aa       mov x0, x20
+|     |||   0x10012de9c      be7e0c94       bl sym.imp.swift_getObjectType
+|     |||   0x10012dea0      e01700f9       str x0, [var_clob_28h]
+|     |||   0x10012dea4      f40b00f9       str x20, [var_clob_10h]
+|     |||   0x10012dea8      482400b0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+|     |||   0x10012deac      080941f9       ldr x8, [x8, 0x210]        ; [0x1005b6210:8]=0x8010000000000a23
+|     |||   0x10012deb0      43240090       adrp x3, reloc.SwiftUI.Animation.easeIn.duration_...FZ_ ; 0x1005b5000
+|     |||   0x10012deb4      63fc43f9       ldr x3, [x3, 0x7f8]        ; [0x1005b57f8:8]=0x80100000000008e5 ; reloc....SbN
+|     |||   0x10012deb8      e03f0091       add x0, sp, 0xf
+|     |||   0x10012debc      e1430091       add x1, sp, 0x10
+|     |||   0x10012dec0      02210091       add x2, x8, 8
+|     |||   0x10012dec4      c4008052       mov w4, 6
+|     |||   0x10012dec8      717e0c94       bl sym.imp.swift_dynamicCast
+|     |||   0x10012decc      e83f4039       ldrb w8, [var_fh]
+|     |||   0x10012ded0      0000080a       and w0, w0, w8
+|    ,====< 0x10012ded4      02000014       b 0x10012dedc
+|    ||||   ; CODE XREFS from sym.func.10012de20 @ 0x10012de38(x), 0x10012de40(x), 0x10012de94(x)
+|    |```-> 0x10012ded8      00008052       mov w0, 0
+|    |      ; CODE XREF from sym.func.10012de20 @ 0x10012ded4(x)
+|    `----> 0x10012dedc      fd7b45a9       ldp x29, x30, [var_50h]
+|           0x10012dee0      f44f44a9       ldp x20, x19, [var_40h]
+|           0x10012dee4      f65743a9       ldp x22, x21, [var_30h]
+|           0x10012dee8      ff830191       add sp, sp, 0x60           ; 0x178000
+\           0x10012deec      c0035fd6       ret

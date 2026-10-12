@@ -1,0 +1,4651 @@
+HINT: Relocs not applied, some references may not resolve: use -e bin.relocs.apply=true
+
+0x100002980      movk x9, 0x3ff0, lsl 48
+0x100002984      dup v0.2d, x9
+0x100002988      add x8, x20, x8
+0x10000298c      str q0, [x8]
+0x100002990      stp d8, d9, [x8, 0x10]
+0x100002994      mov x8, 0x6666666666666666
+0x100002998      movk x8, 0x3fd6, lsl 48
+0x10000299c      fmov d0, x8
+0x1000029a0      mov x8, -0x6666666666666667
+0x1000029a4      movk x8, 0x999a
+0x1000029a8      movk x8, 0xbfc9, lsl 48
+0x1000029ac      fmov d1, x8
+0x1000029b0      ldr x21, [x19, 8]
+0x1000029b4      mov x8, x21
+
+0x10001837c      add x29, sp, 0x40
+0x100018380      ldr x21, [x22, 0x110]
+0x100018384      ldr x20, [x22, 0xa8]
+0x100018388      ldr x24, [x22, 0x88]
+0x10001838c      ldr x19, [x22, 0x68]
+0x100018390      ldr x25, [x22, 0x48]
+0x100018394      mov x8, -0x6666666666666667
+0x100018398      movk x8, 0x999a
+0x10001839c      movk x8, 0x3fd9, lsl 48
+0x1000183a0      fmov d0, x8
+0x1000183a4      mov x8, 0x6666666666666666
+0x1000183a8      movk x8, 0x3fd6, lsl 48
+0x1000183ac      fmov d1, x8
+0x1000183b0      mov x8, x20
+
+0x10001882c      ldr x24, [x22, 0x118]
+0x100018830      ldr x0, [x22, 0xd0]
+0x100018834      ldr x20, [x22, 0xa8]
+0x100018838      ldr x19, [x22, 0x68]
+0x10001883c      ldr x25, [x22, 0x48]
+0x100018840      bl sym.imp.swift_release
+0x100018844      mov x8, -0x6666666666666667
+0x100018848      movk x8, 0x999a
+0x10001884c      movk x8, 0x3fd9, lsl 48
+0x100018850      fmov d0, x8
+0x100018854      mov x8, 0x6666666666666666
+0x100018858      movk x8, 0x3fd6, lsl 48
+0x10001885c      fmov d1, x8
+0x100018860      mov x8, x20
+
+0x100021b80      fmov s0, w8
+0x100021b84      fcmp s9, s0
+0x100021b88      b.hi 0x100021b90
+0x100021b8c      tbz w25, 0, 0x100021c20
+0x100021b90      fmov s0, w8
+0x100021b94      fcmp s9, s0
+0x100021b98      cset w26, hi
+0x100021b9c      mov x8, 0x6666666666666666
+0x100021ba0      movk x8, 0x3fd6, lsl 48
+0x100021ba4      fmov d0, x8
+0x100021ba8      mov x8, 0x3333333333333333
+0x100021bac      movk x8, 0x3fd3, lsl 48
+0x100021bb0      fmov d1, x8
+0x100021bb4      mov x8, x24
+
+0x100022614      cmp w27, w8
+0x100022618      b.eq 0x1000226a4
+0x10002261c      sub x20, x19, 0x40
+0x100022620      ldp x25, x19, [x22, 0x80]
+0x100022624      ldrb w26, [x22, 0x2d]
+0x100022628      ldr s8, [x22, 0x98]
+0x10002262c      ldp x27, x23, [x22, 0x70]
+0x100022630      mov x8, 0x6666666666666666
+0x100022634      movk x8, 0x3fd6, lsl 48
+0x100022638      fmov d0, x8
+0x10002263c      mov x8, 0x3333333333333333
+0x100022640      movk x8, 0x3fd3, lsl 48
+0x100022644      fmov d1, x8
+0x100022648      mov x8, x19
+
+0x10009d74c      fcsel d0, d11, d10, ne
+0x10009d750      sub x8, x29, 0x68
+0x10009d754      ldur x25, [x8, -0x100]
+0x10009d758      ldrsw x8, [x25, 0x24]
+0x10009d75c      str d0, [x19, x8]
+0x10009d760      mov x8, 0x6666666666666666
+0x10009d764      movk x8, 0x3fd6, lsl 48
+0x10009d768      fmov d0, x8
+0x10009d76c      mov x8, 0x3333333333333333
+0x10009d770      movk x8, 0x3fd3, lsl 48
+0x10009d774      fmov d1, x8
+0x10009d778      sub x8, x29, 0x40
+0x10009d77c      ldur x20, [x8, -0x100]
+0x10009d780      mov x8, x20
+
+0x10009e080      fcsel d0, d11, d10, ne
+0x10009e084      sub x8, x29, 0x70
+0x10009e088      ldur x26, [x8, -0x100]
+0x10009e08c      ldrsw x8, [x26, 0x24]
+0x10009e090      str d0, [x23, x8]
+0x10009e094      mov x8, 0x6666666666666666
+0x10009e098      movk x8, 0x3fd6, lsl 48
+0x10009e09c      fmov d0, x8
+0x10009e0a0      mov x8, 0x3333333333333333
+0x10009e0a4      movk x8, 0x3fd3, lsl 48
+0x10009e0a8      fmov d1, x8
+0x10009e0ac      sub x8, x29, 0x60
+0x10009e0b0      ldur x20, [x8, -0x100]
+0x10009e0b4      mov x8, x20
+
+0x1000d0810      add x1, x1, 0xf50
+0x1000d0814      bl sym.func.100002b1c
+0x1000d0818      ldrsw x8, [x0, 0x24]
+0x1000d081c      add x8, x28, x8
+0x1000d0820      stp d10, d10, [x8]
+0x1000d0824      stp d8, d9, [x8, 0x10]
+0x1000d0828      mov x8, 0x3333333333333333
+0x1000d082c      movk x8, 0x3fe3, lsl 48
+0x1000d0830      fmov d0, x8
+0x1000d0834      mov x8, -0x6666666666666667
+0x1000d0838      movk x8, 0x999a
+0x1000d083c      movk x8, 0x3fd9, lsl 48
+0x1000d0840      fmov d1, x8
+0x1000d0844      mov x8, x19
+
+0x1000d1928      add x1, x1, 0xfb8
+0x1000d192c      bl sym.func.100002b1c
+0x1000d1930      ldrsw x8, [x0, 0x24]
+0x1000d1934      sub x9, x29, 0x38
+0x1000d1938      ldur x26, [x9, -0x100]
+0x1000d193c      str d9, [x26, x8]
+0x1000d1940      mov x8, -0x6666666666666667
+0x1000d1944      movk x8, 0x999a
+0x1000d1948      movk x8, 0x3fd9, lsl 48
+0x1000d194c      fmov d1, x8
+0x1000d1950      sub x8, x29, 0x80
+0x1000d1954      ldur x20, [x8, -0x100]
+0x1000d1958      mov x8, x20
+0x1000d195c      mov v0.16b, v8.16b
+
+0x1000d4878      add x1, x19, 0x210
+0x1000d487c      mov x2, x20
+0x1000d4880      mov x3, x23
+0x1000d4884      bl sym.func.10000aac8
+0x1000d4888      add x0, x19, 0x420
+0x1000d488c      mov x1, x20
+0x1000d4890      mov x2, x23
+0x1000d4894      bl sym.func.10000aa88
+0x1000d4898      mov x8, -0x3333333333333334
+0x1000d489c      movk x8, 0x3fdc, lsl 48
+0x1000d48a0      fmov d1, x8
+0x1000d48a4      fmov d0, 0.50000000
+0x1000d48a8      ldr x20, [x19, 8]
+0x1000d48ac      mov x8, x20
+
+0x1000e0b44      bl sym.imp.swift_release
+0x1000e0b48      mov x20, 0
+0x1000e0b4c      cmp w22, 1
+0x1000e0b50      b.ne 0x1000e0be8
+0x1000e0b54      cmp x25, 2
+0x1000e0b58      b.ne 0x1000e0bc8
+0x1000e0b5c      mov x8, 0x6666666666666666
+0x1000e0b60      movk x8, 0x3fd6, lsl 48
+0x1000e0b64      fmov d0, x8
+0x1000e0b68      mov x8, 0x6666666666666666
+0x1000e0b6c      movk x8, 0x3fe6, lsl 48
+0x1000e0b70      fmov d1, x8
+0x1000e0b74      ldr x20, [x19, 8]
+0x1000e0b78      mov x8, x20
+
+0x1000e2490      add x1, x19, 1, lsl 12
+0x1000e2494      add x1, x1, 0x840
+0x1000e2498      mov x2, x20
+0x1000e249c      mov x3, x21
+0x1000e24a0      bl sym.func.10000aac8
+0x1000e24a4      add x0, x19, 0xf40
+0x1000e24a8      mov x1, x20
+0x1000e24ac      mov x2, x21
+0x1000e24b0      bl sym.func.10000aa88
+0x1000e24b4      mov x8, 0x3333333333333333
+0x1000e24b8      movk x8, 0x3fd3, lsl 48
+0x1000e24bc      fmov d0, x8
+0x1000e24c0      fmov d1, 0.25000000
+0x1000e24c4      mov x8, x27
+
+0x1000e46c8      blr x16
+0x1000e46cc      mov x9, sp
+0x1000e46d0      add x8, x8, 0xf
+0x1000e46d4      and x8, x8, 0xfffffffffffffff0
+0x1000e46d8      sub x21, x9, x8
+0x1000e46dc      mov sp, x21
+0x1000e46e0      ldr x23, [x19]
+0x1000e46e4      mov x8, 0x3333333333333333
+0x1000e46e8      movk x8, 0x3fd3, lsl 48
+0x1000e46ec      fmov d0, x8
+0x1000e46f0      mov x8, -0x3333333333333334
+0x1000e46f4      movk x8, 0x3fdc, lsl 48
+0x1000e46f8      fmov d1, x8
+0x1000e46fc      mov x8, x21
+
+0x1000e4ea8      str d10, [x19, 0x920]
+0x1000e4eac      str d10, [x19, 0x928]
+0x1000e4eb0      str d0, [x19, 0x930]
+0x1000e4eb4      str d1, [x19, 0x938]
+0x1000e4eb8      mov x23, x28
+0x1000e4ebc      cmp x28, 1
+0x1000e4ec0      b.ne 0x1000e4f04
+0x1000e4ec4      mov x8, 0x3333333333333333
+0x1000e4ec8      movk x8, 0x3fe3, lsl 48
+0x1000e4ecc      fmov d0, x8
+0x1000e4ed0      mov x8, 0x6666666666666666
+0x1000e4ed4      movk x8, 0x3fd6, lsl 48
+0x1000e4ed8      fmov d1, x8
+0x1000e4edc      mov x8, x24
+
+0x1000e504c      mov x20, 0
+0x1000e5050      str d8, [x19, 0x898]
+0x1000e5054      str xzr, [x19, 0x8a0]
+0x1000e5058      cmp x23, 1
+0x1000e505c      mov x21, x22
+0x1000e5060      ldr x22, [x19, 8]
+0x1000e5064      b.ne 0x1000e50a8
+0x1000e5068      mov x8, 0x3333333333333333
+0x1000e506c      movk x8, 0x3fe3, lsl 48
+0x1000e5070      fmov d0, x8
+0x1000e5074      mov x8, 0x6666666666666666
+0x1000e5078      movk x8, 0x3fd6, lsl 48
+0x1000e507c      fmov d1, x8
+0x1000e5080      mov x8, x24
+
+0x1000e5158      str d8, [x19, 0x808]
+0x1000e515c      str d8, [x19, 0x810]
+0x1000e5160      str d0, [x19, 0x818]
+0x1000e5164      str d1, [x19, 0x820]
+0x1000e5168      cmp x23, 1
+0x1000e516c      b.ne 0x1000e51b4
+0x1000e5170      mov x8, -0x6666666666666667
+0x1000e5174      movk x8, 0x999a
+0x1000e5178      movk x8, 0x3fd9, lsl 48
+0x1000e517c      fmov d0, x8
+0x1000e5180      mov x8, 0x6666666666666666
+0x1000e5184      movk x8, 0x3fd6, lsl 48
+0x1000e5188      fmov d1, x8
+0x1000e518c      mov x8, x24
+
+0x1000e5c40      ldr q0, [x19, 0x520]
+0x1000e5c44      ldr q1, [x19, 0x530]
+0x1000e5c48      str q0, [x19, 0xa70]
+0x1000e5c4c      str q1, [x19, 0xa80]
+0x1000e5c50      add x0, x19, 0x9d0
+0x1000e5c54      mov x1, x22
+0x1000e5c58      mov x2, x23
+0x1000e5c5c      bl sym.func.10000aa88
+0x1000e5c60      mov x8, 0x3333333333333333
+0x1000e5c64      movk x8, 0x3fd3, lsl 48
+0x1000e5c68      fmov d0, x8
+0x1000e5c6c      fmov d1, 0.25000000
+0x1000e5c70      ldr x21, [x19, 0x10]
+0x1000e5c74      mov x8, x21
+
+0x1000e6cb8      str d10, [x19, 0x920]
+0x1000e6cbc      str d10, [x19, 0x928]
+0x1000e6cc0      str d0, [x19, 0x930]
+0x1000e6cc4      str d1, [x19, 0x938]
+0x1000e6cc8      str x28, [x19, 0x10]
+0x1000e6ccc      cmp x28, 1
+0x1000e6cd0      b.ne 0x1000e6d14
+0x1000e6cd4      mov x8, 0x3333333333333333
+0x1000e6cd8      movk x8, 0x3fe3, lsl 48
+0x1000e6cdc      fmov d0, x8
+0x1000e6ce0      mov x8, 0x6666666666666666
+0x1000e6ce4      movk x8, 0x3fd6, lsl 48
+0x1000e6ce8      fmov d1, x8
+0x1000e6cec      mov x8, x24
+
+0x1000e6e58      fmul d8, d0, d1
+0x1000e6e5c      mov x20, 0
+0x1000e6e60      str d8, [x19, 0x898]
+0x1000e6e64      str xzr, [x19, 0x8a0]
+0x1000e6e68      ldr x23, [x19, 0x10]
+0x1000e6e6c      cmp x23, 1
+0x1000e6e70      b.ne 0x1000e6eb4
+0x1000e6e74      mov x8, 0x3333333333333333
+0x1000e6e78      movk x8, 0x3fe3, lsl 48
+0x1000e6e7c      fmov d0, x8
+0x1000e6e80      mov x8, 0x6666666666666666
+0x1000e6e84      movk x8, 0x3fd6, lsl 48
+0x1000e6e88      fmov d1, x8
+0x1000e6e8c      mov x8, x24
+
+0x1000e6f64      str d8, [x19, 0x808]
+0x1000e6f68      str d8, [x19, 0x810]
+0x1000e6f6c      str d0, [x19, 0x818]
+0x1000e6f70      str d1, [x19, 0x820]
+0x1000e6f74      cmp x23, 1
+0x1000e6f78      b.ne 0x1000e6fc0
+0x1000e6f7c      mov x8, -0x6666666666666667
+0x1000e6f80      movk x8, 0x999a
+0x1000e6f84      movk x8, 0x3fd9, lsl 48
+0x1000e6f88      fmov d0, x8
+0x1000e6f8c      mov x8, 0x6666666666666666
+0x1000e6f90      movk x8, 0x3fd6, lsl 48
+0x1000e6f94      fmov d1, x8
+0x1000e6f98      mov x8, x24
+
+0x1000e7a44      ldr q0, [x19, 0x530]
+0x1000e7a48      ldr q1, [x19, 0x540]
+0x1000e7a4c      str q0, [x19, 0xa80]
+0x1000e7a50      str q1, [x19, 0xa90]
+0x1000e7a54      add x0, x19, 0x9e0
+0x1000e7a58      mov x1, x22
+0x1000e7a5c      mov x2, x23
+0x1000e7a60      bl sym.func.10000aa88
+0x1000e7a64      mov x8, 0x3333333333333333
+0x1000e7a68      movk x8, 0x3fd3, lsl 48
+0x1000e7a6c      fmov d0, x8
+0x1000e7a70      fmov d1, 0.25000000
+0x1000e7a74      ldr x21, [x19, 0x20]
+0x1000e7a78      mov x8, x21
+
+0x1000e95cc      ldrb w20, [x21, x8]
+0x1000e95d0      mov x0, x21
+0x1000e95d4      bl sym.imp.swift_release
+0x1000e95d8      cmp w20, 1
+0x1000e95dc      b.ne 0x1000e9650
+0x1000e95e0      mov x8, 0x6666666666666666
+0x1000e95e4      movk x8, 0x3fd6, lsl 48
+0x1000e95e8      fmov d0, x8
+0x1000e95ec      mov x8, -0x6666666666666667
+0x1000e95f0      movk x8, 0x999a
+0x1000e95f4      movk x8, 0x3fd9, lsl 48
+0x1000e95f8      fmov d1, x8
+0x1000e95fc      ldr x21, [x19, 0x40]
+0x1000e9600      mov x8, x21
+
+0x1000e9b60      fmov d1, 1.00000000
+0x1000e9b64      movi v2.2d, 0000000000000000
+0x1000e9b68      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x1000e9b6c      mov x21, x0
+0x1000e9b70      b 0x1000e9be0
+0x1000e9b74      mov x8, 0x6666666666666666
+0x1000e9b78      movk x8, 0x3fd6, lsl 48
+0x1000e9b7c      fmov d0, x8
+0x1000e9b80      mov x8, -0x6666666666666667
+0x1000e9b84      movk x8, 0x999a
+0x1000e9b88      movk x8, 0x3fd9, lsl 48
+0x1000e9b8c      fmov d1, x8
+0x1000e9b90      ldr x21, [x19, 0x40]
+0x1000e9b94      mov x8, x21
+
+0x1000f4124      bl sym.func.100002b1c
+0x1000f4128      ldrsw x8, [x0, 0x24]
+0x1000f412c      add x8, x22, x8
+0x1000f4130      stp d10, d10, [x8]
+0x1000f4134      stp d8, d9, [x8, 0x10]
+0x1000f4138      mov x8, 0x6666666666666666
+0x1000f413c      movk x8, 0x3fd6, lsl 48
+0x1000f4140      fmov d0, x8
+0x1000f4144      mov x8, 0x3333333333333333
+0x1000f4148      movk x8, 0x3fd3, lsl 48
+0x1000f414c      fmov d1, x8
+0x1000f4150      sub x8, x29, 0xe8
+0x1000f4154      ldur x20, [x8, -0x100]
+0x1000f4158      mov x8, x20
+
+0x1001141ac      fmov d0, x8
+0x1001141b0      fmov d1, 1.00000000
+0x1001141b4      movi v2.2d, 0000000000000000
+0x1001141b8      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x1001141bc      mov x20, x0
+0x1001141c0      str x0, [x22, 0x158]
+0x1001141c4      mov x8, 0x6666666666666666
+0x1001141c8      movk x8, 0x3fd6, lsl 48
+0x1001141cc      fmov d0, x8
+0x1001141d0      mov x8, -0x6666666666666667
+0x1001141d4      movk x8, 0x999a
+0x1001141d8      movk x8, 0xbfc9, lsl 48
+0x1001141dc      fmov d1, x8
+0x1001141e0      mov x8, x21
+
+0x100119dd4      ldr s0, [x22, x8]
+0x100119dd8      fabd s0, s0, s8
+0x100119ddc      mov w8, 0x126f
+0x100119de0      movk w8, 0x3a83, lsl 16
+0x100119de4      fmov s1, w8
+0x100119de8      fcmp s0, s1
+0x100119dec      b.ls 0x100119fd0
+0x100119df0      mov x8, 0x6666666666666666
+0x100119df4      movk x8, 0x3fd6, lsl 48
+0x100119df8      fmov d0, x8
+0x100119dfc      mov x8, 0x3333333333333333
+0x100119e00      movk x8, 0x3fd3, lsl 48
+0x100119e04      fmov d1, x8
+0x100119e08      mov x8, x24
+
+0x10011cec8      ldr s0, [x19, x8]
+0x10011cecc      fabd s0, s0, s8
+0x10011ced0      mov w8, 0x126f
+0x10011ced4      movk w8, 0x3a83, lsl 16
+0x10011ced8      fmov s1, w8
+0x10011cedc      fcmp s0, s1
+0x10011cee0      b.ls 0x10011cf58
+0x10011cee4      mov x8, 0x6666666666666666
+0x10011cee8      movk x8, 0x3fd6, lsl 48
+0x10011ceec      fmov d0, x8
+0x10011cef0      mov x8, 0x3333333333333333
+0x10011cef4      movk x8, 0x3fd3, lsl 48
+0x10011cef8      fmov d1, x8
+0x10011cefc      mov x8, x22
+
+0x10017b424      adrp x1, 0x100463000
+0x10017b428      add x1, x1, 0x3c8
+0x10017b42c      bl sym.func.100002b1c
+0x10017b430      ldrsw x8, [x0, 0x2c]
+0x10017b434      add x8, x22, x8
+0x10017b438      mov x0, x24
+0x10017b43c      bl sym.func.10017b72c
+0x10017b440      mov x8, 0x3333333333333333
+0x10017b444      movk x8, 0x3fe3, lsl 48
+0x10017b448      fmov d0, x8
+0x10017b44c      mov x8, 0x3333333333333333
+0x10017b450      movk x8, 0x3fd3, lsl 48
+0x10017b454      fmov d1, x8
+0x10017b458      mov x8, x26
+
+0x10017b5ac      b.ne 0x10017b5c8
+0x10017b5b0      fmov d0, 0.25000000
+0x10017b5b4      fmov d1, 1.00000000
+0x10017b5b8      movi v2.2d, 0000000000000000
+0x10017b5bc      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10017b5c0      mov x23, x0
+0x10017b5c4      b 0x10017b604
+0x10017b5c8      mov x8, 0x3333333333333333
+0x10017b5cc      movk x8, 0x3fe3, lsl 48
+0x10017b5d0      fmov d0, x8
+0x10017b5d4      mov x8, 0x3333333333333333
+0x10017b5d8      movk x8, 0x3fd3, lsl 48
+0x10017b5dc      fmov d1, x8
+0x10017b5e0      mov x8, x26
+
+0x1001a8f98      ldr x20, [x22, 0x58]
+0x1001a8f9c      bl sym.func.1001a92b8
+0x1001a8fa0      b 0x1001a91c0
+0x1001a8fa4      ldp x26, x21, [x22, 0x70]
+0x1001a8fa8      ldr x24, [x22, 0x68]
+0x1001a8fac      ldr x20, [x22, 0x58]
+0x1001a8fb0      bl sym.func.1001a95e4
+0x1001a8fb4      mov x8, 0x6666666666666666
+0x1001a8fb8      movk x8, 0x3fd6, lsl 48
+0x1001a8fbc      fmov d0, x8
+0x1001a8fc0      mov x8, 0x3333333333333333
+0x1001a8fc4      movk x8, 0x3fd3, lsl 48
+0x1001a8fc8      fmov d1, x8
+0x1001a8fcc      mov x8, x21
+
+0x1001aae24      adrp x1, 0x100457000
+0x1001aae28      add x1, x1, 0x260
+0x1001aae2c      bl sym.func.100002b1c
+0x1001aae30      mov x1, x0
+0x1001aae34      add x20, x25, x20
+0x1001aae38      mov x0, x23
+0x1001aae3c      bl sym.imp.SwiftUI.LazyState.wrappedValue_...s_
+0x1001aae40      mov x8, 0x6666666666666666
+0x1001aae44      movk x8, 0x3fd6, lsl 48
+0x1001aae48      fmov d0, x8
+0x1001aae4c      mov x8, 0x3333333333333333
+0x1001aae50      movk x8, 0x3fd3, lsl 48
+0x1001aae54      fmov d1, x8
+0x1001aae58      mov x8, x19
+
+0x1001ab48c      add x29, sp, 0x40
+0x1001ab490      ldr x21, [x22, 0x110]
+0x1001ab494      ldr x20, [x22, 0xa8]
+0x1001ab498      ldr x24, [x22, 0x88]
+0x1001ab49c      ldr x19, [x22, 0x68]
+0x1001ab4a0      ldr x25, [x22, 0x48]
+0x1001ab4a4      mov x8, -0x6666666666666667
+0x1001ab4a8      movk x8, 0x999a
+0x1001ab4ac      movk x8, 0x3fd9, lsl 48
+0x1001ab4b0      fmov d0, x8
+0x1001ab4b4      mov x8, 0x6666666666666666
+0x1001ab4b8      movk x8, 0x3fd6, lsl 48
+0x1001ab4bc      fmov d1, x8
+0x1001ab4c0      mov x8, x20
+
+0x1001ab870      ldr x24, [x22, 0x118]
+0x1001ab874      ldr x0, [x22, 0xd0]
+0x1001ab878      ldr x20, [x22, 0xa8]
+0x1001ab87c      ldr x19, [x22, 0x68]
+0x1001ab880      ldr x25, [x22, 0x48]
+0x1001ab884      bl sym.imp.swift_release
+0x1001ab888      mov x8, -0x6666666666666667
+0x1001ab88c      movk x8, 0x999a
+0x1001ab890      movk x8, 0x3fd9, lsl 48
+0x1001ab894      fmov d0, x8
+0x1001ab898      mov x8, 0x6666666666666666
+0x1001ab89c      movk x8, 0x3fd6, lsl 48
+0x1001ab8a0      fmov d1, x8
+0x1001ab8a4      mov x8, x20
+
+0x1001c14d8      ldp x21, x0, [x22, 0xf8]
+0x1001c14dc      ldp x25, x26, [x22, 0xe8]
+0x1001c14e0      ldp x27, x19, [x22, 0xd8]
+0x1001c14e4      ldp x20, x23, [x22, 0xc8]
+0x1001c14e8      bl sym.imp.swift_release
+0x1001c14ec      mov x8, -0x3333333333333334
+0x1001c14f0      movk x8, 0xcccd
+0x1001c14f4      movk x8, 0x3fdc, lsl 48
+0x1001c14f8      fmov d0, x8
+0x1001c14fc      mov x8, -0x6666666666666667
+0x1001c1500      movk x8, 0x999a
+0x1001c1504      movk x8, 0x3fd9, lsl 48
+0x1001c1508      fmov d1, x8
+0x1001c150c      mov x8, x21
+
+0x1001c2740      tbnz w0, 0, 0x1001c283c
+0x1001c2744      ldp x25, x20, [x22, 0x70]
+0x1001c2748      ldr x19, [x22, 0x68]
+0x1001c274c      ldr x24, [x22, 0x48]
+0x1001c2750      mov x8, -0x3333333333333334
+0x1001c2754      movk x8, 0xcccd
+0x1001c2758      movk x8, 0x3fdc, lsl 48
+0x1001c275c      fmov d8, x8
+0x1001c2760      mov x8, -0x6666666666666667
+0x1001c2764      movk x8, 0x999a
+0x1001c2768      movk x8, 0x3fd9, lsl 48
+0x1001c276c      fmov d1, x8
+0x1001c2770      mov x8, x20
+0x1001c2774      mov v0.16b, v8.16b
+
+0x1001c28b0      tbnz w0, 0, 0x1001c29b0
+0x1001c28b4      ldp x21, x20, [x22, 0x70]
+0x1001c28b8      ldr x19, [x22, 0x68]
+0x1001c28bc      ldr x24, [x22, 0x48]
+0x1001c28c0      mov x8, -0x3333333333333334
+0x1001c28c4      movk x8, 0xcccd
+0x1001c28c8      movk x8, 0x3fdc, lsl 48
+0x1001c28cc      fmov d8, x8
+0x1001c28d0      mov x8, -0x6666666666666667
+0x1001c28d4      movk x8, 0x999a
+0x1001c28d8      movk x8, 0x3fd9, lsl 48
+0x1001c28dc      fmov d1, x8
+0x1001c28e0      mov x8, x20
+0x1001c28e4      mov v0.16b, v8.16b
+
+0x1001c2e54      add x8, x8, 0xf
+0x1001c2e58      and x8, x8, 0xfffffffffffffff0
+0x1001c2e5c      sub x21, x9, x8
+0x1001c2e60      mov sp, x21
+0x1001c2e64      mov x8, -0x3333333333333334
+0x1001c2e68      movk x8, 0xcccd
+0x1001c2e6c      movk x8, 0x3fdc, lsl 48
+0x1001c2e70      fmov d8, x8
+0x1001c2e74      mov x8, -0x6666666666666667
+0x1001c2e78      movk x8, 0x999a
+0x1001c2e7c      movk x8, 0x3fd9, lsl 48
+0x1001c2e80      fmov d1, x8
+0x1001c2e84      mov x8, x21
+0x1001c2e88      mov v0.16b, v8.16b
+
+0x1001c5e38      ldp x21, x0, [x22, 0xf8]
+0x1001c5e3c      ldp x25, x26, [x22, 0xe8]
+0x1001c5e40      ldp x27, x19, [x22, 0xd8]
+0x1001c5e44      ldp x20, x23, [x22, 0xc8]
+0x1001c5e48      bl sym.imp.swift_release
+0x1001c5e4c      mov x8, -0x3333333333333334
+0x1001c5e50      movk x8, 0xcccd
+0x1001c5e54      movk x8, 0x3fdc, lsl 48
+0x1001c5e58      fmov d0, x8
+0x1001c5e5c      mov x8, -0x6666666666666667
+0x1001c5e60      movk x8, 0x999a
+0x1001c5e64      movk x8, 0x3fd9, lsl 48
+0x1001c5e68      fmov d1, x8
+0x1001c5e6c      mov x8, x21
+
+0x1001c7e1c      stp x29, x30, [sp, 0x50]
+0x1001c7e20      str x22, [sp, 0x48]
+0x1001c7e24      add x29, sp, 0x50
+0x1001c7e28      ldp x21, x0, [x22, 0x30]
+0x1001c7e2c      ldp x24, x23, [x22, 0x20]
+0x1001c7e30      ldr d8, [x22, 0x18]
+0x1001c7e34      ldr x20, [x22, 0x10]
+0x1001c7e38      bl sym.imp.swift_release
+0x1001c7e3c      ldr x20, [x20, 0x30]
+0x1001c7e40      mov x8, 0x3333333333333333
+0x1001c7e44      movk x8, 0x3fd3, lsl 48
+0x1001c7e48      fmov d1, x8
+0x1001c7e4c      mov x8, x21
+0x1001c7e50      mov v0.16b, v8.16b
+
+0x1001c7e4c      mov x8, x21
+0x1001c7e50      mov v0.16b, v8.16b
+0x1001c7e54      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c7e58      movi v0.2d, 0000000000000000
+0x1001c7e5c      mov x0, x21
+0x1001c7e60      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x1001c7e64      mov x19, x0
+0x1001c7e68      ldr x25, [x23, 8]
+0x1001c7e6c      mov x0, x21
+0x1001c7e70      mov x1, x24
+0x1001c7e74      blr x25
+0x1001c7e78      movi v1.2d, 0000000000000000
+0x1001c7e7c      mov x8, x21
+0x1001c7e80      mov v0.16b, v8.16b
+
+0x1001c86d0      ldp x21, x0, [x22, 0xd0]
+0x1001c86d4      ldp x23, x24, [x22, 0xc0]
+0x1001c86d8      ldr x20, [x22, 0xa0]
+0x1001c86dc      bl sym.imp.swift_release
+0x1001c86e0      ldr x19, [x20, 0x30]
+0x1001c86e4      mov x8, -0x6666666666666667
+0x1001c86e8      movk x8, 0x999a
+0x1001c86ec      movk x8, 0x3fd9, lsl 48
+0x1001c86f0      fmov d8, x8
+0x1001c86f4      mov x8, 0x3333333333333333
+0x1001c86f8      movk x8, 0x3fd3, lsl 48
+0x1001c86fc      fmov d1, x8
+0x1001c8700      mov x8, x21
+0x1001c8704      mov v0.16b, v8.16b
+
+0x1001c8700      mov x8, x21
+0x1001c8704      mov v0.16b, v8.16b
+0x1001c8708      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c870c      movi v0.2d, 0000000000000000
+0x1001c8710      mov x0, x21
+0x1001c8714      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x1001c8718      mov x20, x0
+0x1001c871c      ldr x25, [x24, 8]
+0x1001c8720      mov x0, x21
+0x1001c8724      mov x1, x23
+0x1001c8728      blr x25
+0x1001c872c      movi v1.2d, 0000000000000000
+0x1001c8730      mov x8, x21
+0x1001c8734      mov v0.16b, v8.16b
+
+0x1001c890c      fmov d0, x8
+0x1001c8910      fmov d1, 1.00000000
+0x1001c8914      movi v2.2d, 0000000000000000
+0x1001c8918      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x1001c891c      str x0, [sp, 0x18]
+0x1001c8920      mov x8, -0x6666666666666667
+0x1001c8924      movk x8, 0x999a
+0x1001c8928      movk x8, 0x3fd9, lsl 48
+0x1001c892c      fmov d0, x8
+0x1001c8930      mov x8, -0x6666666666666667
+0x1001c8934      movk x8, 0x999a
+0x1001c8938      movk x8, 0xbfc9, lsl 48
+0x1001c893c      fmov d1, x8
+0x1001c8940      mov x8, x27
+
+0x1001c8b6c      ldrb w8, [x19, x8]
+0x1001c8b70      cmp w8, 1
+0x1001c8b74      b.ne 0x1001c8d1c
+0x1001c8b78      ldr x27, [x22, 0xd0]
+0x1001c8b7c      ldr x28, [x22, 0xc0]
+0x1001c8b80      mov x8, -0x6666666666666667
+0x1001c8b84      movk x8, 0x999a
+0x1001c8b88      movk x8, 0x3fd9, lsl 48
+0x1001c8b8c      fmov d8, x8
+0x1001c8b90      mov x8, 0x3333333333333333
+0x1001c8b94      movk x8, 0x3fd3, lsl 48
+0x1001c8b98      fmov d1, x8
+0x1001c8b9c      mov x8, x27
+0x1001c8ba0      mov v0.16b, v8.16b
+
+0x1001c8ba8      movi v0.2d, 0000000000000000
+0x1001c8bac      mov x0, x27
+0x1001c8bb0      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x1001c8bb4      mov x20, x0
+0x1001c8bb8      mov x0, x27
+0x1001c8bbc      mov x1, x28
+0x1001c8bc0      ldr x24, [sp, 0x28]
+0x1001c8bc4      blr x24
+0x1001c8bc8      mov x8, -0x6666666666666667
+0x1001c8bcc      movk x8, 0x999a
+0x1001c8bd0      movk x8, 0xbfc9, lsl 48
+0x1001c8bd4      fmov d1, x8
+0x1001c8bd8      mov x8, x27
+0x1001c8bdc      mov v0.16b, v8.16b
+
+0x1001c937c      ldp x21, x20, [x22, 0xc8]
+0x1001c9380      ldr x19, [x22, 0xc0]
+0x1001c9384      ldr x24, [x22, 0x98]
+0x1001c9388      bl sym.imp.swift_release
+0x1001c938c      mov x8, -0x3333333333333334
+0x1001c9390      movk x8, 0xcccd
+0x1001c9394      movk x8, 0x3fdc, lsl 48
+0x1001c9398      fmov d8, x8
+0x1001c939c      mov x8, -0x6666666666666667
+0x1001c93a0      movk x8, 0x999a
+0x1001c93a4      movk x8, 0x3fd9, lsl 48
+0x1001c93a8      fmov d1, x8
+0x1001c93ac      mov x8, x20
+0x1001c93b0      mov v0.16b, v8.16b
+
+0x1001e134c      and x29, x29, 0xefffffffffffffff
+0x1001e1350      add sp, sp, 0x60
+0x1001e1354      br x0
+0x1001e1358      ldp x21, x20, [x22, 0x1a8]
+0x1001e135c      ldp x23, x19, [x22, 0x198]
+0x1001e1360      ldr x25, [x22, 0x178]
+0x1001e1364      mov x8, 0x3333333333333333
+0x1001e1368      movk x8, 0x3fd3, lsl 48
+0x1001e136c      fmov d8, x8
+0x1001e1370      mov x8, 0x6666666666666666
+0x1001e1374      movk x8, 0x3fd6, lsl 48
+0x1001e1378      fmov d1, x8
+0x1001e137c      mov x8, x20
+0x1001e1380      mov v0.16b, v8.16b
+
+0x1001e1508      tbnz w0, 0, 0x1001e15dc
+0x1001e150c      ldr x24, [x22, 0x1d8]
+0x1001e1510      ldr x20, [x22, 0x1b0]
+0x1001e1514      ldr x19, [x22, 0x1a0]
+0x1001e1518      ldr x25, [x22, 0x178]
+0x1001e151c      mov x8, 0x3333333333333333
+0x1001e1520      movk x8, 0x3fd3, lsl 48
+0x1001e1524      fmov d8, x8
+0x1001e1528      mov x8, -0x3333333333333334
+0x1001e152c      movk x8, 0xcccd
+0x1001e1530      movk x8, 0x3fd4, lsl 48
+0x1001e1534      fmov d1, x8
+0x1001e1538      mov x8, x20
+0x1001e153c      mov v0.16b, v8.16b
+
+0x1001e1560      str x25, [x22, 0x100]
+0x1001e1564      adrp x26, reloc.Int64...VMn
+0x1001e1568      ldr x26, [x26, 0x218]
+0x1001e156c      adrp x1, 0x1001e5000
+0x1001e1570      add x1, x1, 0x998
+0x1001e1574      add x2, x22, 0xf0
+0x1001e1578      add x3, x26, 8
+0x1001e157c      mov x0, x23
+0x1001e1580      bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_
+0x1001e1584      mov x0, x23
+0x1001e1588      bl sym.imp.swift_release
+0x1001e158c      fmov d1, 0.25000000
+0x1001e1590      mov x8, x20
+0x1001e1594      mov v0.16b, v8.16b
+
+0x1001e1664      tbnz w0, 0, 0x1001e173c
+0x1001e1668      ldr x24, [x22, 0x1d8]
+0x1001e166c      ldr x20, [x22, 0x1b0]
+0x1001e1670      ldr x19, [x22, 0x1a0]
+0x1001e1674      ldr x25, [x22, 0x178]
+0x1001e1678      mov x8, 0x3333333333333333
+0x1001e167c      movk x8, 0x3fd3, lsl 48
+0x1001e1680      fmov d8, x8
+0x1001e1684      mov x8, -0x3333333333333334
+0x1001e1688      movk x8, 0xcccd
+0x1001e168c      movk x8, 0x3fd4, lsl 48
+0x1001e1690      fmov d1, x8
+0x1001e1694      mov x8, x20
+0x1001e1698      mov v0.16b, v8.16b
+
+0x1001e16c0      adrp x26, reloc.Int64...VMn
+0x1001e16c4      ldr x26, [x26, 0x218]
+0x1001e16c8      adrp x1, 0x1001e5000
+0x1001e16cc      add x1, x1, 0x998
+0x1001e16d0      add x2, x22, 0xf0
+0x1001e16d4      add x3, x26, 8
+0x1001e16d8      mov x0, x23
+0x1001e16dc      mov x21, 0
+0x1001e16e0      bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_
+0x1001e16e4      mov x0, x23
+0x1001e16e8      bl sym.imp.swift_release
+0x1001e16ec      fmov d1, 0.25000000
+0x1001e16f0      mov x8, x20
+0x1001e16f4      mov v0.16b, v8.16b
+
+0x1001e2ed4      tst w28, 1
+0x1001e2ed8      mov x8, -0x6666666666666667
+0x1001e2edc      movk x8, 0x9998
+0x1001e2ee0      movk x8, 0x3fa9, lsl 48
+0x1001e2ee4      fmov d0, x8
+0x1001e2ee8      mov x8, -0x3333333333333334
+0x1001e2eec      movk x8, 0x3fdc, lsl 48
+0x1001e2ef0      fmov d1, x8
+0x1001e2ef4      fcsel d1, d1, d0, ne
+0x1001e2ef8      mov x8, 0x6666666666666666
+0x1001e2efc      movk x8, 0x3fd6, lsl 48
+0x1001e2f00      fmov d0, x8
+0x1001e2f04      ldr x22, [x19, 0x38]
+0x1001e2f08      mov x8, x22
+
+0x1001e352c      bl sym.imp.Observation.Registrar.access.keyPath.Key...E0Cyxq_GtAA10ObservableRzr0_lF
+0x1001e3530      mov x0, x24
+0x1001e3534      bl sym.imp.swift_release
+0x1001e3538      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x1001e353c      ldr x8, [x8, 0xdc0]
+0x1001e3540      ldrb w8, [x26, x8]
+0x1001e3544      tbnz w8, 0, 0x1001e35b8
+0x1001e3548      mov x8, 0x3333333333333333
+0x1001e354c      movk x8, 0x3fe3, lsl 48
+0x1001e3550      fmov d0, x8
+0x1001e3554      mov x8, 0x6666666666666666
+0x1001e3558      movk x8, 0x3fd6, lsl 48
+0x1001e355c      fmov d1, x8
+0x1001e3560      mov x8, x22
+
+0x1001e3798      bl sym.imp.Observation.Registrar.access.keyPath.Key...E0Cyxq_GtAA10ObservableRzr0_lF
+0x1001e379c      mov x0, x24
+0x1001e37a0      bl sym.imp.swift_release
+0x1001e37a4      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x1001e37a8      ldr x8, [x8, 0xdc0]
+0x1001e37ac      ldrb w8, [x26, x8]
+0x1001e37b0      tbnz w8, 0, 0x1001e3824
+0x1001e37b4      mov x8, 0x3333333333333333
+0x1001e37b8      movk x8, 0x3fe3, lsl 48
+0x1001e37bc      fmov d0, x8
+0x1001e37c0      mov x8, 0x6666666666666666
+0x1001e37c4      movk x8, 0x3fd6, lsl 48
+0x1001e37c8      fmov d1, x8
+0x1001e37cc      mov x8, x22
+
+0x1001eb568      mov v9.16b, v1.16b
+0x1001eb56c      adrp x0, 0x1005d2000
+0x1001eb570      add x0, x0, 0xb20
+0x1001eb574      adrp x1, 0x100467000
+0x1001eb578      add x1, x1, 0xd18
+0x1001eb57c      bl sym.func.100002b1c
+0x1001eb580      ldrsw x8, [x0, 0x24]
+0x1001eb584      ldr x9, [x19, 0x18]
+0x1001eb588      add x8, x9, x8
+0x1001eb58c      stp d10, d10, [x8]
+0x1001eb590      stp d8, d9, [x8, 0x10]
+0x1001eb594      fmov d0, 0.50000000
+0x1001eb598      fmov d1, 0.37500000
+0x1001eb59c      mov x8, x24
+
+0x1001eb60c      adrp x0, 0x1005d2000
+0x1001eb610      add x0, x0, 0xb28
+0x1001eb614      adrp x1, 0x100467000
+0x1001eb618      add x1, x1, 0xd20
+0x1001eb61c      bl sym.func.100002b1c
+0x1001eb620      ldrsw x8, [x0, 0x24]
+0x1001eb624      ldr x27, [x19, 0x18]
+0x1001eb628      add x8, x27, x8
+0x1001eb62c      ldr x9, [x19, 8]
+0x1001eb630      str x9, [x8]
+0x1001eb634      strb w23, [x8, 8]
+0x1001eb638      fmov d0, 0.50000000
+0x1001eb63c      fmov d1, 0.37500000
+0x1001eb640      mov x8, x24
+
+0x1001edbac      and x8, x8, 0xfffffffffffffff0
+0x1001edbb0      sub x24, x9, x8
+0x1001edbb4      mov sp, x24
+0x1001edbb8      bl sym.imp.SwiftUI.Alignment.center_...vgZ_
+0x1001edbbc      str x0, [x19, 0xed0]
+0x1001edbc0      str x1, [x19, 0xed8]
+0x1001edbc4      add x8, x19, 0xed0
+0x1001edbc8      add x8, x8, 0x10
+0x1001edbcc      mov x0, x22
+0x1001edbd0      mov x1, x21
+0x1001edbd4      bl sym.func.1001ee700
+0x1001edbd8      fmov d0, 0.50000000
+0x1001edbdc      fmov d1, 0.37500000
+0x1001edbe0      mov x8, x24
+
+0x1001edc9c      adrp x26, 0x100467000
+0x1001edca0      add x26, x26, 0xd78
+0x1001edca4      add x0, x19, 0xf70
+0x1001edca8      add x1, x19, 0xdd0
+0x1001edcac      mov x2, x25
+0x1001edcb0      mov x3, x26
+0x1001edcb4      bl sym.func.10000aac8
+0x1001edcb8      add x0, x19, 0xfb0
+0x1001edcbc      mov x1, x25
+0x1001edcc0      mov x2, x26
+0x1001edcc4      bl sym.func.10000aa88
+0x1001edcc8      fmov d0, 0.50000000
+0x1001edccc      fmov d1, 0.37500000
+0x1001edcd0      mov x8, x24
+
+0x1001edf54      mov x2, x20
+0x1001edf58      mov x3, x21
+0x1001edf5c      bl sym.func.10000aac8
+0x1001edf60      add x0, x19, 0x3f0
+0x1001edf64      mov x1, x20
+0x1001edf68      mov x2, x21
+0x1001edf6c      bl sym.func.10000aa88
+0x1001edf70      mov x8, -0x3333333333333334
+0x1001edf74      movk x8, 0xcccd
+0x1001edf78      movk x8, 0x3fdc, lsl 48
+0x1001edf7c      fmov d8, x8
+0x1001edf80      fmov d1, 0.37500000
+0x1001edf84      mov x8, x24
+0x1001edf88      mov v0.16b, v8.16b
+
+0x1001ee124      adrp x21, 0x100467000
+0x1001ee128      add x21, x21, 0xd90
+0x1001ee12c      add x0, x19, 0x4c0
+0x1001ee130      add x1, x19, 0xdd0
+0x1001ee134      mov x2, x20
+0x1001ee138      mov x3, x21
+0x1001ee13c      bl sym.func.10000aac8
+0x1001ee140      add x0, x19, 0x5a0
+0x1001ee144      mov x1, x20
+0x1001ee148      mov x2, x21
+0x1001ee14c      bl sym.func.10000aa88
+0x1001ee150      fmov d1, 0.37500000
+0x1001ee154      mov x8, x24
+0x1001ee158      mov v0.16b, v8.16b
+
+0x1001efbf8      mov x0, x22
+0x1001efbfc      bl sym.imp.swift_release
+0x1001efc00      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x1001efc04      ldr x8, [x8, 0xde0]
+0x1001efc08      ldrb w8, [x26, x8]
+0x1001efc0c      tbz w8, 0, 0x1001efc18
+0x1001efc10      str xzr, [x19, 0x20]
+0x1001efc14      b 0x1001efc54
+0x1001efc18      mov x8, -0x3333333333333334
+0x1001efc1c      movk x8, 0x3fdc, lsl 48
+0x1001efc20      fmov d1, x8
+0x1001efc24      fmov d0, 0.50000000
+0x1001efc28      ldr x20, [x19, 0x28]
+0x1001efc2c      mov x8, x20
+
+0x1001f1770      add x1, x1, 0xe10
+0x1001f1774      bl sym.func.100002b1c
+0x1001f1778      ldrsw x8, [x0, 0x24]
+0x1001f177c      add x8, x23, x8
+0x1001f1780      stp d10, d10, [x8]
+0x1001f1784      stp d8, d9, [x8, 0x10]
+0x1001f1788      mov x8, 0x3333333333333333
+0x1001f178c      movk x8, 0x3fe3, lsl 48
+0x1001f1790      fmov d0, x8
+0x1001f1794      mov x8, -0x6666666666666667
+0x1001f1798      movk x8, 0x999a
+0x1001f179c      movk x8, 0x3fd9, lsl 48
+0x1001f17a0      fmov d1, x8
+0x1001f17a4      mov x8, x25
+
+0x1001f2680      add x0, x0, 0xc40
+0x1001f2684      adrp x1, 0x100467000
+0x1001f2688      add x1, x1, 0xe40
+0x1001f268c      bl sym.func.100002b1c
+0x1001f2690      ldrsw x8, [x0, 0x24]
+0x1001f2694      str d9, [x24, x8]
+0x1001f2698      mov x8, -0x6666666666666667
+0x1001f269c      movk x8, 0x999a
+0x1001f26a0      movk x8, 0x3fd9, lsl 48
+0x1001f26a4      fmov d1, x8
+0x1001f26a8      sub x8, x29, 0x98
+0x1001f26ac      ldur x20, [x8, -0x100]
+0x1001f26b0      mov x8, x20
+0x1001f26b4      mov v0.16b, v8.16b
+
+0x1001f3114      mov v11.16b, v3.16b
+0x1001f3118      add x0, x19, 1, lsl 12
+0x1001f311c      add x0, x0, 0x6b8
+0x1001f3120      add x1, x19, 0xf10
+0x1001f3124      mov w2, 0x1c0
+0x1001f3128      bl sym.imp.memcpy
+0x1001f312c      add x0, x19, 1, lsl 12
+0x1001f3130      add x0, x0, 0x4f8
+0x1001f3134      mov x1, x20
+0x1001f3138      mov x2, x21
+0x1001f313c      bl sym.func.10000aa88
+0x1001f3140      fmov d0, 0.50000000
+0x1001f3144      fmov d1, 0.37500000
+0x1001f3148      mov x8, x26
+
+0x1001fa8bc      ldp x25, x27, [x22, 0x80]
+0x1001fa8c0      ldp x23, x19, [x22, 0x70]
+0x1001fa8c4      ldp x8, x9, [x22, 0x60]
+0x1001fa8c8      stp x8, x9, [sp]
+0x1001fa8cc      ldrb w28, [x22, 0x2b]
+0x1001fa8d0      ldr x24, [x22, 0x50]
+0x1001fa8d4      mov x8, -0x6666666666666667
+0x1001fa8d8      movk x8, 0x999a
+0x1001fa8dc      movk x8, 0x3fd9, lsl 48
+0x1001fa8e0      fmov d0, x8
+0x1001fa8e4      mov x8, 0x3333333333333333
+0x1001fa8e8      movk x8, 0x3fd3, lsl 48
+0x1001fa8ec      fmov d1, x8
+0x1001fa8f0      mov x8, x21
+
+0x1001fafb8      ldp x25, x27, [x22, 0x80]
+0x1001fafbc      ldp x23, x19, [x22, 0x70]
+0x1001fafc0      ldp x8, x9, [x22, 0x60]
+0x1001fafc4      stp x8, x9, [sp]
+0x1001fafc8      ldrb w28, [x22, 0x2b]
+0x1001fafcc      ldr x24, [x22, 0x50]
+0x1001fafd0      mov x8, -0x6666666666666667
+0x1001fafd4      movk x8, 0x999a
+0x1001fafd8      movk x8, 0x3fd9, lsl 48
+0x1001fafdc      fmov d0, x8
+0x1001fafe0      mov x8, 0x3333333333333333
+0x1001fafe4      movk x8, 0x3fd3, lsl 48
+0x1001fafe8      fmov d1, x8
+0x1001fafec      mov x8, x21
+
+0x10021a984      mov x0, x28
+0x10021a988      bl sym.imp.swift_release
+0x10021a98c      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x10021a990      ldr x8, [x8, 0xdc0]
+0x10021a994      ldrb w8, [x24, x8]
+0x10021a998      cmp w8, 1
+0x10021a99c      b.ne 0x10021ad08
+0x10021a9a0      mov x8, 0x6666666666666666
+0x10021a9a4      movk x8, 0x3fd6, lsl 48
+0x10021a9a8      fmov d0, x8
+0x10021a9ac      mov x8, 0x3333333333333333
+0x10021a9b0      movk x8, 0x3fd3, lsl 48
+0x10021a9b4      fmov d1, x8
+0x10021a9b8      mov x8, x27
+
+0x10021a9e0      tbz w21, 0, 0x10021aa04
+0x10021a9e4      mov x8, 0x3333333333333333
+0x10021a9e8      movk x8, 0x3fc3, lsl 48
+0x10021a9ec      fmov d0, x8
+0x10021a9f0      fmov d1, 1.00000000
+0x10021a9f4      movi v2.2d, 0000000000000000
+0x10021a9f8      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10021a9fc      mov x21, x0
+0x10021aa00      b 0x10021aa38
+0x10021aa04      mov x8, 0x3333333333333333
+0x10021aa08      movk x8, 0x3fd3, lsl 48
+0x10021aa0c      fmov d0, x8
+0x10021aa10      mov x8, x27
+0x10021aa14      mov v1.16b, v0.16b
+
+0x10021bd08      bl sym.imp.swift_release
+0x10021bd0c      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x10021bd10      ldr x8, [x8, 0xca8]
+0x10021bd14      ldrb w8, [x19, x8]
+0x10021bd18      cmp w8, 1
+0x10021bd1c      b.ne 0x10021bd2c
+0x10021bd20      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x10021bd24      ldr x8, [x8, 0xcb0]
+0x10021bd28      strb w23, [x19, x8]
+0x10021bd2c      mov x8, 0x6666666666666666
+0x10021bd30      movk x8, 0x3fd6, lsl 48
+0x10021bd34      fmov d0, x8
+0x10021bd38      mov x8, x22
+0x10021bd3c      mov v1.16b, v0.16b
+
+0x10021cc2c      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x10021cc30      ldr x24, [x8, 0xe00]
+0x10021cc34      ldrb w8, [x19, x24]
+0x10021cc38      cmp w8, 0
+0x10021cc3c      mov x8, -0x6666666666666667
+0x10021cc40      movk x8, 0x9998
+0x10021cc44      movk x8, 0x3fb9, lsl 48
+0x10021cc48      fmov d0, x8
+0x10021cc4c      fcsel d1, d0, d9, ne
+0x10021cc50      mov x8, -0x3333333333333334
+0x10021cc54      movk x8, 0xcccd
+0x10021cc58      movk x8, 0x3fdc, lsl 48
+0x10021cc5c      fmov d0, x8
+0x10021cc60      mov x8, x23
+
+0x10021dbfc      b.ne 0x10021ddc8
+0x10021dc00      mov x25, x28
+0x10021dc04      mov x28, x21
+0x10021dc08      mov x8, -0x6666666666666667
+0x10021dc0c      movk x8, 0x999a
+0x10021dc10      movk x8, 0x3fd9, lsl 48
+0x10021dc14      fmov d8, x8
+0x10021dc18      mov x8, 0x3333333333333333
+0x10021dc1c      movk x8, 0x3fd3, lsl 48
+0x10021dc20      fmov d1, x8
+0x10021dc24      sub x8, x29, 0xb8
+0x10021dc28      ldur x24, [x8, -0x100]
+0x10021dc2c      mov x8, x24
+0x10021dc30      mov v0.16b, v8.16b
+
+0x10021dc30      mov v0.16b, v8.16b
+0x10021dc34      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021dc38      movi v0.2d, 0000000000000000
+0x10021dc3c      mov x0, x24
+0x10021dc40      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x10021dc44      mov x20, x0
+0x10021dc48      mov x0, x24
+0x10021dc4c      sub x8, x29, 0x70
+0x10021dc50      ldur x21, [x8, -0x100]
+0x10021dc54      mov x1, x21
+0x10021dc58      blr x25
+0x10021dc5c      movi v1.2d, 0000000000000000
+0x10021dc60      mov x8, x24
+0x10021dc64      mov v0.16b, v8.16b
+
+0x10021e7c8      adrp x16, reloc.Foundation.IndexSet...VMn
+0x10021e7cc      ldr x16, [x16, 0x568]
+0x10021e7d0      blr x16
+0x10021e7d4      mov x9, sp
+0x10021e7d8      add x8, x8, 0xf
+0x10021e7dc      and x8, x8, 0xfffffffffffffff0
+0x10021e7e0      sub x27, x9, x8
+0x10021e7e4      mov sp, x27
+0x10021e7e8      tbz w22, 0, 0x10021e828
+0x10021e7ec      mov x8, 0x3333333333333333
+0x10021e7f0      movk x8, 0x3fd3, lsl 48
+0x10021e7f4      fmov d1, x8
+0x10021e7f8      mov x8, x27
+0x10021e7fc      mov v0.16b, v9.16b
+
+0x10021e834      movk x8, 0x999a
+0x10021e838      movk x8, 0x3fa9, lsl 48
+0x10021e83c      fmov d1, x8
+0x10021e840      fadd d0, d0, d1
+0x10021e844      fmov d1, 1.00000000
+0x10021e848      movi v2.2d, 0000000000000000
+0x10021e84c      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10021e850      mov x28, x0
+0x10021e854      mov x8, 0x3333333333333333
+0x10021e858      movk x8, 0x3fd3, lsl 48
+0x10021e85c      fmov d0, x8
+0x10021e860      fadd d1, d10, d0
+0x10021e864      mov x8, x27
+0x10021e868      mov v0.16b, v9.16b
+
+0x10021f458      fmov d1, x8
+0x10021f45c      fadd d0, d0, d1
+0x10021f460      fmov d1, 1.00000000
+0x10021f464      movi v2.2d, 0000000000000000
+0x10021f468      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10021f46c      mov x27, x0
+0x10021f470      mov x8, -0x6666666666666667
+0x10021f474      movk x8, 0x999a
+0x10021f478      movk x8, 0xbfc9, lsl 48
+0x10021f47c      fmov d1, x8
+0x10021f480      sub x8, x29, 0x38
+0x10021f484      ldur x20, [x8, -0x100]
+0x10021f488      mov x8, x20
+0x10021f48c      mov v0.16b, v8.16b
+
+0x10021f9e8      sub x8, x29, 0x40
+0x10021f9ec      ldur x23, [x8, -0x100]
+0x10021f9f0      b.ne 0x10021fbe0
+0x10021f9f4      sub x8, x29, 0x78
+0x10021f9f8      stur x27, [x8, -0x100]
+0x10021f9fc      mov x27, x26
+0x10021fa00      mov x20, x24
+0x10021fa04      mov x8, 0x3333333333333333
+0x10021fa08      movk x8, 0x3fd3, lsl 48
+0x10021fa0c      fmov d1, x8
+0x10021fa10      sub x8, x29, 0x38
+0x10021fa14      ldur x24, [x8, -0x100]
+0x10021fa18      mov x8, x24
+0x10021fa1c      mov v0.16b, v8.16b
+
+0x10021fa34      stur x0, [x8, -0x100]
+0x10021fa38      mov x0, x24
+0x10021fa3c      sub x8, x29, 0x30
+0x10021fa40      ldur x19, [x8, -0x100]
+0x10021fa44      mov x1, x19
+0x10021fa48      sub x8, x29, 0x68
+0x10021fa4c      ldur x25, [x8, -0x100]
+0x10021fa50      blr x25
+0x10021fa54      mov x8, -0x6666666666666667
+0x10021fa58      movk x8, 0x999a
+0x10021fa5c      movk x8, 0xbfc9, lsl 48
+0x10021fa60      fmov d1, x8
+0x10021fa64      mov x8, x24
+0x10021fa68      mov v0.16b, v8.16b
+
+0x10021ff98      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x10021ff9c      ldr x8, [x8, 0xdb8]
+0x10021ffa0      ldrb w8, [x22, x8]
+0x10021ffa4      cmp w8, 1
+0x10021ffa8      b.ne 0x100220380
+0x10021ffac      sub x8, x29, 0x80
+0x10021ffb0      stur x26, [x8, -0x100]
+0x10021ffb4      mov x8, 0x3333333333333333
+0x10021ffb8      movk x8, 0x3fd3, lsl 48
+0x10021ffbc      fmov d1, x8
+0x10021ffc0      sub x8, x29, 0x38
+0x10021ffc4      ldur x20, [x8, -0x100]
+0x10021ffc8      mov x8, x20
+0x10021ffcc      mov v0.16b, v8.16b
+
+0x10021ffe4      stur x0, [x8, -0x100]
+0x10021ffe8      mov x0, x20
+0x10021ffec      sub x8, x29, 0x30
+0x10021fff0      ldur x19, [x8, -0x100]
+0x10021fff4      mov x1, x19
+0x10021fff8      sub x8, x29, 0x68
+0x10021fffc      ldur x25, [x8, -0x100]
+0x100220000      blr x25
+0x100220004      mov x8, -0x6666666666666667
+0x100220008      movk x8, 0x999a
+0x10022000c      movk x8, 0xbfc9, lsl 48
+0x100220010      fmov d1, x8
+0x100220014      mov x8, x20
+0x100220018      mov v0.16b, v8.16b
+
+0x10022392c      bl sym.imp.swift_release
+0x100223930      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x100223934      ldr x25, [x8, 0xe50]
+0x100223938      ldrb w8, [x19, x25]
+0x10022393c      cmp w8, w24, uxtb
+0x100223940      b.eq 0x100223a1c
+0x100223944      mov x20, x19
+0x100223948      bl sym.func.10021b664
+0x10022394c      tbz w0, 0, 0x1002239bc
+0x100223950      mov x8, 0x6666666666666666
+0x100223954      movk x8, 0x3fd6, lsl 48
+0x100223958      fmov d0, x8
+0x10022395c      mov x8, x22
+0x100223960      mov v1.16b, v0.16b
+
+0x100224be0      mov x5, x24
+0x100224be4      mov x21, 0
+0x100224be8      bl sym.imp.Observation.Registrar.withMutation.of.keyPath...q0_x_s03KeyG0Cyxq_Gq0_yKXEtKAA10ObservableRzr1_lF
+0x100224bec      mov x0, x22
+0x100224bf0      b 0x100224c64
+0x100224bf4      mov x8, -0x3333333333333334
+0x100224bf8      movk x8, 0xcccd
+0x100224bfc      movk x8, 0x3fdc, lsl 48
+0x100224c00      fmov d0, x8
+0x100224c04      mov x8, -0x6666666666666667
+0x100224c08      movk x8, 0x999a
+0x100224c0c      movk x8, 0x3fd9, lsl 48
+0x100224c10      fmov d1, x8
+0x100224c14      mov x8, x22
+
+0x100224e40      movi v2.2d, 0000000000000000
+0x100224e44      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x100224e48      sub x8, x29, 0x30
+0x100224e4c      stur x0, [x8, -0x100]
+0x100224e50      mov x8, 0x6666666666666666
+0x100224e54      movk x8, 0x3fd6, lsl 48
+0x100224e58      fmov d0, x8
+0x100224e5c      mov x8, -0x6666666666666667
+0x100224e60      movk x8, 0x999a
+0x100224e64      movk x8, 0xbfc9, lsl 48
+0x100224e68      fmov d1, x8
+0x100224e6c      sub x8, x29, 0x20
+0x100224e70      ldur x20, [x8, -0x100]
+0x100224e74      mov x8, x20
+
+0x10022510c      b.ne 0x100225300
+0x100225110      sub x8, x29, 0x50
+0x100225114      stur x27, [x8, -0x100]
+0x100225118      mov x22, x26
+0x10022511c      mov x8, 0x6666666666666666
+0x100225120      movk x8, 0x3fd6, lsl 48
+0x100225124      fmov d8, x8
+0x100225128      mov x8, 0x3333333333333333
+0x10022512c      movk x8, 0x3fd3, lsl 48
+0x100225130      fmov d1, x8
+0x100225134      sub x8, x29, 0x20
+0x100225138      ldur x26, [x8, -0x100]
+0x10022513c      mov x8, x26
+0x100225140      mov v0.16b, v8.16b
+
+0x100225158      stur x0, [x8, -0x100]
+0x10022515c      mov x0, x26
+0x100225160      sub x8, x29, 0x40
+0x100225164      ldur x20, [x8, -0x100]
+0x100225168      mov x1, x20
+0x10022516c      sub x8, x29, 0x48
+0x100225170      ldur x27, [x8, -0x100]
+0x100225174      blr x27
+0x100225178      mov x8, -0x6666666666666667
+0x10022517c      movk x8, 0x999a
+0x100225180      movk x8, 0xbfc9, lsl 48
+0x100225184      fmov d1, x8
+0x100225188      mov x8, x26
+0x10022518c      mov v0.16b, v8.16b
+
+0x100225a58      fadd d10, d0, d1
+0x100225a5c      fmov d1, 1.00000000
+0x100225a60      movi v2.2d, 0000000000000000
+0x100225a64      mov v0.16b, v10.16b
+0x100225a68      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x100225a6c      mov x25, x0
+0x100225a70      mov x8, -0x6666666666666667
+0x100225a74      movk x8, 0x999a
+0x100225a78      movk x8, 0xbfc9, lsl 48
+0x100225a7c      fmov d1, x8
+0x100225a80      sub x8, x29, 0xa0
+0x100225a84      ldur x20, [x8, -0x100]
+0x100225a88      mov x8, x20
+0x100225a8c      mov v0.16b, v8.16b
+
+0x100226624      ldr x8, [x8, 0xdb8]
+0x100226628      sub x9, x29, 0xb0
+0x10022662c      stur x8, [x9, -0x100]
+0x100226630      ldrb w8, [x19, x8]
+0x100226634      cmp w8, 1
+0x100226638      b.ne 0x100226814
+0x10022663c      mov x20, x25
+0x100226640      mov x8, 0x3333333333333333
+0x100226644      movk x8, 0x3fd3, lsl 48
+0x100226648      fmov d1, x8
+0x10022664c      sub x8, x29, 0xa0
+0x100226650      ldur x24, [x8, -0x100]
+0x100226654      mov x8, x24
+0x100226658      mov v0.16b, v8.16b
+
+0x100226670      stur x0, [x8, -0x100]
+0x100226674      mov x0, x24
+0x100226678      sub x8, x29, 0x98
+0x10022667c      ldur x23, [x8, -0x100]
+0x100226680      mov x1, x23
+0x100226684      sub x8, x29, 0x128
+0x100226688      ldur x25, [x8, -0x100]
+0x10022668c      blr x25
+0x100226690      mov x8, -0x6666666666666667
+0x100226694      movk x8, 0x999a
+0x100226698      movk x8, 0xbfc9, lsl 48
+0x10022669c      fmov d1, x8
+0x1002266a0      mov x8, x24
+0x1002266a4      mov v0.16b, v8.16b
+
+0x1002269b0      fmov d1, 1.00000000
+0x1002269b4      movi v2.2d, 0000000000000000
+0x1002269b8      mov v0.16b, v10.16b
+0x1002269bc      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x1002269c0      sub x8, x29, 0x90
+0x1002269c4      stur x0, [x8, -0x100]
+0x1002269c8      mov x8, -0x6666666666666667
+0x1002269cc      movk x8, 0x999a
+0x1002269d0      movk x8, 0xbfc9, lsl 48
+0x1002269d4      fmov d1, x8
+0x1002269d8      sub x8, x29, 0xa0
+0x1002269dc      ldur x20, [x8, -0x100]
+0x1002269e0      mov x8, x20
+0x1002269e4      mov v0.16b, v8.16b
+
+0x1002270c8      bl sym.imp.swift_release
+0x1002270cc      sub x8, x29, 0xb0
+0x1002270d0      ldur x8, [x8, -0x100]
+0x1002270d4      ldrb w8, [x19, x8]
+0x1002270d8      cmp w8, 1
+0x1002270dc      b.ne 0x1002272a4
+0x1002270e0      mov x25, x27
+0x1002270e4      mov x8, 0x3333333333333333
+0x1002270e8      movk x8, 0x3fd3, lsl 48
+0x1002270ec      fmov d1, x8
+0x1002270f0      sub x8, x29, 0xa0
+0x1002270f4      ldur x24, [x8, -0x100]
+0x1002270f8      mov x8, x24
+0x1002270fc      mov v0.16b, v8.16b
+
+0x100227114      stur x0, [x8, -0x100]
+0x100227118      mov x0, x24
+0x10022711c      sub x8, x29, 0x98
+0x100227120      ldur x20, [x8, -0x100]
+0x100227124      mov x1, x20
+0x100227128      sub x8, x29, 0x128
+0x10022712c      ldur x27, [x8, -0x100]
+0x100227130      blr x27
+0x100227134      mov x8, -0x6666666666666667
+0x100227138      movk x8, 0x999a
+0x10022713c      movk x8, 0xbfc9, lsl 48
+0x100227140      fmov d1, x8
+0x100227144      mov x8, x24
+0x100227148      mov v0.16b, v8.16b
+
+0x10022a930      bl sym.imp.Observation.Registrar.access.keyPath.Key...E0Cyxq_GtAA10ObservableRzr0_lF
+0x10022a934      mov x0, x24
+0x10022a938      bl sym.imp.swift_release
+0x10022a93c      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x10022a940      ldr x8, [x8, 0xdc0]
+0x10022a944      ldrb w8, [x19, x8]
+0x10022a948      tbnz w8, 0, 0x10022a9b8
+0x10022a94c      mov x8, 0x3333333333333333
+0x10022a950      movk x8, 0x3fe3, lsl 48
+0x10022a954      fmov d0, x8
+0x10022a958      mov x8, 0x6666666666666666
+0x10022a95c      movk x8, 0x3fd6, lsl 48
+0x10022a960      fmov d1, x8
+0x10022a964      mov x8, x22
+
+0x10022ab04      bl sym.imp.swift_release
+0x10022ab08      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x10022ab0c      ldr x25, [x8, 0xdc0]
+0x10022ab10      ldrb w8, [x19, x25]
+0x10022ab14      tbz w8, 0, 0x10022ab8c
+0x10022ab18      adrp x20, 0x10023a000
+0x10022ab1c      add x20, x20, 0x414
+0x10022ab20      mov x8, 0x3333333333333333
+0x10022ab24      movk x8, 0x3fe3, lsl 48
+0x10022ab28      fmov d0, x8
+0x10022ab2c      mov x8, 0x6666666666666666
+0x10022ab30      movk x8, 0x3fd6, lsl 48
+0x10022ab34      fmov d1, x8
+0x10022ab38      mov x8, x22
+
+0x10022c044      mov v0.16b, v10.16b
+0x10022c048      mov v1.16b, v11.16b
+0x10022c04c      mov v2.16b, v12.16b
+0x10022c050      mov v3.16b, v13.16b
+0x10022c054      bl sym.imp.CGRectGetMaxY
+0x10022c058      fcmp d8, d0
+0x10022c05c      b.ls 0x10022c0f4
+0x10022c060      mov x8, 0x3333333333333333
+0x10022c064      movk x8, 0x3fe3, lsl 48
+0x10022c068      fmov d0, x8
+0x10022c06c      mov x8, 0x6666666666666666
+0x10022c070      movk x8, 0x3fd6, lsl 48
+0x10022c074      fmov d1, x8
+0x10022c078      mov x8, x22
+
+0x10022d14c      ldr x8, [x8, 0xd98]
+0x10022d150      ldrb w8, [x19, x8]
+0x10022d154      tbnz w8, 0, 0x10022d304
+0x10022d158      ldp x23, x24, [x22, 0x50]
+0x10022d15c      ldr x25, [x22, 0x48]
+0x10022d160      mov x8, -0x6666666666666667
+0x10022d164      movk x8, 0x999a
+0x10022d168      movk x8, 0x3fd9, lsl 48
+0x10022d16c      fmov d8, x8
+0x10022d170      mov x8, 0x3333333333333333
+0x10022d174      movk x8, 0x3fd3, lsl 48
+0x10022d178      fmov d1, x8
+0x10022d17c      mov x8, x24
+0x10022d180      mov v0.16b, v8.16b
+
+0x10022d17c      mov x8, x24
+0x10022d180      mov v0.16b, v8.16b
+0x10022d184      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10022d188      movi v0.2d, 0000000000000000
+0x10022d18c      mov x0, x24
+0x10022d190      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x10022d194      mov x20, x0
+0x10022d198      ldr x26, [x23, 8]
+0x10022d19c      mov x0, x24
+0x10022d1a0      mov x1, x25
+0x10022d1a4      blr x26
+0x10022d1a8      movi v1.2d, 0000000000000000
+0x10022d1ac      mov x8, x24
+0x10022d1b0      mov v0.16b, v8.16b
+
+0x10022d428      ldr x8, [x8, 0xd98]
+0x10022d42c      ldrb w8, [x19, x8]
+0x10022d430      tbnz w8, 0, 0x10022d5e4
+0x10022d434      ldp x23, x21, [x22, 0x50]
+0x10022d438      ldr x24, [x22, 0x48]
+0x10022d43c      mov x8, -0x6666666666666667
+0x10022d440      movk x8, 0x999a
+0x10022d444      movk x8, 0x3fd9, lsl 48
+0x10022d448      fmov d8, x8
+0x10022d44c      mov x8, 0x3333333333333333
+0x10022d450      movk x8, 0x3fd3, lsl 48
+0x10022d454      fmov d1, x8
+0x10022d458      mov x8, x21
+0x10022d45c      mov v0.16b, v8.16b
+
+0x10022d458      mov x8, x21
+0x10022d45c      mov v0.16b, v8.16b
+0x10022d460      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10022d464      movi v0.2d, 0000000000000000
+0x10022d468      mov x0, x21
+0x10022d46c      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x10022d470      mov x20, x0
+0x10022d474      ldr x25, [x23, 8]
+0x10022d478      mov x0, x21
+0x10022d47c      mov x1, x24
+0x10022d480      blr x25
+0x10022d484      movi v1.2d, 0000000000000000
+0x10022d488      mov x8, x21
+0x10022d48c      mov v0.16b, v8.16b
+
+0x10022fbe4      fmov d0, x8
+0x10022fbe8      fmov d1, 1.00000000
+0x10022fbec      movi v2.2d, 0000000000000000
+0x10022fbf0      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10022fbf4      sub x8, x29, 0x100
+0x10022fbf8      stur x0, [x8, -0x100]
+0x10022fbfc      mov x8, 0x6666666666666666
+0x10022fc00      movk x8, 0x3fd6, lsl 48
+0x10022fc04      fmov d0, x8
+0x10022fc08      mov x8, -0x6666666666666667
+0x10022fc0c      movk x8, 0x999a
+0x10022fc10      movk x8, 0xbfc9, lsl 48
+0x10022fc14      fmov d1, x8
+0x10022fc18      mov x8, x24
+
+0x10022fe88      bl sym.imp.swift_release
+0x10022fe8c      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x10022fe90      ldr x8, [x8, 0xdb8]
+0x10022fe94      ldrb w8, [x19, x8]
+0x10022fe98      cmp w8, 1
+0x10022fe9c      b.ne 0x100230240
+0x10022fea0      mov x8, 0x6666666666666666
+0x10022fea4      movk x8, 0x3fd6, lsl 48
+0x10022fea8      fmov d8, x8
+0x10022feac      mov x8, 0x3333333333333333
+0x10022feb0      movk x8, 0x3fd3, lsl 48
+0x10022feb4      fmov d1, x8
+0x10022feb8      mov x8, x24
+0x10022febc      mov v0.16b, v8.16b
+
+0x10022fec8      mov x0, x24
+0x10022fecc      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x10022fed0      mov x23, x0
+0x10022fed4      mov x0, x24
+0x10022fed8      mov x1, x22
+0x10022fedc      sub x8, x29, 0x110
+0x10022fee0      ldur x20, [x8, -0x100]
+0x10022fee4      blr x20
+0x10022fee8      mov x8, -0x6666666666666667
+0x10022feec      movk x8, 0x999a
+0x10022fef0      movk x8, 0xbfc9, lsl 48
+0x10022fef4      fmov d1, x8
+0x10022fef8      mov x8, x24
+0x10022fefc      mov v0.16b, v8.16b
+
+0x100230050      mov x0, x23
+0x100230054      bl sym.imp.swift_release
+0x100230058      b 0x100230248
+0x10023005c      sub x8, x29, 0xf8
+0x100230060      stur x26, [x8, -0x100]
+0x100230064      mov x8, -0x6666666666666667
+0x100230068      movk x8, 0x999a
+0x10023006c      movk x8, 0x3fd9, lsl 48
+0x100230070      fmov d8, x8
+0x100230074      mov x8, 0x3333333333333333
+0x100230078      movk x8, 0x3fd3, lsl 48
+0x10023007c      fmov d1, x8
+0x100230080      mov x8, x24
+0x100230084      mov v0.16b, v8.16b
+
+0x100230080      mov x8, x24
+0x100230084      mov v0.16b, v8.16b
+0x100230088      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023008c      movi v0.2d, 0000000000000000
+0x100230090      mov x0, x24
+0x100230094      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100230098      mov x20, x0
+0x10023009c      ldr x25, [x23, 8]
+0x1002300a0      mov x0, x24
+0x1002300a4      mov x1, x22
+0x1002300a8      blr x25
+0x1002300ac      movi v1.2d, 0000000000000000
+0x1002300b0      mov x8, x24
+0x1002300b4      mov v0.16b, v8.16b
+
+0x100230cd0      movk x8, 0x3fdf, lsl 48
+0x100230cd4      fmov d0, x8
+0x100230cd8      fmov d1, 1.00000000
+0x100230cdc      movi v2.2d, 0000000000000000
+0x100230ce0      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x100230ce4      str x0, [sp, 0x18]
+0x100230ce8      mov x8, 0x6666666666666666
+0x100230cec      movk x8, 0x3fd6, lsl 48
+0x100230cf0      fmov d0, x8
+0x100230cf4      mov x8, -0x6666666666666667
+0x100230cf8      movk x8, 0x999a
+0x100230cfc      movk x8, 0xbfc9, lsl 48
+0x100230d00      fmov d1, x8
+0x100230d04      mov x8, x26
+
+0x100230f58      ldrb w8, [x19, x8]
+0x100230f5c      cmp w8, 1
+0x100230f60      b.ne 0x100231118
+0x100230f64      mov x24, x27
+0x100230f68      ldr x26, [x22, 0x148]
+0x100230f6c      ldr x27, [x22, 0x138]
+0x100230f70      mov x8, 0x6666666666666666
+0x100230f74      movk x8, 0x3fd6, lsl 48
+0x100230f78      fmov d8, x8
+0x100230f7c      mov x8, 0x3333333333333333
+0x100230f80      movk x8, 0x3fd3, lsl 48
+0x100230f84      fmov d1, x8
+0x100230f88      mov x8, x26
+0x100230f8c      mov v0.16b, v8.16b
+
+0x100230f90      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100230f94      movi v0.2d, 0000000000000000
+0x100230f98      mov x0, x26
+0x100230f9c      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100230fa0      mov x20, x0
+0x100230fa4      mov x0, x26
+0x100230fa8      mov x1, x27
+0x100230fac      blr x28
+0x100230fb0      mov x8, -0x6666666666666667
+0x100230fb4      movk x8, 0x999a
+0x100230fb8      movk x8, 0xbfc9, lsl 48
+0x100230fbc      fmov d1, x8
+0x100230fc0      mov x8, x26
+0x100230fc4      mov v0.16b, v8.16b
+
+0x1002311d0      ldrb w8, [x22, 0x2e]
+0x1002311d4      cmp w8, 1
+0x1002311d8      b.ne 0x100231398
+0x1002311dc      ldp x23, x24, [x22, 0x140]
+0x1002311e0      ldr x25, [x22, 0x138]
+0x1002311e4      mov x8, -0x6666666666666667
+0x1002311e8      movk x8, 0x999a
+0x1002311ec      movk x8, 0x3fd9, lsl 48
+0x1002311f0      fmov d8, x8
+0x1002311f4      mov x8, 0x3333333333333333
+0x1002311f8      movk x8, 0x3fd3, lsl 48
+0x1002311fc      fmov d1, x8
+0x100231200      mov x8, x24
+0x100231204      mov v0.16b, v8.16b
+
+0x100231200      mov x8, x24
+0x100231204      mov v0.16b, v8.16b
+0x100231208      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023120c      movi v0.2d, 0000000000000000
+0x100231210      mov x0, x24
+0x100231214      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100231218      mov x20, x0
+0x10023121c      ldr x26, [x23, 8]
+0x100231220      mov x0, x24
+0x100231224      mov x1, x25
+0x100231228      blr x26
+0x10023122c      movi v1.2d, 0000000000000000
+0x100231230      mov x8, x24
+0x100231234      mov v0.16b, v8.16b
+
+0x100231678      movk x8, 0x3fdf, lsl 48
+0x10023167c      fmov d0, x8
+0x100231680      fmov d1, 1.00000000
+0x100231684      movi v2.2d, 0000000000000000
+0x100231688      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10023168c      str x0, [sp, 0x18]
+0x100231690      mov x8, 0x6666666666666666
+0x100231694      movk x8, 0x3fd6, lsl 48
+0x100231698      fmov d0, x8
+0x10023169c      mov x8, -0x6666666666666667
+0x1002316a0      movk x8, 0x999a
+0x1002316a4      movk x8, 0xbfc9, lsl 48
+0x1002316a8      fmov d1, x8
+0x1002316ac      mov x8, x26
+
+0x100231900      ldrb w8, [x19, x8]
+0x100231904      cmp w8, 1
+0x100231908      b.ne 0x100231ac0
+0x10023190c      mov x24, x27
+0x100231910      ldr x26, [x22, 0x148]
+0x100231914      ldr x27, [x22, 0x138]
+0x100231918      mov x8, 0x6666666666666666
+0x10023191c      movk x8, 0x3fd6, lsl 48
+0x100231920      fmov d8, x8
+0x100231924      mov x8, 0x3333333333333333
+0x100231928      movk x8, 0x3fd3, lsl 48
+0x10023192c      fmov d1, x8
+0x100231930      mov x8, x26
+0x100231934      mov v0.16b, v8.16b
+
+0x100231938      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023193c      movi v0.2d, 0000000000000000
+0x100231940      mov x0, x26
+0x100231944      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100231948      mov x20, x0
+0x10023194c      mov x0, x26
+0x100231950      mov x1, x27
+0x100231954      blr x28
+0x100231958      mov x8, -0x6666666666666667
+0x10023195c      movk x8, 0x999a
+0x100231960      movk x8, 0xbfc9, lsl 48
+0x100231964      fmov d1, x8
+0x100231968      mov x8, x26
+0x10023196c      mov v0.16b, v8.16b
+
+0x100231b78      ldrb w8, [x22, 0x2e]
+0x100231b7c      cmp w8, 1
+0x100231b80      b.ne 0x100231d40
+0x100231b84      ldp x23, x24, [x22, 0x140]
+0x100231b88      ldr x25, [x22, 0x138]
+0x100231b8c      mov x8, -0x6666666666666667
+0x100231b90      movk x8, 0x999a
+0x100231b94      movk x8, 0x3fd9, lsl 48
+0x100231b98      fmov d8, x8
+0x100231b9c      mov x8, 0x3333333333333333
+0x100231ba0      movk x8, 0x3fd3, lsl 48
+0x100231ba4      fmov d1, x8
+0x100231ba8      mov x8, x24
+0x100231bac      mov v0.16b, v8.16b
+
+0x100231ba8      mov x8, x24
+0x100231bac      mov v0.16b, v8.16b
+0x100231bb0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100231bb4      movi v0.2d, 0000000000000000
+0x100231bb8      mov x0, x24
+0x100231bbc      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100231bc0      mov x20, x0
+0x100231bc4      ldr x26, [x23, 8]
+0x100231bc8      mov x0, x24
+0x100231bcc      mov x1, x25
+0x100231bd0      blr x26
+0x100231bd4      movi v1.2d, 0000000000000000
+0x100231bd8      mov x8, x24
+0x100231bdc      mov v0.16b, v8.16b
+
+0x100232440      bl sym.imp.swift_weakLoadStrong
+0x100232444      cbz x0, 0x1002324cc
+0x100232448      mov x20, x0
+0x10023244c      ldp x25, x19, [x22, 0x40]
+0x100232450      ldr x23, [x22, 0x38]
+0x100232454      mov x8, -0x3333333333333334
+0x100232458      movk x8, 0xcccd
+0x10023245c      movk x8, 0x3fdc, lsl 48
+0x100232460      fmov d0, x8
+0x100232464      mov x8, -0x6666666666666667
+0x100232468      movk x8, 0x999a
+0x10023246c      movk x8, 0x3fd9, lsl 48
+0x100232470      fmov d1, x8
+0x100232474      mov x8, x19
+
+0x10023255c      bl sym.imp.swift_weakLoadStrong
+0x100232560      cbz x0, 0x1002325ec
+0x100232564      mov x20, x0
+0x100232568      ldp x24, x19, [x22, 0x40]
+0x10023256c      ldr x21, [x22, 0x38]
+0x100232570      mov x8, -0x3333333333333334
+0x100232574      movk x8, 0xcccd
+0x100232578      movk x8, 0x3fdc, lsl 48
+0x10023257c      fmov d0, x8
+0x100232580      mov x8, -0x6666666666666667
+0x100232584      movk x8, 0x999a
+0x100232588      movk x8, 0x3fd9, lsl 48
+0x10023258c      fmov d1, x8
+0x100232590      mov x8, x19
+
+0x100235608      ldrb w8, [x19, x8]
+0x10023560c      cmp w8, 1
+0x100235610      b.ne 0x1002357cc
+0x100235614      mov x28, x27
+0x100235618      mov x8, -0x6666666666666667
+0x10023561c      movk x8, 0x999a
+0x100235620      movk x8, 0x3fc9, lsl 48
+0x100235624      fmov d8, x8
+0x100235628      mov x8, 0x3333333333333333
+0x10023562c      movk x8, 0x3fd3, lsl 48
+0x100235630      fmov d9, x8
+0x100235634      mov x8, x24
+0x100235638      mov v0.16b, v8.16b
+0x10023563c      mov v1.16b, v9.16b
+
+0x100235638      mov v0.16b, v8.16b
+0x10023563c      mov v1.16b, v9.16b
+0x100235640      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100235644      movi v0.2d, 0000000000000000
+0x100235648      mov x0, x24
+0x10023564c      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100235650      mov x20, x0
+0x100235654      ldr x22, [x22, 8]
+0x100235658      mov x0, x24
+0x10023565c      mov x1, x23
+0x100235660      blr x22
+0x100235664      mov x8, x24
+0x100235668      mov v0.16b, v8.16b
+0x10023566c      mov v1.16b, v9.16b
+
+0x100235ab8      fmov d1, x8
+0x100235abc      fmov d0, 0.25000000
+0x100235ac0      b 0x100235aec
+0x100235ac4      mov x0, x22
+0x100235ac8      bl sym.imp.swift_release
+0x100235acc      strb w21, [x20, x19]
+0x100235ad0      b 0x100235b50
+0x100235ad4      mov x8, 0x3333333333333333
+0x100235ad8      movk x8, 0x3fd3, lsl 48
+0x100235adc      fmov d0, x8
+0x100235ae0      mov x8, 0x6666666666666666
+0x100235ae4      movk x8, 0x3fd6, lsl 48
+0x100235ae8      fmov d1, x8
+0x100235aec      mov x8, x24
+
+0x10023c214      bl sym.imp.swift_release
+0x10023c218      ldrb w8, [x19, x23]
+0x10023c21c      tbz w8, 0, 0x10023c7b0
+0x10023c220      fmov d1, 1.00000000
+0x10023c224      movi v2.2d, 0000000000000000
+0x10023c228      mov v0.16b, v9.16b
+0x10023c22c      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10023c230      sub x8, x29, 0x20
+0x10023c234      stur x0, [x8, -0x100]
+0x10023c238      sub x8, x29, 0x98
+0x10023c23c      ldur x20, [x8, -0x100]
+0x10023c240      mov x8, x20
+0x10023c244      mov v0.16b, v8.16b
+0x10023c248      mov v1.16b, v11.16b
+
+0x10023e29c      mov x0, x23
+0x10023e2a0      bl sym.imp.swift_release
+0x10023e2a4      fmov d1, 1.00000000
+0x10023e2a8      movi v2.2d, 0000000000000000
+0x10023e2ac      sub x8, x29, 0x80
+0x10023e2b0      ldur d0, [x8, -0x100]
+0x10023e2b4      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10023e2b8      sub x8, x29, 0x48
+0x10023e2bc      stur x0, [x8, -0x100]
+0x10023e2c0      sub x8, x29, 0x58
+0x10023e2c4      ldur x20, [x8, -0x100]
+0x10023e2c8      mov x8, x20
+0x10023e2cc      mov v0.16b, v8.16b
+0x10023e2d0      mov v1.16b, v9.16b
+
+0x10023e55c      bl sym.imp.Observation.Registrar.access.keyPath.Key...E0Cyxq_GtAA10ObservableRzr0_lF
+0x10023e560      mov x0, x23
+0x10023e564      bl sym.imp.swift_release
+0x10023e568      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x10023e56c      ldr x8, [x8, 0xdb8]
+0x10023e570      ldrb w8, [x22, x8]
+0x10023e574      cmp w8, 1
+0x10023e578      b.ne 0x10023e7e8
+0x10023e57c      sub x8, x29, 0x58
+0x10023e580      ldur x19, [x8, -0x100]
+0x10023e584      mov x8, x19
+0x10023e588      mov v0.16b, v8.16b
+0x10023e58c      sub x9, x29, 0x90
+0x10023e590      ldur d1, [x9, -0x100]
+
+0x10023e588      mov v0.16b, v8.16b
+0x10023e58c      sub x9, x29, 0x90
+0x10023e590      ldur d1, [x9, -0x100]
+0x10023e594      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023e598      movi v0.2d, 0000000000000000
+0x10023e59c      mov x0, x19
+0x10023e5a0      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x10023e5a4      mov x25, x0
+0x10023e5a8      mov x0, x19
+0x10023e5ac      mov x1, x26
+0x10023e5b0      blr x28
+0x10023e5b4      mov x8, x19
+0x10023e5b8      mov v0.16b, v8.16b
+0x10023e5bc      mov v1.16b, v9.16b
+
+0x100242018      adrp x26, reloc.Int64...VMn
+0x10024201c      ldr x26, [x26, 0x218]
+0x100242020      bl sym.imp.swift_release
+0x100242024      fmov d1, 1.00000000
+0x100242028      movi v2.2d, 0000000000000000
+0x10024202c      mov v0.16b, v9.16b
+0x100242030      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x100242034      sub x8, x29, 0x60
+0x100242038      stur x0, [x8, -0x100]
+0x10024203c      sub x8, x29, 0x50
+0x100242040      ldur x20, [x8, -0x100]
+0x100242044      mov x8, x20
+0x100242048      mov v0.16b, v8.16b
+0x10024204c      mov v1.16b, v10.16b
+
+0x1002422dc      mov x0, x28
+0x1002422e0      bl sym.imp.swift_release
+0x1002422e4      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x1002422e8      ldr x8, [x8, 0xdb8]
+0x1002422ec      ldrb w8, [x22, x8]
+0x1002422f0      cmp w8, 1
+0x1002422f4      b.ne 0x100241e20
+0x1002422f8      mov x27, x23
+0x1002422fc      sub x8, x29, 0x50
+0x100242300      ldur x20, [x8, -0x100]
+0x100242304      mov x8, x20
+0x100242308      mov v0.16b, v8.16b
+0x10024230c      sub x9, x29, 0xb8
+0x100242310      ldur d1, [x9, -0x100]
+
+0x10024231c      mov x0, x20
+0x100242320      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100242324      sub x8, x29, 0x38
+0x100242328      stur x0, [x8, -0x100]
+0x10024232c      mov x0, x20
+0x100242330      sub x8, x29, 0x48
+0x100242334      ldur x19, [x8, -0x100]
+0x100242338      mov x1, x19
+0x10024233c      sub x8, x29, 0x90
+0x100242340      ldur x23, [x8, -0x100]
+0x100242344      blr x23
+0x100242348      mov x8, x20
+0x10024234c      mov v0.16b, v8.16b
+0x100242350      mov v1.16b, v10.16b
+
+0x100242ff4      mov x0, x19
+0x100242ff8      bl sym.imp.swift_release
+0x100242ffc      ldrb w8, [x23, x21]
+0x100243000      tbz w8, 0, 0x100242f1c
+0x100243004      fmov d1, 1.00000000
+0x100243008      movi v2.2d, 0000000000000000
+0x10024300c      mov v0.16b, v9.16b
+0x100243010      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x100243014      stur x0, [x29, -0x100]
+0x100243018      sub x8, x29, 0x60
+0x10024301c      ldur x19, [x8, -0x100]
+0x100243020      mov x8, x19
+0x100243024      mov v0.16b, v8.16b
+0x100243028      mov v1.16b, v11.16b
+
+0x1002440ac      cmp x8, x25
+0x1002440b0      ldp x20, x19, [x29, -0xa0]
+0x1002440b4      b.eq 0x100244268
+0x1002440b8      ldur x8, [x29, -0xb8]
+0x1002440bc      cbz x8, 0x10024410c
+0x1002440c0      mov x0, x25
+0x1002440c4      ldur x1, [x29, -0xa8]
+0x1002440c8      bl sym.imp._ArrayBuffer._getElementSlowPath...s5
+0x1002440cc      mov x28, x0
+0x1002440d0      ldur w8, [x29, -0x8c]
+0x1002440d4      tbz w8, 0, 0x100244128
+0x1002440d8      mov x8, x24
+0x1002440dc      mov v0.16b, v8.16b
+0x1002440e0      mov v1.16b, v11.16b
+
+0x100244110      add x8, x8, x25, lsl 3
+0x100244114      ldr x28, [x8, 0x20]
+0x100244118      mov x0, x28
+0x10024411c      bl sym.imp.swift_retain
+0x100244120      ldur w8, [x29, -0x8c]
+0x100244124      tbnz w8, 0, 0x1002440d8
+0x100244128      fmov d1, 1.00000000
+0x10024412c      movi v2.2d, 0000000000000000
+0x100244130      mov v0.16b, v10.16b
+0x100244134      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x100244138      mov x27, x0
+0x10024413c      mov x8, x24
+0x100244140      mov v0.16b, v8.16b
+0x100244144      mov v1.16b, v9.16b
+
+0x100251584      adrp x1, 0x10046a000
+0x100251588      add x1, x1, 0x880
+0x10025158c      bl sym.func.100002b1c
+0x100251590      ldrsw x8, [x0, 0x24]
+0x100251594      add x8, x28, x8
+0x100251598      stp d11, d11, [x8]
+0x10025159c      stp d8, d9, [x8, 0x10]
+0x1002515a0      mov x8, 0x6666666666666666
+0x1002515a4      movk x8, 0x3fd6, lsl 48
+0x1002515a8      fmov d0, x8
+0x1002515ac      mov x8, 0x3333333333333333
+0x1002515b0      movk x8, 0x3fd3, lsl 48
+0x1002515b4      fmov d1, x8
+0x1002515b8      mov x8, x19
+
+0x100252550      stp d8, d9, [x8, 0x10]
+0x100252554      bl sym.imp.SwiftUI.ButtonStyleConfiguration.isPressed_...vg_
+0x100252558      tst w0, 1
+0x10025255c      fmov d0, 0.75000000
+0x100252560      fcsel d0, d0, d10, ne
+0x100252564      ldrsw x8, [x26, 0x24]
+0x100252568      str d0, [x25, x8]
+0x10025256c      mov x8, 0x6666666666666666
+0x100252570      movk x8, 0x3fd6, lsl 48
+0x100252574      fmov d0, x8
+0x100252578      mov x8, 0x3333333333333333
+0x10025257c      movk x8, 0x3fd3, lsl 48
+0x100252580      fmov d1, x8
+0x100252584      mov x8, x24
+
+0x1002647fc      sub x0, x29, 0x70
+0x100264800      mov x24, x20
+0x100264804      ldur x8, [x29, -0xb0]
+0x100264808      add x20, x21, x8
+0x10026480c      mov x1, x25
+0x100264810      bl sym.imp.SwiftUI.LazyState.wrappedValue_...s_
+0x100264814      mov x8, 0x3333333333333333
+0x100264818      movk x8, 0x3fe3, lsl 48
+0x10026481c      fmov d0, x8
+0x100264820      mov x8, -0x6666666666666667
+0x100264824      movk x8, 0x999a
+0x100264828      movk x8, 0x3fd9, lsl 48
+0x10026482c      fmov d1, x8
+0x100264830      mov x8, x23
+
+0x100264ac0      bl sym.imp.swift_release
+0x100264ac4      ldr x21, [x22, 0x80]
+0x100264ac8      bl sym.imp.Never.bool_...lE11isCancelledSbvgZ_
+0x100264acc      tbnz w0, 0, 0x100264b48
+0x100264ad0      ldp x24, x20, [x22, 0x38]
+0x100264ad4      ldp x25, x19, [x22, 0x28]
+0x100264ad8      mov x8, 0x3333333333333333
+0x100264adc      movk x8, 0x3fe3, lsl 48
+0x100264ae0      fmov d0, x8
+0x100264ae4      mov x8, -0x6666666666666667
+0x100264ae8      movk x8, 0x999a
+0x100264aec      movk x8, 0x3fd9, lsl 48
+0x100264af0      fmov d1, x8
+0x100264af4      mov x8, x20
+
+0x100264bac      mov x1, x19
+0x100264bb0      blr x8
+0x100264bb4      bl sym.imp.Never.bool_...lE11isCancelledSbvgZ_
+0x100264bb8      tbnz w0, 0, 0x100264c38
+0x100264bbc      ldp x21, x20, [x22, 0x38]
+0x100264bc0      ldp x24, x19, [x22, 0x28]
+0x100264bc4      mov x8, 0x3333333333333333
+0x100264bc8      movk x8, 0x3fe3, lsl 48
+0x100264bcc      fmov d0, x8
+0x100264bd0      mov x8, -0x6666666666666667
+0x100264bd4      movk x8, 0x999a
+0x100264bd8      movk x8, 0x3fd9, lsl 48
+0x100264bdc      fmov d1, x8
+0x100264be0      mov x8, x20
+
+0x100291a80      adrp x1, 0x100296000
+0x100291a84      add x1, x1, 0x554
+0x100291a88      add x2, x22, 0x10
+0x100291a8c      add x3, x26, 8
+0x100291a90      bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_
+0x100291a94      mov x0, x23
+0x100291a98      bl sym.imp.swift_release
+0x100291a9c      mov x8, 0x6666666666666666
+0x100291aa0      movk x8, 0x3fd6, lsl 48
+0x100291aa4      fmov d0, x8
+0x100291aa8      mov x8, 0x3333333333333333
+0x100291aac      movk x8, 0x3fd3, lsl 48
+0x100291ab0      fmov d1, x8
+0x100291ab4      mov x8, x20
+
+0x100291ea0      add x1, x1, 0x554
+0x100291ea4      add x2, x22, 0x10
+0x100291ea8      add x3, x26, 8
+0x100291eac      mov x21, 0
+0x100291eb0      bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_
+0x100291eb4      mov x0, x23
+0x100291eb8      bl sym.imp.swift_release
+0x100291ebc      mov x8, 0x6666666666666666
+0x100291ec0      movk x8, 0x3fd6, lsl 48
+0x100291ec4      fmov d0, x8
+0x100291ec8      mov x8, 0x3333333333333333
+0x100291ecc      movk x8, 0x3fd3, lsl 48
+0x100291ed0      fmov d1, x8
+0x100291ed4      mov x8, x20
+
+0x1002aeaa8      sub x0, x29, 0x70
+0x1002aeaac      mov x24, x20
+0x1002aeab0      ldur x8, [x29, -0xb0]
+0x1002aeab4      add x20, x21, x8
+0x1002aeab8      mov x1, x25
+0x1002aeabc      bl sym.imp.SwiftUI.LazyState.wrappedValue_...s_
+0x1002aeac0      mov x8, 0x3333333333333333
+0x1002aeac4      movk x8, 0x3fe3, lsl 48
+0x1002aeac8      fmov d0, x8
+0x1002aeacc      mov x8, -0x6666666666666667
+0x1002aead0      movk x8, 0x999a
+0x1002aead4      movk x8, 0x3fd9, lsl 48
+0x1002aead8      fmov d1, x8
+0x1002aeadc      mov x8, x23
+
+0x1002aed6c      bl sym.imp.swift_release
+0x1002aed70      ldr x21, [x22, 0x80]
+0x1002aed74      bl sym.imp.Never.bool_...lE11isCancelledSbvgZ_
+0x1002aed78      tbnz w0, 0, 0x1002aedf4
+0x1002aed7c      ldp x24, x20, [x22, 0x38]
+0x1002aed80      ldp x25, x19, [x22, 0x28]
+0x1002aed84      mov x8, 0x3333333333333333
+0x1002aed88      movk x8, 0x3fe3, lsl 48
+0x1002aed8c      fmov d0, x8
+0x1002aed90      mov x8, -0x6666666666666667
+0x1002aed94      movk x8, 0x999a
+0x1002aed98      movk x8, 0x3fd9, lsl 48
+0x1002aed9c      fmov d1, x8
+0x1002aeda0      mov x8, x20
+
+0x1002aee58      mov x1, x19
+0x1002aee5c      blr x8
+0x1002aee60      bl sym.imp.Never.bool_...lE11isCancelledSbvgZ_
+0x1002aee64      tbnz w0, 0, 0x1002aeee4
+0x1002aee68      ldp x21, x20, [x22, 0x38]
+0x1002aee6c      ldp x24, x19, [x22, 0x28]
+0x1002aee70      mov x8, 0x3333333333333333
+0x1002aee74      movk x8, 0x3fe3, lsl 48
+0x1002aee78      fmov d0, x8
+0x1002aee7c      mov x8, -0x6666666666666667
+0x1002aee80      movk x8, 0x999a
+0x1002aee84      movk x8, 0x3fd9, lsl 48
+0x1002aee88      fmov d1, x8
+0x1002aee8c      mov x8, x20
+
+0x1002b0d0c      mov x3, x21
+0x1002b0d10      bl sym.func.10000aac8
+0x1002b0d14      add x0, x19, 1, lsl 12
+0x1002b0d18      add x0, x0, 0x2f8
+0x1002b0d1c      mov x1, x25
+0x1002b0d20      mov x2, x21
+0x1002b0d24      bl sym.func.10000aa88
+0x1002b0d28      mov x8, -0x6666666666666667
+0x1002b0d2c      movk x8, 0x999a
+0x1002b0d30      movk x8, 0x3fd9, lsl 48
+0x1002b0d34      fmov d8, x8
+0x1002b0d38      fmov d0, 1.50000000
+0x1002b0d3c      mov x8, x23
+0x1002b0d40      mov v1.16b, v8.16b
+
+0x1002b1168      adrp x21, 0x10046e000
+0x1002b116c      add x21, x21, 0xda8
+0x1002b1170      add x0, x19, 0x5a0
+0x1002b1174      add x1, x19, 0x9a0
+0x1002b1178      mov x2, x20
+0x1002b117c      mov x3, x21
+0x1002b1180      bl sym.func.10000aac8
+0x1002b1184      add x0, x19, 0x600
+0x1002b1188      mov x1, x20
+0x1002b118c      mov x2, x21
+0x1002b1190      bl sym.func.10000aa88
+0x1002b1194      fmov d0, 1.50000000
+0x1002b1198      mov x8, x23
+0x1002b119c      mov v1.16b, v8.16b
+
+0x1002b216c      mov x3, x21
+0x1002b2170      bl sym.func.10000aac8
+0x1002b2174      add x0, x19, 1, lsl 12
+0x1002b2178      add x0, x0, 0x50
+0x1002b217c      mov x1, x25
+0x1002b2180      mov x2, x21
+0x1002b2184      bl sym.func.10000aa88
+0x1002b2188      mov x8, -0x6666666666666667
+0x1002b218c      movk x8, 0x999a
+0x1002b2190      movk x8, 0x3fd9, lsl 48
+0x1002b2194      fmov d8, x8
+0x1002b2198      fmov d0, 1.50000000
+0x1002b219c      mov x8, x23
+0x1002b21a0      mov v1.16b, v8.16b
+
+0x1002b279c      adrp x21, 0x10046e000
+0x1002b27a0      add x21, x21, 0xda8
+0x1002b27a4      add x0, x19, 0x4e0
+0x1002b27a8      add x1, x19, 0x8a0
+0x1002b27ac      mov x2, x20
+0x1002b27b0      mov x3, x21
+0x1002b27b4      bl sym.func.10000aac8
+0x1002b27b8      add x0, x19, 0x540
+0x1002b27bc      mov x1, x20
+0x1002b27c0      mov x2, x21
+0x1002b27c4      bl sym.func.10000aa88
+0x1002b27c8      fmov d0, 1.50000000
+0x1002b27cc      mov x8, x23
+0x1002b27d0      mov v1.16b, v8.16b
+
+0x1002b3d5c      add x1, x19, 0x9e0
+0x1002b3d60      mov x2, x20
+0x1002b3d64      mov x3, x24
+0x1002b3d68      bl sym.func.10000aac8
+0x1002b3d6c      add x0, x19, 0x5f0
+0x1002b3d70      mov x1, x20
+0x1002b3d74      mov x2, x24
+0x1002b3d78      bl sym.func.10000aa88
+0x1002b3d7c      mov x8, -0x6666666666666667
+0x1002b3d80      movk x8, 0x999a
+0x1002b3d84      movk x8, 0x3fd9, lsl 48
+0x1002b3d88      fmov d1, x8
+0x1002b3d8c      fmov d0, 1.00000000
+0x1002b3d90      mov x8, x23
+
+0x1002c78b8      adrp x16, reloc.Foundation.IndexSet...VMn
+0x1002c78bc      ldr x16, [x16, 0x568]
+0x1002c78c0      blr x16
+0x1002c78c4      mov x9, sp
+0x1002c78c8      add x8, x8, 0xf
+0x1002c78cc      and x8, x8, 0xfffffffffffffff0
+0x1002c78d0      sub x20, x9, x8
+0x1002c78d4      mov sp, x20
+0x1002c78d8      mov x8, -0x6666666666666667
+0x1002c78dc      movk x8, 0x999a
+0x1002c78e0      movk x8, 0x3fd1, lsl 48
+0x1002c78e4      fmov d0, x8
+0x1002c78e8      fmov d1, 0.37500000
+0x1002c78ec      mov x8, x20
+
+0x10035231c      ldr x3, [x3, 0x28]
+0x100352320      add x1, x22, 8
+0x100352324      bl sym.imp.cancel_...yF_
+0x100352328      mov x0, x20
+0x10035232c      bl sym.imp.swift_release
+0x100352330      mov x8, 0x6666666666666666
+0x100352334      movk x8, 0x3fd6, lsl 48
+0x100352338      fmov d0, x8
+0x10035233c      mov x8, 0x3333333333333333
+0x100352340      movk x8, 0x3fd3, lsl 48
+0x100352344      fmov d1, x8
+0x100352348      sub x8, x29, 0x10
+0x10035234c      ldur x24, [x8, -0x100]
+0x100352350      mov x8, x24
+
+0x100365160      bl sym.imp.swift_bridgeObjectRetain
+0x100365164      mov w8, 1
+0x100365168      bic w26, w8, w20
+0x10036516c      strb w26, [x19, x24]
+0x100365170      ands w25, w20, 1
+0x100365174      mov x8, -0x6666666666666667
+0x100365178      movk x8, 0x3fc9, lsl 48
+0x10036517c      fmov d0, x8
+0x100365180      fmov d1, 0.25000000
+0x100365184      fcsel d1, d1, d0, ne
+0x100365188      mov x8, 0x3333333333333333
+0x10036518c      movk x8, 0x3fd3, lsl 48
+0x100365190      fmov d0, x8
+0x100365194      mov x8, x23
+
+0x100365cbc      tbz w0, 0, 0x100365ccc
+0x100365cc0      eor w2, w22, 1
+0x100365cc4      mov x0, x23
+0x100365cc8      bl 0x100452380
+0x100365ccc      cmp w22, 0
+0x100365cd0      mov x8, -0x6666666666666667
+0x100365cd4      movk x8, 0x3fc9, lsl 48
+0x100365cd8      fmov d0, x8
+0x100365cdc      fmov d1, 0.25000000
+0x100365ce0      fcsel d1, d1, d0, ne
+0x100365ce4      mov x8, 0x3333333333333333
+0x100365ce8      movk x8, 0x3fd3, lsl 48
+0x100365cec      fmov d0, x8
+0x100365cf0      mov x8, x21
+
+0x100365d9c      tbz w0, 0, 0x100365dac
+0x100365da0      mov x0, x23
+0x100365da4      mov x2, x21
+0x100365da8      bl 0x100452360
+0x100365dac      tst w25, 1
+0x100365db0      mov x8, -0x6666666666666667
+0x100365db4      movk x8, 0x3fc9, lsl 48
+0x100365db8      fmov d0, x8
+0x100365dbc      fmov d1, 0.25000000
+0x100365dc0      fcsel d1, d1, d0, ne
+0x100365dc4      mov x8, 0x3333333333333333
+0x100365dc8      movk x8, 0x3fd3, lsl 48
+0x100365dcc      fmov d0, x8
+0x100365dd0      mov x8, x22
+
+0x10036628c      tbz w0, 0, 0x10036629c
+0x100366290      mov x0, x22
+0x100366294      mov x2, x19
+0x100366298      bl 0x1004523c0
+0x10036629c      cmp w24, 0
+0x1003662a0      mov x8, -0x6666666666666667
+0x1003662a4      movk x8, 0x3fc9, lsl 48
+0x1003662a8      fmov d0, x8
+0x1003662ac      fmov d1, 0.25000000
+0x1003662b0      fcsel d1, d0, d1, ne
+0x1003662b4      mov x8, 0x3333333333333333
+0x1003662b8      movk x8, 0x3fd3, lsl 48
+0x1003662bc      fmov d0, x8
+0x1003662c0      mov x8, x23
+
+0x100366318      mov x0, x22
+0x10036631c      bl sym.imp.swift_release
+0x100366320      b 0x1003664bc
+0x100366324      mov w25, 0
+0x100366328      mov w24, 1
+0x10036632c      mov x8, -0x6666666666666667
+0x100366330      movk x8, 0x3fc9, lsl 48
+0x100366334      fmov d1, x8
+0x100366338      mov w27, 1
+0x10036633c      strb w27, [x20, x26]
+0x100366340      mov x8, 0x3333333333333333
+0x100366344      movk x8, 0x3fd3, lsl 48
+0x100366348      fmov d0, x8
+0x10036634c      mov x8, x22
+
+0x1003674c0      mov x20, x28
+0x1003674c4      bl sym.func.10036f14c
+0x1003674c8      tbnz w0, 0, 0x10036828c
+0x1003674cc      sub x8, x29, 8
+0x1003674d0      stur x19, [x8, -0x100]
+0x1003674d4      stur x24, [x29, -0x100]
+0x1003674d8      mov x8, 0x3333333333333333
+0x1003674dc      movk x8, 0x3fe3, lsl 48
+0x1003674e0      fmov d0, x8
+0x1003674e4      mov x8, -0x6666666666666667
+0x1003674e8      movk x8, 0x999a
+0x1003674ec      movk x8, 0x3fd9, lsl 48
+0x1003674f0      fmov d1, x8
+0x1003674f4      mov x8, x27
+
+0x10038a0f0      strb w10, [x20, x9]
+0x10038a0f4      ldr x20, [x22, 0x80]
+0x10038a0f8      ldp x19, x21, [x22, 0x68]
+0x10038a0fc      ldr x24, [x22, 0x50]
+0x10038a100      ands w25, w8, 1
+0x10038a104      mov x8, -0x6666666666666667
+0x10038a108      movk x8, 0x3fc9, lsl 48
+0x10038a10c      fmov d0, x8
+0x10038a110      fmov d1, 0.25000000
+0x10038a114      fcsel d1, d1, d0, ne
+0x10038a118      mov x8, 0x3333333333333333
+0x10038a11c      movk x8, 0x3fd3, lsl 48
+0x10038a120      fmov d0, x8
+0x10038a124      mov x8, x20
+
+0x10038a1d8      ldp x24, x20, [x22, 0x70]
+0x10038a1dc      ldr x19, [x22, 0x68]
+0x10038a1e0      ldr x25, [x22, 0x50]
+0x10038a1e4      bl sym.imp.swift_release
+0x10038a1e8      ands w21, w21, 1
+0x10038a1ec      mov x8, -0x6666666666666667
+0x10038a1f0      movk x8, 0x3fc9, lsl 48
+0x10038a1f4      fmov d0, x8
+0x10038a1f8      fmov d1, 0.25000000
+0x10038a1fc      fcsel d1, d1, d0, ne
+0x10038a200      mov x8, 0x3333333333333333
+0x10038a204      movk x8, 0x3fd3, lsl 48
+0x10038a208      fmov d0, x8
+0x10038a20c      mov x8, x20
+
+0x10038adb4      cmp w9, w8
+0x10038adb8      cset w26, eq
+0x10038adbc      add w8, w8, 0x1e
+0x10038adc0      cmp w9, w8
+0x10038adc4      cset w27, ne
+0x10038adc8      mov x8, -0x6666666666666667
+0x10038adcc      movk x8, 0x3fc9, lsl 48
+0x10038add0      fmov d0, x8
+0x10038add4      fmov d1, 0.25000000
+0x10038add8      fcsel d1, d1, d0, ne
+0x10038addc      mov x8, 0x3333333333333333
+0x10038ade0      movk x8, 0x3fd3, lsl 48
+0x10038ade4      fmov d0, x8
+0x10038ade8      mov x8, x23
+
+0x10038aef8      movk x9, 0x3fc9, lsl 48
+0x10038aefc      fmov d1, x9
+0x10038af00      ldrb w8, [x20, x8]
+0x10038af04      and w9, w24, 1
+0x10038af08      cmp w8, 3
+0x10038af0c      csel w8, w9, w8, eq
+0x10038af10      ands w8, w8, 0xff
+0x10038af14      cset w26, ne
+0x10038af18      cmp w8, 2
+0x10038af1c      cset w27, eq
+0x10038af20      mov x8, 0x3333333333333333
+0x10038af24      movk x8, 0x3fd3, lsl 48
+0x10038af28      fmov d0, x8
+0x10038af2c      mov x8, x23
+
+0x10000298c      str q0, [x8]
+0x100002990      stp d8, d9, [x8, 0x10]
+0x100002994      mov x8, 0x6666666666666666
+0x100002998      movk x8, 0x3fd6, lsl 48
+0x10000299c      fmov d0, x8
+0x1000029a0      mov x8, -0x6666666666666667
+0x1000029a4      movk x8, 0x999a
+0x1000029a8      movk x8, 0xbfc9, lsl 48
+0x1000029ac      fmov d1, x8
+0x1000029b0      ldr x21, [x19, 8]
+0x1000029b4      mov x8, x21
+0x1000029b8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000029bc      movi v0.2d, 0000000000000000
+0x1000029c0      mov x0, x21
+
+0x100018388      ldr x24, [x22, 0x88]
+0x10001838c      ldr x19, [x22, 0x68]
+0x100018390      ldr x25, [x22, 0x48]
+0x100018394      mov x8, -0x6666666666666667
+0x100018398      movk x8, 0x999a
+0x10001839c      movk x8, 0x3fd9, lsl 48
+0x1000183a0      fmov d0, x8
+0x1000183a4      mov x8, 0x6666666666666666
+0x1000183a8      movk x8, 0x3fd6, lsl 48
+0x1000183ac      fmov d1, x8
+0x1000183b0      mov x8, x20
+0x1000183b4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000183b8      movi v0.2d, 0000000000000000
+0x1000183bc      mov x0, x20
+
+0x100018838      ldr x19, [x22, 0x68]
+0x10001883c      ldr x25, [x22, 0x48]
+0x100018840      bl sym.imp.swift_release
+0x100018844      mov x8, -0x6666666666666667
+0x100018848      movk x8, 0x999a
+0x10001884c      movk x8, 0x3fd9, lsl 48
+0x100018850      fmov d0, x8
+0x100018854      mov x8, 0x6666666666666666
+0x100018858      movk x8, 0x3fd6, lsl 48
+0x10001885c      fmov d1, x8
+0x100018860      mov x8, x20
+0x100018864      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100018868      movi v0.2d, 0000000000000000
+0x10001886c      mov x0, x20
+
+0x100021b8c      tbz w25, 0, 0x100021c20
+0x100021b90      fmov s0, w8
+0x100021b94      fcmp s9, s0
+0x100021b98      cset w26, hi
+0x100021b9c      mov x8, 0x6666666666666666
+0x100021ba0      movk x8, 0x3fd6, lsl 48
+0x100021ba4      fmov d0, x8
+0x100021ba8      mov x8, 0x3333333333333333
+0x100021bac      movk x8, 0x3fd3, lsl 48
+0x100021bb0      fmov d1, x8
+0x100021bb4      mov x8, x24
+0x100021bb8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100021bbc      movi v0.2d, 0000000000000000
+0x100021bc0      mov x0, x24
+
+0x100022620      ldp x25, x19, [x22, 0x80]
+0x100022624      ldrb w26, [x22, 0x2d]
+0x100022628      ldr s8, [x22, 0x98]
+0x10002262c      ldp x27, x23, [x22, 0x70]
+0x100022630      mov x8, 0x6666666666666666
+0x100022634      movk x8, 0x3fd6, lsl 48
+0x100022638      fmov d0, x8
+0x10002263c      mov x8, 0x3333333333333333
+0x100022640      movk x8, 0x3fd3, lsl 48
+0x100022644      fmov d1, x8
+0x100022648      mov x8, x19
+0x10002264c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100022650      movi v0.2d, 0000000000000000
+0x100022654      mov x0, x19
+
+0x10009d758      ldrsw x8, [x25, 0x24]
+0x10009d75c      str d0, [x19, x8]
+0x10009d760      mov x8, 0x6666666666666666
+0x10009d764      movk x8, 0x3fd6, lsl 48
+0x10009d768      fmov d0, x8
+0x10009d76c      mov x8, 0x3333333333333333
+0x10009d770      movk x8, 0x3fd3, lsl 48
+0x10009d774      fmov d1, x8
+0x10009d778      sub x8, x29, 0x40
+0x10009d77c      ldur x20, [x8, -0x100]
+0x10009d780      mov x8, x20
+0x10009d784      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10009d788      movi v0.2d, 0000000000000000
+0x10009d78c      mov x0, x20
+
+0x10009e08c      ldrsw x8, [x26, 0x24]
+0x10009e090      str d0, [x23, x8]
+0x10009e094      mov x8, 0x6666666666666666
+0x10009e098      movk x8, 0x3fd6, lsl 48
+0x10009e09c      fmov d0, x8
+0x10009e0a0      mov x8, 0x3333333333333333
+0x10009e0a4      movk x8, 0x3fd3, lsl 48
+0x10009e0a8      fmov d1, x8
+0x10009e0ac      sub x8, x29, 0x60
+0x10009e0b0      ldur x20, [x8, -0x100]
+0x10009e0b4      mov x8, x20
+0x10009e0b8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10009e0bc      movi v0.2d, 0000000000000000
+0x10009e0c0      mov x0, x20
+
+0x1000d081c      add x8, x28, x8
+0x1000d0820      stp d10, d10, [x8]
+0x1000d0824      stp d8, d9, [x8, 0x10]
+0x1000d0828      mov x8, 0x3333333333333333
+0x1000d082c      movk x8, 0x3fe3, lsl 48
+0x1000d0830      fmov d0, x8
+0x1000d0834      mov x8, -0x6666666666666667
+0x1000d0838      movk x8, 0x999a
+0x1000d083c      movk x8, 0x3fd9, lsl 48
+0x1000d0840      fmov d1, x8
+0x1000d0844      mov x8, x19
+0x1000d0848      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000d084c      movi v0.2d, 0000000000000000
+0x1000d0850      mov x0, x19
+
+0x1000d1934      sub x9, x29, 0x38
+0x1000d1938      ldur x26, [x9, -0x100]
+0x1000d193c      str d9, [x26, x8]
+0x1000d1940      mov x8, -0x6666666666666667
+0x1000d1944      movk x8, 0x999a
+0x1000d1948      movk x8, 0x3fd9, lsl 48
+0x1000d194c      fmov d1, x8
+0x1000d1950      sub x8, x29, 0x80
+0x1000d1954      ldur x20, [x8, -0x100]
+0x1000d1958      mov x8, x20
+0x1000d195c      mov v0.16b, v8.16b
+0x1000d1960      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000d1964      movi v0.2d, 0000000000000000
+0x1000d1968      mov x0, x20
+
+0x1000d4884      bl sym.func.10000aac8
+0x1000d4888      add x0, x19, 0x420
+0x1000d488c      mov x1, x20
+0x1000d4890      mov x2, x23
+0x1000d4894      bl sym.func.10000aa88
+0x1000d4898      mov x8, -0x3333333333333334
+0x1000d489c      movk x8, 0x3fdc, lsl 48
+0x1000d48a0      fmov d1, x8
+0x1000d48a4      fmov d0, 0.50000000
+0x1000d48a8      ldr x20, [x19, 8]
+0x1000d48ac      mov x8, x20
+0x1000d48b0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000d48b4      movi v0.2d, 0000000000000000
+0x1000d48b8      mov x0, x20
+
+0x1000e0b50      b.ne 0x1000e0be8
+0x1000e0b54      cmp x25, 2
+0x1000e0b58      b.ne 0x1000e0bc8
+0x1000e0b5c      mov x8, 0x6666666666666666
+0x1000e0b60      movk x8, 0x3fd6, lsl 48
+0x1000e0b64      fmov d0, x8
+0x1000e0b68      mov x8, 0x6666666666666666
+0x1000e0b6c      movk x8, 0x3fe6, lsl 48
+0x1000e0b70      fmov d1, x8
+0x1000e0b74      ldr x20, [x19, 8]
+0x1000e0b78      mov x8, x20
+0x1000e0b7c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e0b80      movi v0.2d, 0000000000000000
+0x1000e0b84      mov x0, x20
+
+0x1000e249c      mov x3, x21
+0x1000e24a0      bl sym.func.10000aac8
+0x1000e24a4      add x0, x19, 0xf40
+0x1000e24a8      mov x1, x20
+0x1000e24ac      mov x2, x21
+0x1000e24b0      bl sym.func.10000aa88
+0x1000e24b4      mov x8, 0x3333333333333333
+0x1000e24b8      movk x8, 0x3fd3, lsl 48
+0x1000e24bc      fmov d0, x8
+0x1000e24c0      fmov d1, 0.25000000
+0x1000e24c4      mov x8, x27
+0x1000e24c8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e24cc      movi v0.2d, 0000000000000000
+0x1000e24d0      mov x0, x27
+
+0x1000e46d4      and x8, x8, 0xfffffffffffffff0
+0x1000e46d8      sub x21, x9, x8
+0x1000e46dc      mov sp, x21
+0x1000e46e0      ldr x23, [x19]
+0x1000e46e4      mov x8, 0x3333333333333333
+0x1000e46e8      movk x8, 0x3fd3, lsl 48
+0x1000e46ec      fmov d0, x8
+0x1000e46f0      mov x8, -0x3333333333333334
+0x1000e46f4      movk x8, 0x3fdc, lsl 48
+0x1000e46f8      fmov d1, x8
+0x1000e46fc      mov x8, x21
+0x1000e4700      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e4704      movi v0.2d, 0000000000000000
+0x1000e4708      mov x0, x21
+
+0x1000e4eb4      str d1, [x19, 0x938]
+0x1000e4eb8      mov x23, x28
+0x1000e4ebc      cmp x28, 1
+0x1000e4ec0      b.ne 0x1000e4f04
+0x1000e4ec4      mov x8, 0x3333333333333333
+0x1000e4ec8      movk x8, 0x3fe3, lsl 48
+0x1000e4ecc      fmov d0, x8
+0x1000e4ed0      mov x8, 0x6666666666666666
+0x1000e4ed4      movk x8, 0x3fd6, lsl 48
+0x1000e4ed8      fmov d1, x8
+0x1000e4edc      mov x8, x24
+0x1000e4ee0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e4ee4      movi v0.2d, 0000000000000000
+0x1000e4ee8      mov x0, x24
+
+0x1000e5058      cmp x23, 1
+0x1000e505c      mov x21, x22
+0x1000e5060      ldr x22, [x19, 8]
+0x1000e5064      b.ne 0x1000e50a8
+0x1000e5068      mov x8, 0x3333333333333333
+0x1000e506c      movk x8, 0x3fe3, lsl 48
+0x1000e5070      fmov d0, x8
+0x1000e5074      mov x8, 0x6666666666666666
+0x1000e5078      movk x8, 0x3fd6, lsl 48
+0x1000e507c      fmov d1, x8
+0x1000e5080      mov x8, x24
+0x1000e5084      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e5088      movi v0.2d, 0000000000000000
+0x1000e508c      mov x0, x24
+
+0x1000e5164      str d1, [x19, 0x820]
+0x1000e5168      cmp x23, 1
+0x1000e516c      b.ne 0x1000e51b4
+0x1000e5170      mov x8, -0x6666666666666667
+0x1000e5174      movk x8, 0x999a
+0x1000e5178      movk x8, 0x3fd9, lsl 48
+0x1000e517c      fmov d0, x8
+0x1000e5180      mov x8, 0x6666666666666666
+0x1000e5184      movk x8, 0x3fd6, lsl 48
+0x1000e5188      fmov d1, x8
+0x1000e518c      mov x8, x24
+0x1000e5190      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e5194      movi v0.2d, 0000000000000000
+0x1000e5198      mov x0, x24
+
+0x1000e5c4c      str q1, [x19, 0xa80]
+0x1000e5c50      add x0, x19, 0x9d0
+0x1000e5c54      mov x1, x22
+0x1000e5c58      mov x2, x23
+0x1000e5c5c      bl sym.func.10000aa88
+0x1000e5c60      mov x8, 0x3333333333333333
+0x1000e5c64      movk x8, 0x3fd3, lsl 48
+0x1000e5c68      fmov d0, x8
+0x1000e5c6c      fmov d1, 0.25000000
+0x1000e5c70      ldr x21, [x19, 0x10]
+0x1000e5c74      mov x8, x21
+0x1000e5c78      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e5c7c      movi v0.2d, 0000000000000000
+0x1000e5c80      mov x0, x21
+
+0x1000e6cc4      str d1, [x19, 0x938]
+0x1000e6cc8      str x28, [x19, 0x10]
+0x1000e6ccc      cmp x28, 1
+0x1000e6cd0      b.ne 0x1000e6d14
+0x1000e6cd4      mov x8, 0x3333333333333333
+0x1000e6cd8      movk x8, 0x3fe3, lsl 48
+0x1000e6cdc      fmov d0, x8
+0x1000e6ce0      mov x8, 0x6666666666666666
+0x1000e6ce4      movk x8, 0x3fd6, lsl 48
+0x1000e6ce8      fmov d1, x8
+0x1000e6cec      mov x8, x24
+0x1000e6cf0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e6cf4      movi v0.2d, 0000000000000000
+0x1000e6cf8      mov x0, x24
+
+0x1000e6e64      str xzr, [x19, 0x8a0]
+0x1000e6e68      ldr x23, [x19, 0x10]
+0x1000e6e6c      cmp x23, 1
+0x1000e6e70      b.ne 0x1000e6eb4
+0x1000e6e74      mov x8, 0x3333333333333333
+0x1000e6e78      movk x8, 0x3fe3, lsl 48
+0x1000e6e7c      fmov d0, x8
+0x1000e6e80      mov x8, 0x6666666666666666
+0x1000e6e84      movk x8, 0x3fd6, lsl 48
+0x1000e6e88      fmov d1, x8
+0x1000e6e8c      mov x8, x24
+0x1000e6e90      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e6e94      movi v0.2d, 0000000000000000
+0x1000e6e98      mov x0, x24
+
+0x1000e6f70      str d1, [x19, 0x820]
+0x1000e6f74      cmp x23, 1
+0x1000e6f78      b.ne 0x1000e6fc0
+0x1000e6f7c      mov x8, -0x6666666666666667
+0x1000e6f80      movk x8, 0x999a
+0x1000e6f84      movk x8, 0x3fd9, lsl 48
+0x1000e6f88      fmov d0, x8
+0x1000e6f8c      mov x8, 0x6666666666666666
+0x1000e6f90      movk x8, 0x3fd6, lsl 48
+0x1000e6f94      fmov d1, x8
+0x1000e6f98      mov x8, x24
+0x1000e6f9c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e6fa0      movi v0.2d, 0000000000000000
+0x1000e6fa4      mov x0, x24
+
+0x1000e7a50      str q1, [x19, 0xa90]
+0x1000e7a54      add x0, x19, 0x9e0
+0x1000e7a58      mov x1, x22
+0x1000e7a5c      mov x2, x23
+0x1000e7a60      bl sym.func.10000aa88
+0x1000e7a64      mov x8, 0x3333333333333333
+0x1000e7a68      movk x8, 0x3fd3, lsl 48
+0x1000e7a6c      fmov d0, x8
+0x1000e7a70      fmov d1, 0.25000000
+0x1000e7a74      ldr x21, [x19, 0x20]
+0x1000e7a78      mov x8, x21
+0x1000e7a7c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e7a80      movi v0.2d, 0000000000000000
+0x1000e7a84      mov x0, x21
+
+0x1000e95d8      cmp w20, 1
+0x1000e95dc      b.ne 0x1000e9650
+0x1000e95e0      mov x8, 0x6666666666666666
+0x1000e95e4      movk x8, 0x3fd6, lsl 48
+0x1000e95e8      fmov d0, x8
+0x1000e95ec      mov x8, -0x6666666666666667
+0x1000e95f0      movk x8, 0x999a
+0x1000e95f4      movk x8, 0x3fd9, lsl 48
+0x1000e95f8      fmov d1, x8
+0x1000e95fc      ldr x21, [x19, 0x40]
+0x1000e9600      mov x8, x21
+0x1000e9604      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e9608      movi v0.2d, 0000000000000000
+0x1000e960c      mov x0, x21
+
+0x1000e9b6c      mov x21, x0
+0x1000e9b70      b 0x1000e9be0
+0x1000e9b74      mov x8, 0x6666666666666666
+0x1000e9b78      movk x8, 0x3fd6, lsl 48
+0x1000e9b7c      fmov d0, x8
+0x1000e9b80      mov x8, -0x6666666666666667
+0x1000e9b84      movk x8, 0x999a
+0x1000e9b88      movk x8, 0x3fd9, lsl 48
+0x1000e9b8c      fmov d1, x8
+0x1000e9b90      ldr x21, [x19, 0x40]
+0x1000e9b94      mov x8, x21
+0x1000e9b98      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000e9b9c      movi v0.2d, 0000000000000000
+0x1000e9ba0      mov x0, x21
+
+0x1000f4130      stp d10, d10, [x8]
+0x1000f4134      stp d8, d9, [x8, 0x10]
+0x1000f4138      mov x8, 0x6666666666666666
+0x1000f413c      movk x8, 0x3fd6, lsl 48
+0x1000f4140      fmov d0, x8
+0x1000f4144      mov x8, 0x3333333333333333
+0x1000f4148      movk x8, 0x3fd3, lsl 48
+0x1000f414c      fmov d1, x8
+0x1000f4150      sub x8, x29, 0xe8
+0x1000f4154      ldur x20, [x8, -0x100]
+0x1000f4158      mov x8, x20
+0x1000f415c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1000f4160      movi v0.2d, 0000000000000000
+0x1000f4164      mov x0, x20
+
+0x1001141b8      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x1001141bc      mov x20, x0
+0x1001141c0      str x0, [x22, 0x158]
+0x1001141c4      mov x8, 0x6666666666666666
+0x1001141c8      movk x8, 0x3fd6, lsl 48
+0x1001141cc      fmov d0, x8
+0x1001141d0      mov x8, -0x6666666666666667
+0x1001141d4      movk x8, 0x999a
+0x1001141d8      movk x8, 0xbfc9, lsl 48
+0x1001141dc      fmov d1, x8
+0x1001141e0      mov x8, x21
+0x1001141e4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001141e8      movi v0.2d, 0000000000000000
+0x1001141ec      mov x0, x21
+
+0x100119de0      movk w8, 0x3a83, lsl 16
+0x100119de4      fmov s1, w8
+0x100119de8      fcmp s0, s1
+0x100119dec      b.ls 0x100119fd0
+0x100119df0      mov x8, 0x6666666666666666
+0x100119df4      movk x8, 0x3fd6, lsl 48
+0x100119df8      fmov d0, x8
+0x100119dfc      mov x8, 0x3333333333333333
+0x100119e00      movk x8, 0x3fd3, lsl 48
+0x100119e04      fmov d1, x8
+0x100119e08      mov x8, x24
+0x100119e0c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100119e10      movi v0.2d, 0000000000000000
+0x100119e14      mov x0, x24
+
+0x10011ced4      movk w8, 0x3a83, lsl 16
+0x10011ced8      fmov s1, w8
+0x10011cedc      fcmp s0, s1
+0x10011cee0      b.ls 0x10011cf58
+0x10011cee4      mov x8, 0x6666666666666666
+0x10011cee8      movk x8, 0x3fd6, lsl 48
+0x10011ceec      fmov d0, x8
+0x10011cef0      mov x8, 0x3333333333333333
+0x10011cef4      movk x8, 0x3fd3, lsl 48
+0x10011cef8      fmov d1, x8
+0x10011cefc      mov x8, x22
+0x10011cf00      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10011cf04      movi v0.2d, 0000000000000000
+0x10011cf08      mov x0, x22
+
+0x10017b430      ldrsw x8, [x0, 0x2c]
+0x10017b434      add x8, x22, x8
+0x10017b438      mov x0, x24
+0x10017b43c      bl sym.func.10017b72c
+0x10017b440      mov x8, 0x3333333333333333
+0x10017b444      movk x8, 0x3fe3, lsl 48
+0x10017b448      fmov d0, x8
+0x10017b44c      mov x8, 0x3333333333333333
+0x10017b450      movk x8, 0x3fd3, lsl 48
+0x10017b454      fmov d1, x8
+0x10017b458      mov x8, x26
+0x10017b45c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10017b460      movi v0.2d, 0000000000000000
+0x10017b464      mov x0, x26
+
+0x10017b5b8      movi v2.2d, 0000000000000000
+0x10017b5bc      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10017b5c0      mov x23, x0
+0x10017b5c4      b 0x10017b604
+0x10017b5c8      mov x8, 0x3333333333333333
+0x10017b5cc      movk x8, 0x3fe3, lsl 48
+0x10017b5d0      fmov d0, x8
+0x10017b5d4      mov x8, 0x3333333333333333
+0x10017b5d8      movk x8, 0x3fd3, lsl 48
+0x10017b5dc      fmov d1, x8
+0x10017b5e0      mov x8, x26
+0x10017b5e4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10017b5e8      movi v0.2d, 0000000000000000
+0x10017b5ec      mov x0, x26
+
+0x1001a8fa4      ldp x26, x21, [x22, 0x70]
+0x1001a8fa8      ldr x24, [x22, 0x68]
+0x1001a8fac      ldr x20, [x22, 0x58]
+0x1001a8fb0      bl sym.func.1001a95e4
+0x1001a8fb4      mov x8, 0x6666666666666666
+0x1001a8fb8      movk x8, 0x3fd6, lsl 48
+0x1001a8fbc      fmov d0, x8
+0x1001a8fc0      mov x8, 0x3333333333333333
+0x1001a8fc4      movk x8, 0x3fd3, lsl 48
+0x1001a8fc8      fmov d1, x8
+0x1001a8fcc      mov x8, x21
+0x1001a8fd0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001a8fd4      movi v0.2d, 0000000000000000
+0x1001a8fd8      mov x0, x21
+
+0x1001aae30      mov x1, x0
+0x1001aae34      add x20, x25, x20
+0x1001aae38      mov x0, x23
+0x1001aae3c      bl sym.imp.SwiftUI.LazyState.wrappedValue_...s_
+0x1001aae40      mov x8, 0x6666666666666666
+0x1001aae44      movk x8, 0x3fd6, lsl 48
+0x1001aae48      fmov d0, x8
+0x1001aae4c      mov x8, 0x3333333333333333
+0x1001aae50      movk x8, 0x3fd3, lsl 48
+0x1001aae54      fmov d1, x8
+0x1001aae58      mov x8, x19
+0x1001aae5c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001aae60      movi v0.2d, 0000000000000000
+0x1001aae64      mov x0, x19
+
+0x1001ab498      ldr x24, [x22, 0x88]
+0x1001ab49c      ldr x19, [x22, 0x68]
+0x1001ab4a0      ldr x25, [x22, 0x48]
+0x1001ab4a4      mov x8, -0x6666666666666667
+0x1001ab4a8      movk x8, 0x999a
+0x1001ab4ac      movk x8, 0x3fd9, lsl 48
+0x1001ab4b0      fmov d0, x8
+0x1001ab4b4      mov x8, 0x6666666666666666
+0x1001ab4b8      movk x8, 0x3fd6, lsl 48
+0x1001ab4bc      fmov d1, x8
+0x1001ab4c0      mov x8, x20
+0x1001ab4c4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001ab4c8      movi v0.2d, 0000000000000000
+0x1001ab4cc      mov x0, x20
+
+0x1001ab87c      ldr x19, [x22, 0x68]
+0x1001ab880      ldr x25, [x22, 0x48]
+0x1001ab884      bl sym.imp.swift_release
+0x1001ab888      mov x8, -0x6666666666666667
+0x1001ab88c      movk x8, 0x999a
+0x1001ab890      movk x8, 0x3fd9, lsl 48
+0x1001ab894      fmov d0, x8
+0x1001ab898      mov x8, 0x6666666666666666
+0x1001ab89c      movk x8, 0x3fd6, lsl 48
+0x1001ab8a0      fmov d1, x8
+0x1001ab8a4      mov x8, x20
+0x1001ab8a8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001ab8ac      movi v0.2d, 0000000000000000
+0x1001ab8b0      mov x0, x20
+
+0x1001c14e4      ldp x20, x23, [x22, 0xc8]
+0x1001c14e8      bl sym.imp.swift_release
+0x1001c14ec      mov x8, -0x3333333333333334
+0x1001c14f0      movk x8, 0xcccd
+0x1001c14f4      movk x8, 0x3fdc, lsl 48
+0x1001c14f8      fmov d0, x8
+0x1001c14fc      mov x8, -0x6666666666666667
+0x1001c1500      movk x8, 0x999a
+0x1001c1504      movk x8, 0x3fd9, lsl 48
+0x1001c1508      fmov d1, x8
+0x1001c150c      mov x8, x21
+0x1001c1510      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c1514      movi v0.2d, 0000000000000000
+0x1001c1518      mov x0, x21
+
+0x1001c274c      ldr x24, [x22, 0x48]
+0x1001c2750      mov x8, -0x3333333333333334
+0x1001c2754      movk x8, 0xcccd
+0x1001c2758      movk x8, 0x3fdc, lsl 48
+0x1001c275c      fmov d8, x8
+0x1001c2760      mov x8, -0x6666666666666667
+0x1001c2764      movk x8, 0x999a
+0x1001c2768      movk x8, 0x3fd9, lsl 48
+0x1001c276c      fmov d1, x8
+0x1001c2770      mov x8, x20
+0x1001c2774      mov v0.16b, v8.16b
+0x1001c2778      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c277c      movi v0.2d, 0000000000000000
+0x1001c2780      mov x0, x20
+
+0x1001c28bc      ldr x24, [x22, 0x48]
+0x1001c28c0      mov x8, -0x3333333333333334
+0x1001c28c4      movk x8, 0xcccd
+0x1001c28c8      movk x8, 0x3fdc, lsl 48
+0x1001c28cc      fmov d8, x8
+0x1001c28d0      mov x8, -0x6666666666666667
+0x1001c28d4      movk x8, 0x999a
+0x1001c28d8      movk x8, 0x3fd9, lsl 48
+0x1001c28dc      fmov d1, x8
+0x1001c28e0      mov x8, x20
+0x1001c28e4      mov v0.16b, v8.16b
+0x1001c28e8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c28ec      movi v0.2d, 0000000000000000
+0x1001c28f0      mov x0, x20
+
+0x1001c2e60      mov sp, x21
+0x1001c2e64      mov x8, -0x3333333333333334
+0x1001c2e68      movk x8, 0xcccd
+0x1001c2e6c      movk x8, 0x3fdc, lsl 48
+0x1001c2e70      fmov d8, x8
+0x1001c2e74      mov x8, -0x6666666666666667
+0x1001c2e78      movk x8, 0x999a
+0x1001c2e7c      movk x8, 0x3fd9, lsl 48
+0x1001c2e80      fmov d1, x8
+0x1001c2e84      mov x8, x21
+0x1001c2e88      mov v0.16b, v8.16b
+0x1001c2e8c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c2e90      movi v0.2d, 0000000000000000
+0x1001c2e94      mov x0, x21
+
+0x1001c5e44      ldp x20, x23, [x22, 0xc8]
+0x1001c5e48      bl sym.imp.swift_release
+0x1001c5e4c      mov x8, -0x3333333333333334
+0x1001c5e50      movk x8, 0xcccd
+0x1001c5e54      movk x8, 0x3fdc, lsl 48
+0x1001c5e58      fmov d0, x8
+0x1001c5e5c      mov x8, -0x6666666666666667
+0x1001c5e60      movk x8, 0x999a
+0x1001c5e64      movk x8, 0x3fd9, lsl 48
+0x1001c5e68      fmov d1, x8
+0x1001c5e6c      mov x8, x21
+0x1001c5e70      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c5e74      movi v0.2d, 0000000000000000
+0x1001c5e78      mov x0, x21
+
+0x1001c7e28      ldp x21, x0, [x22, 0x30]
+0x1001c7e2c      ldp x24, x23, [x22, 0x20]
+0x1001c7e30      ldr d8, [x22, 0x18]
+0x1001c7e34      ldr x20, [x22, 0x10]
+0x1001c7e38      bl sym.imp.swift_release
+0x1001c7e3c      ldr x20, [x20, 0x30]
+0x1001c7e40      mov x8, 0x3333333333333333
+0x1001c7e44      movk x8, 0x3fd3, lsl 48
+0x1001c7e48      fmov d1, x8
+0x1001c7e4c      mov x8, x21
+0x1001c7e50      mov v0.16b, v8.16b
+0x1001c7e54      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c7e58      movi v0.2d, 0000000000000000
+0x1001c7e5c      mov x0, x21
+
+0x1001c7e58      movi v0.2d, 0000000000000000
+0x1001c7e5c      mov x0, x21
+0x1001c7e60      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x1001c7e64      mov x19, x0
+0x1001c7e68      ldr x25, [x23, 8]
+0x1001c7e6c      mov x0, x21
+0x1001c7e70      mov x1, x24
+0x1001c7e74      blr x25
+0x1001c7e78      movi v1.2d, 0000000000000000
+0x1001c7e7c      mov x8, x21
+0x1001c7e80      mov v0.16b, v8.16b
+0x1001c7e84      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c7e88      movi v0.2d, 0000000000000000
+0x1001c7e8c      mov x0, x21
+
+0x1001c86dc      bl sym.imp.swift_release
+0x1001c86e0      ldr x19, [x20, 0x30]
+0x1001c86e4      mov x8, -0x6666666666666667
+0x1001c86e8      movk x8, 0x999a
+0x1001c86ec      movk x8, 0x3fd9, lsl 48
+0x1001c86f0      fmov d8, x8
+0x1001c86f4      mov x8, 0x3333333333333333
+0x1001c86f8      movk x8, 0x3fd3, lsl 48
+0x1001c86fc      fmov d1, x8
+0x1001c8700      mov x8, x21
+0x1001c8704      mov v0.16b, v8.16b
+0x1001c8708      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c870c      movi v0.2d, 0000000000000000
+0x1001c8710      mov x0, x21
+
+0x1001c870c      movi v0.2d, 0000000000000000
+0x1001c8710      mov x0, x21
+0x1001c8714      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x1001c8718      mov x20, x0
+0x1001c871c      ldr x25, [x24, 8]
+0x1001c8720      mov x0, x21
+0x1001c8724      mov x1, x23
+0x1001c8728      blr x25
+0x1001c872c      movi v1.2d, 0000000000000000
+0x1001c8730      mov x8, x21
+0x1001c8734      mov v0.16b, v8.16b
+0x1001c8738      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c873c      movi v0.2d, 0000000000000000
+0x1001c8740      mov x0, x21
+
+0x1001c8918      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x1001c891c      str x0, [sp, 0x18]
+0x1001c8920      mov x8, -0x6666666666666667
+0x1001c8924      movk x8, 0x999a
+0x1001c8928      movk x8, 0x3fd9, lsl 48
+0x1001c892c      fmov d0, x8
+0x1001c8930      mov x8, -0x6666666666666667
+0x1001c8934      movk x8, 0x999a
+0x1001c8938      movk x8, 0xbfc9, lsl 48
+0x1001c893c      fmov d1, x8
+0x1001c8940      mov x8, x27
+0x1001c8944      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c8948      movi v0.2d, 0000000000000000
+0x1001c894c      mov x0, x27
+
+0x1001c8b78      ldr x27, [x22, 0xd0]
+0x1001c8b7c      ldr x28, [x22, 0xc0]
+0x1001c8b80      mov x8, -0x6666666666666667
+0x1001c8b84      movk x8, 0x999a
+0x1001c8b88      movk x8, 0x3fd9, lsl 48
+0x1001c8b8c      fmov d8, x8
+0x1001c8b90      mov x8, 0x3333333333333333
+0x1001c8b94      movk x8, 0x3fd3, lsl 48
+0x1001c8b98      fmov d1, x8
+0x1001c8b9c      mov x8, x27
+0x1001c8ba0      mov v0.16b, v8.16b
+0x1001c8ba4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c8ba8      movi v0.2d, 0000000000000000
+0x1001c8bac      mov x0, x27
+
+0x1001c8bb4      mov x20, x0
+0x1001c8bb8      mov x0, x27
+0x1001c8bbc      mov x1, x28
+0x1001c8bc0      ldr x24, [sp, 0x28]
+0x1001c8bc4      blr x24
+0x1001c8bc8      mov x8, -0x6666666666666667
+0x1001c8bcc      movk x8, 0x999a
+0x1001c8bd0      movk x8, 0xbfc9, lsl 48
+0x1001c8bd4      fmov d1, x8
+0x1001c8bd8      mov x8, x27
+0x1001c8bdc      mov v0.16b, v8.16b
+0x1001c8be0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c8be4      movi v0.2d, 0000000000000000
+0x1001c8be8      mov x0, x27
+
+0x1001c9388      bl sym.imp.swift_release
+0x1001c938c      mov x8, -0x3333333333333334
+0x1001c9390      movk x8, 0xcccd
+0x1001c9394      movk x8, 0x3fdc, lsl 48
+0x1001c9398      fmov d8, x8
+0x1001c939c      mov x8, -0x6666666666666667
+0x1001c93a0      movk x8, 0x999a
+0x1001c93a4      movk x8, 0x3fd9, lsl 48
+0x1001c93a8      fmov d1, x8
+0x1001c93ac      mov x8, x20
+0x1001c93b0      mov v0.16b, v8.16b
+0x1001c93b4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001c93b8      movi v0.2d, 0000000000000000
+0x1001c93bc      mov x0, x20
+
+0x1001e1358      ldp x21, x20, [x22, 0x1a8]
+0x1001e135c      ldp x23, x19, [x22, 0x198]
+0x1001e1360      ldr x25, [x22, 0x178]
+0x1001e1364      mov x8, 0x3333333333333333
+0x1001e1368      movk x8, 0x3fd3, lsl 48
+0x1001e136c      fmov d8, x8
+0x1001e1370      mov x8, 0x6666666666666666
+0x1001e1374      movk x8, 0x3fd6, lsl 48
+0x1001e1378      fmov d1, x8
+0x1001e137c      mov x8, x20
+0x1001e1380      mov v0.16b, v8.16b
+0x1001e1384      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001e1388      movi v0.2d, 0000000000000000
+0x1001e138c      mov x0, x20
+
+0x1001e1514      ldr x19, [x22, 0x1a0]
+0x1001e1518      ldr x25, [x22, 0x178]
+0x1001e151c      mov x8, 0x3333333333333333
+0x1001e1520      movk x8, 0x3fd3, lsl 48
+0x1001e1524      fmov d8, x8
+0x1001e1528      mov x8, -0x3333333333333334
+0x1001e152c      movk x8, 0xcccd
+0x1001e1530      movk x8, 0x3fd4, lsl 48
+0x1001e1534      fmov d1, x8
+0x1001e1538      mov x8, x20
+0x1001e153c      mov v0.16b, v8.16b
+0x1001e1540      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001e1544      movi v0.2d, 0000000000000000
+0x1001e1548      mov x0, x20
+
+0x1001e156c      adrp x1, 0x1001e5000
+0x1001e1570      add x1, x1, 0x998
+0x1001e1574      add x2, x22, 0xf0
+0x1001e1578      add x3, x26, 8
+0x1001e157c      mov x0, x23
+0x1001e1580      bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_
+0x1001e1584      mov x0, x23
+0x1001e1588      bl sym.imp.swift_release
+0x1001e158c      fmov d1, 0.25000000
+0x1001e1590      mov x8, x20
+0x1001e1594      mov v0.16b, v8.16b
+0x1001e1598      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001e159c      movi v0.2d, 0000000000000000
+0x1001e15a0      mov x0, x20
+
+0x1001e1670      ldr x19, [x22, 0x1a0]
+0x1001e1674      ldr x25, [x22, 0x178]
+0x1001e1678      mov x8, 0x3333333333333333
+0x1001e167c      movk x8, 0x3fd3, lsl 48
+0x1001e1680      fmov d8, x8
+0x1001e1684      mov x8, -0x3333333333333334
+0x1001e1688      movk x8, 0xcccd
+0x1001e168c      movk x8, 0x3fd4, lsl 48
+0x1001e1690      fmov d1, x8
+0x1001e1694      mov x8, x20
+0x1001e1698      mov v0.16b, v8.16b
+0x1001e169c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001e16a0      movi v0.2d, 0000000000000000
+0x1001e16a4      mov x0, x20
+
+0x1001e16cc      add x1, x1, 0x998
+0x1001e16d0      add x2, x22, 0xf0
+0x1001e16d4      add x3, x26, 8
+0x1001e16d8      mov x0, x23
+0x1001e16dc      mov x21, 0
+0x1001e16e0      bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_
+0x1001e16e4      mov x0, x23
+0x1001e16e8      bl sym.imp.swift_release
+0x1001e16ec      fmov d1, 0.25000000
+0x1001e16f0      mov x8, x20
+0x1001e16f4      mov v0.16b, v8.16b
+0x1001e16f8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001e16fc      movi v0.2d, 0000000000000000
+0x1001e1700      mov x0, x20
+
+0x1001e2ee0      movk x8, 0x3fa9, lsl 48
+0x1001e2ee4      fmov d0, x8
+0x1001e2ee8      mov x8, -0x3333333333333334
+0x1001e2eec      movk x8, 0x3fdc, lsl 48
+0x1001e2ef0      fmov d1, x8
+0x1001e2ef4      fcsel d1, d1, d0, ne
+0x1001e2ef8      mov x8, 0x6666666666666666
+0x1001e2efc      movk x8, 0x3fd6, lsl 48
+0x1001e2f00      fmov d0, x8
+0x1001e2f04      ldr x22, [x19, 0x38]
+0x1001e2f08      mov x8, x22
+0x1001e2f0c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001e2f10      movi v0.2d, 0000000000000000
+0x1001e2f14      mov x0, x22
+
+0x1001e3538      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x1001e353c      ldr x8, [x8, 0xdc0]
+0x1001e3540      ldrb w8, [x26, x8]
+0x1001e3544      tbnz w8, 0, 0x1001e35b8
+0x1001e3548      mov x8, 0x3333333333333333
+0x1001e354c      movk x8, 0x3fe3, lsl 48
+0x1001e3550      fmov d0, x8
+0x1001e3554      mov x8, 0x6666666666666666
+0x1001e3558      movk x8, 0x3fd6, lsl 48
+0x1001e355c      fmov d1, x8
+0x1001e3560      mov x8, x22
+0x1001e3564      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001e3568      movi v0.2d, 0000000000000000
+0x1001e356c      mov x0, x22
+
+0x1001e37a4      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x1001e37a8      ldr x8, [x8, 0xdc0]
+0x1001e37ac      ldrb w8, [x26, x8]
+0x1001e37b0      tbnz w8, 0, 0x1001e3824
+0x1001e37b4      mov x8, 0x3333333333333333
+0x1001e37b8      movk x8, 0x3fe3, lsl 48
+0x1001e37bc      fmov d0, x8
+0x1001e37c0      mov x8, 0x6666666666666666
+0x1001e37c4      movk x8, 0x3fd6, lsl 48
+0x1001e37c8      fmov d1, x8
+0x1001e37cc      mov x8, x22
+0x1001e37d0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001e37d4      movi v0.2d, 0000000000000000
+0x1001e37d8      mov x0, x22
+
+0x1001eb574      adrp x1, 0x100467000
+0x1001eb578      add x1, x1, 0xd18
+0x1001eb57c      bl sym.func.100002b1c
+0x1001eb580      ldrsw x8, [x0, 0x24]
+0x1001eb584      ldr x9, [x19, 0x18]
+0x1001eb588      add x8, x9, x8
+0x1001eb58c      stp d10, d10, [x8]
+0x1001eb590      stp d8, d9, [x8, 0x10]
+0x1001eb594      fmov d0, 0.50000000
+0x1001eb598      fmov d1, 0.37500000
+0x1001eb59c      mov x8, x24
+0x1001eb5a0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001eb5a4      movi v0.2d, 0000000000000000
+0x1001eb5a8      mov x0, x24
+
+0x1001eb618      add x1, x1, 0xd20
+0x1001eb61c      bl sym.func.100002b1c
+0x1001eb620      ldrsw x8, [x0, 0x24]
+0x1001eb624      ldr x27, [x19, 0x18]
+0x1001eb628      add x8, x27, x8
+0x1001eb62c      ldr x9, [x19, 8]
+0x1001eb630      str x9, [x8]
+0x1001eb634      strb w23, [x8, 8]
+0x1001eb638      fmov d0, 0.50000000
+0x1001eb63c      fmov d1, 0.37500000
+0x1001eb640      mov x8, x24
+0x1001eb644      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001eb648      movi v0.2d, 0000000000000000
+0x1001eb64c      mov x0, x24
+
+0x1001edbbc      str x0, [x19, 0xed0]
+0x1001edbc0      str x1, [x19, 0xed8]
+0x1001edbc4      add x8, x19, 0xed0
+0x1001edbc8      add x8, x8, 0x10
+0x1001edbcc      mov x0, x22
+0x1001edbd0      mov x1, x21
+0x1001edbd4      bl sym.func.1001ee700
+0x1001edbd8      fmov d0, 0.50000000
+0x1001edbdc      fmov d1, 0.37500000
+0x1001edbe0      mov x8, x24
+0x1001edbe4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001edbe8      movi v10.2d, 0000000000000000
+0x1001edbec      movi v0.2d, 0000000000000000
+0x1001edbf0      mov x0, x24
+
+0x1001edca8      add x1, x19, 0xdd0
+0x1001edcac      mov x2, x25
+0x1001edcb0      mov x3, x26
+0x1001edcb4      bl sym.func.10000aac8
+0x1001edcb8      add x0, x19, 0xfb0
+0x1001edcbc      mov x1, x25
+0x1001edcc0      mov x2, x26
+0x1001edcc4      bl sym.func.10000aa88
+0x1001edcc8      fmov d0, 0.50000000
+0x1001edccc      fmov d1, 0.37500000
+0x1001edcd0      mov x8, x24
+0x1001edcd4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001edcd8      movi v0.2d, 0000000000000000
+0x1001edcdc      mov x0, x24
+
+0x1001edf60      add x0, x19, 0x3f0
+0x1001edf64      mov x1, x20
+0x1001edf68      mov x2, x21
+0x1001edf6c      bl sym.func.10000aa88
+0x1001edf70      mov x8, -0x3333333333333334
+0x1001edf74      movk x8, 0xcccd
+0x1001edf78      movk x8, 0x3fdc, lsl 48
+0x1001edf7c      fmov d8, x8
+0x1001edf80      fmov d1, 0.37500000
+0x1001edf84      mov x8, x24
+0x1001edf88      mov v0.16b, v8.16b
+0x1001edf8c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001edf90      movi v0.2d, 0000000000000000
+0x1001edf94      mov x0, x24
+
+0x1001ee130      add x1, x19, 0xdd0
+0x1001ee134      mov x2, x20
+0x1001ee138      mov x3, x21
+0x1001ee13c      bl sym.func.10000aac8
+0x1001ee140      add x0, x19, 0x5a0
+0x1001ee144      mov x1, x20
+0x1001ee148      mov x2, x21
+0x1001ee14c      bl sym.func.10000aa88
+0x1001ee150      fmov d1, 0.37500000
+0x1001ee154      mov x8, x24
+0x1001ee158      mov v0.16b, v8.16b
+0x1001ee15c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001ee160      movi v0.2d, 0000000000000000
+0x1001ee164      mov x0, x24
+
+0x1001efc04      ldr x8, [x8, 0xde0]
+0x1001efc08      ldrb w8, [x26, x8]
+0x1001efc0c      tbz w8, 0, 0x1001efc18
+0x1001efc10      str xzr, [x19, 0x20]
+0x1001efc14      b 0x1001efc54
+0x1001efc18      mov x8, -0x3333333333333334
+0x1001efc1c      movk x8, 0x3fdc, lsl 48
+0x1001efc20      fmov d1, x8
+0x1001efc24      fmov d0, 0.50000000
+0x1001efc28      ldr x20, [x19, 0x28]
+0x1001efc2c      mov x8, x20
+0x1001efc30      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001efc34      movi v0.2d, 0000000000000000
+0x1001efc38      mov x0, x20
+
+0x1001f177c      add x8, x23, x8
+0x1001f1780      stp d10, d10, [x8]
+0x1001f1784      stp d8, d9, [x8, 0x10]
+0x1001f1788      mov x8, 0x3333333333333333
+0x1001f178c      movk x8, 0x3fe3, lsl 48
+0x1001f1790      fmov d0, x8
+0x1001f1794      mov x8, -0x6666666666666667
+0x1001f1798      movk x8, 0x999a
+0x1001f179c      movk x8, 0x3fd9, lsl 48
+0x1001f17a0      fmov d1, x8
+0x1001f17a4      mov x8, x25
+0x1001f17a8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001f17ac      movi v0.2d, 0000000000000000
+0x1001f17b0      mov x0, x25
+
+0x1001f268c      bl sym.func.100002b1c
+0x1001f2690      ldrsw x8, [x0, 0x24]
+0x1001f2694      str d9, [x24, x8]
+0x1001f2698      mov x8, -0x6666666666666667
+0x1001f269c      movk x8, 0x999a
+0x1001f26a0      movk x8, 0x3fd9, lsl 48
+0x1001f26a4      fmov d1, x8
+0x1001f26a8      sub x8, x29, 0x98
+0x1001f26ac      ldur x20, [x8, -0x100]
+0x1001f26b0      mov x8, x20
+0x1001f26b4      mov v0.16b, v8.16b
+0x1001f26b8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001f26bc      movi v0.2d, 0000000000000000
+0x1001f26c0      mov x0, x20
+
+0x1001f3120      add x1, x19, 0xf10
+0x1001f3124      mov w2, 0x1c0
+0x1001f3128      bl sym.imp.memcpy
+0x1001f312c      add x0, x19, 1, lsl 12
+0x1001f3130      add x0, x0, 0x4f8
+0x1001f3134      mov x1, x20
+0x1001f3138      mov x2, x21
+0x1001f313c      bl sym.func.10000aa88
+0x1001f3140      fmov d0, 0.50000000
+0x1001f3144      fmov d1, 0.37500000
+0x1001f3148      mov x8, x26
+0x1001f314c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001f3150      movi v0.2d, 0000000000000000
+0x1001f3154      mov x0, x26
+
+0x1001fa8c8      stp x8, x9, [sp]
+0x1001fa8cc      ldrb w28, [x22, 0x2b]
+0x1001fa8d0      ldr x24, [x22, 0x50]
+0x1001fa8d4      mov x8, -0x6666666666666667
+0x1001fa8d8      movk x8, 0x999a
+0x1001fa8dc      movk x8, 0x3fd9, lsl 48
+0x1001fa8e0      fmov d0, x8
+0x1001fa8e4      mov x8, 0x3333333333333333
+0x1001fa8e8      movk x8, 0x3fd3, lsl 48
+0x1001fa8ec      fmov d1, x8
+0x1001fa8f0      mov x8, x21
+0x1001fa8f4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001fa8f8      movi v0.2d, 0000000000000000
+0x1001fa8fc      mov x0, x21
+
+0x1001fafc4      stp x8, x9, [sp]
+0x1001fafc8      ldrb w28, [x22, 0x2b]
+0x1001fafcc      ldr x24, [x22, 0x50]
+0x1001fafd0      mov x8, -0x6666666666666667
+0x1001fafd4      movk x8, 0x999a
+0x1001fafd8      movk x8, 0x3fd9, lsl 48
+0x1001fafdc      fmov d0, x8
+0x1001fafe0      mov x8, 0x3333333333333333
+0x1001fafe4      movk x8, 0x3fd3, lsl 48
+0x1001fafe8      fmov d1, x8
+0x1001fafec      mov x8, x21
+0x1001faff0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1001faff4      movi v0.2d, 0000000000000000
+0x1001faff8      mov x0, x21
+
+0x10021a990      ldr x8, [x8, 0xdc0]
+0x10021a994      ldrb w8, [x24, x8]
+0x10021a998      cmp w8, 1
+0x10021a99c      b.ne 0x10021ad08
+0x10021a9a0      mov x8, 0x6666666666666666
+0x10021a9a4      movk x8, 0x3fd6, lsl 48
+0x10021a9a8      fmov d0, x8
+0x10021a9ac      mov x8, 0x3333333333333333
+0x10021a9b0      movk x8, 0x3fd3, lsl 48
+0x10021a9b4      fmov d1, x8
+0x10021a9b8      mov x8, x27
+0x10021a9bc      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021a9c0      movi v0.2d, 0000000000000000
+0x10021a9c4      mov x0, x27
+
+0x10021a9ec      fmov d0, x8
+0x10021a9f0      fmov d1, 1.00000000
+0x10021a9f4      movi v2.2d, 0000000000000000
+0x10021a9f8      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10021a9fc      mov x21, x0
+0x10021aa00      b 0x10021aa38
+0x10021aa04      mov x8, 0x3333333333333333
+0x10021aa08      movk x8, 0x3fd3, lsl 48
+0x10021aa0c      fmov d0, x8
+0x10021aa10      mov x8, x27
+0x10021aa14      mov v1.16b, v0.16b
+0x10021aa18      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021aa1c      movi v0.2d, 0000000000000000
+0x10021aa20      mov x0, x27
+
+0x10021bd14      ldrb w8, [x19, x8]
+0x10021bd18      cmp w8, 1
+0x10021bd1c      b.ne 0x10021bd2c
+0x10021bd20      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x10021bd24      ldr x8, [x8, 0xcb0]
+0x10021bd28      strb w23, [x19, x8]
+0x10021bd2c      mov x8, 0x6666666666666666
+0x10021bd30      movk x8, 0x3fd6, lsl 48
+0x10021bd34      fmov d0, x8
+0x10021bd38      mov x8, x22
+0x10021bd3c      mov v1.16b, v0.16b
+0x10021bd40      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021bd44      movi v0.2d, 0000000000000000
+0x10021bd48      mov x0, x22
+
+0x10021cc38      cmp w8, 0
+0x10021cc3c      mov x8, -0x6666666666666667
+0x10021cc40      movk x8, 0x9998
+0x10021cc44      movk x8, 0x3fb9, lsl 48
+0x10021cc48      fmov d0, x8
+0x10021cc4c      fcsel d1, d0, d9, ne
+0x10021cc50      mov x8, -0x3333333333333334
+0x10021cc54      movk x8, 0xcccd
+0x10021cc58      movk x8, 0x3fdc, lsl 48
+0x10021cc5c      fmov d0, x8
+0x10021cc60      mov x8, x23
+0x10021cc64      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021cc68      movi v0.2d, 0000000000000000
+0x10021cc6c      mov x0, x23
+
+0x10021dc08      mov x8, -0x6666666666666667
+0x10021dc0c      movk x8, 0x999a
+0x10021dc10      movk x8, 0x3fd9, lsl 48
+0x10021dc14      fmov d8, x8
+0x10021dc18      mov x8, 0x3333333333333333
+0x10021dc1c      movk x8, 0x3fd3, lsl 48
+0x10021dc20      fmov d1, x8
+0x10021dc24      sub x8, x29, 0xb8
+0x10021dc28      ldur x24, [x8, -0x100]
+0x10021dc2c      mov x8, x24
+0x10021dc30      mov v0.16b, v8.16b
+0x10021dc34      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021dc38      movi v0.2d, 0000000000000000
+0x10021dc3c      mov x0, x24
+
+0x10021dc3c      mov x0, x24
+0x10021dc40      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x10021dc44      mov x20, x0
+0x10021dc48      mov x0, x24
+0x10021dc4c      sub x8, x29, 0x70
+0x10021dc50      ldur x21, [x8, -0x100]
+0x10021dc54      mov x1, x21
+0x10021dc58      blr x25
+0x10021dc5c      movi v1.2d, 0000000000000000
+0x10021dc60      mov x8, x24
+0x10021dc64      mov v0.16b, v8.16b
+0x10021dc68      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021dc6c      movi v0.2d, 0000000000000000
+0x10021dc70      mov x0, x24
+
+0x10021e7d4      mov x9, sp
+0x10021e7d8      add x8, x8, 0xf
+0x10021e7dc      and x8, x8, 0xfffffffffffffff0
+0x10021e7e0      sub x27, x9, x8
+0x10021e7e4      mov sp, x27
+0x10021e7e8      tbz w22, 0, 0x10021e828
+0x10021e7ec      mov x8, 0x3333333333333333
+0x10021e7f0      movk x8, 0x3fd3, lsl 48
+0x10021e7f4      fmov d1, x8
+0x10021e7f8      mov x8, x27
+0x10021e7fc      mov v0.16b, v9.16b
+0x10021e800      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021e804      movi v0.2d, 0000000000000000
+0x10021e808      mov x0, x27
+
+0x10021e840      fadd d0, d0, d1
+0x10021e844      fmov d1, 1.00000000
+0x10021e848      movi v2.2d, 0000000000000000
+0x10021e84c      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10021e850      mov x28, x0
+0x10021e854      mov x8, 0x3333333333333333
+0x10021e858      movk x8, 0x3fd3, lsl 48
+0x10021e85c      fmov d0, x8
+0x10021e860      fadd d1, d10, d0
+0x10021e864      mov x8, x27
+0x10021e868      mov v0.16b, v9.16b
+0x10021e86c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021e870      movi v0.2d, 0000000000000000
+0x10021e874      mov x0, x27
+
+0x10021f464      movi v2.2d, 0000000000000000
+0x10021f468      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10021f46c      mov x27, x0
+0x10021f470      mov x8, -0x6666666666666667
+0x10021f474      movk x8, 0x999a
+0x10021f478      movk x8, 0xbfc9, lsl 48
+0x10021f47c      fmov d1, x8
+0x10021f480      sub x8, x29, 0x38
+0x10021f484      ldur x20, [x8, -0x100]
+0x10021f488      mov x8, x20
+0x10021f48c      mov v0.16b, v8.16b
+0x10021f490      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021f494      movi v0.2d, 0000000000000000
+0x10021f498      mov x0, x20
+
+0x10021f9f4      sub x8, x29, 0x78
+0x10021f9f8      stur x27, [x8, -0x100]
+0x10021f9fc      mov x27, x26
+0x10021fa00      mov x20, x24
+0x10021fa04      mov x8, 0x3333333333333333
+0x10021fa08      movk x8, 0x3fd3, lsl 48
+0x10021fa0c      fmov d1, x8
+0x10021fa10      sub x8, x29, 0x38
+0x10021fa14      ldur x24, [x8, -0x100]
+0x10021fa18      mov x8, x24
+0x10021fa1c      mov v0.16b, v8.16b
+0x10021fa20      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021fa24      movi v0.2d, 0000000000000000
+0x10021fa28      mov x0, x24
+
+0x10021fa40      ldur x19, [x8, -0x100]
+0x10021fa44      mov x1, x19
+0x10021fa48      sub x8, x29, 0x68
+0x10021fa4c      ldur x25, [x8, -0x100]
+0x10021fa50      blr x25
+0x10021fa54      mov x8, -0x6666666666666667
+0x10021fa58      movk x8, 0x999a
+0x10021fa5c      movk x8, 0xbfc9, lsl 48
+0x10021fa60      fmov d1, x8
+0x10021fa64      mov x8, x24
+0x10021fa68      mov v0.16b, v8.16b
+0x10021fa6c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021fa70      movi v0.2d, 0000000000000000
+0x10021fa74      mov x0, x24
+
+0x10021ffa4      cmp w8, 1
+0x10021ffa8      b.ne 0x100220380
+0x10021ffac      sub x8, x29, 0x80
+0x10021ffb0      stur x26, [x8, -0x100]
+0x10021ffb4      mov x8, 0x3333333333333333
+0x10021ffb8      movk x8, 0x3fd3, lsl 48
+0x10021ffbc      fmov d1, x8
+0x10021ffc0      sub x8, x29, 0x38
+0x10021ffc4      ldur x20, [x8, -0x100]
+0x10021ffc8      mov x8, x20
+0x10021ffcc      mov v0.16b, v8.16b
+0x10021ffd0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10021ffd4      movi v0.2d, 0000000000000000
+0x10021ffd8      mov x0, x20
+
+0x10021fff0      ldur x19, [x8, -0x100]
+0x10021fff4      mov x1, x19
+0x10021fff8      sub x8, x29, 0x68
+0x10021fffc      ldur x25, [x8, -0x100]
+0x100220000      blr x25
+0x100220004      mov x8, -0x6666666666666667
+0x100220008      movk x8, 0x999a
+0x10022000c      movk x8, 0xbfc9, lsl 48
+0x100220010      fmov d1, x8
+0x100220014      mov x8, x20
+0x100220018      mov v0.16b, v8.16b
+0x10022001c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100220020      movi v0.2d, 0000000000000000
+0x100220024      mov x0, x20
+
+0x100223938      ldrb w8, [x19, x25]
+0x10022393c      cmp w8, w24, uxtb
+0x100223940      b.eq 0x100223a1c
+0x100223944      mov x20, x19
+0x100223948      bl sym.func.10021b664
+0x10022394c      tbz w0, 0, 0x1002239bc
+0x100223950      mov x8, 0x6666666666666666
+0x100223954      movk x8, 0x3fd6, lsl 48
+0x100223958      fmov d0, x8
+0x10022395c      mov x8, x22
+0x100223960      mov v1.16b, v0.16b
+0x100223964      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100223968      movi v0.2d, 0000000000000000
+0x10022396c      mov x0, x22
+
+0x100224bec      mov x0, x22
+0x100224bf0      b 0x100224c64
+0x100224bf4      mov x8, -0x3333333333333334
+0x100224bf8      movk x8, 0xcccd
+0x100224bfc      movk x8, 0x3fdc, lsl 48
+0x100224c00      fmov d0, x8
+0x100224c04      mov x8, -0x6666666666666667
+0x100224c08      movk x8, 0x999a
+0x100224c0c      movk x8, 0x3fd9, lsl 48
+0x100224c10      fmov d1, x8
+0x100224c14      mov x8, x22
+0x100224c18      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100224c1c      movi v0.2d, 0000000000000000
+0x100224c20      mov x0, x22
+
+0x100224e4c      stur x0, [x8, -0x100]
+0x100224e50      mov x8, 0x6666666666666666
+0x100224e54      movk x8, 0x3fd6, lsl 48
+0x100224e58      fmov d0, x8
+0x100224e5c      mov x8, -0x6666666666666667
+0x100224e60      movk x8, 0x999a
+0x100224e64      movk x8, 0xbfc9, lsl 48
+0x100224e68      fmov d1, x8
+0x100224e6c      sub x8, x29, 0x20
+0x100224e70      ldur x20, [x8, -0x100]
+0x100224e74      mov x8, x20
+0x100224e78      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100224e7c      movi v0.2d, 0000000000000000
+0x100224e80      mov x0, x20
+
+0x100225118      mov x22, x26
+0x10022511c      mov x8, 0x6666666666666666
+0x100225120      movk x8, 0x3fd6, lsl 48
+0x100225124      fmov d8, x8
+0x100225128      mov x8, 0x3333333333333333
+0x10022512c      movk x8, 0x3fd3, lsl 48
+0x100225130      fmov d1, x8
+0x100225134      sub x8, x29, 0x20
+0x100225138      ldur x26, [x8, -0x100]
+0x10022513c      mov x8, x26
+0x100225140      mov v0.16b, v8.16b
+0x100225144      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100225148      movi v0.2d, 0000000000000000
+0x10022514c      mov x0, x26
+
+0x100225164      ldur x20, [x8, -0x100]
+0x100225168      mov x1, x20
+0x10022516c      sub x8, x29, 0x48
+0x100225170      ldur x27, [x8, -0x100]
+0x100225174      blr x27
+0x100225178      mov x8, -0x6666666666666667
+0x10022517c      movk x8, 0x999a
+0x100225180      movk x8, 0xbfc9, lsl 48
+0x100225184      fmov d1, x8
+0x100225188      mov x8, x26
+0x10022518c      mov v0.16b, v8.16b
+0x100225190      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100225194      movi v0.2d, 0000000000000000
+0x100225198      mov x0, x26
+
+0x100225a64      mov v0.16b, v10.16b
+0x100225a68      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x100225a6c      mov x25, x0
+0x100225a70      mov x8, -0x6666666666666667
+0x100225a74      movk x8, 0x999a
+0x100225a78      movk x8, 0xbfc9, lsl 48
+0x100225a7c      fmov d1, x8
+0x100225a80      sub x8, x29, 0xa0
+0x100225a84      ldur x20, [x8, -0x100]
+0x100225a88      mov x8, x20
+0x100225a8c      mov v0.16b, v8.16b
+0x100225a90      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100225a94      movi v0.2d, 0000000000000000
+0x100225a98      mov x0, x20
+
+0x100226630      ldrb w8, [x19, x8]
+0x100226634      cmp w8, 1
+0x100226638      b.ne 0x100226814
+0x10022663c      mov x20, x25
+0x100226640      mov x8, 0x3333333333333333
+0x100226644      movk x8, 0x3fd3, lsl 48
+0x100226648      fmov d1, x8
+0x10022664c      sub x8, x29, 0xa0
+0x100226650      ldur x24, [x8, -0x100]
+0x100226654      mov x8, x24
+0x100226658      mov v0.16b, v8.16b
+0x10022665c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100226660      movi v0.2d, 0000000000000000
+0x100226664      mov x0, x24
+
+0x10022667c      ldur x23, [x8, -0x100]
+0x100226680      mov x1, x23
+0x100226684      sub x8, x29, 0x128
+0x100226688      ldur x25, [x8, -0x100]
+0x10022668c      blr x25
+0x100226690      mov x8, -0x6666666666666667
+0x100226694      movk x8, 0x999a
+0x100226698      movk x8, 0xbfc9, lsl 48
+0x10022669c      fmov d1, x8
+0x1002266a0      mov x8, x24
+0x1002266a4      mov v0.16b, v8.16b
+0x1002266a8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002266ac      movi v0.2d, 0000000000000000
+0x1002266b0      mov x0, x24
+
+0x1002269bc      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x1002269c0      sub x8, x29, 0x90
+0x1002269c4      stur x0, [x8, -0x100]
+0x1002269c8      mov x8, -0x6666666666666667
+0x1002269cc      movk x8, 0x999a
+0x1002269d0      movk x8, 0xbfc9, lsl 48
+0x1002269d4      fmov d1, x8
+0x1002269d8      sub x8, x29, 0xa0
+0x1002269dc      ldur x20, [x8, -0x100]
+0x1002269e0      mov x8, x20
+0x1002269e4      mov v0.16b, v8.16b
+0x1002269e8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002269ec      movi v0.2d, 0000000000000000
+0x1002269f0      mov x0, x20
+
+0x1002270d4      ldrb w8, [x19, x8]
+0x1002270d8      cmp w8, 1
+0x1002270dc      b.ne 0x1002272a4
+0x1002270e0      mov x25, x27
+0x1002270e4      mov x8, 0x3333333333333333
+0x1002270e8      movk x8, 0x3fd3, lsl 48
+0x1002270ec      fmov d1, x8
+0x1002270f0      sub x8, x29, 0xa0
+0x1002270f4      ldur x24, [x8, -0x100]
+0x1002270f8      mov x8, x24
+0x1002270fc      mov v0.16b, v8.16b
+0x100227100      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100227104      movi v0.2d, 0000000000000000
+0x100227108      mov x0, x24
+
+0x100227120      ldur x20, [x8, -0x100]
+0x100227124      mov x1, x20
+0x100227128      sub x8, x29, 0x128
+0x10022712c      ldur x27, [x8, -0x100]
+0x100227130      blr x27
+0x100227134      mov x8, -0x6666666666666667
+0x100227138      movk x8, 0x999a
+0x10022713c      movk x8, 0xbfc9, lsl 48
+0x100227140      fmov d1, x8
+0x100227144      mov x8, x24
+0x100227148      mov v0.16b, v8.16b
+0x10022714c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100227150      movi v0.2d, 0000000000000000
+0x100227154      mov x0, x24
+
+0x10022a93c      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x10022a940      ldr x8, [x8, 0xdc0]
+0x10022a944      ldrb w8, [x19, x8]
+0x10022a948      tbnz w8, 0, 0x10022a9b8
+0x10022a94c      mov x8, 0x3333333333333333
+0x10022a950      movk x8, 0x3fe3, lsl 48
+0x10022a954      fmov d0, x8
+0x10022a958      mov x8, 0x6666666666666666
+0x10022a95c      movk x8, 0x3fd6, lsl 48
+0x10022a960      fmov d1, x8
+0x10022a964      mov x8, x22
+0x10022a968      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10022a96c      movi v0.2d, 0000000000000000
+0x10022a970      mov x0, x22
+
+0x10022ab10      ldrb w8, [x19, x25]
+0x10022ab14      tbz w8, 0, 0x10022ab8c
+0x10022ab18      adrp x20, 0x10023a000
+0x10022ab1c      add x20, x20, 0x414
+0x10022ab20      mov x8, 0x3333333333333333
+0x10022ab24      movk x8, 0x3fe3, lsl 48
+0x10022ab28      fmov d0, x8
+0x10022ab2c      mov x8, 0x6666666666666666
+0x10022ab30      movk x8, 0x3fd6, lsl 48
+0x10022ab34      fmov d1, x8
+0x10022ab38      mov x8, x22
+0x10022ab3c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10022ab40      movi v0.2d, 0000000000000000
+0x10022ab44      mov x0, x22
+
+0x10022c050      mov v3.16b, v13.16b
+0x10022c054      bl sym.imp.CGRectGetMaxY
+0x10022c058      fcmp d8, d0
+0x10022c05c      b.ls 0x10022c0f4
+0x10022c060      mov x8, 0x3333333333333333
+0x10022c064      movk x8, 0x3fe3, lsl 48
+0x10022c068      fmov d0, x8
+0x10022c06c      mov x8, 0x6666666666666666
+0x10022c070      movk x8, 0x3fd6, lsl 48
+0x10022c074      fmov d1, x8
+0x10022c078      mov x8, x22
+0x10022c07c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10022c080      movi v0.2d, 0000000000000000
+0x10022c084      mov x0, x22
+
+0x10022d158      ldp x23, x24, [x22, 0x50]
+0x10022d15c      ldr x25, [x22, 0x48]
+0x10022d160      mov x8, -0x6666666666666667
+0x10022d164      movk x8, 0x999a
+0x10022d168      movk x8, 0x3fd9, lsl 48
+0x10022d16c      fmov d8, x8
+0x10022d170      mov x8, 0x3333333333333333
+0x10022d174      movk x8, 0x3fd3, lsl 48
+0x10022d178      fmov d1, x8
+0x10022d17c      mov x8, x24
+0x10022d180      mov v0.16b, v8.16b
+0x10022d184      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10022d188      movi v0.2d, 0000000000000000
+0x10022d18c      mov x0, x24
+
+0x10022d188      movi v0.2d, 0000000000000000
+0x10022d18c      mov x0, x24
+0x10022d190      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x10022d194      mov x20, x0
+0x10022d198      ldr x26, [x23, 8]
+0x10022d19c      mov x0, x24
+0x10022d1a0      mov x1, x25
+0x10022d1a4      blr x26
+0x10022d1a8      movi v1.2d, 0000000000000000
+0x10022d1ac      mov x8, x24
+0x10022d1b0      mov v0.16b, v8.16b
+0x10022d1b4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10022d1b8      movi v0.2d, 0000000000000000
+0x10022d1bc      mov x0, x24
+
+0x10022d434      ldp x23, x21, [x22, 0x50]
+0x10022d438      ldr x24, [x22, 0x48]
+0x10022d43c      mov x8, -0x6666666666666667
+0x10022d440      movk x8, 0x999a
+0x10022d444      movk x8, 0x3fd9, lsl 48
+0x10022d448      fmov d8, x8
+0x10022d44c      mov x8, 0x3333333333333333
+0x10022d450      movk x8, 0x3fd3, lsl 48
+0x10022d454      fmov d1, x8
+0x10022d458      mov x8, x21
+0x10022d45c      mov v0.16b, v8.16b
+0x10022d460      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10022d464      movi v0.2d, 0000000000000000
+0x10022d468      mov x0, x21
+
+0x10022d464      movi v0.2d, 0000000000000000
+0x10022d468      mov x0, x21
+0x10022d46c      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x10022d470      mov x20, x0
+0x10022d474      ldr x25, [x23, 8]
+0x10022d478      mov x0, x21
+0x10022d47c      mov x1, x24
+0x10022d480      blr x25
+0x10022d484      movi v1.2d, 0000000000000000
+0x10022d488      mov x8, x21
+0x10022d48c      mov v0.16b, v8.16b
+0x10022d490      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10022d494      movi v0.2d, 0000000000000000
+0x10022d498      mov x0, x21
+
+0x10022fbf0      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10022fbf4      sub x8, x29, 0x100
+0x10022fbf8      stur x0, [x8, -0x100]
+0x10022fbfc      mov x8, 0x6666666666666666
+0x10022fc00      movk x8, 0x3fd6, lsl 48
+0x10022fc04      fmov d0, x8
+0x10022fc08      mov x8, -0x6666666666666667
+0x10022fc0c      movk x8, 0x999a
+0x10022fc10      movk x8, 0xbfc9, lsl 48
+0x10022fc14      fmov d1, x8
+0x10022fc18      mov x8, x24
+0x10022fc1c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10022fc20      movi v0.2d, 0000000000000000
+0x10022fc24      mov x0, x24
+
+0x10022fe94      ldrb w8, [x19, x8]
+0x10022fe98      cmp w8, 1
+0x10022fe9c      b.ne 0x100230240
+0x10022fea0      mov x8, 0x6666666666666666
+0x10022fea4      movk x8, 0x3fd6, lsl 48
+0x10022fea8      fmov d8, x8
+0x10022feac      mov x8, 0x3333333333333333
+0x10022feb0      movk x8, 0x3fd3, lsl 48
+0x10022feb4      fmov d1, x8
+0x10022feb8      mov x8, x24
+0x10022febc      mov v0.16b, v8.16b
+0x10022fec0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10022fec4      movi v0.2d, 0000000000000000
+0x10022fec8      mov x0, x24
+
+0x10022fed4      mov x0, x24
+0x10022fed8      mov x1, x22
+0x10022fedc      sub x8, x29, 0x110
+0x10022fee0      ldur x20, [x8, -0x100]
+0x10022fee4      blr x20
+0x10022fee8      mov x8, -0x6666666666666667
+0x10022feec      movk x8, 0x999a
+0x10022fef0      movk x8, 0xbfc9, lsl 48
+0x10022fef4      fmov d1, x8
+0x10022fef8      mov x8, x24
+0x10022fefc      mov v0.16b, v8.16b
+0x10022ff00      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10022ff04      movi v0.2d, 0000000000000000
+0x10022ff08      mov x0, x24
+
+0x10023005c      sub x8, x29, 0xf8
+0x100230060      stur x26, [x8, -0x100]
+0x100230064      mov x8, -0x6666666666666667
+0x100230068      movk x8, 0x999a
+0x10023006c      movk x8, 0x3fd9, lsl 48
+0x100230070      fmov d8, x8
+0x100230074      mov x8, 0x3333333333333333
+0x100230078      movk x8, 0x3fd3, lsl 48
+0x10023007c      fmov d1, x8
+0x100230080      mov x8, x24
+0x100230084      mov v0.16b, v8.16b
+0x100230088      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023008c      movi v0.2d, 0000000000000000
+0x100230090      mov x0, x24
+
+0x10023008c      movi v0.2d, 0000000000000000
+0x100230090      mov x0, x24
+0x100230094      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100230098      mov x20, x0
+0x10023009c      ldr x25, [x23, 8]
+0x1002300a0      mov x0, x24
+0x1002300a4      mov x1, x22
+0x1002300a8      blr x25
+0x1002300ac      movi v1.2d, 0000000000000000
+0x1002300b0      mov x8, x24
+0x1002300b4      mov v0.16b, v8.16b
+0x1002300b8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002300bc      movi v0.2d, 0000000000000000
+0x1002300c0      mov x0, x24
+
+0x100230cdc      movi v2.2d, 0000000000000000
+0x100230ce0      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x100230ce4      str x0, [sp, 0x18]
+0x100230ce8      mov x8, 0x6666666666666666
+0x100230cec      movk x8, 0x3fd6, lsl 48
+0x100230cf0      fmov d0, x8
+0x100230cf4      mov x8, -0x6666666666666667
+0x100230cf8      movk x8, 0x999a
+0x100230cfc      movk x8, 0xbfc9, lsl 48
+0x100230d00      fmov d1, x8
+0x100230d04      mov x8, x26
+0x100230d08      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100230d0c      movi v0.2d, 0000000000000000
+0x100230d10      mov x0, x26
+
+0x100230f64      mov x24, x27
+0x100230f68      ldr x26, [x22, 0x148]
+0x100230f6c      ldr x27, [x22, 0x138]
+0x100230f70      mov x8, 0x6666666666666666
+0x100230f74      movk x8, 0x3fd6, lsl 48
+0x100230f78      fmov d8, x8
+0x100230f7c      mov x8, 0x3333333333333333
+0x100230f80      movk x8, 0x3fd3, lsl 48
+0x100230f84      fmov d1, x8
+0x100230f88      mov x8, x26
+0x100230f8c      mov v0.16b, v8.16b
+0x100230f90      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100230f94      movi v0.2d, 0000000000000000
+0x100230f98      mov x0, x26
+
+0x100230f9c      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100230fa0      mov x20, x0
+0x100230fa4      mov x0, x26
+0x100230fa8      mov x1, x27
+0x100230fac      blr x28
+0x100230fb0      mov x8, -0x6666666666666667
+0x100230fb4      movk x8, 0x999a
+0x100230fb8      movk x8, 0xbfc9, lsl 48
+0x100230fbc      fmov d1, x8
+0x100230fc0      mov x8, x26
+0x100230fc4      mov v0.16b, v8.16b
+0x100230fc8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100230fcc      movi v0.2d, 0000000000000000
+0x100230fd0      mov x0, x26
+
+0x1002311dc      ldp x23, x24, [x22, 0x140]
+0x1002311e0      ldr x25, [x22, 0x138]
+0x1002311e4      mov x8, -0x6666666666666667
+0x1002311e8      movk x8, 0x999a
+0x1002311ec      movk x8, 0x3fd9, lsl 48
+0x1002311f0      fmov d8, x8
+0x1002311f4      mov x8, 0x3333333333333333
+0x1002311f8      movk x8, 0x3fd3, lsl 48
+0x1002311fc      fmov d1, x8
+0x100231200      mov x8, x24
+0x100231204      mov v0.16b, v8.16b
+0x100231208      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023120c      movi v0.2d, 0000000000000000
+0x100231210      mov x0, x24
+
+0x10023120c      movi v0.2d, 0000000000000000
+0x100231210      mov x0, x24
+0x100231214      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100231218      mov x20, x0
+0x10023121c      ldr x26, [x23, 8]
+0x100231220      mov x0, x24
+0x100231224      mov x1, x25
+0x100231228      blr x26
+0x10023122c      movi v1.2d, 0000000000000000
+0x100231230      mov x8, x24
+0x100231234      mov v0.16b, v8.16b
+0x100231238      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023123c      movi v0.2d, 0000000000000000
+0x100231240      mov x0, x24
+
+0x100231684      movi v2.2d, 0000000000000000
+0x100231688      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10023168c      str x0, [sp, 0x18]
+0x100231690      mov x8, 0x6666666666666666
+0x100231694      movk x8, 0x3fd6, lsl 48
+0x100231698      fmov d0, x8
+0x10023169c      mov x8, -0x6666666666666667
+0x1002316a0      movk x8, 0x999a
+0x1002316a4      movk x8, 0xbfc9, lsl 48
+0x1002316a8      fmov d1, x8
+0x1002316ac      mov x8, x26
+0x1002316b0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002316b4      movi v0.2d, 0000000000000000
+0x1002316b8      mov x0, x26
+
+0x10023190c      mov x24, x27
+0x100231910      ldr x26, [x22, 0x148]
+0x100231914      ldr x27, [x22, 0x138]
+0x100231918      mov x8, 0x6666666666666666
+0x10023191c      movk x8, 0x3fd6, lsl 48
+0x100231920      fmov d8, x8
+0x100231924      mov x8, 0x3333333333333333
+0x100231928      movk x8, 0x3fd3, lsl 48
+0x10023192c      fmov d1, x8
+0x100231930      mov x8, x26
+0x100231934      mov v0.16b, v8.16b
+0x100231938      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023193c      movi v0.2d, 0000000000000000
+0x100231940      mov x0, x26
+
+0x100231944      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100231948      mov x20, x0
+0x10023194c      mov x0, x26
+0x100231950      mov x1, x27
+0x100231954      blr x28
+0x100231958      mov x8, -0x6666666666666667
+0x10023195c      movk x8, 0x999a
+0x100231960      movk x8, 0xbfc9, lsl 48
+0x100231964      fmov d1, x8
+0x100231968      mov x8, x26
+0x10023196c      mov v0.16b, v8.16b
+0x100231970      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100231974      movi v0.2d, 0000000000000000
+0x100231978      mov x0, x26
+
+0x100231b84      ldp x23, x24, [x22, 0x140]
+0x100231b88      ldr x25, [x22, 0x138]
+0x100231b8c      mov x8, -0x6666666666666667
+0x100231b90      movk x8, 0x999a
+0x100231b94      movk x8, 0x3fd9, lsl 48
+0x100231b98      fmov d8, x8
+0x100231b9c      mov x8, 0x3333333333333333
+0x100231ba0      movk x8, 0x3fd3, lsl 48
+0x100231ba4      fmov d1, x8
+0x100231ba8      mov x8, x24
+0x100231bac      mov v0.16b, v8.16b
+0x100231bb0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100231bb4      movi v0.2d, 0000000000000000
+0x100231bb8      mov x0, x24
+
+0x100231bb4      movi v0.2d, 0000000000000000
+0x100231bb8      mov x0, x24
+0x100231bbc      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100231bc0      mov x20, x0
+0x100231bc4      ldr x26, [x23, 8]
+0x100231bc8      mov x0, x24
+0x100231bcc      mov x1, x25
+0x100231bd0      blr x26
+0x100231bd4      movi v1.2d, 0000000000000000
+0x100231bd8      mov x8, x24
+0x100231bdc      mov v0.16b, v8.16b
+0x100231be0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100231be4      movi v0.2d, 0000000000000000
+0x100231be8      mov x0, x24
+
+0x10023244c      ldp x25, x19, [x22, 0x40]
+0x100232450      ldr x23, [x22, 0x38]
+0x100232454      mov x8, -0x3333333333333334
+0x100232458      movk x8, 0xcccd
+0x10023245c      movk x8, 0x3fdc, lsl 48
+0x100232460      fmov d0, x8
+0x100232464      mov x8, -0x6666666666666667
+0x100232468      movk x8, 0x999a
+0x10023246c      movk x8, 0x3fd9, lsl 48
+0x100232470      fmov d1, x8
+0x100232474      mov x8, x19
+0x100232478      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023247c      movi v0.2d, 0000000000000000
+0x100232480      mov x0, x19
+
+0x100232568      ldp x24, x19, [x22, 0x40]
+0x10023256c      ldr x21, [x22, 0x38]
+0x100232570      mov x8, -0x3333333333333334
+0x100232574      movk x8, 0xcccd
+0x100232578      movk x8, 0x3fdc, lsl 48
+0x10023257c      fmov d0, x8
+0x100232580      mov x8, -0x6666666666666667
+0x100232584      movk x8, 0x999a
+0x100232588      movk x8, 0x3fd9, lsl 48
+0x10023258c      fmov d1, x8
+0x100232590      mov x8, x19
+0x100232594      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100232598      movi v0.2d, 0000000000000000
+0x10023259c      mov x0, x19
+
+0x100235614      mov x28, x27
+0x100235618      mov x8, -0x6666666666666667
+0x10023561c      movk x8, 0x999a
+0x100235620      movk x8, 0x3fc9, lsl 48
+0x100235624      fmov d8, x8
+0x100235628      mov x8, 0x3333333333333333
+0x10023562c      movk x8, 0x3fd3, lsl 48
+0x100235630      fmov d9, x8
+0x100235634      mov x8, x24
+0x100235638      mov v0.16b, v8.16b
+0x10023563c      mov v1.16b, v9.16b
+0x100235640      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100235644      movi v0.2d, 0000000000000000
+0x100235648      mov x0, x24
+
+0x100235644      movi v0.2d, 0000000000000000
+0x100235648      mov x0, x24
+0x10023564c      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x100235650      mov x20, x0
+0x100235654      ldr x22, [x22, 8]
+0x100235658      mov x0, x24
+0x10023565c      mov x1, x23
+0x100235660      blr x22
+0x100235664      mov x8, x24
+0x100235668      mov v0.16b, v8.16b
+0x10023566c      mov v1.16b, v9.16b
+0x100235670      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100235674      movi v0.2d, 0000000000000000
+0x100235678      mov x0, x24
+
+0x100235ac4      mov x0, x22
+0x100235ac8      bl sym.imp.swift_release
+0x100235acc      strb w21, [x20, x19]
+0x100235ad0      b 0x100235b50
+0x100235ad4      mov x8, 0x3333333333333333
+0x100235ad8      movk x8, 0x3fd3, lsl 48
+0x100235adc      fmov d0, x8
+0x100235ae0      mov x8, 0x6666666666666666
+0x100235ae4      movk x8, 0x3fd6, lsl 48
+0x100235ae8      fmov d1, x8
+0x100235aec      mov x8, x24
+0x100235af0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100235af4      movi v0.2d, 0000000000000000
+0x100235af8      mov x0, x24
+
+0x10023c220      fmov d1, 1.00000000
+0x10023c224      movi v2.2d, 0000000000000000
+0x10023c228      mov v0.16b, v9.16b
+0x10023c22c      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10023c230      sub x8, x29, 0x20
+0x10023c234      stur x0, [x8, -0x100]
+0x10023c238      sub x8, x29, 0x98
+0x10023c23c      ldur x20, [x8, -0x100]
+0x10023c240      mov x8, x20
+0x10023c244      mov v0.16b, v8.16b
+0x10023c248      mov v1.16b, v11.16b
+0x10023c24c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023c250      movi v0.2d, 0000000000000000
+0x10023c254      mov x0, x20
+
+0x10023e2a8      movi v2.2d, 0000000000000000
+0x10023e2ac      sub x8, x29, 0x80
+0x10023e2b0      ldur d0, [x8, -0x100]
+0x10023e2b4      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x10023e2b8      sub x8, x29, 0x48
+0x10023e2bc      stur x0, [x8, -0x100]
+0x10023e2c0      sub x8, x29, 0x58
+0x10023e2c4      ldur x20, [x8, -0x100]
+0x10023e2c8      mov x8, x20
+0x10023e2cc      mov v0.16b, v8.16b
+0x10023e2d0      mov v1.16b, v9.16b
+0x10023e2d4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023e2d8      movi v0.2d, 0000000000000000
+0x10023e2dc      mov x0, x20
+
+0x10023e568      adrp x8, field.class.Alcove.MissionControlManager.var.cancellables
+0x10023e56c      ldr x8, [x8, 0xdb8]
+0x10023e570      ldrb w8, [x22, x8]
+0x10023e574      cmp w8, 1
+0x10023e578      b.ne 0x10023e7e8
+0x10023e57c      sub x8, x29, 0x58
+0x10023e580      ldur x19, [x8, -0x100]
+0x10023e584      mov x8, x19
+0x10023e588      mov v0.16b, v8.16b
+0x10023e58c      sub x9, x29, 0x90
+0x10023e590      ldur d1, [x9, -0x100]
+0x10023e594      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023e598      movi v0.2d, 0000000000000000
+0x10023e59c      mov x0, x19
+
+0x10023e594      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023e598      movi v0.2d, 0000000000000000
+0x10023e59c      mov x0, x19
+0x10023e5a0      bl sym.imp.SwiftUI.Animation.spring.blendDuration.Spring...V_SdtFZ
+0x10023e5a4      mov x25, x0
+0x10023e5a8      mov x0, x19
+0x10023e5ac      mov x1, x26
+0x10023e5b0      blr x28
+0x10023e5b4      mov x8, x19
+0x10023e5b8      mov v0.16b, v8.16b
+0x10023e5bc      mov v1.16b, v9.16b
+0x10023e5c0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10023e5c4      movi v0.2d, 0000000000000000
+0x10023e5c8      mov x0, x19
+
+0x100242024      fmov d1, 1.00000000
+0x100242028      movi v2.2d, 0000000000000000
+0x10024202c      mov v0.16b, v9.16b
+0x100242030      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x100242034      sub x8, x29, 0x60
+0x100242038      stur x0, [x8, -0x100]
+0x10024203c      sub x8, x29, 0x50
+0x100242040      ldur x20, [x8, -0x100]
+0x100242044      mov x8, x20
+0x100242048      mov v0.16b, v8.16b
+0x10024204c      mov v1.16b, v10.16b
+0x100242050      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100242054      movi v0.2d, 0000000000000000
+0x100242058      mov x0, x20
+
+0x1002422e8      ldr x8, [x8, 0xdb8]
+0x1002422ec      ldrb w8, [x22, x8]
+0x1002422f0      cmp w8, 1
+0x1002422f4      b.ne 0x100241e20
+0x1002422f8      mov x27, x23
+0x1002422fc      sub x8, x29, 0x50
+0x100242300      ldur x20, [x8, -0x100]
+0x100242304      mov x8, x20
+0x100242308      mov v0.16b, v8.16b
+0x10024230c      sub x9, x29, 0xb8
+0x100242310      ldur d1, [x9, -0x100]
+0x100242314      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100242318      movi v0.2d, 0000000000000000
+0x10024231c      mov x0, x20
+
+0x100242328      stur x0, [x8, -0x100]
+0x10024232c      mov x0, x20
+0x100242330      sub x8, x29, 0x48
+0x100242334      ldur x19, [x8, -0x100]
+0x100242338      mov x1, x19
+0x10024233c      sub x8, x29, 0x90
+0x100242340      ldur x23, [x8, -0x100]
+0x100242344      blr x23
+0x100242348      mov x8, x20
+0x10024234c      mov v0.16b, v8.16b
+0x100242350      mov v1.16b, v10.16b
+0x100242354      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100242358      movi v0.2d, 0000000000000000
+0x10024235c      mov x0, x20
+
+0x100243000      tbz w8, 0, 0x100242f1c
+0x100243004      fmov d1, 1.00000000
+0x100243008      movi v2.2d, 0000000000000000
+0x10024300c      mov v0.16b, v9.16b
+0x100243010      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x100243014      stur x0, [x29, -0x100]
+0x100243018      sub x8, x29, 0x60
+0x10024301c      ldur x19, [x8, -0x100]
+0x100243020      mov x8, x19
+0x100243024      mov v0.16b, v8.16b
+0x100243028      mov v1.16b, v11.16b
+0x10024302c      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100243030      movi v0.2d, 0000000000000000
+0x100243034      mov x0, x19
+
+0x1002440b8      ldur x8, [x29, -0xb8]
+0x1002440bc      cbz x8, 0x10024410c
+0x1002440c0      mov x0, x25
+0x1002440c4      ldur x1, [x29, -0xa8]
+0x1002440c8      bl sym.imp._ArrayBuffer._getElementSlowPath...s5
+0x1002440cc      mov x28, x0
+0x1002440d0      ldur w8, [x29, -0x8c]
+0x1002440d4      tbz w8, 0, 0x100244128
+0x1002440d8      mov x8, x24
+0x1002440dc      mov v0.16b, v8.16b
+0x1002440e0      mov v1.16b, v11.16b
+0x1002440e4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002440e8      movi v0.2d, 0000000000000000
+0x1002440ec      mov x0, x24
+
+0x10024411c      bl sym.imp.swift_retain
+0x100244120      ldur w8, [x29, -0x8c]
+0x100244124      tbnz w8, 0, 0x1002440d8
+0x100244128      fmov d1, 1.00000000
+0x10024412c      movi v2.2d, 0000000000000000
+0x100244130      mov v0.16b, v10.16b
+0x100244134      bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt
+0x100244138      mov x27, x0
+0x10024413c      mov x8, x24
+0x100244140      mov v0.16b, v8.16b
+0x100244144      mov v1.16b, v9.16b
+0x100244148      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10024414c      movi v0.2d, 0000000000000000
+0x100244150      mov x0, x24
+
+0x100251590      ldrsw x8, [x0, 0x24]
+0x100251594      add x8, x28, x8
+0x100251598      stp d11, d11, [x8]
+0x10025159c      stp d8, d9, [x8, 0x10]
+0x1002515a0      mov x8, 0x6666666666666666
+0x1002515a4      movk x8, 0x3fd6, lsl 48
+0x1002515a8      fmov d0, x8
+0x1002515ac      mov x8, 0x3333333333333333
+0x1002515b0      movk x8, 0x3fd3, lsl 48
+0x1002515b4      fmov d1, x8
+0x1002515b8      mov x8, x19
+0x1002515bc      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002515c0      movi v0.2d, 0000000000000000
+0x1002515c4      mov x0, x19
+
+0x10025255c      fmov d0, 0.75000000
+0x100252560      fcsel d0, d0, d10, ne
+0x100252564      ldrsw x8, [x26, 0x24]
+0x100252568      str d0, [x25, x8]
+0x10025256c      mov x8, 0x6666666666666666
+0x100252570      movk x8, 0x3fd6, lsl 48
+0x100252574      fmov d0, x8
+0x100252578      mov x8, 0x3333333333333333
+0x10025257c      movk x8, 0x3fd3, lsl 48
+0x100252580      fmov d1, x8
+0x100252584      mov x8, x24
+0x100252588      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10025258c      movi v0.2d, 0000000000000000
+0x100252590      mov x0, x24
+
+0x100264808      add x20, x21, x8
+0x10026480c      mov x1, x25
+0x100264810      bl sym.imp.SwiftUI.LazyState.wrappedValue_...s_
+0x100264814      mov x8, 0x3333333333333333
+0x100264818      movk x8, 0x3fe3, lsl 48
+0x10026481c      fmov d0, x8
+0x100264820      mov x8, -0x6666666666666667
+0x100264824      movk x8, 0x999a
+0x100264828      movk x8, 0x3fd9, lsl 48
+0x10026482c      fmov d1, x8
+0x100264830      mov x8, x23
+0x100264834      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100264838      movi v0.2d, 0000000000000000
+0x10026483c      mov x0, x23
+
+0x100264acc      tbnz w0, 0, 0x100264b48
+0x100264ad0      ldp x24, x20, [x22, 0x38]
+0x100264ad4      ldp x25, x19, [x22, 0x28]
+0x100264ad8      mov x8, 0x3333333333333333
+0x100264adc      movk x8, 0x3fe3, lsl 48
+0x100264ae0      fmov d0, x8
+0x100264ae4      mov x8, -0x6666666666666667
+0x100264ae8      movk x8, 0x999a
+0x100264aec      movk x8, 0x3fd9, lsl 48
+0x100264af0      fmov d1, x8
+0x100264af4      mov x8, x20
+0x100264af8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100264afc      movi v0.2d, 0000000000000000
+0x100264b00      mov x0, x20
+
+0x100264bb8      tbnz w0, 0, 0x100264c38
+0x100264bbc      ldp x21, x20, [x22, 0x38]
+0x100264bc0      ldp x24, x19, [x22, 0x28]
+0x100264bc4      mov x8, 0x3333333333333333
+0x100264bc8      movk x8, 0x3fe3, lsl 48
+0x100264bcc      fmov d0, x8
+0x100264bd0      mov x8, -0x6666666666666667
+0x100264bd4      movk x8, 0x999a
+0x100264bd8      movk x8, 0x3fd9, lsl 48
+0x100264bdc      fmov d1, x8
+0x100264be0      mov x8, x20
+0x100264be4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100264be8      movi v0.2d, 0000000000000000
+0x100264bec      mov x0, x20
+
+0x100291a8c      add x3, x26, 8
+0x100291a90      bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_
+0x100291a94      mov x0, x23
+0x100291a98      bl sym.imp.swift_release
+0x100291a9c      mov x8, 0x6666666666666666
+0x100291aa0      movk x8, 0x3fd6, lsl 48
+0x100291aa4      fmov d0, x8
+0x100291aa8      mov x8, 0x3333333333333333
+0x100291aac      movk x8, 0x3fd3, lsl 48
+0x100291ab0      fmov d1, x8
+0x100291ab4      mov x8, x20
+0x100291ab8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100291abc      movi v0.2d, 0000000000000000
+0x100291ac0      mov x0, x20
+
+0x100291eac      mov x21, 0
+0x100291eb0      bl sym.imp.SwiftUI.withAnimation_...yKXEtKlF_
+0x100291eb4      mov x0, x23
+0x100291eb8      bl sym.imp.swift_release
+0x100291ebc      mov x8, 0x6666666666666666
+0x100291ec0      movk x8, 0x3fd6, lsl 48
+0x100291ec4      fmov d0, x8
+0x100291ec8      mov x8, 0x3333333333333333
+0x100291ecc      movk x8, 0x3fd3, lsl 48
+0x100291ed0      fmov d1, x8
+0x100291ed4      mov x8, x20
+0x100291ed8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100291edc      movi v0.2d, 0000000000000000
+0x100291ee0      mov x0, x20
+
+0x1002aeab4      add x20, x21, x8
+0x1002aeab8      mov x1, x25
+0x1002aeabc      bl sym.imp.SwiftUI.LazyState.wrappedValue_...s_
+0x1002aeac0      mov x8, 0x3333333333333333
+0x1002aeac4      movk x8, 0x3fe3, lsl 48
+0x1002aeac8      fmov d0, x8
+0x1002aeacc      mov x8, -0x6666666666666667
+0x1002aead0      movk x8, 0x999a
+0x1002aead4      movk x8, 0x3fd9, lsl 48
+0x1002aead8      fmov d1, x8
+0x1002aeadc      mov x8, x23
+0x1002aeae0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002aeae4      movi v0.2d, 0000000000000000
+0x1002aeae8      mov x0, x23
+
+0x1002aed78      tbnz w0, 0, 0x1002aedf4
+0x1002aed7c      ldp x24, x20, [x22, 0x38]
+0x1002aed80      ldp x25, x19, [x22, 0x28]
+0x1002aed84      mov x8, 0x3333333333333333
+0x1002aed88      movk x8, 0x3fe3, lsl 48
+0x1002aed8c      fmov d0, x8
+0x1002aed90      mov x8, -0x6666666666666667
+0x1002aed94      movk x8, 0x999a
+0x1002aed98      movk x8, 0x3fd9, lsl 48
+0x1002aed9c      fmov d1, x8
+0x1002aeda0      mov x8, x20
+0x1002aeda4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002aeda8      movi v0.2d, 0000000000000000
+0x1002aedac      mov x0, x20
+
+0x1002aee64      tbnz w0, 0, 0x1002aeee4
+0x1002aee68      ldp x21, x20, [x22, 0x38]
+0x1002aee6c      ldp x24, x19, [x22, 0x28]
+0x1002aee70      mov x8, 0x3333333333333333
+0x1002aee74      movk x8, 0x3fe3, lsl 48
+0x1002aee78      fmov d0, x8
+0x1002aee7c      mov x8, -0x6666666666666667
+0x1002aee80      movk x8, 0x999a
+0x1002aee84      movk x8, 0x3fd9, lsl 48
+0x1002aee88      fmov d1, x8
+0x1002aee8c      mov x8, x20
+0x1002aee90      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002aee94      movi v0.2d, 0000000000000000
+0x1002aee98      mov x0, x20
+
+0x1002b0d18      add x0, x0, 0x2f8
+0x1002b0d1c      mov x1, x25
+0x1002b0d20      mov x2, x21
+0x1002b0d24      bl sym.func.10000aa88
+0x1002b0d28      mov x8, -0x6666666666666667
+0x1002b0d2c      movk x8, 0x999a
+0x1002b0d30      movk x8, 0x3fd9, lsl 48
+0x1002b0d34      fmov d8, x8
+0x1002b0d38      fmov d0, 1.50000000
+0x1002b0d3c      mov x8, x23
+0x1002b0d40      mov v1.16b, v8.16b
+0x1002b0d44      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002b0d48      movi v0.2d, 0000000000000000
+0x1002b0d4c      mov x0, x23
+
+0x1002b1174      add x1, x19, 0x9a0
+0x1002b1178      mov x2, x20
+0x1002b117c      mov x3, x21
+0x1002b1180      bl sym.func.10000aac8
+0x1002b1184      add x0, x19, 0x600
+0x1002b1188      mov x1, x20
+0x1002b118c      mov x2, x21
+0x1002b1190      bl sym.func.10000aa88
+0x1002b1194      fmov d0, 1.50000000
+0x1002b1198      mov x8, x23
+0x1002b119c      mov v1.16b, v8.16b
+0x1002b11a0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002b11a4      movi v0.2d, 0000000000000000
+0x1002b11a8      mov x0, x23
+
+0x1002b2178      add x0, x0, 0x50
+0x1002b217c      mov x1, x25
+0x1002b2180      mov x2, x21
+0x1002b2184      bl sym.func.10000aa88
+0x1002b2188      mov x8, -0x6666666666666667
+0x1002b218c      movk x8, 0x999a
+0x1002b2190      movk x8, 0x3fd9, lsl 48
+0x1002b2194      fmov d8, x8
+0x1002b2198      fmov d0, 1.50000000
+0x1002b219c      mov x8, x23
+0x1002b21a0      mov v1.16b, v8.16b
+0x1002b21a4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002b21a8      movi v0.2d, 0000000000000000
+0x1002b21ac      mov x0, x23
+
+0x1002b27a8      add x1, x19, 0x8a0
+0x1002b27ac      mov x2, x20
+0x1002b27b0      mov x3, x21
+0x1002b27b4      bl sym.func.10000aac8
+0x1002b27b8      add x0, x19, 0x540
+0x1002b27bc      mov x1, x20
+0x1002b27c0      mov x2, x21
+0x1002b27c4      bl sym.func.10000aa88
+0x1002b27c8      fmov d0, 1.50000000
+0x1002b27cc      mov x8, x23
+0x1002b27d0      mov v1.16b, v8.16b
+0x1002b27d4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002b27d8      movi v0.2d, 0000000000000000
+0x1002b27dc      mov x0, x23
+
+0x1002b3d68      bl sym.func.10000aac8
+0x1002b3d6c      add x0, x19, 0x5f0
+0x1002b3d70      mov x1, x20
+0x1002b3d74      mov x2, x24
+0x1002b3d78      bl sym.func.10000aa88
+0x1002b3d7c      mov x8, -0x6666666666666667
+0x1002b3d80      movk x8, 0x999a
+0x1002b3d84      movk x8, 0x3fd9, lsl 48
+0x1002b3d88      fmov d1, x8
+0x1002b3d8c      fmov d0, 1.00000000
+0x1002b3d90      mov x8, x23
+0x1002b3d94      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002b3d98      movi v0.2d, 0000000000000000
+0x1002b3d9c      mov x0, x23
+
+0x1002c78c4      mov x9, sp
+0x1002c78c8      add x8, x8, 0xf
+0x1002c78cc      and x8, x8, 0xfffffffffffffff0
+0x1002c78d0      sub x20, x9, x8
+0x1002c78d4      mov sp, x20
+0x1002c78d8      mov x8, -0x6666666666666667
+0x1002c78dc      movk x8, 0x999a
+0x1002c78e0      movk x8, 0x3fd1, lsl 48
+0x1002c78e4      fmov d0, x8
+0x1002c78e8      fmov d1, 0.37500000
+0x1002c78ec      mov x8, x20
+0x1002c78f0      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1002c78f4      movi v0.2d, 0000000000000000
+0x1002c78f8      mov x0, x20
+
+0x100352328      mov x0, x20
+0x10035232c      bl sym.imp.swift_release
+0x100352330      mov x8, 0x6666666666666666
+0x100352334      movk x8, 0x3fd6, lsl 48
+0x100352338      fmov d0, x8
+0x10035233c      mov x8, 0x3333333333333333
+0x100352340      movk x8, 0x3fd3, lsl 48
+0x100352344      fmov d1, x8
+0x100352348      sub x8, x29, 0x10
+0x10035234c      ldur x24, [x8, -0x100]
+0x100352350      mov x8, x24
+0x100352354      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100352358      movi v0.2d, 0000000000000000
+0x10035235c      mov x0, x24
+
+0x10036516c      strb w26, [x19, x24]
+0x100365170      ands w25, w20, 1
+0x100365174      mov x8, -0x6666666666666667
+0x100365178      movk x8, 0x3fc9, lsl 48
+0x10036517c      fmov d0, x8
+0x100365180      fmov d1, 0.25000000
+0x100365184      fcsel d1, d1, d0, ne
+0x100365188      mov x8, 0x3333333333333333
+0x10036518c      movk x8, 0x3fd3, lsl 48
+0x100365190      fmov d0, x8
+0x100365194      mov x8, x23
+0x100365198      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10036519c      movi v0.2d, 0000000000000000
+0x1003651a0      mov x0, x23
+
+0x100365cc8      bl 0x100452380
+0x100365ccc      cmp w22, 0
+0x100365cd0      mov x8, -0x6666666666666667
+0x100365cd4      movk x8, 0x3fc9, lsl 48
+0x100365cd8      fmov d0, x8
+0x100365cdc      fmov d1, 0.25000000
+0x100365ce0      fcsel d1, d1, d0, ne
+0x100365ce4      mov x8, 0x3333333333333333
+0x100365ce8      movk x8, 0x3fd3, lsl 48
+0x100365cec      fmov d0, x8
+0x100365cf0      mov x8, x21
+0x100365cf4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100365cf8      movi v0.2d, 0000000000000000
+0x100365cfc      mov x0, x21
+
+0x100365da8      bl 0x100452360
+0x100365dac      tst w25, 1
+0x100365db0      mov x8, -0x6666666666666667
+0x100365db4      movk x8, 0x3fc9, lsl 48
+0x100365db8      fmov d0, x8
+0x100365dbc      fmov d1, 0.25000000
+0x100365dc0      fcsel d1, d1, d0, ne
+0x100365dc4      mov x8, 0x3333333333333333
+0x100365dc8      movk x8, 0x3fd3, lsl 48
+0x100365dcc      fmov d0, x8
+0x100365dd0      mov x8, x22
+0x100365dd4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100365dd8      movi v0.2d, 0000000000000000
+0x100365ddc      mov x0, x22
+
+0x100366298      bl 0x1004523c0
+0x10036629c      cmp w24, 0
+0x1003662a0      mov x8, -0x6666666666666667
+0x1003662a4      movk x8, 0x3fc9, lsl 48
+0x1003662a8      fmov d0, x8
+0x1003662ac      fmov d1, 0.25000000
+0x1003662b0      fcsel d1, d0, d1, ne
+0x1003662b4      mov x8, 0x3333333333333333
+0x1003662b8      movk x8, 0x3fd3, lsl 48
+0x1003662bc      fmov d0, x8
+0x1003662c0      mov x8, x23
+0x1003662c4      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1003662c8      movi v0.2d, 0000000000000000
+0x1003662cc      mov x0, x23
+
+0x100366324      mov w25, 0
+0x100366328      mov w24, 1
+0x10036632c      mov x8, -0x6666666666666667
+0x100366330      movk x8, 0x3fc9, lsl 48
+0x100366334      fmov d1, x8
+0x100366338      mov w27, 1
+0x10036633c      strb w27, [x20, x26]
+0x100366340      mov x8, 0x3333333333333333
+0x100366344      movk x8, 0x3fd3, lsl 48
+0x100366348      fmov d0, x8
+0x10036634c      mov x8, x22
+0x100366350      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x100366354      movi v0.2d, 0000000000000000
+0x100366358      mov x0, x22
+
+0x1003674cc      sub x8, x29, 8
+0x1003674d0      stur x19, [x8, -0x100]
+0x1003674d4      stur x24, [x29, -0x100]
+0x1003674d8      mov x8, 0x3333333333333333
+0x1003674dc      movk x8, 0x3fe3, lsl 48
+0x1003674e0      fmov d0, x8
+0x1003674e4      mov x8, -0x6666666666666667
+0x1003674e8      movk x8, 0x999a
+0x1003674ec      movk x8, 0x3fd9, lsl 48
+0x1003674f0      fmov d1, x8
+0x1003674f4      mov x8, x27
+0x1003674f8      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x1003674fc      movi v0.2d, 0000000000000000
+0x100367500      mov x0, x27
+
+0x10038a0fc      ldr x24, [x22, 0x50]
+0x10038a100      ands w25, w8, 1
+0x10038a104      mov x8, -0x6666666666666667
+0x10038a108      movk x8, 0x3fc9, lsl 48
+0x10038a10c      fmov d0, x8
+0x10038a110      fmov d1, 0.25000000
+0x10038a114      fcsel d1, d1, d0, ne
+0x10038a118      mov x8, 0x3333333333333333
+0x10038a11c      movk x8, 0x3fd3, lsl 48
+0x10038a120      fmov d0, x8
+0x10038a124      mov x8, x20
+0x10038a128      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10038a12c      movi v0.2d, 0000000000000000
+0x10038a130      mov x0, x20
+
+0x10038a1e4      bl sym.imp.swift_release
+0x10038a1e8      ands w21, w21, 1
+0x10038a1ec      mov x8, -0x6666666666666667
+0x10038a1f0      movk x8, 0x3fc9, lsl 48
+0x10038a1f4      fmov d0, x8
+0x10038a1f8      fmov d1, 0.25000000
+0x10038a1fc      fcsel d1, d1, d0, ne
+0x10038a200      mov x8, 0x3333333333333333
+0x10038a204      movk x8, 0x3fd3, lsl 48
+0x10038a208      fmov d0, x8
+0x10038a20c      mov x8, x20
+0x10038a210      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10038a214      movi v0.2d, 0000000000000000
+0x10038a218      mov x0, x20
+
+0x10038adc0      cmp w9, w8
+0x10038adc4      cset w27, ne
+0x10038adc8      mov x8, -0x6666666666666667
+0x10038adcc      movk x8, 0x3fc9, lsl 48
+0x10038add0      fmov d0, x8
+0x10038add4      fmov d1, 0.25000000
+0x10038add8      fcsel d1, d1, d0, ne
+0x10038addc      mov x8, 0x3333333333333333
+0x10038ade0      movk x8, 0x3fd3, lsl 48
+0x10038ade4      fmov d0, x8
+0x10038ade8      mov x8, x23
+0x10038adec      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10038adf0      movi v0.2d, 0000000000000000
+0x10038adf4      mov x0, x23
+
+0x10038af04      and w9, w24, 1
+0x10038af08      cmp w8, 3
+0x10038af0c      csel w8, w9, w8, eq
+0x10038af10      ands w8, w8, 0xff
+0x10038af14      cset w26, ne
+0x10038af18      cmp w8, 2
+0x10038af1c      cset w27, eq
+0x10038af20      mov x8, 0x3333333333333333
+0x10038af24      movk x8, 0x3fd3, lsl 48
+0x10038af28      fmov d0, x8
+0x10038af2c      mov x8, x23
+0x10038af30      bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_
+0x10038af34      movi v0.2d, 0000000000000000
+0x10038af38      mov x0, x23
+
+0x1001ea3f8      mov x0, x26
+0x1001ea3fc      mov x2, x28
+0x1001ea400      bl sym.func.10003dbdc
+0x1001ea404      bl sym.func.1001fc018
+0x1001ea408      mov x3, x0
+0x1001ea40c      adrp x0, sym.func.1001fc000
+0x1001ea410      add x0, x0, 4
+0x1001ea414      sub x8, x29, 0x68
+0x1001ea418      ldur x21, [x8, -0x100]
+0x1001ea41c      mov x8, x21
+0x1001ea420      mov x1, x19
+0x1001ea424      sub x9, x29, 0x80
+0x1001ea428      ldur x2, [x9, -0x100]
+0x1001ea42c      mov x20, x22
+
+0x1002bf338      sub x8, x29, 0x58
+0x1002bf33c      ldur x19, [x8, -0x100]
+0x1002bf340      str x19, [x22, x21]
+0x1002bf344      adrp x0, 0x1002c3000
+0x1002bf348      add x0, x0, 0xf4c
+0x1002bf34c      sub x8, x29, 0x68
+0x1002bf350      ldur x8, [x8, -0x100]
+0x1002bf354      mov x1, x22
+0x1002bf358      sub x9, x29, 0x158
+0x1002bf35c      ldur x21, [x9, -0x100]
+0x1002bf360      mov x2, x21
+0x1002bf364      sub x9, x29, 0x118
+0x1002bf368      ldur x3, [x9, -0x100]
+0x1002bf36c      mov x20, x25

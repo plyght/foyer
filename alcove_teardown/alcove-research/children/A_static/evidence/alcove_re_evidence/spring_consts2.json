@@ -1,0 +1,1361 @@
+[
+{
+"tag": "spring",
+"fn": "sym.func.10000af24",
+"addr": "0x10000b0bc",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?fcsel",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10000b6f4",
+"addr": "0x10000b770",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10000b6f4",
+"addr": "0x10000b84c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10002bf1c",
+"addr": "0x10002c1cc",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10002bf1c",
+"addr": "0x10002c208",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10009aee0",
+"addr": "0x10009bcd4",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10009aee0",
+"addr": "0x10009bd70",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10009aee0",
+"addr": "0x10009c98c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10009aee0",
+"addr": "0x10009c9cc",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000ba2dc",
+"addr": "0x1000ba908",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": 0.3,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000ba2dc",
+"addr": "0x1000bae58",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000ba2dc",
+"addr": "0x1000bb01c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000bc94c",
+"addr": "0x1000bcb34",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000bc94c",
+"addr": "0x1000bcb5c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c0c38",
+"addr": "0x1000c10e8",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c0c38",
+"addr": "0x1000c11a8",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c2134",
+"addr": "0x1000c2a64",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c2134",
+"addr": "0x1000c2a9c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c2134",
+"addr": "0x1000c2f70",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c2134",
+"addr": "0x1000c2fa8",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c2134",
+"addr": "0x1000c342c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": 0.4,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c5004",
+"addr": "0x1000c5678",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": 0.4,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c5d84",
+"addr": "0x1000c6018",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c5d84",
+"addr": "0x1000c6068",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c5d84",
+"addr": "0x1000c60e0",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c5d84",
+"addr": "0x1000c6174",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c7620",
+"addr": "0x1000c77f4",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000c7620",
+"addr": "0x1000c7810",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000dc610",
+"addr": "0x1000dca3c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000dc610",
+"addr": "0x1000dcab0",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000dc610",
+"addr": "0x1000dcb88",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000dc610",
+"addr": "0x1000dcc00",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000def5c",
+"addr": "0x1000df724",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000def5c",
+"addr": "0x1000df784",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000def5c",
+"addr": "0x1000dfb0c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000def5c",
+"addr": "0x1000dfb64",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1000e0394",
+"addr": "0x1000e0904",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?fcsel",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10013cae0",
+"addr": "0x10013d670",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10013cae0",
+"addr": "0x10013d74c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001732d8",
+"addr": "0x1001733c8",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001732d8",
+"addr": "0x100173400",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.100179b48",
+"addr": "0x100179d14",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.100179b48",
+"addr": "0x100179dec",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.100179b48",
+"addr": "0x100179e84",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.100179b48",
+"addr": "0x100179f60",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.100195738",
+"addr": "0x100195858",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.100195738",
+"addr": "0x1001958a8",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.100195738",
+"addr": "0x1001958e0",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001c0a20",
+"addr": "0x1001c0a40",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001c2710",
+"addr": "0x1001c27d4",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001c2870",
+"addr": "0x1001c2948",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001c2e10",
+"addr": "0x1001c2eec",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001c8080",
+"addr": "0x1001c80b8",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001c9350",
+"addr": "0x1001c9414",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001cdbc8",
+"addr": "0x1001cdf50",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001cdbc8",
+"addr": "0x1001ce0e8",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001ec300",
+"addr": "0x1001ec7dc",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001ec300",
+"addr": "0x1001ec8bc",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001ef310",
+"addr": "0x1001efd5c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001ef310",
+"addr": "0x1001efdd4",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001f2ed8",
+"addr": "0x1001f3468",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1001f2ed8",
+"addr": "0x1001f3550",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10020a3e4",
+"addr": "0x10020a5f0",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10020a3e4",
+"addr": "0x10020a6f0",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10021c974",
+"addr": "0x10021cca0",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10021c974",
+"addr": "0x10021d9f4",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10021e724",
+"addr": "0x10021e84c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?fadd",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10021f344",
+"addr": "0x10021f468",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?fadd",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.100225730",
+"addr": "0x1002269bc",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.10023b888",
+"addr": "0x10023c22c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1002416f0",
+"addr": "0x100242030",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.100242abc",
+"addr": "0x100243010",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": null,
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.100243a7c",
+"addr": "0x100244134",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1002a1e04",
+"addr": "0x1002a2048",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1002a1e04",
+"addr": "0x1002a20cc",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1002a2178",
+"addr": "0x1002a22cc",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1002a2178",
+"addr": "0x1002a2334",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1002a35b0",
+"addr": "0x1002a376c",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1002a35b0",
+"addr": "0x1002a37b4",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1002a385c",
+"addr": "0x1002a39c8",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "spring",
+"fn": "sym.func.1002a385c",
+"addr": "0x1002a3a30",
+"call": "bl sym.imp.SwiftUI.Animation.spring.response.dampingFraction.blendDuration.dt",
+"d0": "?call",
+"d1": 1.0,
+"d2": 0.0
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1000d09f0",
+"addr": "0x1000d1960",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.4,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001c2710",
+"addr": "0x1001c2778",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.4,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001c2870",
+"addr": "0x1001c28e8",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.4,
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001c2e10",
+"addr": "0x1001c2e8c",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.4,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001c7e04",
+"addr": "0x1001c7e54",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001c7e04",
+"addr": "0x1001c7e84",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.0,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001c869c",
+"addr": "0x1001c8708",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001c869c",
+"addr": "0x1001c8738",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.0,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001c869c",
+"addr": "0x1001c8ba4",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001c869c",
+"addr": "0x1001c8be0",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": -0.2,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001c9350",
+"addr": "0x1001c93b4",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.4,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001e12e4",
+"addr": "0x1001e1384",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.35,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001e14d4",
+"addr": "0x1001e1540",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.325,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001e14d4",
+"addr": "0x1001e1598",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.25,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001e161c",
+"addr": "0x1001e169c",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.325,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001e161c",
+"addr": "0x1001e16f8",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.25,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001edb2c",
+"addr": "0x1001edf8c",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.375,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001edb2c",
+"addr": "0x1001ee15c",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.375,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1001f1944",
+"addr": "0x1001f26b8",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.4,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10021a830",
+"addr": "0x10021aa18",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": 0.3,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10021ba1c",
+"addr": "0x10021bd40",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": 0.35,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10021c974",
+"addr": "0x10021dc34",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.3,
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10021c974",
+"addr": "0x10021dc68",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.0,
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10021e724",
+"addr": "0x10021e800",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10021f344",
+"addr": "0x10021f490",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": -0.2,
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10021f344",
+"addr": "0x10021fa20",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10021f344",
+"addr": "0x10021fa6c",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": -0.2,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10021f344",
+"addr": "0x10021ffd0",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10021f344",
+"addr": "0x10022001c",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": -0.2,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100223660",
+"addr": "0x100223964",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": 0.35,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100224c88",
+"addr": "0x100225144",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100224c88",
+"addr": "0x100225190",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": -0.2,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100225730",
+"addr": "0x100225a90",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": -0.2,
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100225730",
+"addr": "0x10022665c",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100225730",
+"addr": "0x1002266a8",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": -0.2,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100225730",
+"addr": "0x1002269e8",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": -0.2,
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100225730",
+"addr": "0x100227100",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100225730",
+"addr": "0x10022714c",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": -0.2,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10022d078",
+"addr": "0x10022d184",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10022d078",
+"addr": "0x10022d1b4",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.0,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10022d348",
+"addr": "0x10022d460",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10022d348",
+"addr": "0x10022d490",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.0,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10022f8b0",
+"addr": "0x10022fec0",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10022f8b0",
+"addr": "0x10022ff00",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": -0.2,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10022f8b0",
+"addr": "0x100230088",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10022f8b0",
+"addr": "0x1002300b8",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.0,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100230aa0",
+"addr": "0x100230f90",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100230aa0",
+"addr": "0x100230fc8",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": -0.2,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100230aa0",
+"addr": "0x100231208",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100230aa0",
+"addr": "0x100231238",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.0,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100231430",
+"addr": "0x100231938",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100231430",
+"addr": "0x100231970",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": -0.2,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100231430",
+"addr": "0x100231bb0",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": 0.3,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100231430",
+"addr": "0x100231be0",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": 0.0,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100235270",
+"addr": "0x100235640",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100235270",
+"addr": "0x100235670",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": null,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10023b888",
+"addr": "0x10023c24c",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10023de08",
+"addr": "0x10023e2d4",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10023de08",
+"addr": "0x10023e594",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": "?ldur",
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.10023de08",
+"addr": "0x10023e5c0",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1002416f0",
+"addr": "0x100242050",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1002416f0",
+"addr": "0x100242314",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": "?ldur",
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1002416f0",
+"addr": "0x100242354",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100242abc",
+"addr": "0x10024302c",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": null,
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100243a7c",
+"addr": "0x1002440e4",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": "?call",
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.100243a7c",
+"addr": "0x100244148",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": "?call",
+"d1": "?call",
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1002b0630",
+"addr": "0x1002b0d44",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": 1.5,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1002b0630",
+"addr": "0x1002b11a0",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": 1.5,
+"d1": null,
+"d2": "?call"
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1002b1b54",
+"addr": "0x1002b21a4",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": 1.5,
+"d1": null,
+"d2": null
+},
+{
+"tag": "Spring",
+"fn": "sym.func.1002b1b54",
+"addr": "0x1002b27d4",
+"call": "bl sym.imp.SwiftUI.Spring.duration.bounce_...dtcfC_",
+"d0": 1.5,
+"d1": null,
+"d2": "?call"
+}
+]

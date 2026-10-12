@@ -1,0 +1,1217 @@
+[
+{
+"fn": "sym.func.100021f2c",
+"key": null,
+"closure": null,
+"default": null
+},
+{
+"fn": "sym.func.1003315fc",
+"key": "INLINE:isFirstLaunch",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003318d0",
+"key": "INLINE:licenseName",
+"closure": null,
+"default": [
+"stp",
+0
+]
+},
+{
+"fn": "sym.func.1003319d0",
+"key": "?stp 6974617669746361 0",
+"closure": null,
+"default": [
+"str",
+0
+]
+},
+{
+"fn": "sym.func.100331a84",
+"key": "INLINE:launchAtLogin",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100331d54",
+"key": "INLINE:hideMenuBarIcon",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100332024",
+"key": "hideFromScreenCapture",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.1003322ec",
+"key": "forceSimulatedNotch",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.1003325b4",
+"key": "hideWhileInMissionControl",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100332880",
+"key": "INLINE:showOnDisplay",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100332ae0",
+"key": "showOnDisplayUUID",
+"closure": "0x10034bf24",
+"default": [
+"stp",
+0
+]
+},
+{
+"fn": "sym.func.100332b8c",
+"key": "showOnDisplayName",
+"closure": "0x10034de3c",
+"default": [
+"stp",
+0
+]
+},
+{
+"fn": "sym.func.100332e4c",
+"key": "showOnDisplaySymbol",
+"closure": "0x10034caf8",
+"default": [
+"stp",
+34165590552963428
+]
+},
+{
+"fn": "sym.func.10033311c",
+"key": "showRemainingTime",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003333e8",
+"key": "INLINE:contrastOutline",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003336bc",
+"key": "INLINE:progressiveBlur",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100333990",
+"key": "mostRecentActivity",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100333c58",
+"key": "INLINE:idleActivity",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100333eb4",
+"key": "forceEnableActivity",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033417c",
+"key": "INLINE:enableHaptics",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100334450",
+"key": "expandNotchOnHover",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100334718",
+"key": "INLINE:hoverDuration",
+"closure": "0x10034de44",
+"default": [
+"str",
+0
+]
+},
+{
+"fn": "sym.func.1003349e8",
+"key": "INLINE:naturalMovement",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100334cb8",
+"key": "INLINE:swipeToToggle",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100334f8c",
+"key": "swipeToCycleActivity",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100335258",
+"key": "INLINE:swipeToDismiss",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033552c",
+"key": "INLINE:swipeToSkip",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003357fc",
+"key": "notchAdjustedWidth",
+"closure": "0x10034de44",
+"default": [
+"str",
+0
+]
+},
+{
+"fn": "sym.func.100335ac4",
+"key": "notchAdjustedHeight",
+"closure": "0x10034de44",
+"default": [
+"str",
+0
+]
+},
+{
+"fn": "sym.func.100335d8c",
+"key": "INLINE:enableBattery",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100336060",
+"key": "INLINE:batteryDuration",
+"closure": "0x10034de44",
+"default": [
+"str",
+4617315517961601024
+]
+},
+{
+"fn": "sym.func.100336334",
+"key": "notifyOnLowPowerMode",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100336600",
+"key": "warnOnLowBattery",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003368cc",
+"key": "lowBatteryThreshold",
+"closure": "0x10034bee4",
+"default": [
+"str",
+4621819117588971520
+]
+},
+{
+"fn": "sym.func.100336b98",
+"key": "hideBatteryLabel",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100336e60",
+"key": "hideBatteryPercentage",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100337128",
+"key": "playSoundOnLowBattery",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003373f4",
+"key": "enableConnectivity",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003376c0",
+"key": "hasPromptedBluetoothPermission",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100337988",
+"key": "connectivityDuration",
+"closure": "0x10034de44",
+"default": [
+"str",
+4617315517961601024
+]
+},
+{
+"fn": "sym.func.100337c54",
+"key": "warnOnLowConnectBattery",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100337f1c",
+"key": "lowConnectBatteryThreshold",
+"closure": "0x10034de44",
+"default": [
+"str",
+4626322717216342016
+]
+},
+{
+"fn": "sym.func.1003381e8",
+"key": "playSoundOnLowConnectBattery",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.1003384b0",
+"key": "connectivityModel",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100338704",
+"key": "INLINE:enableFocus",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003389d4",
+"key": "INLINE:focusDuration",
+"closure": "0x10034de44",
+"default": [
+"str",
+4617315517961601024
+]
+},
+{
+"fn": "sym.func.100338ca8",
+"key": "playSoundOnSleepFocus",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100338f70",
+"key": "replaceWaveformDuringFocus",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100339238",
+"key": "replaceWaveformDuringFocusModeIdentifier",
+"closure": null,
+"default": [
+"stp",
+0
+]
+},
+{
+"fn": "sym.func.1003392e4",
+"key": "INLINE:hideLabel",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.1003395ac",
+"key": "allowBatteryWhenFocused",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100339878",
+"key": "allowConnectivityWhenFocused",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100339b44",
+"key": "allowBrightnessWhenFocused",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100339e10",
+"key": "allowVolumeWhenFocused",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033a0dc",
+"key": "enableBrightness",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033a3a4",
+"key": "hasPromptedAccessibilityPermission",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033a66c",
+"key": "brightnessDuration",
+"closure": "0x10034de44",
+"default": [
+"str",
+4609434218613702656
+]
+},
+{
+"fn": "sym.func.10033a938",
+"key": "brightnessProgressStyle",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033ab8c",
+"key": "INLINE:brightnessSpeed",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033adec",
+"key": "showBrightnessPercentage",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033b0b4",
+"key": "hideBrightnessLabel",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033b37c",
+"key": "INLINE:enableVolume",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033b648",
+"key": "volumeOutputDevice",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033b8a0",
+"key": "INLINE:volumeDuration",
+"closure": "0x10034de44",
+"default": [
+"str",
+4609434218613702656
+]
+},
+{
+"fn": "sym.func.10033bb74",
+"key": "volumeProgressStyle",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033bdc8",
+"key": "INLINE:volumeSpeed",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033c024",
+"key": "showVolumePercentage",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033c2ec",
+"key": "INLINE:hideVolumeLabel",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033c5bc",
+"key": "enableNowPlaying",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033c888",
+"key": "INLINE:idleDuration",
+"closure": "0x10034de44",
+"default": [
+"str",
+4613937818241073152
+]
+},
+{
+"fn": "sym.func.10033cb58",
+"key": "INLINE:useLiveWaveform",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033ce28",
+"key": "hasPromptedAudioPermission",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033d0f0",
+"key": "INLINE:disableWaveform",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033d3c0",
+"key": "INLINE:progressStyle",
+"closure": "0x10034bd94",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033d61c",
+"key": "disableAlbumArtFlip",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033d8e4",
+"key": "hideWhileSourceIsActive",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033dbac",
+"key": "hideWhileInFullscreen",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033de78",
+"key": "INLINE:hideWhileGaming",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033e148",
+"key": "INLINE:songTitleBadge",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033e3a8",
+"key": "hideSongTitleExtras",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033e670",
+"key": "INLINE:controlChoice",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033e8d0",
+"key": "automaticMusicApp",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033eb9c",
+"key": "INLINE:musicApp",
+"closure": "0x10034de34",
+"default": [
+"strb",
+2
+]
+},
+{
+"fn": "sym.func.10033edf0",
+"key": "INLINE:enableQuickPeek",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033f0c4",
+"key": "INLINE:whenSongChanges",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033f398",
+"key": "INLINE:peekDuration",
+"closure": "0x10034de44",
+"default": [
+"str",
+4611686018427387904
+]
+},
+{
+"fn": "sym.func.10033f668",
+"key": "INLINE:enableCalendar",
+"closure": "0x10034bd94",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10033f938",
+"key": "INLINE:timeBeforeEvent",
+"closure": "0x10034de44",
+"default": [
+"str",
+4624633867356078080
+]
+},
+{
+"fn": "sym.func.10033fc0c",
+"key": "playSoundOnCalendarEvent",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10033fed8",
+"key": "useCalendarColor",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.1003401a0",
+"key": "disableActivityDuringEvents",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100340468",
+"key": "showWeatherOnEmptyDay",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100340730",
+"key": "useEventIndicators",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.1003409f8",
+"key": "alwaysShowMonthView",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100340cc0",
+"key": "INLINE:playHourlyChime",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100340f90",
+"key": "notifyWhenTimeToLeave",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100341258",
+"key": "timeToLeaveBuffer",
+"closure": "0x10034de44",
+"default": [
+"str",
+4621819117588971520
+]
+},
+{
+"fn": "sym.func.100341524",
+"key": "timeToLeaveDuration",
+"closure": "0x10034de44",
+"default": [
+"str",
+4620693217682128896
+]
+},
+{
+"fn": "sym.func.1003417f0",
+"key": "playSoundOnTimeToLeave",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100341abc",
+"key": "defaultTransportType",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100341d10",
+"key": "excludedCalendars",
+"closure": "0x10034de10",
+"default": [
+"str",
+"?x21"
+]
+},
+{
+"fn": "sym.func.100341fdc",
+"key": "calendarDisplayModes",
+"closure": "0x10034caec",
+"default": [
+"str",
+"?x21"
+]
+},
+{
+"fn": "sym.func.1003422a8",
+"key": "enableCalendarQuickPeek",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100342574",
+"key": "beforeEventStarts",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.10034283c",
+"key": "whenEventIsStarting",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100342b08",
+"key": "calendarPeekDuration",
+"closure": "0x10034de44",
+"default": [
+"str",
+4616189618054758400
+]
+},
+{
+"fn": "sym.func.100342dd4",
+"key": "useColoredCalendarIndicator",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003430a0",
+"key": "enableLockScreen",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10034336c",
+"key": "INLINE:keepAwake",
+"closure": "0x10034de44",
+"default": [
+"str",
+0
+]
+},
+{
+"fn": "sym.func.100343634",
+"key": "showOnScreenSaver",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.1003438fc",
+"key": "INLINE:playSoundOnLock",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100343bcc",
+"key": "playSoundOnUnlock",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100343e98",
+"key": "allowBatteryWhenLocked",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100344164",
+"key": "allowConnectivityWhenLocked",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100344430",
+"key": "allowFocusWhenLocked",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003446fc",
+"key": "allowBrightnessWhenLocked",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003449c8",
+"key": "allowVolumeWhenLocked",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100344c94",
+"key": "lockScreenWidgetOrder",
+"closure": "0x10034de10",
+"default": [
+"str",
+"?x21"
+]
+},
+{
+"fn": "sym.func.100344f60",
+"key": "allowBatteryWidgetWhenLocked",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.10034522c",
+"key": "allowConnectivityWidgetWhenLocked",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003454f8",
+"key": "allowFocusWidgetWhenLocked",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003457c4",
+"key": "allowNowPlayingWidgetWhenLocked",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.100345a90",
+"key": "INLINE:nowPlayingStyle",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100345cec",
+"key": "hideIdleDuration",
+"closure": "0x10034de44",
+"default": [
+"str",
+4621819117588971520
+]
+},
+{
+"fn": "sym.func.100345fb8",
+"key": "showVolumeControl",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100346280",
+"key": "nowPlayingWidgetOffset",
+"closure": "0x10034de44",
+"default": [
+"str",
+0
+]
+},
+{
+"fn": "sym.func.100346548",
+"key": "allowCalendarWidgetWhenLocked",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100346810",
+"key": "hasPromptedCalendarPermission",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100346ad8",
+"key": "allowWeatherWidgetWhenLocked",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100346da0",
+"key": "INLINE:weatherStyle",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.100346ff8",
+"key": "hasPromptedLocationPermission",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.1003472c0",
+"key": "pendingLocationPermissionTarget",
+"closure": "0x10034bd94",
+"default": [
+"strb",
+3
+]
+},
+{
+"fn": "sym.func.100347370",
+"key": "INLINE:cachedWeather",
+"closure": "0x10034d3a4",
+"default": null
+},
+{
+"fn": "sym.func.1003474f4",
+"key": "earlyBirdUpdates",
+"closure": "0x10034de34",
+"default": [
+"strb",
+0
+]
+},
+{
+"fn": "sym.func.1003477bc",
+"key": "automaticallyCheckForUpdates",
+"closure": "0x10034de34",
+"default": [
+"strb",
+1
+]
+},
+{
+"fn": "sym.func.1003593b4",
+"key": null,
+"closure": null,
+"default": null
+}
+]

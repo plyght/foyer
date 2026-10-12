@@ -1,0 +1,12 @@
+bash: line 1:  8764 Trace/BPT trap: 5          ./tools/evt swipe 800 14 $d 0 10 > /dev/null 2>&1
+-40 before L [119.  96. 149.] R [35. 22. 31.] | after L [119.  96. 149.] R [35. 22. 31.] diffpix 0
+bash: line 1:  8778 Trace/BPT trap: 5          ./tools/evt swipe 800 14 $d 0 10 > /dev/null 2>&1
+-60 before L [119.  96. 149.] R [35. 22. 31.] | after L [119.  96. 149.] R [35. 22. 31.] diffpix 0
+bash: line 1:  8790 Trace/BPT trap: 5          ./tools/evt swipe 800 14 $d 0 10 > /dev/null 2>&1
+-80 before L [119.  96. 149.] R [35. 22. 31.] | after L [119.  96. 149.] R [35. 22. 31.] diffpix 0
+bash: line 1:  8801 Trace/BPT trap: 5          ./tools/evt swipe 800 14 $d 0 10 > /dev/null 2>&1
+-100 before L [119.  96. 149.] R [35. 22. 31.] | after L [119.  96. 149.] R [35. 22. 31.] diffpix 0
+bash: line 1:  8812 Trace/BPT trap: 5          ./tools/evt swipe 800 14 $d 0 10 > /dev/null 2>&1
+-130 before L [119.  96. 149.] R [35. 22. 31.] | after L [119.  96. 149.] R [35. 22. 31.] diffpix 0
+bash: line 1:  8826 Trace/BPT trap: 5          ./tools/evt swipe 800 14 $d 0 10 > /dev/null 2>&1
++100 before L [119.  96. 149.] R [35. 22. 31.] | after L [119.  96. 149.] R [35. 22. 31.] diffpix 0

@@ -1,0 +1,24 @@
+            ; CALL XREF from sym.func.100128054 @ 0x1001286a4(x)
+            ; CALL XREF from sym.func.1001286ac @ 0x100128984(x)
+            ; CALL XREFS from sym.func.1001522ac @ 0x10015230c(x), 0x100152370(x)
+            ; CALL XREF from sym.func.100152488 @ 0x100152660(x)
+/ 72: sym.func.10012898c (int64_t arg1);
+| `- args(x0) vars(4:sp[0x8..0x20])
+|           0x10012898c      f44fbea9       stp x20, x19, [var_20h]!
+|           0x100128990      fd7b01a9       stp x29, x30, [var_10h]
+|           0x100128994      fd430091       add x29, sp, 0x10
+|           0x100128998      f30300aa       mov x19, x0                ; arg1
+|           0x10012899c      00250090       adrp x0, 0x1005c8000
+|           0x1001289a0      00603791       add x0, x0, 0xdd8          ; int64_t arg1
+|           0x1001289a4      811900b0       adrp x1, 0x100459000
+|           0x1001289a8      21001a91       add x1, x1, 0x680          ; int64_t arg2
+|           0x1001289ac      5c68fb97       bl sym.func.100002b1c
+|           0x1001289b0      e10300aa       mov x1, x0
+|           0x1001289b4      08805ff8       ldur x8, [x0, -8]
+|           0x1001289b8      080540f9       ldr x8, [x8, 8]
+|           0x1001289bc      e00313aa       mov x0, x19
+|           0x1001289c0      00013fd6       blr x8
+|           0x1001289c4      e00313aa       mov x0, x19
+|           0x1001289c8      fd7b41a9       ldp x29, x30, [var_10h]
+|           0x1001289cc      f44fc2a8       ldp x20, x19, [sp], 0x20
+\           0x1001289d0      c0035fd6       ret

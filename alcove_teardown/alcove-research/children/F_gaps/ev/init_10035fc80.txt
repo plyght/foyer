@@ -1,0 +1,53 @@
+            ; ICOD XREF from sym.func.100361fe8 @ 0x100362220(r)
+            ; ICOD XREF from sym.func.100362274 @ 0x1003624cc(r)
+            ; ICOD XREF from sym.func.100362538 @ 0x1003627b4(r)
+/ 80: sym.func.10035fc80 ();
+| afv: vars(2:sp[0x8..0x10])
+|           0x10035fc80      c81300f0       adrp x8, 0x1005da000
+|           0x10035fc84      080546f9       ldr x8, [x8, 0xc08]
+|           0x10035fc88      1f0500b1       cmn x8, 1
+|       ,=< 0x10035fc8c      01010054       b.ne 0x10035fcac
+|       |   ; CODE XREF from sym.func.10035fc80 @ 0x10035fccc(x)
+|      .--> 0x10035fc90      c81300f0       adrp x8, 0x1005da000
+|      :|   0x10035fc94      08413091       add x8, x8, 0xc10
+|      :|   0x10035fc98      090140a9       ldp x9, x0, [x8]
+|      :|   0x10035fc9c      c81300f0       adrp x8, 0x1005da000
+|      :|   0x10035fca0      08812c91       add x8, x8, 0xb20
+|      :|   0x10035fca4      090100a9       stp x9, x0, [x8]
+|     ,===< 0x10035fca8      d2b60314       b sym.imp.swift_bridgeObjectRetain
+|     |:|   ; CODE XREF from sym.func.10035fc80 @ 0x10035fc8c(x)
+|     |:`-> 0x10035fcac      fd7bbfa9       stp x29, x30, [var_10h]!
+|     |:    0x10035fcb0      fd030091       mov x29, sp
+|     |:    0x10035fcb4      c01300f0       adrp x0, 0x1005da000
+|     |:    0x10035fcb8      00203091       add x0, x0, 0xc08
+|     |:    0x10035fcbc      01000090       adrp x1, 0x10035f000
+|     |:    0x10035fcc0      21f02091       add x1, x1, 0x83c
+|     |:    0x10035fcc4      7cb70394       bl sym.imp.swift_once
+|     |:    0x10035fcc8      fd7bc1a8       ldp x29, x30, [sp], 0x10
+\     |`==< 0x10035fccc      f1ffff17       b 0x10035fc90
+      |     ; ICOD XREF from sym.func.100361de8 @ 0x100361fac(r)
+      |     ; ICOD XREF from sym.func.100362274 @ 0x1003624fc(r)
+/ 80: sym.func.10035fcd0 ();
+| afv: vars(2:sp[0x8..0x10])
+|     |     0x10035fcd0      c81300f0       adrp x8, 0x1005da000
+|     |     0x10035fcd4      08f945f9       ldr x8, [x8, 0xbf0]
+|     |     0x10035fcd8      1f0500b1       cmn x8, 1
+|     | ,=< 0x10035fcdc      01010054       b.ne 0x10035fcfc
+|     | |   ; CODE XREF from sym.func.10035fcd0 @ 0x10035fd1c(x)
+|     |.--> 0x10035fce0      c81300f0       adrp x8, 0x1005da000
+|     |:|   0x10035fce4      08e12f91       add x8, x8, 0xbf8
+|     |:|   0x10035fce8      090140a9       ldp x9, x0, [x8]
+|     |:|   0x10035fcec      c81300f0       adrp x8, 0x1005da000
+|     |:|   0x10035fcf0      08c12e91       add x8, x8, 0xbb0
+|     |:|   0x10035fcf4      090100a9       stp x9, x0, [x8]
+|    ,====< 0x10035fcf8      beb60314       b sym.imp.swift_bridgeObjectRetain
+|    ||:|   ; CODE XREF from sym.func.10035fcd0 @ 0x10035fcdc(x)
+|    ||:`-> 0x10035fcfc      fd7bbfa9       stp x29, x30, [var_10h]!
+|    ||:    0x10035fd00      fd030091       mov x29, sp
+|    ||:    0x10035fd04      c01300f0       adrp x0, 0x1005da000
+|    ||:    0x10035fd08      00c02f91       add x0, x0, 0xbf0
+|    ||:    0x10035fd0c      01000090       adrp x1, 0x10035f000
+|    ||:    0x10035fd10      21f01991       add x1, x1, 0x67c
+|    ||:    0x10035fd14      68b70394       bl sym.imp.swift_once
+|    ||:    0x10035fd18      fd7bc1a8       ldp x29, x30, [sp], 0x10
+\    ||`==< 0x10035fd1c      f1ffff17       b 0x10035fce0

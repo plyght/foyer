@@ -1,0 +1,96 @@
+            ; XREFS(276)
+/ 344: sym.func.100411a10 (int64_t arg1, uint64_t arg2);
+| `- args(x21, x0, x1) vars(13:sp[0x8..0x68])
+|           0x100411a10      ffc301d1       sub sp, sp, 0x70
+|           0x100411a14      fc6f01a9       stp x28, x27, [var_10h]
+|           0x100411a18      fa6702a9       stp x26, x25, [var_20h]
+|           0x100411a1c      f85f03a9       stp x24, x23, [var_30h]
+|           0x100411a20      f65704a9       stp x22, x21, [var_40h]
+|           0x100411a24      f44f05a9       stp x20, x19, [var_50h]
+|           0x100411a28      fd7b06a9       stp x29, x30, [var_60h]
+|           0x100411a2c      fd830191       add x29, sp, 0x60
+|           0x100411a30      130840f9       ldr x19, [x0, 0x10]        ; arg1
+|       ,=< 0x100411a34      530700b4       cbz x19, 0x100411b1c
+|       |   0x100411a38      f50300aa       mov x21, x0                ; error
+|       |   0x100411a3c      282199d2       mov x8, 0xc909
+|       |   0x100411a40      8877bef2       movk x8, 0xf3bc, lsl 16
+|       |   0x100411a44      e8ccdcf2       movk x8, 0xe667, lsl 32
+|       |   0x100411a48      2841edf2       movk x8, 0x6a09, lsl 48
+|       |   0x100411a4c      3f0000f1       cmp x1, 0                  ; arg2
+|       |   0x100411a50      1601819a       csel x22, x8, x1, eq
+|       |   0x100411a54      280d00b0       adrp x8, reloc.Int64...VMn ; 0x1005b6000
+|       |   0x100411a58      081541f9       ldr x8, [x8, 0x228]        ; [0x1005b6228:8]=0
+|       |                                                              ; reloc._swiftEmptyArrayStorage
+|       |   0x100411a5c      e80700f9       str x8, [var_8h]
+|       |   0x100411a60      f4230091       add x20, sp, 8
+|       |   0x100411a64      00008052       mov w0, 0                  ; int64_t arg1
+|       |   0x100411a68      e10313aa       mov x1, x19                ; int64_t arg2
+|       |   0x100411a6c      02008052       mov w2, 0                  ; int64_t arg3
+|       |   0x100411a70      3e000094       bl sym.func.100411b68
+|       |   0x100411a74      f40740f9       ldr x20, [var_8h]
+|       |   0x100411a78      b7820091       add x23, x21, 0x20
+|       |   0x100411a7c      9b0a40f9       ldr x27, [x20, 0x10]
+|       |   0x100411a80      b8e58fd2       mov x24, 0x7f2d            ; '-\x7f'
+|       |   0x100411a84      b892a9f2       movk x24, 0x4c95, lsl 16
+|       |   0x100411a88      b885def2       movk x24, 0xf42d, lsl 32
+|       |   0x100411a8c      380aebf2       movk x24, 0x5851, lsl 48   ; 'QX'
+|       |   0x100411a90      f92990d2       mov x25, 0x814f
+|       |   0x100411a94      f9ecbef2       movk x25, 0xf767, lsl 16
+|       |   0x100411a98      d96fcff2       movk x25, 0x7b7e, lsl 32   ; '~{'
+|       |   0x100411a9c      b980e2f2       movk x25, 0x1405, lsl 48
+|       |   0x100411aa0      ba9991d2       mov x26, 0x8ccd
+|       |   0x100411aa4      baaabdf2       movk x26, 0xed55, lsl 16
+|       |   0x100411aa8      fafad5f2       movk x26, 0xafd7, lsl 32
+|       |   0x100411aac      3aeafff2       movk x26, 0xff51, lsl 48
+|       |   ; CODE XREF from sym.func.100411a10 @ 0x100411af0(x)
+|      .--> 0x100411ab0      fc164038       ldrb w28, [x23], 1
+|      :|   0x100411ab4      f40700f9       str x20, [var_8h]
+|      :|   0x100411ab8      880e40f9       ldr x8, [x20, 0x18]
+|      :|   0x100411abc      61070091       add x1, x27, 1
+|      :|   0x100411ac0      7f0748eb       cmp x27, x8, lsr 1
+|     ,===< 0x100411ac4      a2010054       b.hs 0x100411af8
+|     |:|   ; CODE XREF from sym.func.100411a10 @ 0x100411b18(x)
+|    .----> 0x100411ac8      c866189b       madd x8, x22, x24, x25
+|    :|:|   0x100411acc      088548ca       eor x8, x8, x8, lsr 33
+|    :|:|   0x100411ad0      087d1a9b       mul x8, x8, x26
+|    :|:|   0x100411ad4      167548ca       eor x22, x8, x8, lsr 29
+|    :|:|   0x100411ad8      8863564a       eor w8, w28, w22, lsr 24
+|    :|:|   0x100411adc      810a00f9       str x1, [x20, 0x10]
+|    :|:|   0x100411ae0      89021b8b       add x9, x20, x27
+|    :|:|   0x100411ae4      28810039       strb w8, [x9, 0x20]
+|    :|:|   0x100411ae8      fb0301aa       mov x27, x1
+|    :|:|   0x100411aec      730600f1       subs x19, x19, 1
+|    :|`==< 0x100411af0      01feff54       b.ne 0x100411ab0
+|    :|,==< 0x100411af4      0d000014       b 0x100411b28
+|    :|||   ; CODE XREF from sym.func.100411a10 @ 0x100411ac4(x)
+|    :`---> 0x100411af8      1f0500f1       cmp x8, 1
+|    : ||   0x100411afc      e0979f1a       cset w0, hi                ; int64_t arg1
+|    : ||   0x100411b00      f4230091       add x20, sp, 8
+|    : ||   0x100411b04      f50301aa       mov x21, x1
+|    : ||   0x100411b08      22008052       mov w2, 1                  ; int64_t arg3
+|    : ||   0x100411b0c      17000094       bl sym.func.100411b68
+|    : ||   0x100411b10      e10315aa       mov x1, x21
+|    : ||   0x100411b14      f40740f9       ldr x20, [var_8h]
+|    `====< 0x100411b18      ecffff17       b 0x100411ac8
+|      ||   ; CODE XREF from sym.func.100411a10 @ 0x100411a34(x)
+|      |`-> 0x100411b1c      340d00b0       adrp x20, reloc.Int64...VMn ; 0x1005b6000
+|      |    0x100411b20      941641f9       ldr x20, [x20, 0x228]      ; [0x1005b6228:8]=0
+|      |                                                               ; reloc._swiftEmptyArrayStorage
+|      |    0x100411b24      810a40f9       ldr x1, [x20, 0x10]
+|      |    ; CODE XREF from sym.func.100411a10 @ 0x100411af4(x)
+|      `--> 0x100411b28      80820091       add x0, x20, 0x20
+|           0x100411b2c      a1e80094       bl sym.imp._fromUTF8Repairing_...b11repairsMadetSRys5UInt8VGFZ_ ; _fromUTF8Repairing(...b11repairsMadetSRys5UInt8VGFZ)
+|           0x100411b30      f30300aa       mov x19, x0
+|           0x100411b34      f50301aa       mov x21, x1                ; error
+|           0x100411b38      e00314aa       mov x0, x20                ; void *arg0
+|           0x100411b3c      27ef0094       bl sym.imp.swift_bridgeObjectRelease ; void swift_bridgeObjectRelease(void *arg0)
+|           0x100411b40      e00313aa       mov x0, x19
+|           0x100411b44      e10315aa       mov x1, x21
+|           0x100411b48      fd7b46a9       ldp x29, x30, [var_60h]
+|           0x100411b4c      f44f45a9       ldp x20, x19, [var_50h]
+|           0x100411b50      f65744a9       ldp x22, x21, [var_40h]
+|           0x100411b54      f85f43a9       ldp x24, x23, [var_30h]
+|           0x100411b58      fa6742a9       ldp x26, x25, [var_20h]
+|           0x100411b5c      fc6f41a9       ldp x28, x27, [var_10h]
+|           0x100411b60      ffc30191       add sp, sp, 0x70           ; 0x178000
+\           0x100411b64      c0035fd6       ret

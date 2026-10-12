@@ -1,0 +1,32 @@
+[
+  {
+    "string": "com.riotgames.leagueoflegends",
+    "vaddr": 4300490064,
+    "section": "12.__TEXT.__cstring"
+  },
+  {
+    "string": "com.riotgames.leagueoflegends.gameclient",
+    "vaddr": 4300490096,
+    "section": "12.__TEXT.__cstring"
+  },
+  {
+    "string": "com.riotgames.leagueclient",
+    "vaddr": 4300490144,
+    "section": "12.__TEXT.__cstring"
+  },
+  {
+    "string": "com.riotgames.leagueclientux",
+    "vaddr": 4300490176,
+    "section": "12.__TEXT.__cstring"
+  },
+  {
+    "string": "com.nvidia.gfnpc.mall",
+    "vaddr": 4300490208,
+    "section": "12.__TEXT.__cstring"
+  },
+  {
+    "string": "/application support/minecraft/runtime/",
+    "vaddr": 4300490240,
+    "section": "12.__TEXT.__cstring"
+  }
+]

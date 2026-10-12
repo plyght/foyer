@@ -1,0 +1,24 @@
+== swipe dy=-10
+1791739737.808 width=234 left=683 height=33
+== swipe dy=-20
+1791739740.631 width=234 left=683 height=33
+== swipe dy=-30
+1791739743.433 width=234 left=683 height=33
+== swipe dy=-40
+1791739746.306 width=365 left=618 height=120
+== swipe dy=-60
+1791739749.130 width=365 left=618 height=120
+== swipe dy=-100
+1791739751.910 width=365 left=618 height=120
+== swipe dy=10
+1791739754.710 width=234 left=683 height=33
+== swipe dy=20
+1791739757.517 width=234 left=683 height=33
+== swipe dy=30
+1791739760.342 width=234 left=683 height=33
+== swipe dy=40
+1791739763.147 width=152 left=724 height=33
+== swipe dy=60
+1791739765.956 width=152 left=724 height=33
+== swipe dy=100
+1791739768.754 width=152 left=724 height=33

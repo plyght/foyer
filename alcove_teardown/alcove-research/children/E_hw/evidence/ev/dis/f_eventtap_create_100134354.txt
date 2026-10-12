@@ -1,0 +1,83 @@
+            ; CODE XREF from sym.func.100133fec @ 0x100134094(x)
+/ 312: sym.func.100134354 ();
+| `- args(x20, x21) vars(6:sp[0x8..0x30])
+|           0x100134354      f657bda9       stp x22, x21, [var_30h]!
+|           0x100134358      f44f01a9       stp x20, x19, [var_10h]
+|           0x10013435c      fd7b02a9       stp x29, x30, [var_20h]
+|           0x100134360      fd830091       add x29, sp, 0x20
+|           0x100134364      040000d0       adrp x4, 0x100136000
+|           0x100134368      84b02291       add x4, x4, 0x8ac
+|           0x10013436c      20008052       mov w0, 1
+|           0x100134370      01008052       mov w1, 0
+|           0x100134374      02008052       mov w2, 0
+|           0x100134378      03808952       mov w3, 0x4c00
+|           0x10013437c      e50314aa       mov x5, x20                ; self
+|           0x100134380      54630c94       bl sym.imp.CGEventTapCreate
+|       ,=< 0x100134384      a00700b4       cbz x0, 0x100134478
+|       |   0x100134388      f50300aa       mov x21, x0                ; error
+|       |   0x10013438c      e82300d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|       |   0x100134390      080546f9       ldr x8, [x8, 0xc08]        ; [0x1005b2c08:8]=0x80100000000003a1 ; reloc.kCFAllocatorDefault
+|       |   0x100134394      160140f9       ldr x22, [x8]
+|       |   0x100134398      c5640c94       bl sym.imp.objc_retain     ; void objc_retain(void *instance)
+|       |   0x10013439c      f30300aa       mov x19, x0
+|       |   0x1001343a0      e00316aa       mov x0, x22
+|       |   0x1001343a4      e10313aa       mov x1, x19
+|       |   0x1001343a8      020080d2       mov x2, 0
+|       |   0x1001343ac      f8620c94       bl sym.imp.CFMachPortCreateRunLoopSource
+|      ,==< 0x1001343b0      800500b4       cbz x0, 0x100134460
+|      ||   0x1001343b4      f60300aa       mov x22, x0
+|      ||   0x1001343b8      802240f9       ldr x0, [x20, 0x40]        ; self
+|      ||   0x1001343bc      952200f9       str x21, [x20, 0x40]       ; self
+|      ||   0x1001343c0      b8640c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|      ||   0x1001343c4      952640f9       ldr x21, [x20, 0x48]       ; self
+|      ||   0x1001343c8      962600f9       str x22, [x20, 0x48]       ; self
+|      ||   0x1001343cc      e00316aa       mov x0, x22                ; void *instance
+|      ||   0x1001343d0      b7640c94       bl sym.imp.objc_retain     ; void objc_retain(void *instance)
+|      ||   0x1001343d4      f60300aa       mov x22, x0
+|      ||   0x1001343d8      e00315aa       mov x0, x21                ; void *instance
+|      ||   0x1001343dc      b1640c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|      ||   0x1001343e0      e00316aa       mov x0, x22                ; void *instance
+|      ||   0x1001343e4      b2640c94       bl sym.imp.objc_retain     ; void objc_retain(void *instance)
+|      ||   0x1001343e8      f50300aa       mov x21, x0
+|      ||   0x1001343ec      f4620c94       bl sym.imp.CFRunLoopGetMain
+|      ||   0x1001343f0      fd031daa       mov x29, x29
+|      ||   0x1001343f4      b4640c94       bl sym.imp.objc_retainAutoreleasedReturnValue ; void objc_retainAutoreleasedReturnValue(void *instance)
+|      ||   0x1001343f8      962a40f9       ldr x22, [x20, 0x50]       ; self
+|      ||   0x1001343fc      802a00f9       str x0, [x20, 0x50]        ; self
+|      ||   0x100134400      ab640c94       bl sym.imp.objc_retain     ; void objc_retain(void *instance)
+|      ||   0x100134404      f40300aa       mov x20, x0
+|      ||   0x100134408      e00316aa       mov x0, x22                ; void *instance
+|      ||   0x10013440c      a5640c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|      ||   0x100134410      e82300d0       adrp x8, reloc.Foundation.IndexSet...VMn ; 0x1005b2000
+|      ||   0x100134414      081d46f9       ldr x8, [x8, 0xc38]        ; [0x1005b2c38:8]=0x80100000000003a7 ; reloc.kCFRunLoopCommonModes
+|      ||   0x100134418      020140f9       ldr x2, [x8]
+|      ||   0x10013441c      e00314aa       mov x0, x20
+|      ||   0x100134420      e10315aa       mov x1, x21
+|      ||   0x100134424      e0620c94       bl sym.imp.CFRunLoopAddSource
+|      ||   0x100134428      e00315aa       mov x0, x21                ; void *instance
+|      ||   0x10013442c      9d640c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|      ||   0x100134430      e00313aa       mov x0, x19
+|      ||   0x100134434      21008052       mov w1, 1
+|      ||   0x100134438      29630c94       bl sym.imp.CGEventTapEnable
+|      ||   0x10013443c      e00313aa       mov x0, x19                ; void *instance
+|      ||   0x100134440      98640c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|      ||   0x100134444      e00315aa       mov x0, x21                ; void *instance
+|      ||   0x100134448      96640c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|      ||   0x10013444c      e00314aa       mov x0, x20
+|      ||   0x100134450      fd7b42a9       ldp x29, x30, [var_20h]
+|      ||   0x100134454      f44f41a9       ldp x20, x19, [var_10h]
+|      ||   0x100134458      f657c3a8       ldp x22, x21, [sp], 0x30
+|     ,===< 0x10013445c      91640c14       b sym.imp.objc_release
+|     |||   ; CODE XREF from sym.func.100134354 @ 0x1001343b0(x)
+|     |`--> 0x100134460      e00313aa       mov x0, x19                ; void *instance
+|     | |   0x100134464      8f640c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|     | |   0x100134468      e00313aa       mov x0, x19
+|     | |   0x10013446c      cb620c94       bl sym.imp.CFMachPortInvalidate
+|     | |   0x100134470      e00313aa       mov x0, x19                ; void *instance
+|     | |   0x100134474      8b640c94       bl sym.imp.objc_release    ; void objc_release(void *instance)
+|     | |   ; CODE XREF from sym.func.100134354 @ 0x100134384(x)
+|     | `-> 0x100134478      9f620139       strb wzr, [x20, 0x58]      ; self
+|     |     0x10013447c      fd7b42a9       ldp x29, x30, [var_20h]
+|     |     0x100134480      f44f41a9       ldp x20, x19, [var_10h]
+|     |     0x100134484      f657c3a8       ldp x22, x21, [sp], 0x30   ; [0x178000:4]=0
+\     |     0x100134488      c0035fd6       ret
