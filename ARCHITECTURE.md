@@ -8,10 +8,11 @@ numbers below (§7.1, Part C …) refer to that file.
 
 - `project.yml` is an [XcodeGen](https://github.com/yonaskolb/XcodeGen) spec.
   `xcodegen generate` → `Foyer.xcodeproj` (not committed).
-- CI (`.github/workflows/build.yml`) builds on `macos-15` with the latest stable
-  Xcode, ad-hoc signs, uploads `Foyer.zip`, and publishes a GitHub Release for
+- CI (`.github/workflows/build.yml`) builds on the `macos-27` (beta) runner with the newest
+  Xcode (beta included), ad-hoc signs, uploads `Foyer.zip`, and publishes a GitHub Release for
   `v*` tags. The in-app updater reads those releases.
-- Swift 5 language mode, macOS 15.0+, universal binary.
+- Swift 5 language mode, deployment target macOS 15.0, built with the macOS 27 SDK, universal binary.
+- `ui-capture.yml` is the separate test build: it runs a scripted demo and uploads screenshots, recordings and logs.
 - Packages: sindresorhus/Defaults 8.x (settings), MrKai77/Luminare (settings
   window), twostraws/Vortex (particles).
 
