@@ -8,3 +8,5 @@ xcuserdata/
 Foyer/App/Info.plist
 Foyer/App/Foyer.entitlements
 FoyerHelper/Info.plist
+LocalAssets/*
+!LocalAssets/README.md

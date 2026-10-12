@@ -46,6 +46,17 @@ targets:
       - sdk: IOKit.framework
       - sdk: CoreAudio.framework
       - sdk: ScriptingBridge.framework
+    postBuildScripts:
+      - name: Bundle local Alcove assets
+        basedOnDependencyAnalysis: false
+        script: |
+          SRC="${PROJECT_DIR}/LocalAssets/Alcove"
+          DST="${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlcoveAssets"
+          if [ -d "$SRC" ]; then
+            mkdir -p "$DST"
+            find "$SRC" -maxdepth 1 -type f \( -name '*.caf' -o -name '*.m4a' -o -name '*.mp4' \) -exec cp -f {} "$DST/" \;
+            echo "Bundled local Alcove assets"
+          fi
     info:
       path: Foyer/App/Info.plist
       properties:

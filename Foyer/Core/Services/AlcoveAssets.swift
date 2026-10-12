@@ -2,9 +2,9 @@ import Foundation
 
 /// Optional use of assets from a locally installed copy of Alcove.
 ///
-/// Foyer never bundles Alcove's files. When the user has Alcove.app installed,
-/// its AirPods videos and sounds are read from that bundle at runtime;
-/// otherwise Foyer's own assets are used.
+/// Foyer's repo and releases never contain Alcove's files. Local builds may
+/// bundle them from the git-ignored `LocalAssets/Alcove`, and an installed
+/// Alcove.app is read at runtime; otherwise Foyer's own assets are used.
 enum AlcoveAssets {
     private static let bundleID = "com.henrikruscon.Alcove"
 
@@ -20,10 +20,18 @@ enum AlcoveAssets {
         return nil
     }()
 
-    static var isAvailable: Bool { bundle != nil }
+    static var isAvailable: Bool {
+        bundle != nil || Bundle.main.url(forResource: "AlcoveAssets", withExtension: nil) != nil
+    }
+
+    /// Assets bundled into a local build from the git-ignored `LocalAssets/Alcove`.
+    private static func bundled(_ name: String, _ ext: String) -> URL? {
+        Bundle.main.url(forResource: name, withExtension: ext, subdirectory: "AlcoveAssets")
+    }
 
     /// e.g. `sound(named: "unlock")` → Alcove's `unlock.caf`.
     static func sound(named name: String) -> URL? {
+        if let url = bundled(name, "caf") ?? bundled(name, "m4a") { return url }
         guard let bundle else { return nil }
         return bundle.url(forResource: name, withExtension: "caf")
             ?? bundle.url(forResource: name, withExtension: "m4a")
@@ -31,7 +39,7 @@ enum AlcoveAssets {
 
     /// e.g. `video(named: "airpods-pro-2")` → Alcove's `airpods-pro-2.mp4`.
     static func video(named name: String) -> URL? {
-        bundle?.url(forResource: name, withExtension: "mp4")
+        bundled(name, "mp4") ?? bundle?.url(forResource: name, withExtension: "mp4")
     }
 }
 
