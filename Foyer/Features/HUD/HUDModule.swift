@@ -11,6 +11,7 @@ enum HUDModule {
         HUDBrightnessManager.shared.start()
         HUDBetterDisplayBridge.shared.start()
         HUDKeyInterceptor.shared.start()
+        HUDPassiveObserver.shared.start()
     }
 
     @MainActor
