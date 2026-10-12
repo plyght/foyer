@@ -46,6 +46,8 @@ targets:
       - sdk: IOKit.framework
       - sdk: CoreAudio.framework
       - sdk: ScriptingBridge.framework
+      - sdk: IOBluetooth.framework
+      - sdk: CoreBluetooth.framework
     postBuildScripts:
       - name: Bundle local Alcove assets
         basedOnDependencyAnalysis: false
