@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<!--
+    Foyer scripting dictionary.
+
+    Alcove 1.7.7 ships no sdef: `sdef` reports only AppKit's generic Standard
+    Suite, Text Suite and type definitions (teardown Part G §12). Foyer keeps
+    that generic dictionary by including CocoaStandard.sdef, and adds a small
+    "Foyer Suite" to control the island. The command classes live in
+    Foyer/Features/AppShell/Scripting/ShellScripting.swift.
+-->
+<dictionary title="Foyer Terminology" xmlns:xi="http://www.w3.org/2003/XInclude">
+
+    <xi:include href="file:///System/Library/ScriptingDefinitions/CocoaStandard.sdef" xpointer="xpointer(/dictionary/suite)"/>
+
+    <suite name="Foyer Suite" code="Foyr" description="Control Foyer, the Dynamic Island for your Mac.">
+
+        <class-extension extends="application" description="Foyer's top-level scripting object.">
+            <property name="island expanded" code="FyEx" type="boolean" access="rw"
+                description="Whether the island on the main display is expanded.">
+                <cocoa key="foyerIslandExpanded"/>
+            </property>
+            <property name="idle activity" code="FyIA" type="text" access="rw"
+                description="The live activity shown while nothing else is happening: none, nowPlaying, calendar or duo.">
+                <cocoa key="foyerIdleActivity"/>
+            </property>
+            <property name="update available" code="FyUA" type="boolean" access="r"
+                description="Whether a newer version of Foyer was found by the last update check.">
+                <cocoa key="foyerUpdateAvailable"/>
+            </property>
+        </class-extension>
+
+        <command name="expand island" code="FoyrExpd" description="Expand the island on the main display.">
+            <cocoa class="FoyerExpandIslandCommand"/>
+        </command>
+
+        <command name="collapse island" code="FoyrClps" description="Collapse the island on the main display.">
+            <cocoa class="FoyerCollapseIslandCommand"/>
+        </command>
+
+        <command name="toggle island" code="FoyrTogl" description="Expand the island if it is collapsed, otherwise collapse it.">
+            <cocoa class="FoyerToggleIslandCommand"/>
+        </command>
+
+        <command name="show settings" code="FoyrSett" description="Open Foyer's Settings window.">
+            <cocoa class="FoyerShowSettingsCommand"/>
+            <parameter name="pane" code="FyPn" type="text" optional="yes"
+                description="The pane to show: general, battery, connectivity, focus, display, sound, now playing, calendar, lock screen or about.">
+                <cocoa key="pane"/>
+            </parameter>
+        </command>
+
+        <command name="check for updates" code="FoyrUpdt" description="Check GitHub for a newer release of Foyer.">
+            <cocoa class="FoyerCheckForUpdatesCommand"/>
+        </command>
+
+    </suite>
+
+</dictionary>
