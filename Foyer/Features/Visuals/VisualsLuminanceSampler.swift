@@ -8,14 +8,10 @@ import SwiftUI
 /// `NotchController.shared.backdropIsDark`, which gates the contrast outline
 /// (Part D §6: the ~1.5 px white stroke is drawn over dark backdrops only).
 ///
-/// Mirrors Alcove's `MaterialLuminanceAggregator` / `WallpaperChangeMonitor`:
-/// - With Screen Recording access, the region around the notch is captured
-///   with `CGWindowListCreateImage(.optionOnScreenBelowWindow)` relative to
-///   Foyer's own backdrop panel, so Foyer's windows never count.
-/// - Without it (the common case, and never prompting), the current desktop
-///   picture for the screen is decoded and the region of the image that maps
-///   under the notch is measured, honouring the wallpaper's scaling and fill
-///   colour.
+/// Mirrors Alcove's `WallpaperChangeMonitor`: the current desktop picture for
+/// the screen is decoded and the region of the image that maps under the
+/// notch is measured, honouring the wallpaper's scaling and fill colour. It
+/// never captures the screen, so it never triggers a Screen Recording prompt.
 /// Samples are Rec. 709 luma, averaged over all target screens, re-evaluated
 /// every ~20 s (the observed latency) and after wallpaper/space changes.
 @MainActor
@@ -131,14 +127,14 @@ final class VisualsLuminanceSampler {
         let screens = NotchWindowManager.targetScreens()
         guard !screens.isEmpty else { return }
 
-        var captured: [Double] = []
+        let captured: [Double] = []
         var wallpaperRequests: [VisualsWallpaperRequest] = []
 
-        let canCapture = CGPreflightScreenCaptureAccess()
+        // Wallpaper only: screen capture (even with permission already
+        // granted) makes macOS 15+ show its recurring "bypass the private
+        // window picker" confirmation, which isn't worth it for an outline.
         for screen in screens {
-            if canCapture, let luma = captureLuma(on: screen) {
-                captured.append(luma)
-            } else if let request = wallpaperRequest(for: screen) {
+            if let request = wallpaperRequest(for: screen) {
                 wallpaperRequests.append(request)
             }
         }
@@ -186,46 +182,6 @@ final class VisualsLuminanceSampler {
         let width = min(size.width, frame.width)
         let height = min(size.height, frame.height)
         return CGRect(x: frame.midX - width / 2, y: frame.maxY - height, width: width, height: height)
-    }
-
-    // MARK: Screen capture path (only with Screen Recording access)
-
-    private typealias CreateImageFunction = @convention(c) (CGRect, UInt32, UInt32, UInt32) -> Unmanaged<CGImage>?
-
-    /// `CGWindowListCreateImage` is obsoleted in the macOS 15 SDK, so it is
-    /// resolved at runtime and skipped when it has gone away.
-    private static let createImage: CreateImageFunction? =
-        PrivateAPI.symbol("CGWindowListCreateImage", in: PrivateAPI.coreGraphics, as: CreateImageFunction.self)
-
-    private func captureLuma(on screen: NSScreen) -> Double? {
-        guard let createImage = Self.createImage else { return nil }
-        let rect = sampleRect(on: screen)
-        let primaryHeight = NSScreen.screens.first?.frame.height ?? screen.frame.height
-        let cgRect = CGRect(x: rect.minX, y: primaryHeight - rect.maxY, width: rect.width, height: rect.height)
-
-        // Everything below Foyer's lowest window on this screen.
-        let ownWindow = NSApp.windows.first { window in
-            window is NotchBackdropPanel && window.isVisible && window.screen == screen
-        } ?? NSApp.windows.first { window in
-            window is NotchPanel && window.isVisible && window.screen == screen
-        }
-
-        let listOption: CGWindowListOption
-        let relativeID: UInt32
-        if let ownWindow, ownWindow.windowNumber > 0 {
-            listOption = .optionOnScreenBelowWindow
-            relativeID = UInt32(ownWindow.windowNumber)
-        } else {
-            listOption = .optionOnScreenOnly
-            relativeID = 0 // kCGNullWindowID
-        }
-        // kCGWindowImageBoundsIgnoreFraming (1 << 0) | kCGWindowImageNominalResolution (1 << 4)
-        let imageOption: UInt32 = (1 << 0) | (1 << 4)
-        guard let image = createImage(cgRect, listOption.rawValue, relativeID, imageOption)?.takeRetainedValue()
-        else { return nil }
-        // A capture without access comes back empty or 1x1; treat as unusable.
-        guard image.width > 2, image.height > 2 else { return nil }
-        return VisualsLumaMath.averageLuma(of: image, region: nil)
     }
 
     // MARK: Wallpaper path
