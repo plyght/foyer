@@ -110,5 +110,7 @@ called from `AppDelegate`.
 | `Visuals/` + `LockScreen/` | `VisualsModule`, `LockScreenModule` (`start`, `stop`) | Progressive blur (`ProgressiveBlurBand`), contrast-outline luminance sampling, sounds and icon assets, lock-screen panel/space/widgets, keep awake |
 | `AppShell/` | `AppShellModule` (`start`, `openSettings`, `handle(url:)`) | Menu bar, Luminare settings window, onboarding, updater, URL scheme, AppleScript, launch at login, permissions |
 
-Original assets only: Foyer does not ship any of Alcove's sounds, videos or
-artwork. Measurements and behaviour come from the teardown.
+Original assets only: the repo and CI releases never contain Alcove's sounds,
+videos or artwork. `AlcoveAssets` (core) optionally uses them on your own Mac:
+from the git-ignored `LocalAssets/Alcove/` bundled into local builds, or from an
+installed `Alcove.app` at runtime. See `LocalAssets/README.md`.
