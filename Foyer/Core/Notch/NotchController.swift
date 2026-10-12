@@ -69,6 +69,8 @@ final class NotchController: ObservableObject {
         return activities.values
             .filter { !dismissedActivities.contains($0.id) }
             .sorted {
+                // While locked, the lock glyph always leads.
+                if self.isScreenLocked, $0.id == .lock || $1.id == .lock { return $0.id == .lock }
                 if mostRecent, $0.updatedAt != $1.updatedAt { return $0.updatedAt > $1.updatedAt }
                 if $0.priority != $1.priority { return $0.priority > $1.priority }
                 return $0.id.rawValue < $1.id.rawValue
