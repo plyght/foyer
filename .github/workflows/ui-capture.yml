@@ -59,7 +59,7 @@ jobs:
           for db in "$HOME/Library/Application Support/com.apple.TCC/TCC.db" "/Library/Application Support/com.apple.TCC/TCC.db"; do
             for client in /usr/sbin/screencapture /opt/homebrew/bin/ffmpeg /bin/bash /usr/libexec/sshd-keygen-wrapper "$APP_ID"; do
               type=1; case "$client" in /*) type=1 ;; *) type=0 ;; esac
-              for service in kTCCServiceScreenCapture kTCCServiceAccessibility kTCCServiceAppleEvents kTCCServicePostEvent; do
+              for service in kTCCServiceScreenCapture kTCCServiceAccessibility kTCCServiceAppleEvents kTCCServicePostEvent kTCCServiceCalendar kTCCServiceSystemPolicyAllFiles; do
                 sudo sqlite3 "$db" "INSERT OR REPLACE INTO access (service, client, client_type, auth_value, auth_reason, auth_version, indirect_object_identifier, flags, last_modified) VALUES ('$service','$client',$type,2,4,1,'UNUSED',0,$now);" 2>/dev/null || true
               done
             done

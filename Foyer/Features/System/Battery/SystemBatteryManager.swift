@@ -267,8 +267,9 @@ final class SystemBatteryManager: ObservableObject {
 
     // MARK: Presentation
 
-    func present(_ alert: SystemBatteryAlert) {
-        guard Defaults[.enableBattery], hasBattery else { return }
+    /// `force` skips the battery checks (used by the CI demo on battery-less runners).
+    func present(_ alert: SystemBatteryAlert, force: Bool = false) {
+        guard force || (Defaults[.enableBattery] && hasBattery) else { return }
         let hideLabel = Defaults[.hideBatteryLabel]
         let hidePercentage = Defaults[.hideBatteryPercentage]
         let wing: CGFloat
