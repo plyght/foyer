@@ -23,12 +23,16 @@ jobs:
         with:
           lfs: false
 
-      - uses: maxim-lobanov/setup-xcode@v1
-        with:
-          xcode-version: latest
+      - name: Select Xcode 27
+        run: |
+          ls -d /Applications/Xcode*.app
+          XCODE=$(ls -d /Applications/Xcode_27*.app 2>/dev/null | sort -V | tail -1)
+          [ -n "$XCODE" ] || XCODE=$(ls -d /Applications/Xcode*.app | sort -V | tail -1)
+          sudo xcode-select -s "$XCODE/Contents/Developer"
+          echo "DEVELOPER_DIR=$XCODE/Contents/Developer" >> "$GITHUB_ENV"
 
       - name: Toolchain
-        run: sw_vers && xcodebuild -version && xcrun --show-sdk-version
+        run: sw_vers && xcodebuild -version && xcrun --sdk macosx --show-sdk-version
 
       - name: Report all compile errors per run
         run: defaults write com.apple.dt.Xcode IDEBuildingContinueBuildingAfterErrors -bool YES
