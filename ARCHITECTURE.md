@@ -8,7 +8,7 @@ numbers below (§7.1, Part C …) refer to that file.
 
 - `project.yml` is an [XcodeGen](https://github.com/yonaskolb/XcodeGen) spec.
   `xcodegen generate` → `Foyer.xcodeproj` (not committed).
-- CI (`.github/workflows/build.yml`) builds on the `macos-27` (beta) runner with the newest
+- CI (`.github/workflows/build.yml`) builds on the `xcode-27` (public preview, arm64) runner with the newest
   Xcode (beta included), ad-hoc signs, uploads `Foyer.zip`, and publishes a GitHub Release for
   `v*` tags. The in-app updater reads those releases.
 - Swift 5 language mode, deployment target macOS 15.0, built with the macOS 27 SDK, universal binary.
