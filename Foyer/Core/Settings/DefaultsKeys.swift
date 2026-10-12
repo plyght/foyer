@@ -39,7 +39,7 @@ extension Defaults.Keys {
     static let contrastOutline = Key<Bool>("contrastOutline", default: true)
     static let progressiveBlur = Key<Bool>("progressiveBlur", default: true)
     static let enableHaptics = Key<Bool>("enableHaptics", default: true)
-    static let expandNotchOnHover = Key<Bool>("expandNotchOnHover", default: false)
+    static let expandNotchOnHover = Key<Bool>("expandNotchOnHover", default: true)
     static let hoverDuration = Key<Double>("hoverDuration", default: 0)
 
     // MARK: Gestures

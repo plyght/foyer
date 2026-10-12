@@ -47,11 +47,20 @@ enum DemoDriver {
         // Idle.
         await step("closed")
 
-        // Hover bump (140→152, +5 tall).
+        // Hover bump (140→152, +5 tall) with Expand on hover off…
+        let expandOnHover = Defaults[.expandNotchOnHover]
+        Defaults[.expandNotchOnHover] = false
         hover(model, true)
         await step("hover", settle: 0.6)
         hover(model, false)
         await wait(0.6)
+        // …and hover-to-expand (the default) with it on.
+        Defaults[.expandNotchOnHover] = true
+        hover(model, true)
+        await step("hover-expand", settle: 0.7)
+        hover(model, false)
+        await wait(1.0)
+        Defaults[.expandNotchOnHover] = false
 
         // HUDs.
         VolumeManager.shared.setVolume(0.35)
@@ -144,6 +153,8 @@ enum DemoDriver {
         await wait(0.5)
 
         DemoMedia.stop()
+
+        Defaults[.expandNotchOnHover] = expandOnHover
 
         // Simulated notch off → floating pill.
         Defaults[.forceSimulatedNotch] = false
