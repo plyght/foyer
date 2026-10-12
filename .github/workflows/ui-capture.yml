@@ -1,0 +1,69 @@
+name: UI Capture
+
+# Test build: runs Foyer's scripted demo on a macOS runner and uploads
+# screenshots, a screen recording, notch crops, a GIF and logs.
+# Separate from the release build in build.yml.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["alcove_teardown/**", "**.md"]
+  workflow_dispatch:
+
+concurrency:
+  group: ui-capture-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  capture:
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Install tools
+        run: brew install xcodegen ffmpeg
+
+      - name: Build (Debug)
+        run: |
+          set -o pipefail
+          xcodegen generate
+          xcodebuild -project Foyer.xcodeproj -scheme Foyer -configuration Debug \
+            -destination 'generic/platform=macOS' -derivedDataPath build \
+            CODE_SIGN_IDENTITY=- CODE_SIGNING_REQUIRED=NO build 2>&1 | tee build.log | tail -n 30 || \
+          (grep -E "error:" build.log | sort -u | head -200; exit 1)
+          codesign --force --deep --sign - build/Build/Products/Debug/Foyer.app
+
+      - name: Grant permissions (best effort)
+        run: |
+          # Hosted runners allow editing the TCC databases; grant screen
+          # capture to the capture tools and accessibility/automation to Foyer.
+          APP_ID=app.foyer.Foyer
+          now=$(date +%s)
+          for db in "$HOME/Library/Application Support/com.apple.TCC/TCC.db" "/Library/Application Support/com.apple.TCC/TCC.db"; do
+            for client in /usr/sbin/screencapture /opt/homebrew/bin/ffmpeg /bin/bash /usr/libexec/sshd-keygen-wrapper "$APP_ID"; do
+              type=1; case "$client" in /*) type=1 ;; *) type=0 ;; esac
+              for service in kTCCServiceScreenCapture kTCCServiceAccessibility kTCCServiceAppleEvents kTCCServicePostEvent; do
+                sudo sqlite3 "$db" "INSERT OR REPLACE INTO access (service, client, client_type, auth_value, auth_reason, auth_version, indirect_object_identifier, flags, last_modified) VALUES ('$service','$client',$type,2,4,1,'UNUSED',0,$now);" 2>/dev/null || true
+              done
+            done
+          done
+          echo "TCC grants attempted"
+
+      - name: Capture
+        run: scripts/ci/capture.sh build/Build/Products/Debug/Foyer.app capture
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: foyer-ui-capture
+          path: |
+            capture/
+            !capture/tone.m4a
+          if-no-files-found: warn

@@ -28,6 +28,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         CalendarModule.start()
         LockScreenModule.start()
         AppShellModule.start()
+
+        DemoDriver.startIfRequested()
     }
 
     func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
