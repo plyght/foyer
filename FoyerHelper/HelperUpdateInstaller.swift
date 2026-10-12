@@ -144,7 +144,7 @@ enum HelperUpdateInstaller {
             for pointer in envp { free(pointer) }
         }
 
-        var attributes: posix_spawnattr_t = nil
+        var attributes: posix_spawnattr_t? = nil
         posix_spawnattr_init(&attributes)
         defer { posix_spawnattr_destroy(&attributes) }
         // POSIX_SPAWN_SETSID: start a new session so launchd's teardown of the

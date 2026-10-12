@@ -27,6 +27,9 @@ jobs:
         with:
           xcode-version: latest-stable
 
+      - name: Report all compile errors per run
+        run: defaults write com.apple.dt.Xcode IDEBuildingContinueBuildingAfterErrors -bool YES
+
       - name: Install XcodeGen
         run: brew install xcodegen xcbeautify || brew install xcodegen
 
@@ -48,7 +51,7 @@ jobs:
             CODE_SIGN_IDENTITY=- \
             CODE_SIGNING_REQUIRED=NO \
             build 2>&1 | tee build.log | xcbeautify --renderer github-actions || \
-          (grep -E "error:|warning: .*will be an error" build.log | sort -u | head -200; exit 1)
+          (grep -E "error:|warning: .*will be an error" build.log | sort -u | head -400; exit 1)
 
       - name: Package
         run: |

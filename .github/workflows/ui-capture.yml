@@ -27,6 +27,9 @@ jobs:
         with:
           xcode-version: latest-stable
 
+      - name: Report all compile errors per run
+        run: defaults write com.apple.dt.Xcode IDEBuildingContinueBuildingAfterErrors -bool YES
+
       - name: Install tools
         run: brew install xcodegen ffmpeg
 
